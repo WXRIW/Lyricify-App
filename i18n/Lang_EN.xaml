@@ -1,6 +1,6 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    x:Class="Spotify_Lyrics__WPF_.Language_Dictionary.Lang_EN"
+                    x:Class="Lyricify_WPF.Language_Dictionary.Lang_EN"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <system:String x:Key="WindowTitle">Lyricify by WXRIW</system:String>
     <system:String x:Key="AppName">Lyricify</system:String>
@@ -47,33 +47,44 @@
     <system:String x:Key="Menu_DL_Song">Current Song</system:String>
     <system:String x:Key="Menu_DL_Spotify">Spotify Installer</system:String>
     <system:String x:Key="Menu_Settings_Main">Settings</system:String>
-    <system:String x:Key="Menu_Set_RestoreAtStart">Save settings and window appearance</system:String>
+    <system:String x:Key="Menu_Set_RestoreAtStart">Save Settings And Window Appearance</system:String>
+    <system:String x:Key="Menu_Set_Manual_Advanced">Manual (Advanced)</system:String>
     <system:String x:Key="Menu_Language_Main">Language</system:String>
     <system:String x:Key="Menu_About">About</system:String>
     <system:String x:Key="Menu_WXRIW_Web">Go to website</system:String>
     <system:String x:Key="Menu_Donate">Donate</system:String>
-    <system:String x:Key="Menu_Lyrics_ShowChineseTranslation">Show Chinese translation (Beta)</system:String>
-    <system:String x:Key="Menu_Lyrics_ShowChineseTranslation_BlankLine">Add a blank line between two groups of lyrics</system:String>
+    <system:String x:Key="Menu_Lyrics_ShowChineseTranslation">Show Chinese Translation (Beta)</system:String>
+    <system:String x:Key="Menu_Lyrics_ShowChineseTranslation_BlankLine">Add A Blank Line Between Two Groups of Lyrics</system:String>
     <system:String x:Key="Menu_Lyrics_ManualSearch">Search Lyrics</system:String>
     <system:String x:Key="Menu_BackgroundCover">Disable Dynamic Background</system:String>
     <system:String x:Key="Menu_Lyrics_AllowExplicit">Allow Explicit Contents</system:String>
 
-    <system:String x:Key="UploadMenu_Currect">Mark as currect</system:String>
-    <system:String x:Key="UploadMenu_Instrumental">Mark as instrumental</system:String>
-    <system:String x:Key="UploadMenu_Delete">Delete last marking</system:String>
+    <system:String x:Key="UploadMenu_Currect">Mark as Currect</system:String>
+    <system:String x:Key="UploadMenu_Instrumental">Mark as Instrumental</system:String>
+    <system:String x:Key="UploadMenu_Delete">Delete Last Marking</system:String>
     
     <!--Menu - Account-->
     <system:String x:Key="Menu_Account">Account</system:String>
     <system:String x:Key="Menu_LoginAs">Login in as:</system:String>
     <system:String x:Key="Menu_LogOut">Log out</system:String>
     <system:String x:Key="Menu_LogIn">Log in</system:String>
-    <system:String x:Key="Menu_SyncFrequency">Sync frequency</system:String>
+    <system:String x:Key="Menu_SyncFrequency">Sync Frequency</system:String>
     <system:String x:Key="Text_SyncFrequency_Notice">Please input a whole number (second). (1-10, default value is 2)</system:String>
     <system:String x:Key="Text_SyncFrequency_WrongInput">Wrong input.</system:String>
-    <system:String x:Key="Menu_SetGlobalTimeDiff">Set global time difference</system:String>
+    <system:String x:Key="Menu_SetGlobalTimeDiff">Set Global Time Difference</system:String>
     <system:String x:Key="Text_SetGlobalTimeDiff_Notice" xml:space="preserve">Please input a decimal or a whole number (second). (-5 to 5, default value is 0)&#x0a;Current setting is: </system:String>
     <system:String x:Key="Text_SetGlobalTimeDiff_WrongInput">Wrong input.</system:String>
     <system:String x:Key="Menu_RefreshAccessToken">Refresh access-token</system:String>
+    <system:String x:Key="Text_Millisecond">ms</system:String>
+    <system:String x:Key="Text_Second">s</system:String>
+    <system:String x:Key="Button_Save">Save</system:String>
+    <system:String x:Key="Button_Cancel">Cancel</system:String>
+    <system:String x:Key="Button_Apply">Apply</system:String>
+    <system:String x:Key="CheckBox_EnableWebPlayerOptimization">Enable Web Player Optimization</system:String>
+    <system:String x:Key="Text_GlobalTimeDifference">Global Time Difference</system:String>
+    <system:String x:Key="Text_Grid_WebPlayerOptimizationCover_1">Unable to make changes when</system:String>
+    <system:String x:Key="Text_Grid_WebPlayerOptimizationCover_2">Web Player Optimization</system:String>
+    <system:String x:Key="Text_Grid_WebPlayerOptimizationCover_3">is enabled!</system:String>
     
     <!--Audio Features-->
     <system:String x:Key="AudioFeatures_Album">Album</system:String>
@@ -132,6 +143,8 @@
     <system:String x:Key="ToolTip_Upload">Mark the current lyric</system:String>
     <system:String x:Key="ToolTip_labelCurrentLine">Current Line</system:String>
     <system:String x:Key="ToolTip_AudioFeatures">Audio Features</system:String>
+    <system:String x:Key="ToolTip_AdjustTime">Adjust global time difference</system:String>
+    <system:String x:Key="ToolTip_RefreshArtwork">Refresh artwork (after reload)</system:String>
 
     <!--About-->
     <system:String x:Key="About_Title">About Lyricify</system:String>
@@ -174,6 +187,10 @@
     <system:String x:Key="Text_LoginGuide_2">If you have completed the login, copy the full url here</system:String>
     <system:String x:Key="Btn_Continue">Continue</system:String>
     <system:String x:Key="Btn_ReopenWebPage">Reopen the webpage</system:String>
+
+    <system:String x:Key="Btn_SwitchMode">Use Local Web Browser to Login</system:String>
+    <system:String x:Key="Text_Loading">Loading...</system:String>
+    <system:String x:Key="Text_Loading_Tip">This might take a while.</system:String>
 
     <system:String x:Key="Text_Logining">Logining to Spotify...</system:String>
     <system:String x:Key="Text_Login_PleaseWait">This won't take long.</system:String>
