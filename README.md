@@ -13,3 +13,30 @@ https://github.com/WXRIW/Lyricify-App/issues/4
 
 Telegram Group / Telegram 群:  
 https://t.me/lyricify
+
+## Lyricify 启动参数
+### 获取
+```
+Usage:  
+  Lyricify.exe -g getfrom  
+  getfrom:  
+    0: Spotify (No Login)  
+    1: QQ Music  
+    2: Netease Cloud Music  
+    3: Music Center  
+    4: iTunes  
+Example:  
+  Lyricify.exe -g 0
+```
+
+### 字体
+```
+Usage:  
+  Lyricify.exe -font font  
+  font:  
+    sf: San Francisco  
+    segoe: Segoe UI
+  There are more for you to discover!  
+Example:  
+  Lyricify.exe -font sf
+```
