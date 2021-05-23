@@ -14,8 +14,8 @@ https://github.com/WXRIW/Lyricify-App/issues/4
 Telegram Group / Telegram 群:  
 https://t.me/lyricify
 
-## Lyricify 启动参数
-### 获取
+## Lyricify Startup Arguments / Lyricify 启动参数
+### Get From / 获取
 ```
 Usage:  
   Lyricify.exe -g getfrom  
@@ -29,7 +29,7 @@ Example:
   Lyricify.exe -g 0
 ```
 
-### 字体
+### Font / 字体
 ```
 Usage:  
   Lyricify.exe -font font  
