@@ -22,7 +22,7 @@ Usage:
   getfrom:  
     0: Spotify (No Login)  
     1: QQ Music  
-    2: Netease Cloud Music  
+    2: Netease Cloud Music (or YesPlayMusic)  
     3: Music Center  
     4: iTunes  
 Example:  
