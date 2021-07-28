@@ -14,6 +14,9 @@ https://github.com/WXRIW/Lyricify-App/issues/4
 **Telegram Group / Telegram 群:**  
 https://t.me/lyricify
 
+**Telegram Channel / Telegram 频道:**
+https://t.me/lyricifyreleases
+
 **Go to [Lyricify Wiki](https://github.com/WXRIW/Lyricify-App/wiki), learn more about Lyricify.**  
 **更多相关使用说明，详见 [Lyricify Wiki](https://github.com/WXRIW/Lyricify-App/wiki) ！**   
 
