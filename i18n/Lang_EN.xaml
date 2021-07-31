@@ -1,11 +1,11 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     x:Class="Lyricify_WPF.Language_Dictionary.Lang_EN"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <system:String x:Key="WindowTitle">Lyricify by WXRIW</system:String>
     <system:String x:Key="AppName">Lyricify</system:String>
     <system:String x:Key="Label_LyricsFromQQ">Lyrics provided by QQ Music</system:String>
-    <system:String x:Key="Label_LyricsFromNetease">Lyrics provided by Netease Music</system:String>
+    <system:String x:Key="Label_LyricsFromNetease">Lyrics provided by Netease Cloud Music</system:String>
     <system:String x:Key="Button_QQ_Prev">PREV</system:String>
     <system:String x:Key="Button_QQ_NEXT">NEXT</system:String>
     
@@ -34,6 +34,7 @@
     <system:String x:Key="Menu_Lyrics_GetFromQQ">Get Lyrics by Songmid (QQ Music)</system:String>
     <system:String x:Key="Menu_Lyrics_GetFromNetease">Get Lyrics by Id (Netease Music)</system:String>
     <system:String x:Key="Menu_Lyrics_Reload">Reload</system:String>
+    <system:String x:Key="Menu_Lyrics_Report">Wrong Lyrics Report</system:String>
     <system:String x:Key="Menu_Source_Main">Source</system:String>
     <system:String x:Key="Menu_Source_AlwaysQQ">Always from QQ Music</system:String>
     <system:String x:Key="Menu_GetFrom_Main">Get From</system:String>
@@ -49,15 +50,22 @@
     <system:String x:Key="Menu_Settings_Main">Settings</system:String>
     <system:String x:Key="Menu_Set_RestoreAtStart">Save Settings And Window Appearance</system:String>
     <system:String x:Key="Menu_Set_Manual_Advanced">Manual (Advanced)</system:String>
+    <system:String x:Key="Menu_Set_ResetSettings">Reset All Settings</system:String>
     <system:String x:Key="Menu_Language_Main">Language</system:String>
     <system:String x:Key="Menu_About">About</system:String>
-    <system:String x:Key="Menu_WXRIW_Web">Go to website</system:String>
+    <system:String x:Key="Menu_AboutLyricify">About Lyricify</system:String>
+    <system:String x:Key="Menu_Follow_Spotify">Follow Me on Spotify</system:String>
+    <system:String x:Key="Menu_Follow_Netease">Follow Me on Netease Cloud Music</system:String>
+    <system:String x:Key="Menu_Follow_Bilibili">Follow Me on Bilibili</system:String>
+    <system:String x:Key="Menu_Join_TelegramGroup">Join Telegram Group</system:String>
+    <system:String x:Key="Menu_WXRIW_Web">Go to Website</system:String>
     <system:String x:Key="Menu_Donate">Donate</system:String>
     <system:String x:Key="Menu_Lyrics_ShowChineseTranslation">Show Chinese Translation (Beta)</system:String>
     <system:String x:Key="Menu_Lyrics_ShowChineseTranslation_BlankLine">Add A Blank Line Between Two Groups of Lyrics</system:String>
     <system:String x:Key="Menu_Lyrics_ManualSearch">Search Lyrics</system:String>
     <system:String x:Key="Menu_BackgroundCover">Disable Dynamic Background</system:String>
     <system:String x:Key="Menu_Lyrics_AllowExplicit">Allow Explicit Contents</system:String>
+    <system:String x:Key="Menu_Lyrics_ShowTitleLines">Show Title and Credits Lines</system:String>
 
     <system:String x:Key="UploadMenu_Currect">Mark as Currect</system:String>
     <system:String x:Key="UploadMenu_Instrumental">Mark as Instrumental</system:String>
@@ -86,6 +94,58 @@
     <system:String x:Key="Text_Grid_WebPlayerOptimizationCover_2">Web Player Optimization</system:String>
     <system:String x:Key="Text_Grid_WebPlayerOptimizationCover_3">is enabled!</system:String>
     
+    <!--Follow Feed-->
+    <system:String x:Key="Text_FollowFeed">Follow Feed</system:String>
+    <system:String x:Key="Text_FollowFeed_SubTitle">New releases from artists you follow and more.</system:String>
+    <system:String x:Key="Text_FollowFeed_CheckingNotice1">We are checking out, please wait for a few seconds...</system:String>
+    <system:String x:Key="Text_FollowFeed_CheckingNotice2">This depends on the number of artists you follow.</system:String>
+    <system:String x:Key="Text_FollowFeed_ReloginRequest">Please relogin to enable this feature!</system:String>
+    <system:String x:Key="Text_FollowFeed_SearchNotice">Search in Follow Feed</system:String>
+    <system:String x:Key="Text_FollowFeed_Album">Album</system:String>
+    <system:String x:Key="Text_FollowFeed_EP">EP</system:String>
+    <system:String x:Key="Text_FollowFeed_Single">Single</system:String>
+    <system:String x:Key="Text_FollowFeed_AndMore"> and {0} more</system:String>
+    <system:String x:Key="Text_FollowFeed_NumberSongs">{0} SONGS</system:String>
+    <system:String x:Key="Text_FollowFeed_DayAgo">{0} DAY AGO</system:String>
+    <system:String x:Key="Text_FollowFeed_DaysAgo">{0} DAYS AGO</system:String>
+    <system:String x:Key="Text_FollowFeed_HrAgo">{0} HR AGO</system:String>
+    <system:String x:Key="Text_FollowFeed_HrsAgo">{0} HRS AGO</system:String>
+    <system:String x:Key="Text_FollowFeed_MinAgo">{0} MIN AGO</system:String>
+    <system:String x:Key="Text_FollowFeed_MinsAgo">{0} MINS AGO</system:String>
+    <system:String x:Key="Text_FollowFeed_SecAgo">{0} SEC AGO</system:String>
+    <system:String x:Key="Text_FollowFeed_SecsAgo">{0} SECS AGO</system:String>
+    <system:String x:Key="Text_FollowFeed_YearTime">MMMM d, yyyy</system:String>
+    <system:String x:Key="Text_FollowFeed_MonthTime">MMMM d</system:String>
+    <system:String x:Key="Text_FollowFeed_YearOnlyTime">{0}</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_Title">Settings</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_CloseToApplyNotice">Changes will be applied after reopen Follow Feed.</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan">Time Span</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_Notice">Choose your time span</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_Choice1Week">1 Week</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_Choice1Month">1 Month</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_Choice3Month">3 Months</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_Choice6Month">6 Months (Default)</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_Choice1Year">1 Year</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_Choice2Year">2 Years</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_Choice5Year">5 Years</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_ChoiceAll">Since the Big Bang</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_AutoCheck">Automatic Check</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_AutoCheckNotice">Enable Automatic Check - When we detected new songs, the Follow Feed icon will appear on main window.</system:String>
+    
+    <!--Listening Analysis-->
+    <system:String x:Key="Text_ListeningAnalysis">Listening Analysis</system:String>
+    <system:String x:Key="TabItem_ListeningAnalysis_1Month">1 Month</system:String>
+    <system:String x:Key="TabItem_ListeningAnalysis_6Month">6 Months</system:String>
+    <system:String x:Key="TabItem_ListeningAnalysis_AllTimes">All Times</system:String>
+    <system:String x:Key="Text_ListeningAnalysis_Settings_CloseToApplyNotice">Changes will be applied after reopen Listening Analysis or Lyricify.</system:String>
+    <system:String x:Key="Text_ListeningAnalysis_Settings_Backup">Backup</system:String>
+    <system:String x:Key="Text_ListeningAnalysis_Settings_BackupTop">Save your Listening Analysis data to your PC</system:String>
+    <system:String x:Key="Text_ListeningAnalysis_Settings_BackupSavedTracks">Backup your Liked Songs to your PC</system:String>
+    <system:String x:Key="Text_Settings_BackupAtStartup">Automatically backup your Liked Songs when you open Lyricify</system:String>
+    <system:String x:Key="Button_ListeningAnalysis_Settings_OpenBackupFolder">Open Backup Folder</system:String>
+    <system:String x:Key="Text_ListeningAnalysis_YourTopArtists">Your top artists</system:String>
+    <system:String x:Key="Text_ListeningAnalysis_YourTopTracks">Your top tracks</system:String>
+
     <!--Audio Features-->
     <system:String x:Key="AudioFeatures_Album">Album</system:String>
     <system:String x:Key="AudioFeatures_Release_date">Release date</system:String>
@@ -152,6 +212,7 @@
     <system:String x:Key="About_Provider_Title">Lyrics provided by</system:String>
     <system:String x:Key="About_Provider_Content">WXRIW, QQ Music, Netease Cloud Music</system:String>
     <system:String x:Key="About_Close">C L O S E</system:String>
+    <system:String x:Key="About_FollowMe">Follow Me</system:String>
     
     <!--Save Lyrics-->
     <system:String x:Key="SaveLyrics_WindowTitle">Save Lyrics</system:String>
@@ -171,6 +232,7 @@
     <system:String x:Key="SaveLyrics_Btn_Save">Save</system:String>
     <system:String x:Key="SaveLyrics_Btn_EnableEditing">Enable Editing</system:String>
     <system:String x:Key="SaveLyrics_Btn_DisableEditing">Disable Editing</system:String>
+    <system:String x:Key="SaveLyrics_Btn_LrcBannedNotice">These lyrics cannot be saved, try something else.</system:String>
     
     <!--WelcomeWindow-->
     <system:String x:Key="Text_WelcomeToLyricify">Welcome to Lyricify!</system:String>
@@ -178,9 +240,10 @@
     <system:String x:Key="Text_Welcome2">Lyricify is able to provide a fantastic experience for Spotify users and functions might be limited without login.</system:String>
     <system:String x:Key="Text_ChooseLanguage">Choose the language you want to use for this app</system:String>
     <system:String x:Key="Text_Welcome3">By clicking the "Continue" button, you agree with the agreement of Lyricify.</system:String>
-    <system:String x:Key="Btn_Login">Continue to login</system:String>
-    <system:String x:Key="Btn_NotLogin">Continue without login</system:String>
+    <system:String x:Key="Btn_Login">Continue to Login</system:String>
+    <system:String x:Key="Btn_NotLogin">Continue Without Login</system:String>
     <system:String x:Key="CheckBox_DontShowAgain">Don't show this page again</system:String>
+    <system:String x:Key="ToolTip_ButtonReopenLink">Right click to copy Login Url!</system:String>
 
     <system:String x:Key="Text_ContinueOnBrowser">Please continue on your web browser.</system:String>
     <system:String x:Key="Text_LoginGuide_1">Follow the instructions on the webpage, then come back here to fill the textbox.</system:String>
@@ -194,6 +257,20 @@
 
     <system:String x:Key="Text_Logining">Logining to Spotify...</system:String>
     <system:String x:Key="Text_Login_PleaseWait">This won't take long.</system:String>
+    
+    <!--Wrong Lyrics Feedback-->
+    <system:String x:Key="Label_Song">Song</system:String>
+    <system:String x:Key="Label_Artist">Artist</system:String>
+    <system:String x:Key="Label_TrackNumber">Track Number</system:String>
+    <system:String x:Key="Label_AlbumID">Album ID</system:String>
+    <system:String x:Key="Label_Details">Details</system:String>
+    <system:String x:Key="Text_DetailsExample">Example: This song is not instrumental.</system:String>
+    <system:String x:Key="Btn_FeedbackGitHub">Feedback on GitHub</system:String>
+    <system:String x:Key="Btn_FeedbackTelegram">Feedback on Telegram</system:String>
+    <system:String x:Key="Text_FeedbackGitHub_MessageBox">Feedback copied to the clipboard, you can paste them on GitHub!</system:String>
+    <system:String x:Key="Text_FeedbackTelegram_MessageBox">Feedback copied to the clipboard, you can paste them on Telegram!</system:String>
+    <system:String x:Key="Text_FeedbackError_MessageBox">Something's wrong, please try again later.</system:String>
+    <system:String x:Key="Text_FeedbackError_NotOnServerNotice">Current lyrics isn't stored in Lyricify's server, you can upload or find the correct lyrics by yourself.</system:String>
     
     <!--API-->
     <system:String x:Key="Text_FailedToLogin">You have failed to log in. Try again later.</system:String>
