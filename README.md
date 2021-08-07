@@ -20,6 +20,10 @@ https://t.me/lyricifyreleases
 **Go to [Lyricify Wiki](https://github.com/WXRIW/Lyricify-App/wiki), learn more about Lyricify.**  
 **更多相关使用说明，详见 [Lyricify Wiki](https://github.com/WXRIW/Lyricify-App/wiki) ！**   
 
+![image](https://wxriw.cn:4443/lyricify/pic/github/readme/001.png)
+![image](https://wxriw.cn:4443/lyricify/pic/github/readme/002.png)
+![image](https://wxriw.cn:4443/lyricify/pic/github/readme/003.png)
+
 ## Lyricify Startup Arguments / Lyricify 启动参数
 ### Get From / 获取
 ```
