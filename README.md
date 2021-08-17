@@ -20,6 +20,9 @@ https://t.me/lyricifyreleases
 **Go to [Lyricify Wiki](https://github.com/WXRIW/Lyricify-App/wiki), learn more about Lyricify.**  
 **更多相关使用说明，详见 [Lyricify Wiki](https://github.com/WXRIW/Lyricify-App/wiki) ！**   
 
+**"Android Lyricify" Lyricist / “安卓版 Lyricify” Lyricist:**  
+https://github.com/Lyricify/Lyricist-App   
+
 ![image](https://wxriw.cn:4443/lyricify/pic/github/readme/01.png)
 ![image](https://wxriw.cn:4443/lyricify/pic/github/readme/02.png)
 ![image](https://wxriw.cn:4443/lyricify/pic/github/readme/03.png)
