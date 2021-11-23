@@ -17,6 +17,9 @@ https://t.me/lyricify
 **Telegram Channel / Telegram 频道:**  
 https://t.me/lyricifyreleases
 
+**QQ Group / QQ 群:**  
+[点击链接加入群聊【Lyricify 用户群】（群号：972282479）](https://jq.qq.com/?_wv=1027&k=hZG8VRV4)
+
 **Go to [Lyricify Wiki](https://github.com/WXRIW/Lyricify-App/wiki), learn more about Lyricify.**  
 **更多相关使用说明，详见 [Lyricify Wiki](https://github.com/WXRIW/Lyricify-App/wiki) ！**   
 
