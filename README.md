@@ -5,6 +5,9 @@ A fantastic app to provide auto-scrolling lyrics for [Spotify](https://www.spoti
 Welcome to share feedbacks and suggestions. You can make contributions by translating Lyricify into more languages, xaml files are in https://github.com/WXRIW/Lyricify-App/tree/main/i18n .  
 欢迎反馈 bug 和建议！你可以通过把 Lyricify 翻译成更多语言来做贡献。
 
+### Coming 2022
+![image](images/readme/05.png)
+
 **Reserved Download Link / 备用下载地址:**  
 https://wxriw.lanzoux.com/b015qcwob
 
@@ -29,9 +32,6 @@ https://github.com/Lyricify/Lyricist-App
 ![image](images/readme/01.png)
 ![image](images/readme/02.png)
 ![image](images/readme/03.png)
-
-### Coming Soon
-![image](images/readme/04.png)
 
 ## Lyricify Startup Arguments / Lyricify 启动参数
 ### Get From / 获取
