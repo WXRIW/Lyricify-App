@@ -26,9 +26,12 @@ https://t.me/lyricifyreleases
 **"Android Lyricify" Lyricist / “安卓版 Lyricify” Lyricist:**  
 https://github.com/Lyricify/Lyricist-App   
 
-![image](https://wxriw.cn:4443/lyricify/pic/github/readme/01.png)
-![image](https://wxriw.cn:4443/lyricify/pic/github/readme/02.png)
-![image](https://wxriw.cn:4443/lyricify/pic/github/readme/03.png)
+![image](images/readme/01.png)
+![image](images/readme/02.png)
+![image](images/readme/03.png)
+
+### Coming Soon
+![image](images/readme/04.png)
 
 ## Lyricify Startup Arguments / Lyricify 启动参数
 ### Get From / 获取
