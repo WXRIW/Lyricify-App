@@ -6,7 +6,7 @@ Welcome to share feedbacks and suggestions. You can make contributions by transl
 欢迎反馈 bug 和建议！你可以通过把 Lyricify 翻译成更多语言来做贡献。
 
 ### Coming 2022
-新的一年，新的 Lyricify！  
+新的一年，新的期盼，新的 Lyricify！  
 
 ![image](images/readme/05.png)
 
