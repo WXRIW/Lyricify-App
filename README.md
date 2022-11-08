@@ -12,7 +12,7 @@ https://t.me/lyricify
 [点击链接加入群聊【Lyricify 用户群】（群号：972282479）](https://jq.qq.com/?_wv=1027&k=hZG8VRV4)
 
 ## 全新版本，将要到来！
-![image](https://user-images.githubusercontent.com/62491584/196387143-961e3476-4a34-45c1-b43b-d14360756a33.png)
+![image](https://user-images.githubusercontent.com/62491584/200487205-1c2d574e-5f61-4d06-a735-23f8dd111889.png)
 ![image](https://user-images.githubusercontent.com/62491584/196387268-1954cc75-c1ee-47c6-97a4-5f6d779b71b1.png)
 ![image](https://user-images.githubusercontent.com/62491584/196387243-5ee23401-b921-4bbb-8319-11e0800eb856.png)
 
