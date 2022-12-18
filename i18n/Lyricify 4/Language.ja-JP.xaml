@@ -139,6 +139,7 @@
     <system:String x:Key="String.Page.Search.Availability.SearchBar.NetworkIssue.Message">ネットワークの問題です。インターネット接続を確認してください</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">アルバムが見つかりません。入力した ID を確認してください</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">入力が間違っているか、サポートされていない入力です。トラック リンクとアルバム リンクのみがサポートされています。ここに2つの例があります</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Market">市場</system:String>
     <system:String x:Key="String.Page.Search.Availability.MoreVersions">その他のバージョン</system:String>
     <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.ToolTip.GoToAlbum">アルバムに移動</system:String>
     <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Available">利用可能</system:String>
@@ -249,6 +250,7 @@
 
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">情報</system:String>
+    <system:String x:Key="String.Page.About.NonPublicWarning">これは公開リリースではない。拡散しないでください。</system:String>
     <system:String x:Key="String.Page.About.MadeWithHeart">WXRIW が ❤️ を込めて作った</system:String>
     <system:String x:Key="String.Page.About.Copyright">著作権 © 2022 WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">歌詞提供者</system:String>
@@ -257,10 +259,12 @@
     <system:String x:Key="String.Page.About.Thanklist">感謝リスト</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">Spotify Premium アカウントを提供してくれた Difer に感謝します</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksInsiders">インサイダーに感謝します</system:String>
+    <system:String x:Key="String.Page.About.Internationalization">国際化</system:String>
     <system:String x:Key="String.Page.About.References">ツールブッククラス</system:String>
     <system:String x:Key="String.Page.About.References.MITLicense.Brackets">(MIT ライセンス)</system:String>
     <system:String x:Key="String.Page.About.References.WTFPLLicense.Brackets">(WTFPL ライセンス)</system:String>
     <system:String x:Key="String.Page.About.References.Apache2.Brackets">(Apache ライセンス 2.0)</system:String>
+    <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(LGPL License 2.1)</system:String>
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(ライセンスなし)</system:String>
 
     <!--Page Settings-->
@@ -311,6 +315,12 @@
     <system:String x:Key="String.Page.Settings.Lyrics">歌詞</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation">中国語翻訳</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation.Description">利用可能な場合、中国語翻訳が表示される</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji">ローマ字</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.Description">このオプションをオフにすると、ローマ字を見える</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.Disable">無効にする</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.TranslationFirst">翻訳優先</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiFirst">ローマ字優先</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiOnly">ローマ字しか見えてこない</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese">中国語（簡体字）を表示</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese.Description">このオプションをオフにすると、中国語の文字が繁体字中国語に変換される</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">無礼な歌詞を表示</system:String>
@@ -326,14 +336,21 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">文字を太くする</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">Apple Music の歌詞で太い文字のテキストを使用する</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">ぼかしレベル</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">ぼかしレベルの設定 (デフォルトレベルは 5)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">ぼかしレベルの設定 (水平モードの iPadOS のデフォルトレベルは 3 だ、垂直モードの iPadOS または iOS では 5 だ)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">レベル</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode">カラオケ モード</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Description">Apple Music スタイルでカラオケ スタイルの歌詞を使用できるようになりました</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation">追加のアニメーションを有効にする</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Description">より良いアニメーション、より良い体験</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">フローティングアニメーション</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">デュエット ビュー</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">歌手が複数いる場合は画面の両側に表示されるので、デュエット曲や多人数コーラス曲を歌いやすくなります</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling">引っ張り効果</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.Description">引っ張り効果の設定</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Disabled">無効</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Low">低い</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Regular">通常 (デフォルト)</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Medium">中</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Regular">通常</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Medium">中 (デフォルト)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.High">高い</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Tremendous">とても高い</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial">Magic Strip のチュートリアルを表示する</system:String>
@@ -352,10 +369,16 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">翻訳が利用できない場合でも常に 2 行の歌詞を表示する</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText">文字を太くする</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText.Description">Dynamic Lyrics Island で太く文字のテキストを使用する</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode">カラオケ モード</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode.Description">輝く歌詞を見たことがありますか</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">不透明度</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">デスクトップ歌詞</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">二重線スタイル</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">これをオフにすると歌詞が 1 行だけ表示される</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation">歌詞切り替えアニメーション</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation.Description">別の歌詞行に切り替えるとき、アニメーションを再生する</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode">カラオケ モード</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode.Description">歌詞表示のカラオケ スタイルを取得</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide">自動隠れる</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">これをオンにすると、一時停止時にデスクトップ歌詞を隠す</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">不透明度</system:String>
@@ -379,6 +402,12 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Border">ボーダー</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Fill">翻訳の行 (塗りつぶし)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Border">翻訳の行 (ボーダー)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle">カラオケ スタイル</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Description">これはデュオラインとシングルラインの両方に適用される</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Fill">プレイした (塗りつぶし)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Border">プレイした (ボーダー)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Fill">プレイしなかった (塗りつぶし)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Border">プレイしなかった (ボーダー)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.ArtworkMainColor">画像のメインカラー</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Black">黒</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.White">白</system:String>
@@ -671,6 +700,20 @@
     <system:String x:Key="String.Helpers.Time.Ago.Minutes">{0} 分前</system:String>
     <system:String x:Key="String.Helpers.Time.Ago.Second">{0} 秒前</system:String>
     <system:String x:Key="String.Helpers.Time.Ago.Seconds">{0} 秒前</system:String>
+
+    <!--Lyrics-->
+    <system:String x:Key="String.Lyrics.Provider">歌詞プロバイダー</system:String>
+    <system:String x:Key="String.Lyrics.Provider.ProvidedBy">歌詞は {0} によって提供される</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">WXRIW</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.QQ">QQ Music</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.Netease">Netease Cloud Music</system:String>
+    <system:String x:Key="String.Lyrics.Provider.ProvidedBy.ToolTip">詳細についてはクリックしてください</system:String>
+
+    <system:String x:Key="String.Lyrics.Info.NoLyrics0">うん…この歌詞をわからない</system:String>
+    <system:String x:Key="String.Lyrics.Info.NoLyrics1">この曲の歌詞はないようです</system:String>
+    <system:String x:Key="String.Lyrics.Info.NoLyrics2">私たちはまだこの歌詞を得るために取り組んでいます。</system:String>
+    <system:String x:Key="String.Lyrics.Info.NoLyrics3">この歌詞を推測する必要があります。</system:String>
+    <system:String x:Key="String.Lyrics.Info.Error">この曲の歌詞を読み込めませんでした。後でもう一度試してみてください。</system:String>
 
     <!--Converter-->
     <system:String x:Key="String.Converter.ValueString">{0}% 完了</system:String>
