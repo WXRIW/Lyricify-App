@@ -68,7 +68,7 @@
     <!--Other Pages-->
     <system:String x:Key="String.Page.List.Title.Title">タイトル</system:String>
     <system:String x:Key="String.Page.List.Title.Album">アルバム</system:String>
-    <system:String x:Key="String.Page.List.Title.DateAdded">追加時の日付</system:String>
+    <system:String x:Key="String.Page.List.Title.DateAdded">追加日</system:String>
     <system:String x:Key="String.Page.List.Title.DateReleased">発行日</system:String>
 
     <system:String x:Key="String.Page.Info.Song">{0} 曲</system:String>
