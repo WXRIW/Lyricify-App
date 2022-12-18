@@ -17,7 +17,7 @@
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Apple">Apple</system:String>
 
     <!--Login-->
-    <system:String x:Key="String.MainWindow.Login.Welcome">Lyricify へようこそ。{0}！</system:String>
+    <system:String x:Key="String.MainWindow.Login.Welcome">Lyricify へようこそ、{0}！</system:String>
     <system:String x:Key="String.MainWindow.Login.LoggingIn">ロギングしています</system:String>
     <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">これには時間がかかるかもしれません</system:String>
     <system:String x:Key="String.MainWindow.Login.StillTrying">ロギングしています</system:String>
