@@ -253,7 +253,7 @@
     <system:String x:Key="String.Page.About.Copyright">著作権 © 2022 WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">歌詞提供者</system:String>
     <system:String x:Key="String.Page.About.LyricsProviders">WXRIW, QQ Music, Netease Cloud Music</system:String>
-    <system:String x:Key="String.Page.About.Donation">作者にお金を寄付する</system:String>
+    <system:String x:Key="String.Page.About.Donation">作者にお金を寄付します</system:String>
     <system:String x:Key="String.Page.About.Thanklist">感謝リスト</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">Spotify Premium アカウントを提供してくれた Difer に感謝します</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksInsiders">インサイダーに感謝します</system:String>
@@ -270,7 +270,7 @@
     <system:String x:Key="String.Page.Settings.General.Language.Description">Lyricify の表示言語を選択します (一部の変更を適用するには、アプリの再起動が必要があります)</system:String>
     <system:String x:Key="String.Page.Settings.General.CloseToHide">閉じるをクリックして非表示にする</system:String>
     <system:String x:Key="String.Page.Settings.General.CloseToHide.Description">閉じるボタンは Lyricify ウィンドウを最小化する</system:String>
-    <system:String x:Key="String.Page.Settings.General.RestoreWindow">復元ウィンドウ</system:String>
+    <system:String x:Key="String.Page.Settings.General.RestoreWindow">ウィンドウを復元する</system:String>
     <system:String x:Key="String.Page.Settings.General.RestoreWindow.Description">起動時に Lyricify ウィンドウの状態を復元する</system:String>
     <system:String x:Key="String.Page.Settings.Appearance">外観</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode">カラーモード</system:String>
@@ -284,7 +284,7 @@
     <system:String x:Key="String.Page.Settings.Appearance.Zoom">ズーム</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Description">Lyricify の表示ズームを変更する</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Button.Reset">リセット</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.Zoom.Help">コントロールを押したままマウスホイールで表示のズームを変更するか、「Ctrl + -」でズームイン、「Ctrl + ="」でズームアウト、「Ctrl + 0」でリセットすることもできます。</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.Zoom.Help">コントロールを押したままマウスホイールで表示のズームを変更するか、「Ctrl + -」でズームイン、「Ctrl + =」でズームアウト、「Ctrl + 0」でリセットすることもできます。</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization">歌詞スタイルのパーソナライズ</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Description">Spotify スタイルの歌詞スタイル</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode">歌詞スタイルのパーソナライゼーション (携帯モード)</system:String>
@@ -295,8 +295,8 @@
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Left">左揃え</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Right">右揃え</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.Margin">マージン</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.FontSize.Lyrics">歌詞のフォントサイズ</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.FontSize.Translation">翻訳のフォントサイズ</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.FontSize.Lyrics">フォントサイズ (歌詞)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.FontSize.Translation">フォントサイズ (翻訳)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LineSpacing">行間隔</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.PlayingLineZoomingAnimation">ラインズームアニメーションの再生</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.QuickAccess">迅速なアクセス</system:String>
@@ -304,20 +304,20 @@
     <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.ComboBox.CustomPins">カスタムピン</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.ComboBox.AllPlaylists">すべてのプレイリスト</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.FontFamily">フォントファミリー</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Current">現在のフォントファミリー:</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Current">現在のフォントファミリー :</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Current.Default">デフォルト</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Custom">カスタム</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Reset">リセット</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics">歌詞</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation">中国語翻訳</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation.Description">利用可能な場合、中国語翻訳が表示されます</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation.Description">利用可能な場合、中国語翻訳が表示される</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese">中国語（簡体字）を表示</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese.Description">このオプションをオフにすると、中国語の文字が繁体字中国語に変換されます</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese.Description">このオプションをオフにすると、中国語の文字が繁体字中国語に変換される</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">無礼な歌詞を表示</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics.Description">このオプションをオフにすると、無礼な歌詞はアスタリスクに置換されます</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics.Description">このオプションをオフにすると、無礼な歌詞はアスタリスクに置換される</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Apple Music 歌詞</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">背景</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Apple Music の歌詞で使用する背景を選択します</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Apple Music の歌詞で使用する背景を選択する</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.Static">スタティック</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.Dynamic">ダイナミック</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.DynamicBeating">ダイナミック (ぴくぴく)</system:String>
@@ -338,26 +338,26 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Tremendous">とても高い</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial">Magic Strip のチュートリアルを表示する</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Description">Apple Music の歌詞を入力した後、常に Magic Strip チュートリアルを表示する</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">Magic Strip 登場！ &#x000A;&#x000A;ストリップボタンを押すと、Apple Music スタイルを終了できます。&#x000A;下にスワイプして最小化する、&#x000A;左または右にスワイプして最大化または復元する、&#x000A;上にスワイプしてキャンセルする。&#x000A;&#x000A;マウスの右ボタンを押して上にスワイプし、歌詞の最初の行に移動することもできます、 &#x000A;下にスワイプして歌詞の最後の行に移動し、 &#x000A;左または右にスワイプして現在の行に移動し、 &#x000A;単一の右クリックは何もしません。</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">Magic Strip 登場！ &#x000A;&#x000A;ストリップボタンを押すと、Apple Music スタイルを終了できる。&#x000A;下にスワイプして最小化する、&#x000A;左または右にスワイプして最大化または復元する、&#x000A;上にスワイプしてキャンセルする。&#x000A;&#x000A;マウスの右ボタンを押して上にスワイプし、歌詞の最初の行に移動することもできる、 &#x000A;下にスワイプして歌詞の最後の行に移動し、 &#x000A;左または右にスワイプして現在の行に移動し、 &#x000A;単一の右クリックは何もしない。</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">レガシーバージョンを有効にする</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">メインメニューに Apple Music の歌詞 (レガシー) エントリを追加</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">メインメニューに Apple Music の歌詞 (レガシー) エントリを追加する</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Lyricify フルスクリーン</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics">ぼやけた歌詞</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics.Description">歌詞のぼかし効果を有効にする</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">陸地モード</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">陸地か島か、それはあなた次第です！ 異なるスタイルは異なる機能を楽しむ</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dynamic Lyrics Island は、バイランドモードではカーソルの入り口で自動的に消えますが、アイランドモードではカーソルで島を動かすことができます。 &#x000A;Dynamic Lyrics Island は、アイランド モードでは右クリック メニューで閉じることができますが、バイランド モードでは、メイン メニューまたはホットキーでしか閉じることができません。</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dynamic Lyrics Island は、バイランドモードではカーソルの入り口で自動的に消えますが、アイランドモードではカーソルで島を動かすことができる。 &#x000A;Dynamic Lyrics Island は、アイランド モードでは右クリック メニューで閉じることができますが、バイランド モードでは、メイン メニューまたはホットキーでしか閉じることができない。</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">常に 2 行を表示する</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">翻訳が利用できない場合でも 常に 2 行の歌詞を表示する</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">翻訳が利用できない場合でも常に 2 行の歌詞を表示する</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText">文字を太くする</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText.Description">Dynamic Lyrics Island で太く文字のテキストを使用する</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">不透明度</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">デスクトップ歌詞</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">二重線スタイル</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">これをオフにすると歌詞が 1 行だけ表示されます</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">これをオフにすると歌詞が 1 行だけ表示される</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide">自動隠れる</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">これをオンにすると、一時停止時にデスクトップ歌詞が非表示になります</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">これをオンにすると、一時停止時にデスクトップ歌詞を隠す</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">不透明度</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.BorderThickness">ボーダーの太さ</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign">歌詞の整列モード</system:String>
@@ -368,13 +368,13 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Description">これまでで最もカスタマイズ可能なデスクトップ歌詞かもしれません</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Button.Reset">リセット</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle">二重線スタイル</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.Description">2 つの別々の歌詞行。 翻訳された歌詞を含む行はここが使用しません</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.Description">2 つの別々の歌詞行。翻訳された歌詞を含む行はここが使用しない</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Fill">ハイライトライン (塗りつぶし)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Border">ハイライトライン (ボーダー)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Fill">次の行 (塗りつぶし)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Border">次の行 (ボーダー)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle">単線スタイル</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Description">1 行だけ表示します。翻訳がある場合は表示されます</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Description">1 行だけ表示します。翻訳がある場合は表示される</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Fill">塗りつぶし</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Border">ボーダー</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Fill">翻訳の行 (塗りつぶし)</system:String>
@@ -567,7 +567,7 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Title">何かがおかしい、エラーの詳細はこちら</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Retry">リトライ</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Close">閉じる</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.Title">Spotify に正常に接続されました！Lyricifyの旅を始めましょう！</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.Title">Spotify に正常に接続された！Lyricifyの旅を始めましょう！</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">Go</system:String>
     
     <!--Font Selector-->
@@ -586,8 +586,8 @@
     <!--Share Lyrics-->
     <system:String x:Key="String.Windows.ShareLyrics">歌詞を共有</system:String>
     <system:String x:Key="String.Page.ShareLyrics.SelectLyrics">歌詞を選択</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.SelectCount">{0} 行の歌詞が選択されました</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.SelectCount.Plural">{0} 行の歌詞が選択されました</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.SelectCount">{0} 行の歌詞が選択された</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.SelectCount.Plural">{0} 行の歌詞が選択された</system:String>
     <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.Button.Continue">続く</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share">共有</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.ClickForMore">クリックして詳細</system:String>
@@ -700,11 +700,11 @@
     <!--Operations-->
     <system:String x:Key="String.Messages.Operation.Spotify.Add.LikedSongs">「お気に入りの曲」に追加じた</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Remove.LikedSongs">「お気に入りの曲」から削除された</system:String>
-    <system:String x:Key="String.Messages.Operation.Spotify.Add.Library">ライブラリ に保存しました</system:String>
-    <system:String x:Key="String.Messages.Operation.Spotify.Remove.Library">ライブラリから 削除されました</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Add.Library">ライブラリ に保存した</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Remove.Library">ライブラリから 削除された</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Add.Queue">キュー に追加じた</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Add.Queue.Fail">キュー に追加できませんでした</system:String>
 
-    <system:String x:Key="String.Messages.Operation.LinkCopied">リンクをコピーしました</system:String>
-    <system:String x:Key="String.Messages.Operation.Copied">コピーしました</system:String>
+    <system:String x:Key="String.Messages.Operation.LinkCopied">リンクをコピーした</system:String>
+    <system:String x:Key="String.Messages.Operation.Copied">コピーした</system:String>
 </ResourceDictionary>
