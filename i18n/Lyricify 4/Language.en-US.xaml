@@ -1,4 +1,4 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <!--
@@ -139,6 +139,7 @@
     <system:String x:Key="String.Page.Search.Availability.SearchBar.NetworkIssue.Message">Network issue, please check your Internet connection.</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">Album not found, please check the ID your input.</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Wrong input or unsupported input. Only track links and album links are supported. Here are two examples.</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Market">Market</system:String>
     <system:String x:Key="String.Page.Search.Availability.MoreVersions">More versions</system:String>
     <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.ToolTip.GoToAlbum">Go to album</system:String>
     <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Available">Available</system:String>
@@ -249,6 +250,7 @@
     
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">About</system:String>
+    <system:String x:Key="String.Page.About.NonPublicWarning">THIS IS NOT A PUBLIC RELEASE, DO NOT SPREAD PLEASE!</system:String>
     <system:String x:Key="String.Page.About.MadeWithHeart">Made with ❤️ by WXRIW</system:String>
     <system:String x:Key="String.Page.About.Copyright">Copyright © 2022 WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">Lyrics provided by</system:String>
@@ -257,10 +259,12 @@
     <system:String x:Key="String.Page.About.Thanklist">Thanklist</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">Special thanks to Difer for providing Spotify Premium account</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksInsiders">Special thanks to our insiders</system:String>
+    <system:String x:Key="String.Page.About.Internationalization">Internationalization</system:String>
     <system:String x:Key="String.Page.About.References">References</system:String>
     <system:String x:Key="String.Page.About.References.MITLicense.Brackets">(MIT License)</system:String>
     <system:String x:Key="String.Page.About.References.WTFPLLicense.Brackets">(WTFPL License)</system:String>
     <system:String x:Key="String.Page.About.References.Apache2.Brackets">(Apache License 2.0)</system:String>
+    <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(LGPL License 2.1)</system:String>
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(No License)</system:String>
 
     <!--Page Settings-->
@@ -311,6 +315,12 @@
     <system:String x:Key="String.Page.Settings.Lyrics">Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation">Chinese translation</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation.Description">Chinese translation will be shown when available</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji">Romaji</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.Description">Choose display options for Japanese Romaji</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.Disable">Disable</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.TranslationFirst">Translation First</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiFirst">Romaji First</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiOnly">Romaji Only</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese">Prefer Simplified Chinese</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese.Description">Chinese characters will be converted into Traditional Chinese if you toggled off this option</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">Show explicit lyrics</system:String>
@@ -324,16 +334,23 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics">Blur lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics.Description">Enable blur effect on lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">Blur level</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Set blur level (Default level is 5)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Set blur level (Default level on iPadOS in horizontal mode is 3, on iPasOS in vertical mode or iOS is 5)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">Level</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">Bold Text</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">Use bold text in Apple Music Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode">Karaoke mode</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Description">Yes, now you can have karaoke style lyrics in Apple Music Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation">Enable additional animations</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Description">Better animation, better experience</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">Float animation</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">Duet view</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">Multiple vocalists show on opposite sides of the screen to make duets or multi-singer tracks easy to sing along to</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling">Pulling effect</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.Description">Set power for pulling effect</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Disabled">Disabled</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Low">Low</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Regular">Regular (Default)</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Medium">Medium</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Regular">Regular</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Medium">Medium (Default)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.High">High</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Tremendous">Tremendous</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial">Show Magic Strip tutorial</system:String>
@@ -352,15 +369,21 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">Always show two line of lyrics even when translation is not available</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText">Bold Text</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText.Description">Use bold text in Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode">Karaoke mode</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode.Description">Have you ever seen lyrics shining?</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">Opacity</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">Desktop Lyrics</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Due-Line Mode</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Due-Line mode</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">By turning this off, only one line of lyrics will be displayed</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation">Lyrics switching animation</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation.Description">Play animation when switching to another lyrics line</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode">Karaoke mode</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode.Description">Get karaoke style of lyrics display</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide">Auto hide</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">By turning this on, Desktop Lyrics will be hidden at pause</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">Opacity</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.BorderThickness">Border thickness</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign">Lyrics align</m:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign">Lyrics align</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Center">Center (Default)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Left">Left</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Right">Right</system:String>
@@ -371,7 +394,7 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.Description">Two separated lines. Lines with translation won't use duo line style</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Fill">Highlight line (Fill)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Border">Highlight line (Border)</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLisystene.Fill">Next line (Fill)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Fill">Next line (Fill)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Border">Next line (Border)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle">Single line style</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Description">Display only one line. Translation will be displayed if available</system:String>
@@ -379,12 +402,18 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Border">Border</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Fill">Translation line (Fill)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Border">Translation line (Border)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle">Karaoke style</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Description">This applies to both duo line and single line</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Fill">Played (Fill)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Border">Played (Border)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Fill">Preplay (Fill)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Border">Preplay (Border)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.ArtworkMainColor">Artwork main color</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Black">Black</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.White">White</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Custom">Custom</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position">Position &amp; Size</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Description">If Desktop Lyrics isn't displayed currectly, you can try to Reset</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Description">If Desktop Lyrics isn't displayed correctly, you can try to Reset</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Button.Reset">Reset</system:String>
     <system:String x:Key="String.Page.Settings.Functions">Functions</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed">Follow Feed</system:String>
@@ -601,7 +630,7 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">Save</system:String>
     
     <!--Backup Center-->
-    <system:String x:Key="String.Window.BackupCenter">バックアップ と 自動化</system:String>
+    <system:String x:Key="String.Window.BackupCenter">Backup &amp; Automation</system:String>
     <system:String x:Key="String.Window.BackupCenter.Title">Lyricify Backup &amp; Automation Center</system:String>
     <system:String x:Key="String.Window.BackupCenter.Tab.Home">Home</system:String>
     <system:String x:Key="String.Window.BackupCenter.Tab.Backup">Backup</system:String>
@@ -672,6 +701,20 @@
     <system:String x:Key="String.Helpers.Time.Ago.Second">{0} second ago</system:String>
     <system:String x:Key="String.Helpers.Time.Ago.Seconds">{0} seconds ago</system:String>
     
+    <!--Lyrics-->
+    <system:String x:Key="String.Lyrics.Provider">Lyrics Provider</system:String>
+    <system:String x:Key="String.Lyrics.Provider.ProvidedBy">Lyrics provided by {0}</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">WXRIW</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.QQ">QQ Music</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.Netease">Netease Cloud Music</system:String>
+    <system:String x:Key="String.Lyrics.Provider.ProvidedBy.ToolTip">Click for more info</system:String>
+
+    <system:String x:Key="String.Lyrics.Info.NoLyrics0">Hmm. We don't know the lyrics for this one.</system:String>
+    <system:String x:Key="String.Lyrics.Info.NoLyrics1">Looks like we don't have the lyrics for this song.</system:String>
+    <system:String x:Key="String.Lyrics.Info.NoLyrics2">You caught us, we're still working on getting lyrics for this one.</system:String>
+    <system:String x:Key="String.Lyrics.Info.NoLyrics3">You'll have to guess the lyrics for this one.</system:String>
+    <system:String x:Key="String.Lyrics.Info.Error">Couldn't load the lyrics for this song. Try again later.</system:String>
+
     <!--Converter-->
     <system:String x:Key="String.Converter.ValueString">{0}% finished</system:String>
     
