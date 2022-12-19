@@ -250,7 +250,7 @@
 
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">情報</system:String>
-    <system:String x:Key="String.Page.About.NonPublicWarning">これは公開リリースではない。拡散しないでください。</system:String>
+    <system:String x:Key="String.Page.About.NonPublicWarning">これは公開リリースではない。再配布しないでください。</system:String>
     <system:String x:Key="String.Page.About.MadeWithHeart">WXRIW が ❤️ を込めて作った</system:String>
     <system:String x:Key="String.Page.About.Copyright">著作権 © 2022 WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">歌詞提供者</system:String>
@@ -264,7 +264,7 @@
     <system:String x:Key="String.Page.About.References.MITLicense.Brackets">(MIT ライセンス)</system:String>
     <system:String x:Key="String.Page.About.References.WTFPLLicense.Brackets">(WTFPL ライセンス)</system:String>
     <system:String x:Key="String.Page.About.References.Apache2.Brackets">(Apache ライセンス 2.0)</system:String>
-    <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(LGPL License 2.1)</system:String>
+    <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(LGPL ライセンス 2.1)</system:String>
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(ライセンスなし)</system:String>
 
     <!--Page Settings-->
