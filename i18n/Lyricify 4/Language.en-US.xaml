@@ -138,9 +138,11 @@
     <system:String x:Key="String.Page.Search.Availability.SearchBar.PlaceHolder">Input link or Spotify URI here</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.NetworkIssue.Message">Network issue, please check your Internet connection.</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">Album not found, please check the ID your input.</system:String>
-    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Wrong input or unsupported input. Only track links and album links are supported. Here are two examples.</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Wrong input or unsupported input. Only track (redirect to it's album), album and playlist links are supported. Here are two examples.</system:String>
     <system:String x:Key="String.Page.Search.Availability.Market">Market</system:String>
     <system:String x:Key="String.Page.Search.Availability.MoreVersions">More versions</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Playlist.UnavailableTracks">Unavailable tracks</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Playlist.AllAvailable">All tracks are available</system:String>
     <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.ToolTip.GoToAlbum">Go to album</system:String>
     <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Available">Available</system:String>
     <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Unavailable">Unavailable</system:String>
@@ -177,6 +179,8 @@
     <system:String x:Key="String.AudioFeatures.Relink.Album.TracksCount">Album tracks count</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature">Audio Features</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Mode">Mode</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Major">Major</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Minor">Minor</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.TimeSignature">Time signature</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.PitchClass">Pitch class (Key)</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Loudness">Loudness</system:String>
@@ -325,6 +329,10 @@
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese.Description">Chinese characters will be converted into Traditional Chinese if you toggled off this option</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">Show explicit lyrics</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics.Description">By turning this off, explicit words will be replaced with asterisks</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source">Source</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Description">Lyricify works the best with QQ Music source, some Lyricify features might not be available when using Netease Cloud Music source</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.QQFirst">QQ Music first</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.NeteaseFirst">Netease Cloud Music first</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">Background</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Choose the background you want to use in Apple Music Lyrics</system:String>
@@ -481,6 +489,9 @@
     <system:String x:Key="String.Menu.MainWindow.Main.Settings">Settings</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced">Advanced</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.BackupCenter">Backup &amp; Automation Center</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CustomConfigurationManager">Custom Configuration Manager</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LocalFilesManager">Local Files Manager</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">Login to Spotify Web</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CopyRefreshToken">Copy Refresh Token</system:String>
     
     <system:String x:Key="String.Menu.MainWindow.Main.About">About &amp; Help</system:String>
@@ -533,6 +544,7 @@
     <system:String x:Key="String.Menu.Pages.CopyAlbumInfo">Copy album info</system:String>
     <system:String x:Key="String.Menu.Pages.CopyAlbumUPC">Copy album UPC</system:String>
     <system:String x:Key="String.Menu.Pages.CheckAlbumAvailability">Check album availability</system:String>
+    <system:String x:Key="String.Menu.Pages.CheckPlaylistAvailability">Check playlist availability</system:String>
     <system:String x:Key="String.Menu.Pages.CopyArtistInfo">Copy artist info</system:String>
     <system:String x:Key="String.Menu.Pages.CopyPlaylistInfo">Copy playlist info</system:String>
     <system:String x:Key="String.Menu.Pages.CopyUserInfo">Copy user info</system:String>
@@ -596,9 +608,16 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Title">Something's wrong, here's more about the error</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Retry">Retry</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Close">Close</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.Title">Successfully connected to Spotify! Now let's explore Lyricify.</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">Go</system:String>    
-    
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.Title" xml:space="preserve">Successfully connected to Spotify! </system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">Now let's explore Lyricify.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.WelcomeBack">Welcome back to Lyricify!</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">You are No. {0} Lyricify user</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">Go</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Preset">Preset</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">Default</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Quality">Best Quality</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Performance">Best Performance</system:String>
+
     <!--Font Selector-->
     <system:String x:Key="String.Windows.FontSelector">Font Selector</system:String>
     <system:String x:Key="String.Windows.FontSelector.InstalledFonts">Installed Fonts</system:String>
@@ -628,7 +647,53 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">Copy</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Rendering">Rendering</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">Save</system:String>
-    
+    <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">JEPG Image (*.jpg)|*.jpg</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">Failed to save.</system:String>
+
+    <!--Configure Web Window-->
+    <system:String x:Key="String.Window.ConfigureWeb.Notice1">Login to Spotify here to enable playback inside Lyricify</system:String>
+    <system:String x:Key="String.Window.ConfigureWeb.Notice2">If the Spotify Web page is displayed properly, then Lyricify should be able to play audio. (A restart of Lyricify might be needed)</system:String>
+
+    <!--Custom Configuration Manager-->
+    <system:String x:Key="String.Window.CustomConfigurationManager">Custom Configuration Manager</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Description">Load ideas from your creations, or even customizations from other users.</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Name">Name</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Description">Description</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.File">File</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.IsEnabled">IsEnabled</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfiguration">Add Configuration</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.ReloadAllConfiguration">Reload All Configurations</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.RemoveAllConfigurations">Remove All Configurations</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.Close">Close</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveOne">Are you sure to remove this configuration?</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveAll">Are you sure to remove all configurations?</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.AddDialogTitle">Select a custom configuration file</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.AddDialogTitle.Filter">Xaml Document (*.xaml)|*.xaml</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Rename">Rename</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.EditDescription">Edit description</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenFile">Open file</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Reload">Reload</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Remove">Remove</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">Move up</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveDown">Move down</system:String>
+
+    <!--Local Files Manager-->
+    <system:String x:Key="String.Window.LocalFilesManager">Local Files Manager</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Title">Manager for Spotify Local Files</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Description">Only local files you have played on Spotify when Lyricify is open will appear here.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Button.RefreshList">Refresh List</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.HaveImage">Have Image (Click to replace, right click to remove)</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.NoImage">No Image (Click to add)</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.AddImage">Add an image</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.ReplaceImage">Replace with another image</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.SuccessUpdate">Successfully updated image.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.FailUpdate">Failed to update image.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.AskRemove">Are you sure to remove this image?</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.SuccessRemove">Successfully removed image.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.FailRemove">Failed to remove image.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Type.Albums">Albums:</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Type.Tracks">Tracks:</system:String>
+
     <!--Backup Center-->
     <system:String x:Key="String.Window.BackupCenter">Backup &amp; Automation</system:String>
     <system:String x:Key="String.Window.BackupCenter.Title">Lyricify Backup &amp; Automation Center</system:String>
