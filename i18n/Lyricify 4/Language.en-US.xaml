@@ -493,6 +493,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LocalFilesManager">Local Files Manager</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">Login to Spotify Web</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CopyRefreshToken">Copy Refresh Token</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.ChangeLyricifyPassword">Change Lyricify Account Password</system:String>
     
     <system:String x:Key="String.Menu.MainWindow.Main.About">About &amp; Help</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.About">About</system:String>
@@ -567,6 +568,7 @@
     <system:String x:Key="String.Menu.Track.GoToAlbum">Go to album</system:String>
     <system:String x:Key="String.Menu.Track.GoToArtist">Go to artist</system:String>
     <system:String x:Key="String.Menu.Track.ShowCredits">Show credits</system:String>
+    <system:String x:Key="String.Menu.Track.OpenTrackManagement">Open Track Management</system:String>
 
     <system:String x:Key="String.Menu.Track.CopySpotifyURI">Copy Spotify URI</system:String>
     <system:String x:Key="String.Menu.Track.CopySpotifyLink">Copy Spotify link</system:String>
@@ -601,6 +603,7 @@
     <system:String x:Key="String.Windows.Welcome.Settings.Agreement">Continue means you agree with Lyricify's user agreements</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Button.Continue">Continue</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Title">Now it's time to finish Spotify authorization in your web browser</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.AuthFinish">Spotify authorization finished, please wait for a few more seconds</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Button.Cancel">Cancel</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Title">Lyricify is about to close</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Button.Retry">Retry</system:String>
@@ -693,6 +696,93 @@
     <system:String x:Key="String.Window.LocalFilesManager.Message.FailRemove">Failed to remove image.</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Type.Albums">Albums:</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Type.Tracks">Tracks:</system:String>
+    
+    <!--Track Management-->
+    <system:String x:Key="String.Window.TrackManagement">Track Management</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Title">Lyricify Track Management</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo">Basic Information</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Track">Track</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Artist">Artist</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Album">Album</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental">Instrumental</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.Unset">Unset</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.True">True</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.False">False</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writter">Writter</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writter.Notice.Format">Format:</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writter.Notice.Format.Description">Writters names should be separated by , (half-width comma). You can also type writters in different lines and leave the formating to Lyricify.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writter.Notice.Example">Example:</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics">Lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">Lock Lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">Lyrics has been locked by admin</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">Offset should be a number (offset's unit is millisecond)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">Null (Not marked on server)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">Search</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search.Description">Import lyrics by built-in Lyricify Lyrics Searcher</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import">Import</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.QQ.Description">Import lyrics by QQ Music Song Mid or sharing link</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">Import lyrics by Netease Cloud Music Song Id or sharing link</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit">Edit</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">Advanced lyrics editing</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ">QQ Music</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">Please input QQ Music Song Mid or sharing link to get lyrics from QQ Music.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Input">Wrong QQ Music Song Mid, please check your input.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Link">Failed to get QQ Music Song Mid by sharing link.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease">Netease Cloud Music</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox">Please input Netease Cloud Music Song Id or sharing link to get lyrics from Netease Cloud Music.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox.Failed.Input">Wrong Netease Cloud Music Song Id, please check your input.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Reset">Reset</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Reset.Description">Reset all changes</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo">Refresh Local Info</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo.Description">Keep all the changes, usually won't have visual effect</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshServerInfo">Refresh Server Info</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshServerInfo.Description">Dismiss changes and load latest server info</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow">Apply in Main Window</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow.Description">Load current lyrics info in Main Window (Only available when this track is currently playing)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Save">Save (Upload)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Close">Close</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.EditRawFile">Edit Raw File</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">Are you sure to close without saving?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.FinishDuetView">Please finish duet view settings (Double click "Duet View" title can clear duet view settings)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Timestamp">Timestamp</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Lyrics">Lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle">IsTitle</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle.ToolTip">Title lines contains: title, credits info and other non-lyrics lines</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView">Duet View</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView.ToolTip">Double click "Duet View" title can clear duet view settings</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.Loading">Loading Server Lyrics Information</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">Empty track</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">Failed to load server lyrics info</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.WordWrap">Word Wrap</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.Notice.AskSave">Do you want to save the changes?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor">Advanced Lyrics Editor</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Lyrics">Lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">Translation</system:String>
+    <system:String x:Key="String.Window.TrackManagement.RawFileEditor">Raw File Editor</system:String>
+    <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">Unable to deserialize, review your changes (Yes) or close without saving (No)?</system:String>
+    
+    <!--Lyricify Account-->
+    <system:String x:Key="String.Window.LyricifyAccount">Lyricify Account</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Button.OK">OK</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Button.Change">Change</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password">Password</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password.Reenter">Re-enter</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password.Old">Old Password</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password.Old.PlaceHolder">(Password saved)</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Title.Enter">Please enter your Lyricify {0} Account password</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Title.Set">Set a password for your Lyricify {0} Account</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Title.Change">Change your Lyricify {0} Account password</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Administrator">Administrator</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Manager">Manager</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Insider">Insider</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.EmptyPassword">Password is empty</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.EmptyOldPassword">Old password is empty</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.ServerError">Server error</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.WrongPassword">Wrong password</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.ShortPassword">Password is too short</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.WrongOldPassword">Old password is wrong</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.TooManyAttempts">Too many attempts</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.TwiceDifferent">Password entered twice are different</system:String>
 
     <!--Backup Center-->
     <system:String x:Key="String.Window.BackupCenter">Backup &amp; Automation</system:String>
@@ -772,7 +862,25 @@
     <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">WXRIW</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.QQ">QQ Music</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.Netease">Netease Cloud Music</system:String>
-    <system:String x:Key="String.Lyrics.Provider.ProvidedBy.ToolTip">Click for more info</system:String>
+
+    <system:String x:Key="String.Lyrics.Provider.Menu.MarkCorrect">Mark as Correct Lyrics</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Menu.ViewSource">View Source</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Menu.ManageTrack">Manage This Track</system:String>
+    
+    <system:String x:Key="String.Lyrics.Provider.Server.Info.Marked">Marked on server</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">Auto search</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">Successfully marked on server</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">Failed, this might be an internal error</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">Failed due to empty lyrics, this might be an internal error</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Exist">Lyrics exist, try again later</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Denied">Your mark request has been denied</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Success">Successfully uploaded to server</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail">Failed, this might be an internal error</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.EmptyUpload">Empty upload</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Part">Part of the upload has failed, please try again later</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Denied">Your upload request has been denied</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Network">Failed to upload, this might be caused by a network issue</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.ServerException">Failed to upload, this is caused by server exception</system:String>
 
     <system:String x:Key="String.Lyrics.Info.NoLyrics0">Hmm. We don't know the lyrics for this one.</system:String>
     <system:String x:Key="String.Lyrics.Info.NoLyrics1">Looks like we don't have the lyrics for this song.</system:String>

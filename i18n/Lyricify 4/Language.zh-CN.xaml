@@ -493,6 +493,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LocalFilesManager">本地文件管理器</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">登录到 Spotify 网页版</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CopyRefreshToken">复制 Refresh Token</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.ChangeLyricifyPassword">修改 Lyricify 账户密码</system:String>
 
     <system:String x:Key="String.Menu.MainWindow.Main.About">关于 &amp; 帮助</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.About">关于</system:String>
@@ -567,6 +568,7 @@
     <system:String x:Key="String.Menu.Track.GoToAlbum">转至专辑</system:String>
     <system:String x:Key="String.Menu.Track.GoToArtist">转至艺人</system:String>
     <system:String x:Key="String.Menu.Track.ShowCredits">查看制作人员</system:String>
+    <system:String x:Key="String.Menu.Track.OpenTrackManagement">打开曲目管理</system:String>
 
     <system:String x:Key="String.Menu.Track.CopySpotifyURI">复制 Spotify URI</system:String>
     <system:String x:Key="String.Menu.Track.CopySpotifyLink">复制 Spotify 链接</system:String>
@@ -601,6 +603,7 @@
     <system:String x:Key="String.Windows.Welcome.Settings.Agreement">继续即说明您接受 Lyricify 用户协议</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Button.Continue">继续</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Title">是时候在你的网页浏览器中进行 Spotify 授权了</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.AuthFinish">Spotify 授权完成，请再等待几秒</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Button.Cancel">取消</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Title">Lyricify 即将关闭</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Button.Retry">重试</system:String>
@@ -694,6 +697,93 @@
     <system:String x:Key="String.Window.LocalFilesManager.Type.Albums">专辑：</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Type.Tracks">曲目：</system:String>
 
+    <!--Track Management-->
+    <system:String x:Key="String.Window.TrackManagement">曲目管理</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Title">Lyricify 曲目管理</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo">基本信息</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Track">歌名</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Artist">艺人</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Album">专辑</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental">纯音乐</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.Unset">未设置</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.True">是</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.False">否</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writter">创作者</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writter.Notice.Format">格式:</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writter.Notice.Format.Description">多位创作者应使用 , (半角逗号)分割。你也可以一行输入一位创作者，把格式化交给 Lyricify 处理。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writter.Notice.Example">示范:</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics">歌词</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">锁定歌词</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">歌词已被管理员锁定</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">Offset (时间差) 应是一个整型数字 (Offset 的单位是毫秒)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">空 (服务器上标记无标记)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">搜索</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search.Description">通过内置 Lyricify 歌词搜索器导入歌词</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import">导入</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.QQ.Description">通过 QQ 音乐歌曲 Mid 或分享链接导入歌词</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">通过网易云音乐歌曲 Id 或分享链接导入歌词</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit">编辑</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">高级歌词编辑</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ">QQ 音乐</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">请输入 QQ 音乐歌曲 Mid 或分享链接以从 QQ 音乐导入歌词。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Input">错误的 QQ 音乐歌曲 Mid，请检查你的输入。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Link">通过分享链接获取 QQ 音乐歌曲 Mid 时出错。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease">网易云音乐</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox">请输入网易云音乐歌曲 Id 或分享链接以从网易云音乐导入歌词。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox.Failed.Input">错误的网易云音乐歌曲 Id，请检查你的输入。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Reset">重置</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Reset.Description">重置所有更改</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo">刷新本地信息</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo.Description">保留所有更改，通常不会有可见的效果</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshServerInfo">刷新服务器信息</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshServerInfo.Description">取消更改，并加载最新服务器信息</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow">在主窗口中应用</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow.Description">在主窗口中加载当前的歌词信息 (仅当前播放歌曲为本曲目时可用)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Save">保存 (上传)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Close">关闭</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.EditRawFile">编辑原始文件</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">你确定要关闭而不保存吗？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.FinishDuetView">请完成对唱视图设置 (双击"对唱视图"标题可清除对唱视图设置)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Timestamp">时间戳</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Lyrics">歌词</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle">是标题行</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle.ToolTip">标题行包括：标题、创作者信息及其他非歌词行</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView">对唱视图</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView.ToolTip">双击"对唱视图"标题可清除对唱视图设置</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.Loading">正在加载服务器歌词信息</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">空曲目</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">服务器歌词信息加载失败</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.WordWrap">自动换行</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.Notice.AskSave">是否保存更改?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor">高级歌词编辑器</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Lyrics">歌词</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">翻译</system:String>
+    <system:String x:Key="String.Window.TrackManagement.RawFileEditor">原始文件编辑器</system:String>
+    <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">无法反序列化，检查你的修改 (是) 或关闭而不保存 (否)？</system:String>
+
+    <!--Lyricify Account-->
+    <system:String x:Key="String.Window.LyricifyAccount">Lyricify 账户</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Button.OK">确定</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Button.Change">修改</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password">密码</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password.Reenter">重新输入</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password.Old">旧密码</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password.Old.PlaceHolder">(密码已保存)</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Title.Enter">请输入你的 Lyricify {0}账户密码</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Title.Set">为你的 Lyricify {0}账户设置密码</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Title.Change">修改你的 Lyricify {0}账户密码</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Administrator">超级管理员</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Manager">管理员</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Insider">预览成员</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.EmptyPassword">密码为空</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.EmptyOldPassword">旧密码为空</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.ServerError">服务器错误</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.WrongPassword">密码错误</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.ShortPassword">密码太短</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.WrongOldPassword">旧密码错误</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.TooManyAttempts">太多次尝试</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.TwiceDifferent">两次输入的密码不相同</system:String>
+
     <!--Backup Center-->
     <system:String x:Key="String.Window.BackupCenter">备份与自动化</system:String>
     <system:String x:Key="String.Window.BackupCenter.Title">Lyricify 备份与自动化中心</system:String>
@@ -772,7 +862,25 @@
     <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">WXRIW</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.QQ">QQ 音乐</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.Netease">网易云音乐</system:String>
-    <system:String x:Key="String.Lyrics.Provider.ProvidedBy.ToolTip">点击获取更多信息</system:String>
+
+    <system:String x:Key="String.Lyrics.Provider.Menu.MarkCorrect">标记为正确歌词</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Menu.ViewSource">查看来源</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Menu.ManageTrack">管理本曲目</system:String>
+    
+    <system:String x:Key="String.Lyrics.Provider.Server.Info.Marked">已在服务器上标记</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">自动搜索</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">成功在服务器上标记</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">标记失败，这可能是内部错误</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">标记失败，原因是空歌词，这可能是内部错误</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Exist">歌词已存在，请稍后再试</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Denied">你的标记请求被拒绝</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Success">成功上传至服务器</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail">上传失败，这可能是内部错误</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.EmptyUpload">上传内容为空</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Part">部分上传失败，请稍后再试</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Denied">你的上传请求被拒绝</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Network">上传失败，这有可能是网络问题导致的</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.ServerException">上传失败，这是服务器异常导致的</system:String>
 
     <system:String x:Key="String.Lyrics.Info.NoLyrics0">哎呀，我们也不知道这首歌的歌词。</system:String>
     <system:String x:Key="String.Lyrics.Info.NoLyrics1">我们好像没有这首歌的歌词。</system:String>
