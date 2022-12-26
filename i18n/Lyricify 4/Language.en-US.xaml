@@ -250,7 +250,7 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">Show Artist</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Show Album</system:String>
     
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon">Written By:</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon" xml:space="preserve">Written By: </system:String>
     
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">About</system:String>
@@ -708,10 +708,10 @@
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.Unset">Unset</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.True">True</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.False">False</system:String>
-    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writter">Writter</system:String>
-    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writter.Notice.Format">Format:</system:String>
-    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writter.Notice.Format.Description">Writters names should be separated by , (half-width comma). You can also type writters in different lines and leave the formating to Lyricify.</system:String>
-    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writter.Notice.Example">Example:</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer">Writer</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format">Format:</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format.Description">Writers names should be separated by , (half-width comma). You can also type Writers in different lines and leave the formating to Lyricify.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Example">Example:</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics">Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">Lock Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">Lyrics has been locked by admin</system:String>
