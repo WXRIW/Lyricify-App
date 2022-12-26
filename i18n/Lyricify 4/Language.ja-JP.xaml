@@ -493,6 +493,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LocalFilesManager">ローカル ファイル マネージャー</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">Web で Spotify にログインする</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CopyRefreshToken">Refresh Token をコピー</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.ChangeLyricifyPassword">Lyricify アカウントのパスワードを変更する</system:String>
 
     <system:String x:Key="String.Menu.MainWindow.Main.About">情報と助ける</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.About">情報</system:String>
@@ -567,6 +568,7 @@
     <system:String x:Key="String.Menu.Track.GoToAlbum">アルバムに移動</system:String>
     <system:String x:Key="String.Menu.Track.GoToArtist">アーティストに移動</system:String>
     <system:String x:Key="String.Menu.Track.ShowCredits">クレジットを表示</system:String>
+    <system:String x:Key="String.Menu.Track.OpenTrackManagement">トラック管理を開く</system:String>
 
     <system:String x:Key="String.Menu.Track.CopySpotifyURI">Spotify URI をコピー</system:String>
     <system:String x:Key="String.Menu.Track.CopySpotifyLink">Spotify のリンクをコピー</system:String>
@@ -601,6 +603,7 @@
     <system:String x:Key="String.Windows.Welcome.Settings.Agreement">続けるとはLyricify のユーザー同意書に同意することを意味します</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Button.Continue">続く</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Title">Web Browserで Spotify の認証を完了するには</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.AuthFinish">Spotify の認証が完了しました。数秒お待ちください</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Button.Cancel">キャンセル</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Title">Lyricify はまもなく終了する</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Button.Retry">リトライ</system:String>
@@ -694,6 +697,93 @@
     <system:String x:Key="String.Window.LocalFilesManager.Type.Albums">アルバム：</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Type.Tracks">トラック：</system:String>
 
+    <!--Track Management-->
+    <system:String x:Key="String.Window.TrackManagement">トラック管理</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Title">Lyricify トラック管理</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo">基本情報</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Track">トラック</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Artist">アーティスト</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Album">アルバム</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental">器楽</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.Unset">未設定</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.True">True</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.False">False</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer">ライター</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format">フォーマット:</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format.Description">作家名は,（半角カンマ）で区切ってください。 別の行でタイプライターを使用して、書式設定を Lyricify に任せることもできます。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Example">例:</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics">歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">ロック歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">歌詞は管理者によってロックされている</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">オフセットは数値でなければならない (オフセットの単位はミリ秒だ)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">Null (サーバーでマークされていらない)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">検索</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search.Description">Lyricify Lyrics Searcherで歌詞をインポート</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import">インポート</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.QQ.Description">QQ Music Song Mid または共有リンクで歌詞をインポートする</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">Netease Cloud Music Song Id または共有リンクで歌詞をインポートする</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit">編集</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">高度な歌詞編集</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ">QQ Music</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">QQ Music Song Mid または共有リンクを入力して QQ Music から歌詞を取得してください</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Input">QQ Music Song Mid が間違っています。入力内容を確認してください</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Link">共有リンクによる QQ Music Song Mid の取得に失敗しました。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease">Netease Cloud Music</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox">Netease Cloud Music id または共有リンクを入力して Netease Cloud Music から歌詞を取得してください</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox.Failed.Input">Netease Cloud Music id が間違っています。入力内容を確認してください</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Reset">リセット</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Reset.Description">すべての変更をリセット</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo">ローカル情報を更新</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo.Description">すべての変更を保存します。通常、目に見える影響はありません</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshServerInfo">サーバー情報の更新</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshServerInfo.Description">変更を破棄して最新のサーバー情報を読み込む</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow">メインウィンドウで適用</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow.Description">メイン ウィンドウに現在の歌詞情報を読み込む (このトラックが現在再生されている場合にのみ使用可能)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Save">セーブ（アップロード）</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Close">閉じる</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.EditRawFile">RAW ファイルを編集する</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">保存せずに閉じますか</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.FinishDuetView">デュエット ビューの設定を終了してください (「デュエット ビュー」 タイトルをダブルクリックすると、デュエット ビューの設定をクリアできます)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Timestamp">タイムスタンプ</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Lyrics">歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle">これはタイトル</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle.ToolTip">タイトル行に含まれるもの: タイトル、クレジット情報、すべての歌詞以外の行</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView">デュエット ビュー</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView.ToolTip">「デュエット ビュー」タイトルをダブルクリックすると、デュエット ビューの設定をクリアできます</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.Loading">サーバーの歌詞情報を読み込んでいます</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">空トラック</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">サーバーの歌詞情報を読み込めませんでした</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.WordWrap">ワードラップ</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.Notice.AskSave">変更を保存しますか</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor">高度な歌詞エディター</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Lyrics">歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">翻訳</system:String>
+    <system:String x:Key="String.Window.TrackManagement.RawFileEditor">RAW ファイルエディター</system:String>
+    <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">デシリアライズできない、変更を確認できない(はい)、または保存せずに閉じることができない(いいえ)</system:String>
+
+    <!--Lyricify Account-->
+    <system:String x:Key="String.Window.LyricifyAccount">Lyricify アカウント</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Button.OK">OK</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Button.Change">変化する</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password">パスワード</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password.Reenter">再入力</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password.Old">以前のパスワード</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password.Old.PlaceHolder">(パスワードは保存されている)</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Title.Enter">Lyricify アカウント {0} のパスワードを入力してください</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Title.Set">Lyricify アカウント {0} のパスワードを設定してください</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Title.Change">Lyricify アカウント {0} のパスワードを変更する</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Administrator">スーパー管理者</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Manager">管理者</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Insider">インサイダー</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.EmptyPassword">パスワードが空です</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.EmptyOldPassword">以前のパスワードは空です</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.ServerError">サーバーエラー</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.WrongPassword">間違ったパスワード</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.ShortPassword">パスワードが短すぎる</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.WrongOldPassword">間違った以前のパスワード</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.TooManyAttempts">試行回数が多すぎる</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.TwiceDifferent">2回入力したパスワードが違う</system:String>
+    
     <!--Backup Center-->
     <system:String x:Key="String.Window.BackupCenter">バックアップ &amp; オートメーション</system:String>
     <system:String x:Key="String.Window.BackupCenter.Title">Lyricify バックアップ &amp; 自動化センター</system:String>
@@ -772,7 +862,25 @@
     <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">WXRIW</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.QQ">QQ Music</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.Netease">Netease Cloud Music</system:String>
-    <system:String x:Key="String.Lyrics.Provider.ProvidedBy.ToolTip">詳細についてはクリックしてください</system:String>
+    
+    <system:String x:Key="String.Lyrics.Provider.Menu.MarkCorrect">正しい歌詞としてマーク</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Menu.ViewSource">ソースを表示</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Menu.ManageTrack">このトラックを管理</system:String>
+
+    <system:String x:Key="String.Lyrics.Provider.Server.Info.Marked">サーバーでマークした</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">自動検索</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">サーバーで正常にマークした</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">失敗した。内部エラーの可能性がある</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">歌詞が空のため失敗した。これは内部エラーの可能性がある</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Exist">歌詞が存在した。後でもう一度試してください</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Denied">あなたのマークリクエストは拒否された</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Success">サーバーに正常にアップロードされた</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail">失敗しました。内部エラーの可能性がある</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.EmptyUpload">アップロードが空だ</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Part">一部のアップロードに失敗した。しばらくしてからもう一度お試してください</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Denied">あなたのマークリクエストは拒否された</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Network">アップロードに失敗しました。ネットワークの問題が可能性があります</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.ServerException">アップロードに失敗しました。これはサーバーエラーだ</system:String>
 
     <system:String x:Key="String.Lyrics.Info.NoLyrics0">うん…この歌詞をわからない</system:String>
     <system:String x:Key="String.Lyrics.Info.NoLyrics1">この曲の歌詞はないようです</system:String>
