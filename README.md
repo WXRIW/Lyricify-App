@@ -1,6 +1,6 @@
 <div align="center">
 
-![LOGO](image/../images/lyricify_icon.png)
+<img src="image/../images/lyricify_icon.png" width="200"/>
 
 # Lyricify App
 
