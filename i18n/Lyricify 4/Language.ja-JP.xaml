@@ -716,7 +716,7 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">ロック歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">歌詞は管理者によってロックされている</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">オフセットは数値でなければならない (オフセットの単位はミリ秒だ)</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">Null (サーバーでマークされていらない)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">Null (サーバーでマークされていない)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">検索</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search.Description">Lyricify Lyrics Searcherで歌詞をインポート</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import">インポート</system:String>
