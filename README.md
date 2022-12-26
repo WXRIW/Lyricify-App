@@ -1,4 +1,11 @@
-# Lyricify
+<div align="center">
+
+![LOGO](image/../images/lyricify_icon.png)
+
+# Lyricify App
+
+</div>
+
 ## Lyricify 4
 <h3>More than lyrics 不仅有歌词</h3>
 
