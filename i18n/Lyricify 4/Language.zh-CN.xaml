@@ -250,7 +250,7 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">显示艺人</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">显示专辑</system:String>
 
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon">创作者:</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon">创作者：</system:String>
 
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">关于</system:String>
@@ -708,10 +708,10 @@
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.Unset">未设置</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.True">是</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.False">否</system:String>
-    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writter">创作者</system:String>
-    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writter.Notice.Format">格式:</system:String>
-    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writter.Notice.Format.Description">多位创作者应使用 , (半角逗号)分割。你也可以一行输入一位创作者，把格式化交给 Lyricify 处理。</system:String>
-    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writter.Notice.Example">示范:</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer">创作者</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format">格式:</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format.Description">多位创作者应使用 , (半角逗号)分割。你也可以一行输入一位创作者，把格式化交给 Lyricify 处理。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Example">示范:</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics">歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">锁定歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">歌词已被管理员锁定</system:String>
