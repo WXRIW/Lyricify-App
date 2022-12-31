@@ -581,8 +581,8 @@
 
     <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice">えっ、Spotify の API レート制限に達しました。後でリロードしてみてください。</system:String>
 
-    <system:String x:Key="String.Tools.FollowBotton.Follow">フォロー</system:String>
-    <system:String x:Key="String.Tools.FollowBotton.Following">フォローじた</system:String>
+    <system:String x:Key="String.Tools.FollowButton.Follow">フォロー</system:String>
+    <system:String x:Key="String.Tools.FollowButton.Following">フォローじた</system:String>
 
     <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeMore">SEE MORE</system:String>
     <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeLess">SEE LESS</system:String>

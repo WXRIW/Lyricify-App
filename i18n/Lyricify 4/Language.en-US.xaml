@@ -591,8 +591,10 @@
 
     <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice">Oops, you have reached Spotify's API rate limit, try to reload later.</system:String>
     
-    <system:String x:Key="String.Tools.FollowBotton.Follow">FOLLOW</system:String>
-    <system:String x:Key="String.Tools.FollowBotton.Following">FOLLOWING</system:String>
+    <system:String x:Key="String.Tools.FollowButton.Follow">FOLLOW</system:String>
+    <system:String x:Key="String.Tools.FollowButton.Following">FOLLOWING</system:String>
+
+    <system:String x:Key="String.Tools.HeartButton.AskRemove">Are you sure to remove this from your library?</system:String>
 
     <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeMore">SEE MORE</system:String>
     <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeLess">SEE LESS</system:String>

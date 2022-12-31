@@ -591,8 +591,10 @@
 
     <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice">哎呀，你達到了 Spotify 的 API 請求頻率限制，請等待一會兒再嘗試重新載入。</system:String>
 
-    <system:String x:Key="String.Tools.FollowBotton.Follow">關注</system:String>
-    <system:String x:Key="String.Tools.FollowBotton.Following">關注中</system:String>
+    <system:String x:Key="String.Tools.FollowButton.Follow">關注</system:String>
+    <system:String x:Key="String.Tools.FollowButton.Following">關注中</system:String>
+
+    <system:String x:Key="String.Tools.HeartButton.AskRemove">確定要將其從你的資料庫中移除嗎？</system:String>
 
     <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeMore">顯示更多</system:String>
     <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeLess">收起</system:String>
