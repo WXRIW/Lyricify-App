@@ -1,4 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <!--
@@ -379,6 +379,8 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText.Description">Use bold text in Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode">Karaoke mode</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode.Description">Have you ever seen lyrics shining?</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide">Auto hide</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">By turning this on, Dynamic Lyrics Island will be hidden at pause</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">Opacity</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">Desktop Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Due-Line mode</system:String>
@@ -420,7 +422,7 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Black">Black</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.White">White</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Custom">Custom</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Position">Position &amp; Size</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Position">Position &amp; size</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Description">If Desktop Lyrics isn't displayed correctly, you can try to Reset</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Button.Reset">Reset</system:String>
     <system:String x:Key="String.Page.Settings.Functions">Functions</system:String>
@@ -446,9 +448,11 @@
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Use relinked artwork instead of artwork from original track when the track is relinked</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">The availability of a track depends on the country registered in the user’s Spotify profile settings. Often Spotify has several instances of a track in its catalogue, each available in a different set of markets. This commonly happens when the track the album is on has been released multiple times under different licenses in different markets. &#x000A;&#x000A;These tracks are linked together so that when a user tries to play a track that isn’t available in their own market, the Spotify mobile, desktop, and web players try to play another instance of the track that is available in the user’s market.</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement">Enable Media Session enhancement</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Discription">Use system Media Session to improve experience when you are using Spotify desktop client. (Make sure you have enabled &quot;Show desktop overlay when using media keys&quot; in Spotify settings)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">Use system Media Session to improve experience when you are using Spotify desktop client. (Make sure you have enabled &quot;Show desktop overlay when using media keys&quot; in Spotify settings)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">Enable timeline correction</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">Improve timeline precision</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer">Disable proxy for Lyricify server requests</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer.Discription">Disable proxy for those requests might improve experience if you are in China mainland</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer.Description">Disable proxy for those requests might improve experience if you are in China mainland</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings">Enable manual proxy settings</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings.Description">This will override your system proxy settings in Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Host">Host</system:String>
@@ -458,6 +462,8 @@
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Apply">Apply</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">Some functions might need a restart to take effect.</system:String>
     
+    <!--Page Horizontal Notice-->
+    <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">Current page does not support Mobile View, please resize your window to exit Mobile View</system:String>
     
     
     
@@ -490,6 +496,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced">Advanced</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.BackupCenter">Backup &amp; Automation Center</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CustomConfigurationManager">Custom Configuration Manager</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.HotkeyManager">Hotkey Manager</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LocalFilesManager">Local Files Manager</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">Login to Spotify Web</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CopyRefreshToken">Copy Refresh Token</system:String>
@@ -504,6 +511,9 @@
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp">Get help</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.TelegramGroup">Telegram Group</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup">QQ Group</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup.1">User Group 1: 972282479</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup.2">User Group 2: 653663090</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup.3">User Group 3: 515098369</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases">Get new releases</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.TelegramChannel">Telegram Channel</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.LyricifyOfficialWebsite">Lyricify Official Website</system:String>
@@ -680,6 +690,21 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">Move up</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveDown">Move down</system:String>
 
+    <!--Hotkey Manager-->
+    <system:String x:Key="String.Window.HotkeyManager">Hotkey Manager</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Description">You can manage global hotkeys here. (Use Backspace to clear a shortcut)</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.DesktopLyrics">Desktop Lyrics</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.ResetWindow">Reset Window</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.PlayPause">Play / Pause</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.PreviousTrack">Previous Track</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.NextTrack">Next Track</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Button.ResetAll">Reset All Hotkeys</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Button.Apply">Apply</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Button.Cancel">Cancel</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Message.FailedAt">Failed to register these hotkeys:</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Message.CheckUsing">Please check if another program is using those keys.</system:String>
+    
     <!--Local Files Manager-->
     <system:String x:Key="String.Window.LocalFilesManager">Local Files Manager</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Title">Manager for Spotify Local Files</system:String>
@@ -887,6 +912,8 @@
     <system:String x:Key="String.Lyrics.Info.NoLyrics2">You caught us, we're still working on getting lyrics for this one.</system:String>
     <system:String x:Key="String.Lyrics.Info.NoLyrics3">You'll have to guess the lyrics for this one.</system:String>
     <system:String x:Key="String.Lyrics.Info.Error">Couldn't load the lyrics for this song. Try again later.</system:String>
+    <system:String x:Key="String.Lyrics.Info.Instrumental">Instrumental music, please enjoy.</system:String>
+    <system:String x:Key="String.Lyrics.Info.Button.ManualImport">Manual Import (Open Track Management)</system:String>
 
     <!--Converter-->
     <system:String x:Key="String.Converter.ValueString">{0}% finished</system:String>
