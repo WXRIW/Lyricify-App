@@ -614,7 +614,7 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Title" xml:space="preserve">Spotifyへ接続に成功しました！</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">Lyricifyの旅を始めましょう！</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.WelcomeBack">Lyricify へようこそ！</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">あなたは {0} 番目の Lyricify ユーザーだ</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">あなたは {0:N0} 番目の Lyricify ユーザーだ</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">Go</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset">プリセット</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">デフォルト</system:String>

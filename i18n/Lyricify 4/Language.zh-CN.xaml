@@ -624,7 +624,7 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Title">成功连接 Spotify！</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">让我们开启 Lyricify 之旅吧。</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.WelcomeBack">欢迎回到 Lyricify！</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">你是第 {0} 位 Lyricify 用户</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">你是第 {0:N0} 位 Lyricify 用户</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">出发</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset">预设配置</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">默认</system:String>

@@ -624,7 +624,7 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Title" xml:space="preserve">Successfully connected to Spotify! </system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">Now let's explore Lyricify.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.WelcomeBack">Welcome back to Lyricify!</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">You are No. {0} Lyricify user</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">You are No. {0:N0} Lyricify user</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">Go</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset">Preset</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">Default</system:String>
