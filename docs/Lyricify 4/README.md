@@ -11,6 +11,16 @@
 [点击直接下载 .NET Desktop Runtime 6.0.12 (x86)](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.12-windows-x86-installer)  
 [点击转到 .NET 6.0 官方下载地址](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0)
 
+## 初次使用 Lyricify 4 应了解
+进入主界面的时候，如果当前没有正在播放的歌曲，请不要尝试点击播放按钮，因为这是没有作用的！！！Lyricify 是歌词软件，不是播放器，不在 Spotify 播放音乐怎么会显示歌词呢？  
+
+### Spotify Premium 独占功能
+1. 任意点歌（点击播放按钮，或双击歌单中的歌曲）
+2. 控制播放（调整进度、播放、暂停、上一曲、下一曲、循环、随机）（免费账户在 Media Session 连接正常的情况下也可以控制播放）
+3. 控制音量
+4. 添加到播放列表
+5. 内嵌播放必须有 Spotify Premium 订阅
+
 ## 欢迎窗口
 
 ### 基本设置
@@ -179,7 +189,7 @@ Lyricify 4 支持内置播放，但是并不建议使用。
    
    该方法会降低清晰度，但是可以提高性能。
 3. 退出 `Apple Music 歌词` 界面，再重新进入。
-4. 关闭 `Apple Music 歌词` 的 `卡拉 OK 样式`。
+4. 关闭 `Apple Music 歌词` 的 `卡拉 OK 样式`。如果您常听的是中日韩的歌，建议关闭 `卡拉 OK 样式`。
 5. 关闭 `Apple Music 歌词` 的 `模糊歌词`，或减小 `模糊程度`。（推荐）
 
 ## 程序渲染线程崩溃
