@@ -12,7 +12,7 @@
 A fantastic app to provide auto-scrolling lyrics and additional functions for [Spotify](https://www.spotify.com).  
 一款为 Spotify 提供滚动歌词和更多功能的软件。
 
-**Lyricify Beta 内测计划将于 2023 年 1 月 1 日开启，公测预计于 2023 年 1 月 22 日开启。**  
+**Lyricify 将于 2023 年 1 月 22 日 00:00 (GMT +8) 正式发布**  
 
 所有在 2022 年 12 月 25 日 12:00 (GMT +8) 之前打赏金额大于等于 1 元的 Lyricify 用户可以通过 QQ 私发交易证明（如：截图）+ Spotify 用户名称（可在 https://www.spotify.com/account/overview/ 查看）加入 Beta 内测计划。  
 
