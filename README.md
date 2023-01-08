@@ -26,7 +26,7 @@ https://t.me/lyricify
 **QQ Group / QQ 群:**  
 [点击链接加入群聊【Lyricify 用户群】（群号：972282479）](https://jq.qq.com/?_wv=1027&k=hZG8VRV4)
 
-## Lyricify 3
+## Lyricify 3 (EOL)
 A fantastic app to provide auto-scrolling lyrics for [Spotify](https://www.spotify.com), [iTunes](https://music.apple.com), [Music Center](https://www.sony.com/electronics/support/articles/MC4PC020001), [QQ Music](https://y.qq.com), [Netease Cloud Music](https://music.163.com), and [YesPlayMusic](https://github.com/qier222/YesPlayMusic).  
 一款为 Spotify、iTunes、Music Center、QQ 音乐、网易云音乐、YesPlayMusic 提供滚动歌词的软件。
 

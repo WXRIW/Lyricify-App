@@ -58,6 +58,7 @@
     <system:String x:Key="String.Page.Home.FollowSuggestion">Suggestion</system:String>
     <system:String x:Key="String.Page.Home.Button.Follow">Follow</system:String>
     <system:String x:Key="String.Page.Home.Button.Following">Following</system:String>
+    <system:String x:Key="String.Page.Home.Button.Followed">Followed</system:String>
 
     <system:String x:Key="String.Page.Home.Panel.YourFavoriteArtists">Your favorite artists</system:String>
     <system:String x:Key="String.Page.Home.Panel.MoreLike">More Like</system:String>
@@ -258,7 +259,7 @@
     <system:String x:Key="String.Page.About.MadeWithHeart">Made with ❤️ by WXRIW</system:String>
     <system:String x:Key="String.Page.About.Copyright">Copyright © 2022 WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">Lyrics provided by</system:String>
-    <system:String x:Key="String.Page.About.LyricsProviders">WXRIW, QQ Music, Netease Cloud Music</system:String>
+    <system:String x:Key="String.Page.About.LyricsProviders">Lyricify Lyrics Vault, QQ Music, Netease Cloud Music</system:String>
     <system:String x:Key="String.Page.About.Donation">Donation</system:String>
     <system:String x:Key="String.Page.About.Thanklist">Thanklist</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">Special thanks to Difer for providing Spotify Premium account</system:String>
@@ -451,6 +452,11 @@
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">Use system Media Session to improve experience when you are using Spotify desktop client. (Make sure you have enabled &quot;Show desktop overlay when using media keys&quot; in Spotify settings)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">Enable timeline correction</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">Improve timeline precision</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">Enable Chinese conversion</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">Enable Chinese conversion for Spotify contents</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">Hotkey Management</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">Open Hotkey Manager to manage global hotkeys</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">Open</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer">Disable proxy for Lyricify server requests</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer.Description">Disable proxy for those requests might improve experience if you are in China mainland</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings">Enable manual proxy settings</system:String>
@@ -737,7 +743,7 @@
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.False">False</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer">Writer</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format">Format:</system:String>
-    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format.Description">Writers names should be separated by , (half-width comma). You can also type Writers in different lines and leave the formating to Lyricify.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format.Description">Writers names should be separated by , (half-width comma). You can also type Writers in different lines and leave the formating to Lyricify. Use Simplified Chinese for Chinese names.</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Example">Example:</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics">Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">Lock Lyrics</system:String>
@@ -751,6 +757,11 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">Import lyrics by Netease Cloud Music Song Id or sharing link</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit">Edit</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">Advanced lyrics editing</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify">Lyricify Lyrics Vault</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit">Import &amp; Edit</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Description">Edit lyrics in Lyricify Lyrics Vault</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention" xml:space="preserve">ATTENTION: </system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention.Content">ONLY use this when lyrics is not available on both QQ Music and Netease Cloud Music.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ">QQ Music</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">Please input QQ Music Song Mid or sharing link to get lyrics from QQ Music.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Input">Wrong QQ Music Song Mid, please check your input.</system:String>
@@ -785,6 +796,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor">Advanced Lyrics Editor</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Lyrics">Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">Translation</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">Add Translation</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor">Raw File Editor</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">Unable to deserialize, review your changes (Yes) or close without saving (No)?</system:String>
     
@@ -886,7 +898,7 @@
     <!--Lyrics-->
     <system:String x:Key="String.Lyrics.Provider">Lyrics Provider</system:String>
     <system:String x:Key="String.Lyrics.Provider.ProvidedBy">Lyrics provided by {0}</system:String>
-    <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">WXRIW</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">Lyricify Lyrics Vault</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.QQ">QQ Music</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.Netease">Netease Cloud Music</system:String>
 

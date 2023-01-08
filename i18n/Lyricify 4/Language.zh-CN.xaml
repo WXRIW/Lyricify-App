@@ -58,6 +58,7 @@
     <system:String x:Key="String.Page.Home.FollowSuggestion">建议</system:String>
     <system:String x:Key="String.Page.Home.Button.Follow">关注</system:String>
     <system:String x:Key="String.Page.Home.Button.Following">已关注</system:String>
+    <system:String x:Key="String.Page.Home.Button.Followed">已关注</system:String>
 
     <system:String x:Key="String.Page.Home.Panel.YourFavoriteArtists">你最爱的艺人</system:String>
     <system:String x:Key="String.Page.Home.Panel.MoreLike">相似的艺人</system:String>
@@ -258,7 +259,7 @@
     <system:String x:Key="String.Page.About.MadeWithHeart">由 WXRIW 用 ❤️ 制作</system:String>
     <system:String x:Key="String.Page.About.Copyright">版权所有 © 2022 WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">歌词提供者</system:String>
-    <system:String x:Key="String.Page.About.LyricsProviders">WXRIW, QQ 音乐, 网易云音乐</system:String>
+    <system:String x:Key="String.Page.About.LyricsProviders">Lyricify 歌词库, QQ 音乐, 网易云音乐</system:String>
     <system:String x:Key="String.Page.About.Donation">打赏</system:String>
     <system:String x:Key="String.Page.About.Thanklist">感谢列表</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">特别感谢 Difer 提供 Spotify Premium 账号</system:String>
@@ -451,6 +452,11 @@
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">使用系统 Media Session 以提升使用 Spotify 桌面端时的体验. (确保你在 Spotify 设置中开启了“使用媒体键时显示桌面叠加”)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">启用时间轴修正</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">提高时间轴精确度</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">启用中文转换</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">为 Spotify 内容启用中文转换</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">热键管理</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">打开热键管理器，管理全局快捷键</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">打开</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer">不在 Lyricify 服务器请求中使用代理</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer.Description">如果你在中国大陆地区，不在这些请求中使用代理可能会提升使用体验</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings">启用手动代理设置</system:String>
@@ -737,7 +743,7 @@
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.False">否</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer">创作者</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format">格式:</system:String>
-    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format.Description">多位创作者应使用 , (半角逗号)分割。你也可以一行输入一位创作者，把格式化交给 Lyricify 处理。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format.Description">多位创作者应使用 , (半角逗号)分割。你也可以一行输入一位创作者，把格式化交给 Lyricify 处理。中文名请使用简体中文。</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Example">示范:</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics">歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">锁定歌词</system:String>
@@ -751,6 +757,11 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">通过网易云音乐歌曲 Id 或分享链接导入歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit">编辑</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">高级歌词编辑</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify">Lyricify 歌词库</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit">导入 &amp; 编辑</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Description">编辑 Lyricify 歌词库中的歌词</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention" xml:space="preserve">注意：</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention.Content">仅允许在 QQ 音乐和网易云音乐均无歌词时使用。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ">QQ 音乐</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">请输入 QQ 音乐歌曲 Mid 或分享链接以从 QQ 音乐导入歌词。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Input">错误的 QQ 音乐歌曲 Mid，请检查你的输入。</system:String>
@@ -785,6 +796,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor">高级歌词编辑器</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Lyrics">歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">翻译</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">添加翻译</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor">原始文件编辑器</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">无法反序列化，检查你的修改 (是) 或关闭而不保存 (否)？</system:String>
 
@@ -886,7 +898,7 @@
     <!--Lyrics-->
     <system:String x:Key="String.Lyrics.Provider">歌词提供者</system:String>
     <system:String x:Key="String.Lyrics.Provider.ProvidedBy">歌词提供者：{0}</system:String>
-    <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">WXRIW</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">Lyricify 歌词库</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.QQ">QQ 音乐</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.Netease">网易云音乐</system:String>
 
