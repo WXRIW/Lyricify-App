@@ -257,7 +257,7 @@
     <system:String x:Key="String.Page.About.Title">關於</system:String>
     <system:String x:Key="String.Page.About.NonPublicWarning">這不是一個公開發行的版本，請不要傳播！</system:String>
     <system:String x:Key="String.Page.About.MadeWithHeart">由 WXRIW 用 ❤️ 製作</system:String>
-    <system:String x:Key="String.Page.About.Copyright">版權所有 © 2022 WXRIW</system:String>
+    <system:String x:Key="String.Page.About.Copyright">版權所有 © 2023 WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">歌詞提供者</system:String>
     <system:String x:Key="String.Page.About.LyricsProviders">Lyricify 歌詞庫, QQ 音樂, 網易雲音樂</system:String>
     <system:String x:Key="String.Page.About.Donation">打賞</system:String>
@@ -271,6 +271,10 @@
     <system:String x:Key="String.Page.About.References.Apache2.Brackets">(Apache 許可 2.0)</system:String>
     <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(LGPL 許可 2.1)</system:String>
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(無許可)</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming">版權申明</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">版權所有 © 2023 WXRIW 保留所有權利</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">主視窗 UI, 移動端 UI 全屏, Spotify Circular 版權所有 © Spotify AB</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music 歌詞 UI, SF Pro, 蘋方(簡體) 版權所有 © Apple Inc.</system:String>
 
     <!--Page Settings-->
     <system:String x:Key="String.Page.Settings.Title">設定</system:String>
@@ -349,6 +353,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">在 Apple Music 歌詞內使用粗體文本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode">卡拉 OK 模式</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Description">是噠，現在你可以在 Apple Music 歌詞中使用卡拉 OK 樣式的歌詞</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK">禁用 CJK 歌詞的卡拉 OK 樣式</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK.Description">中日韓歌詞會使用更多資源來顯示，禁用可能</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation">啟用額外的動畫</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Description">更好的動畫，更好的體驗</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">上浮動畫</system:String>
@@ -382,6 +388,8 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode.Description">你見過發光的歌詞嗎？</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide">自動隱藏</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">開啟後，靈動詞島將在暫停時自動隱藏</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">全屏隱藏</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">運行全屏程式時隱藏靈動詞島</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">不透明度</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">桌面歌詞</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">雙行模式</system:String>
@@ -392,6 +400,8 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode.Description">使用卡拉 OK 樣式</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide">自動隱藏</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">開啟後，桌面歌詞將在暫停時自動隱藏</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide">全屏隱藏</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide.Description">運行全屏程式時隱藏桌面歌詞</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">不透明度</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.BorderThickness">邊框厚度</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign">歌詞對齊</system:String>
@@ -467,6 +477,13 @@
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Password">密碼</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Apply">應用</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">部分功能需要重啟才能生效。</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile">設置檔</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Description">直接編輯設置檔 (高級)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Open">打開</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Load">載入</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.ResetAll">重置所有</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">你是否確定要重置所有設置？</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Down">手動重啟 Lyricify 可能被需要。</system:String>
 
     <!--Page Horizontal Notice-->
     <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">當前頁面不支援移動端視圖，請調整視窗大小以退出移動端模式</system:String>
@@ -541,7 +558,7 @@
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.Remove">移除</system:String>
 
     <!--Dynamic Lyrics Island-->
-    <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">按兩下以隱藏2s</system:String>
+    <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">按兩下以隱藏 2s</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">關閉</system:String>
 
     <!--Apple Music Lyrics-->
@@ -733,6 +750,8 @@
     <!--Track Management-->
     <system:String x:Key="String.Window.TrackManagement">曲目管理</system:String>
     <system:String x:Key="String.Window.TrackManagement.Title">Lyricify 曲目管理</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Track.Lock">鎖定曲目</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Track.Lock.Notice">曲目已被管理員鎖定</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo">基本資訊</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Track">歌名</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Artist">藝人</system:String>
@@ -912,12 +931,14 @@
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">標記失敗，這可能是內部錯誤</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">標記失敗，原因是空歌詞，這可能是內部錯誤</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Exist">歌詞已存在，請稍後再試</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Locked">本曲目已被鎖定</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Denied">你的標記請求被拒絕</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Success">成功上傳至伺服器</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail">上傳失敗，這可能是內部錯誤</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.EmptyUpload">上傳內容為空</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Part">部分上傳失敗，請稍後再試</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Denied">你的上傳請求被拒絕</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Locked">本曲目已被鎖定</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Network">上傳失敗，這有可能是網路問題導致的</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.ServerException">上傳失敗，這是伺服器異常導致的</system:String>
 

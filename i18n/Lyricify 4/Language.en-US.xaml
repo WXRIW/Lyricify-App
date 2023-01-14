@@ -257,7 +257,7 @@
     <system:String x:Key="String.Page.About.Title">About</system:String>
     <system:String x:Key="String.Page.About.NonPublicWarning">THIS IS NOT A PUBLIC RELEASE, DO NOT SPREAD PLEASE!</system:String>
     <system:String x:Key="String.Page.About.MadeWithHeart">Made with ❤️ by WXRIW</system:String>
-    <system:String x:Key="String.Page.About.Copyright">Copyright © 2022 WXRIW</system:String>
+    <system:String x:Key="String.Page.About.Copyright">Copyright © 2023 WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">Lyrics provided by</system:String>
     <system:String x:Key="String.Page.About.LyricsProviders">Lyricify Lyrics Vault, QQ Music, Netease Cloud Music</system:String>
     <system:String x:Key="String.Page.About.Donation">Donation</system:String>
@@ -271,6 +271,10 @@
     <system:String x:Key="String.Page.About.References.Apache2.Brackets">(Apache License 2.0)</system:String>
     <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(LGPL License 2.1)</system:String>
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(No License)</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming">Copyright Claiming</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">Copyright © 2023 WXRIW, All Rights Reserved</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Main Window UI, Mobile UI Fullscreen, Spotify Circular Copyright © Spotify AB</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music Lyrics UI, SF Pro, PingFang SC Copyright © Apple Inc.</system:String>
 
     <!--Page Settings-->
     <system:String x:Key="String.Page.Settings.Title">Settings</system:String>
@@ -349,6 +353,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">Use bold text in Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode">Karaoke mode</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Description">Yes, now you can have karaoke style lyrics in Apple Music Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK">Disable karaoke style for CJK lyric</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK.Description">CJK karaoke lyrics uses more resources to display, disable might improve the animation performance</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation">Enable additional animations</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Description">Better animation, better experience</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">Float animation</system:String>
@@ -382,6 +388,8 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode.Description">Have you ever seen lyrics shining?</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide">Auto hide</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">By turning this on, Dynamic Lyrics Island will be hidden at pause</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">Fullscreen hide</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">Hide Dynamic Lyrics Island when you have program running at fullscreen mode</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">Opacity</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">Desktop Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Due-Line mode</system:String>
@@ -392,6 +400,8 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode.Description">Get karaoke style of lyrics display</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide">Auto hide</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">By turning this on, Desktop Lyrics will be hidden at pause</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide">Fullscreen hide</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide.Description">Hide Desktop Lyrics when you have program running at fullscreen mode</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">Opacity</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.BorderThickness">Border thickness</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign">Lyrics align</system:String>
@@ -467,6 +477,13 @@
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Password">Password</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Apply">Apply</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">Some functions might need a restart to take effect.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile">Settings file</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Description">Directly edit settings file (Advanced)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Open">Open</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Load">Load</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.ResetAll">Reset All</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">Are you sure to reset all your settings?</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Down">A manual restart of Lyricify might be needed.</system:String>
     
     <!--Page Horizontal Notice-->
     <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">Current page does not support Mobile View, please resize your window to exit Mobile View</system:String>
@@ -670,6 +687,7 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">Save</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">JEPG Image (*.jpg)|*.jpg</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">Failed to save.</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Message.RenderFailed">Something's wrong, failed to render.</system:String>
 
     <!--Configure Web Window-->
     <system:String x:Key="String.Window.ConfigureWeb.Notice1">Login to Spotify here to enable playback inside Lyricify</system:String>
@@ -733,6 +751,8 @@
     <!--Track Management-->
     <system:String x:Key="String.Window.TrackManagement">Track Management</system:String>
     <system:String x:Key="String.Window.TrackManagement.Title">Lyricify Track Management</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Track.Lock">Lock Track</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Track.Lock.Notice">Track has been locked by admin</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo">Basic Information</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Track">Track</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Artist">Artist</system:String>
@@ -912,12 +932,14 @@
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">Failed, this might be an internal error</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">Failed due to empty lyrics, this might be an internal error</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Exist">Lyrics exist, try again later</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Locked">This track has been locked</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Denied">Your mark request has been denied</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Success">Successfully uploaded to server</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail">Failed, this might be an internal error</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.EmptyUpload">Empty upload</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Part">Part of the upload has failed, please try again later</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Denied">Your upload request has been denied</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Locked">This track has been locked</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Network">Failed to upload, this might be caused by a network issue</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.ServerException">Failed to upload, this is caused by server exception</system:String>
 
