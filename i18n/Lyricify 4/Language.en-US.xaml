@@ -1,4 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <!--
@@ -58,6 +58,7 @@
     <system:String x:Key="String.Page.Home.FollowSuggestion">Suggestion</system:String>
     <system:String x:Key="String.Page.Home.Button.Follow">Follow</system:String>
     <system:String x:Key="String.Page.Home.Button.Following">Following</system:String>
+    <system:String x:Key="String.Page.Home.Button.Followed">Followed</system:String>
 
     <system:String x:Key="String.Page.Home.Panel.YourFavoriteArtists">Your favorite artists</system:String>
     <system:String x:Key="String.Page.Home.Panel.MoreLike">More Like</system:String>
@@ -256,9 +257,9 @@
     <system:String x:Key="String.Page.About.Title">About</system:String>
     <system:String x:Key="String.Page.About.NonPublicWarning">THIS IS NOT A PUBLIC RELEASE, DO NOT SPREAD PLEASE!</system:String>
     <system:String x:Key="String.Page.About.MadeWithHeart">Made with ❤️ by WXRIW</system:String>
-    <system:String x:Key="String.Page.About.Copyright">Copyright © 2022 WXRIW</system:String>
+    <system:String x:Key="String.Page.About.Copyright">Copyright © 2023 WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">Lyrics provided by</system:String>
-    <system:String x:Key="String.Page.About.LyricsProviders">WXRIW, QQ Music, Netease Cloud Music</system:String>
+    <system:String x:Key="String.Page.About.LyricsProviders">Lyricify Lyrics Vault, QQ Music, Netease Cloud Music</system:String>
     <system:String x:Key="String.Page.About.Donation">Donation</system:String>
     <system:String x:Key="String.Page.About.Thanklist">Thanklist</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">Special thanks to Difer for providing Spotify Premium account</system:String>
@@ -270,6 +271,10 @@
     <system:String x:Key="String.Page.About.References.Apache2.Brackets">(Apache License 2.0)</system:String>
     <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(LGPL License 2.1)</system:String>
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(No License)</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming">Copyright Claiming</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">Copyright © 2023 WXRIW, All Rights Reserved</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Main Window UI, Mobile UI Fullscreen, Spotify Circular Copyright © Spotify AB</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music Lyrics UI, SF Pro, PingFang SC Copyright © Apple Inc.</system:String>
 
     <!--Page Settings-->
     <system:String x:Key="String.Page.Settings.Title">Settings</system:String>
@@ -348,6 +353,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">Use bold text in Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode">Karaoke mode</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Description">Yes, now you can have karaoke style lyrics in Apple Music Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK">Disable karaoke style for CJK lyric</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK.Description">CJK karaoke lyrics uses more resources to display, disable might improve the animation performance</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation">Enable additional animations</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Description">Better animation, better experience</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">Float animation</system:String>
@@ -379,6 +386,10 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText.Description">Use bold text in Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode">Karaoke mode</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode.Description">Have you ever seen lyrics shining?</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide">Auto hide</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">By turning this on, Dynamic Lyrics Island will be hidden at pause</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">Fullscreen hide</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">Hide Dynamic Lyrics Island when you have program running at fullscreen mode</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">Opacity</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">Desktop Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Due-Line mode</system:String>
@@ -389,6 +400,8 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode.Description">Get karaoke style of lyrics display</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide">Auto hide</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">By turning this on, Desktop Lyrics will be hidden at pause</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide">Fullscreen hide</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide.Description">Hide Desktop Lyrics when you have program running at fullscreen mode</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">Opacity</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.BorderThickness">Border thickness</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign">Lyrics align</system:String>
@@ -420,7 +433,7 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Black">Black</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.White">White</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Custom">Custom</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Position">Position &amp; Size</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Position">Position &amp; size</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Description">If Desktop Lyrics isn't displayed correctly, you can try to Reset</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Button.Reset">Reset</system:String>
     <system:String x:Key="String.Page.Settings.Functions">Functions</system:String>
@@ -446,9 +459,16 @@
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Use relinked artwork instead of artwork from original track when the track is relinked</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">The availability of a track depends on the country registered in the user’s Spotify profile settings. Often Spotify has several instances of a track in its catalogue, each available in a different set of markets. This commonly happens when the track the album is on has been released multiple times under different licenses in different markets. &#x000A;&#x000A;These tracks are linked together so that when a user tries to play a track that isn’t available in their own market, the Spotify mobile, desktop, and web players try to play another instance of the track that is available in the user’s market.</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement">Enable Media Session enhancement</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Discription">Use system Media Session to improve experience when you are using Spotify desktop client. (Make sure you have enabled &quot;Show desktop overlay when using media keys&quot; in Spotify settings)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">Use system Media Session to improve experience when you are using Spotify desktop client. (Make sure you have enabled &quot;Show desktop overlay when using media keys&quot; in Spotify settings)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">Enable timeline correction</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">Improve timeline precision</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">Enable Chinese conversion</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">Enable Chinese conversion for Spotify contents</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">Hotkey Management</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">Open Hotkey Manager to manage global hotkeys</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">Open</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer">Disable proxy for Lyricify server requests</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer.Discription">Disable proxy for those requests might improve experience if you are in China mainland</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer.Description">Disable proxy for those requests might improve experience if you are in China mainland</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings">Enable manual proxy settings</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings.Description">This will override your system proxy settings in Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Host">Host</system:String>
@@ -457,7 +477,16 @@
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Password">Password</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Apply">Apply</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">Some functions might need a restart to take effect.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile">Settings file</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Description">Directly edit settings file (Advanced)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Open">Open</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Load">Load</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.ResetAll">Reset All</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">Are you sure to reset all your settings?</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Down">A manual restart of Lyricify might be needed.</system:String>
     
+    <!--Page Horizontal Notice-->
+    <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">Current page does not support Mobile View, please resize your window to exit Mobile View</system:String>
     
     
     
@@ -490,6 +519,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced">Advanced</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.BackupCenter">Backup &amp; Automation Center</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CustomConfigurationManager">Custom Configuration Manager</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.HotkeyManager">Hotkey Manager</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LocalFilesManager">Local Files Manager</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">Login to Spotify Web</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CopyRefreshToken">Copy Refresh Token</system:String>
@@ -504,6 +534,9 @@
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp">Get help</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.TelegramGroup">Telegram Group</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup">QQ Group</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup.1">User Group 1: 972282479</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup.2">User Group 2: 653663090</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup.3">User Group 3: 515098369</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases">Get new releases</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.TelegramChannel">Telegram Channel</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.LyricifyOfficialWebsite">Lyricify Official Website</system:String>
@@ -581,8 +614,10 @@
 
     <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice">Oops, you have reached Spotify's API rate limit, try to reload later.</system:String>
     
-    <system:String x:Key="String.Tools.FollowBotton.Follow">FOLLOW</system:String>
-    <system:String x:Key="String.Tools.FollowBotton.Following">FOLLOWING</system:String>
+    <system:String x:Key="String.Tools.FollowButton.Follow">FOLLOW</system:String>
+    <system:String x:Key="String.Tools.FollowButton.Following">FOLLOWING</system:String>
+
+    <system:String x:Key="String.Tools.HeartButton.AskRemove">Are you sure to remove this from your library?</system:String>
 
     <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeMore">SEE MORE</system:String>
     <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeLess">SEE LESS</system:String>
@@ -614,7 +649,7 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Title" xml:space="preserve">Successfully connected to Spotify! </system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">Now let's explore Lyricify.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.WelcomeBack">Welcome back to Lyricify!</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">You are No. {0} Lyricify user</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">You are No. {0:N0} Lyricify user</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">Go</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset">Preset</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">Default</system:String>
@@ -652,6 +687,7 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">Save</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">JEPG Image (*.jpg)|*.jpg</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">Failed to save.</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Message.RenderFailed">Something's wrong, failed to render.</system:String>
 
     <!--Configure Web Window-->
     <system:String x:Key="String.Window.ConfigureWeb.Notice1">Login to Spotify here to enable playback inside Lyricify</system:String>
@@ -680,6 +716,21 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">Move up</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveDown">Move down</system:String>
 
+    <!--Hotkey Manager-->
+    <system:String x:Key="String.Window.HotkeyManager">Hotkey Manager</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Description">You can manage global hotkeys here. (Use Backspace to clear a shortcut)</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.DesktopLyrics">Desktop Lyrics</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.ResetWindow">Reset Window</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.PlayPause">Play / Pause</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.PreviousTrack">Previous Track</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.NextTrack">Next Track</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Button.ResetAll">Reset All Hotkeys</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Button.Apply">Apply</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Button.Cancel">Cancel</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Message.FailedAt">Failed to register these hotkeys:</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Message.CheckUsing">Please check if another program is using those keys.</system:String>
+    
     <!--Local Files Manager-->
     <system:String x:Key="String.Window.LocalFilesManager">Local Files Manager</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Title">Manager for Spotify Local Files</system:String>
@@ -700,6 +751,8 @@
     <!--Track Management-->
     <system:String x:Key="String.Window.TrackManagement">Track Management</system:String>
     <system:String x:Key="String.Window.TrackManagement.Title">Lyricify Track Management</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Track.Lock">Lock Track</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Track.Lock.Notice">Track has been locked by admin</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo">Basic Information</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Track">Track</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Artist">Artist</system:String>
@@ -710,7 +763,7 @@
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.False">False</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer">Writer</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format">Format:</system:String>
-    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format.Description">Writers names should be separated by , (half-width comma). You can also type Writers in different lines and leave the formating to Lyricify.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format.Description">Writers names should be separated by , (half-width comma). You can also type Writers in different lines and leave the formating to Lyricify. Use Simplified Chinese for Chinese names.</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Example">Example:</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics">Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">Lock Lyrics</system:String>
@@ -724,6 +777,11 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">Import lyrics by Netease Cloud Music Song Id or sharing link</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit">Edit</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">Advanced lyrics editing</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify">Lyricify Lyrics Vault</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit">Import &amp; Edit</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Description">Edit lyrics in Lyricify Lyrics Vault</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention" xml:space="preserve">ATTENTION: </system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention.Content">ONLY use this when lyrics is not available on both QQ Music and Netease Cloud Music.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ">QQ Music</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">Please input QQ Music Song Mid or sharing link to get lyrics from QQ Music.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Input">Wrong QQ Music Song Mid, please check your input.</system:String>
@@ -758,6 +816,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor">Advanced Lyrics Editor</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Lyrics">Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">Translation</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">Add Translation</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor">Raw File Editor</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">Unable to deserialize, review your changes (Yes) or close without saving (No)?</system:String>
     
@@ -859,7 +918,7 @@
     <!--Lyrics-->
     <system:String x:Key="String.Lyrics.Provider">Lyrics Provider</system:String>
     <system:String x:Key="String.Lyrics.Provider.ProvidedBy">Lyrics provided by {0}</system:String>
-    <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">WXRIW</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">Lyricify Lyrics Vault</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.QQ">QQ Music</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.Netease">Netease Cloud Music</system:String>
 
@@ -873,12 +932,14 @@
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">Failed, this might be an internal error</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">Failed due to empty lyrics, this might be an internal error</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Exist">Lyrics exist, try again later</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Locked">This track has been locked</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Denied">Your mark request has been denied</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Success">Successfully uploaded to server</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail">Failed, this might be an internal error</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.EmptyUpload">Empty upload</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Part">Part of the upload has failed, please try again later</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Denied">Your upload request has been denied</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Locked">This track has been locked</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Network">Failed to upload, this might be caused by a network issue</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.ServerException">Failed to upload, this is caused by server exception</system:String>
 
@@ -887,6 +948,8 @@
     <system:String x:Key="String.Lyrics.Info.NoLyrics2">You caught us, we're still working on getting lyrics for this one.</system:String>
     <system:String x:Key="String.Lyrics.Info.NoLyrics3">You'll have to guess the lyrics for this one.</system:String>
     <system:String x:Key="String.Lyrics.Info.Error">Couldn't load the lyrics for this song. Try again later.</system:String>
+    <system:String x:Key="String.Lyrics.Info.Instrumental">Instrumental music, please enjoy.</system:String>
+    <system:String x:Key="String.Lyrics.Info.Button.ManualImport">Manual Import (Open Track Management)</system:String>
 
     <!--Converter-->
     <system:String x:Key="String.Converter.ValueString">{0}% finished</system:String>

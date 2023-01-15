@@ -12,7 +12,7 @@
 A fantastic app to provide auto-scrolling lyrics and additional functions for [Spotify](https://www.spotify.com).  
 一款为 Spotify 提供滚动歌词和更多功能的软件。
 
-**Lyricify Beta 内测计划将于 2023 年 1 月 1 日开启，公测预计于 2023 年 1 月 22 日开启。**  
+**Lyricify 将于 2023 年 1 月 22 日 00:00 (GMT +8) 正式发布**  
 
 所有在 2022 年 12 月 25 日 12:00 (GMT +8) 之前打赏金额大于等于 1 元的 Lyricify 用户可以通过 QQ 私发交易证明（如：截图）+ Spotify 用户名称（可在 https://www.spotify.com/account/overview/ 查看）加入 Beta 内测计划。  
 
@@ -26,7 +26,7 @@ https://t.me/lyricify
 **QQ Group / QQ 群:**  
 [点击链接加入群聊【Lyricify 用户群】（群号：972282479）](https://jq.qq.com/?_wv=1027&k=hZG8VRV4)
 
-## Lyricify 3
+## Lyricify 3 (EOL)
 A fantastic app to provide auto-scrolling lyrics for [Spotify](https://www.spotify.com), [iTunes](https://music.apple.com), [Music Center](https://www.sony.com/electronics/support/articles/MC4PC020001), [QQ Music](https://y.qq.com), [Netease Cloud Music](https://music.163.com), and [YesPlayMusic](https://github.com/qier222/YesPlayMusic).  
 一款为 Spotify、iTunes、Music Center、QQ 音乐、网易云音乐、YesPlayMusic 提供滚动歌词的软件。
 
