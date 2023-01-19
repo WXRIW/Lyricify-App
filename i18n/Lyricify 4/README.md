@@ -1,2 +1,5 @@
 You can help Lyricify by translating it into different languages.  
-Currently, fr-FR is using machine translation, so it would be great it you help us translate Lyricify into French.
+  
+en-US, zh-CN, zh-TW is maintained by Lyricify Official (@WXRIW)  
+ja-JP is maintained by @BPTPW  
+Currently, fr-FR, sv-SE, ru-RU is using machine translation  
