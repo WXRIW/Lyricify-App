@@ -594,6 +594,8 @@
     <system:String x:Key="String.Tools.FollowBotton.Follow">フォロー</system:String>
     <system:String x:Key="String.Tools.FollowBotton.Following">フォローじた</system:String>
 
+    <system:String x:Key="String.Tools.HeartButton.AskRemove">これをライブラリから削除してもよろしいですか</system:String>
+
     <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeMore">SEE MORE</system:String>
     <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeLess">SEE LESS</system:String>
     <system:String x:Key="String.Tools.AdvancedItemsPanel.OnlyVisibleToYou">自分だけに見える</system:String>
