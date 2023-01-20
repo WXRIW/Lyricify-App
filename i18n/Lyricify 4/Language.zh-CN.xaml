@@ -312,6 +312,8 @@
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.FontSize.Translation">翻译字号</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LineSpacing">行间间距</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.PlayingLineZoomingAnimation">正在播放的歌词缩放动画</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.KaraokeMode">逐字模式</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.KaraokeMode.Description">逐字显示歌词</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.QuickAccess">快捷访问</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.Description">你可以选择想要固定在左下角的内容，可以是自定义固定的内容，也可以显示所有歌单</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.ComboBox.CustomPins">自定义固定项</system:String>
@@ -464,6 +466,8 @@
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">提高时间轴精确度</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">启用中文转换</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">为 Spotify 内容启用中文转换</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">设备延迟</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">单位：毫秒。此参数是为蓝牙回放设备的延迟设计的，不要将此用于设置歌词时间差。刷新歌词后生效</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">热键管理</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">打开热键管理器，管理全局快捷键</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">打开</system:String>
@@ -522,6 +526,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.HotkeyManager">热键管理器</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LocalFilesManager">本地文件管理器</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">登录到 Spotify 网页版</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.RefreshPlaybackInfo">刷新 Spotify 播放信息</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CopyRefreshToken">复制 Refresh Token</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.ChangeLyricifyPassword">修改 Lyricify 账户密码</system:String>
 
@@ -687,6 +692,7 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">保存</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">JEPG 图片 (*.jpg)|*.jpg</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">保存失败。</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Message.RenderFailed">出错了，渲染失败。</system:String>
 
     <!--Configure Web Window-->
     <system:String x:Key="String.Window.ConfigureWeb.Notice1">在这里登录 Spotify 以启用 Lyricify 内置播放</system:String>
@@ -927,8 +933,10 @@
     
     <system:String x:Key="String.Lyrics.Provider.Server.Info.Marked">已在服务器上标记</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">自动搜索</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Fail.Version">当前版本已过时，请更新</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">成功在服务器上标记</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">标记失败，这可能是内部错误</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Network">Lyricify 的服务器或您的网络有问题</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">标记失败，原因是空歌词，这可能是内部错误</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Exist">歌词已存在，请稍后再试</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Locked">本曲目已被锁定</system:String>

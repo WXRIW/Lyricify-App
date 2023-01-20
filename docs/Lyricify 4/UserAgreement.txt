@@ -1,8 +1,7 @@
-## Lyricify 用户协议
+Lyricify 用户协议
 
-**NOTICE: This is Simplified Chinese Version of User Agreement, use a translator to read this in English, All rights reserved by WXRIW.**
-
-**Also, you MUST agree with One-China Principle if you want to use Lyricify.**
+NOTICE: This is Simplified Chinese Version of User Agreement, use a translator to read this in English, All rights reserved by WXRIW.
+Also, you MUST agree with One-China Principle if you want to use Lyricify.
 
 尊敬的用户您好，欢迎您使用 Lyricify 歌词软件（以下简称：软件）。在您注册成为软件用户之前，请您务必认真阅读和理解《Lyricify 用户协议》（以下简称：协议）中所有的条款。您须完全同意协议中所有的条款，才可以注册成为本软件的用户，使用里面的服务。您在软件的注册和操作均将被视为是您对协议所有条款及内容的自愿接受。
 一、声明
