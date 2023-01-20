@@ -312,6 +312,8 @@
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.FontSize.Translation">フォントサイズ (翻訳)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LineSpacing">行間隔</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.PlayingLineZoomingAnimation">ラインズームアニメーションの再生</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.KaraokeMode">Word-by-word モード</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.KaraokeMode.Description">歌詞を単語ごとに表示する</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.QuickAccess">迅速なアクセス</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.Description">左下に何を表示するか、カスタムピン、またはすべての Spotify プレイリストを選択できます。</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.ComboBox.CustomPins">カスタムピン</system:String>
@@ -464,6 +466,8 @@
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">タイムラインの精度を向上させる</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">中国語変換を有効にする</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">Spotify コンテンツの中国語変換を有効にする</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">デバイスのレイテンシ</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">単位: ミリ秒。 この引数は、Bluetooth 再生デバイスのレイテンシ用に設計されています。歌詞のオフセットには使用しないでください。 歌詞を更新して有効にする</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">ホットキーマネージャー</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">ホットキー マネージャーを開いて、グローバル ホットキーを管理します</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">開ける</system:String>
@@ -522,6 +526,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.HotkeyManager">ホットキーマネージャー</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LocalFilesManager">ローカル ファイル マネージャー</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">Web で Spotify にログインする</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.RefreshPlaybackInfo">Spotify の再生情報を更新する</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CopyRefreshToken">Refresh Token をコピー</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.ChangeLyricifyPassword">Lyricify アカウントのパスワードを変更する</system:String>
 
@@ -928,8 +933,10 @@
 
     <system:String x:Key="String.Lyrics.Provider.Server.Info.Marked">サーバーでマークした</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">自動検索</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Fail.Version">現在のバージョンは古くなっています。アップデートを入手してください</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">サーバーで正常にマークした</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">失敗した。内部エラーの可能性がある</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Network">Lyricify のサーバーまたはネットワークに問題があります</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">歌詞が空のため失敗した。これは内部エラーの可能性がある</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Exist">歌詞が存在した。後でもう一度試してください</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Locked">このトラックはロックされています</system:String>
