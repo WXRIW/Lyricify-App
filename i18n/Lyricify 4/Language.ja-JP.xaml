@@ -500,8 +500,8 @@
 
     <!--MainWindow-->
     <!--Three Dot Main Menu-->
-    <system:String x:Key="String.Menu.MainWindow.Main.View">View</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.View.Topmost">Topmost</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View">見る</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.Topmost">一番上</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.View.MinimizeToTray">トレイに最小化</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.View.Zoom.In">ズームイン</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.View.Zoom.Out">ズームアウト</system:String>
