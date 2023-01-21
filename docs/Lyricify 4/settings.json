@@ -1,0 +1,161 @@
+{
+    "no_restore": false, // 遗留项目，无实际作用
+    "language": 0, // Lyricify 显示语言
+    "is_light_theme": false, // 是否启用浅色主题
+    "prefer_simplified_chinese": true, // 更喜欢简体中文
+    "is_show_relinking": false, // 使用重新链接的专辑图片
+    "lyrics": {
+      "translation": true, // 启用翻译
+      "is_show_explicit": true, // 显示脏词
+      "romaji_option": 0, // 罗马音配置
+      "use_lyricify_server": true, // 使用 Lyricify 歌词库
+      "is_qq_first": true, // 优先搜索 QQ 音乐歌词
+      "enable_netease_yrc": false, // 启用网易云 YRC 逐字歌词
+      "use_available_lyrics": true, // 在 Lyricify 服务器存在歌词时，直接使用
+      "is_enable_multi_line": true // 允许多行高亮
+    },
+    "window_main": {
+      "window": {
+        "position": { // 主窗口位置
+          "left": null,
+          "top": null
+        },
+        "size": { // 主窗口大小
+          "width": null,
+          "height": null
+        },
+        "display_config": null, // 显示器配置，若与当前配置不同时将自动重置窗口位置
+        "topmost": false, // 窗口置顶
+        "maximized": false, // 最大化
+        "opacity": 1.0 // 透明度，在此处无效
+      },
+      "navigation_width": 220.0, // 侧边导航区宽度
+      "blurred_cover": true, // 启用模糊封面背景
+      "show_explicit": false, // 显示 Explicit 标
+      "zooming": 1.0, // 窗口缩放比例
+      "is_karaoke": true, // 开启逐字模式
+      "font_family": "", // 字体
+      "lyrics_align": 0, // 歌词对齐方式
+      "lyrics_side_margin": 0.0, // 歌词边距
+      "lyrics_font_size": 32.0, // 歌词字号
+      "translation_font_size": 20.0, // 翻译字号
+      "line_spacing": 0.0, // 行间距
+      "is_playing_line_zooming_animation_enabled": true, // 启用缩放动画
+      "lyrics_mobile_mode": { // 竖向界面时的设置
+        "lyrics_align": 1,
+        "lyrics_side_margin": 0.0,
+        "lyrics_font_size": 24.0,
+        "translation_font_size": 15.0,
+        "line_spacing": 0.0,
+        "is_playing_line_zooming_animation_enabled": false
+      },
+      "is_time_rest_mode": false, // 显示剩余时长，而非总时长
+      "is_close_to_hide": false, // 点击关闭按钮应隐藏窗口
+      "is_restore_window": true // 启动时恢复窗口位置
+    },
+    "apple_music_lyrics": {
+      "blur_lyrics": true, // 歌词模糊
+      "blur_level": 0.6, // 模糊等级
+      "animation_speed": 1.0, // 动画速率
+      "animation_artwork_enter": true, // 进入时的专辑封面缩放动画
+      "pulling": true, // 拖动效果
+      "pulling_new": true, // 启用新拖动算法
+      "pulling_delay": 2.5, // 拖动延迟
+      "background_type": 0, // 背景类型
+      "background_dynamic_frame_rate": 12, // 动态背景帧率 (设备不够强的时候不要调的过高)
+      "bold_text": false, // 粗体文本
+      "is_karaoke": true, // 卡拉 OK 模式
+      "disable_cjk_karaoke": false, // 禁用 CJK 歌词的卡拉 OK
+      "karaoke_style_enable_animation": true, // 启用卡拉 OK 模式的动画
+      "karaoke_style_float": true, // 启用上浮动画
+      "karaoke_style_float_height": -1.0, // 上浮高度，默认值为 2.0，-1.0 表示使用默认值
+      "karaoke_style_progress_width": "NaN", // 过渡宽度，默认为 30，iOS 设备上默认值约为 20，Android 设备上默认值约为 100，NaN 表示使用默认值
+      "duet_view": true, // 对唱视图
+      "magic_strip_tutorial": true, // 显示秒控条教程
+      "enable_traditional_entry": false, // 显示菜单中 传统 Apple Music 歌词模式 的入口 (即 Lyricify 3 中的 Apple Music 歌词)
+      "enable_dynamic_artwork": true, // 启用动态专辑封面
+      "unplaying_opacity_override": "NaN", // 未播放行透明度，开启卡拉 OK 后无效
+      "playing_zoom_override": "NaN" // 播放行缩放
+    },
+    "lyricify_fullscreen": {
+      "blur_lyrics": false, // 歌词模糊
+      "font_family": "" // 字体
+    },
+    "dynamic_lyrics_island": {
+      "position": { // 位置
+        "left": null,
+        "top": null
+      },
+      "display_config": null, // 显示器配置
+      "is_opened": false, // 是否开启
+      "byland_mode": true, // 灵动大陆模式
+      "bold_text": false, // 粗体文本
+      "duo_line": false, // 始终显示双行
+      "opacity": 1.0, // 透明度
+      "is_karaoke": true, // 卡拉 OK 模式
+      "auto_hide": true, // 暂停时自动隐藏
+      "fullscreen_hide": true // 有全屏窗口时自动隐藏
+    },
+    "desktop_lyrics": {
+      "window": { // 同主窗体
+        "position": {
+          "left": null,
+          "top": null
+        },
+        "size": {
+          "width": null,
+          "height": null
+        },
+        "display_config": null,
+        "topmost": false,
+        "maximized": null,
+        "opacity": 1.0
+      },
+      "is_opened": false, // 是否开启
+      "is_locked": false, // 是否锁定
+      "is_duo_line": true, // 是否显示双行
+      "enable_animation": true, // 启用换行动画
+      "is_karaoke": true, // 卡拉 OK 模式
+      "auto_hide": false, // 暂停时自动隐藏
+      "fullscreen_hide": true, // 有全屏窗口时自动隐藏
+      "border_thickness": 100.0, // 边框宽度 (默认倍数的百分比)
+      "lyrics_align": 0, // 歌词对齐方式
+      "font_family": "", // 字体
+      "duo_line_style": { // 双行模式颜色设置
+        "first_fill": "MainColor",
+        "first_border": "Black",
+        "second_fill": "White",
+        "second_border": "Black"
+      },
+      "single_line_style": { // 单行模式颜色设置
+        "first_fill": "MainColor",
+        "first_border": "Black",
+        "second_fill": "MainColor",
+        "second_border": "Black"
+      },
+      "karaoke_style": { // 卡拉 OK 模式颜色设置
+        "first_fill": "MainColor",
+        "first_border": "Black",
+        "second_fill": "White",
+        "second_border": "Black"
+      }
+    },
+    "share_lyrics": { // 分享歌词
+      "show_translation": null, // 显示翻译 (null 表示跟随 Lyricify 翻译设置)
+      "colorful_logo": false, // 使用 Lyricify 彩色 Logo
+      "render_dpi_scale": 1.0 // 渲染缩放比例，默认宽度 1500px
+    },
+    "force_software_render": false, // 强制软件渲染
+    "enable_media_session": true, // 启用 Media Session 增强
+    "media_session_timeline_enhancement": true, // 启用 Media Session 时间轴增强
+    "enable_chinese_conversion": true, // 启用 Spotify 内容的中文转换
+    "device_latency": 0, // 设备延迟，为不小于 0 的整数，单位毫秒
+    "proxy": {
+      "is_enabled": false, // 启用代理
+      "host": null,
+      "port": 0,
+      "username": null,
+      "password": null,
+      "disable_proxy_for_lyricify_server": false // 不在 Lyricify 服务器请求中使用代理
+    }
+  }

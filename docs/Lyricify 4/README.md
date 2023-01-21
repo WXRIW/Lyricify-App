@@ -177,6 +177,12 @@ Lyricify 4 支持内置播放，但是并不建议使用。
 ## 备份与自动化中心
 该功能仍在开发阶段。
 
+## 设置文件
+手动修改设置文件。Lyricify 4 的设置文件路径为 `%AppData%/Lyricify/Lyricify for Spotify/settings.json`。
+您也可以在 `设置` 页面最下方找到 `设置文件` 的 `打开` 按钮。
+在完成编辑后，您可以点击 `加载` 按钮，立即将设置加载至 Lyricify。
+[这里有 Lyricify 4 设置文件各个项目的详细介绍](settings.json)
+
 # 常见问题
 
 ## 无法从 Lyricify 服务器获取歌词
