@@ -14,8 +14,6 @@ A fantastic app to provide auto-scrolling lyrics and additional functions for [S
 
 **Lyricify 将于 2023 年 1 月 22 日 00:00 (GMT +8) 正式发布**  
 
-所有在 2022 年 12 月 25 日 12:00 (GMT +8) 之前打赏金额大于等于 1 元的 Lyricify 用户可以通过 QQ 私发交易证明（如：截图）+ Spotify 用户名称（可在 https://www.spotify.com/account/overview/ 查看）加入 Beta 内测计划。  
-
 *需要注意的是： Lyricify for Spotify 4.0 仅支持 Spotify！*  
 
 点击这里查看 [Lyricify 4 使用指南](/docs/Lyricify%204)  
@@ -24,7 +22,13 @@ A fantastic app to provide auto-scrolling lyrics and additional functions for [S
 https://t.me/lyricify
 
 **QQ Group / QQ 群:**  
-[点击链接加入群聊【Lyricify 用户群】（群号：972282479）](https://jq.qq.com/?_wv=1027&k=hZG8VRV4)
+[点击链接加入群聊【Lyricify 用户群 3】（群号：515098369）](https://jq.qq.com/?_wv=1027&k=nUr4jHVU)
+
+## Lyricify Mobile
+Lyricify Mobile 为 Lyricify 家族的移动端，目前安卓版已经发布，iOS 版请耐心等待。  
+安卓版可在这里下载： https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.1.0  
+  
+注意，Lyricify Mobile 里如果遇到歌词不正确的情况，可以在 Lyricify 4 的歌词管理中进行完善。  
 
 ## Lyricify 3 (EOL)
 A fantastic app to provide auto-scrolling lyrics for [Spotify](https://www.spotify.com), [iTunes](https://music.apple.com), [Music Center](https://www.sony.com/electronics/support/articles/MC4PC020001), [QQ Music](https://y.qq.com), [Netease Cloud Music](https://music.163.com), and [YesPlayMusic](https://github.com/qier222/YesPlayMusic).  
@@ -32,13 +36,6 @@ A fantastic app to provide auto-scrolling lyrics for [Spotify](https://www.spoti
 
 Welcome to share feedbacks and suggestions. You can make contributions by translating Lyricify into more languages, xaml files are in https://github.com/WXRIW/Lyricify-App/tree/main/i18n .  
 欢迎反馈 bug 和建议！你可以通过把 Lyricify 翻译成更多语言来做贡献。
-
-### 重要通知
-#### 各位 Lyricify 用户，即日起提交的错误歌词反馈将暂时不受理，目前忙着 4.0 全新版本的开发，尽情谅解，感谢您对 Lyricify 的支持！
-如果有其他问题，可以在群里反馈  
-如果有 bug 或者是建议，可以在 Issues 里提交。
-
-距离 4.0 的发布还有一段时间，希望各位可以理解，因为我想给各位用户交上一份接近完美的答卷，而不是 3.x 这种 Bug 满天飞的东西。4.0 的有些功能是我引以为傲的，也很想尽快让各位用上。
 
 ### Coming 2022
 新的一年，新的期盼，新的 Lyricify！  
