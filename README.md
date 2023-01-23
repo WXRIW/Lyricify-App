@@ -12,8 +12,6 @@
 A fantastic app to provide auto-scrolling lyrics and additional functions for [Spotify](https://www.spotify.com).  
 一款为 Spotify 提供滚动歌词和更多功能的软件。
 
-**Lyricify 将于 2023 年 1 月 22 日 00:00 (GMT +8) 正式发布**  
-
 *需要注意的是： Lyricify for Spotify 4.0 仅支持 Spotify！*  
 
 点击这里查看 [Lyricify 4 使用指南](/docs/Lyricify%204)  

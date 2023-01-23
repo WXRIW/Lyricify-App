@@ -69,7 +69,7 @@
       "karaoke_style_enable_animation": true, // 启用卡拉 OK 模式的动画
       "karaoke_style_float": true, // 启用上浮动画
       "karaoke_style_float_height": -1.0, // 上浮高度，默认值为 2.0，-1.0 表示使用默认值
-      "karaoke_style_progress_width": "NaN", // 过渡宽度，默认为 30，iOS 设备上默认值约为 20，Android 设备上默认值约为 100，NaN 表示使用默认值
+      "karaoke_style_progress_width": "NaN", // 过渡宽度，默认为 25，iOS 设备上默认值约为 20，Android 设备上默认值约为 100，NaN 表示使用默认值
       "duet_view": true, // 对唱视图
       "magic_strip_tutorial": true, // 显示秒控条教程
       "enable_traditional_entry": false, // 显示菜单中 传统 Apple Music 歌词模式 的入口 (即 Lyricify 3 中的 Apple Music 歌词)
