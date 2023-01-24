@@ -335,7 +335,7 @@
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese">Prefer Simplified Chinese</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese.Description">Chinese characters will be converted into Traditional Chinese if you toggled off this option</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">Show explicit lyrics</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics.Description">By turning this off, explicit words will be replaced with asterisks</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics.Description">By turning off, explicit words will be replaced with asterisks</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source">Source</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.Description">Lyricify works the best with QQ Music source, some Lyricify features might not be available when using Netease Cloud Music source</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.QQFirst">QQ Music first</system:String>
@@ -349,7 +349,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics">Blur lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics.Description">Enable blur effect on lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">Blur level</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Set blur level (Default level on iPadOS in horizontal mode is 3, on iPasOS in vertical mode or iOS is 5)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Set blur level (Default level on iPadOS in horizontal mode is 3, on iPadOS in vertical mode or iOS is 5)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">Level</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">Bold Text</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">Use bold text in Apple Music Lyrics</system:String>
@@ -381,27 +381,27 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Byland mode</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Byland or Island, it's up to you! Different styles enjoys different features</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dynamic Lyrics Island will automatically disappear at your cursor entrance in Byland mode, but in Island mode, you can you your cursor to move the island. &#x000A;You will be able to close Dynamic Lyrics Island by right click menu in Island Mode, but in Byland mode, you can only close by main menu or hotkey.</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dynamic Lyrics Island will automatically disappear at your cursor entrance in Byland mode, but in Island mode, you can use your cursor to move the island. &#x000A;You will be able to close Dynamic Lyrics Island by right click menu in Island Mode, but in Byland mode, you can only close by main menu or hotkey.</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">Always show two lines</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">Always show two line of lyrics even when translation is not available</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">Always show two lines of lyrics even when translation is not available</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText">Bold Text</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText.Description">Use bold text in Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode">Karaoke mode</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode.Description">Have you ever seen lyrics shining?</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide">Auto hide</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">By turning this on, Dynamic Lyrics Island will be hidden at pause</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">By turning on, Dynamic Lyrics Island will be hidden at pause</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">Fullscreen hide</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">Hide Dynamic Lyrics Island when you have program running at fullscreen mode</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">Opacity</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">Desktop Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Due-Line mode</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">By turning this off, only one line of lyrics will be displayed</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">By turning off, only one line of lyrics will be displayed</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation">Lyrics switching animation</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation.Description">Play animation when switching to another lyrics line</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode">Karaoke mode</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode.Description">Get karaoke style of lyrics display</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide">Auto hide</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">By turning this on, Desktop Lyrics will be hidden at pause</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">By turning on, Desktop Lyrics will be hidden at pause</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide">Fullscreen hide</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide.Description">Hide Desktop Lyrics when you have program running at fullscreen mode</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">Opacity</system:String>
@@ -935,6 +935,7 @@
     <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">Auto search</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Fail.Version">Current version is out of date, please get an update</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">Successfully marked on server</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Exist">Lyrics has already been marked</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">Failed, this might be an internal error</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Network">Something's wrong with Lyricify's server or your network</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">Failed due to empty lyrics, this might be an internal error</system:String>

@@ -356,7 +356,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode">卡拉 OK 模式</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Description">是噠，現在你可以在 Apple Music 歌詞中使用卡拉 OK 樣式的歌詞</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK">禁用 CJK 歌詞的卡拉 OK 樣式</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK.Description">中日韓歌詞會使用更多資源來顯示，禁用可能</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK.Description">中日韓歌詞會使用更多資源來顯示，禁用可提高動畫性能</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation">啟用額外的動畫</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Description">更好的動畫，更好的體驗</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">上浮動畫</system:String>
@@ -935,6 +935,7 @@
     <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">自動搜索</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Fail.Version">當前版本已過時，請更新</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">成功在伺服器上標記</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Exist">歌詞已經被標記</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">標記失敗，這可能是內部錯誤</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Network">Lyricify 的服務器或您的網路出了點問題</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">標記失敗，原因是空歌詞，這可能是內部錯誤</system:String>

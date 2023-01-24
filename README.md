@@ -22,6 +22,9 @@ https://t.me/lyricify
 **QQ Group / QQ 群:**  
 [点击链接加入群聊【Lyricify 用户群 3】（群号：515098369）](https://jq.qq.com/?_wv=1027&k=nUr4jHVU)
 
+**Reserved Download Link / 备用下载地址:**  
+https://wxriw.lanzoux.com/b015qcwob
+
 ## Lyricify Mobile
 Lyricify Mobile 为 Lyricify 家族的移动端，目前安卓版已经发布，iOS 版请耐心等待。  
 安卓版可在这里下载： https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.1.0  

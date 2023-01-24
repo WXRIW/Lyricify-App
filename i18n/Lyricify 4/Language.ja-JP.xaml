@@ -271,7 +271,7 @@
     <system:String x:Key="String.Page.About.References.Apache2.Brackets">(Apache ライセンス 2.0)</system:String>
     <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(LGPL ライセンス 2.1)</system:String>
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(ライセンスなし)</system:String>
-     <system:String x:Key="String.Page.About.CopyrightClaiming">著作権について</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming">著作権について</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">Copyright © 2023 WXRIW, All Rights Reserved</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Main Window UI, Mobile UI Fullscreen, Spotify Circular Copyright © Spotify AB</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music Lyrics UI, SF Pro, PingFang SC Copyright © Apple Inc.</system:String>
@@ -782,7 +782,7 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">Netease Cloud Music Song Id または共有リンクで歌詞をインポートする</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit">編集</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">高度な歌詞編集</system:String>
-     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify">Lyricify Lyrics Vault</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify">Lyricify Lyrics Vault</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit">インポートと編集</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Description">Lyricify Lyrics Vault で歌詞を編集する</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention" xml:space="preserve">注意：</system:String>
@@ -946,7 +946,7 @@
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.EmptyUpload">アップロードが空だ</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Part">一部のアップロードに失敗した。しばらくしてからもう一度お試してください</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Denied">あなたのマークリクエストは拒否された</system:String>
-     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Locked">このトラックはロックされています</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Locked">このトラックはロックされています</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Network">アップロードに失敗しました。ネットワークの問題が可能性があります</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.ServerException">アップロードに失敗しました。これはサーバーエラーだ</system:String>
 

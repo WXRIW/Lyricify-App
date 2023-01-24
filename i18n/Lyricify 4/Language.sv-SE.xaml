@@ -349,7 +349,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics">Oskärpa texter</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics.Description">Aktivera oskärpa effekt på texter</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">Skärmnivå</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Ställ in oskärpa nivå (standardnivå på iPadOS i horisontellt läge är 3, på iPasOS i vertikalt läge eller iOS är 5)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Ställ in oskärpa nivå (standardnivå på iPadOS i horisontellt läge är 3, på iPadOS i vertikalt läge eller iOS är 5)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">Nivå</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">Fet text</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">Använd fet text i Apple Music Lyrics</system:String>

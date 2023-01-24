@@ -349,7 +349,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics">Flouter les paroles</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics.Description">Activer l'effet de flou sur les paroles</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">Niveau de flou</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Définir le niveau de flou (le niveau par défaut sur iPadOS en mode horizontal est 3, sur iPasOS en mode vertical ou iOS est 5)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Définir le niveau de flou (le niveau par défaut sur iPadOS en mode horizontal est 3, sur iPadOS en mode vertical ou iOS est 5)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">Niveau</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">Texte en gras</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">Utiliser du texte en gras dans Apple Music Lyrics</system:String>

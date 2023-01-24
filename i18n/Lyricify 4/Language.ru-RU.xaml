@@ -349,7 +349,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics">Размытие текста</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics.Description">Включить эффект размытия текста</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">Уровень размытия</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Установить уровень размытия (уровень по умолчанию в iPadOS в горизонтальном режиме — 3, в iPasOS в вертикальном режиме или iOS — 5)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Установить уровень размытия (уровень по умолчанию в iPadOS в горизонтальном режиме — 3, в iPadOS в вертикальном режиме или iOS — 5)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">Уровень</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">Жирный текст</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">Использовать жирный шрифт в текстах песен Apple Music</system:String>
