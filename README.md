@@ -27,7 +27,7 @@ https://wxriw.lanzoux.com/b015qcwob
 
 ## Lyricify Mobile
 Lyricify Mobile 为 Lyricify 家族的移动端，目前安卓版已经发布，iOS 版请耐心等待。  
-安卓版可在这里下载： https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.1.0  
+安卓版可在这里下载： https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.2.0  
   
 注意，Lyricify Mobile 里如果遇到歌词不正确的情况，可以在 Lyricify 4 的歌词管理中进行完善。  
 
