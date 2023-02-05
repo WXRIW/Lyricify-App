@@ -14,7 +14,7 @@ A fantastic app to provide auto-scrolling lyrics and additional functions for [S
 
 *需要注意的是： Lyricify for Spotify 4.0 仅支持 Spotify！*  
 
-点击这里查看 [Lyricify 4 使用指南](/docs/Lyricify%204)  
+点击这里查看 [Lyricify 4 使用指南](/docs/Lyricify%204/README.md)  
 
 **Telegram Group / Telegram 群:**  
 https://t.me/lyricify
@@ -28,6 +28,8 @@ https://wxriw.lanzoux.com/b015qcwob
 ## Lyricify Mobile
 Lyricify Mobile 为 Lyricify 家族的移动端，目前安卓版已经发布，iOS 版请耐心等待。  
 安卓版可在这里下载： https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.2.0  
+
+点击这里查看 [Lyricify Mobile 使用指南](/docs/Lyricify%20Mobile/README.md)  
   
 注意，Lyricify Mobile 里如果遇到歌词不正确的情况，可以在 Lyricify 4 的歌词管理中进行完善。  
 
