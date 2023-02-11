@@ -130,6 +130,8 @@
     <system:String x:Key="String.Page.Search.Title.Search">搜索</system:String>
     <system:String x:Key="String.Page.Search.Title.Lyrics">歌詞</system:String>
     <system:String x:Key="String.Page.Search.Title.Availability">可用性</system:String>
+    <system:String x:Key="String.Page.Search.429Error">超出 API 速率限制 (429 錯誤)</system:String>
+    <system:String x:Key="String.Page.Search.Retry">重試</system:String>
     <system:String x:Key="String.Page.Search.Search.SearchBar.PlaceHolder">搜索歌曲、藝人、專輯或歌單</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Songs">歌曲</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Artists">藝人</system:String>
@@ -378,6 +380,8 @@
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Lyricify 全屏</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics">模糊歌詞</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics.Description">在歌詞上啟用模糊效果</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo">彩色標誌</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo.Description">使用彩色 Lyricify 標誌，而不是單色 Lyricify 標誌</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">靈動詞島</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">靈動大陸模式</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">島還是陸，你來決定！不同的樣式有著不同的功能</system:String>
@@ -528,6 +532,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">登錄到 Spotify 網頁版</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.RefreshPlaybackInfo">刷新 Spotify 播放資訊</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CopyRefreshToken">複製 Refresh Token</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.MediaSessionStatus">Media Session 狀態</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.ChangeLyricifyPassword">修改 Lyricify 帳戶密碼</system:String>
 
     <system:String x:Key="String.Menu.MainWindow.Main.About">關於 &amp; 幫助</system:String>
@@ -564,6 +569,7 @@
 
     <!--Dynamic Lyrics Island-->
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">按兩下以隱藏 2s</system:String>
+    <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">水準居中</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">關閉</system:String>
 
     <!--Apple Music Lyrics-->
@@ -644,6 +650,11 @@
     <system:String x:Key="String.Windows.Welcome.Settings.Button.Continue">繼續</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Title">是時候在你的網頁流覽器中進行 Spotify 授權了</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.AuthFinish">Spotify 授權完成，請再等待幾秒</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble">登錄時遇到問題？</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink">網頁流覽器沒有打開：</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink.Help">複製 Spotify 授權連結</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink">成功的授權未被檢測到：</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink.Help">手動輸入授權回檔連結</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Button.Cancel">取消</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Title">Lyricify 即將關閉</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Button.Retry">重試</system:String>
@@ -652,9 +663,10 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Retry">重試</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Close">關閉</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Title">成功連接 Spotify！</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">讓我們開啟 Lyricify 之旅吧。</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">坐和放寬，讓我們開啟 Lyricify 之旅吧。</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.WelcomeBack">歡迎回到 Lyricify！</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">你是第 {0:N0} 位 Lyricify 用戶</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.FailedToRegister">在 Lyricify 伺服器上註冊失敗。伺服器端的功能可能會被限制。重新登錄可能會解決此問題。</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">出發</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset">預設配置</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">默認</system:String>
@@ -822,6 +834,17 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Lyrics">歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">翻譯</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">添加翻譯</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyrics">導入 Apple Music 歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">獲取 QRC 歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">逐字行創造器</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">逐字行移動器</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.QrcSpaceMove">將頭部空格移至尾部</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Apple Music 歌詞導入</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.EnterIdOrLink">輸入 ID 或連結</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet">獲取歌詞失敗</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">未找到歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">這些歌詞不是逐字的，繼續導入？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">將繁體中文轉換為簡體中文？</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor">原始檔編輯器</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">無法反序列化，檢查你的修改 (是) 或關閉而不保存 (否)？</system:String>
 
@@ -977,6 +1000,8 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.Timeout">逾時錯誤，請稍後再試</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Http 請求錯誤，請稍後再試</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed">Lyricify 將被關閉</system:String>
+    <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed.Wrong">出了一些問題，Lyricify 將關閉。</system:String>
+    <system:String x:Key="String.Messages.MainWindow.SpotifyAccount.Error.Relogin">你的 Spotify 帳戶有問題，嘗試重新登錄？</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.NetworkIssue">網路問題。請檢查你的互聯網連接</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.TryToRelogin">請嘗試重新登錄</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.SomethingsWrong">出了一些問題，請檢查你的互聯網連接或聯繫開發者</system:String>
@@ -991,6 +1016,8 @@
     <system:String x:Key="String.Messages.Operation.Spotify.Remove.Library">已從音樂庫中刪除</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Add.Queue">已添加至播放佇列</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Add.Queue.Fail">未成功添加至播放佇列</system:String>
+
+    <system:String x:Key="String.Messages.Operation.Spotify.NoDevice">未找到可用設備，請開啟你的 Spotify 用戶端</system:String>
 
     <system:String x:Key="String.Messages.Operation.LinkCopied">已將連結複製至剪貼板</system:String>
     <system:String x:Key="String.Messages.Operation.Copied">已複製至剪貼板</system:String>

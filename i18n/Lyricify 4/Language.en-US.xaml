@@ -130,6 +130,8 @@
     <system:String x:Key="String.Page.Search.Title.Search">Search</system:String>
     <system:String x:Key="String.Page.Search.Title.Lyrics">Lyrics</system:String>
     <system:String x:Key="String.Page.Search.Title.Availability">Availability</system:String>
+    <system:String x:Key="String.Page.Search.429Error">API rate limit exceeded (429 Error)</system:String>
+    <system:String x:Key="String.Page.Search.Retry">Retry</system:String>
     <system:String x:Key="String.Page.Search.Search.SearchBar.PlaceHolder">Search for songs, artists, albums and playlists</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Songs">Songs</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Artists">Artists</system:String>
@@ -378,6 +380,8 @@
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Lyricify Fullscreen</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics">Blur lyrics</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics.Description">Enable blur effect on lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo">Colorful logo</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo.Description">Use colorful Lyricify logo instead of single color Lyricify logo</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Byland mode</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Byland or Island, it's up to you! Different styles enjoys different features</system:String>
@@ -528,6 +532,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">Login to Spotify Web</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.RefreshPlaybackInfo">Refresh Spotify Playback Info</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CopyRefreshToken">Copy Refresh Token</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.MediaSessionStatus">Media Session Status</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.ChangeLyricifyPassword">Change Lyricify Account Password</system:String>
     
     <system:String x:Key="String.Menu.MainWindow.Main.About">About &amp; Help</system:String>
@@ -564,6 +569,7 @@
 
     <!--Dynamic Lyrics Island-->
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">Double click to hide for 2s</system:String>
+    <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">Align Center</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">Close</system:String>
     
     <!--Apple Music Lyrics-->
@@ -644,6 +650,11 @@
     <system:String x:Key="String.Windows.Welcome.Settings.Button.Continue">Continue</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Title">Now it's time to finish Spotify authorization in your web browser</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.AuthFinish">Spotify authorization finished, please wait for a few more seconds</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble">Having trouble logging in?</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink">Web browser is not opened:</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink.Help">Copy Spotify Authorization Link</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink">Succeeded authorization not detected:</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink.Help">Enter Authorization Callback Link Manually</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Button.Cancel">Cancel</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Title">Lyricify is about to close</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Button.Retry">Retry</system:String>
@@ -652,9 +663,10 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Retry">Retry</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Close">Close</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Title" xml:space="preserve">Successfully connected to Spotify! </system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">Now let's explore Lyricify.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">Now sit back and relax, let's explore Lyricify.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.WelcomeBack">Welcome back to Lyricify!</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">You are No. {0:N0} Lyricify user</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.FailedToRegister">Failed to register on Lyricify server. Server side functions might be limited. A re-login might solve this issue.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">Go</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset">Preset</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">Default</system:String>
@@ -822,6 +834,17 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Lyrics">Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">Translation</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">Add Translation</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyrics">Import Apple Music Lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">Get QRC Lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">Syllable Line Creator</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">Syllable Line Mover</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.QrcSpaceMove">Move head space to the end</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Apple Music Lyrics Import</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.EnterIdOrLink">Enter ID or link</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet">Failed to get lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">Lyrics not found</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">Those lyrics isn't word timing, continue the importation?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">Convert Traditional Chinese to Simplified Chinese?</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor">Raw File Editor</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">Unable to deserialize, review your changes (Yes) or close without saving (No)?</system:String>
     
@@ -977,6 +1000,8 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.Timeout">Timeout exception, retry later</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Http Request Exception, retry later</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed">Lyricify will be closed</system:String>
+    <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed.Wrong">Something is wrong, Lyricify for Spotify will close.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.SpotifyAccount.Error.Relogin">Something is wrong with your Spotify account, try to relogin?</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.NetworkIssue">Network issue. Please check your Internet connection</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.TryToRelogin">Please try to relogin</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.SomethingsWrong">Something's wrong, please check your Internet connection or contact the developer</system:String>
@@ -991,6 +1016,8 @@
     <system:String x:Key="String.Messages.Operation.Spotify.Remove.Library">Removed from Your Library</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Add.Queue">Added to queue</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Add.Queue.Fail">Failed to add to queue</system:String>
+    
+    <system:String x:Key="String.Messages.Operation.Spotify.NoDevice">No available devices found, please open your Spotify client</system:String>
     
     <system:String x:Key="String.Messages.Operation.LinkCopied">Link copied to clipboard</system:String>
     <system:String x:Key="String.Messages.Operation.Copied">Copied to clipboard</system:String>
