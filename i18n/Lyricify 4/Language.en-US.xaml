@@ -799,6 +799,7 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Description">Edit lyrics in Lyricify Lyrics Vault</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention" xml:space="preserve">ATTENTION: </system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention.Content">ONLY use this when lyrics is not available on both QQ Music and Netease Cloud Music.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.Attention">Offset cannot be modified in Media Session disconnected environment.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ">QQ Music</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">Please input QQ Music Song Mid or sharing link to get lyrics from QQ Music.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Input">Wrong QQ Music Song Mid, please check your input.</system:String>

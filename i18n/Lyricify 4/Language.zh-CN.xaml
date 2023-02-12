@@ -799,6 +799,7 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Description">编辑 Lyricify 歌词库中的歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention" xml:space="preserve">注意：</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention.Content">仅允许在 QQ 音乐和网易云音乐均无歌词时使用。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.Attention">未连接 Media Session 的环境中无法修改 Offset。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ">QQ 音乐</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">请输入 QQ 音乐歌曲 Mid 或分享链接以从 QQ 音乐导入歌词。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Input">错误的 QQ 音乐歌曲 Mid，请检查你的输入。</system:String>
