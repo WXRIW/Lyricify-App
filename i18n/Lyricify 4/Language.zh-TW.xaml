@@ -264,6 +264,8 @@
     <system:String x:Key="String.Page.About.LyricsProviders">Lyricify 歌詞庫, QQ 音樂, 網易雲音樂</system:String>
     <system:String x:Key="String.Page.About.Donation">打賞</system:String>
     <system:String x:Key="String.Page.About.Thanklist">感謝列表</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksApple">特別感謝 Apple 獨具匠心的設計</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">特別感謝 Spotify 在音樂流媒體界的貢獻</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">特別感謝 Difer 提供 Spotify Premium 帳號</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksInsiders">特別感謝我們的預覽成員</system:String>
     <system:String x:Key="String.Page.About.Internationalization">國際化</system:String>
@@ -375,6 +377,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial">顯示妙控條教程</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Description">總是在進入 Apple Music 歌詞後顯示妙控條教程</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">隆重推出妙控條 (Magic Strip)！ &#x000A;&#x000A;你可以點擊條狀按鈕來退出 Apple Music 歌詞，&#x000A;向下滑動以最小化，&#x000A;向左或向右滑動以最大化或還原，&#x000A;向上滑動以取消操作。&#x000A;&#x000A;你還可以按下右鍵向上滑動跳到首行歌詞，&#x000A;向下滑動跳到最後一行歌詞，&#x000A;向左或向右滑動跳到當前行，&#x000A;僅右擊則無操作。</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">縮放記憶</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">在 Apple Music 歌詞中恢復縮放記憶</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">啟用傳統版本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">在主菜單中添加 Apple Music 歌詞 (傳統) 入口</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Lyricify 全屏</system:String>

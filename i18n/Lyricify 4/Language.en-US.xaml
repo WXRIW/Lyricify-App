@@ -264,6 +264,8 @@
     <system:String x:Key="String.Page.About.LyricsProviders">Lyricify Lyrics Vault, QQ Music, Netease Cloud Music</system:String>
     <system:String x:Key="String.Page.About.Donation">Donation</system:String>
     <system:String x:Key="String.Page.About.Thanklist">Thanklist</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksApple">Special thanks to Apple for the fascinating and unique design</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">Special thanks to Spotify for its contribution to the whole music streaming industry</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">Special thanks to Difer for providing Spotify Premium account</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksInsiders">Special thanks to our insiders</system:String>
     <system:String x:Key="String.Page.About.Internationalization">Internationalization</system:String>
@@ -375,6 +377,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial">Show Magic Strip tutorial</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Description">Always show the tutorial of Magic Strip after entering Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">Introducing Magic Strip! &#x000A;&#x000A;You can press the strip button to exit Apple Music Lyrics, &#x000A;swipe down to minimize, &#x000A;swipe left or right to maximize or recover, &#x000A;and swipe up to cancel. &#x000A;&#x000A;You can also press your right mouse button to swipe up to go to the first line of lyrics, &#x000A;swipe down to go to the last line of lyrics, &#x000A;swipe left or right to go to current line, &#x000A;and a single right click will do nothing.</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">Zooming restore</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">Restore zooming in Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">Enable traditional version</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">Add entry to Apple Music Lyrics (Traditional) in main menu</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Lyricify Fullscreen</system:String>
