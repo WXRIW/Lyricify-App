@@ -243,6 +243,8 @@ Spotify 没有上传当前的播放信息。这是网络原因，也可能是 Sp
 请检查 Spotify 中 `使用媒体键时显示桌面叠加` 是否开启。  
 注意：Media Session 仅在您使用 Spotify 桌面版 (含 Store 版) 时可用，其他情况下不可用！  
 如果您的 Media Session 出现异常，您还可以尝试重启 Spotify 和 Lyricify。  
+  
+注意：只有 Lyricify 获取到了当前播放信息，才会尝试连接 Media Session！
 
 ## Apple Music 歌词界面卡顿问题
 如果是打开该界面的第一首歌就很卡，那就是你电脑性能不够。可尝试 `已知问题` - `Apple Music 歌词界面卡顿问题` 中的 2, 3, 5, 6 条。不要全屏，因为全屏需要占用很多资源，硬件性能不够就不要去尝试！
