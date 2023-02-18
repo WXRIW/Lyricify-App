@@ -20,6 +20,8 @@ A fantastic app to provide auto-scrolling lyrics and additional functions for [S
 https://t.me/lyricify
 
 **QQ Group / QQ 群:**  
+[点击链接加入群聊【Lyricify 用户群 1】（群号：972282479）](https://jq.qq.com/?_wv=1027&k=hZG8VRV4)
+[点击链接加入群聊【Lyricify 用户群 2】（群号：653663090）](https://jq.qq.com/?_wv=1027&k=l0Sy2aGi)
 [点击链接加入群聊【Lyricify 用户群 3】（群号：515098369）](https://jq.qq.com/?_wv=1027&k=nUr4jHVU)
 
 **Reserved Download Link / 备用下载地址:**  
@@ -36,6 +38,8 @@ Lyricify Mobile 为 Lyricify 家族的移动端，目前安卓版已经发布，
 ## Lyricify 3 (EOL)
 A fantastic app to provide auto-scrolling lyrics for [Spotify](https://www.spotify.com), [iTunes](https://music.apple.com), [Music Center](https://www.sony.com/electronics/support/articles/MC4PC020001), [QQ Music](https://y.qq.com), [Netease Cloud Music](https://music.163.com), and [YesPlayMusic](https://github.com/qier222/YesPlayMusic).  
 一款为 Spotify、iTunes、Music Center、QQ 音乐、网易云音乐、YesPlayMusic 提供滚动歌词的软件。
+
+点击这里查看 [Lyricify 3 使用指南](/docs/Lyricify%203/README.md)  
 
 ## Lyricify 4 界面
 ![image](images/readme/func-lyrics-display.png)
