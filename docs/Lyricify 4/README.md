@@ -318,3 +318,10 @@ Spotify 没有上传当前的播放信息。这是网络原因，也可能是 Sp
 步骤：
 1. 复制电脑浏览器中打开的网址，在手机浏览器中访问，并完成登录和授权。
 2. 完成授权后，手机浏览器会出现一个无法访问的网页，把这个网址粘贴到电脑浏览器中访问，即可完成授权。
+
+## 是否会支持获取其它软件的歌词
+如 Apple Music、iTunes、QQ 音乐、网易云音乐、Music Center、YesPlayMusic 等
+### 导致原因
+Lyricify 4 专为 Spotify 设计，`Lyricify 4` 全称 `Lyricify for Spotify`。
+### 解决方案
+从您当前的音乐软件迁移到全球最大音乐流媒体 Spotify。
