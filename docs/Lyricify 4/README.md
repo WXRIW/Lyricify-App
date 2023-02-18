@@ -324,4 +324,4 @@ Spotify 没有上传当前的播放信息。这是网络原因，也可能是 Sp
 ### 导致原因
 Lyricify 4 专为 Spotify 设计，`Lyricify 4` 全称 `Lyricify for Spotify`。
 ### 解决方案
-从您当前的音乐软件迁移到全球最大音乐流媒体 Spotify。
+从您现有的音乐平台迁移到 Spotify，并转用 Lyricify 4。

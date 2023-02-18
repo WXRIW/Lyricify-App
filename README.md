@@ -20,9 +20,9 @@ A fantastic app to provide auto-scrolling lyrics and additional functions for [S
 https://t.me/lyricify
 
 **QQ Group / QQ 群:**  
-[点击链接加入群聊【Lyricify 用户群 1】](https://jq.qq.com/?_wv=1027&k=hZG8VRV4)（群号：972282479）  
-[点击链接加入群聊【Lyricify 用户群 2】](https://jq.qq.com/?_wv=1027&k=l0Sy2aGi)（群号：653663090）  
-[点击链接加入群聊【Lyricify 用户群 3】](https://jq.qq.com/?_wv=1027&k=nUr4jHVU)（群号：515098369）  
+[点击加入群聊【Lyricify 用户群 1】](https://jq.qq.com/?_wv=1027&k=hZG8VRV4)（群号：972282479）  
+[点击加入群聊【Lyricify 用户群 2】](https://jq.qq.com/?_wv=1027&k=l0Sy2aGi)（群号：653663090）  
+[点击加入群聊【Lyricify 用户群 3】](https://jq.qq.com/?_wv=1027&k=nUr4jHVU)（群号：515098369）  
 
 **Reserved Download Link / 备用下载地址:**  
 https://wxriw.lanzoux.com/b015qcwob

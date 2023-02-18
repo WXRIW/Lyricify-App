@@ -23,12 +23,14 @@
 ### 导致原因
 Lyricify 3 已进入 EOL。
 ### 解决方案
-见 `界面有(te)点(bie)丑`。
+从您现有的音乐平台迁移到 Spotify，并转用 Lyricify 4。
 
 ## 是否会支持 Apple Music (Preview)
 暂无计划。  
 ### 导致原因
 目前完全没有办法获取到 Apple Music Preview 播放的歌曲信息。
+### 解决方案
+从您现有的音乐平台迁移到 Spotify，并转用 Lyricify 4。
 
 ## 界面有(te)点(bie)丑
 是这样的。
