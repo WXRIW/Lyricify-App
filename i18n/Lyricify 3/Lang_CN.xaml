@@ -1,0 +1,327 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    x:Class="Lyricify_WPF.Language_Dictionary.Lang_CN"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="WindowTitle">Lyricify 歌词工具 by WXRIW</system:String>
+    <system:String x:Key="AppName">Lyricify</system:String>
+    <system:String x:Key="Label_LyricsFromQQ">歌词来源：QQ音乐</system:String>
+    <system:String x:Key="Label_LyricsFromNetease">歌词来源：网易云音乐</system:String>
+    <system:String x:Key="Button_QQ_Prev">上一个</system:String>
+    <system:String x:Key="Button_QQ_NEXT">下一个</system:String>
+
+    <!--ContextMenu-->
+    <system:String x:Key="Menu_Window_Main">窗口</system:String>
+    <system:String x:Key="Menu_AlwaysOnTop">总是在最前</system:String>
+    <system:String x:Key="Menu_Expand">横向扩展</system:String>
+    <system:String x:Key="Menu_HideTitle">隐藏标题和控制按钮</system:String>
+    <system:String x:Key="Menu_LightTheme">浅色主题</system:String>
+    <system:String x:Key="Menu_MiniMode">迷你模式</system:String>
+    <system:String x:Key="Menu_SuperMiniMode">桌面歌词</system:String>
+    <system:String x:Key="Menu_ResetWin">重置窗口</system:String>
+    <system:String x:Key="Menu_Zoom_Main">缩放</system:String>
+    <system:String x:Key="Menu_ZoomIn">放大</system:String>
+    <system:String x:Key="Menu_ZoomOut">缩小</system:String>
+    <system:String x:Key="Menu_ResetZoom">重置缩放</system:String>
+    <system:String x:Key="Menu_Spotify_Lyrics">Spotify 歌词 (移动端 UI)</system:String>
+    <system:String x:Key="Menu_Mobile_Scrolling_Lyrics">移动端滚动歌词</system:String>
+    <system:String x:Key="Menu_Spotify_Fullscreen">Spotify 全屏</system:String>
+    <system:String x:Key="Menu_MobileUI_Fullscreen">移动端 UI 全屏</system:String>
+    <system:String x:Key="Menu_AppleMusicLyrics">Apple Music 歌词</system:String>
+    <system:String x:Key="Menu_Adjust_Main">调整</system:String>
+    <system:String x:Key="Menu_DynamicLyricsIsland">灵动词岛</system:String>
+    <system:String x:Key="Menu_Adjust_BackToStart">回到0:00</system:String>
+    <system:String x:Key="Menu_Adjust_Manual">手动（高级）</system:String>
+    <system:String x:Key="Menu_Lyrics_Main">歌词</system:String>
+    <system:String x:Key="Menu_Lyrics_ImportLocalLyrics">导入本地歌词</system:String>
+    <system:String x:Key="Menu_Lyrics_GetFromQQ">通过 songmid 获取歌词 (QQ音乐)</system:String>
+    <system:String x:Key="Menu_Lyrics_GetFromNetease">通过 id 获取歌词 (网易云音乐)</system:String>
+    <system:String x:Key="Menu_Lyrics_Reload">重置</system:String>
+    <system:String x:Key="Menu_Lyrics_Report">错误歌词上报</system:String>
+    <system:String x:Key="Menu_Source_Main">来源</system:String>
+    <system:String x:Key="Menu_Source_AlwaysQQ">总是来自QQ音乐</system:String>
+    <system:String x:Key="Menu_GetFrom_Main">获取</system:String>
+    <system:String x:Key="Menu_GetFrom_Spotify">Spotify</system:String>
+    <system:String x:Key="Menu_GetFrom_QQ">QQ音乐</system:String>
+    <system:String x:Key="Menu_GetFrom_Netease">网易云音乐</system:String>
+    <system:String x:Key="Menu_GetFrom_MusicCenter">Music Center</system:String>
+    <system:String x:Key="Menu_Download_Main">下载</system:String>
+    <system:String x:Key="Menu_DL_Lyrics">当前歌词</system:String>
+    <system:String x:Key="Menu_DL_Song">当前歌曲</system:String>
+    <system:String x:Key="Menu_DL_Spotify">Spotify 安装包</system:String>
+    <system:String x:Key="Menu_Settings_Main">设置</system:String>
+    <system:String x:Key="Menu_Set_RestoreAtStart">保存设置及窗口外观信息</system:String>
+    <system:String x:Key="Menu_Set_Manual_Advanced">手动 (高级)</system:String>
+    <system:String x:Key="Menu_Set_ResetSettings">重置所有设置</system:String>
+    <system:String x:Key="Menu_Language_Main">语言</system:String>
+    <system:String x:Key="Menu_About">关于</system:String>
+    <system:String x:Key="Menu_AboutLyricify">关于 Lyricify</system:String>
+    <system:String x:Key="Menu_GitHubGuide">Lyricify 3 使用指南</system:String>
+    <system:String x:Key="Menu_Follow_Spotify">在 Spotify 上关注我</system:String>
+    <system:String x:Key="Menu_Follow_Netease">在网易云音乐上关注我</system:String>
+    <system:String x:Key="Menu_Follow_Bilibili">在哔哩哔哩上关注我</system:String>
+    <system:String x:Key="Menu_Join_TelegramGroup">加入 Telegram 群组</system:String>
+    <system:String x:Key="Menu_Join_TelegramChannel">订阅 Telegram 频道</system:String>
+    <system:String x:Key="Menu_Join_QQGroup">加入 QQ 群组</system:String>
+    <system:String x:Key="Menu_WXRIW_Web">访问官网</system:String>
+    <system:String x:Key="Menu_Donate">打赏</system:String>
+    <system:String x:Key="Menu_Lyrics_ShowChineseTranslation">显示中文翻译 (Beta)</system:String>
+    <system:String x:Key="Menu_Lyrics_ShowChineseTranslation_BlankLine">两句歌词间添加空行</system:String>
+    <system:String x:Key="Menu_Lyrics_ManualSearch">搜索歌词</system:String>
+    <system:String x:Key="Menu_Lyrics_AllowExplicit">允许敏感词</system:String>
+    <system:String x:Key="Menu_Lyrics_ShowTitleLines">显示标题和信息行</system:String>
+
+    <system:String x:Key="UploadMenu_Currect">标记为正确歌词</system:String>
+    <system:String x:Key="UploadMenu_Instrumental">标记为纯音乐</system:String>
+    <system:String x:Key="UploadMenu_Delete">删除上次标记</system:String>
+
+    <!--Menu - Account-->
+    <system:String x:Key="Menu_Account">账户</system:String>
+    <system:String x:Key="Menu_LoginAs">登录为：</system:String>
+    <system:String x:Key="Menu_LogOut">退出登录</system:String>
+    <system:String x:Key="Menu_LogIn">登录</system:String>
+    <system:String x:Key="Menu_SpotifyWeb">Spotify 网页版</system:String>
+    <system:String x:Key="Menu_SyncFrequency">同步频率</system:String>
+    <system:String x:Key="Text_SyncFrequency_Notice">请输入一个整数(单位：秒) (1-10, 默认值为2)</system:String>
+    <system:String x:Key="Text_SyncFrequency_WrongInput">错误的输入。</system:String>
+    <system:String x:Key="Menu_SetGlobalTimeDiff">设置整体时间差</system:String>
+    <system:String x:Key="Text_SetGlobalTimeDiff_Notice">请输入一个整数或小数(单位：秒) (-5至5, 默认值为0)</system:String>
+    <system:String x:Key="Text_SetGlobalTimeDiff_WrongInput">错误的输入。</system:String>
+    <system:String x:Key="Menu_RefreshAccessToken">刷新 access-token</system:String>
+    <system:String x:Key="Menu_BackgroundCover">禁用动态背景</system:String>
+    <system:String x:Key="Text_Millisecond">毫秒</system:String>
+    <system:String x:Key="Text_Second">秒</system:String>
+    <system:String x:Key="Button_Save">保存</system:String>
+    <system:String x:Key="Button_Cancel">取消</system:String>
+    <system:String x:Key="Button_Apply">应用</system:String>
+    <system:String x:Key="CheckBox_EnableWebPlayerOptimization">启用 Web Player 优化</system:String>
+    <system:String x:Key="Text_GlobalTimeDifference">整体时间差</system:String>
+    <system:String x:Key="Text_Grid_WebPlayerOptimizationCover_1">当</system:String>
+    <system:String x:Key="Text_Grid_WebPlayerOptimizationCover_2">Web Player 优化</system:String>
+    <system:String x:Key="Text_Grid_WebPlayerOptimizationCover_3">启用时，无法修改！</system:String>
+
+    <!--Follow Feed-->
+    <system:String x:Key="Text_FollowFeed">新歌速递</system:String>
+    <system:String x:Key="Text_FollowFeed_SubTitle">这里有你关注歌手的新歌和更多。</system:String>
+    <system:String x:Key="Text_FollowFeed_CheckingNotice1">我们正在加载信息，这不会花很长时间...</system:String>
+    <system:String x:Key="Text_FollowFeed_CheckingNotice2">这取决于你关注了多少歌手。</system:String>
+    <system:String x:Key="Text_FollowFeed_ReloginRequest">请重新登录以启用本功能！</system:String>
+    <system:String x:Key="Text_FollowFeed_SearchNotice">在新歌速递中搜索</system:String>
+    <system:String x:Key="Text_FollowFeed_Album">专辑</system:String>
+    <system:String x:Key="Text_FollowFeed_EP">迷你专辑</system:String>
+    <system:String x:Key="Text_FollowFeed_Single">单曲</system:String>
+    <system:String x:Key="Text_FollowFeed_AndMore">和另外 {0} 位</system:String>
+    <system:String x:Key="Text_FollowFeed_NumberSongs">{0} 首歌</system:String>
+    <system:String x:Key="Text_FollowFeed_DayAgo">{0} 天前</system:String>
+    <system:String x:Key="Text_FollowFeed_DaysAgo">{0} 天前</system:String>
+    <system:String x:Key="Text_FollowFeed_HrAgo">{0} 小时前</system:String>
+    <system:String x:Key="Text_FollowFeed_HrsAgo">{0} 小时前</system:String>
+    <system:String x:Key="Text_FollowFeed_MinAgo">{0} 分钟前</system:String>
+    <system:String x:Key="Text_FollowFeed_MinsAgo">{0} 分钟前</system:String>
+    <system:String x:Key="Text_FollowFeed_SecAgo">{0} 秒前</system:String>
+    <system:String x:Key="Text_FollowFeed_SecsAgo">{0} 秒前</system:String>
+    <system:String x:Key="Text_FollowFeed_YearTime">yyyy 年 M 月 d 日</system:String>
+    <system:String x:Key="Text_FollowFeed_MonthTime">M 月 d 日</system:String>
+    <system:String x:Key="Text_FollowFeed_YearOnlyTime">{0} 年</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_Title">设置</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_CloseToApplyNotice">重新打开新歌速递后将会应用设置。</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan">时间跨度</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_Notice">选择你的时间跨度</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_Choice1Week">1 周</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_Choice1Month">1 个月</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_Choice3Month">3 个月</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_Choice6Month">6 个月 (默认)</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_Choice1Year">1 年</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_Choice2Year">2 年</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_Choice5Year">5 年</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_TimeSpan_ChoiceAll">从大爆炸开始</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_AutoCheck">自动检查</system:String>
+    <system:String x:Key="Text_FollowFeed_Settings_AutoCheckNotice">启用自动检查 - 当我们检查到有新歌时，会在主窗体上显示新歌速递图标。</system:String>
+
+    <!--Listening Analysis-->
+    <system:String x:Key="Text_ListeningAnalysis">听歌分析</system:String>
+    <system:String x:Key="TabItem_ListeningAnalysis_1Month">1 个月</system:String>
+    <system:String x:Key="TabItem_ListeningAnalysis_6Month">6 个月</system:String>
+    <system:String x:Key="TabItem_ListeningAnalysis_AllTimes">所有时间</system:String>
+    <system:String x:Key="Text_ListeningAnalysis_Settings_CloseToApplyNotice">重新打开听歌分析或 Lyricify 后将会应用设置。</system:String>
+    <system:String x:Key="Text_ListeningAnalysis_Settings_Backup">备份</system:String>
+    <system:String x:Key="Text_ListeningAnalysis_Settings_BackupTop">将你的听歌分析数据保存到你的电脑</system:String>
+    <system:String x:Key="Text_ListeningAnalysis_Settings_BackupSavedTracks">将你已点赞的歌曲备份到你的电脑</system:String>
+    <system:String x:Key="Text_Settings_BackupAtStartup">在打开 Lyricify 时自动将你已点赞的歌曲备份到你的电脑</system:String>
+    <system:String x:Key="Button_ListeningAnalysis_Settings_OpenBackupFolder">打开备份文件夹</system:String>
+    <system:String x:Key="Text_ListeningAnalysis_YourTopArtists">你最爱的歌手</system:String>
+    <system:String x:Key="Text_ListeningAnalysis_YourTopTracks">你最爱的歌曲</system:String>
+
+    <!--Audio Features-->
+    <system:String x:Key="AudioFeatures_Album">专辑</system:String>
+    <system:String x:Key="AudioFeatures_Release_date">发布日期</system:String>
+    <system:String x:Key="AudioFeatures_Track_number">曲目编号</system:String>
+    <system:String x:Key="AudioFeatures_ISRC">ISRC</system:String>
+    <system:String x:Key="AudioFeatures_ID">ID</system:String>
+    <system:String x:Key="AudioFeatures_AlbumID">专辑 ID</system:String>
+    <system:String x:Key="AudioFeatures_Duration">时长</system:String>
+    <system:String x:Key="AudioFeatures_Pitch_class">音级</system:String>
+    <system:String x:Key="AudioFeatures_Mode">模式</system:String>
+    <system:String x:Key="AudioFeatures_Time_Signature">拍子记号</system:String>
+    <system:String x:Key="AudioFeatures_Acousticness">Acousticness</system:String>
+    <system:String x:Key="AudioFeatures_Danceability">Danceability</system:String>
+    <system:String x:Key="AudioFeatures_Energy">Energy</system:String>
+    <system:String x:Key="AudioFeatures_Instrumentalness">Instrumentalness</system:String>
+    <system:String x:Key="AudioFeatures_Liveness">Liveness</system:String>
+    <system:String x:Key="AudioFeatures_Loudness">Loudness</system:String>
+    <system:String x:Key="AudioFeatures_Speechiness">Speechiness</system:String>
+    <system:String x:Key="AudioFeatures_Valence">Valence</system:String>
+    <system:String x:Key="AudioFeatures_Tempo">节拍数</system:String>
+
+    <!--Open Spotify with Lyricify-->
+    <system:String x:Key="Menu_Set_OpenSpotifyWithLyricify">打开 Lyricify 的同时打开 Spotify (Beta)</system:String>
+    <system:String x:Key="OpenSpotify_OpenFileDialog_Title">请找到并选中 Spotify 的快捷方式</system:String>
+    <system:String x:Key="OpenSpotify_OpenFileDialog_Finished">设置完成！请关闭 Lyricify 和 Spotify，并重新打开试试看吧！</system:String>
+    <system:String x:Key="OpenSpotify_OpenFileDialog_Failed">设置时出错。</system:String>
+    <system:String x:Key="OpenSpotify_FailedToStart">你设置了打开 Lyricify 的同时打开 Spotify ，但这一次我们没能成功为你打开 Spotify。</system:String>
+    
+    <!--Ink Canvas-->
+    <system:String x:Key="InkCanvas_Update_Lyrics">刷新歌词</system:String>
+    <system:String x:Key="InkCanvas_Exit">退出</system:String>
+    <system:String x:Key="InkCanvas_Clear">清空</system:String>
+
+    <!--Minimize to Tray-->
+    <system:String x:Key="Menu_MinimizeToTray">最小化到通知栏</system:String>
+    <system:String x:Key="Text_MinimizedToTray">Lyricify 正在后台运行</system:String>
+    
+    <!--Super Mini-Mode-->
+    <system:String x:Key="Menu_Opacity_Main">透明度</system:String>
+    <system:String x:Key="Menu_Text_Color">文字颜色</system:String>
+    <system:String x:Key="Menu_Shadow">阴影</system:String>
+    <system:String x:Key="Menu_Shadow_Show">显示阴影效果</system:String>
+
+    <!--Mobile UI-->
+    <system:String x:Key="MobileUI_Lyrics">歌词</system:String>
+    <system:String x:Key="Menu_Background_Color">背景色</system:String>
+    <system:String x:Key="Menu_Background_Default">默认</system:String>
+    <system:String x:Key="Menu_Background_ColorPicker">自定义</system:String>
+    <system:String x:Key="Menu_Background_AutoChange">自动更换</system:String>
+
+    <!--ToolTips-->
+    <system:String x:Key="ToolTip_OnTop">总是在最前</system:String>
+    <system:String x:Key="ToolTip_Download">保存当前歌词</system:String>
+    <system:String x:Key="ToolTip_Upload">标记当前歌词</system:String>
+    <system:String x:Key="ToolTip_labelCurrentLine">当前行</system:String>
+    <system:String x:Key="ToolTip_AudioFeatures">音频特性</system:String>
+    <system:String x:Key="ToolTip_AdjustTime">调整整体时间差</system:String>
+    <system:String x:Key="ToolTip_RefreshArtwork">刷新专辑图片 (重新打开后)</system:String>
+
+    <!--About-->
+    <system:String x:Key="About_Title">关于 Lyricify</system:String>
+    <system:String x:Key="About_Copyright">版权所有 © 2023 WXRIW</system:String>
+    <system:String x:Key="About_Provider_Title">歌词提供方</system:String>
+    <system:String x:Key="About_Provider_Content">WXRIW, QQ音乐, 网易云音乐</system:String>
+    <system:String x:Key="About_Close">关闭</system:String>
+    <system:String x:Key="About_FollowMe">关注我</system:String>
+
+    <!--Save Lyrics-->
+    <system:String x:Key="SaveLyrics_WindowTitle">保存歌词</system:String>
+    <system:String x:Key="SaveLyrics_Style">样式</system:String>
+    <system:String x:Key="SaveLyrics_Style_LyricifyStyle">Lyricify 样式</system:String>
+    <system:String x:Key="SaveLyrics_Style_SpotifyMobileStyle">Spotify 移动端样式</system:String>
+    <system:String x:Key="SaveLyrics_Btn_ChangeTheme">更改主题</system:String>
+    <system:String x:Key="SaveLyrics_Theme">主题</system:String>
+    <system:String x:Key="SaveLyrics_Section">选区</system:String>
+    <system:String x:Key="SaveLyrics_Section_All">所有</system:String>
+    <system:String x:Key="SaveLyrics_Section_PlayingLines">正在播放</system:String>
+    <system:String x:Key="SaveLyrics_Resolution">分辨率</system:String>
+    <system:String x:Key="SaveLyrics_Resolution_Low">低</system:String>
+    <system:String x:Key="SaveLyrics_Resolution_High">高</system:String>
+    <system:String x:Key="SaveLyrics_Resolution_HighPlus">高+</system:String>
+    <system:String x:Key="SaveLyrics_Btn_Copy">复制</system:String>
+    <system:String x:Key="SaveLyrics_Btn_Save">保存</system:String>
+    <system:String x:Key="SaveLyrics_Btn_EnableEditing">启用编辑</system:String>
+    <system:String x:Key="SaveLyrics_Btn_DisableEditing">禁用编辑</system:String>
+    <system:String x:Key="SaveLyrics_Btn_LrcBannedNotice">这些歌词不能被保存，试试其它的吧。</system:String>
+
+    <!--WelcomeWindow-->
+    <system:String x:Key="Text_WelcomeToLyricify">欢迎使用 Lyricify!</system:String>
+    <system:String x:Key="Text_Welcome1">感谢您选择 Lyricify，这也许是您第一次尝试 Lyricify，如果有任何问题或建议，请告诉我们！</system:String>
+    <system:String x:Key="Text_Welcome2">Lyricify 为 Spotify 用户提供令人惊叹的体验！未登录状况下功能可能会受到限制。</system:String>
+    <system:String x:Key="Text_Welcome4">对于 Spotify 用户，我们建议您使用专为 Spotify 设计的全新 Lyricify 4。对于其他用户，单击“继续并跳过登录”以继续。</system:String>
+    <system:String x:Key="Text_ChooseLanguage">请选择要用于此应用的语言</system:String>
+    <system:String x:Key="Text_Welcome3">单击"继续"按钮即表示同意 Lyricify 的使用协议。</system:String>
+    <system:String x:Key="Btn_Login">继续并登录</system:String>
+    <system:String x:Key="Btn_NotLogin">继续并跳过登录</system:String>
+    <system:String x:Key="CheckBox_DontShowAgain">不再显示此页</system:String>
+    <system:String x:Key="ToolTip_ButtonReopenLink">右击以复制登录链接！</system:String>
+
+    <system:String x:Key="Text_ContinueOnBrowser">请在浏览器上完成登录操作。</system:String>
+    <system:String x:Key="Text_LoginGuide_1">按照网页上的说明操作，然后返回此处填写文本框。</system:String>
+    <system:String x:Key="Text_LoginGuide_2">如果您已完成登录，请把复制完整的网址复制到下方</system:String>
+    <system:String x:Key="Btn_Continue">继续</system:String>
+    <system:String x:Key="Btn_ReopenWebPage">重新打开网页</system:String>
+
+    <system:String x:Key="Btn_SwitchMode">使用本地浏览器登录</system:String>
+    <system:String x:Key="Text_Loading">加载中...</system:String>
+    <system:String x:Key="Text_Loading_Tip" xml:space="preserve">这将花费一段时间！&#13;&#10;这取决于网络连接速度。&#13;&#10;如果等待很久仍未显示登录界面，请尝试“使用本地浏览器登录”</system:String>
+
+    <system:String x:Key="Text_Logining">正在登录 Spotify...</system:String>
+    <system:String x:Key="Text_Login_PleaseWait" xml:space="preserve">休对故人思故国，且将新火试新茶。&#13;&#10;这不会花很长时间。</system:String>
+    <system:String x:Key="Text_Login_PleaseWait2" xml:space="preserve">青，取之于蓝，而青于蓝；冰，水为之，而寒于水。&#13;&#10;这不会花很长时间。</system:String>
+
+    <!--Wrong Lyrics Feedback-->
+    <system:String x:Key="Label_Song">歌曲</system:String>
+    <system:String x:Key="Label_Artist">歌手</system:String>
+    <system:String x:Key="Label_TrackNumber">曲目编号</system:String>
+    <system:String x:Key="Label_AlbumID">专辑 ID</system:String>
+    <system:String x:Key="Label_Details">详情</system:String>
+    <system:String x:Key="Text_DetailsExample">示例: 这首歌不是纯音乐。</system:String>
+    <system:String x:Key="Btn_FeedbackGitHub">在 GitHub 上反馈</system:String>
+    <system:String x:Key="Btn_FeedbackTelegram">在 Telegram 上反馈</system:String>
+    <system:String x:Key="Text_FeedbackGitHub_MessageBox">反馈文本已复制到剪切板，你可以在 Github 上粘贴！</system:String>
+    <system:String x:Key="Text_FeedbackTelegram_MessageBox">反馈文本已复制到剪切板，你可以在 Telegram 上粘贴！</system:String>
+    <system:String x:Key="Text_FeedbackError_MessageBox">出了些问题，请稍后再试。</system:String>
+    <system:String x:Key="Text_FeedbackError_NotOnServerNotice">当前的歌词并不来源于 Lyricify 服务器，你可以手动导入或上传正确歌词。</system:String>
+
+    <!--API-->
+    <system:String x:Key="Text_FailedToLogin">登录操作失败。请稍后重试。</system:String>
+    <system:String x:Key="Text_FailedAtRefreshKey">刷新授权令牌时出错。你想重新登录试试吗？</system:String>
+    <system:String x:Key="Text_GettingDataFromSpotify">正在从 Spotify 获取信息。</system:String>
+
+    <!--Apple Music Lyrics-->
+    <system:String x:Key="Text_WrittenBy">创作者：</system:String>
+
+    <!--Text-->
+    <system:String x:Key="Text_InstrumentalNotice">纯音乐，请您欣赏</system:String>
+    <system:String x:Key="Text_NoTrackPlaying">无正在播放歌曲</system:String>
+    <system:String x:Key="Text_SpotifyNotRunning">Spotify 不在运行</system:String>
+    <system:String x:Key="Text_QQNotRunning">QQ音乐不在运行</system:String>
+    <system:String x:Key="Text_NeteaseNotRunning">网易云音乐不在运行</system:String>
+    <system:String x:Key="Text_MusicCenterNotRunning">Music Center for PC 不在运行</system:String>
+    <system:String x:Key="Text_iTunesNotRunning">iTunes 不在运行，或者无正在播放歌曲</system:String>
+    <system:String x:Key="Text_CannotBeFound">这首歌的歌词暂时无法被找到。</system:String>
+    <system:String x:Key="Text_CannotScroll">这些歌词目前还没有时间轴。</system:String>
+    <system:String x:Key="Text_NotifyGetFromQQBySongmid">请输入 songmid 或歌曲链接以便从QQ音乐获取歌词！</system:String>
+    <system:String x:Key="Text_NotifyGetFromNeteaseById">请输入 id 或歌曲链接以便从网易云音乐获取歌词！</system:String>
+    <system:String x:Key="Text_GetFromQQFailed">错误的 songmid 或暂无歌词。</system:String>
+    <system:String x:Key="Text_GetFromNeteaseFailed">错误的 id 或暂无歌词。</system:String>
+    <system:String x:Key="Text_ImportLocalFailed">处理时失败！请尝试其他歌词文件。</system:String>
+    <system:String x:Key="Text_ImportLocalTooSmall">文件太小！</system:String>
+    <system:String x:Key="Text_InputAnExpression">请输入一个表达式！</system:String>
+    <system:String x:Key="Text_InputExpression_Failed">无法处理输入的表达式。</system:String>
+    <system:String x:Key="Text_FailedRegistHotKeys">无法注册下列快捷键，请检查它们是否被其他程序占用。</system:String>
+    <system:String x:Key="Text_SongNotOnWXRIWServer">这首歌的歌词还不在我们的服务器上。</system:String>
+    <system:String x:Key="Text_Advertisement">广告</system:String>
+    <system:String x:Key="Text_FailedToSaveLyrics">保存歌词时出错。</system:String>
+    <system:String x:Key="Text_SaveLyrics_UnsupportedFormat">不支持的格式！</system:String>
+
+    <system:String x:Key="Text_Song">歌曲名</system:String>
+    <system:String x:Key="Text_Artist">歌手</system:String>
+
+    <system:String x:Key="Text_FoundUpdate">发现新版本的 Lyricify 歌词工具！</system:String>
+    <system:String x:Key="Text_Version">版本</system:String>
+    <system:String x:Key="Text_DownloadNow">立即下载？</system:String>
+    <system:String x:Key="Text_UnableConnectServer">无法连接到服务器，建议暂时关闭科学上网工具后重试。</system:String>
+    <system:String x:Key="Text_HaveToUpdate">此版本已停用，请联网获取最新版本！</system:String>
+    <system:String x:Key="Text_Developer">开发者</system:String>
+    <system:String x:Key="Text_Website">网站</system:String>
+    <system:String x:Key="Text_About">关于</system:String>
+    <system:String x:Key="Text_PleaseReadCarefully">请认真阅读公告！</system:String>
+
+    <system:String x:Key="Menu_Follow_OneRepublic">关注 OneRepublic (一体共和)</system:String>
+</ResourceDictionary>

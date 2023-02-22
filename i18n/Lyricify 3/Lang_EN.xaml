@@ -56,6 +56,7 @@
     <system:String x:Key="Menu_Language_Main">Language</system:String>
     <system:String x:Key="Menu_About">About</system:String>
     <system:String x:Key="Menu_AboutLyricify">About Lyricify</system:String>
+    <system:String x:Key="Menu_GitHubGuide">Lyricify 3 User Guide</system:String>
     <system:String x:Key="Menu_Follow_Spotify">Follow Me on Spotify</system:String>
     <system:String x:Key="Menu_Follow_Netease">Follow Me on Netease Cloud Music</system:String>
     <system:String x:Key="Menu_Follow_Bilibili">Follow Me on Bilibili</system:String>
@@ -213,7 +214,7 @@
 
     <!--About-->
     <system:String x:Key="About_Title">About Lyricify</system:String>
-    <system:String x:Key="About_Copyright">Copyright © 2022 WXRIW</system:String>
+    <system:String x:Key="About_Copyright">Copyright © 2023 WXRIW</system:String>
     <system:String x:Key="About_Provider_Title">Lyrics provided by</system:String>
     <system:String x:Key="About_Provider_Content">WXRIW, QQ Music, Netease Cloud Music</system:String>
     <system:String x:Key="About_Close">C L O S E</system:String>
@@ -243,6 +244,7 @@
     <system:String x:Key="Text_WelcomeToLyricify">Welcome to Lyricify!</system:String>
     <system:String x:Key="Text_Welcome1">Thank you for choosing Lyricify! It might be the first time you try Lyricify, so if there are any problems or suggestions, let us know!</system:String>
     <system:String x:Key="Text_Welcome2">Lyricify is able to provide a fantastic experience for Spotify users and functions might be limited without login.</system:String>
+    <system:String x:Key="Text_Welcome4">For Spotify users, we suggest you to use the brand-new Lyricify 4, which is designed specifically for Spotify. For other users, click "Continue Without Login" to continue.</system:String>
     <system:String x:Key="Text_ChooseLanguage">Choose the language you want to use for this app</system:String>
     <system:String x:Key="Text_Welcome3">By clicking the "Continue" button, you agree with the agreement of Lyricify.</system:String>
     <system:String x:Key="Btn_Login">Continue to Login</system:String>
