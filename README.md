@@ -27,9 +27,15 @@ https://t.me/lyricify
 **Reserved Download Link / 备用下载地址:**  
 https://wxriw.lanzoux.com/b015qcwob
 
+| 软件 | 最新版本 | 备注 |
+| :-: | :-: | :-: |
+| Lyricify 4 | 4.0.5.230222-release | 适用于 Spotify 用户 |
+| Lyricify Mobile | 1.2.1-beta | 适用于 Spotify 用户 |
+| Lyricify 3 | 3.8.4-release | 适用于 iTunes、Music Center、QQ 音乐、网易云音乐、YesPlayMusic 用户|
+
 ## Lyricify Mobile
 Lyricify Mobile 为 Lyricify 家族的移动端，目前安卓版已经发布，iOS 版请耐心等待。  
-安卓版可在这里下载： https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.2.0  
+安卓版可在这里下载： https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.2.1  
 
 点击这里查看 [Lyricify Mobile 使用指南](/docs/Lyricify%20Mobile/README.md)  
   
