@@ -835,6 +835,7 @@
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">Failed to load server lyrics info</system:String>
     <system:String x:Key="String.Window.TrackManagement.Editor.WordWrap">Word Wrap</system:String>
     <system:String x:Key="String.Window.TrackManagement.Editor.Notice.AskSave">Do you want to save the changes?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.Notice.NoTimestamp">No timestamp detected, continue saving?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor">Advanced Lyrics Editor</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Lyrics">Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">Translation</system:String>

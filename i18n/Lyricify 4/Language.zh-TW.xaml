@@ -834,7 +834,8 @@
     <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">空曲目</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">伺服器歌詞資訊載入失敗</system:String>
     <system:String x:Key="String.Window.TrackManagement.Editor.WordWrap">自動換行</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Editor.Notice.AskSave">是否保存更改?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.Notice.AskSave">是否保存更改？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.Notice.NoTimestamp">未檢測到時間戳記，繼續保存？</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor">高級歌詞編輯器</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Lyrics">歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">翻譯</system:String>
