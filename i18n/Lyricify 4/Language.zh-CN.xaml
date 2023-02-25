@@ -841,6 +841,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">翻译</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">添加翻译</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyrics">导入 Apple Music 歌词</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportSpotifyLyrics">导入 Spotify 歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">获取 QRC 歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">逐字行创造器</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">逐字行移动器</system:String>
@@ -851,6 +852,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">未找到歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">这些歌词不是逐字的，继续导入？</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">将繁体中文转换为简体中文？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.NotSynced">歌词没有时间轴，导入失败</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor">原始文件编辑器</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">无法反序列化，检查你的修改 (是) 或关闭而不保存 (否)？</system:String>
 

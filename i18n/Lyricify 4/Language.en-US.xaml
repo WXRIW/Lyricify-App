@@ -841,6 +841,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">Translation</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">Add Translation</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyrics">Import Apple Music Lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportSpotifyLyrics">Import Spotify Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">Get QRC Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">Syllable Line Creator</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">Syllable Line Mover</system:String>
@@ -849,8 +850,9 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.EnterIdOrLink">Enter ID or link</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet">Failed to get lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">Lyrics not found</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">Those lyrics isn't word timing, continue the importation?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">Those lyrics are not word timing, continue the importation?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">Convert Traditional Chinese to Simplified Chinese?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.NotSynced">Lyrics not synced, failed to import</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor">Raw File Editor</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">Unable to deserialize, review your changes (Yes) or close without saving (No)?</system:String>
     

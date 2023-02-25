@@ -544,7 +544,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow">關注</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.NeteaseCloudMusic">網易雲音樂</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Bilibili">嗶哩嗶哩</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.OneRepublic">一體共和 (OneRepublic)</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.OneRepublic">共和世代 (OneRepublic)</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp">獲取幫助</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.TelegramGroup">Telegram 群組</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup">QQ 群組</system:String>
@@ -841,6 +841,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">翻譯</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">添加翻譯</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyrics">導入 Apple Music 歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportSpotifyLyrics">導入 Spotify 歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">獲取 QRC 歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">逐字行創造器</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">逐字行移動器</system:String>
@@ -851,6 +852,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">未找到歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">這些歌詞不是逐字的，繼續導入？</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">將繁體中文轉換為簡體中文？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.NotSynced">歌詞沒有時間軸，導入失敗</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor">原始檔編輯器</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">無法反序列化，檢查你的修改 (是) 或關閉而不保存 (否)？</system:String>
 
