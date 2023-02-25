@@ -19,11 +19,15 @@
 使用 Spotify 账号登录。
 
 ## 提示没有找到歌词
-没搜到歌词。
+没搜到歌词。  
+提示 “没有找到歌词，您可以在 Lyricify 4 中导入歌词”
 ### 导致原因
 确实没搜到歌词。
 ### 解决方案
-在 Lyricify 4 中自行导入即可。
+在 Lyricify 4 中自行导入即可。  
+*注：Lyricify 4 是电脑软件。*  
+具体操作方法：https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E6%AD%8C%E8%AF%8D%E6%A0%87%E8%AE%B0%E5%8F%8A%E5%AF%BC%E5%85%A5
+
 
 ## 歌词没有翻译
 歌词对的啊，为啥没翻译啊。
