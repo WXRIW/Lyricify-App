@@ -121,8 +121,8 @@ QRC (Lyricify 标准) 歌词的标准格式为：
 ### 头部信息
 YRC 的歌词头部信息可包含 `作词`、`作曲` 等。下方是一个示例：
 ```
-{\"t\":0,\"c\":[{\"tx\":\"作词: \"},{\"tx\":\"Brent Kutzle\"},{\"tx\":\"/\"},{\"tx\":\"Tyler Spry\"},{\"tx\":\"/\"},{\"tx\":\"Steven Mudd\"},{\"tx\":\"/\"},{\"tx\":\"Ryan Tedder\",\"li\":\"http://p1.music.126.net/S06CeorJXg0Rgb6KhTB9pQ==/18969874114079440.jpg\",\"or\":\"orpheus://nm/artist/home?id=42602&type=artist\"},{\"tx\":\"/\"},{\"tx\":\"Josh Varnadore\"}]}
-{\"t\":1000,\"c\":[{\"tx\":\"作曲: \"},{\"tx\":\"Brent Kutzle\"},{\"tx\":\"/\"},{\"tx\":\"Tyler Spry\"},{\"tx\":\"/\"},{\"tx\":\"Steven Mudd\"},{\"tx\":\"/\"},{\"tx\":\"Ryan Tedder\",\"li\":\"http://p1.music.126.net/S06CeorJXg0Rgb6KhTB9pQ==/18969874114079440.jpg\",\"or\":\"orpheus://nm/artist/home?id=42602&type=artist\"},{\"tx\":\"/\"},{\"tx\":\"Josh Varnadore\"}]}\n
+{"t":0,"c":[{"tx":"作词: "},{"tx":"Brent Kutzle"},{"tx":"/"},{"tx":"Tyler Spry"},{"tx":"/"},{"tx":"Steven Mudd"},{"tx":"/"},{"tx":"Ryan Tedder","li":"http://p1.music.126.net/S06CeorJXg0Rgb6KhTB9pQ==/18969874114079440.jpg","or":"orpheus://nm/artist/home?id=42602&type=artist"},{"tx":"/"},{"tx":"Josh Varnadore"}]}
+{"t":1000,"c":[{"tx":"作曲: "},{"tx":"Brent Kutzle"},{"tx":"/"},{"tx":"Tyler Spry"},{"tx":"/"},{"tx":"Steven Mudd"},{"tx":"/"},{"tx":"Ryan Tedder","li":"http://p1.music.126.net/S06CeorJXg0Rgb6KhTB9pQ==/18969874114079440.jpg","or":"orpheus://nm/artist/home?id=42602&type=artist"},{"tx":"/"},{"tx":"Josh Varnadore"}]}
 ```
 具体含义自行理解。
 
