@@ -60,6 +60,13 @@ Lyricify Mobile 只有这个界面。
 ### 解决方案
 在 Windows 设备上使用 Lyricify 4。
 
+## 如何在手机上使用 Lyricify 4
+Lyricify 4 好多功能 Lyricify Mobile 都没有啊，啥时候才能有呢。
+### 导致原因
+Lyricify Mobile 目标就是显示歌词，现在目标已经达成。
+### 解决方案
+在 Windows 设备上使用 Lyricify 4。您可以给您的手机安装 Windows on ARM。
+
 ## 切歌后反应迟钝
 切歌后 Lyricify 需要过较长时间才能显示新的歌曲信息。  
 见下方 `总是提示出现 429 错误`
