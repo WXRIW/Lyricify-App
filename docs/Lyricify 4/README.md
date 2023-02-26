@@ -224,9 +224,9 @@ Lyricify 4 支持内置播放，但是并不建议使用。
 ## 点击播放按钮没有反应
 打开 Lyricify 主界面，点击播放按钮，没开始播放，并提示 `需要 Premium`、`未找到可用设备，请开启你的 Spotify 客户端`、`429 错误，请稍后再试`。
 ### 导致原因 & 解决方案
-提示 `需要 Premium`：[导致原因](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#spotify-premium-%E7%8B%AC%E5%8D%A0%E5%8A%9F%E8%83%BD)
-提示 `未找到可用设备，请开启你的 Spotify 客户端`：未找到可用设备，请开启你的 Spotify 客户端，或配置 [Lyricify 内嵌播放](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E4%BD%BF%E7%94%A8-lyricify-%E5%86%85%E7%BD%AE%E6%92%AD%E6%94%BE)（不推荐）。
-提示 `429 错误，请稍后再试`：[导致原因](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E6%80%BB%E6%98%AF%E6%8F%90%E7%A4%BA%E5%87%BA%E7%8E%B0-429-%E9%94%99%E8%AF%AF)
+提示 `需要 Premium`：[导致原因](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#spotify-premium-%E7%8B%AC%E5%8D%A0%E5%8A%9F%E8%83%BD)  
+提示 `未找到可用设备，请开启你的 Spotify 客户端`：未找到可用设备，请开启你的 Spotify 客户端，或配置 [Lyricify 内嵌播放](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E4%BD%BF%E7%94%A8-lyricify-%E5%86%85%E7%BD%AE%E6%92%AD%E6%94%BE)（不推荐）。  
+提示 `429 错误，请稍后再试`：[导致原因](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E6%80%BB%E6%98%AF%E6%8F%90%E7%A4%BA%E5%87%BA%E7%8E%B0-429-%E9%94%99%E8%AF%AF)  
 
 ## 无法从 Lyricify 服务器获取歌词
 如果您在中国大陆，建议检查您的科学上网工具是否正确设置了分流，是否能正常访问 `e.wxriw.cn`。您还可以在设置中勾选 `不在 Lyricify 服务器请求中使用代理`。
@@ -278,6 +278,12 @@ Spotify 没有上传当前的播放信息。这是网络原因，也可能是 Sp
 3. 系统版本小于 10.0.17763.0 时不支持 Media Session。
 
 如果您的 Media Session 出现异常，您还可以尝试重启 Spotify 和 Lyricify。  
+
+## 无法加载专辑图片
+无法加载专辑图片，或加载十分缓慢。
+### 导致原因 & 解决方案
+如果是 Spotify 歌曲，则是网络问题，建议科学上网，为 `i.scdn.co` 设置代理分流。  
+如果是本地歌曲，则需要手动在 [本地文件管理器](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6) 中添加图片。
 
 ## Apple Music 歌词界面卡顿问题
 如果是打开该界面的第一首歌就很卡，那就是你电脑性能不够。可尝试 `已知问题` - `Apple Music 歌词界面卡顿问题` 中的 1, 2, 4, 5 条。不要全屏，因为全屏需要占用很多资源，硬件性能不够就不要去尝试！
