@@ -12,9 +12,9 @@ Lyricify 4 目前支持的歌词格式有 LRC、QRC、YRC、Apple Syllable。
 | YRC | 记录每个单词/字的起始时间和时长 | 网易云音乐的逐字歌词格式，目前不支持手动导入 |
 | Apple Syllable | 记录每个单词/字的起始时间和结束时间，记录每行歌词的演唱者信息，记录背景人声信息 | Apple Music 逐音节歌词，管理员可以导入 |
 
-### LRC 格式规范
+## LRC 格式规范
 
-#### 头部信息
+### 头部信息
 歌词头部可选的包含歌词相关信息，如：  
 ```
 [ti:Counting Stars]
@@ -25,7 +25,7 @@ Lyricify 4 目前支持的歌词格式有 LRC、QRC、YRC、Apple Syllable。
 ```
 *注意：不要包含重复标签。*  
 
-#### 歌词
+### 歌词
 LRC 歌词的标准格式为：
 ```
 [timestamp]lyrics
@@ -74,18 +74,18 @@ LRC 歌词的标准格式为：
    [04:13.79]
    ```
 
-#### 制作工具
+### 制作工具
 推荐您使用下列工具来制作 LRC 歌词。
 - 歌词滚动姬 (https://lrc-maker.github.io/)
 - BesLyric (https://github.com/BesLyric-for-X/BesLyric)
 - BesLyric-for-X (https://github.com/Beslyric-for-X/Beslyric-for-X)
 
-### QRC 格式规范
+## QRC 格式规范
 
-#### 头部信息
+### 头部信息
 QRC 的歌词头部信息参考 LRC 标准，这里不再重复。
 
-#### 歌词
+### 歌词
 QRC (Lyricify 标准) 歌词的标准格式为：
 ```
 [start,duration]Word (start,duration)word(start,duration)
@@ -108,17 +108,17 @@ QRC (Lyricify 标准) 歌词的标准格式为：
    [125613,1118]Won't (125613,483)we?(126096,635)
    ```
 
-#### 制作工具
+### 制作工具
 不推荐您手动制作 QRC 歌词，因为手动打轴十分艰难，会让您无法坐和放宽，且精确度不高。  
 如果您仍想尝试自行制作 QRC 歌词，则推荐您使用下列工具。  
 - ALRC (https://github.com/kengwang/ALRC)
 - QRC Lyric Maker (https://github.com/BPTPW/qrc-Lyric-Maker)
 - Lyricify 逐字行创造器 (Lyricify 4 内嵌，不建议使用)
 
-### YRC 格式规范
+## YRC 格式规范
 `Lyricify 歌词库` 不支持 YRC 歌词的导入。本部分仅为 YRC 格式的介绍。
 
-#### 头部信息
+### 头部信息
 YRC 的歌词头部信息可包含 `作词`、`作曲` 等。下方是一个示例：
 ```
 {\"t\":0,\"c\":[{\"tx\":\"作词: \"},{\"tx\":\"Brent Kutzle\"},{\"tx\":\"/\"},{\"tx\":\"Tyler Spry\"},{\"tx\":\"/\"},{\"tx\":\"Steven Mudd\"},{\"tx\":\"/\"},{\"tx\":\"Ryan Tedder\",\"li\":\"http://p1.music.126.net/S06CeorJXg0Rgb6KhTB9pQ==/18969874114079440.jpg\",\"or\":\"orpheus://nm/artist/home?id=42602&type=artist\"},{\"tx\":\"/\"},{\"tx\":\"Josh Varnadore\"}]}
@@ -126,7 +126,7 @@ YRC 的歌词头部信息可包含 `作词`、`作曲` 等。下方是一个示�
 ```
 具体含义自行理解。
 
-#### 歌词
+### 歌词
 YRC 歌词的标准格式为：
 ```
 [start,duration](start,duration,0)Word (start,duration,0)word
@@ -144,7 +144,7 @@ YRC 歌词的标准格式为：
 [67730,5670](67730,360,0)But (68090,360,0)I've (68450,690,0)become (69140,270,0)what (69410,210,0)I (69620,1050,0)can't (70670,2730,0)be
 ```
 
-### Apple Syllable 格式规范
+## Apple Syllable 格式规范
 略 
 
 ## 背景人声的制作
