@@ -154,7 +154,7 @@ Lyricify 4 支持全局快捷键，且支持自定义。
 ### 字体
 Lyricify 4 有着强大的自定义字体功能，您可以为 `歌词` 界面、`Lyricify 全屏` 界面、`桌面歌词` 设置自定义字体。
 如果您想要自定义字体，则可以通过以下步骤实现：
-1. 设置中找到对应界面的 字体家族 `设置`，点击 `自定义` 按钮。
+1. 设置中找到对应界面的 `字体家族` 设置，点击 `自定义` 按钮。
 2. 这时会打开 `字体选择工具` 窗口，左侧为已安装字体列表，右侧为自定义字体列表。
 3. 在左侧找到你想设置的字体，选中后点击 `添加到列表` 或直接双击该字体，即可添加至右侧自定义字体列表。
 4. 点击确定即可保存。在保存之前，您可以在 `预览` 文本框中测试自定义字体效果。
@@ -220,6 +220,13 @@ Lyricify 4 支持内置播放，但是并不建议使用。
 2. 将 Lyricify 快捷方式复制到此文件夹中即可。
 
 # 常见问题
+
+## 点击播放按钮没有反应
+打开 Lyricify 主界面，点击播放按钮，没开始播放，并提示 `需要 Premium`、`未找到可用设备，请开启你的 Spotify 客户端`、`429 错误，请稍后再试`。
+### 导致原因 & 解决方案
+提示 `需要 Premium`：[导致原因](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#spotify-premium-%E7%8B%AC%E5%8D%A0%E5%8A%9F%E8%83%BD)
+提示 `未找到可用设备，请开启你的 Spotify 客户端`：未找到可用设备，请开启你的 Spotify 客户端，或配置 [Lyricify 内嵌播放](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E4%BD%BF%E7%94%A8-lyricify-%E5%86%85%E7%BD%AE%E6%92%AD%E6%94%BE)（不推荐）。
+提示 `429 错误，请稍后再试`：[导致原因](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E6%80%BB%E6%98%AF%E6%8F%90%E7%A4%BA%E5%87%BA%E7%8E%B0-429-%E9%94%99%E8%AF%AF)
 
 ## 无法从 Lyricify 服务器获取歌词
 如果您在中国大陆，建议检查您的科学上网工具是否正确设置了分流，是否能正常访问 `e.wxriw.cn`。您还可以在设置中勾选 `不在 Lyricify 服务器请求中使用代理`。
