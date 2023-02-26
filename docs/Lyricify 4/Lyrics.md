@@ -31,7 +31,7 @@ LRC 歌词的标准格式为：
 [timestamp]lyrics
 ```
 
-`timestamp` 是时间戳，表示本行歌词的起始时间。
+`timestamp` 是时间戳，表示本行歌词的起始时间。  
 这里的时间戳应遵循 ISO 8601 标准，格式为 `mm:ss.sss`，不可以写成 `mm:ss:sss`。  
 
 下方是一个示范：
@@ -45,10 +45,10 @@ LRC 歌词的标准格式为：
 **注意：**
 1. LRC 歌词不允许重复时间轴，但是允许同一句歌词有多个时间轴，见下方案例：
    ```
-   错误：
+   不允许：
         [01:17.870]Lately, I've been, I've been losing sleep
         [01:17.870]Dreaming about the things that we could be
-   正确：
+   允许：
         [00:01.670][01:17.870][02:28.640]Lately, I've been, I've been losing sleep
         [00:04.850][01:17.870]Dreaming about the things that we could be
    ```
