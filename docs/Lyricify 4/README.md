@@ -181,7 +181,7 @@ Lyricify 4 有着强大的自定义字体功能，您可以为 `歌词` 界面�
 - 对于有大于等于三位歌手演唱的歌曲，推荐以下处理方法：
   - 全部靠左
   - 轮流左右，遇到合唱也更换左右
-  - 特殊情况可以参考[这首歌](https://open.spotify.com/track/4vUmTMuQqjdnvlZmAH61Qk)
+  - 三人的特殊情况可以参考[这首歌](https://open.spotify.com/track/4vUmTMuQqjdnvlZmAH61Qk)
 
 ### Lyricify 歌词库
 如果 QQ 音乐、网易云音乐均无歌词，则可以手动导入歌词到 Lyricify 歌词库。
