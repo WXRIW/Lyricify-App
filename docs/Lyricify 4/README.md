@@ -352,7 +352,7 @@ Spotify 没有上传当前的播放信息。这是网络原因，也可能是 Sp
 ### 导致原因
 `dynamicClass.IL_STUB_COMtoCLR` 占用高，未查明具体原因。
 ### 解决方案
-暂无
+暂无，您也可以尝试[这个优化](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#apple-music-%E6%AD%8C%E8%AF%8D%E6%B5%81%E7%95%85%E5%BA%A6%E4%BC%98%E5%8C%96)，此优化对于灵动词岛也有效果。
 
 # 特殊问题
 
