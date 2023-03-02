@@ -32,6 +32,13 @@ Lyricify 3 已进入 EOL。
 ### 解决方案
 从您现有的音乐平台迁移到 Spotify，并转用 Lyricify 4。
 
+## 是否会在 Lyricify 4 中添加目前 Lyricify 3 支持的其它软件
+如 Apple Music、iTunes、QQ 音乐、网易云音乐、Music Center、YesPlayMusic 等
+### 导致原因
+Lyricify 4 专为 Spotify 设计，`Lyricify 4` 全称 `Lyricify for Spotify`。
+### 解决方案
+从您现有的音乐平台迁移到 Spotify，并转用 Lyricify 4。
+
 ## 界面有(te)点(bie)丑
 是这样的。
 ### 导致原因
