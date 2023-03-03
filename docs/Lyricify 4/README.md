@@ -4,6 +4,26 @@
 
 </div>
 
+## 快速导航 & 常见问题
+如果您是 Lyricify 4 的新用户，建议您完整阅读！  
+如果您是 Lyricify 4 的老用户，遇到了一些问题，则可以在下方查找是否有您想知道的问题。  
+
+### 功能
+- [Spotify Premium 在 Lyricify 中的独占功能](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#spotify-premium-%E7%8B%AC%E5%8D%A0%E5%8A%9F%E8%83%BD)
+- [歌词导入](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E6%AD%8C%E8%AF%8D%E6%A0%87%E8%AE%B0%E5%8F%8A%E5%AF%BC%E5%85%A5)
+- [歌词管理及高级操作](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E6%9B%B2%E7%9B%AE%E7%AE%A1%E7%90%86)
+- [全局快捷键](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E5%85%A8%E5%B1%80%E5%BF%AB%E6%8D%B7%E9%94%AE)
+- [曲库可用性查询](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E5%8F%AF%E7%94%A8%E6%80%A7%E6%9F%A5%E8%AF%A2)
+- [开机自启动](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8)
+
+### 常见问题
+- [429 错误](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E5%88%87%E6%AD%8C%E5%90%8E%E5%8F%8D%E5%BA%94%E8%BF%9F%E9%92%9D)
+- [Apple Music 歌词界面卡顿](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#apple-music-%E6%AD%8C%E8%AF%8D%E7%95%8C%E9%9D%A2%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98)
+- [专辑图片不显示](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E4%B8%93%E8%BE%91%E5%9B%BE%E7%89%87)
+- [Lyricify 不显示歌词](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#lyricify-%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E6%92%AD%E6%94%BE%E4%BF%A1%E6%81%AF)
+- [其它常见问题](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+
+
 # Lyricify 4 基础
 
 ## 运行 Lyricify 4
