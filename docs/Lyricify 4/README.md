@@ -5,23 +5,23 @@
 </div>
 
 ## 快速导航 & 常见问题
-如果您是 Lyricify 4 的新用户，建议您完整阅读！  
+如果您是 Lyricify 4 的新用户，建议您完整阅读本指南！阅读后，您将掌握更多 Lyricify 4 使用技巧，并节约大量时间。  
 如果您是 Lyricify 4 的老用户，遇到了一些问题，则可以在下方查找是否有您想知道的问题。  
 
 ### 功能
-- [Spotify Premium 在 Lyricify 中的独占功能](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#spotify-premium-%E7%8B%AC%E5%8D%A0%E5%8A%9F%E8%83%BD)
-- [歌词导入](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E6%AD%8C%E8%AF%8D%E6%A0%87%E8%AE%B0%E5%8F%8A%E5%AF%BC%E5%85%A5)
-- [歌词管理及高级操作](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E6%9B%B2%E7%9B%AE%E7%AE%A1%E7%90%86)
-- [全局快捷键](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E5%85%A8%E5%B1%80%E5%BF%AB%E6%8D%B7%E9%94%AE)
-- [曲库可用性查询](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E5%8F%AF%E7%94%A8%E6%80%A7%E6%9F%A5%E8%AF%A2)
-- [开机自启动](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8)
+- [Spotify Premium 在 Lyricify 中的独占功能](#spotify-premium-%E7%8B%AC%E5%8D%A0%E5%8A%9F%E8%83%BD)
+- [歌词导入](#%E6%AD%8C%E8%AF%8D%E6%A0%87%E8%AE%B0%E5%8F%8A%E5%AF%BC%E5%85%A5)
+- [歌词管理及高级操作](#%E6%9B%B2%E7%9B%AE%E7%AE%A1%E7%90%86)
+- [全局快捷键](#%E5%85%A8%E5%B1%80%E5%BF%AB%E6%8D%B7%E9%94%AE)
+- [曲库可用性查询](#%E5%8F%AF%E7%94%A8%E6%80%A7%E6%9F%A5%E8%AF%A2)
+- [开机自启动](#%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8)
 
 ### 常见问题
-- [429 错误](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E5%88%87%E6%AD%8C%E5%90%8E%E5%8F%8D%E5%BA%94%E8%BF%9F%E9%92%9D)
-- [Apple Music 歌词界面卡顿](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#apple-music-%E6%AD%8C%E8%AF%8D%E7%95%8C%E9%9D%A2%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98)
-- [专辑图片不显示](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E4%B8%93%E8%BE%91%E5%9B%BE%E7%89%87)
-- [Lyricify 不显示歌词](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#lyricify-%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E6%92%AD%E6%94%BE%E4%BF%A1%E6%81%AF)
-- [其它常见问题](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+- [429 错误](#%E5%88%87%E6%AD%8C%E5%90%8E%E5%8F%8D%E5%BA%94%E8%BF%9F%E9%92%9D)
+- [Apple Music 歌词界面卡顿](#apple-music-%E6%AD%8C%E8%AF%8D%E7%95%8C%E9%9D%A2%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98)
+- [专辑图片不显示](#%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E4%B8%93%E8%BE%91%E5%9B%BE%E7%89%87)
+- [Lyricify 不显示歌词](#lyricify-%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E6%92%AD%E6%94%BE%E4%BF%A1%E6%81%AF)
+- [其它常见问题](#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 
 
 # Lyricify 4 基础
@@ -135,7 +135,7 @@ Lyricify 4 提供 `歌词标记` 功能，您可以把自动搜索的正确歌�
 **在不能确保歌词是正确的情况下，请不要点击 `保存 (上传)` 按钮！**
 
 如果该曲目在 QQ 音乐和网易云音乐均无歌词，则可以手动上传：  
-具体步骤详见 [进阶教程](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#Lyricify-%E6%AD%8C%E8%AF%8D%E5%BA%93)。
+具体步骤详见 [进阶教程](#Lyricify-%E6%AD%8C%E8%AF%8D%E5%BA%93)。
 
 如果该曲目是纯音乐，则可以将其标记为纯音乐：
 1. 同 `手动导入` 的步骤 1。
@@ -287,9 +287,9 @@ Apple Music 歌词界面 CJK (中日韩) 歌词流畅度较低，这是微软的
 ## 点击播放按钮没有反应
 打开 Lyricify 主界面，点击播放按钮，没开始播放，并提示 `需要 Premium`、`未找到可用设备，请开启你的 Spotify 客户端`、`429 错误，请稍后再试`。
 ### 导致原因 & 解决方案
-提示 `需要 Premium`：[导致原因](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#spotify-premium-%E7%8B%AC%E5%8D%A0%E5%8A%9F%E8%83%BD)  
-提示 `未找到可用设备，请开启你的 Spotify 客户端`：未找到可用设备，请开启你的 Spotify 客户端，或配置 [Lyricify 内嵌播放](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E4%BD%BF%E7%94%A8-lyricify-%E5%86%85%E7%BD%AE%E6%92%AD%E6%94%BE)（不推荐）。  
-提示 `429 错误，请稍后再试`：[导致原因](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E6%80%BB%E6%98%AF%E6%8F%90%E7%A4%BA%E5%87%BA%E7%8E%B0-429-%E9%94%99%E8%AF%AF)  
+提示 `需要 Premium`：[导致原因](#spotify-premium-%E7%8B%AC%E5%8D%A0%E5%8A%9F%E8%83%BD)  
+提示 `未找到可用设备，请开启你的 Spotify 客户端`：未找到可用设备，请开启你的 Spotify 客户端，或配置 [Lyricify 内嵌播放](#%E4%BD%BF%E7%94%A8-lyricify-%E5%86%85%E7%BD%AE%E6%92%AD%E6%94%BE)（不推荐）。  
+提示 `429 错误，请稍后再试`：[导致原因](#%E6%80%BB%E6%98%AF%E6%8F%90%E7%A4%BA%E5%87%BA%E7%8E%B0-429-%E9%94%99%E8%AF%AF)  
 
 ## 无法从 Lyricify 服务器获取歌词
 如果您在中国大陆，建议检查您的科学上网工具是否正确设置了分流，是否能正常访问 `e.wxriw.cn`。您还可以在设置中勾选 `不在 Lyricify 服务器请求中使用代理`。
@@ -354,14 +354,14 @@ Spotify 没有上传当前的播放信息。这是网络原因，也可能是 Sp
 无法加载专辑图片，或加载十分缓慢。
 ### 导致原因 & 解决方案
 如果是 Spotify 歌曲，则是网络问题，建议科学上网，为 `i.scdn.co` 设置代理分流。  
-如果是本地歌曲，则需要手动在 [本地文件管理器](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6) 中添加图片。
+如果是本地歌曲，则需要手动在 [本地文件管理器](#%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6) 中添加图片。
 
 ## Apple Music 歌词界面卡顿问题
 如果是打开该界面的第一首歌就很卡，那就是你电脑性能不够。可尝试 `已知问题` - `Apple Music 歌词界面卡顿问题` 中的 1, 2, 4, 5 条。不要全屏，因为全屏需要占用很多资源，硬件性能不够就不要去尝试！
 ### 首选解决方案
 1. 关闭模糊
 2. 不要全屏，建议调成竖屏模式，总之，窗口越小，越流畅
-3. 如果您常听的是中日韩的歌，建议执行[这个优化](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#apple-music-%E6%AD%8C%E8%AF%8D%E6%B5%81%E7%95%85%E5%BA%A6%E4%BC%98%E5%8C%96)。
+3. 如果您常听的是中日韩的歌，建议执行[这个优化](#apple-music-%E6%AD%8C%E8%AF%8D%E6%B5%81%E7%95%85%E5%BA%A6%E4%BC%98%E5%8C%96)。
 
 # 已知问题
 
@@ -379,7 +379,7 @@ Spotify 没有上传当前的播放信息。这是网络原因，也可能是 Sp
    
    该方法会降低清晰度，但是可以提高性能。
 3. 退出 `Apple Music 歌词` 界面，再重新进入；或者按 `Alt + R` 重新加载 `Apple Music 歌词`。
-4. 关闭 `Apple Music 歌词` 的 `卡拉 OK 样式`。如果您常听的是中日韩的歌，建议执行[这个优化](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#apple-music-%E6%AD%8C%E8%AF%8D%E6%B5%81%E7%95%85%E5%BA%A6%E4%BC%98%E5%8C%96)。
+4. 关闭 `Apple Music 歌词` 的 `卡拉 OK 样式`。如果您常听的是中日韩的歌，建议执行[这个优化](#apple-music-%E6%AD%8C%E8%AF%8D%E6%B5%81%E7%95%85%E5%BA%A6%E4%BC%98%E5%8C%96)。
 5. 关闭 `Apple Music 歌词` 的 `模糊歌词`，或减小 `模糊程度`。（推荐）
 
 ## 程序渲染线程崩溃
@@ -395,7 +395,7 @@ Spotify 没有上传当前的播放信息。这是网络原因，也可能是 Sp
 ### 导致原因
 `dynamicClass.IL_STUB_COMtoCLR` 占用高，未查明具体原因。
 ### 解决方案
-暂无，您也可以尝试[这个优化](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#apple-music-%E6%AD%8C%E8%AF%8D%E6%B5%81%E7%95%85%E5%BA%A6%E4%BC%98%E5%8C%96)，此优化对于灵动词岛也有效果。
+暂无，您也可以尝试[这个优化](#apple-music-%E6%AD%8C%E8%AF%8D%E6%B5%81%E7%95%85%E5%BA%A6%E4%BC%98%E5%8C%96)，此优化对于灵动词岛也有效果。
 
 # 特殊问题
 
