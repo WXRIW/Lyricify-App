@@ -19,8 +19,8 @@
 使用 Spotify 账号登录。
 
 ## 无法正常进入歌词界面
-**提示 connection closed:** 检查你的网络
-**提示 invalid_grant:** 重新登录
+**提示 connection closed:** 检查你的网络  
+**提示 invalid_grant:** 重新登录  
 
 ## 如何导入歌词
 提示 “没有找到歌词，您可以在 Lyricify 4 中导入歌词”
