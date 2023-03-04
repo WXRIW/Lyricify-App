@@ -213,7 +213,8 @@ Lyricify 4 有着强大的自定义字体功能，您可以为 `歌词` 界面�
 6. 若想上传翻译，则可以再次点击 `导入 & 编辑` 按钮，点击弹出窗口右上角的 `添加翻译` 按钮，之后手动添加翻译。
 7. 点击 `曲目管理` 右下角的 `保存 (上传)`。
 
-步骤 4 中的歌词制作可参考 [Lyricify 4 歌词指南及标准](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/Lyrics.md)。
+步骤 4 中的歌词制作可参考 [Lyricify 4 歌词指南及标准](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/Lyrics.md)。  
+**注意：** 中文歌词必须使用简体中文！若上传繁体中文歌词，你的账户将有几率会被限制。  
 
 ## 可用性查询
 在 Lyricify 4 中，您可以很方便的检查专辑、歌单、已点赞的歌曲在不同地区的可用性。  
