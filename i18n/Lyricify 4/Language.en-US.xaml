@@ -141,7 +141,7 @@
     <system:String x:Key="String.Page.Search.Availability.SearchBar.PlaceHolder">Input link or Spotify URI here</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.NetworkIssue.Message">Network issue, please check your Internet connection.</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">Album not found, please check the ID your input.</system:String>
-    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Wrong input or unsupported input. Only track (redirect to it's album), album and playlist links are supported. Here are two examples.</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Wrong input or unsupported input. Only track (redirect to it's album), album and playlist links are supported. Here are some examples.</system:String>
     <system:String x:Key="String.Page.Search.Availability.Market">Market</system:String>
     <system:String x:Key="String.Page.Search.Availability.MoreVersions">More versions</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.UnavailableTracks">Unavailable tracks</system:String>
@@ -479,6 +479,8 @@
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">Hotkey Management</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">Open Hotkey Manager to manage global hotkeys</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">Open</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar">Spotify API waiting bar</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar.Description">Show the bottom progress bar at track switching's 429 errors</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer">Disable proxy for Lyricify server requests</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer.Description">Disable proxy for those requests might improve experience if you are in China mainland</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings">Enable manual proxy settings</system:String>
@@ -495,7 +497,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Load">Load</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.ResetAll">Reset All</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">Are you sure to reset all your settings?</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Down">A manual restart of Lyricify might be needed.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Done">A manual restart of Lyricify might be needed.</system:String>
     
     <!--Page Horizontal Notice-->
     <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">Current page does not support Mobile View, please resize your window to exit Mobile View</system:String>
@@ -853,6 +855,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">Those lyrics are not word timing, continue the importation?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">Convert Traditional Chinese to Simplified Chinese?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.NotSynced">Lyrics not synced, failed to import</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.ConvertTraditionalChinese">Traditional Chinese has been automatically converted to Simplified Chinese, please check the lyrics to make sure the conversion is correct.</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor">Raw File Editor</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">Unable to deserialize, review your changes (Yes) or close without saving (No)?</system:String>
     
@@ -1002,6 +1005,7 @@
     <system:String x:Key="String.Messages.App.Exception.PremiumRequired">Premium required</system:String>
     <system:String x:Key="String.Messages.App.Exception.TryToRelogin">Please try to relogin</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">Too many requests (429 error), retry later</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">Too many requests (429 error), retry after {0} seconds</system:String>
     
     <!--MainWindow-->
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 Error, retry later</system:String>

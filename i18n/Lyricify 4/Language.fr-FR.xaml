@@ -487,7 +487,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Load">Charger</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.ResetAll">Tout réinitialiser</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">Êtes-vous sûr de réinitialiser tous vos paramètres ?</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Down">Un redémarrage manuel de Lyricify peut être nécessaire.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Done">Un redémarrage manuel de Lyricify peut être nécessaire.</system:String>
 
     <!--Page Horizontal Notice-->
     <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">La page actuelle ne prend pas en charge l'affichage mobile, veuillez redimensionner votre fenêtre pour quitter l'affichage mobile</system:String>

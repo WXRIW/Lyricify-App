@@ -487,7 +487,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Load">Ladda</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.ResetAll">Återställ alla</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">Är du säker på att återställa alla dina inställningar?</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Down">En manuell omstart av Lyricify kan behövas.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Done">En manuell omstart av Lyricify kan behövas.</system:String>
 
     <!--Page Horizontal Notice-->
     <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">Den aktuella sidan stöder inte Mobile View, ändra storlek på ditt fönster för att avsluta Mobile View</system:String>

@@ -141,7 +141,7 @@
     <system:String x:Key="String.Page.Search.Availability.SearchBar.PlaceHolder">在这里输入链接或 Spotify URI</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.NetworkIssue.Message">网络问题，请检查你的 Internet 连接。</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">未找到专辑，请检查你输入的 ID。</system:String>
-    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">错误的输入或不支持的输入。仅支持歌曲（重定向至专辑）、专辑和歌单链接。这里有两个示例。</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">错误的输入或不支持的输入。仅支持歌曲（重定向至专辑）、专辑和歌单链接。这里有几个示例。</system:String>
     <system:String x:Key="String.Page.Search.Availability.Market">市场</system:String>
     <system:String x:Key="String.Page.Search.Availability.MoreVersions">更多版本</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.UnavailableTracks">不可用的曲目</system:String>
@@ -479,6 +479,8 @@
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">热键管理</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">打开热键管理器，管理全局快捷键</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">打开</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar">Spotify API 等待条</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar.Description">在切歌时，若遇到 429 错误，则显示等待条</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer">不在 Lyricify 服务器请求中使用代理</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer.Description">如果你在中国大陆地区，不在这些请求中使用代理可能会提升使用体验</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings">启用手动代理设置</system:String>
@@ -495,7 +497,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Load">加载</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.ResetAll">重置所有</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">你是否确定要重置所有设置？</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Down">手动重启 Lyricify 可能被需要。</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Done">手动重启 Lyricify 可能被需要。</system:String>
 
     <!--Page Horizontal Notice-->
     <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">当前页面不支持移动端视图，请调整窗口大小以退出移动端模式</system:String>
@@ -853,6 +855,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">这些歌词不是逐字的，继续导入？</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">将繁体中文转换为简体中文？</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.NotSynced">歌词没有时间轴，导入失败</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.ConvertTraditionalChinese">繁体中文已被自动转换为简体中文，请检查歌词，以确保转换是正确的。</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor">原始文件编辑器</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">无法反序列化，检查你的修改 (是) 或关闭而不保存 (否)？</system:String>
 
@@ -1002,6 +1005,7 @@
     <system:String x:Key="String.Messages.App.Exception.PremiumRequired">需要 Premium</system:String>
     <system:String x:Key="String.Messages.App.Exception.TryToRelogin">请尝试重新登录</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">过多请求 (429 错误)，请稍后再试</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">过多请求 (429 错误)，请 {0} 秒后再试</system:String>
 
     <!--MainWindow-->
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 错误，请稍后再试</system:String>

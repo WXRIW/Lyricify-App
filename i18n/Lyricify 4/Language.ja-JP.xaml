@@ -487,7 +487,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Load">ロード</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.ResetAll">すべてリセット</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">すべての設定をリセットしてもよろしいですか</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Down">Lyricify を手動で再起動する必要がある場合があります。</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Done">Lyricify を手動で再起動する必要がある場合があります。</system:String>
 
     <!--Page Horizontal Notice-->
     <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">このページはモバイル ビューをサポートしていません。ウィンドウのサイズを変更してモバイル ビューを終了してください</system:String>
