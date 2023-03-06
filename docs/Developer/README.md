@@ -12,18 +12,18 @@ Lyricify 开放词库，是以 Lyricify 4 歌词库为基础的供开发者接�
 - 由 Lyricify 4 管理员管理，Lyricify 4 全体用户建立，具有高可靠性、高可用性等优势
 
 ## 接入 Lyricify 开放词库
-Lyricify 开放词库欢迎所有热爱 Lyricify 的开发者使用。
+Lyricify 开放词库欢迎所有热爱 Lyricify 的开发者使用。  
 下方将介绍词库的相关信息规格，及使用要求和限制。
 
 ### 词库接口
-`GET http://......../..../....`
+`GET http://......../..../....`  
 需传入的参数：
 - id: Spotify 曲目 ID
 - isrc: 曲目的 ISRC
 - user: Lyricify 用户信息
 
 ### 词库信息
-通过词库接口，可以获取到 Json 格式返回的信息，下方是一个示例：
+通过词库接口，可以获取到 Json 格式返回的信息，下方是一个示例：  
 ```
 {
     "writer": "Ryan Tedder",
@@ -43,7 +43,7 @@ LRC 标准详见 [Lyricify 4 歌词指南及标准](https://github.com/WXRIW/Lyr
 Lyricify Lines 格式详见附录《Lyricify Lines 格式规范》。  
 
 ### 词库使用
-接入词库，需要遵守以下规则。
+接入词库，需要遵守以下规则。  
 1. 仅可将本词库用于“歌词显示”用途，不可用于其他任何用途。如有其他用途，请联系 Lyricify 词库。
 2. 将本词库作为唯一词库、主词库或非备用词库 (备用词库：当所有可用词库都无法找到歌词时才调用的词库) 作用接入的，有以下规则：
    1. 须在明显处显示 “歌词提供者: Lyricify 词库” (英文: Lyrics provided by Lyricify Lyrics Vault)，并设置跳转链接，跳转至 https://github.com/WXRIW/Lyricify-App 。
