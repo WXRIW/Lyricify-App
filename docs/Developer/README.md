@@ -63,7 +63,7 @@ Lyricify Lines 格式详见附录《Lyricify Lines 格式规范》。
 Lyricify Lines 的歌词头部会带有 `[type:LyricifyLines]` 的标记。
 
 ### 歌词
-YRC 歌词的标准格式为：
+Lyricify Lines 歌词的标准格式为：
 ```
 [start,end]Lyrics
 ```
