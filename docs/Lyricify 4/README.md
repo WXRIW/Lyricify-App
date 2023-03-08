@@ -453,7 +453,7 @@ Lyricify 4 专为 Spotify 设计，`Lyricify 4` 全称 `Lyricify for Spotify`。
 | - | - |
 | 妙控条 | 十分灵动的、可以控制歌词和窗口的、十分灵动的、两边为半圆的长条 |
 | 对唱视图 | 歌词在左右两侧显示的视图，繁体中文为“同框對唱” |
-| 背景人声 | 主歌词下方包含副歌词（背景歌词），这样的效果称为“背景人声效果”，[本歌单](https://open.spotify.com/playlist/7GxyX7t33NTI0oKOhIyigz)包含了 Lyricify 官方认证的支持背景人声的歌曲 |
+| 背景人声 | 主歌词下方包含副歌词（背景歌词），这样的效果称为“背景人声效果”。<br>[本歌单](https://open.spotify.com/playlist/7GxyX7t33NTI0oKOhIyigz)包含了 Lyricify 官方认证的支持背景人声的歌曲 |
 | 多行高亮 | 多行歌词同时亮起 (播放) |
 | 呼吸点 | 歌词间音乐较长时显示的三个点 |
 | 拖动效果 | 滚动时，歌词行被上一行歌词拖动的效果 |
