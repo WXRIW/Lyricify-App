@@ -433,7 +433,7 @@ Lyricify 4 专为 Spotify 设计，`Lyricify 4` 全称 `Lyricify for Spotify`。
 # 附录
 
 ## Lyricify 名词
-请规范使用 Lyricify 正确的名称或专有名词来描述反馈、提问。自己造词会带来很多麻烦和困惑。  
+请规范使用 Lyricify 正确的名称或专有名词来描述反馈、提问。自行造词会带来很多麻烦和困惑。  
 
 ### 主界面
 | 名称 | 描述 |
@@ -445,7 +445,7 @@ Lyricify 4 专为 Spotify 设计，`Lyricify 4` 全称 `Lyricify for Spotify`。
 ### 功能
 | 名称 | 描述 |
 | - | - |
-| 灵动词岛 | 与“灵动岛”类似的用于显示歌词的悬浮窗口，“灵动岛”是不被 Lyricify 认同的说法 |
+| 灵动词岛 | 外观与“灵动岛”有关的用于显示歌词的悬浮窗口，“灵动岛”是不被 Lyricify 认同的说法 |
 | 桌面歌词 | 桌面歌词，“悬浮歌词”是不被 Lyricify 认同的说法 |
 
 ### Apple Music 歌词
