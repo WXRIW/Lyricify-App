@@ -50,7 +50,7 @@ LRC 歌词的标准格式为：
         [01:17.870]Dreaming about the things that we could be
    允许：
         [00:01.670][01:17.870][02:28.640]Lately, I've been, I've been losing sleep
-        [00:04.850][01:17.870]Dreaming about the things that we could be
+        [00:04.850][01:21.390]Dreaming about the things that we could be
    ```
 2. LRC 歌词允许乱序时间轴，如：
    ```
