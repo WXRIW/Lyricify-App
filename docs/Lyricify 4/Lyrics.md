@@ -1,6 +1,6 @@
 # Lyricify 4 歌词指南及标准
 
-Lyricify 4 目前支持的歌词格式有 LRC、QRC、YRC、Apple Syllable。  
+Lyricify 4 目前支持的歌词格式有 LRC、QRC、YRC、Lyricify Syllable、Apple Syllable。  
 下文中将详细说明 Lyricify 4 的歌词格式标准，及自制歌词指南。  
 
 ## 歌词格式简介
@@ -10,7 +10,8 @@ Lyricify 4 目前支持的歌词格式有 LRC、QRC、YRC、Apple Syllable。
 | LRC | 记录每行歌词的起始时间，制作方便 | 只能实现逐行歌词 |
 | QRC | 记录每个单词/字的起始时间和时长 | 逐字歌词，但制作复杂耗时 |
 | YRC | 记录每个单词/字的起始时间和时长 | 网易云音乐的逐字歌词格式，目前不支持手动导入 |
-| Apple Syllable | 记录每个单词/字的起始时间和结束时间，记录每行歌词的演唱者信息，记录背景人声信息 | Apple Music 逐音节歌词，管理员可以导入 |
+| Lyricify Syllable | 记录每个音节或单词的起始时间和时长，记录每行歌词的背景人声和对唱视图信息 | Lyricify 的逐字歌词格式 |
+| Apple Syllable | 记录字词句段的起始时间和结束时间，记录每行歌词的演唱者信息，记录背景人声信息 | Apple Music 逐音节歌词，管理员可以导入 |
 
 ## LRC 格式规范
 
@@ -143,6 +144,42 @@ YRC 歌词的标准格式为：
 [62840,4800](62840,450,0)Yeah (63290,120,0)I (63410,510,0)know (63920,360,0)that (64280,1260,0)everyone (65540,330,0)gets (65870,1770,0)scared
 [67730,5670](67730,360,0)But (68090,360,0)I've (68450,690,0)become (69140,270,0)what (69410,210,0)I (69620,1050,0)can't (70670,2730,0)be
 ```
+
+## Lyricify Syllable 格式规范
+
+### 头部信息
+Lyricify Syllable 的歌词头部信息参考 LRC 标准，这里不再重复。
+
+### 歌词
+Lyricify Syllable 歌词的标准格式为：
+```
+[property]Word (start,duration)word(start,duration)
+```
+`property` 为歌词行属性信息。  
+`start` 为起始时间，`duration` 为时长。  
+`()` 中的时间戳为前方单词的起始时间和时长。  
+时间戳的是大于零的整数，单位是毫秒 (ms)。  
+
+#### 歌词行属性信息
+| 属性 | 背景人声 | 对唱视图 |
+| :-: | :-: | :-: |
+| 0 | 未设置 | 未设置 |
+| 1 | 未设置 | 左 |
+| 2 | 未设置 | 右 |
+| 3 | 否 | 未设置 |
+| 4 | 否 | 左 |
+| 5 | 否 | 右 |
+| 6 | 是 | 未设置 |
+| 7 | 是 | 左 |
+| 8 | 是 | 右 |
+  
+这是一个示范：
+```
+[0]Lately (358,1336)I've (1694,487)been, (2181,673)I've (2854,268)been (3122,280)losing (3402,345)sleep(3747,1186)
+[0]Dreaming (5245,696)about (5941,471)the (6412,306)things (6718,458)that (7176,292)we (7468,511)could (7979,393)be(8372,737)
+```
+**注意：**
+Lyricify Syllable 的注意参考 QRC (Lyricify 标准) 标准，这里不再重复。
 
 ## Apple Syllable 格式规范
 略 
