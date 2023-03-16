@@ -71,6 +71,13 @@ Lyricify Mobile 只有这个界面。
 ### 解决方案
 在 Windows 设备上使用 Lyricify 4。
 
+## 如何使用桌面歌词
+Lyricify Mobile 不支持桌面歌词。  
+### 导致原因
+由于 Lyricify Mobile 是跨平台开发的，需要同时考虑 Android 和 iOS，而 iOS 上无法实现传统桌面歌词效果，故 Android 上也暂时不会添加桌面歌词功能。
+### 解决方案
+使用小窗等功能来近似实现。
+
 ## 如何在手机上使用 Lyricify 4
 Lyricify 4 好多功能 Lyricify Mobile 都没有啊，啥时候才能有呢。
 ### 导致原因
