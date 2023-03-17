@@ -185,7 +185,8 @@ Lyricify Syllable 的注意参考 QRC (Lyricify 标准) 标准，这里不再重
 略 
 
 ## 背景人声的制作
-目前只有 QRC (Lyricify 标准) 和 Apple Syllable 支持“背景人声”。
+目前只有 QRC (Lyricify 标准)、Lyricify Syllable 和 Apple Syllable 支持“背景人声”。
+
 ### QRC 歌词
 在 Lyricify 标准下的 QRC 歌词，如符合下列规则，将显示为“背景人声”。  
 1. 歌词以 `(` 或 `（` 开头，`)` 或 `）` 结束。
@@ -206,6 +207,9 @@ Lyricify Syllable 的注意参考 QRC (Lyricify 标准) 标准，这里不再重
 [102285,4362]They (102285,315)keep (102600,568)me (103168,568)thinking (103736,565)that (104301,286)we (104587,298)almost (104885,584)had (105469,299)it (105768,269)all(106037,610)
 [101381,3758](Tears (101381,381)are (101762,318)gonna (102080,384)fall, (102464,359)rolling (103746,518)in (104264,349)the (104613,149)deep)(104762,377)
 ```
+
+### Lyricify Syllable
+若 `歌词行属性信息` 中“背景人声”信息为未设置，则会按照 QRC 歌词的背景人声标准来判断。
 
 ### Apple Syllable
 略，原生支持。
