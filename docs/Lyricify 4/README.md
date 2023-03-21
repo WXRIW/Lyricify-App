@@ -22,7 +22,8 @@
 - [Apple Music 歌词界面卡顿](#apple-music-%E6%AD%8C%E8%AF%8D%E7%95%8C%E9%9D%A2%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98)
 - [专辑图片不显示](#%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E4%B8%93%E8%BE%91%E5%9B%BE%E7%89%87)
 - [Lyricify 不显示歌词](#lyricify-%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E6%92%AD%E6%94%BE%E4%BF%A1%E6%81%AF)
-- [其它常见问题](#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+- [无法导入歌词](#%E6%97%A0%E6%B3%95%E5%9C%A8-%E6%9B%B2%E7%9B%AE%E7%AE%A1%E7%90%86-%E4%B8%AD%E4%B8%8A%E4%BC%A0%E6%AD%8C%E8%AF%8D)
+- [其它常见问题](#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98-1)
 
 **注意：** 如需反馈或提问，对于 Lyricify 功能，请使用[官方认定的正确的名称](#lyricify-%E5%90%8D%E8%AF%8D)来描述。  
 
@@ -271,7 +272,8 @@ Lyricify 国际化的贡献者将在 `Lyricify 关于` 页列出。
 注：如果在 `本地文件管理器` 中没有找到某首歌，可能是因为这首歌的歌名、专辑名、歌手名太长了，可以通过手动修改本地文件信息来解决。（中文字符因为 Spotify Uri 会转换
 
 ## 使用 Lyricify 内置播放
-Lyricify 4 支持内置播放，但是并不建议使用。
+Lyricify 4 支持内置播放，但是并不建议使用。这只是一个测试功能！  
+**Lyricify 4 在使用 Spotify 客户端 (并有 Media Session 可用连接) 时效果最佳。**  
 该功能基于 Spotify 网页版，并且需要 Spotify Premium 订阅。首次使用前需要进行如下配置：
 1. 打开 `Lyricify 主菜单`，打开 `高级` `登录到 Spotify 网页版`。
 2. 如果在弹出的窗口中提示登录 Spotify，则需要先完成 Spotify 账号的登录。如果没有显示任何内容，请检查您的系统是否安装了 `Microsoft Edge WebView2 Runtime`。
@@ -448,7 +450,7 @@ Lyricify 4 专为 Spotify 设计，`Lyricify 4` 全称 `Lyricify for Spotify`。
 ### 功能
 | 名称 | 描述 |
 | - | - |
-| 灵动词岛 | 外观与“灵动岛”有关的用于显示歌词的悬浮窗口，“灵动岛”是不被 Lyricify 认同的说法 |
+| 灵动词岛 | 外观与“灵动岛”和刘海有关的用于显示歌词的悬浮窗口，“灵动岛”是不被 Lyricify 认同的说法 |
 | 桌面歌词 | 桌面歌词，“悬浮歌词”是不被 Lyricify 认同的说法 |
 
 ### Apple Music 歌词
