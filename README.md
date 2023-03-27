@@ -18,7 +18,7 @@
 2. <span id="ref2">Lyricify 3 目前支持 Spotify、iTunes、Music Center、QQ 音乐、网易云音乐、YesPlayMusic，建议 Spotify 用户使用 Lyricify 4，不要使用 Lyricify 3。</span>  
 
 **Notes** 
-1. <span id="ref1_en">Lyricify Mobile for iOS and iPadOS's coding has already been down, but for [some reasons](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%20Mobile/README.md#ios-%E7%89%88%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%83%BD%E6%9D%A5), it cannot be released, please be patient.</span>  
+1. <span id="ref1_en">Lyricify Mobile for iOS and iPadOS's coding has already been done, but for [some reasons](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%20Mobile/README.md#ios-%E7%89%88%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%83%BD%E6%9D%A5), it cannot be released, please be patient.</span>  
 2. <span id="ref2_en">Lyricify 3 currently supports Spotify, iTunes, Music Center, QQ Music, Netease Cloud Music, YesPlayMusic, we suggest all Spotify users to use Lyricify 4, instead of Lyricify 3.</span>  
 3. <span id="ref3_en">User guide document are in Simplified Chinese, use a translator if you don't understand Chinese.</span>  
 
