@@ -312,6 +312,7 @@ Lyricify 4 支持内置播放，但是并不建议使用。这只是一个测试
 ## Apple Music 歌词流畅度优化
 Apple Music 歌词界面 CJK (中日韩) 歌词流畅度较低，这是微软的锅。  
 在这里，Lyricify 提供了优化方案。  
+**注意：** Lyricify 4.0.9 或更高版本中会自动执行本优化，无需用户手动执行。  
 **方法：**  
 1. 下载 [PingFang SC for Lyricify.zip](https://github.com/WXRIW/Lyricify-App/raw/main/resources/font/PingFang%20SC%20for%20Lyricify.zip)。
 2. 将这个压缩包里的字体安装到系统中（解压后右击字体，点击安装即可）。
@@ -398,7 +399,6 @@ Spotify 没有上传当前的播放信息。这是网络原因，也可能是 Sp
 ### 首选解决方案
 1. 关闭模糊
 2. 不要全屏，建议调成竖屏模式，总之，窗口越小，越流畅
-3. 如果您常听的是中日韩的歌，建议执行[这个优化](#apple-music-%E6%AD%8C%E8%AF%8D%E6%B5%81%E7%95%85%E5%BA%A6%E4%BC%98%E5%8C%96)。
 
 # 已知问题
 
@@ -416,7 +416,7 @@ Spotify 没有上传当前的播放信息。这是网络原因，也可能是 Sp
    
    该方法会降低清晰度，但是可以提高性能。
 3. 退出 `Apple Music 歌词` 界面，再重新进入；或者按 `Alt + R` 重新加载 `Apple Music 歌词`。
-4. 关闭 `Apple Music 歌词` 的 `卡拉 OK 样式`。如果您常听的是中日韩的歌，建议执行[这个优化](#apple-music-%E6%AD%8C%E8%AF%8D%E6%B5%81%E7%95%85%E5%BA%A6%E4%BC%98%E5%8C%96)。
+4. 关闭 `Apple Music 歌词` 的 `卡拉 OK 样式`。
 5. 关闭 `Apple Music 歌词` 的 `模糊歌词`，或减小 `模糊程度`。（推荐）
 
 ## 程序渲染线程崩溃
