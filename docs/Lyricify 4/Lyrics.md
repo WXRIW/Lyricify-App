@@ -94,7 +94,7 @@ QRC (Lyricify 标准) 歌词的标准格式为：
 `start` 为起始时间，`duration` 为时长。  
 `[]` 中的时间戳为整行歌词的起始时间和时长。  
 `()` 中的时间戳为前方单词的起始时间和时长。  
-时间戳的是大于零的整数，单位是毫秒 (ms)。  
+时间戳是大于零的整数，单位是毫秒 (ms)。  
   
 这是一个示范：
 ```
@@ -115,6 +115,9 @@ QRC (Lyricify 标准) 歌词的标准格式为：
 - ALRC (https://github.com/kengwang/ALRC)
 - QRC Lyric Maker (https://github.com/BPTPW/qrc-Lyric-Maker)
 - Lyricify 逐字行创造器 (Lyricify 4 内嵌，不建议使用)
+
+**注意：**
+这些工具都很粗糙，只能提供非常有限的功能，并且会有很多问题，所以强烈建议不要使用。
 
 ## YRC 格式规范
 `Lyricify 歌词库` 不支持 YRC 歌词的导入。本部分仅为 YRC 格式的介绍。
