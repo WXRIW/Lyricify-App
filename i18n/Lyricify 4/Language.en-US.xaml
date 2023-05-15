@@ -24,6 +24,7 @@
     
     <!--User Widget-->
     <system:String x:Key="String.MainWindow.UserWidget.Profile">Profile</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.GetSpotifyPremium">Get Spotify Premium</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LogOut">Log out</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.Settings">Settings</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.About">About</system:String>
@@ -85,6 +86,8 @@
     <system:String x:Key="String.Info.Album.AlbumType.Album">Album</system:String>
     <system:String x:Key="String.Info.Album.AlbumType.EP">EP</system:String>
     <system:String x:Key="String.Info.Album.AlbumType.Single">Single</system:String>
+
+    <system:String x:Key="String.Page.Album.Artwork.FileDialog.Filter">JEPG Image (*.jpg)|*.jpg</system:String>
 
     <system:String x:Key="String.Page.Artist.VerifiedArtist">Verified Artist</system:String>
     <system:String x:Key="String.Page.Artist.Popular">Popular</system:String>
@@ -277,8 +280,8 @@
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(No License)</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming">Copyright Claiming</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">Copyright © 2023 WXRIW, All Rights Reserved</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Main Window UI, Mobile UI Fullscreen, Spotify Circular Copyright © Spotify AB</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music Lyrics UI, SF Pro, PingFang SC Copyright © Apple Inc.</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Main Window UI Design, Mobile UI Fullscreen Design, Spotify Circular Copyright © Spotify AB</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music Lyrics UI Design, SF Pro, PingFang SC Copyright © Apple Inc.</system:String>
 
     <!--Page Settings-->
     <system:String x:Key="String.Page.Settings.Title">Settings</system:String>
@@ -470,8 +473,12 @@
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">The availability of a track depends on the country registered in the user’s Spotify profile settings. Often Spotify has several instances of a track in its catalogue, each available in a different set of markets. This commonly happens when the track the album is on has been released multiple times under different licenses in different markets. &#x000A;&#x000A;These tracks are linked together so that when a user tries to play a track that isn’t available in their own market, the Spotify mobile, desktop, and web players try to play another instance of the track that is available in the user’s market.</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement">Enable Media Session enhancement</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">Use system Media Session to improve experience when you are using Spotify desktop client. (Make sure you have enabled &quot;Show desktop overlay when using media keys&quot; in Spotify settings)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement">Enable playback update enhancement</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement.Description">Superb track switching experience powered by Lyricify Intelligent Engine</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">Enable timeline correction</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">Improve timeline precision</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">Enable lyrics preload</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">Preload lyrics can make lyrics loading imperceptible at track switching</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">Enable Chinese conversion</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">Enable Chinese conversion for Spotify contents</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">Device latency</system:String>
@@ -498,6 +505,11 @@
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.ResetAll">Reset All</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">Are you sure to reset all your settings?</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Done">A manual restart of Lyricify might be needed.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log">Log</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Description">Log operations</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Button.Open">Open</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Button.OpenLyrics">Open Lyrics Log</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Button.OpenFolder">Open Folder</system:String>
     
     <!--Page Horizontal Notice-->
     <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">Current page does not support Mobile View, please resize your window to exit Mobile View</system:String>
@@ -550,9 +562,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp">Get help</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.TelegramGroup">Telegram Group</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup">QQ Group</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup.1">User Group 1: 972282479</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup.2">User Group 2: 653663090</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup.3">User Group 3: 515098369</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup">User Group {0}: {1}</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases">Get new releases</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.TelegramChannel">Telegram Channel</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.LyricifyOfficialWebsite">Lyricify Official Website</system:String>
@@ -608,6 +618,8 @@
     <system:String x:Key="String.Menu.Pages.CopySpotifyURI">Copy Spotify URI</system:String>
     <system:String x:Key="String.Menu.Pages.CopySpotifyLink">Copy Spotify link</system:String>
     <system:String x:Key="String.Menu.Pages.ShowInSpotify">Show in Spotify</system:String>
+    
+    <system:String x:Key="String.Menu.Pages.SaveArtwork">Save artwork</system:String>
 
     <!--Track-->
     <system:String x:Key="String.Menu.Track.CopyTrackInfo">Copy track info</system:String>
@@ -726,6 +738,7 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfiguration">Add Configuration</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.ReloadAllConfiguration">Reload All Configurations</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.RemoveAllConfigurations">Remove All Configurations</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.HelpDocument">Help Document</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.Close">Close</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveOne">Are you sure to remove this configuration?</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveAll">Are you sure to remove all configurations?</system:String>
@@ -835,6 +848,9 @@
     <system:String x:Key="String.Window.TrackManagement.Notice.Loading">Loading Server Lyrics Information</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">Empty track</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">Failed to load server lyrics info</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message">You might try</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.1">1. Disable proxy, which might block the connection to Lyricify's server</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.2">2. Log out Lyricify and re-login</system:String>
     <system:String x:Key="String.Window.TrackManagement.Editor.WordWrap">Word Wrap</system:String>
     <system:String x:Key="String.Window.TrackManagement.Editor.Notice.AskSave">Do you want to save the changes?</system:String>
     <system:String x:Key="String.Window.TrackManagement.Editor.Notice.NoTimestamp">No timestamp detected, continue saving?</system:String>
@@ -842,9 +858,12 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Lyrics">Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">Translation</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">Add Translation</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Message.Translation.AutoFill">Use auto filled translation?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyrics">Import Apple Music Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportSpotifyLyrics">Import Spotify Lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportKugouLyrics">Import Kugou Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">Get QRC Lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetLyricifySyllable">Get Lyricify Syllable Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">Syllable Line Creator</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">Syllable Line Mover</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.QrcSpaceMove">Move head space to the end</system:String>
@@ -854,8 +873,16 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">Lyrics not found</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">Those lyrics are not word timing, continue the importation?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">Convert Traditional Chinese to Simplified Chinese?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization">Capitalization</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization.Message">Capitalize all ahead of lines?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Copied.QRC">QRC copied to clipboard</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Copied.LyricifySyllable">Lyricify Syllable copied to clipboard</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.NotSynced">Lyrics not synced, failed to import</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.ConvertTraditionalChinese">Traditional Chinese has been automatically converted to Simplified Chinese, please check the lyrics to make sure the conversion is correct.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.TokenExpired">Server side Spotify Token expired, please contact Lyricify's developer.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToFound">Found no lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToGet">Failed to get lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToConvert">Failed to convert lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor">Raw File Editor</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">Unable to deserialize, review your changes (Yes) or close without saving (No)?</system:String>
     
@@ -1011,6 +1038,9 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 Error, retry later</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Timeout">Timeout exception, retry later</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Http Request Exception, retry later</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">Lyricify account not found, server related functions will be limited&#x000A;Log out and relogin might help</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Restricted">Your Lyricify account has been restricted, contact admin for help</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Message.NonPremium">Suggestion: Get Spotify Premium to get the most out of Lyricify</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed">Lyricify will be closed</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed.Wrong">Something is wrong, Lyricify for Spotify will close.</system:String>
     <system:String x:Key="String.Messages.MainWindow.SpotifyAccount.Error.Relogin">Something is wrong with your Spotify account, try to relogin?</system:String>

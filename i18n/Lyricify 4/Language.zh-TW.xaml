@@ -6,24 +6,25 @@
     -->
 
     <!--Navigation Panel-->
-    <system:String x:Key="String.MainWindow.Navigation.Home">主頁</system:String>
-    <system:String x:Key="String.MainWindow.Navigation.Search">搜索</system:String>
+    <system:String x:Key="String.MainWindow.Navigation.Home">首頁</system:String>
+    <system:String x:Key="String.MainWindow.Navigation.Search">搜尋</system:String>
     <system:String x:Key="String.MainWindow.Navigation.YourLibrary">音樂庫</system:String>
-    <system:String x:Key="String.MainWindow.Navigation.LikedSongs">已按贊的歌曲</system:String>
+    <system:String x:Key="String.MainWindow.Navigation.LikedSongs">已按讚的歌曲</system:String>
 
     <!--Mobile Mode Navigation-->
-    <system:String x:Key="String.MainWindow.Mobile.Navigation.Home">主頁</system:String>
+    <system:String x:Key="String.MainWindow.Mobile.Navigation.Home">首頁</system:String>
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Lyrics">歌詞</system:String>
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Apple">Apple</system:String>
 
     <!--Login-->
     <system:String x:Key="String.MainWindow.Login.Welcome">歡迎來到 Lyricify，{0}！</system:String>
-    <system:String x:Key="String.MainWindow.Login.LoggingIn">登錄中</system:String>
+    <system:String x:Key="String.MainWindow.Login.LoggingIn">登入中</system:String>
     <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">這可能會花費一定時間</system:String>
-    <system:String x:Key="String.MainWindow.Login.StillTrying">我們仍在嘗試登錄</system:String>
+    <system:String x:Key="String.MainWindow.Login.StillTrying">我們仍在嘗試登入</system:String>
 
     <!--User Widget-->
     <system:String x:Key="String.MainWindow.UserWidget.Profile">個人資料</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.GetSpotifyPremium">獲取 Spotify Premium</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LogOut">登出</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.Settings">設定</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.About">關於</system:String>
@@ -31,21 +32,21 @@
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">已連接</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">未連接</system:String>
 
-    <system:String x:Key="String.MainWindow.PinnedArea.Notice">固定項目以快速訪問</system:String>
+    <system:String x:Key="String.MainWindow.PinnedArea.Notice">釘選項目以快速訪問</system:String>
 
     <!--Control Part-->
     <!--Frame-->
-    <system:String x:Key="String.MainWindow.Frame.Control.GoBack">後退</system:String>
-    <system:String x:Key="String.MainWindow.Frame.Control.GoForward">前進</system:String>
+    <system:String x:Key="String.MainWindow.Frame.Control.GoBack">往後</system:String>
+    <system:String x:Key="String.MainWindow.Frame.Control.GoForward">往前</system:String>
     <!--Bottom Bar-->
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AlbumArtwork">點擊以顯示歌曲資訊</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Lyrics">歌詞</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AppleMusicLyrics">Apple Music 歌詞</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.SpotifyConnect">Spotify Connect</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Volume">音量</system:String>
-    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Fullscreen">全屏</system:String>
-    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.MobileUIFullscreen">移動端 UI 全屏</system:String>
-    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.LyricifyFullscreen">Lyricify 全屏</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Fullscreen">全螢幕</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.MobileUIFullscreen">手機版 UI 全螢幕</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.LyricifyFullscreen">Lyricify 全螢幕</system:String>
 
 
     <!--
@@ -69,7 +70,7 @@
     <!--Other Pages-->
     <system:String x:Key="String.Page.List.Title.Title">標題</system:String>
     <system:String x:Key="String.Page.List.Title.Album">專輯</system:String>
-    <system:String x:Key="String.Page.List.Title.DateAdded">添加日期</system:String>
+    <system:String x:Key="String.Page.List.Title.DateAdded">新增日期</system:String>
     <system:String x:Key="String.Page.List.Title.DateReleased">發行日期</system:String>
 
     <system:String x:Key="String.Page.Info.Song">{0} 首歌曲</system:String>
@@ -86,6 +87,8 @@
     <system:String x:Key="String.Info.Album.AlbumType.EP">EP</system:String>
     <system:String x:Key="String.Info.Album.AlbumType.Single">單曲</system:String>
 
+    <system:String x:Key="String.Page.Album.Artwork.FileDialog.Filter">JEPG 圖片 (*.jpg)|*.jpg</system:String>
+
     <system:String x:Key="String.Page.Artist.VerifiedArtist">認證藝人</system:String>
     <system:String x:Key="String.Page.Artist.Popular">熱門</system:String>
     <system:String x:Key="String.Page.Artist.Follower">{0:N0} 位粉絲</system:String>
@@ -99,11 +102,11 @@
     <system:String x:Key="String.Page.Playlist.Title">歌單</system:String>
     <system:String x:Key="String.Page.Playlist.Title.Private">私人歌單</system:String>
     <system:String x:Key="String.Page.Playlist.Title.Public">公開歌單</system:String>
-    <system:String x:Key="String.Page.Playlist.Like">{0:N0} 次點贊</system:String>
-    <system:String x:Key="String.Page.Playlist.Likes">{0:N0} 次點贊</system:String>
+    <system:String x:Key="String.Page.Playlist.Like">{0:N0} 次按讚</system:String>
+    <system:String x:Key="String.Page.Playlist.Likes">{0:N0} 次按讚</system:String>
 
     <system:String x:Key="String.Page.LikedSongs.Title">歌單</system:String>
-    <system:String x:Key="String.Page.LikedSongs.Name">已按贊的歌曲</system:String>
+    <system:String x:Key="String.Page.LikedSongs.Name">已按讚的歌曲</system:String>
 
     <system:String x:Key="String.Page.Profile.Title">個人資料</system:String>
     <system:String x:Key="String.Page.Profile.Follower">{0:N0} 位粉絲</system:String>
@@ -127,12 +130,12 @@
     <system:String x:Key="String.Page.MobileUI.Title">歌詞</system:String>
 
     <!--Page Search-->
-    <system:String x:Key="String.Page.Search.Title.Search">搜索</system:String>
+    <system:String x:Key="String.Page.Search.Title.Search">搜尋</system:String>
     <system:String x:Key="String.Page.Search.Title.Lyrics">歌詞</system:String>
     <system:String x:Key="String.Page.Search.Title.Availability">可用性</system:String>
     <system:String x:Key="String.Page.Search.429Error">超出 API 速率限制 (429 錯誤)</system:String>
     <system:String x:Key="String.Page.Search.Retry">重試</system:String>
-    <system:String x:Key="String.Page.Search.Search.SearchBar.PlaceHolder">搜索歌曲、藝人、專輯或歌單</system:String>
+    <system:String x:Key="String.Page.Search.Search.SearchBar.PlaceHolder">搜尋歌曲、藝人、專輯或歌單</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Songs">歌曲</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Artists">藝人</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Albums">專輯</system:String>
@@ -141,7 +144,7 @@
     <system:String x:Key="String.Page.Search.Availability.SearchBar.PlaceHolder">在這裡輸入連結或 Spotify URI</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.NetworkIssue.Message">網路問題，請檢查你的 Internet 連接。</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">未找到專輯，請檢查你輸入的 ID。</system:String>
-    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">錯誤的輸入或不支援的輸入。僅支持歌曲（重定向至專輯）、專輯和歌單連結。這裡有幾個示例。</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">錯誤的輸入或不支援的輸入。僅支援歌曲（重定向至專輯）、專輯和歌單連結。這裡有幾個示例。</system:String>
     <system:String x:Key="String.Page.Search.Availability.Market">市場</system:String>
     <system:String x:Key="String.Page.Search.Availability.MoreVersions">更多版本</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.UnavailableTracks">不可用的曲目</system:String>
@@ -151,11 +154,11 @@
     <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Unavailable">不可用</system:String>
 
     <!--Page Spotify Connect-->
-    <system:String x:Key="String.Page.SpotifyConnect.CurrentDevice">當前設備</system:String>
-    <system:String x:Key="String.Page.SpotifyConnect.SelectAnotherDevice">選擇其他設備</system:String>
-    <system:String x:Key="String.Page.SpotifyConnect.NoDeviceFound">沒有找到可用設備</system:String>
-    <system:String x:Key="String.Page.SpotifyConnect.NoOtherDevicesFound">沒有找到其他設備</system:String>
-    <system:String x:Key="String.Page.SpotifyConnect.ThisComputer">這台電腦</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.CurrentDevice">目前裝置</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.SelectAnotherDevice">選擇其他裝置</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.NoDeviceFound">沒有找到可用裝置</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.NoOtherDevicesFound">沒有找到其他裝置</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.ThisComputer">這臺電腦</system:String>
 
     <!--Audio Features-->
     <system:String x:Key="String.AudioFeatures.Track">歌曲</system:String>
@@ -248,7 +251,7 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToArtist">前往藝人</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToAlbum">前往專輯</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToPlaylist">前往播放清單</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.AddToLibrary">添加到資料庫</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.AddToLibrary">新增到資料庫</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.DeleteFromLibrary">從資料庫中刪除</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">顯示藝人</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">顯示專輯</system:String>
@@ -262,11 +265,11 @@
     <system:String x:Key="String.Page.About.Copyright">版權所有 © 2023 WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">歌詞提供者</system:String>
     <system:String x:Key="String.Page.About.LyricsProviders">Lyricify 歌詞庫, QQ 音樂, 網易雲音樂</system:String>
-    <system:String x:Key="String.Page.About.Donation">打賞</system:String>
+    <system:String x:Key="String.Page.About.Donation">贊助</system:String>
     <system:String x:Key="String.Page.About.Thanklist">感謝列表</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksApple">特別感謝 Apple 獨具匠心的設計</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">特別感謝 Spotify 在音樂流媒體界的貢獻</system:String>
-    <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">特別感謝 Difer 提供 Spotify Premium 帳號</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">特別感謝 Difer 提供 Spotify Premium 帳戶</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksInsiders">特別感謝我們的預覽成員</system:String>
     <system:String x:Key="String.Page.About.Internationalization">國際化</system:String>
     <system:String x:Key="String.Page.About.References">引用</system:String>
@@ -277,40 +280,40 @@
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(無許可)</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming">版權申明</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">版權所有 © 2023 WXRIW 保留所有權利</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">主視窗 UI, 移動端 UI 全屏, Spotify Circular 版權所有 © Spotify AB</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music 歌詞 UI, SF Pro, 蘋方(簡體) 版權所有 © Apple Inc.</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">主視窗 UI 設計, 手機版 UI 全螢幕設計, Spotify Circular 版權所有 © Spotify AB</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music 歌詞 UI 設計, SF Pro, 蘋方(簡體) 版權所有 © Apple Inc.</system:String>
 
     <!--Page Settings-->
     <system:String x:Key="String.Page.Settings.Title">設定</system:String>
-    <system:String x:Key="String.Page.Settings.General">通用</system:String>
+    <system:String x:Key="String.Page.Settings.General">一般</system:String>
     <system:String x:Key="String.Page.Settings.General.Language">語言</system:String>
-    <system:String x:Key="String.Page.Settings.General.Language.Description">選擇 Lyricify 的顯示語言 (某些改變可能需要重啟應用)</system:String>
+    <system:String x:Key="String.Page.Settings.General.Language.Description">選擇 Lyricify 的顯示語言 (某些改變可能需要重啟應用程式)</system:String>
     <system:String x:Key="String.Page.Settings.General.CloseToHide">點擊關閉以隱藏</system:String>
-    <system:String x:Key="String.Page.Settings.General.CloseToHide.Description">點擊關閉按鈕時，隱藏 Lyricify 到託盤 (通知欄)</system:String>
-    <system:String x:Key="String.Page.Settings.General.RestoreWindow">恢復窗口</system:String>
-    <system:String x:Key="String.Page.Settings.General.RestoreWindow.Description">啟動時恢復 Lyricify 視窗的狀態</system:String>
+    <system:String x:Key="String.Page.Settings.General.CloseToHide.Description">點擊關閉按鈕時，隱藏 Lyricify 到托盤 (通知欄)</system:String>
+    <system:String x:Key="String.Page.Settings.General.RestoreWindow">恢復視窗</system:String>
+    <system:String x:Key="String.Page.Settings.General.RestoreWindow.Description">開啟時恢復 Lyricify 視窗的狀態</system:String>
     <system:String x:Key="String.Page.Settings.Appearance">外觀</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode">顏色模式</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.Description">改變 Lyricify 的顏色模式</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">深色 (默認)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">深色 (預設)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Light">淺色</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground">歌詞背景</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.Description">改變歌詞背景</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.ComboBox.SingleColor">純色</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.ComboBox.BlurredCover">模糊的封面 (默認)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.ComboBox.BlurredCover">模糊的封面 (預設)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom">縮放</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.Zoom.Description">改變 Lyricify 的顯示縮放比</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.Zoom.Description">改變 Lyricify 的顯示縮放比例</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Button.Reset">重置</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.Zoom.Help">你也可以改變通過按下 Ctrl 鍵並使用滑鼠滾輪去調整顯示縮放比，或 &quot;Ctrl + -&quot; 以縮小，&quot;Ctrl + =&quot; 以放大，&quot;Ctrl + 0&quot; 以重置縮放。</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization">歌詞樣式個性化</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.Zoom.Help">你也可以改變通過按下 Ctrl 鍵並使用滑鼠滾輪去調整顯示縮放比例，或 &quot;Ctrl + -&quot; 以縮小，&quot;Ctrl + =&quot; 以放大，&quot;Ctrl + 0&quot; 以重置縮放。</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization">自訂歌詞樣式</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Description">Spotify 樣式頁中的歌詞樣式</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode">歌詞樣式個性化 (移動端樣式)</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode.Description">Spotify 移動端樣式頁中的歌詞樣式</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode">自訂歌詞樣式 (手機版樣式)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode.Description">Spotify 手機版樣式頁中的歌詞樣式</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Button.Reset">重置</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign">歌詞對齊</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Center">居中 (默認)</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Left">左對齊</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Right">右對齊</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Center">置中 (預設)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Left">靠左對齊</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Right">靠右對齊</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.Margin">邊距</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.FontSize.Lyrics">歌詞字型大小</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.FontSize.Translation">翻譯字型大小</system:String>
@@ -319,23 +322,23 @@
     <system:String x:Key="String.Page.Settings.Appearance.KaraokeMode">逐字模式</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.KaraokeMode.Description">逐字顯示歌詞</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.QuickAccess">快捷訪問</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.Description">你可以選擇想要固定在左下角的內容，可以是自訂固定的內容，也可以顯示所有歌單</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.ComboBox.CustomPins">自訂固定項</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.Description">你可以選擇想要釘選在左下角的內容，可以是自訂釘選的內容，也可以顯示所有歌單</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.ComboBox.CustomPins">自訂釘選項</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.ComboBox.AllPlaylists">所有歌單</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.FontFamily">字體家族</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Current">當前字體家族:</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Current.Default">默認</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Current">目前字體家族:</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Current.Default">預設</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Custom">自訂</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Reset">恢復</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics">歌詞</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation">中文翻譯</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation.Description">當中文翻譯可用時將會被顯示</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.Romaji">羅馬音</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.Description">選擇日語羅馬音的顯示選項</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji">羅馬拼音</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.Description">選擇日語羅馬拼音的顯示選項</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.Disable">禁用</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.TranslationFirst">翻譯優先</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiFirst">羅馬音優先</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiOnly">僅羅馬音</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiFirst">羅馬拼音優先</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiOnly">僅羅馬拼音</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese">更喜歡簡體中文</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese.Description">如果關閉此選項，中文字元將被轉換至繁體中文</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">顯示髒詞</system:String>
@@ -353,53 +356,53 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics">模糊歌詞</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics.Description">在歌詞上啟用模糊效果</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">模糊程度</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">設定模糊程度 (iPadOS 橫屏下的默認級別是 3，iPadOS 豎屏或 iOS 下的默認級別是 5)</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">級別</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">粗體文本</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">在 Apple Music 歌詞內使用粗體文本</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">設定模糊程度 (iPadOS 橫屏下的預設等級是 3，iPadOS 豎屏或 iOS 下的預設等級是 5)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">等級</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">粗體文字</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">在 Apple Music 歌詞內使用粗體文字</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode">卡拉 OK 模式</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Description">是噠，現在你可以在 Apple Music 歌詞中使用卡拉 OK 樣式的歌詞</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Description">是的，現在你可以在 Apple Music 歌詞中使用卡拉 OK 樣式的歌詞</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK">禁用 CJK 歌詞的卡拉 OK 樣式</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK.Description">中日韓歌詞會使用更多資源來顯示，禁用可提高動畫性能</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK.Description">中日韓歌詞會使用更多資源來顯示，禁用可提高動畫效能</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation">啟用額外的動畫</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Description">更好的動畫，更好的體驗</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">上浮動畫</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">同框對唱</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">畫面兩側會顯示多位歌手，讓用户更輕鬆跟唱對唱或合唱歌曲</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">畫面兩側會顯示多位歌手，讓使用者更輕鬆跟唱對唱或合唱歌曲</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling">拖動效果</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.Description">設定拖動效果的強度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Disabled">禁用</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Low">低</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Regular">一般</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Medium">中度 (默認)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Medium">中度 (預設)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.High">高</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Tremendous">極高</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial">顯示妙控條教程</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Description">總是在進入 Apple Music 歌詞後顯示妙控條教程</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">隆重推出妙控條 (Magic Strip)！ &#x000A;&#x000A;你可以點擊條狀按鈕來退出 Apple Music 歌詞，&#x000A;向下滑動以最小化，&#x000A;向左或向右滑動以最大化或還原，&#x000A;向上滑動以取消操作。&#x000A;&#x000A;你還可以按下右鍵向上滑動跳到首行歌詞，&#x000A;向下滑動跳到最後一行歌詞，&#x000A;向左或向右滑動跳到當前行，&#x000A;僅右擊則無操作。</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial">顯示妙控條教學</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Description">總是在進入 Apple Music 歌詞後顯示妙控條教學</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">隆重推出妙控條 (Magic Strip)！ &#x000A;&#x000A;你可以點擊條狀按鈕來退出 Apple Music 歌詞，&#x000A;向下滑動以最小化，&#x000A;向左或向右滑動以最大化或還原，&#x000A;向上滑動以取消操作。&#x000A;&#x000A;你還可以按下右鍵向上滑動跳到首行歌詞，&#x000A;向下滑動跳到最後一行歌詞，&#x000A;向左或向右滑動跳到目前行，&#x000A;僅右擊則無操作。</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">縮放記憶</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">在 Apple Music 歌詞中恢復縮放記憶</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">啟用傳統版本</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">在主菜單中添加 Apple Music 歌詞 (傳統) 入口</system:String>
-    <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Lyricify 全屏</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">在主選單中新增 Apple Music 歌詞 (傳統) 入口</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Lyricify 全螢幕</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics">模糊歌詞</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics.Description">在歌詞上啟用模糊效果</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo">彩色標誌</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo.Description">使用彩色 Lyricify 標誌，而不是單色 Lyricify 標誌</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">靈動詞島</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">靈動大陸模式</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">動態大陸模式</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">島還是陸，你來決定！不同的樣式有著不同的功能</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">當你的滑鼠指標進入時靈動大陸模式下的靈動詞島時，詞島將自動消失，但在靈動島模式下，你可以用指標拖動島的位置。&#x000A;在靈動島模式下，你可以通過右鍵功能表來關閉靈動詞島，但在靈動大陸模式下，你只可以通過主功能表或者快速鍵來關閉。</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">當你的滑鼠指標進入時動態大陸模式下的靈動詞島時，詞島將自動消失，但在動態島模式下，你可以用指標拖動島的位置。&#x000A;在動態島模式下，你可以通過右鍵功能表來關閉靈動詞島，但在動態大陸模式下，你只可以通過主功能表或者快速鍵來關閉。</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">總是顯示兩行</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">總是顯示兩行，即使沒有翻譯可用</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText">粗體文本</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText.Description">在靈動詞島內使用粗體文本</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText">粗體文字</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText.Description">在靈動詞島內使用粗體文字</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode">卡拉 OK 模式</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode.Description">你見過發光的歌詞嗎？</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide">自動隱藏</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">開啟後，靈動詞島將在暫停時自動隱藏</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">全屏隱藏</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">運行全屏程式時隱藏靈動詞島</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">全螢幕隱藏</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">運行全螢幕程式時隱藏靈動詞島</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">不透明度</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">桌面歌詞</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">雙行模式</system:String>
@@ -410,34 +413,34 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode.Description">使用卡拉 OK 樣式</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide">自動隱藏</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">開啟後，桌面歌詞將在暫停時自動隱藏</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide">全屏隱藏</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide.Description">運行全屏程式時隱藏桌面歌詞</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide">全螢幕隱藏</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide.Description">運行全螢幕程式時隱藏桌面歌詞</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">不透明度</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.BorderThickness">邊框厚度</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign">歌詞對齊</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Center">居中 (默認)</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Left">左對齊</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Right">右對齊</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Center">置中 (預設)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Left">靠左對齊</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Right">靠右對齊</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors">顏色</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Description">這也許是可自訂程度最高的桌面歌詞</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Button.Reset">重置</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle">雙行樣式</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.Description">兩個獨立的歌詞行。含有翻譯歌詞行不會使用雙行樣式</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Fill">高亮行 (填充)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Fill">高亮行 (填滿)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Border">高亮行 (邊框)</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Fill">下一行 (填充)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Fill">下一行 (填滿)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Border">下一行 (邊框)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle">單行樣式</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Description">僅顯示一行。翻譯將在可用時顯示</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Fill">填充</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Fill">填滿</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Border">邊框</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Fill">翻譯行 (填充)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Fill">翻譯行 (填滿)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Border">翻譯行 (邊框)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle">卡拉 OK 樣式</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Description">此設定對單行與雙行均生效</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Fill">已播放 (填充)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Fill">已播放 (填滿)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Border">已播放 (邊框)</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Fill">未播放 (填充)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Fill">未播放 (填滿)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Border">未播放 (邊框)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.ArtworkMainColor">封面主顏色</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Black">黑色</system:String>
@@ -449,14 +452,14 @@
     <system:String x:Key="String.Page.Settings.Functions">功能</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed">新歌速遞</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.Description">獲取新發行的專輯</system:String>
-    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup">在啟動時檢查</system:String>
-    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup.Description">每當你啟動 Lyricify 時，檢查是否有新發行的專輯</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup">在開啟時檢查</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup.Description">每當你開啟 Lyricify 時，檢查是否有新發行的專輯</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases">只在 &quot;熱門的新歌熱播&quot; 中檢查</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases.Description">這將減少 Spotify Web API 的請求數，降低得到太多請求錯誤 (429 錯誤) 的可能性。通過打開此選項開關，部分新專輯將不會被顯示。 (當你關注了 20 或以上位藝人時，Lyricify 建議你打開此選項)</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization">自訂想要檢查的藝人</system:String>
-    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.Description">你可以選擇一部分藝人讓 Lyricify 去檢查，你甚至可以添加你沒有關注的藝人</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.Description">你可以選擇一部分藝人讓 Lyricify 去檢查，你甚至可以新增你沒有關注的藝人</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists">選擇藝人</system:String>
-    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Button.AddOrEdit">添加或修改</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Button.AddOrEdit">新增或修改</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Description">選擇你想要 Lyricify 去檢查的藝人</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Choosen">已選擇的藝人</system:String>
     <system:String x:Key="String.Page.Settings.Spotify">Spotify</system:String>
@@ -464,20 +467,24 @@
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.Description">這將影響到你的首頁推薦</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.Default">預設 (你的帳戶地區)</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternerLocation">網路位置 (你的 IP 地區)</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced">高級</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced">進階</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">使用重新連結曲目的專輯圖片</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">當曲目被重新連結時，使用重新連結曲目的專輯圖片代替原曲目的專輯圖片</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">曲目的可用性取決於在使用者的 Spotify 設定檔設定中註冊的國家/地區。 Spotify 通常在其目錄中有多個曲目實例，每個曲目在不同的市場集上可用。 當專輯所在的曲目已在不同市場以不同許可多次發行時，通常會發生這種情況。&#x000A;&#x000A;這些曲目連結在一起，因此當用戶嘗試播放他們自己的市場上沒有的曲目時，Spotify 移動、桌面和網路播放機會嘗試播放使用者市場上可用的曲目的另一個實例。</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">曲目的可用性取決於在使用者的 Spotify 設定檔設定中註冊的國家/地區。 Spotify 通常在其目錄中有多個曲目實例，每個曲目在不同的市場集上可用。 當專輯所在的曲目已在不同市場以不同許可多次發行時，通常會發生這種情況。&#x000A;&#x000A;這些曲目連結在一起，因此當用戶嘗試播放他們自己的市場上沒有的曲目時，Spotify 移動、桌面和網路播放器會嘗試播放使用者市場上可用的曲目的另一個實例。</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement">啟用 Media Session 增強</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">使用系統 Media Session 以提升使用 Spotify 桌面端時的體驗. (確保你在 Spotify 設定中開啟了“使用媒體鍵時顯示桌面疊加”)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">使用系統 Media Session 以提升使用 Spotify 電腦版時的體驗. (確保你在 Spotify 設定中開啟了「在使用媒體鍵時顯示桌面重疊」)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement">啟用播放更新增強</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement.Description">極佳的曲目切換體驗，由 Lyricify 智慧引擎 (Lyricify Intelligent Engine) 強勁驅動</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">啟用時間軸修正</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">提高時間軸精確度</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">啟用歌詞預載入</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">預載入歌詞可以讓曲目切換時的歌詞載入幾乎無感</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">啟用中文轉換</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">為 Spotify 內容啟用中文轉換</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">設備延遲</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">單位：毫秒。此參數是為藍牙播放設備的延遲設計的，不要將此用於設置歌詞時間差。刷新歌詞後生效</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">熱鍵管理</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">打開熱鍵管理器，管理全域快速鍵</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">裝置延遲</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">單位：毫秒。此參數是為藍牙播放裝置的延遲設計的，不要將此用於設定歌詞時間差。重新整理歌詞後生效</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">快捷鍵管理</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">打開快捷鍵管理器，管理全域快捷鍵</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">打開</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar">Spotify API 等待條</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar.Description">在切歌時，若遇到 429 錯誤，則顯示等待條</system:String>
@@ -491,16 +498,21 @@
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Password">密碼</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Apply">應用</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">部分功能需要重啟才能生效。</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile">設置檔</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Description">直接編輯設置檔 (高級)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile">設定檔</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Description">直接編輯設定檔 (進階)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Open">打開</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Load">載入</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.ResetAll">重置所有</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">你是否確定要重置所有設置？</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">你是否確定要重置所有設定？</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Done">手動重啟 Lyricify 可能被需要。</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log">日誌</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Description">日誌操作</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Button.Open">打開</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Button.OpenLyrics">打開歌詞日誌</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Button.OpenFolder">打開資料夾</system:String>
 
     <!--Page Horizontal Notice-->
-    <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">當前頁面不支援移動端視圖，請調整視窗大小以退出移動端模式</system:String>
+    <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">目前頁面不支援手機版視圖，請調整視窗大小以退出手機版模式</system:String>
 
 
 
@@ -520,23 +532,23 @@
     <system:String x:Key="String.Menu.MainWindow.Main.View.FontSize.Out">減小字型大小</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.View.FontSize.Reset">重置字型大小</system:String>
 
-    <system:String x:Key="String.Menu.MainWindow.Main.RefreshLyrics">刷新歌詞</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.RefreshLyrics">重新整理歌詞</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Translation">翻譯</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.DesktopLyrics">桌面歌詞</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.DynamicLyricsIsland">靈動詞島</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.AppleMusicLyrics">Apple Music 歌詞</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.AppleMusicLyricsTraditional">Apple Music 歌詞 (傳統)</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.LyricifyFullscreen">Lyricify 全屏</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.MobileUIFullscreen">移動端 UI 全屏</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.LyricifyFullscreen">Lyricify 全螢幕</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.MobileUIFullscreen">手機版 UI 全螢幕</system:String>
 
     <system:String x:Key="String.Menu.MainWindow.Main.Settings">設定</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.Advanced">高級</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced">進階</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.BackupCenter">備份與自動化中心</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CustomConfigurationManager">自訂配置管理器</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.HotkeyManager">熱鍵管理器</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CustomConfigurationManager">自訂設定檔管理器</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.HotkeyManager">快捷鍵管理器</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LocalFilesManager">本地檔案管理員</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">登錄到 Spotify 網頁版</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.RefreshPlaybackInfo">刷新 Spotify 播放資訊</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">登入到 Spotify 網頁版</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.RefreshPlaybackInfo">重新整理 Spotify 播放資訊</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CopyRefreshToken">複製 Refresh Token</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.MediaSessionStatus">Media Session 狀態</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.ChangeLyricifyPassword">修改 Lyricify 帳戶密碼</system:String>
@@ -550,9 +562,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp">獲取幫助</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.TelegramGroup">Telegram 群組</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup">QQ 群組</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup.1">用戶群 1: 972282479</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup.2">用戶群 2: 653663090</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup.3">用戶群 3: 515098369</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup">用戶群 {0}: {1}</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases">獲取最新發佈</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.TelegramChannel">Telegram 頻道</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.LyricifyOfficialWebsite">Lyricify 官方網站</system:String>
@@ -568,14 +578,14 @@
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.Share">分享</system:String>
 
     <!--Pinned Item-->
-    <system:String x:Key="String.Menu.MainWindow.PinnedItem.Rename">重命名</system:String>
+    <system:String x:Key="String.Menu.MainWindow.PinnedItem.Rename">重新命名</system:String>
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.MoveUp">向上移動</system:String>
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.MoveDown">向下移動</system:String>
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.Remove">移除</system:String>
 
     <!--Dynamic Lyrics Island-->
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">按兩下以隱藏 2s</system:String>
-    <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">水準居中</system:String>
+    <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">水平置中</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">關閉</system:String>
 
     <!--Apple Music Lyrics-->
@@ -583,7 +593,7 @@
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.Out">縮小</system:String>
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.Reset">重置縮放</system:String>
     <system:String x:Key="String.Menu.AppleMusicLyrics.Blur">模糊歌詞</system:String>
-    <system:String x:Key="String.Menu.AppleMusicLyrics.BoldText">粗體文本</system:String>
+    <system:String x:Key="String.Menu.AppleMusicLyrics.BoldText">粗體文字</system:String>
     <system:String x:Key="String.Menu.AppleMusicLyrics.Translation">中文翻譯</system:String>
 
 
@@ -602,22 +612,24 @@
     <system:String x:Key="String.Menu.Pages.CopyTrackList">複製歌曲列表</system:String>
     <system:String x:Key="String.Menu.Pages.CopyTopTracks">複製熱歌列表</system:String>
 
-    <system:String x:Key="String.Menu.Pages.Pin">固定到快捷訪問</system:String>
-    <system:String x:Key="String.Menu.Pages.Unpin">從快捷訪問取消固定</system:String>
+    <system:String x:Key="String.Menu.Pages.Pin">釘選到快捷訪問</system:String>
+    <system:String x:Key="String.Menu.Pages.Unpin">從快捷訪問取消釘選</system:String>
 
     <system:String x:Key="String.Menu.Pages.CopySpotifyURI">複製 Spotify URI</system:String>
     <system:String x:Key="String.Menu.Pages.CopySpotifyLink">複製 Spotify 連結</system:String>
     <system:String x:Key="String.Menu.Pages.ShowInSpotify">在 Spotify 中顯示</system:String>
 
+    <system:String x:Key="String.Menu.Pages.SaveArtwork">儲存專輯圖片</system:String>
+
     <!--Track-->
     <system:String x:Key="String.Menu.Track.CopyTrackInfo">複製歌曲資訊</system:String>
     <system:String x:Key="String.Menu.Track.CopyTrackISRC">複製歌曲 ISRC</system:String>
-    <system:String x:Key="String.Menu.Track.AddToQueue">添加至播放佇列</system:String>
+    <system:String x:Key="String.Menu.Track.AddToQueue">新增至播放佇列</system:String>
 
-    <system:String x:Key="String.Menu.Track.GoToPlaylist">轉至歌單</system:String>
-    <system:String x:Key="String.Menu.Track.GoToAlbum">轉至專輯</system:String>
-    <system:String x:Key="String.Menu.Track.GoToArtist">轉至藝人</system:String>
-    <system:String x:Key="String.Menu.Track.ShowCredits">查看製作人員</system:String>
+    <system:String x:Key="String.Menu.Track.GoToPlaylist">前往歌單</system:String>
+    <system:String x:Key="String.Menu.Track.GoToAlbum">前往專輯</system:String>
+    <system:String x:Key="String.Menu.Track.GoToArtist">前往藝人</system:String>
+    <system:String x:Key="String.Menu.Track.ShowCredits">檢視製作人員</system:String>
     <system:String x:Key="String.Menu.Track.OpenTrackManagement">打開曲目管理</system:String>
 
     <system:String x:Key="String.Menu.Track.CopySpotifyURI">複製 Spotify URI</system:String>
@@ -654,10 +666,10 @@
     <system:String x:Key="String.Windows.Welcome.Settings.Title">讓我們開始吧</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Agreement">繼續即說明您接受 Lyricify 使用者協議</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Button.Continue">繼續</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Title">是時候在你的網頁流覽器中進行 Spotify 授權了</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Title">是時候在你的網頁瀏覽器中進行 Spotify 授權了</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.AuthFinish">Spotify 授權完成，請再等待幾秒</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Trouble">登錄時遇到問題？</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink">網頁流覽器沒有打開：</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble">登入時遇到問題？</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink">網頁瀏覽器沒有打開：</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink.Help">複製 Spotify 授權連結</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink">成功的授權未被檢測到：</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink.Help">手動輸入授權回檔連結</system:String>
@@ -672,23 +684,23 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">坐和放寬，讓我們開啟 Lyricify 之旅吧。</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.WelcomeBack">歡迎回到 Lyricify！</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">你是第 {0:N0} 位 Lyricify 用戶</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.FailedToRegister">在 Lyricify 伺服器上註冊失敗。伺服器端的功能可能會被限制。重新登錄可能會解決此問題。</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.FailedToRegister">在 Lyricify 伺服器上註冊失敗。伺服器端的功能可能會被限制。重新登入可能會解決此問題。</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">出發</system:String>
-    <system:String x:Key="String.Windows.Welcome.Settings.Preset">預設配置</system:String>
-    <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">默認</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Preset">預設設定檔</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">預設</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Quality">最好的品質</system:String>
-    <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Performance">最好的性能</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Performance">最好的效能</system:String>
 
     <!--Font Selector-->
     <system:String x:Key="String.Windows.FontSelector">字體選擇工具</system:String>
     <system:String x:Key="String.Windows.FontSelector.InstalledFonts">已安裝的字體</system:String>
     <system:String x:Key="String.Windows.FontSelector.SetFontFamily">設定字體家族</system:String>
-    <system:String x:Key="String.Windows.FontSelector.AddToList">添加到列表</system:String>
+    <system:String x:Key="String.Windows.FontSelector.AddToList">新增到列表</system:String>
     <system:String x:Key="String.Windows.FontSelector.RemoveFromList">從列表移除</system:String>
     <system:String x:Key="String.Windows.FontSelector.MoveUp">上移</system:String>
     <system:String x:Key="String.Windows.FontSelector.MoveDown">下移</system:String>
     <system:String x:Key="String.Windows.FontSelector.Preview">預覽</system:String>
-    <system:String x:Key="String.Windows.FontSelector.TypeHereToPreview">在此處鍵入以預覽</system:String>
+    <system:String x:Key="String.Windows.FontSelector.TypeHereToPreview">在此處輸入以預覽</system:String>
     <system:String x:Key="String.Windows.FontSelector.OK">確定</system:String>
     <system:String x:Key="String.Windows.FontSelector.Cancel">取消</system:String>
 
@@ -704,64 +716,65 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ColorfulLogo">彩色標誌</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowTranslation">顯示翻譯</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ColorfulLogo">彩色標誌</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.BoldText">粗體文本</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.BoldText">粗體文字</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">複製</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Rendering">渲染中</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">保存</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">儲存</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">JEPG 圖片 (*.jpg)|*.jpg</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">保存失敗。</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">儲存失敗。</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.RenderFailed">出錯了，渲染失敗。</system:String>
 
     <!--Configure Web Window-->
-    <system:String x:Key="String.Window.ConfigureWeb.Notice1">在這裡登錄 Spotify 以啟用 Lyricify 內置播放</system:String>
+    <system:String x:Key="String.Window.ConfigureWeb.Notice1">在這裡登入 Spotify 以啟用 Lyricify 內嵌播放</system:String>
     <system:String x:Key="String.Window.ConfigureWeb.Notice2">如果 Spotify 網頁版正常顯示，那麼 Lyricify 的內嵌播放應該是可以播放的。(可能會需要重啟 Lyricify)</system:String>
 
     <!--Custom Configuration Manager-->
-    <system:String x:Key="String.Window.CustomConfigurationManager">自訂配置管理器</system:String>
-    <system:String x:Key="String.Window.CustomConfigurationManager.Description">載入你的創造，甚至可以是其他使用者的自訂配置。</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager">自訂設定檔管理器</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Description">載入你的創造，甚至可以是其他使用者的自訂設定檔。</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Name">名稱</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Description">描述</system:String>
-    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.File">文件</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.File">檔案</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.IsEnabled">已啟用</system:String>
-    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfiguration">添加配置</system:String>
-    <system:String x:Key="String.Window.CustomConfigurationManager.Button.ReloadAllConfiguration">重新載入所有配置</system:String>
-    <system:String x:Key="String.Window.CustomConfigurationManager.Button.RemoveAllConfigurations">移除所有配置</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfiguration">新增設定檔</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.ReloadAllConfiguration">重新載入所有設定檔</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.RemoveAllConfigurations">移除所有設定檔</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.HelpDocument">幫助文件</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.Close">關閉</system:String>
-    <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveOne">確定要移除本配置嗎？</system:String>
-    <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveAll">確定要移除所有配置嗎？</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveOne">確定要移除本設定檔嗎？</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveAll">確定要移除所有設定檔嗎？</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.AddDialogTitle">選擇一個自訂設定檔</system:String>
-    <system:String x:Key="String.Window.CustomConfigurationManager.AddDialogTitle.Filter">Xaml 文檔 (*.xaml)|*.xaml</system:String>
-    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Rename">重命名</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.AddDialogTitle.Filter">Xaml 文件 (*.xaml)|*.xaml</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Rename">重新命名</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.EditDescription">編輯描述</system:String>
-    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenFile">打開文件</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenFile">打開檔案</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Reload">重新載入</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Remove">移除</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">向上移動</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveDown">向下移動</system:String>
 
     <!--Hotkey Manager-->
-    <system:String x:Key="String.Window.HotkeyManager">熱鍵管理器</system:String>
+    <system:String x:Key="String.Window.HotkeyManager">快捷鍵管理器</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Description">你可以在這裡管理全域快速鍵。(使用倒退鍵 (Backspace) 以清除快速鍵)</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.DesktopLyrics">桌面歌詞</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.DynamicLyricsIsland">靈動詞島</system:String>
-    <system:String x:Key="String.Window.HotkeyManager.Hotkey.ResetWindow">重置窗口</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.ResetWindow">重置視窗</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.PlayPause">播放 / 暫停</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.PreviousTrack">上一首</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.NextTrack">下一首</system:String>
-    <system:String x:Key="String.Window.HotkeyManager.Button.ResetAll">重置所有熱鍵</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Button.ResetAll">重置所有快捷鍵</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Button.Apply">應用</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Button.Cancel">取消</system:String>
-    <system:String x:Key="String.Window.HotkeyManager.Message.FailedAt">註冊下列熱鍵時失敗：</system:String>
-    <system:String x:Key="String.Window.HotkeyManager.Message.CheckUsing">請檢查是否有其他程式佔用了這些熱鍵。</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Message.FailedAt">註冊下列快捷鍵時失敗：</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Message.CheckUsing">請檢查是否有其他程式佔用了這些快捷鍵。</system:String>
 
     <!--Local Files Manager-->
     <system:String x:Key="String.Window.LocalFilesManager">本地檔案管理員</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Title">Spotify 本地檔案管理員</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Description">只有 Lyricify 運行時在 Spotify 播放的本地曲目才會顯示在這裡。</system:String>
-    <system:String x:Key="String.Window.LocalFilesManager.Button.RefreshList">刷新列表</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Button.RefreshList">重新整理列表</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.HaveImage">有圖片 (點擊替換，右擊移除)</system:String>
-    <system:String x:Key="String.Window.LocalFilesManager.Notice.NoImage">無圖片 (點擊添加)</system:String>
-    <system:String x:Key="String.Window.LocalFilesManager.Notice.AddImage">添加一張圖片</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.NoImage">無圖片 (點擊新增)</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.AddImage">新增一張圖片</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.ReplaceImage">替換為另一張圖片</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.SuccessUpdate">成功更新了圖片。</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.FailUpdate">更新圖片失敗。</system:String>
@@ -793,40 +806,40 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">歌詞已被管理員鎖定</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">Offset (時間差) 應是一個整型數位 (Offset 的單位是毫秒)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">空 (伺服器上標記無標記)</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">搜索</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search.Description">通過內置 Lyricify 歌詞搜索器導入歌詞</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import">導入</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.QQ.Description">通過 QQ 音樂歌曲 Mid 或分享連結導入歌詞</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">通過網易雲音樂歌曲 Id 或分享連結導入歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">搜尋</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search.Description">通過內嵌 Lyricify 歌詞搜尋器匯入歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import">匯入</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.QQ.Description">通過 QQ 音樂歌曲 Mid 或分享連結匯入歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">通過網易雲音樂歌曲 Id 或分享連結匯入歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit">編輯</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">高級歌詞編輯</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">進階歌詞編輯</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify">Lyricify 歌詞庫</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit">導入 &amp; 編輯</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit">匯入 &amp; 編輯</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Description">編輯 Lyricify 歌詞庫中的歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention" xml:space="preserve">注意：</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention.Content">僅允許在 QQ 音樂和網易雲音樂均無歌詞時使用。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.Attention">未連接 Media Session 的環境中無法修改 Offset。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ">QQ 音樂</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">請輸入 QQ 音樂歌曲 Mid 或分享連結以從 QQ 音樂導入歌詞。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">請輸入 QQ 音樂歌曲 Mid 或分享連結以從 QQ 音樂匯入歌詞。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Input">錯誤的 QQ 音樂歌曲 Mid，請檢查你的輸入。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Link">通過分享連結獲取 QQ 音樂歌曲 Mid 時出錯。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease">網易雲音樂</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox">請輸入網易雲音樂歌曲 Id 或分享連結以從網易雲音樂導入歌詞。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox">請輸入網易雲音樂歌曲 Id 或分享連結以從網易雲音樂匯入歌詞。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox.Failed.Input">錯誤的網易雲音樂歌曲 Id，請檢查你的輸入。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Reset">重置</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Reset.Description">重置所有更改</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo">刷新本地資訊</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo">重新整理本地資訊</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo.Description">保留所有更改，通常不會有可見的效果</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Button.RefreshServerInfo">刷新伺服器資訊</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshServerInfo">重新整理伺服器資訊</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.RefreshServerInfo.Description">取消更改，並載入最新伺服器資訊</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow">在主視窗中應用</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow.Description">在主視窗中載入當前的歌詞資訊 (僅當前播放歌曲為本曲目時可用)</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Button.Save">保存 (上傳)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow.Description">在主視窗中載入目前的歌詞資訊 (僅目前播放歌曲為本曲目時可用)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Save">儲存 (上傳)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Close">關閉</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.EditRawFile">編輯原始檔</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">你確定要關閉而不保存嗎？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">你確定要關閉而不儲存嗎？</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.FinishDuetView">請完成同框對唱設定 (按兩下"同框對唱"標題可清除同框對唱設定)</system:String>
-    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Timestamp">時間戳記</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Timestamp">時間標記</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Lyrics">歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle">是標題行</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle.ToolTip">標題行包括：標題、創作者資訊及其他非歌詞行</system:String>
@@ -835,29 +848,43 @@
     <system:String x:Key="String.Window.TrackManagement.Notice.Loading">正在載入伺服器歌詞資訊</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">空曲目</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">伺服器歌詞資訊載入失敗</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message">你可以嘗試</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.1">1. 禁用代理，它可能會阻止與 Lyricify 伺服器的連線</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.2">2. 登出 Lyricify，並重新登入</system:String>
     <system:String x:Key="String.Window.TrackManagement.Editor.WordWrap">自動換行</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Editor.Notice.AskSave">是否保存更改？</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Editor.Notice.NoTimestamp">未檢測到時間戳記，繼續保存？</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor">高級歌詞編輯器</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.Notice.AskSave">是否儲存更改？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.Notice.NoTimestamp">未檢測到時間標記，繼續儲存？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor">進階歌詞編輯器</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Lyrics">歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">翻譯</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">添加翻譯</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyrics">導入 Apple Music 歌詞</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportSpotifyLyrics">導入 Spotify 歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">新增翻譯</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Message.Translation.AutoFill">使用自動填入的翻譯？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyrics">匯入 Apple Music 歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportSpotifyLyrics">匯入 Spotify 歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportKugouLyrics">匯入酷狗歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">獲取 QRC 歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetLyricifySyllable">獲取 Lyricify Syllable 歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">逐字行創造器</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">逐字行移動器</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.QrcSpaceMove">將頭部空格移至尾部</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Apple Music 歌詞導入</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Apple Music 歌詞匯入</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.EnterIdOrLink">輸入 ID 或連結</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet">獲取歌詞失敗</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">未找到歌詞</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">這些歌詞不是逐字的，繼續導入？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">這些歌詞不是逐字的，繼續匯入？</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">將繁體中文轉換為簡體中文？</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.NotSynced">歌詞沒有時間軸，導入失敗</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization">大寫</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization.Message">將首字母大寫？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Copied.QRC">QRC 已複製到剪貼簿</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Copied.LyricifySyllable">Lyricify Syllable 已複製到剪貼簿</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.NotSynced">歌詞沒有時間軸，匯入失敗</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.ConvertTraditionalChinese">繁體中文已被自動轉換為簡體中文，請檢查歌詞，以確保轉換是正確的。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.TokenExpired">伺服器端 Spotify Token 過期，請聯繫 Lyricify 開發者。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToFound">沒有找到歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToGet">獲取歌詞失敗</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToConvert">轉換歌詞失敗</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor">原始檔編輯器</system:String>
-    <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">無法反序列化，檢查你的修改 (是) 或關閉而不保存 (否)？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">無法反序列化，檢查你的修改 (是) 或關閉而不儲存 (否)？</system:String>
 
     <!--Lyricify Account-->
     <system:String x:Key="String.Window.LyricifyAccount">Lyricify 帳戶</system:String>
@@ -866,7 +893,7 @@
     <system:String x:Key="String.Window.LyricifyAccount.Password">密碼</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Password.Reenter">重新輸入</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Password.Old">舊密碼</system:String>
-    <system:String x:Key="String.Window.LyricifyAccount.Password.Old.PlaceHolder">(密碼已保存)</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password.Old.PlaceHolder">(密碼已儲存)</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Title.Enter">請輸入你的 Lyricify {0}帳戶密碼</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Title.Set">為你的 Lyricify {0}帳戶設定密碼</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Title.Change">修改你的 Lyricify {0}帳戶密碼</system:String>
@@ -885,7 +912,7 @@
     <!--Backup Center-->
     <system:String x:Key="String.Window.BackupCenter">備份與自動化</system:String>
     <system:String x:Key="String.Window.BackupCenter.Title">Lyricify 備份與自動化中心</system:String>
-    <system:String x:Key="String.Window.BackupCenter.Tab.Home">主頁</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Tab.Home">首頁</system:String>
     <system:String x:Key="String.Window.BackupCenter.Tab.Backup">備份</system:String>
     <system:String x:Key="String.Window.BackupCenter.Tab.Restore">恢復</system:String>
     <system:String x:Key="String.Window.BackupCenter.Tab.Preview">預覽</system:String>
@@ -896,22 +923,22 @@
     <system:String x:Key="String.Page.BackupCenter.Home.Backup">備份</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Backup.Description">備份你的資料庫和更多</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Transfer">轉移</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Home.Transfer.Description">轉移你的資料至另一個帳號</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.Transfer.Description">轉移你的資料至另一個帳戶</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Automation">自動化</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Automation.Description">讓 Lyricify 管理你的資料庫</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Home.PersonalUseWarning" xml:space="preserve">僅供個人使用！&#x000A;如果你想將“Lyricify 備份中心”用於商業活動，則必須先與 Lyricify 取得聯繫。</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.PersonalUseWarning" xml:space="preserve">僅供個人使用！&#x000A;如果你想將「Lyricify 備份中心」用於商業活動，則必須先與 Lyricify 取得聯繫。</system:String>
 
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step1">步驟 1：選擇你想要備份的內容</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step2">步驟 2：選擇備份的輸出格式</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step3">步驟 3：如果你願意的話，可以加設密碼</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.LikedSongs">已按贊的歌曲</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.LikedSongs">已按讚的歌曲</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Playlist">歌單</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Album">專輯</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Artist">藝人</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Json.Description">Json 檔提供為 Lyricify 提供了完整的恢復能力</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Csv.Description">CSV 檔可以展示為表格，並且與其他服務提供者有一定相容性</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Text.Description">文字檔僅保存歌曲名和藝人名</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Intro">我們建議你選擇 Json 檔，它與 Lyricify 配合的很好，它還能夠用密碼加以保護。目前，CSV 檔和文本文檔僅支持“已按贊的歌曲”。</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Text.Description">文字檔僅儲存歌曲名和藝人名</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Intro">我們建議你選擇 Json 檔，它與 Lyricify 配合的很好，它還能夠用密碼加以保護。目前，CSV 檔和文字檔僅支援「已按讚的歌曲」。</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Password.CheckBox">使用密碼</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Password.Input">密碼</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Password.Input.Reenter">重新輸入</system:String>
@@ -920,7 +947,7 @@
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Button.ResetToDefault">恢復所有設定</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step1">步驟 1：檢查你的資料庫</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2">步驟 2：將它們備份</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step3">步驟 3：保存到檔</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step3">步驟 3：儲存到檔</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step1.Output">我們在你的資料庫中找到了 {0}。</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2.Output">我們已經備份了 {0}.</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2.ETA">剩餘時間：{0} 秒</system:String>
@@ -928,8 +955,8 @@
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.Cancel">取消</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.ShowPreview">顯示預覽</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.OpenBackupFolder">打開備份檔案夾</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.SaveACopy">保存副本</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.SaveACopy.Failed.Message">出錯了，副本保存失敗。</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.SaveACopy">儲存副本</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.SaveACopy.Failed.Message">出錯了，副本儲存失敗。</system:String>
 
     <system:String x:Key="String.Page.BackupCenter.Type.LikedSongs.Output">{0} 首歌</system:String>
     <system:String x:Key="String.Page.BackupCenter.Type.LikedSongs.Output.Plural">{0} 首歌</system:String>
@@ -962,16 +989,16 @@
     <system:String x:Key="String.Lyrics.Provider.Providers.Netease">網易雲音樂</system:String>
 
     <system:String x:Key="String.Lyrics.Provider.Menu.MarkCorrect">標記為正確歌詞</system:String>
-    <system:String x:Key="String.Lyrics.Provider.Menu.ViewSource">查看來源</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Menu.ViewSource">檢視來源</system:String>
     <system:String x:Key="String.Lyrics.Provider.Menu.ManageTrack">管理本曲目</system:String>
 
     <system:String x:Key="String.Lyrics.Provider.Server.Info.Marked">已在伺服器上標記</system:String>
-    <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">自動搜索</system:String>
-    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Fail.Version">當前版本已過時，請更新</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">自動搜尋</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Fail.Version">目前版本已過時，請更新</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">成功在伺服器上標記</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Exist">歌詞已經被標記</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">標記失敗，這可能是內部錯誤</system:String>
-    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Network">Lyricify 的服務器或您的網路出了點問題</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Network">Lyricify 的伺服器或您的網路出了點問題</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">標記失敗，原因是空歌詞，這可能是內部錯誤</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Exist">歌詞已存在，請稍後再試</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Locked">本曲目已被鎖定</system:String>
@@ -991,7 +1018,7 @@
     <system:String x:Key="String.Lyrics.Info.NoLyrics3">你只能猜猜這首歌的歌詞了。</system:String>
     <system:String x:Key="String.Lyrics.Info.Error">無法載入這首歌曲的歌詞。稍後再試。</system:String>
     <system:String x:Key="String.Lyrics.Info.Instrumental">純音樂，請您欣賞。</system:String>
-    <system:String x:Key="String.Lyrics.Info.Button.ManualImport">手動導入 (打開曲目管理)</system:String>
+    <system:String x:Key="String.Lyrics.Info.Button.ManualImport">手動匯入 (打開曲目管理)</system:String>
 
     <!--Converter-->
     <system:String x:Key="String.Converter.ValueString">已完成 {0}%</system:String>
@@ -1001,9 +1028,9 @@
     -->
 
     <!--App-->
-    <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">未經授權的操作，重新登錄以繼續</system:String>
+    <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">未經授權的操作，重新登入以繼續</system:String>
     <system:String x:Key="String.Messages.App.Exception.PremiumRequired">需要 Premium</system:String>
-    <system:String x:Key="String.Messages.App.Exception.TryToRelogin">請嘗試重新登錄</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TryToRelogin">請嘗試重新登入</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">過多請求 (429 錯誤)，請稍後再試</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">過多請求 (429 錯誤)，請 {0} 秒後再試</system:String>
 
@@ -1011,26 +1038,29 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 錯誤，請稍後再試</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Timeout">逾時錯誤，請稍後再試</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Http 請求錯誤，請稍後再試</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">未找到 Lyricify 帳戶，伺服器相關功能將被限制&#x000A;重新登入也許會有作用</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Restricted">你的 Lyricify 帳戶已被限制，聯繫管理員以尋求幫助</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Message.NonPremium">建議獲取 Spotify Premium 以充分利用 Lyricify</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed">Lyricify 將被關閉</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed.Wrong">出了一些問題，Lyricify 將關閉。</system:String>
-    <system:String x:Key="String.Messages.MainWindow.SpotifyAccount.Error.Relogin">你的 Spotify 帳戶有問題，嘗試重新登錄？</system:String>
-    <system:String x:Key="String.Messages.MainWindow.Exception.NetworkIssue">網路問題。請檢查你的互聯網連接</system:String>
-    <system:String x:Key="String.Messages.MainWindow.Exception.TryToRelogin">請嘗試重新登錄</system:String>
-    <system:String x:Key="String.Messages.MainWindow.Exception.SomethingsWrong">出了一些問題，請檢查你的互聯網連接或聯繫開發者</system:String>
+    <system:String x:Key="String.Messages.MainWindow.SpotifyAccount.Error.Relogin">你的 Spotify 帳戶有問題，嘗試重新登入？</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.NetworkIssue">網路問題。請檢查你的網際網路連接</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.TryToRelogin">請嘗試重新登入</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SomethingsWrong">出了一些問題，請檢查你的網際網路連接或聯繫開發者</system:String>
 
-    <system:String x:Key="String.Messages.MainWindow.LogOut.Query">確定登出此 Spotify 帳號嗎？</system:String>
+    <system:String x:Key="String.Messages.MainWindow.LogOut.Query">確定登出此 Spotify 帳戶嗎？</system:String>
     <system:String x:Key="String.Messages.MainWindow.LogOut.Failed">登出失敗</system:String>
 
     <!--Operations-->
-    <system:String x:Key="String.Messages.Operation.Spotify.Add.LikedSongs">已添加至“已按贊的歌曲”</system:String>
-    <system:String x:Key="String.Messages.Operation.Spotify.Remove.LikedSongs">已從“已按贊的歌曲”中刪除</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Add.LikedSongs">已新增至「已按讚的歌曲」</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Remove.LikedSongs">已從「已按讚的歌曲」中刪除</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Add.Library">已收藏到音樂庫</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Remove.Library">已從音樂庫中刪除</system:String>
-    <system:String x:Key="String.Messages.Operation.Spotify.Add.Queue">已添加至播放佇列</system:String>
-    <system:String x:Key="String.Messages.Operation.Spotify.Add.Queue.Fail">未成功添加至播放佇列</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Add.Queue">已新增至播放佇列</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Add.Queue.Fail">未成功新增至播放佇列</system:String>
 
-    <system:String x:Key="String.Messages.Operation.Spotify.NoDevice">未找到可用設備，請開啟你的 Spotify 用戶端</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.NoDevice">未找到可用裝置，請開啟你的 Spotify 電腦版程式</system:String>
 
-    <system:String x:Key="String.Messages.Operation.LinkCopied">已將連結複製至剪貼板</system:String>
-    <system:String x:Key="String.Messages.Operation.Copied">已複製至剪貼板</system:String>
+    <system:String x:Key="String.Messages.Operation.LinkCopied">已將連結複製至剪貼簿</system:String>
+    <system:String x:Key="String.Messages.Operation.Copied">已複製至剪貼簿</system:String>
 </ResourceDictionary>
