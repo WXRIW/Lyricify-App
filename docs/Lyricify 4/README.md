@@ -30,8 +30,8 @@
 # Lyricify 4 基础
 
 ## 运行 Lyricify 4
-如果您想使用 Lyricify 4，请确保您的系统中安装了 `.NET Desktop Runtime 6.0 (x86)`，如果启动时提示您的未安装，则需要您在这里下载安装：  
-[点击直接下载 .NET Desktop Runtime 6.0.12 (x86)](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.12-windows-x86-installer)  
+如果您想使用 Lyricify 4，请确保您的系统中安装了 `.NET Desktop Runtime 6.0`，如果启动时提示您的未安装，则需要您在这里下载安装：  
+点击下载 .NET Desktop Runtime 6.0.12 [x86](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x86-installer) [x64](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x64-installer) [Arm64](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-arm64-installer)   
 [点击转到 .NET 6.0 官方下载地址](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0)
 
 ## 初次使用 Lyricify 4 应了解
@@ -230,7 +230,7 @@ Lyricify 4 有着强大的自定义字体功能，您可以为 `歌词` 界面�
 7. 若想上传翻译，则可以再次点击 `导入 & 编辑` 按钮，点击弹出窗口右上角的 `添加翻译` 按钮，之后手动添加翻译。
 8. 点击 `曲目管理` 右下角的 `保存 (上传)`。
 
-步骤 4 中的歌词制作可参考 [Lyricify 4 歌词指南及标准](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/Lyrics.md)。  
+步骤 5 中的歌词制作可参考 [Lyricify 4 歌词指南及标准](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/Lyrics.md)。  
 **注意：** 中文歌词必须使用简体中文！若上传繁体中文歌词，你的账户将有几率会被限制。  
 
 ## 可用性查询
