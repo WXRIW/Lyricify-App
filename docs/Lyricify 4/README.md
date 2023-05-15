@@ -31,7 +31,7 @@
 
 ## 运行 Lyricify 4
 如果您想使用 Lyricify 4，请确保您的系统中安装了 `.NET Desktop Runtime 6.0`，如果启动时提示您的未安装，则需要您在这里下载安装：  
-点击下载 .NET Desktop Runtime 6.0.12 [x86](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x86-installer) [x64](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x64-installer) [Arm64](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-arm64-installer)   
+点击下载 .NET Desktop Runtime 6.0.16 [x86](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x86-installer) [x64](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-x64-installer) [Arm64](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.16-windows-arm64-installer)   
 [点击转到 .NET 6.0 官方下载地址](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0)
 
 ## 初次使用 Lyricify 4 应了解
