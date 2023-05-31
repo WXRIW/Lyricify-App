@@ -29,9 +29,10 @@ Lyricify 3 已进入 EOL。
 暂无计划。  
 ### 导致原因
 ~~目前完全没有办法获取到 Apple Music (Preview) 播放的歌曲信息。~~  
-自 Apple Music (Preview) 1.2.0.38 起，已经接入 GSMTC (Media Session)，但是由于 Lyricify 3 已停止开发，故不提供支持。  
+~~自 Apple Music (Preview) 1.2.0.38 起，已经接入 GSMTC (Media Session)，但是由于 Lyricify 3 已停止开发，故不提供支持。~~  
+我改主意了，在 Lyricify 3.8.5 中加入了对 Apple Music 的支持。
 ### 解决方案
-从您现有的音乐平台迁移到 Spotify，并转用 Lyricify 4。
+为了更好的体验，建议您从现有的音乐平台迁移到 Spotify，并转用 Lyricify 4。
 
 ## 是否会在 Lyricify 4 中添加目前 Lyricify 3 支持的其它软件
 如 Apple Music、iTunes、QQ 音乐、网易云音乐、Music Center、YesPlayMusic 等
