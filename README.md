@@ -9,9 +9,9 @@
 
 | 软件</br>Application | 最新版本</br>Latest Version | 备注</br>Notes | 平台</br>Platform | 使用指南</br>User Guide |
 | :-: | :-: | :-: | :-: | :-: |
-| [Lyricify 4](https://github.com/WXRIW/Lyricify-App#lyricify-4) | [4.1.1-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.1.1) | 适用于 Spotify 用户</br>For Spotify users | Windows | [点击查看</br>Click to view](/docs/Lyricify%204/README.md)<sup><a href="#ref3_en">3</a></sup> |
-| [Lyricify Mobile](https://github.com/WXRIW/Lyricify-App#lyricify-mobile) | [1.2.3-beta](https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.2.3) | 适用于 Spotify 用户</br>For Spotify users | Android, iOS<sup><a href="#ref1">1</a></sup>, iPadOS<sup><a href="#ref1">1</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%20Mobile/README.md)<sup><a href="#ref3_en">3</a></sup> |
-| [Lyricify 3](https://github.com/WXRIW/Lyricify-App#lyricify-3) | [3.8.4-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v3.8.4) | 适用于 Spotify、iTunes 等<sup><a href="#ref2">2</a></sup> 的用户</br>For Spotify, iTunes and more apps<sup><a href="#ref2_en">2</a></sup>' users | Windows | [点击查看</br>Click to view](/docs/Lyricify%203/README.md)<sup><a href="#ref3_en">3</a></sup> |
+| [Lyricify 4](https://github.com/WXRIW/Lyricify-App#lyricify-4) | [4.1.2-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.1.2) | 适用于 Spotify 用户</br>For Spotify users | Windows | [点击查看</br>Click to view](/docs/Lyricify%204/README.md)<sup><a href="#ref3_en">3</a></sup> |
+| [Lyricify Mobile](https://github.com/WXRIW/Lyricify-App#lyricify-mobile) | [1.3.0-beta](https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.3.0) | 适用于 Spotify 用户</br>For Spotify users | Android, iOS<sup><a href="#ref1">1</a></sup>, iPadOS<sup><a href="#ref1">1</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%20Mobile/README.md)<sup><a href="#ref3_en">3</a></sup> |
+| [Lyricify 3](https://github.com/WXRIW/Lyricify-App#lyricify-3) | [3.8.5-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v3.8.5) | 适用于 Spotify、iTunes 等<sup><a href="#ref2">2</a></sup> 的用户</br>For Spotify, iTunes and more apps<sup><a href="#ref2_en">2</a></sup>' users | Windows | [点击查看</br>Click to view](/docs/Lyricify%203/README.md)<sup><a href="#ref3_en">3</a></sup> |
 
 **备注**  
 1. <span id="ref1">适用于 iOS 和 iPadOS 的 Lyricify Mobile 版本已经完成编写，但是由于[一些原因](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%20Mobile/README.md#ios-%E7%89%88%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E8%83%BD%E6%9D%A5)，无法发布，敬请期待。</span>  
@@ -24,10 +24,12 @@
 
 
 ## Lyricify 4
-<h3>More than lyrics 不仅有歌词</h3>
+<h3>More than lyrics 不仅有歌词</h3>  
 
 A fantastic app to provide auto-scrolling lyrics and additional functions for [Spotify](https://www.spotify.com).  
+[<img src="https://get.microsoft.com/images/en-US%20dark.svg" style="width: 150px;"/>](https://www.microsoft.com/store/apps/9NXJFDD97XJ3?cid=ghreadme)  
 一款为 Spotify 提供滚动歌词和更多功能的软件。
+[<img src="https://get.microsoft.com/images/zh-CN%20dark.svg" style="width: 150px;"/>](https://www.microsoft.com/store/apps/9NXJFDD97XJ3?cid=ghreadme)  
 
 *需要注意的是： Lyricify 4 仅支持 Spotify！*  
 
