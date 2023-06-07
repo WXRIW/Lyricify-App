@@ -47,3 +47,9 @@ Lyricify 4 专为 Spotify 设计，`Lyricify 4` 全称 `Lyricify for Spotify`。
 这个 UI 已经用了很久了，最新的 UI 可以在 Lyricify 4 体验到。
 ### 解决方案
 从您现有的音乐平台迁移到 Spotify，并转用 Lyricify 4。
+
+## Apple Music 歌词界面不显示封面
+### 导致原因
+Apple Music 歌词界面的专辑封面显示仅支持 Spotify (需登录) 和 YesPlayMusic。
+### 解决方案
+从您现有的音乐平台迁移到 Spotify，并转用 Lyricify 4。
