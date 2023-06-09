@@ -85,6 +85,18 @@ Lyricify Mobile 目标就是显示歌词，现在目标已经达成。
 ### 解决方案
 在 Windows 设备上使用 Lyricify 4。您可以给您的手机安装 Windows on ARM。
 
+## 歌词比歌曲快或慢
+Lyricify Mobile 中显示的歌词比歌曲快了或者慢了。  
+### 导致原因
+Spotify API 提供的播放进度不准，这是由多个原因导致的。
+1. Spotify 客户端向 Spotify 服务器发送进度有误差或延迟。
+2. Lyricify Mobile 向 Spotify 服务器发送进度请求有误差或延迟。
+3. Spotify 本身进度不准。
+由一系列原因，造成歌词显示时间轴不准确。
+### 解决方案
+±2s 内的延迟属于正常范围。  
+如果您无法接受这个延迟，则建议在 Windows 设备上使用 Lyricify 4。
+
 ## 切歌后反应迟钝
 切歌后 Lyricify 需要过较长时间才能显示新的歌曲信息。  
 见下方 `总是提示出现 429 错误`
