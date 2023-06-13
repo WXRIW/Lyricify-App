@@ -38,11 +38,12 @@
 进入主界面的时候，如果当前没有正在播放的歌曲，请不要尝试点击播放按钮，因为这是没有作用的！！！Lyricify 是歌词软件，不是播放器，不在 Spotify 播放音乐怎么会显示歌词呢？  
 
 ### Spotify Premium 独占功能
-1. 任意点歌（点击播放按钮，或双击歌单、专辑中的歌曲）
-2. 控制播放（调整进度、播放、暂停、上一曲、下一曲、循环、随机）（免费账户在 Media Session 连接正常的情况下也可以控制播放）
-3. 控制音量
-4. 添加到播放列表
-5. 内嵌播放必须有 Spotify Premium 订阅
+1. Lyricify 智能引擎
+2. 任意点歌（点击播放按钮，或双击歌单、专辑中的歌曲）
+3. 控制播放（调整进度、播放、暂停、上一曲、下一曲、循环、随机）（免费账户在 Media Session 连接正常的情况下也可以控制播放）
+4. 控制音量
+5. 添加到播放列表
+6. 内嵌播放必须有 Spotify Premium 订阅
 
 ## 欢迎窗口
 
@@ -357,7 +358,7 @@ Apple Music 歌词界面 CJK (中日韩) 歌词流畅度较低，这是微软的
 切歌后 Lyricify 需要过较长时间才能显示新的歌曲信息。  
 **请判断导致原因：**  
 1. 若切歌后 Lyricify 中的歌曲信息仍是上一首。
-   1. 如果是上一曲放完自动切到下一首，或是您手动点击下一首按钮进行切歌的，且是在运行 Lyricify 的设备上使用 Spotify 播放的
+   1. 如果您是 Spotify Premium 用户，且是上一曲放完自动切到下一首，或是您手动点击下一首按钮进行切歌的，且是在运行 Lyricify 的设备上使用 Spotify 播放的
       1. 检查 Media Session 是否连接 (点击 Lyricify 右上角用户组件即可查看)。
       2. 如果已连接，则检查设置中 `Lyricify 智能引擎` 是否启用。
       3. 如果未连接，则需先修复 [Media Session 连接问题](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#media-session-%E6%9C%AA%E8%BF%9E%E6%8E%A5)。
