@@ -87,7 +87,7 @@
     <system:String x:Key="String.Info.Album.AlbumType.EP">EP</system:String>
     <system:String x:Key="String.Info.Album.AlbumType.Single">Single</system:String>
 
-    <system:String x:Key="String.Page.Album.Artwork.FileDialog.Filter">JEPG Image (*.jpg)|*.jpg</system:String>
+    <system:String x:Key="String.Page.Album.Artwork.FileDialog.Filter">JPEG Image (*.jpg)|*.jpg</system:String>
 
     <system:String x:Key="String.Page.Artist.VerifiedArtist">Verified Artist</system:String>
     <system:String x:Key="String.Page.Artist.Popular">Popular</system:String>
