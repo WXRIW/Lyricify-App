@@ -1,6 +1,6 @@
 <div align="center">
 
-# Custom Spotify API Client Tutorial
+# Custom Spotify API Client Configuration Tutorial
 [简体中文](Readme.zh-CN.md)
 
 </div>
@@ -23,11 +23,11 @@ If you have already completed the preparation steps, you can directly use the pr
    Check `I understand and agree with Spotify's Developer Terms of Service and Design Guidelines`；
    Click `Save`.
 ![](pic/Demo-Pic03.png)
-4. Click `Settings` at thhe right top corner.
-5. Now you can see your Client ID，Click `View client secret` to show the Client secret. `Client ID` and `Client Secret` are needed in future steps.
+1. Click `Settings` at the right top corner.
+2. Now you can see your Client ID，Click `View client secret` to show the Client secret. `Client ID` and `Client Secret` are needed in future steps.
 ![](pic/Demo-Pic04.png)
 
-## Works on Lyricify Mobile
+## Works on Lyricify
 1. If you have already logged Spotify in Lyricify, then you will need to log it out first.
 2. Click `Configure Custom API Client` in welcome page's left bottom corner.
 ![](pic/Demo-Pic05_en-US.png)

@@ -1,6 +1,6 @@
 <div align="center">
 
-# 自定义 Spotify API Client 教程
+# 自定义 Spotify API Client 配置教程
 
 </div>
 

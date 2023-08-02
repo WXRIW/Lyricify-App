@@ -1,6 +1,6 @@
 <div align="center">
 
-# Custom Spotify API Client Tutorial
+# Custom Spotify API Client Configuration Tutorial
 [简体中文](Readme.zh-CN.md)
 
 </div>
@@ -22,7 +22,7 @@ Spotify API won't affect you by returning 429 Error anymore.
    Check `I understand and agree with Spotify's Developer Terms of Service and Design Guidelines`；
    Click `Save`.
 ![](pic/Demo-Pic03.png)
-4. Click `Settings` at thhe right top corner.
+4. Click `Settings` at the right top corner.
 5. Now you can see your Client ID，Click `View client secret` to show the Client secret. `Client ID` and `Client Secret` are needed in future steps.
 ![](pic/Demo-Pic04.png)
 

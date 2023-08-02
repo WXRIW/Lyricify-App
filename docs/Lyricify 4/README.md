@@ -498,10 +498,10 @@ Lyricify 4 专为 Spotify 设计，`Lyricify 4` 全称 `Lyricify for Spotify`。
 | 多行高亮 | 多行歌词同时亮起 (播放) |
 | 呼吸点 | 歌词间音乐较长时显示的三个点 |
 | 拖动效果 | 滚动时，歌词行被上一行歌词拖动的效果 |
-| 单词发光效果 | 简称“发光效果”，播放到时长较长单词时的发光效果 |
+| 单词发光效果 | 简称“发光效果”，播放到时长较长单词时的发光效果，“辉光效果”是不被 Lyricify 认同的说法 |
 
 ### 其它
 | 名称 | 描述 |
 | - | - |
 | 歌词 | 歌词，“字幕”是不被 Lyricify 认同的说法 |
-| Lyricify | Lyricify 的名称是 “Lyricify”，“ly”“Ly”“Lyr”“Lyricfy” 等是不被 Lyricify 认同的说法 |
+| Lyricify | Lyricify 的名称是 “Lyricify”，“ly”“Ly”“Lyr”“Lyricfy”等是不被 Lyricify 认同的说法 |
