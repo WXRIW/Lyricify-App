@@ -482,7 +482,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">Enable Chinese conversion</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">Enable Chinese conversion for Spotify contents</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">Device latency</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">Unit: Millisecond. This argument is designed for Bluetooth playback devices' latency, DO NOT use this for lyrics offset. Refresh lyrics to take effect</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">In milliseconds. This argument is designed for Bluetooth playback devices' latency, DO NOT use this for lyrics offset. Refresh lyrics to take effect</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">Hotkey Management</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">Open Hotkey Manager to manage global hotkeys</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">Open</system:String>
