@@ -8,8 +8,8 @@
     <!--Navigation Panel-->
     <system:String x:Key="String.MainWindow.Navigation.Home">Главная</system:String>
     <system:String x:Key="String.MainWindow.Navigation.Search">Поиск</system:String>
-    <system:String x:Key="String.MainWindow.Navigation.YourLibrary">Ваша библиотека</system:String>
-    <system:String x:Key="String.MainWindow.Navigation.LikedSongs">Понравившиеся песни</system:String>
+    <system:String x:Key="String.MainWindow.Navigation.YourLibrary">Моя медиатека</system:String>
+    <system:String x:Key="String.MainWindow.Navigation.LikedSongs">Любимые треки</system:String>
 
     <!--Mobile Mode Navigation-->
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Home">Главная</system:String>
@@ -18,35 +18,37 @@
 
     <!--Login-->
     <system:String x:Key="String.MainWindow.Login.Welcome">Добро пожаловать в Lyricify, {0}!</system:String>
-    <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Добро пожаловать в Lyricify, дорогой {0}!</system:String>
-    <system:String x:Key="String.MainWindow.Login.LoggingIn">Вход в систему</system:String>
-    <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">Это может занять некоторое время</system:String>
-    <system:String x:Key="String.MainWindow.Login.StillTrying">Мы все еще пытаемся войти в систему</system:String>
+        <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Добро пожаловать в Lyricify, уважаемый(ая) {0}!</system:String>
+    <system:String x:Key="String.MainWindow.Login.LoggingIn">Вход в сервере</system:String>
+    <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">Одну секунду</system:String>
+    <system:String x:Key="String.MainWindow.Login.StillTrying">Все еще пытаемся</system:String>
 
     <!--User Widget-->
     <system:String x:Key="String.MainWindow.UserWidget.Profile">Профиль</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.GetSpotifyPremium">Получить Spotify Premium</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LogOut">Выйти</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.Settings">Настройки</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.About">О программе</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.MediaSession">Сеанс мультимедиа</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.About">О нас</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession">Media Session</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">Подключено</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">Отключено</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. Media Session доступна только при воспроизведении на настольной версии Spotify (включая версию Microsoft Store), но не в других случаях (например, при использовании веб-версии, мобильной версии и т.д.)! &#x000A;2. Lyricify будет пытаться подключиться к Media Session, только если у него есть информация о текущем воспроизведении!</system:String>
 
-    <system:String x:Key="String.MainWindow.PinnedArea.Notice">Закрепить элементы для быстрого доступа!</system:String>
+    <system:String x:Key="String.MainWindow.PinnedArea.Notice">Фиксированные элементы для быстрого доступа</system:String>
 
     <!--Control Part-->
     <!--Frame-->
     <system:String x:Key="String.MainWindow.Frame.Control.GoBack">Вернуться</system:String>
     <system:String x:Key="String.MainWindow.Frame.Control.GoForward">Вперед</system:String>
     <!--Bottom Bar-->
-    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AlbumArtwork">Нажмите, чтобы показать дополнительную информацию об этом треке</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AlbumArtwork">Нажмите для отображения информации о песне</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Lyrics">Текст</system:String>
-    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AppleMusicLyrics">Тексты песен Apple Music</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AppleMusicLyrics">Текст Apple Music</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.SpotifyConnect">Spotify Connect</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Volume">Громкость</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Fullscreen">Полный экран</system:String>
-    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.MobileUIFullscreen">Полноэкранный режим мобильного интерфейса</system:String>
-    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.LyricifyFullscreen">Lyricify Fullscreen</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.MobileUIFullscreen">Полный экран Mobile</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.LyricifyFullscreen">Полный экран Lyricify</system:String>
 
 
     <!--
@@ -55,94 +57,98 @@
 
     <!--Page Home-->
     <system:String x:Key="String.Page.Home.Welcome">Добро пожаловать в Lyricify</system:String>
-    <system:String x:Key="String.Page.Home.FollowDeveloper">Почему бы вам не подписаться на нашего разработчика</system:String>
+    <system:String x:Key="String.Page.Home.FollowDeveloper">Подпишитесь на нашего разработчика</system:String>
     <system:String x:Key="String.Page.Home.FollowSuggestion">Предложение</system:String>
     <system:String x:Key="String.Page.Home.Button.Follow">Подписаться</system:String>
-    <system:String x:Key="String.Page.Home.Button.Following">Подписки</system:String>
-    <system:String x:Key="String.Page.Home.Button.Followed">Отслеживается</system:String>
+    <system:String x:Key="String.Page.Home.Button.Following">Подписка</system:String>
+    <system:String x:Key="String.Page.Home.Button.Followed">Подписка</system:String>
 
-    <system:String x:Key="String.Page.Home.Panel.YourFavoriteArtists">Ваши любимые художники</system:String>
-    <system:String x:Key="String.Page.Home.Panel.MoreLike">Больше лайков</system:String>
-    <system:String x:Key="String.Page.Home.Panel.MoreLike.Argument">Больше похоже на {0}</system:String>
-    <system:String x:Key="String.Page.Home.Panel.FeaturedPlaylists">Избранные плейлисты</system:String>
+    <system:String x:Key="String.Page.Home.Panel.YourFavoriteArtists">Любимые авторы</system:String>
+    <system:String x:Key="String.Page.Home.Panel.MoreLike">Лучшие авторы</system:String>
+    <system:String x:Key="String.Page.Home.Panel.MoreLike.Argument">{0} и не только.</system:String>
+    <system:String x:Key="String.Page.Home.Panel.FeaturedPlaylists">Плейлисты исполнителя</system:String>
     <system:String x:Key="String.Page.Home.Panel.PopularNewReleases">Популярные новые выпуски</system:String>
 
     <!--Other Pages-->
-    <system:String x:Key="String.Page.List.Title.Title">НАЗВАНИЕ</system:String>
+    <system:String x:Key="String.Page.List.Title.Title">ПЕСНЯ</system:String>
     <system:String x:Key="String.Page.List.Title.Album">АЛЬБОМ</system:String>
     <system:String x:Key="String.Page.List.Title.DateAdded">ДАТА ДОБАВЛЕНИЯ</system:String>
     <system:String x:Key="String.Page.List.Title.DateReleased">ДАТА ВЫПУСКА</system:String>
 
     <system:String x:Key="String.Page.Info.Song">{0} песня</system:String>
-    <system:String x:Key="String.Page.Info.Songs">{0} песни</system:String>
+    <system:String x:Key="String.Page.Info.Songs">{0} песни(ен) </system:String>
     <system:String x:Key="String.Page.Info.Disc">{0} диск</system:String>
-    <system:String x:Key="String.Page.Info.Discs">{0} дисков</system:String>
+    <system:String x:Key="String.Page.Info.Discs">{0} диска(ов) </system:String>
 
     <system:String x:Key="String.Page.Album.Title.AlbumType.Album">АЛЬБОМ</system:String>
     <system:String x:Key="String.Page.Album.Title.AlbumType.EP">EP</system:String>
-    <system:String x:Key="String.Page.Album.Title.AlbumType.Single">ОДНА</system:String>
+    <system:String x:Key="String.Page.Album.Title.AlbumType.Single">СИНГЛЫ</system:String>
     <system:String x:Key="String.Page.Album.DiscSeparator.Title">Диск {0}</system:String>
 
     <system:String x:Key="String.Info.Album.AlbumType.Album">Альбом</system:String>
     <system:String x:Key="String.Info.Album.AlbumType.EP">EP</system:String>
-    <system:String x:Key="String.Info.Album.AlbumType.Single">Один</system:String>
+    <system:String x:Key="String.Info.Album.AlbumType.Single">Синглы</system:String>
 
-    <system:String x:Key="String.Page.Artist.VerifiedArtist">Подтвержденный художник</system:String>
-    <system:String x:Key="String.Page.Artist.Popular">Популярное</system:String>
-    <system:String x:Key="String.Page.Artist.Follower">{0:N0} Подписчик</system:String>
-    <system:String x:Key="String.Page.Artist.Followers">{0:N0} подписчиков</system:String>
+    <system:String x:Key="String.Page.Album.Artwork.FileDialog.Filter">Фотография JPEG (*.jpg)|*.jpg</system:String>
+
+    <system:String x:Key="String.Page.Artist.VerifiedArtist">Подтвержденный исполнитель</system:String>
+    <system:String x:Key="String.Page.Artist.Popular">Популярные релизы</system:String>
+    <system:String x:Key="String.Page.Artist.Follower">{0:N0} подписчик</system:String>
+    <system:String x:Key="String.Page.Artist.Followers">{0:N0} подписчика(ов) </system:String>
     <system:String x:Key="String.Page.Artist.Panel.Albums">Альбомы</system:String>
     <system:String x:Key="String.Page.Artist.Panel.SinglesAndEPs">Синглы и EP</system:String>
-    <system:String x:Key="String.Page.Artist.Panel.Compilations">Компиляции</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.Compilations">Сборники</system:String>
     <system:String x:Key="String.Page.Artist.Panel.FansAlsoLike">Поклонникам также нравится</system:String>
-    <system:String x:Key="String.Page.Artist.Panel.AppearsOn">Появляется на</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.AppearsOn">Еще с этим исполнителем</system:String>
 
-    <system:String x:Key="String.Page.Playlist.Title">СПИСОК ВОСПРОИЗВЕДЕНИЯ</system:String>
-    <system:String x:Key="String.Page.Playlist.Title.Private">ЧАСТНЫЙ ПЛЕЙЛИСТ</system:String>
-    <system:String x:Key="String.Page.Playlist.Title.Public">ОБЩЕСТВЕННЫЙ СПИСОК ПЛЕЙЛИ</system:String>
-    <system:String x:Key="String.Page.Playlist.Like">{0:N0} нравится</system:String>
-    <system:String x:Key="String.Page.Playlist.Likes">{0:N0} лайков</system:String>
+    <system:String x:Key="String.Page.Playlist.Title">Плейлисты</system:String>
+    <system:String x:Key="String.Page.Playlist.Title.Private">Частные плейлисты</system:String>
+    <system:String x:Key="String.Page.Playlist.Title.Public">Открытые плейлисты</system:String>
+    <system:String x:Key="String.Page.Playlist.Like">{0:N0} лайк</system:String>
+    <system:String x:Key="String.Page.Playlist.Likes">{0:N0} лайка(ов) </system:String>
 
-    <system:String x:Key="String.Page.LikedSongs.Title">СПИСОК ВОСПРОИЗВЕДЕНИЯ</system:String>
-    <system:String x:Key="String.Page.LikedSongs.Name">Понравившиеся песни</system:String>
+    <system:String x:Key="String.Page.LikedSongs.Title">Плейлист</system:String>
+    <system:String x:Key="String.Page.LikedSongs.Name">Любимые треки</system:String>
 
-    <system:String x:Key="String.Page.Profile.Title">ПРОФИЛЬ</system:String>
-    <system:String x:Key="String.Page.Profile.Follower">{0:N0} Подписчик</system:String>
-    <system:String x:Key="String.Page.Profile.Followers">{0:N0} подписчиков</system:String>
-    <system:String x:Key="String.Page.Profile.PublicPlaylist">{0:N0} Общедоступный список воспроизведения</system:String>
-    <system:String x:Key="String.Page.Profile.PublicPlaylist.Plural">{0:N0} общедоступных плейлистов</system:String>
-    <system:String x:Key="String.Page.Profile.PublicPlaylists">Общедоступные плейлисты</system:String>
-    <system:String x:Key="String.Page.Profile.TopArtists.Month">Лучшие исполнители в этом месяце</system:String>
-    <system:String x:Key="String.Page.Profile.TopArtists.HalfYear">Лучшие исполнители за шесть месяцев</system:String>
-    <system:String x:Key="String.Page.Profile.TopArtists.All">Лучшие исполнители со времен Большого взрыва</system:String>
-    <system:String x:Key="String.Page.Profile.TopTracks.Month">Лучшие треки в этом месяце</system:String>
-    <system:String x:Key="String.Page.Profile.TopTracks.HalfYear">Лучшие треки за шесть месяцев</system:String>
-    <system:String x:Key="String.Page.Profile.TopTracks.All">Лучшие треки со времен Большого взрыва</system:String>
+    <system:String x:Key="String.Page.Profile.Title">Профиль</system:String>
+    <system:String x:Key="String.Page.Profile.Follower">{0:N0} подписчик</system:String>
+    <system:String x:Key="String.Page.Profile.Followers">{0:N0} подписчика(ов) </system:String>
+    <system:String x:Key="String.Page.Profile.PublicPlaylist">{0:N0} открытый плейлист</system:String>
+    <system:String x:Key="String.Page.Profile.PublicPlaylist.Plural">{0:N0} Открытые плейлисты(ов) </system:String>
+    <system:String x:Key="String.Page.Profile.PublicPlaylists">Открытые плейлисты(ов) </system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.Month">Топ исполнители в месяце</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.HalfYear">Топ исполнители за полгода</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.All">Топ исполнители со времен Большого взрыва</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.Month">Топ треков этого месяца</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.HalfYear">Топ треков этого месяца</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.All">Топ треки со времен Большого взрыва</system:String>
 
     <!--Page Library-->
-    <system:String x:Key="String.Page.Library.Playlists">Списки воспроизведения</system:String>
+    <system:String x:Key="String.Page.Library.Playlists">Плейлисты</system:String>
     <system:String x:Key="String.Page.Library.Artists">Исполнители</system:String>
     <system:String x:Key="String.Page.Library.Albums">Альбомы</system:String>
 
     <!--Page Mobile UI-->
-    <system:String x:Key="String.Page.MobileUI.Title">ЛИРИКИ</system:String>
+    <system:String x:Key="String.Page.MobileUI.Title">ТЕКСТ</system:String>
 
     <!--Page Search-->
     <system:String x:Key="String.Page.Search.Title.Search">Поиск</system:String>
     <system:String x:Key="String.Page.Search.Title.Lyrics">Текст</system:String>
     <system:String x:Key="String.Page.Search.Title.Availability">Доступность</system:String>
+    <system:String x:Key="String.Page.Search.429Error">Превышение предельных значений тарифа API (Error 429)</system:String>
+    <system:String x:Key="String.Page.Search.Retry">Попробуйте еще раз</system:String>
     <system:String x:Key="String.Page.Search.Search.SearchBar.PlaceHolder">Поиск песен, исполнителей, альбомов и плейлистов</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Songs">Песни</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Artists">Исполнители</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Albums">Альбомы</system:String>
-    <system:String x:Key="String.Page.Search.Search.Result.Playlists">Списки воспроизведения</system:String>
-    <system:String x:Key="String.Page.Search.Lyrics.NotAvailable">В настоящее время недоступно</system:String>
-    <system:String x:Key="String.Page.Search.Availability.SearchBar.PlaceHolder">Введите ссылку или URI Spotify здесь</system:String>
+    <system:String x:Key="String.Page.Search.Search.Result.Playlists">Плейлисты</system:String>
+    <system:String x:Key="String.Page.Search.Lyrics.NotAvailable">Недоступно</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.PlaceHolder">Введите ссылку или URI Spotify</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.NetworkIssue.Message">Проблема с сетью, проверьте подключение к Интернету.</system:String>
-    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">Альбом не найден, проверьте введенный вами идентификатор.</system:String>
-    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Неверный ввод или неподдерживаемый ввод. Поддерживаются только ссылки на трек (перенаправление на его альбом), альбомы и плейлисты. Вот два примера.</system:String>
-    <system:String x:Key="String.Page.Search.Availability.Market">Рынок</system:String>
-    <system:String x:Key="String.Page.Search.Availability.MoreVersions">Дополнительные версии</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">Альбом не найден, проверьте, пожалуйста введенный вами ID.</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Неправильный ввод или неподдерживаемый ввод. Поддерживаются только ссылки на песни (перенаправление на альбом), альбомы и списки песен. Вот несколько примеров.</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Market">Маркет</system:String>
+    <system:String x:Key="String.Page.Search.Availability.MoreVersions">Другие версии</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.UnavailableTracks">Недоступные треки</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.AllAvailable">Все треки доступны</system:String>
     <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.ToolTip.GoToAlbum">Перейти к альбому</system:String>
@@ -152,90 +158,90 @@
     <!--Page Spotify Connect-->
     <system:String x:Key="String.Page.SpotifyConnect.CurrentDevice">Текущее устройство</system:String>
     <system:String x:Key="String.Page.SpotifyConnect.SelectAnotherDevice">Выбрать другое устройство</system:String>
-    <system:String x:Key="String.Page.SpotifyConnect.NoDeviceFound">Устройство не найдено</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.NoDeviceFound">Устройства не найдены</system:String>
     <system:String x:Key="String.Page.SpotifyConnect.NoOtherDevicesFound">Другие устройства не найдены</system:String>
     <system:String x:Key="String.Page.SpotifyConnect.ThisComputer">Этот компьютер</system:String>
 
     <!--Audio Features-->
-    <system:String x:Key="String.AudioFeatures.Track">Дорожка</system:String>
-    <system:String x:Key="String.AudioFeatures.Track.Name">Имя</system:String>
-    <system:String x:Key="String.AudioFeatures.Track.ISRC.Null">Нет ISRC</system:String>
-    <system:String x:Key="String.AudioFeatures.Track.TrackNumber">Номер дорожки</system:String>
+    <system:String x:Key="String.AudioFeatures.Track">Трек</system:String>
+    <system:String x:Key="String.AudioFeatures.Track.Name">Имя трека</system:String>
+    <system:String x:Key="String.AudioFeatures.Track.ISRC.Null">ISRC нет</system:String>
+    <system:String x:Key="String.AudioFeatures.Track.TrackNumber">Номер трека</system:String>
     <system:String x:Key="String.AudioFeatures.Track.Duration">Продолжительность</system:String>
     <system:String x:Key="String.AudioFeatures.Album">Альбом</system:String>
-    <system:String x:Key="String.AudioFeatures.Album.Name">Имя</system:String>
-    <system:String x:Key="String.AudioFeatures.Album.UPC.Null">Нет UPC</system:String>
+    <system:String x:Key="String.AudioFeatures.Album.Name">Имя альбома</system:String>
+    <system:String x:Key="String.AudioFeatures.Album.UPC.Null">UPC нет</system:String>
     <system:String x:Key="String.AudioFeatures.Album.ReleaseDate">Дата выпуска</system:String>
-    <system:String x:Key="String.AudioFeatures.Album.TracksCount">Количество дорожек</system:String>
+    <system:String x:Key="String.AudioFeatures.Album.TracksCount">Количество трека</system:String>
     <system:String x:Key="String.AudioFeatures.Artist">Исполнитель</system:String>
-    <system:String x:Key="String.AudioFeatures.Artists">Исполнитель(и)</system:String>
-    <system:String x:Key="String.AudioFeatures.Artist.Names">Имя(а)</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink">Повторная ссылка из</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Track.Name">Название дорожки</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Track.ID">Идентификатор дорожки</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Track.ISRC">Отслеживать ISRC</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Track.TrackNumber">Номер дорожки</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Album.Name">Название альбома</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Album.ID">Идентификатор альбома</system:String>
+    <system:String x:Key="String.AudioFeatures.Artists">Исполнителя(ей)</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist.Names">Имени</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink">Переподключение с</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.Name">Имя трека</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.ID">ID трека</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.ISRC">ISRC терка</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.TrackNumber">Номер трека</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Album.Name">Имя альбома</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Album.ID">ID альбома</system:String>
     <system:String x:Key="String.AudioFeatures.Relink.Album.ReleaseDate">Дата выпуска альбома</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Album.TracksCount">Счетчик треков в альбоме</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature">Возможности аудио</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Album.TracksCount">Количество треков альбома</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature">Аудиохарактеристики</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Mode">Режим</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Major">Основной</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Minor">Второстепенный</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.TimeSignature">Тактовый размер</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.PitchClass">Класс высоты тона (ключ)</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.PitchClass">Уровень высоты тона</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Loudness">Громкость</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Tempo">Темп</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Acousticness">Акустика</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Danceability">Танцевальность</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Energy">Энергия</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Instrumentalness">Инструментальность</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Liveness">Живость</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Speechiness">Речевость</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Acousticness">Acousticness</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Danceability">Danceability</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Energy">Energy</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Instrumentalness">Instrumentalness</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Liveness">Liveness</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Speechiness">Speechiness</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Valence">Valence</system:String>
 
-    <system:String x:Key="String.AudioFeatures.ToolTip.ClickCopy">Нажмите, чтобы скопировать</system:String>
-    <system:String x:Key="String.AudioFeatures.Button.CopyIDs">Идентификаторы копирования и ISRC</system:String>
+    <system:String x:Key="String.AudioFeatures.ToolTip.ClickCopy">Нажмите для копирования</system:String>
+    <system:String x:Key="String.AudioFeatures.Button.CopyIDs">Копировать ID и ISRC</system:String>
     <system:String x:Key="String.AudioFeatures.Button.CopyAll">Копировать всю информацию</system:String>
 
-    <system:String x:Key="String.AudioFeatures.Copy.TrackName">Название дорожки</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.TrackID">Идентификатор дорожки</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.TrackISRC">Отслеживать ISRC</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.TrackURI">URI дорожки</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.TrackDuration">Продолжительность дорожки</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.TrackNumber">Номер дорожки</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackName">Имя трека</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackID">ID трека</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackISRC">ISRC трека</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackURI">URI трека</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackDuration">Продолжительность</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackNumber">Номер трека</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.AlbumName">Имя альбома</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.AlbumID">Идентификатор альбома</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.AlbumUPC">Альбом UPC</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumID">ID альбома</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumUPC">UPC Альбома</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.AlbumReleaseDate">Дата выпуска альбома</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.AlbumTracksCount">Счетчик треков в альбоме</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumTracksCount">Количество треков альбома</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.ArtistName">Имя исполнителя</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistID">Идентификатор исполнителя</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistID">ID исполнителя</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.ArtistNames">Имена исполнителей</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs">Идентификаторы исполнителей</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs">IDы исполнителей</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.ArtistNames.Bracket">Имена исполнителей</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs.Bracket">Идентификаторы исполнителей</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.Relink">Повторная ссылка из</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs.Bracket">IDы исполнителей</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.Relink">Переподключение с</system:String>
 
     <system:String x:Key="String.Info.Copy.DiscNum">Диск {0}</system:String>
-    <system:String x:Key="String.Info.Copy.TrackNum">Отслеживать {0}</system:String>
-    <system:String x:Key="String.Info.Copy.Tracklist">Список дорожек</system:String>
-    <system:String x:Key="String.Info.Copy.Tracklist.Of">Список треков {0}</system:String>
-    <system:String x:Key="String.Info.Copy.TopTracks.From">Популярные треки из {0}</system:String>
-    <system:String x:Key="String.Info.Copy.Album.TotalLength">Общая длина альбома</system:String>
-    <system:String x:Key="String.Info.Copy.Album.DiscsCount">Счетчик дисков с альбомами</system:String>
+    <system:String x:Key="String.Info.Copy.TrackNum">Трек {0}</system:String>
+    <system:String x:Key="String.Info.Copy.Tracklist">Треклист</system:String>
+    <system:String x:Key="String.Info.Copy.Tracklist.Of">Треклист {0}</system:String>
+    <system:String x:Key="String.Info.Copy.TopTracks.From">Топ треки {0}</system:String>
+    <system:String x:Key="String.Info.Copy.Album.TotalLength">Продолжительность альбома</system:String>
+    <system:String x:Key="String.Info.Copy.Album.DiscsCount">Количество треков альбома</system:String>
     <system:String x:Key="String.Info.Copy.Playlist.Name">Имя плейлиста</system:String>
-    <system:String x:Key="String.Info.Copy.Playlist.Description">Описание списка воспроизведения</system:String>
-    <system:String x:Key="String.Info.Copy.Playlist.Type">Тип списка воспроизведения</system:String>
-    <system:String x:Key="String.Info.Copy.Playlist.ID">Идентификатор плейлиста</system:String>
-    <system:String x:Key="String.Info.Copy.Playlist.TracksCount">Количество треков в плейлисте</system:String>
-    <system:String x:Key="String.Info.Copy.Playlist.TotalLength">Общая длина плейлиста</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Description">Описание плейлиста</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Type">Тип плейлиста</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.ID">ID плейлиста</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.TracksCount">Количество треков плейлиста</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.TotalLength">Продолжительность плейлиста</system:String>
     <system:String x:Key="String.Info.Copy.Playlist.Owner.Name">Имя владельца</system:String>
-    <system:String x:Key="String.Info.Copy.Playlist.Owner.ID">Идентификатор владельца</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Owner.ID">ID владельца</system:String>
     <system:String x:Key="String.Info.Copy.Artist.Followers">Подписчики</system:String>
-    <system:String x:Key="String.Info.Copy.User.DisplayName">Отображаемое имя пользователя</system:String>
-    <system:String x:Key="String.Info.Copy.User.ID">Идентификатор пользователя</system:String>
+    <system:String x:Key="String.Info.Copy.User.DisplayName">Дисплейное имя пользователя</system:String>
+    <system:String x:Key="String.Info.Copy.User.ID">ID пользователя</system:String>
     <system:String x:Key="String.Info.Copy.User.Followers">Подписчики</system:String>
 
     <!--Page Apple Music Lyrics-->
@@ -258,7 +264,7 @@
     <system:String x:Key="String.Page.About.Title">О программе</system:String>
     <system:String x:Key="String.Page.About.NonPublicWarning">ЭТО НЕ ПУБЛИЧНЫЙ ВЫПУСК, НЕ РАСПРОСТРАНЯЙТЕ ПОЖАЛУЙСТА!</system:String>
     <system:String x:Key="String.Page.About.MadeWithHeart">Сделано с помощью ❤️ от WXRIW</system:String>
-    <system:String x:Key="String.Page.About.Copyright">Авторское право © {0} WXRIW</system:String>
+    <system:String x:Key="String.Page.About.Copyright">Авторское право © 2023 WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">Текст предоставлен</system:String>
     <system:String x:Key="String.Page.About.LyricsProviders">Lyricify Lyrics Vault, QQ Music, Netease Cloud Music</system:String>
     <system:String x:Key="String.Page.About.Donation">Пожертвование</system:String>
@@ -691,7 +697,7 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">Копировать</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Rendering">Визуализация</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">Сохранить</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">Изображение JPEG (*.jpg)|*.jpg</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">Изображение JEPG (*.jpg)|*.jpg</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">Не удалось сохранить.</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.RenderFailed">Что-то не так, не удалось выполнить рендеринг.</system:String>
 
@@ -780,7 +786,7 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search.Description">Импорт текстов песен с помощью встроенного средства поиска Lyricify Lyrics Searcher</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import">Импорт</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.QQ.Description">Импортировать текст песни QQ Music Song Mid или поделиться ссылкой</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">Импортировать тексты песен по идентификатору песни Netease Cloud Music или ссылке для обмена</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">Импортировать тексты песен по IDу песни Netease Cloud Music или ссылке для обмена</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit">Изменить</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">Расширенное редактирование текста</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify">Lyricify Lyrics Vault</system:String>
@@ -793,8 +799,8 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Input">Неверная середина музыкальной песни QQ, проверьте введенные данные.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Link">Не удалось получить QQ Music Song Mid по ссылке.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease">Netease Cloud Music</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox">Пожалуйста, введите идентификатор песни Netease Cloud Music или ссылку для общего доступа, чтобы получить текст из Netease Cloud Music.</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox.Failed.Input">Неправильный идентификатор песни Netease Cloud Music, проверьте введенные данные.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox">Пожалуйста, введите ID песни Netease Cloud Music или ссылку для общего доступа, чтобы получить текст из Netease Cloud Music.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox.Failed.Input">Неправильный ID песни Netease Cloud Music, проверьте введенные данные.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Reset">Сброс</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Reset.Description">Сбросить все изменения</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo">Обновить локальную информацию</system:String>
