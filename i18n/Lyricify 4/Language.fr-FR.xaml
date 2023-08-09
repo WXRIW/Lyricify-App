@@ -18,6 +18,7 @@
 
     <!--Login-->
     <system:String x:Key="String.MainWindow.Login.Welcome">Bienvenue sur Lyricify, {0} !</system:String>
+    <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Bienvenue sur Lyricify, cher {0} !</system:String>
     <system:String x:Key="String.MainWindow.Login.LoggingIn">Connexion</system:String>
     <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">Cela peut prendre un certain temps</system:String>
     <system:String x:Key="String.MainWindow.Login.StillTrying">Nous essayons toujours de vous connecter</system:String>
@@ -257,7 +258,7 @@
     <system:String x:Key="String.Page.About.Title">À propos</system:String>
     <system:String x:Key="String.Page.About.NonPublicWarning">CECI N'EST PAS UNE DIFFUSION PUBLIQUE, NE PAS DIFFUSER S'IL VOUS PLAÎT !</system:String>
     <system:String x:Key="String.Page.About.MadeWithHeart">Fabriqué avec ❤️ par WXRIW</system:String>
-    <system:String x:Key="String.Page.About.Copyright">Copyright © 2023 WXRIW</system:String>
+    <system:String x:Key="String.Page.About.Copyright">Copyright © {0} WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">Paroles fournies par</system:String>
     <system:String x:Key="String.Page.About.LyricsProviders">Lyricify Lyrics Vault, QQ Music, Netease Cloud Music</system:String>
     <system:String x:Key="String.Page.About.Donation">Don</system:String>
