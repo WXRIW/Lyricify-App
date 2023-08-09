@@ -83,7 +83,7 @@
     <system:String x:Key="String.Page.Album.Title.AlbumType.Album">专辑</system:String>
     <system:String x:Key="String.Page.Album.Title.AlbumType.EP">EP</system:String>
     <system:String x:Key="String.Page.Album.Title.AlbumType.Single">单曲</system:String>
-    <system:String x:Key="String.Page.Album.DiscSperator.Title">唱片 {0}</system:String>
+    <system:String x:Key="String.Page.Album.DiscSeparator.Title">唱片 {0}</system:String>
 
     <system:String x:Key="String.Info.Album.AlbumType.Album">专辑</system:String>
     <system:String x:Key="String.Info.Album.AlbumType.EP">EP</system:String>

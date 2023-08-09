@@ -81,7 +81,7 @@
     <system:String x:Key="String.Page.Album.Title.AlbumType.Album">АЛЬБОМ</system:String>
     <system:String x:Key="String.Page.Album.Title.AlbumType.EP">EP</system:String>
     <system:String x:Key="String.Page.Album.Title.AlbumType.Single">ОДНА</system:String>
-    <system:String x:Key="String.Page.Album.DiscSperator.Title">Диск {0}</system:String>
+    <system:String x:Key="String.Page.Album.DiscSeparator.Title">Диск {0}</system:String>
 
     <system:String x:Key="String.Info.Album.AlbumType.Album">Альбом</system:String>
     <system:String x:Key="String.Info.Album.AlbumType.EP">EP</system:String>

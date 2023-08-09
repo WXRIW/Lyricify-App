@@ -81,7 +81,7 @@
     <system:String x:Key="String.Page.Album.Title.AlbumType.Album">ALBUM</system:String>
     <system:String x:Key="String.Page.Album.Title.AlbumType.EP">EP</system:String>
     <system:String x:Key="String.Page.Album.Title.AlbumType.Single">SINGLE</system:String>
-    <system:String x:Key="String.Page.Album.DiscSperator.Title">Disque {0}</system:String>
+    <system:String x:Key="String.Page.Album.DiscSeparator.Title">Disque {0}</system:String>
 
     <system:String x:Key="String.Info.Album.AlbumType.Album">Album</system:String>
     <system:String x:Key="String.Info.Album.AlbumType.EP">EP</system:String>

@@ -82,7 +82,7 @@
     <system:String x:Key="String.Page.Album.Title.AlbumType.Album">アルバム</system:String>
     <system:String x:Key="String.Page.Album.Title.AlbumType.EP">EP</system:String>
     <system:String x:Key="String.Page.Album.Title.AlbumType.Single">シングル</system:String>
-    <system:String x:Key="String.Page.Album.DiscSperator.Title">レコード {0}</system:String>
+    <system:String x:Key="String.Page.Album.DiscSeparator.Title">レコード {0}</system:String>
 
     <system:String x:Key="String.Info.Album.AlbumType.Album">アルバム</system:String>
     <system:String x:Key="String.Info.Album.AlbumType.EP">EP</system:String>
