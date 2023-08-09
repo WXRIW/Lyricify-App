@@ -691,7 +691,7 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">Kopiera</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Rendering">Rendering</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">Spara</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">JEPG-bild (*.jpg)|*.jpg</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">JPEG-bild (*.jpg)|*.jpg</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">Det gick inte att spara.</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.RenderFailed">Något är fel, det gick inte att rendera.</system:String>
 

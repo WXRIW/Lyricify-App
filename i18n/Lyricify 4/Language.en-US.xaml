@@ -89,7 +89,7 @@
     <system:String x:Key="String.Info.Album.AlbumType.EP">EP</system:String>
     <system:String x:Key="String.Info.Album.AlbumType.Single">Single</system:String>
 
-    <system:String x:Key="String.Page.Album.Artwork.FileDialog.Filter">JEPG Image (*.jpg)|*.jpg</system:String>
+    <system:String x:Key="String.Page.Album.Artwork.FileDialog.Filter">JPEG Image (*.jpg)|*.jpg</system:String>
 
     <system:String x:Key="String.Page.Artist.VerifiedArtist">Verified Artist</system:String>
     <system:String x:Key="String.Page.Artist.Popular">Popular</system:String>
@@ -761,7 +761,7 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">Copy</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Rendering">Rendering</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">Save</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">JEPG Image (*.jpg)|*.jpg</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">JPEG Image (*.jpg)|*.jpg</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">Failed to save.</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.RenderFailed">Something's wrong, failed to render.</system:String>
 

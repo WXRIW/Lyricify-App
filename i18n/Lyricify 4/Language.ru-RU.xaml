@@ -691,7 +691,7 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">Копировать</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Rendering">Визуализация</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">Сохранить</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">Изображение JEPG (*.jpg)|*.jpg</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">Изображение JPEG (*.jpg)|*.jpg</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">Не удалось сохранить.</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.RenderFailed">Что-то не так, не удалось выполнить рендеринг.</system:String>
 

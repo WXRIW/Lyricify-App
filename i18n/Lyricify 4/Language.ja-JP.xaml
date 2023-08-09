@@ -721,7 +721,7 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">コピー</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Rendering">レンダリング</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">セーブ</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">JEPG Image (*.jpg)|*.jpg</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">JPEG Image (*.jpg)|*.jpg</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">保存できませんでした</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.RenderFailed">レンダリングに失敗しました。</system:String>
 

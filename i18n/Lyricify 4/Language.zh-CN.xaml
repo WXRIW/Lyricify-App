@@ -89,7 +89,7 @@
     <system:String x:Key="String.Info.Album.AlbumType.EP">EP</system:String>
     <system:String x:Key="String.Info.Album.AlbumType.Single">单曲</system:String>
 
-    <system:String x:Key="String.Page.Album.Artwork.FileDialog.Filter">JEPG 图片 (*.jpg)|*.jpg</system:String>
+    <system:String x:Key="String.Page.Album.Artwork.FileDialog.Filter">JPEG 图片 (*.jpg)|*.jpg</system:String>
 
     <system:String x:Key="String.Page.Artist.VerifiedArtist">认证艺人</system:String>
     <system:String x:Key="String.Page.Artist.Popular">热门</system:String>
@@ -761,7 +761,7 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">复制</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Rendering">渲染中</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">保存</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">JEPG 图片 (*.jpg)|*.jpg</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">JPEG 图片 (*.jpg)|*.jpg</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">保存失败。</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.RenderFailed">出错了，渲染失败。</system:String>
 
