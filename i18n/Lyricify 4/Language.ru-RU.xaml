@@ -245,57 +245,59 @@
     <system:String x:Key="String.Info.Copy.User.Followers">Подписчики</system:String>
 
     <!--Page Apple Music Lyrics-->
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip1">Нажмите, чтобы закрыть</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip2">Проведите влево или вправо, чтобы развернуть</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip3">Проведите вниз, чтобы свернуть</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip4">Нажмите правую кнопку для управления положением текста</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip1">Нажмите для закрытия</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip2">Проведите влево или вправо для максимизации</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip3">Потяните вниз для закрытия</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip4">Зажмите правую кнопку мыши и проведите для управления текстом песни</system:String>
 
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToArtist">Перейти к исполнителю</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToAlbum">Перейти к альбому</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToPlaylist">Перейти к плейлисту</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.AddToLibrary">Добавить в библиотеку</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.DeleteFromLibrary">Удалить из библиотеки</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.AddToLibrary">Добавить в медиатеку</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.DeleteFromLibrary">Удалить из медиатеки</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">Показать исполнителя</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Показать альбом</system:String>
 
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon" xml:space="preserve"> Автор: </system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon" xml:space="preserve">Автор: </system:String>
 
     <!--Page About-->
-    <system:String x:Key="String.Page.About.Title">О программе</system:String>
-    <system:String x:Key="String.Page.About.NonPublicWarning">ЭТО НЕ ПУБЛИЧНЫЙ ВЫПУСК, НЕ РАСПРОСТРАНЯЙТЕ ПОЖАЛУЙСТА!</system:String>
-    <system:String x:Key="String.Page.About.MadeWithHeart">Сделано с помощью ❤️ от WXRIW</system:String>
-    <system:String x:Key="String.Page.About.Copyright">Авторское право © 2023 WXRIW</system:String>
+    <system:String x:Key="String.Page.About.Title">О Lyricify</system:String>
+    <system:String x:Key="String.Page.About.NonPublicWarning">Не для публичного распространения!</system:String>
+    <system:String x:Key="String.Page.About.MadeWithHeart">Сделано с заботой ❤️ WXRIW</system:String>
+    <system:String x:Key="String.Page.About.Copyright">© {0} WXRIW. Все права защищены</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">Текст предоставлен</system:String>
-    <system:String x:Key="String.Page.About.LyricsProviders">Lyricify Lyrics Vault, QQ Music, Netease Cloud Music</system:String>
-    <system:String x:Key="String.Page.About.Donation">Пожертвование</system:String>
+    <system:String x:Key="String.Page.About.LyricsProviders">Lyricify, Tencent Music, Netease Music</system:String>
+    <system:String x:Key="String.Page.About.Donation">Пожертвовать</system:String>
     <system:String x:Key="String.Page.About.thanklist">Список благодарностей</system:String>
-    <system:String x:Key="String.Page.About.thanklist.thanksPremium">Особая благодарность компании Difer за предоставление учетной записи Spotify Premium</system:String>
-    <system:String x:Key="String.Page.About.thanklist.thanksInsiders">Особая благодарность нашим инсайдерам</system:String>
-    <system:String x:Key="String.Page.About.Internationalization">Интернационализация</system:String>
-    <system:String x:Key="String.Page.About.References">Ссылки</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksApple">Отдельная благодарность за оригинальный дизайн от Apple</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">Отдельная благодарность Spotify за вклад в мир потоковой музыки</system:String>
+    <system:String x:Key="String.Page.About.thanklist.thanksPremium">Отдельная благодарность компании Difer за предоставление аккаунта Spotify Premium</system:String>
+    <system:String x:Key="String.Page.About.thanklist.thanksInsiders">Отдельная благодарность нашим инсайдерам</system:String>
+    <system:String x:Key="String.Page.About.Internationalization">Интернационализация UI</system:String>
+    <system:String x:Key="String.Page.About.References">Цитата</system:String>
     <system:String x:Key="String.Page.About.References.MITLicense.Brackets">(лицензия MIT)</system:String>
     <system:String x:Key="String.Page.About.References.WTFPLLicense.Brackets">(Лицензия WTFPL)</system:String>
     <system:String x:Key="String.Page.About.References.Apache2.Brackets">(Лицензия Apache 2.0)</system:String>
     <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(Лицензия LGPL 2.1)</system:String>
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(без лицензии)</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming">Заявление об авторских правах</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">Авторское право © 2023 WXRIW, все права защищены</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Пользовательский интерфейс главного окна, Полноэкранный мобильный пользовательский интерфейс, Spotify Circular Copyright © Spotify AB</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music Lyrics UI, SF Pro, PingFang SC Copyright © Apple Inc.</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming">Заявление о авторских правах</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">"Авторские права © 2023 WXRIW. Все права защищены</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Дизайн UI главного окна, дизайн полноэкранного UI для мобильных устройств, все права на Spotify Circular © Spotify AB</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Дизайн пользовательского UI текстов песен Apple Music, шрифт SF Pro, шрифт PingFang (Китайская упрощенная), все права принадлежат © Apple Inc.</system:String>
 
     <!--Page Settings-->
     <system:String x:Key="String.Page.Settings.Title">Настройки</system:String>
     <system:String x:Key="String.Page.Settings.General">Общие</system:String>
     <system:String x:Key="String.Page.Settings.General.Language">Язык</system:String>
-    <system:String x:Key="String.Page.Settings.General.Language.Description">Выберите язык отображения Lyricify (для применения некоторых изменений может потребоваться перезапуск приложения)</system:String>
+    <system:String x:Key="String.Page.Settings.General.Language.Description">Выберите язык Lyricify (некоторые изменения могут потребовать перезапуск приложения) </system:String>
     <system:String x:Key="String.Page.Settings.General.CloseToHide">Закрыть, чтобы скрыть</system:String>
-    <system:String x:Key="String.Page.Settings.General.CloseToHide.Description">Кнопка "Закрыть" должна сворачивать окно Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.General.CloseToHide.Description">При нажатии кнопки закрытия, Lyricify скроется в трее (панели уведомлений) </system:String>
     <system:String x:Key="String.Page.Settings.General.RestoreWindow">Восстановить окно</system:String>
     <system:String x:Key="String.Page.Settings.General.RestoreWindow.Description">Восстановить состояние окна Lyricify при запуске</system:String>
     <system:String x:Key="String.Page.Settings.Appearance">Внешний вид</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode">Цветовой режим</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.Description">Изменить цвета, отображаемые в Lyricify</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">Темный (по умолчанию)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">Темный (по умолчанию) </system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Light">Светлый</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground">Фон текста песни</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.Description">Изменить фон песни</system:String>
