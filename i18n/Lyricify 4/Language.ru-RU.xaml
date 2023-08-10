@@ -1110,7 +1110,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.SomethingsWrong">Что-то не так, проверьте подключение к Интернету или обратитесь к разработчику</system:String>
         <system:String x:Key="String.Messages.MainWindow.Exception.InvalidClient">Недействительная информация о клиенте. Пожалуйста, проверьте конфигурацию вашего API Client</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">Пользователь не зарегистрирован в Spotify Developer Dashboard</system:String>
-
+    <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">Хорошая новость: сервер Spotify умер (Error 503, сервис недоступен). Повторите попытку позже</system:String>
     <system:String x:Key="String.Messages.MainWindow.Lyrics.NoTrackPlaying">Перед началом воспроизведения на Spotify вы не сможете открыть текст</system:String>
     <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">Перед началом воспроизведения на Spotify вы не сможете открыть текст Apple Music</system:String>
     <system:String x:Key="String.Messages.LyricifyFullscreen.NoTrackPlaying">Перед началом воспроизведения на Spotify вы не сможете открыть полноэкранный текст в Lyricify</system:String>
