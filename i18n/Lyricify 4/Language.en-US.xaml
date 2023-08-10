@@ -1110,6 +1110,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.SomethingsWrong">Something's wrong, please check your Internet connection or contact the developer</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.InvalidClient">Invalid Client info, please check your API Client configuration</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">User not registered in Spotify Developer Dashboard</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">Spotify Service is currently not available (503 error), please try later</system:String>
     
     <system:String x:Key="String.Messages.MainWindow.Lyrics.NoTrackPlaying">You won't be able to open Lyrics until Spotify starts playing</system:String>
     <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">You won't be able to open Apple Music Lyrics until Spotify starts playing</system:String>

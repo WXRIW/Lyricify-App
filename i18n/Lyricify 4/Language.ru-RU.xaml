@@ -1,4 +1,4 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <!--
@@ -18,7 +18,7 @@
 
     <!--Login-->
     <system:String x:Key="String.MainWindow.Login.Welcome">Добро пожаловать в Lyricify, {0}!</system:String>
-        <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Добро пожаловать в Lyricify, уважаемый(ая) {0}!</system:String>
+    <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Добро пожаловать в Lyricify, уважаемый(ая) {0}!</system:String>
     <system:String x:Key="String.MainWindow.Login.LoggingIn">Вход в сервере</system:String>
     <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">Одну секунду</system:String>
     <system:String x:Key="String.MainWindow.Login.StillTrying">Все еще пытаемся</system:String>
@@ -76,9 +76,9 @@
     <system:String x:Key="String.Page.List.Title.DateReleased">ДАТА ВЫПУСКА</system:String>
 
     <system:String x:Key="String.Page.Info.Song">{0} песня</system:String>
-    <system:String x:Key="String.Page.Info.Songs">{0} песни(ен) </system:String>
+    <system:String x:Key="String.Page.Info.Songs">{0} песни(ен)</system:String>
     <system:String x:Key="String.Page.Info.Disc">{0} диск</system:String>
-    <system:String x:Key="String.Page.Info.Discs">{0} диска(ов) </system:String>
+    <system:String x:Key="String.Page.Info.Discs">{0} диска(ов)</system:String>
 
     <system:String x:Key="String.Page.Album.Title.AlbumType.Album">АЛЬБОМ</system:String>
     <system:String x:Key="String.Page.Album.Title.AlbumType.EP">EP</system:String>
@@ -94,7 +94,7 @@
     <system:String x:Key="String.Page.Artist.VerifiedArtist">Подтвержденный исполнитель</system:String>
     <system:String x:Key="String.Page.Artist.Popular">Популярные релизы</system:String>
     <system:String x:Key="String.Page.Artist.Follower">{0:N0} подписчик</system:String>
-    <system:String x:Key="String.Page.Artist.Followers">{0:N0} подписчика(ов) </system:String>
+    <system:String x:Key="String.Page.Artist.Followers">{0:N0} подписчика(ов)</system:String>
     <system:String x:Key="String.Page.Artist.Panel.Albums">Альбомы</system:String>
     <system:String x:Key="String.Page.Artist.Panel.SinglesAndEPs">Синглы и EP</system:String>
     <system:String x:Key="String.Page.Artist.Panel.Compilations">Сборники</system:String>
@@ -105,17 +105,17 @@
     <system:String x:Key="String.Page.Playlist.Title.Private">Частные плейлисты</system:String>
     <system:String x:Key="String.Page.Playlist.Title.Public">Открытые плейлисты</system:String>
     <system:String x:Key="String.Page.Playlist.Like">{0:N0} лайк</system:String>
-    <system:String x:Key="String.Page.Playlist.Likes">{0:N0} лайка(ов) </system:String>
+    <system:String x:Key="String.Page.Playlist.Likes">{0:N0} лайка(ов)</system:String>
 
     <system:String x:Key="String.Page.LikedSongs.Title">Плейлист</system:String>
     <system:String x:Key="String.Page.LikedSongs.Name">Любимые треки</system:String>
 
     <system:String x:Key="String.Page.Profile.Title">Профиль</system:String>
     <system:String x:Key="String.Page.Profile.Follower">{0:N0} подписчик</system:String>
-    <system:String x:Key="String.Page.Profile.Followers">{0:N0} подписчика(ов) </system:String>
+    <system:String x:Key="String.Page.Profile.Followers">{0:N0} подписчика(ов)</system:String>
     <system:String x:Key="String.Page.Profile.PublicPlaylist">{0:N0} открытый плейлист</system:String>
-    <system:String x:Key="String.Page.Profile.PublicPlaylist.Plural">{0:N0} Открытые плейлисты(ов) </system:String>
-    <system:String x:Key="String.Page.Profile.PublicPlaylists">Открытые плейлисты(ов) </system:String>
+    <system:String x:Key="String.Page.Profile.PublicPlaylist.Plural">{0:N0} Открытые плейлисты(ов)</system:String>
+    <system:String x:Key="String.Page.Profile.PublicPlaylists">Открытые плейлисты(ов)</system:String>
     <system:String x:Key="String.Page.Profile.TopArtists.Month">Топ исполнители в месяце</system:String>
     <system:String x:Key="String.Page.Profile.TopArtists.HalfYear">Топ исполнители за полгода</system:String>
     <system:String x:Key="String.Page.Profile.TopArtists.All">Топ исполнители со времен Большого взрыва</system:String>
@@ -289,15 +289,15 @@
     <system:String x:Key="String.Page.Settings.Title">Настройки</system:String>
     <system:String x:Key="String.Page.Settings.General">Общие</system:String>
     <system:String x:Key="String.Page.Settings.General.Language">Язык</system:String>
-    <system:String x:Key="String.Page.Settings.General.Language.Description">Выберите язык Lyricify (некоторые изменения могут потребовать перезапуск приложения) </system:String>
+    <system:String x:Key="String.Page.Settings.General.Language.Description">Выберите язык Lyricify (некоторые изменения могут потребовать перезапуск приложения)</system:String>
     <system:String x:Key="String.Page.Settings.General.CloseToHide">Закрыть, чтобы скрыть</system:String>
-    <system:String x:Key="String.Page.Settings.General.CloseToHide.Description">При нажатии кнопки закрытия, Lyricify скроется в трее (панели уведомлений) </system:String>
+    <system:String x:Key="String.Page.Settings.General.CloseToHide.Description">При нажатии кнопки закрытия, Lyricify скроется в трее (панели уведомлений)</system:String>
     <system:String x:Key="String.Page.Settings.General.RestoreWindow">Восстановить окно</system:String>
     <system:String x:Key="String.Page.Settings.General.RestoreWindow.Description">Восстановить состояние окна Lyricify при запуске</system:String>
     <system:String x:Key="String.Page.Settings.Appearance">Внешний вид</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode">Цветовой режим</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.Description">Изменить цвета, отображаемые в Lyricify</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">Темный (по умолчанию) </system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">Темный (по умолчанию)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Light">Светлый</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground">Фон текста песни</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.Description">Изменить фон песни</system:String>
@@ -313,7 +313,7 @@
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode.Description">Стиль текстов песен на странице текстов песен в стиле Spotify (мобильный режим)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Button.Reset">Сброс</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign">Выравнивание текста</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Center">По центру (по умолчанию) </system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Center">По центру (по умолчанию)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Left">Влево</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Right">Вправо</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.Margin">Отступ</system:String>
@@ -385,7 +385,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">Запомнить масштаб</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">Включить запоминание масштаба в тексте Apple Music</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">Включить традиционную версию</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">Добавить в главное меню вход в тексты Apple Music (традиционный) </system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">Добавить в главное меню вход в тексты Apple Music (традиционный)</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Полноэкранный режим Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics">Размытие текста</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics.Description">Включить эффект размытия текста</system:String>
@@ -430,7 +430,7 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">Непрозрачность</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.BorderThickness">Толщина границы</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign">Выравнивание текста</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Center">По центру (по умолчанию) </system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Center">По центру (по умолчанию)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Left">Влево</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Right">Вправо</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors">Цвета</system:String>
@@ -438,10 +438,10 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Button.Reset">Сбросить</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle">Стиль линии Duo</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.Description">Две разделенные строки. Строки с переводом не будут использовать стиль двойной линии</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Fill">Выделенная строка (заливка) </system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Border">Выделенная строка (граница) </system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Fill">Следующая строка (граница) </system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Border">Следующая строка (граница) </system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Fill">Выделенная строка (заливка)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Border">Выделенная строка (граница)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Fill">Следующая строка (граница)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Border">Следующая строка (граница)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle">Однострочный стиль</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Description">Отображать только одну строку. Перевод будет отображаться, если он доступен</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Fill">Заливка</system:String>
@@ -480,7 +480,7 @@
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup">Проверять при запуске</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup.Description">Проверять наличие новых выпусков при каждом запуске Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases">Отметить только &quot;Популярные выпуски&quot;</system:String>
-    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases.Description">Это позволит снизить количество запросов к Spotify Web API и уменьшит возможность получения ошибок запроса (ошибка 429). При включении этой опции некоторые новые альбомы не будут отображаться. (Когда вы подписаны на 20 или более артистов, Lyricify рекомендует вам включить эту опцию) </system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases.Description">Это позволит снизить количество запросов к Spotify Web API и уменьшит возможность получения ошибок запроса (ошибка 429). При включении этой опции некоторые новые альбомы не будут отображаться. (Когда вы подписаны на 20 или более артистов, Lyricify рекомендует вам включить эту опцию)</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization">Редактировать артистов для проверки</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.Description">Вы можете выбрать часть исполнителей, на которых подписаны, чтобы Lyricify проверял наличие новых релизов, вы также можете добавить исполнителей, которыми вы даже не являетесь следующее</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists">Выберите исполнителей</system:String>
@@ -497,7 +497,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Использовать повторно связанную обложку вместо обложки из исходной дорожки, когда дорожка повторно связана</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">Доступность трека зависит от страны, зарегистрированной в настройках профиля пользователя Spotify. Часто в каталоге Spotify есть несколько экземпляров трека, каждый из которых доступен на разных рынках. Это обычно происходит, когда трек, на котором записан альбом, был выпущен несколько раз под разными лицензиями на разных рынках. &#x000A;&#x000A;Эти дорожки связаны друг с другом, поэтому, когда пользователь пытается воспроизвести дорожку, недоступную на их собственном рынке, мобильные, настольные и веб-плееры Spotify пытаются воспроизвести другой экземпляр дорожки. который доступен на рынке пользователя.</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement">Включить расширение Media Session</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">Используйте систем Media Session, чтобы улучшить опыт использования Spotify на рабочем столе. (Убедитесь, что в настройках Spotify включена опция "Отображать наложение на рабочем столе при использовании мультимедийных клавиш") </system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">Используйте систем Media Session, чтобы улучшить опыт использования Spotify на рабочем столе. (Убедитесь, что в настройках Spotify включена опция "Отображать наложение на рабочем столе при использовании мультимедийных клавиш")</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement">Включить усовершенствование воспроизведения</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement.Description">Превосходный опыт переключения треков, возможности обеспечены мощным Интеллектуальным движком Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">Включить коррекцию временной шкалы</system:String>
@@ -519,10 +519,10 @@
     <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate">Автоматически обновлять</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate.Description">Автоматически обнаруживать и устанавливать новые версии Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource">Источник обновлений</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Description">Выберите канал загрузки обновлений (если вы находитесь в Китае и не используете прокси, выберите канал GitHub Proxy, в противном случае выберите GitHub) </system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Description">Выберите канал загрузки обновлений (если вы находитесь в Китае и не используете прокси, выберите канал GitHub Proxy, в противном случае выберите GitHub)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Sources.GitHub">GitHub</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Sources.GitHubProxy">GitHub Proxy (ghproxy.com)</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Updates.MicrosoftStore.Description">Обновления управляются через Microsoft Store. </system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.MicrosoftStore.Description">Обновления управляются через Microsoft Store.</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer">Отключить прокси для запросов сервера Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer.Description">Отключение прокси-сервера для этих запросов может улучшить работу, если вы находитесь в материковом Китае</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings">Включить ручные настройки прокси</system:String>
@@ -620,7 +620,7 @@
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.Remove">Удалить</system:String>
 
     <!--Dynamic Lyrics Island-->
-    <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">Двойной клик для скрытия (2 сек) </system:String>
+    <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">Двойной клик для скрытия (2 сек)</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">По центру</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">Закрыть</system:String>
 
@@ -690,7 +690,7 @@
     <system:String x:Key="String.Tools.AdvancedItemsPanel.OnlyVisibleToYou">Видно только вам</system:String>
 
     <system:String x:Key="String.Tools.DisplayItem.Artist">Исполнитель</system:String>
-    <system:String x:Key="String.Tools.DisplayItem.By">Создано {0} </system:String>
+    <system:String x:Key="String.Tools.DisplayItem.By">Создано {0}</system:String>
 
 
 
@@ -705,10 +705,10 @@
     <system:String x:Key="String.Windows.Welcome.Settings.Button.Continue">Далее</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Title">Пора предоставить разрешение для Spotify в браузере</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.AuthFinish">Авторизация в Spotify завершена. Одну секунду</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Trouble">Проблемы с входом? </system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink">Браузер не открыт: </system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble">Проблемы с входом?</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink">Браузер не открыт:</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink.Help">Копировать ссылку для авторизации Spotify</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink">Успешная авторизация не обнаружена: </system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink">Успешная авторизация не обнаружена:</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink.Help">Вручную введите ссылку обратного вызова авторизации</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configure">Настройка пользовательского API Client</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configured">Пользовательский API Client настроен</system:String>
@@ -720,12 +720,12 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Retry">Повторить</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Close">Закрыть</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Title" xml:space="preserve">Подключено к Spotify! </system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">Расслабьтесь и наслаждайтесь. Скоро мы начнем путешествие с Lyricify. </system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.WelcomeBack">Добро пожаловать в Lyricify! </system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">Расслабьтесь и наслаждайтесь. Скоро мы начнем путешествие с Lyricify.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.WelcomeBack">Добро пожаловать в Lyricify!</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">Вы № {0:N0} пользователь Lyricify</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.FailedToRegister">Регистрация на сервере Lyricify не удалась. Функциональность сервера может быть ограничена. Повторный вход может решить эту проблему. </system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.FailedToRegister">Регистрация на сервере Lyricify не удалась. Функциональность сервера может быть ограничена. Повторный вход может решить эту проблему.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">Вперед</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice">Мы заметили, что вы не играли музыку на Spotify. Поскольку Lyricify - это приложение для текстов песен, а не музыкальный плеер, вам необходимо воспроизводить музыку на Spotify, чтобы просматривать тексты песен в Lyricify. </system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice">Мы заметили, что вы не играли музыку на Spotify. Поскольку Lyricify - это приложение для текстов песен, а не музыкальный плеер, вам необходимо воспроизводить музыку на Spotify, чтобы просматривать тексты песен в Lyricify.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice.Button.Continue">Продолжить</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset">Предустановки</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">По умолчанию</system:String>
@@ -749,7 +749,7 @@
     <system:String x:Key="String.Windows.ShareLyrics">Поделиться текстом</system:String>
     <system:String x:Key="String.Page.ShareLyrics.SelectLyrics">Выбрать текст</system:String>
     <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.SelectCount">Выбрана {0} строка</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.SelectCount.Plural">Выбрано {0} строк(и) </system:String>
+    <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.SelectCount.Plural">Выбрано {0} строк(и)</system:String>
     <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.Button.Continue">Продолжить</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share">Поделиться</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.ClickForMore">Нажмите для дополнительного содержания</system:String>
@@ -762,12 +762,12 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Rendering">Выполняется рендеринг</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">Сохранить</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">Изображение JPEG (*.jpg)|*.jpg</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">Сохранение не удалось. </system:String>
-    <system:String x:Key="String.Page.ShareLyrics.Share.Message.RenderFailed">Произошла ошибка, рендеринг не удался. </system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">Сохранение не удалось.</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Message.RenderFailed">Произошла ошибка, рендеринг не удался.</system:String>
 
     <!--Configure Web Window-->
     <system:String x:Key="String.Window.ConfigureWeb.Notice1">Войдите в Spotify для активации воспроизведения в Lyricify</system:String>
-    <system:String x:Key="String.Window.ConfigureWeb.Notice2">Если веб-версия Spotify работает нормально, то внутреннее воспроизведение Lyricify также должно работать. (Возможно, потребуется перезапуск Lyricify) </system:String>
+    <system:String x:Key="String.Window.ConfigureWeb.Notice2">Если веб-версия Spotify работает нормально, то внутреннее воспроизведение Lyricify также должно работать. (Возможно, потребуется перезапуск Lyricify)</system:String>
 
     <!--Custom Configuration Manager-->
     <system:String x:Key="String.Window.CustomConfigurationManager">Пользовательский менеджер конфигураций</system:String>
@@ -828,8 +828,8 @@
     <system:String x:Key="String.Window.LocalFilesManager.Notice.AskRemove">Удалить это изображение?</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.SuccessRemove">Изображение успешно удалено.</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.FailRemove">Не удалось удалить изображение.</system:String>
-    <system:String x:Key="String.Window.LocalFilesManager.Type.Albums">Альбомы: </system:String>
-    <system:String x:Key="String.Window.LocalFilesManager.Type.Tracks">Треки: </system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Type.Albums">Альбомы:</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Type.Tracks">Треки:</system:String>
 
     <!--Track Management-->
     <system:String x:Key="String.Window.TrackManagement">Управление трека</system:String>
@@ -851,7 +851,7 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics">Текст</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">Заблокировать текст</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">Текст песни заблокирован администратором</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">Offset (временное отставание) должно быть целым числом (единица измерения - миллисекунды) </system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">Offset (временное отставание) должно быть целым числом (единица измерения - миллисекунды)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">Null (не отмечен на сервере)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.RemoveLyrics">Удалить текст</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">Поиск</system:String>
@@ -862,11 +862,11 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit">Изменить</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">Расширенное редактирование текста</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify">Lyrics Vault Lyricify</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit">Импорт и изменить<Q/system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit">Импорт и изменить</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Description">Редактировать тексты песен в Lyrics Vault Lyricify</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention" xml:space="preserve">ВНИМАНИЕ: </system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention.Content">Используйте это ТОЛЬКО, если тексты песен недоступны как в Tencent Music, так и в Netease Music.</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.Attention">В среде без подключенной Media Session невозможно изменить Offset. </system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.Attention">В среде без подключенной Media Session невозможно изменить Offset.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ">Tencent Music</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">Пожалуйста, введите MID песни Tencent Music или поделитесь ссылкой, чтобы получить текст из Tencent Music.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Input">Неверная середина музыкальной MID песни Tencent Music, проверьте введенные данные.</system:String>
@@ -1020,13 +1020,13 @@
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.SaveACopy.Failed.Message">Что-то не так, не удалось сохранить копию.</system:String>
 
     <system:String x:Key="String.Page.BackupCenter.Type.LikedSongs.Output">{0} песня</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Type.LikedSongs.Output.Plural">{0} песни(ен) </system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.LikedSongs.Output.Plural">{0} песни(ен)</system:String>
     <system:String x:Key="String.Page.BackupCenter.Type.Playlist.Output">{0} плейлист</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Type.Playlist.Output.Plural">{0} плейлисты(ов) </system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Playlist.Output.Plural">{0} плейлисты(ов)</system:String>
     <system:String x:Key="String.Page.BackupCenter.Type.Album.Output">{0} альбом</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Type.Album.Output.Plural">{0} альбомы(ов) </system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Album.Output.Plural">{0} альбомы(ов)</system:String>
     <system:String x:Key="String.Page.BackupCenter.Type.Artist.Output">{0} исполнитель</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Type.Artist.Output.Plural">{0} исполнителя(ей) </system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Artist.Output.Plural">{0} исполнителя(ей)</system:String>
 
     <!--Others-->
     <system:String x:Key="String.Helpers.Player.Time.Hour">ч.</system:String>
@@ -1057,7 +1057,7 @@
     <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">Автопоиск</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Fail.Version">Текущая версия устарела, получите обновление</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">Успешно отмечен на сервере</system:String>
-        <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Exist">Текст песни был помечен.</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Exist">Текст песни был помечен.</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">Ошибка, возможно, это внутренняя ошибка</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Network">Что-то не так с сервером Lyricify или с вашей сетью</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">Ошибка из-за пустого текста, возможно, это внутренняя ошибка</system:String>
@@ -1099,18 +1099,19 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">Error 429, повторите попытку позже</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Timeout">Исключение по тайм-ауту, повторите попытку позже</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Исключение HTTP-запроса, повторите попытку позже</system:String>
-        <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">Аккаунт Lyricify не найден. Некоторые функции, связанные с сервером, могут быть ограничены&#x000A;Попробуйте выполнить вход заново, возможно, это поможет</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">Аккаунт Lyricify не найден. Некоторые функции, связанные с сервером, могут быть ограничены&#x000A;Попробуйте выполнить вход заново, возможно, это поможет</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Restricted">Ваша учетная запись Lyricify была ограничена. Свяжитесь с администратором для получения помощи</system:String>
     <system:String x:Key="String.Messages.MainWindow.Message.NonPremium">Рекомендуется приобрести подписку Spotify Premium для полного использования возможностей Lyricify</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed">Lyricify будет закрыт</system:String>
-        <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed.Wrong">Возникли некоторые проблемы, Lyricify будет закрыт.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed.Wrong">Возникли некоторые проблемы, Lyricify будет закрыт.</system:String>
     <system:String x:Key="String.Messages.MainWindow.SpotifyAccount.Error.Relogin">У вашей учетной записи Spotify возникли проблемы. Попробуйте выполнить повторный вход.</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.NetworkIssue">Проблема с сетью. Проверьте подключение к Интернету</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.TryToRelogin">Попробуйте повторно войти</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.SomethingsWrong">Что-то не так, проверьте подключение к Интернету или обратитесь к разработчику</system:String>
-        <system:String x:Key="String.Messages.MainWindow.Exception.InvalidClient">Недействительная информация о клиенте. Пожалуйста, проверьте конфигурацию вашего API Client</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.InvalidClient">Недействительная информация о клиенте. Пожалуйста, проверьте конфигурацию вашего API Client</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">Пользователь не зарегистрирован в Spotify Developer Dashboard</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">Хорошая новость: сервер Spotify умер (Error 503, сервис недоступен). Повторите попытку позже</system:String>
+
     <system:String x:Key="String.Messages.MainWindow.Lyrics.NoTrackPlaying">Перед началом воспроизведения на Spotify вы не сможете открыть текст</system:String>
     <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">Перед началом воспроизведения на Spotify вы не сможете открыть текст Apple Music</system:String>
     <system:String x:Key="String.Messages.LyricifyFullscreen.NoTrackPlaying">Перед началом воспроизведения на Spotify вы не сможете открыть полноэкранный текст в Lyricify</system:String>

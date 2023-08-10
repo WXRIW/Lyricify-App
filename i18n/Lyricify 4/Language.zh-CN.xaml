@@ -1110,6 +1110,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.SomethingsWrong">出了一些问题，请检查你的互联网连接或联系开发者</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.InvalidClient">无效的 Client 信息, 请检你的 API Client 配置</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">用户没有在 Spotify Developer Dashboard 中注册</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">喜报：Spotify 服务器寄了 (503 错误，服务不可用)，请稍后再试</system:String>
 
     <system:String x:Key="String.Messages.MainWindow.Lyrics.NoTrackPlaying">在 Spotify 开始播放前，你将无法打开歌词</system:String>
     <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">在 Spotify 开始播放前，你将无法打开 Apple Music 歌词</system:String>
