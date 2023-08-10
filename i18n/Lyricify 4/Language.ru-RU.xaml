@@ -634,7 +634,7 @@
 
 
     <!--Notification Icon-->
-    <system:String x:Key="String.Menu.NotificationIcon.MinimizeToTray">Свернуть в трей</system:String>
+    <system:String x:Key="String.Menu.NotificationIcon.UnlockDesktopLyrics">Разблокировать текст для рабочего стола</system:String>
     <system:String x:Key="String.Menu.NotificationIcon.MinimizeToTray">Свернуть в панель уведомлений</system:String>
     <system:String x:Key="String.Menu.NotificationIcon.Exit">Выход</system:String>
 
