@@ -148,6 +148,7 @@
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">Album not found, please check the ID your input.</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Wrong input or unsupported input. Only track (redirect to it's album), album and playlist links are supported. Here are some examples.</system:String>
     <system:String x:Key="String.Page.Search.Availability.Market">Market</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Market.Unspecified">Unspecified</system:String>
     <system:String x:Key="String.Page.Search.Availability.MoreVersions">More versions</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.UnavailableTracks">Unavailable tracks</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.AllAvailable">All tracks are available</system:String>
@@ -727,6 +728,13 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">Go</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice">We have noticed that you are not playing songs on Spotify. Since Lyricify is a lyrics app, not a music player, you need to play songs on Spotify in order to view lyrics in Lyricify.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice.Button.Continue">Continue</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Button.Continue">Continue</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Title">Since you are using Custom API Client, it is recommended to authorise public API client in order to use Lyricify under extreme conditions</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip">Skip this step (not recommended)</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Title">Finish Spotify authorization in your web browser, just like what you have just did</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Skip">Skip</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Error.Title">Something's wrong, but you can still use Lyricify, just sit back and relax</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Success.Title">Successfully connected to public Spotify API client. Let's go Lyricify!</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset">Preset</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">Default</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Quality">Best Quality</system:String>
@@ -1111,6 +1119,10 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.InvalidClient">Invalid Client info, please check your API Client configuration</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">User not registered in Spotify Developer Dashboard</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">Spotify Service is currently not available (503 error), please try later</system:String>
+    
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">Extreme 429 Error</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.HavePublic.Notice">Your custom API client is under extreme condition (returning 429 error with a retry after of {0} seconds), Lyricify will continue to work using public API client</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.NoPublic.Message" xml:space="preserve">Your custom API client is under extreme condition (returning 429 error with a retry after of {0} seconds), and public API client hasn't been configured, so Lyricify is dysfunctional until 429 error ends.&#x000A;Press Yes to log out, pless No to close Lyricify.</system:String>
     
     <system:String x:Key="String.Messages.MainWindow.Lyrics.NoTrackPlaying">You won't be able to open Lyrics until Spotify starts playing</system:String>
     <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">You won't be able to open Apple Music Lyrics until Spotify starts playing</system:String>

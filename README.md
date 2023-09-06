@@ -31,7 +31,7 @@
 ## Lyricify 4
 <h3>More than lyrics 不仅有歌词</h3>  
 
-A fantastic app to provide auto-scrolling lyrics and additional functions for [Spotify](https://www.spotify.com).  (https://www.microsoft.com/store/apps/9NXJFDD97XJ3?cid=ghreadme)  
+A fantastic app to provide auto-scrolling lyrics and additional functions for [Spotify](https://www.spotify.com).  
 一款为 Spotify 提供滚动歌词和更多功能的软件。
 
 *需要注意的是： Lyricify 4 仅支持 Spotify！*  

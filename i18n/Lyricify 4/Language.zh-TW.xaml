@@ -148,6 +148,7 @@
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">未找到專輯，請檢查你輸入的 ID。</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">錯誤的輸入或不支援的輸入。僅支援歌曲（重定向至專輯）、專輯和歌單連結。這裡有幾個示例。</system:String>
     <system:String x:Key="String.Page.Search.Availability.Market">市場</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Market.Unspecified">未指定</system:String>
     <system:String x:Key="String.Page.Search.Availability.MoreVersions">更多版本</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.UnavailableTracks">不可用的曲目</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.AllAvailable">所有曲目均可用</system:String>
@@ -727,6 +728,13 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">出發</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice">我們發現你在 Spotify 上沒有播放歌曲。因為 Lyricify 是歌詞軟件，而非音樂播放器，所以你需要在 Spotify 中播放歌曲，這樣才能在 Lyricify 中查看歌詞。</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice.Button.Continue">繼續</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Button.Continue">繼續</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Title">由於你正在使用自定義 API Client，授權公共 API 客戶端以便在極端條件下繼續使用 Lyricify 是被強烈建議的</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip">跳過這個步驟 (不推薦)</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Title">在網頁瀏覽器中完成 Spotify 授權，就像你剛剛做的那樣</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Skip">跳過</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Error.Title">有些不對勁，但你仍然可以使用 Lyricify，坐下來放鬆一下吧</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Success.Title">公共 Spotify API 客戶端的連接大獲成功。Lyricify 將是你當前的精彩活動！</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset">預設設定檔</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">預設</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Quality">最好的品質</system:String>
@@ -896,7 +904,8 @@
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView.ToolTip">按兩下"同框對唱"標題可清除同框對唱設定</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Timestamp">複製時間戳</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Lyrics">複製歌詞</system:String>
-    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampLyrics">複製時間戳和歌詞</system:String><system:String x:Key="String.Window.TrackManagement.Notice.Loading">正在載入伺服器歌詞資訊</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampLyrics">複製時間戳和歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.Loading">正在載入伺服器歌詞資訊</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">空曲目</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">伺服器歌詞資訊載入失敗</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message">你可以嘗試</system:String>
@@ -1111,6 +1120,10 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">用戶沒有在 Spotify Developer Dashboard 中註冊</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">喜報：Spotify 服務器寄了 (503 錯誤，服務不可用)，請稍後再試</system:String>
 
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">極端 429 錯誤</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.HavePublic.Notice">你的自定義 API 客戶端正經歷著極端條件 (返回了等待時長為 {0} 秒的429 錯誤)， Lyricify 將繼續通過公共 API 客戶端工作</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.NoPublic.Message" xml:space="preserve">你的自定義 API 客戶端正經歷著極端條件(返回了等待時長為 {0} 秒的 429 錯誤)，且公共 API 客戶端沒有被配置，因此 Lyricify 無法工作，直至 429 結束。&#x000A;退出登錄 (是)，或關閉 Lyricify (否)。</system:String>
+    
     <system:String x:Key="String.Messages.MainWindow.Lyrics.NoTrackPlaying">在 Spotify 開始播放前，你將無法打開歌詞</system:String>
     <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">在 Spotify 開始播放前，你將無法打開 Apple Music 歌詞</system:String>
     <system:String x:Key="String.Messages.LyricifyFullscreen.NoTrackPlaying">在 Spotify 開始播放前，你將無法打開 Lyricify 全螢幕歌詞</system:String>
