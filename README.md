@@ -52,9 +52,14 @@ A fantastic app to provide auto-scrolling lyrics and additional functions for [S
 点击这里查看 [Lyricify 4 使用指南](/docs/Lyricify%204/README.md)  
 
 ![image](images/readme/func-lyrics-display.png)
-![image](images/readme/func-lyrics-highlight.png)
-![image](images/readme/home-3.png)
-![image](images/readme/home-2.png)
+![image](images/readme/func-lyrics-am-duet.png)
+![image](images/readme/func-lyrics-dynamic-lyrics-island.png)
+![image](images/readme/func-lyrics-desktop.png)
+![image](images/readme/func-lyrics-vertical.png)
+![image](images/readme/func-lyrics-fulscreen.png)
+![image](images/readme/func-lyrics-mobile-ui.png)
+![image](images/readme/func-lyrics-am-highlight.png)
+![image](images/readme/func-lyrics-am-multiline.png)
 
 ## Lyricify Mobile
 Lyricify Mobile 为 Lyricify 家族的移动端，目前安卓版已经发布，iOS 版请耐心等待。  
