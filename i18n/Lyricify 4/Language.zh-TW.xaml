@@ -860,6 +860,7 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">鎖定歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">歌詞已被管理員鎖定</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">Offset (時間差) 應是一個整型數位 (Offset 的單位是毫秒)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.TooLarge">Offset 不應該這麼大，是不是填錯了。要保留它嗎？ (Offset 是以毫秒為單位的時間軸調整)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">空 (伺服器上標記無標記)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.RemoveLyrics">移除歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">搜尋</system:String>

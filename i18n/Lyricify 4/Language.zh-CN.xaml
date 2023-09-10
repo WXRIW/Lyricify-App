@@ -860,6 +860,7 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">锁定歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">歌词已被管理员锁定</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">Offset (时间差) 应是一个整型数字 (Offset 的单位是毫秒)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.TooLarge">Offset 不应该这么大，是不是填错了。要保留它吗？ (Offset 是以毫秒为单位的时间轴调整)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">空 (服务器上标记无标记)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.RemoveLyrics">移除歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">搜索</system:String>

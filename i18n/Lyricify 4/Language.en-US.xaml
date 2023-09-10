@@ -860,6 +860,7 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">Lock Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">Lyrics has been locked by admin</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">Offset should be a number (offset's unit is millisecond)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.TooLarge">Offset should not be this large, maybe you have put the wrong number here. Want to keep it? (Offset is timestamp adjustment in milliseconds)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">Null (Not marked on server)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.RemoveLyrics">Remove Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">Search</system:String>
