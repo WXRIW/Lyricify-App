@@ -860,6 +860,7 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.QQ.Description">Импортировать текст MIDами песни Tencent Music или поделиться ссылкой</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">Импортировать текст IDами песни Netease Music или поделиться ссылкой</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit">Изменить</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.TooLarge">Значение Offset обычно не так велико. Вы уверены, что это не ошибка? (Offset - это настройка метки времени, единицы мс)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">Расширенное редактирование текста</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify">Lyrics Vault Lyricify</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit">Импорт и изменить</system:String>
