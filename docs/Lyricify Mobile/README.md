@@ -106,8 +106,8 @@ Spotify API 提供的播放进度不准，这是由多个原因导致的。
 ### 导致原因
 Spotify 返回了 `429 请求过多` 错误，不是 Lyricify 的锅。
 ### 解决方案
-等，等到 Spotify 不返回 429 了，就好了。  
-*注：429 错误的高峰时期为每天的下午和晚上，早上出现该错误的概率会小一点点。*
+配置自定义 API Client，可参考[这个教程](CustomClient/Readme.zh-CN.md)。  
+或者等待，等到 Spotify 不返回 429 了，就好了。  
 
 ## iOS 版什么时候能来
 好想在 iOS 上使用 Lyricify Mobile。
