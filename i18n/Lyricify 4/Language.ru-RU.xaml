@@ -147,7 +147,8 @@
     <system:String x:Key="String.Page.Search.Availability.SearchBar.NetworkIssue.Message">Проблема с сетью, проверьте подключение к Интернету.</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">Альбом не найден, проверьте, пожалуйста введенный вами ID.</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Неправильный ввод или неподдерживаемый ввод. Поддерживаются только ссылки на песни (перенаправление на альбом), альбомы и списки песен. Вот несколько примеров.</system:String>
-    <system:String x:Key="String.Page.Search.Availability.Market">Маркет</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Market">Маркет</system:String>\
+    <system:String x:Key="String.Page.Search.Availability.Market.Unspecified">Неуточненный</system:String>
     <system:String x:Key="String.Page.Search.Availability.MoreVersions">Другие версии</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.UnavailableTracks">Недоступные треки</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.AllAvailable">Все треки доступны</system:String>
@@ -727,6 +728,13 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">Вперед</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice">Мы заметили, что вы не играли музыку на Spotify. Поскольку Lyricify - это приложение для текстов песен, а не музыкальный плеер, вам необходимо воспроизводить музыку на Spotify, чтобы просматривать тексты песен в Lyricify.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice.Button.Continue">Продолжить</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Button.Continue">Продолжить</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Title">Поскольку вы используете собственный API Client, мы рекомендуем лицензировать публичный клиент API</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip">Пропустить (не рекомендуется)</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Title">Заполните лицензию Spotify в веб-браузере</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Skip">Пропустить</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Error.Title">Что-то не так, но вы все еще можете использовать Lyricify</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Success.Title">Подключенный публичный клиент Spotify API</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset">Предустановки</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">По умолчанию</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Quality">Наилучшее качество</system:String>
@@ -1112,6 +1120,10 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.InvalidClient">Недействительная информация о клиенте. Пожалуйста, проверьте конфигурацию вашего API Client</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">Пользователь не зарегистрирован в Spotify Developer Dashboard</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">Хорошая новость: сервер Spotify умер (Error 503, сервис недоступен). Повторите попытку позже</system:String>
+
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">Экстремальный Error 429</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.HavePublic.Notice">Ваш пользовательский API Client работает в экстремальных условиях (возвращает Error 429 с временем ожидания {0} сек), Lyricify продолжит работу через публичный API Client</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.NoPublic.Message" xml:space="preserve">Ваш пользовательский API Client работает в экстремальных условиях (возвращается Error 429 с временем ожидания {0} сек), а публичный клиент API не настроен, поэтому Lyricify не будет работать, пока не закончится Error 429. &#x000A;Выйдите из системы (Да) или закройте Lyricify (Нет).</system:String>
 
     <system:String x:Key="String.Messages.MainWindow.Lyrics.NoTrackPlaying">Перед началом воспроизведения на Spotify вы не сможете открыть текст</system:String>
     <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">Перед началом воспроизведения на Spotify вы не сможете открыть текст Apple Music</system:String>
