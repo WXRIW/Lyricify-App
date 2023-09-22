@@ -269,11 +269,11 @@
     <system:String x:Key="String.Page.About.LyricsProvidedBy">Текст предоставлен</system:String>
     <system:String x:Key="String.Page.About.LyricsProviders">Lyricify, Tencent Music, Netease Music</system:String>
     <system:String x:Key="String.Page.About.Donation">Пожертвовать</system:String>
-    <system:String x:Key="String.Page.About.thanklist">Список благодарностей</system:String>
+    <system:String x:Key="String.Page.About.Thanklist">Список благодарностей</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksApple">Отдельная благодарность за оригинальный дизайн от Apple</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">Отдельная благодарность Spotify за вклад в мир потоковой музыки</system:String>
-    <system:String x:Key="String.Page.About.thanklist.thanksPremium">Отдельная благодарность компании Difer за предоставление аккаунта Spotify Premium</system:String>
-    <system:String x:Key="String.Page.About.thanklist.thanksInsiders">Отдельная благодарность нашим инсайдерам</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.thanksPremium">Отдельная благодарность компании Difer за предоставление аккаунта Spotify Premium</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.thanksInsiders">Отдельная благодарность нашим инсайдерам</system:String>
     <system:String x:Key="String.Page.About.Internationalization">Интернационализация UI</system:String>
     <system:String x:Key="String.Page.About.References">Цитата</system:String>
     <system:String x:Key="String.Page.About.References.MITLicense.Brackets">(лицензия MIT)</system:String>
@@ -955,7 +955,7 @@
     <system:String x:Key="String.Window.LyricifyAccount.Password.Reenter">Повторно введите</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Password.Old">Старый пароль</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Password.Old.PlaceHolder">(Пароль сохранен)</system:String>
-    <system:String x:Key="String.Window.LyricifyAccount.Title.Enter">Пожалуйста, введите пароль своей учетной записи Lyricify {0}</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Title.Enter">Пароль учетной записи Lyricify {0}</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Title.Set">Установите пароль для своей учетной записи Lyricify {0}</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Title.Change">Изменить пароль учетной записи Lyricify {0}</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Account.Administrator">Администратор</system:String>
