@@ -27,6 +27,11 @@
 
 **注意：** 如需反馈或提问，对于 Lyricify 功能，请使用[官方认定的正确的名称](#lyricify-%E5%90%8D%E8%AF%8D)来描述。  
 
+Lyricify 4 是免费软件，如果你觉得 Lyricify 4 做的不错，则可以通过以下渠道支持：
+- 在软件中，菜单-关于页里有打赏方式
+- 在 Microsoft Store 中购买
+如果你发现有人在非法销售本软件 (只有 Microsoft Store 是官方发布)，请告知我们！感谢支持！  
+
 # Lyricify 4 基础
 
 ## 运行 Lyricify 4

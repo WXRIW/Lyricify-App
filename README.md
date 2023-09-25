@@ -55,8 +55,9 @@ A fantastic app to provide auto-scrolling lyrics and additional functions for [S
 点击这里查看 [Lyricify 4 使用指南](/docs/Lyricify%204/README.md)  
 
 Lyricify 4 是免费软件，如果你觉得 Lyricify 4 做的不错，则可以通过以下渠道支持：
-- 软件中，菜单-关于页中有打赏方式
+- 在软件中，菜单-关于页里有打赏方式
 - 在 Microsoft Store 中购买
+如果你发现有人在非法销售本软件 (只有 Microsoft Store 是官方发布)，请告知我们！感谢支持！  
 
 ![image](images/readme/func-lyrics-display.png)
 ![image](images/readme/func-lyrics-am-duet.png)
