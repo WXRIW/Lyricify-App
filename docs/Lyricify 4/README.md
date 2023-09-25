@@ -368,6 +368,7 @@ Apple Music 歌词界面 CJK (中日韩) 歌词流畅度较低，这是微软的
       2. 如果已连接，则检查设置中 `Lyricify 智能引擎` 是否启用。
       3. 如果未连接，则需先修复 [Media Session 连接问题](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#media-session-%E6%9C%AA%E8%BF%9E%E6%8E%A5)。
    2. 仍无法解决的，或是不是上述情况的，参见下方 `总是提示出现 429 错误`。
+   3. 如果您不是 Spotify Premium 用户，则可尝试通过购买 Spotify Premium 来优化体验。在非 Premium 账户中，Lyricify 智能引擎无法正常工作。
 2. 若切歌后 Lyricify 中的歌曲信息已经更新，但歌词空白的时间较长，请完成 [`歌词标记`](#%E6%AD%8C%E8%AF%8D%E6%A0%87%E8%AE%B0%E5%8F%8A%E5%AF%BC%E5%85%A5)，这样可以提高歌词获取效率。
 
 ## 总是提示出现 429 错误
