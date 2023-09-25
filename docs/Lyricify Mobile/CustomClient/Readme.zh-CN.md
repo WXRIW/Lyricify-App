@@ -9,11 +9,12 @@
 
 ## 准备步骤
 如果你已经完成过准备步骤，则可以直接使用之前获得的 `Client ID` 和 `Client Secret`，在 `Lyricify Mobile 上的工作` 中使用。
-1. 打开 https://developer.spotify.com/dashboard ，如果你是第一次打开这个网址，则需要先同意 Spotify Developer Terms。勾选下方的 `I accept the Spotify Developer Terms of Service`，再点击 `Accept the terms` 即可。
+1. 在浏览器中登录 Spotify (https://www.spotify.com)，如果你已登录，可进入步骤 2。
+2. 打开 https://developer.spotify.com/dashboard ，如果你是第一次打开这个网址，则需要先同意 Spotify Developer Terms。勾选下方的 `I accept the Spotify Developer Terms of Service`，再点击 `Accept the terms` 即可。
 ![](pic/Demo-Pic01.png)
-2. 点击 Dashboard 页面右上方的 `Create app`。
+3. 点击 Dashboard 页面右上方的 `Create app`。
 ![](pic/Demo-Pic02.png)
-3. 在 Create app 页面中填写以下信息：
+4. 在 Create app 页面中填写以下信息：
    - App name: Lyricify
    - App description: Lyricify Custom API Client
    - Website: （空着不写）
@@ -22,8 +23,8 @@
    勾选 `I understand and agree with Spotify's Developer Terms of Service and Design Guidelines`；
    点击 `Save` 按钮。
 ![](pic/Demo-Pic03.png)
-4. 点击右上方的 `Settings` 按钮，进入设置页面。
-5. 这时你就能看到 Client ID，点击 `View client secret`，即可显示 Client secret。在后续步骤中将需要用到 `Client ID` 和 `Client Secret`。
+5. 点击右上方的 `Settings` 按钮，进入设置页面。
+6. 这时你就能看到 Client ID，点击 `View client secret`，即可显示 Client secret。在后续步骤中将需要用到 `Client ID` 和 `Client Secret`。
 ![](pic/Demo-Pic04.png)
 
 ## Lyricify Mobile 上的工作
