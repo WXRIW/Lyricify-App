@@ -41,6 +41,9 @@ https://t.me/lyricifyreleases
 **Reserved Download Link / 备用下载地址:**  
 https://wxriw.lanzoux.com/b015qcwob
 
+**Lyricify Open Source / 开源 Lyricify:**  
+Lyricify 歌词处理部分已开源，详见[这里](#lyricify-open-source)。
+
 ## Lyricify 4
 <h3>More than lyrics 不仅有歌词</h3>  
 
@@ -60,6 +63,29 @@ A fantastic app to provide auto-scrolling lyrics and additional functions for [S
 ![image](images/readme/func-lyrics-mobile-ui.png)
 ![image](images/readme/func-lyrics-am-highlight.png)
 ![image](images/readme/func-lyrics-am-multiline.png)
+
+### Lyrcifiy 4 Original
+Lyricify 4 是目前 Lyricify 系列中最具创新的功能结晶，在这里列出部分首创于 Lyricify 的功能。  
+- 灵动词岛 / Dynamic Lyrics Island
+  - 首创于 2022.09.30
+  - 公开于 Lyricify 3.8.1-release
+- 妙控条 / Magic Strip
+  - 首创于 2022.10.09
+  - 公开于 Lyricify 4.0.0.230121-release
+- 歌词界面使用动态专辑封面 / Live Album Cover
+  - 首创于 2022.11.14
+  - 公开于 Lyricify 4.0.0.230121-release
+- Lyricify Syllable
+  - 首创于 2023.03.13
+  - 公开于 Lyricify 4.0.8.230315-release
+- Lyricify 智能引擎 / Lyricify Intelligent Engine
+  - 首创于 2023.04.26
+  - 公开于 Lyricify 4.1.0.230503-release
+
+这些创作采用 [CC BY-SA 4.0 协议](https://creativecommons.org/licenses/by-sa/4.0/) 进行许可。欢迎转载、使用、重新发布，但务必保留创作署名 Lyricify (及作者 WXRIW 或 XY Wang)，可用于商业目的，基于创意修改后的作品务必以相同的许可发布。如有任何疑问，请与我联系。  
+
+## Lyricify Open Source
+Lyricify 的歌词处理相关代码均已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中使用 MIT 协议开源，希望能为开源社区做出贡献。  
 
 ## Lyricify Mobile
 Lyricify Mobile 为 Lyricify 家族的移动端，目前安卓版已经发布，iOS 版请耐心等待。  
