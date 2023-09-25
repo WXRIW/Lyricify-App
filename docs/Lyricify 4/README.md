@@ -29,9 +29,9 @@
 
 Lyricify 4 是免费软件，如果你觉得 Lyricify 4 做的不错，则可以通过以下渠道支持：
 - 在软件中，菜单-关于页里有打赏方式
-- 在 Microsoft Store 中购买
+- 在 [Microsoft Store](https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full) 中购买
 
-如果你发现有人在非法销售本软件 (只有 Microsoft Store 是官方发布)，请告知我们！感谢支持！  
+如果你发现有人在非法销售本软件 (只有 Microsoft Store 中的 Lyricify 是官方发布)，请联系我们！感谢你的支持！  
 
 # Lyricify 4 基础
 
