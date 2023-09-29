@@ -731,6 +731,7 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Button.Continue">继续</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Title">由于你正在使用自定义 API Client，授权公共 API 客户端以便在极端条件下继续使用 Lyricify 是被强烈建议的</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip">跳过这个步骤 (不推荐)</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip.Ask">确定要跳过这个步骤吗？授权公共 API 客户端以便在极端条件下继续使用 Lyricify 是被强烈建议的。</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Title">在网页浏览器中完成 Spotify 授权，就像你刚刚做的那样</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Skip">跳过</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Error.Title">有些不对劲，但你仍然可以使用 Lyricify，坐下来放松一下吧</system:String>
@@ -1103,6 +1104,7 @@
     <system:String x:Key="String.Messages.App.Exception.TryToRelogin">请尝试重新登录</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">过多请求 (429 错误)，请稍后再试</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">过多请求 (429 错误)，请 {0} 秒后再试</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify">你可以通过设置自定义 API Client 以解决 429 错误问题 (点击了解更多)</system:String>
 
     <!--MainWindow-->
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 错误，请稍后再试</system:String>

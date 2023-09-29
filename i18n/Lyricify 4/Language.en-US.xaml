@@ -18,7 +18,7 @@
 
     <!--Login-->
     <system:String x:Key="String.MainWindow.Login.Welcome">Welcome to Lyricify, {0}!</system:String>
-    <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Welcome to Lyricify, the supreme {0}!</system:String>
+    <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Welcome to Lyricify, supreme {0}!</system:String>
     <system:String x:Key="String.MainWindow.Login.LoggingIn">Logging in</system:String>
     <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">This might take a while</system:String>
     <system:String x:Key="String.MainWindow.Login.StillTrying">We are still trying to log you in</system:String>
@@ -731,6 +731,7 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Button.Continue">Continue</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Title">Since you are using Custom API Client, it is recommended to authorise public API client in order to use Lyricify under extreme conditions</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip">Skip this step (not recommended)</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip.Ask">Are you sure to skip this step? It is highly recommended to authorise public API client in order to use Lyricify under extreme conditions.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Title">Finish Spotify authorization in your web browser, just like what you have just did</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Skip">Skip</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Error.Title">Something's wrong, but you can still use Lyricify, just sit back and relax</system:String>
@@ -1103,6 +1104,7 @@
     <system:String x:Key="String.Messages.App.Exception.TryToRelogin">Please try to relogin</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">Too many requests (429 error), retry later</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">Too many requests (429 error), retry after {0} seconds</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify">You can avoid 429 errors by setting up Custom API Client (Click to learn more)</system:String>
     
     <!--MainWindow-->
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 Error, retry later</system:String>
