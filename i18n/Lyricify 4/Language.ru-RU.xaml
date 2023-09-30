@@ -1103,6 +1103,7 @@
     <system:String x:Key="String.Messages.App.Exception.TryToRelogin">Попробуйте повторно войти</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">Слишком много запросов (Error 429), повторите попытку позже</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">Слишком много запросов (Error 429). Пожалуйста, повторите через {0} сек.</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify">Устранить Error 429 можно, настроив пользовательский API Client (нажмите, чтобы узнать больше)</system:String>
 
     <!--MainWindow-->
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">Error 429, повторите попытку позже</system:String>
