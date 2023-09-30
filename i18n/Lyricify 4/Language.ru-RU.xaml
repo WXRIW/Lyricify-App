@@ -268,7 +268,7 @@
     <system:String x:Key="String.Page.About.Copyright">© {0} WXRIW. Все права защищены</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">Текст предоставлен</system:String>
     <system:String x:Key="String.Page.About.LyricsProviders">Lyricify, Tencent Music, Netease Music</system:String>
-    <system:String x:Key="String.Page.About.Donation">Пожертвовать</system:String>
+    <system:String x:Key="String.Page.About.Donation">Пожертвование</system:String>
     <system:String x:Key="String.Page.About.Thanklist">Список благодарностей</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksApple">Отдельная благодарность за оригинальный дизайн от Apple</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">Отдельная благодарность Spotify за вклад в мир потоковой музыки</system:String>
