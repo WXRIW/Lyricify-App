@@ -1,7 +1,7 @@
 # Apple 设备自签教程 By [Tiger](https://github.com/mcuTiger)
 
 ## 前置准备
-Lyricify Mobile iOS.ipa、Sideloadly、iTunes 驱动
+Lyricify Mobile iOS.ipa、[Sideloadly](https://sideloadly.io/#download)、iTunes 驱动
 
 ## 步骤
 1. 打开 Sideloadly，使用数据线连接到您的 PC；点击 IPA 图标，选择安装软件。  
