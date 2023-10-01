@@ -108,10 +108,3 @@ Spotify 返回了 `429 请求过多` 错误，不是 Lyricify 的锅。
 ### 解决方案
 配置自定义 API Client，可参考[这个教程](CustomClient/Readme.zh-CN.md)。  
 或者等待，等到 Spotify 不返回 429 了，就好了。  
-
-## iOS 版什么时候能来
-好想在 iOS 上使用 Lyricify Mobile。
-### 导致原因
-开发者没有 Mac，也没有 Apple 开发者账号 (￥688/年)，所以虽然已经写好代码了，但是无法测试和发布 iOS 版。
-### 解决方案
-等。
