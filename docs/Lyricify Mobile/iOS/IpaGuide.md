@@ -4,7 +4,7 @@
 Lyricify Mobile iOS.ipa、[Sideloadly](https://sideloadly.io/#download)、iTunes 驱动
 
 ## 步骤
-1. 打开 Sideloadly，使用数据线连接到您的 PC；点击 IPA 图标，选择安装软件。  
+1. 打开 Sideloadly，使用数据线将 iPhone / iPad 连接到您的 PC；点击 IPA 图标，选择安装软件。  
 ![Sideloadly App main interface](pic/image01.png)  
   注意事项：
     1. 第一次连接时，你的 iPhone / iPad 会提示是否信任此设备，选择信任即可；
