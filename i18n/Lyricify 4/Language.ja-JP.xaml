@@ -32,6 +32,7 @@
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession">Media Session</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">接続済み</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">接続されない</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. Media Session は、Spotify のデスクトップ版（ストアバージョンを含む）で再生している時のみ利用可能で、それ以外（ウェブバージョン、モバイルバージョンなど）では利用できません！&#x000A;2. Lyricify が現在の再生情報を得た場合のみ、Media Session への接続を試みます！</system:String>
 
     <system:String x:Key="String.MainWindow.PinnedArea.Notice">アイテムをロックしてすばやくアクセス！</system:String>
 
@@ -147,6 +148,7 @@
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">アルバムが見つかりません。入力した ID を確認してください</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">入力が間違っているか、サポートされていない入力です。 トラック (アルバムへのリダイレクト)、アルバム、およびプレイリストのリンクのみがサポートされています。ここに2つの例があります</system:String>
     <system:String x:Key="String.Page.Search.Availability.Market">市場</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Market.Unspecified">特に指定なし</system:String>
     <system:String x:Key="String.Page.Search.Availability.MoreVersions">その他のバージョン</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.UnavailableTracks">利用できないトラック</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.AllAvailable">すべてのトラックが利用可能だ</system:String>
@@ -295,7 +297,7 @@
     <system:String x:Key="String.Page.Settings.General.RestoreWindow.Description">起動時に Lyricify ウィンドウの状態を復元する</system:String>
     <system:String x:Key="String.Page.Settings.Appearance">外観</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode">カラーモード</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.Description">Lyricifyのカラーモードを変更する</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.Description">Lyricify のカラーモードを変更する</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">ダーク (デフォルト)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Light">ライト</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground">歌詞の背景</system:String>
@@ -396,6 +398,8 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dynamic Lyrics Island は、バイランドモードではカーソルの入り口で自動的に消えますが、アイランドモードではカーソルで島を動かすことができる。 &#x000A;Dynamic Lyrics Island は、アイランド モードでは右クリック メニューで閉じることができますが、バイランド モードでは、メイン メニューまたはホットキーでしか閉じることができない。</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">常に 2 行を表示する</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">翻訳が利用できない場合でも常に 2 行の歌詞を表示する</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation">翻訳と音訳を隠す</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation.Description">翻訳と音訳が利用可能な場合は、それらを非表示にする</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText">文字を太くする</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText.Description">Dynamic Lyrics Island で太く文字のテキストを使用する</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode">カラオケ モード</system:String>
@@ -408,14 +412,22 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics">デスクトップ歌詞</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">二重線スタイル</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">これをオフにすると歌詞が 1 行だけ表示される</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EfficiencyMode">効率モデル</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EfficiencyMode.Description">Lyricify は、炭素排出とエネルギー使用による環境への影響を削減することを約束します</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation">歌詞切り替えアニメーション</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation.Description">別の歌詞行に切り替えるとき、アニメーションを再生する</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation.BlurEffect">ぼかし効果</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation.BlurEffect.Description">行の切り替え時にぼかし効果を使う</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode">カラオケ モード</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode.Description">歌詞表示のカラオケ スタイルを取得</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide">自動隠れる</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">これをオンにすると、一時停止時にデスクトップ歌詞を隠す</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide">フルスクリーン時に非表示</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide.Description">フルスクリーン プログラムの実行時にデスクトップ歌詞を非表示にする</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide">透明と非表示</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Description">ロック状態でポインタがデスクトップの歌詞に入ったとき、デスクトップの歌詞に高い透明度を設定する。</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Opacity">不透明度</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Opacity.Description">デスクトップの歌詞を非表示にしたい場合は 0 を設定する。</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">不透明度</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.BorderThickness">ボーダーの太さ</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign">歌詞の整列モード</system:String>
@@ -447,9 +459,22 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Black">黒</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.White">白</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Custom">カスタム</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect">シャドー効果</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Description">歌詞の下に影を散らす</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Color">カラー</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Depth">深度</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Direction">オリエンテーション</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Direction.Description">デフォルト: 315°</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Opacity">不透明度</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Radius">半径</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position">位置とサイズ</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Description">デスクトップの歌詞が正しく表示されない場合は、リセットを試すことができます</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Button.Reset">リセット</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock">ロック</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.Description">デスクトップの歌詞の位置とサイズをロックする</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.Button.Unlock">ロック解除</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.HideUnlock">ロック解除ボタンを隠す</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.HideUnlock.Description">ロック解除ボタンを隠し、操作の邪魔にならないようにする</system:String>
     <system:String x:Key="String.Page.Settings.Functions">機能</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed">フォローフィード</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.Description">新しいリリースを入手する</system:String>
@@ -471,7 +496,7 @@
     <system:String x:Key="String.Page.Settings.Advanced">高度な設定</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">再リンクを有効にする</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">トラックが再リンクされたときに、元のトラックのアートワークの代わりに再リンクされたアートワークを使用する</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">The availability of a track depends on the country registered in the user’s Spotify profile settings. Often Spotify has several instances of a track in its catalogue, each available in a different set of markets. This commonly happens when the track the album is on has been released multiple times under different licenses in different markets. &#x000A;&#x000A;These tracks are linked together so that when a user tries to play a track that isn’t available in their own market, the Spotify mobile, desktop, and web players try to play another instance of the track that is available in the user's market.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">トラックが利用可能かどうかは、ユーザーの Spotify プロフィール設定に登録されている国によって異なります。多くの場合、Spotify はそのカタログにトラックの複数のインスタンスを持っており、それぞれが異なる市場のセットで利用可能です。これは、アルバムのトラックが異なる市場で異なるライセンスの下で複数回リリースされている場合によく起こります。&#x000A;&#x000A;これらのトラックはリンクされており、ユーザーが自分のマーケットで入手できないトラックを再生しようとすると、スポティファイのモバイル、デスクトップ、ウェブのプレーヤーは、ユーザーのマーケットで入手可能な別のインスタンスのトラックを再生しようとする。</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement">Media Session 拡張機能を有効にする</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Discription">Spotify デスクトップ クライアントを使用しているときに、システムの Media Session を使用してエクスペリエンスを向上させます。 (Spotify の設定で 「メディアキーの使用時に、デスクトップオーバーレイを表示する」 が有効になっていることを確認してください)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement">再生アップデートのエンハンスを有効にする</system:String>
@@ -489,10 +514,20 @@
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">開ける</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar">Spotify API 待機バー</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar.Description">トラック切り替え時に 429 エラーが発生した場合、下部のプログレスバーを表示します</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates">アップデート</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.Description">Lyricify アップデート関連設定</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.Button.Check">アップデートの確認</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate">自動アップデート</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate.Description">Lyricify の新しいバージョンを自動的に検出し、インストールする</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource">更新されたソース</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Description">アップデートのダウンロード・チャンネルを選択する（中国本土にいてプロキシを持っていない場合は GitHub プロキシを選択し、そうでない場合は GitHub を選択する）。</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Sources.GitHub">GitHub</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Sources.GitHubProxy">GitHub プロキシ (ghproxy.com)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.MicrosoftStore.Description">アップデートは Microsoft ストアで管理されます。</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer">Lyricify サーバーリクエストのプロキシを無効にする</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer.Description">中国本土にいる場合、これらのリクエストのプロキシを無効にすると、エクスペリエンスが向上する可能性があります</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings">手動プロキシ設定を有効にする</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings.Description">これによりLyricifyのシステムプロキシ設定が上書きされる</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings.Description">これにより Lyricify のシステムプロキシ設定が上書きされる</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Host">Host</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Port">Port</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Username">Username</system:String>
@@ -552,6 +587,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.RefreshPlaybackInfo">Spotify の再生情報を更新する</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CopyRefreshToken">Refresh Token をコピー</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.MediaSessionStatus">Media Session ステータス</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.NetworkDiagnose">ネットワーク診断</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.ChangeLyricifyPassword">Lyricify アカウントのパスワードを変更する</system:String>
 
     <system:String x:Key="String.Menu.MainWindow.Main.About">情報と助ける</system:String>
@@ -599,6 +635,7 @@
 
 
     <!--Notification Icon-->
+    <system:String x:Key="String.Menu.NotificationIcon.UnlockDesktopLyrics">デスクトップ歌詞のロック解除</system:String>
     <system:String x:Key="String.Menu.NotificationIcon.MinimizeToTray">トレイに最小化</system:String>
     <system:String x:Key="String.Menu.NotificationIcon.Exit">終了</system:String>
 
@@ -674,6 +711,8 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink.Help">Spotify 認証リンクをコピー</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink">認証成功が検出されませんでした：</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink.Help">認証コールバック リンクを手動で入力</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configure">カスタム API Client の設定</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configured">カスタム API Client が設定されました</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Button.Cancel">キャンセル</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Title">Lyricify はまもなく終了する</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Button.Retry">リトライ</system:String>
@@ -681,12 +720,22 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Title">何かがおかしい、エラーの詳細はこちら</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Retry">リトライ</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Close">閉じる</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.Title" xml:space="preserve">Spotifyへ接続に成功しました！</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">Lyricifyの旅を始めましょう！</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.Title" xml:space="preserve">Spotify へ接続に成功しました！</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">Lyricify の旅を始めましょう！</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.WelcomeBack">Lyricify へようこそ！</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">あなたは {0:N0} 番目の Lyricify ユーザーだ</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.FailedToRegister">Lyricify サーバーへの登録に失敗しました。サーバー側の機能が制限される可能性があります。再ログインすると、この問題が解決する可能性があります。</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">Go</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">出発</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice">Spotify で曲を再生していないことに気づきました。 Lyricify は音楽プレーヤーではなく、歌詞ソフトウェアですので、Lyricify で歌詞を見るためには、Spotify で曲を再生する必要があります。</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice.Button.Continue">進む</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Button.Continue">進む</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Title">あなたはカスタム API Clientを使用しているので、極端な条件下で Lyricify を使用し続けるために、公開 API クライアントを承認することを強くお勧めします。</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip">このステップをスキップする（推奨しない）</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip.Ask">本当にこのステップを飛ばしたいですか？極端な条件下で Lyricify を使用し続けるために、公開APIクライアントを承認することを強くお勧めします。</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Title">先ほどと同じように、ウェブブラウザで Spotify を承認する。</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Skip">スキップ</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Error.Title">何かがおかしい、でもまだ Lyricify を使うことができる。</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Success.Title">公開されている Spotify API クライアントとの接続は大成功だった。Lyricify はあなたの現在のエキサイティングなイベントになるでしょう！</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset">プリセット</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">デフォルト</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Quality">最高品質</system:String>
@@ -768,6 +817,12 @@
     <system:String x:Key="String.Window.HotkeyManager.Message.FailedAt">これらのホットキーは登録できなった:</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Message.CheckUsing">別のプログラムがこれらのキーを使用しているかどうかを確認してください。</system:String>
 
+    <!--Network Diagnose-->
+    <system:String x:Key="String.Window.NetworkDiagnose">ネットワーク診断</system:String>
+    <system:String x:Key="String.Window.NetworkDiagnose.Description">Lyricify サーバーへのインターネット接続を確認してください。</system:String>
+    <system:String x:Key="String.Window.NetworkDiagnose.Button.Check">確認</system:String>
+    <system:String x:Key="String.Window.NetworkDiagnose.Button.Close">閉じる</system:String>
+
     <!--Local Files Manager-->
     <system:String x:Key="String.Window.LocalFilesManager">ローカル ファイル マネージャー</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Title">Spotify ローカル ファイルのマネージャー</system:String>
@@ -796,8 +851,8 @@
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Album">アルバム</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental">器楽</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.Unset">未設定</system:String>
-    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.True">真</system:String>
-    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.False">偽</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.True">はい</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.False">いいえ</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer">作成</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format">フォーマット:</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format.Description">作家名は,（半角カンマ）で区切ってください。 別の行でタイプライターを使用して、書式設定を Lyricify に任せることもできます。中国語の名前には簡体字中国語を使用してください。</system:String>
@@ -805,8 +860,10 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics">歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">ロック歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">歌詞は管理者によってロックされている</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">オフセットは数値でなければならない (オフセットの単位はミリ秒だ)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">オフセットは数値でなければならない（オフセットの単位はミリ秒だ）</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.TooLarge">オフセットはこんなに大きくないはず。 このままでいいのでしょうか？（オフセットはミリ秒単位のタイムライン調整です）</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">Null (サーバーでマークされていない)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.RemoveLyrics">歌詞を削除する</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">検索</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search.Description">Lyricify Lyrics Searcher で歌詞をインポート</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import">インポート</system:String>
@@ -836,9 +893,10 @@
     <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow">メインウィンドウで適用</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow.Description">メイン ウィンドウに現在の歌詞情報を読み込む (このトラックが現在再生されている場合にのみ使用可能)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Save">セーブ（アップロード）</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Save.Message.ApplyInMainWindow">メインウィンドウで変更を適用し、インポートした歌詞のテキストとタイムラインが正しいことを確認することを強くお勧めします。 メインウインドウで適用する（はい）、アップロードを続ける（いいえ）、または何もしない（キャンセル）？</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Close">閉じる</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.EditRawFile">元のファイルを編集する</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">保存せずに閉じますか</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">保存せずに閉じますか？</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.FinishDuetView">デュエット ビューの設定を終了してください (「デュエット ビュー」 タイトルをダブルクリックすると、デュエット ビューの設定をクリアできます)</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Timestamp">タイムスタンプ</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Lyrics">歌詞</system:String>
@@ -846,6 +904,9 @@
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle.ToolTip">タイトル行に含まれるもの: タイトル、クレジット情報、すべての歌詞以外の行</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView">デュエット ビュー</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView.ToolTip">「デュエット ビュー」タイトルをダブルクリックすると、デュエット ビューの設定をクリアできます</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Timestamp">タイムスタンプのコピー</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Lyrics">歌詞のコピー</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampLyrics">タイムスタンプと歌詞のコピー</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.Loading">サーバーの歌詞情報を読み込んでいます</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">空トラック</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">サーバーの歌詞情報を読み込めませんでした</system:String>
@@ -909,6 +970,15 @@
     <system:String x:Key="String.Window.LyricifyAccount.Message.WrongOldPassword">間違った以前のパスワード</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Message.TooManyAttempts">試行回数が多すぎる</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Message.TwiceDifferent">2回入力したパスワードが違う</system:String>
+
+    <!--Custom API Client Manager-->
+    <system:String x:Key="String.Window.CustomApiClientManager">カスタム API Client の設定</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Button.Reset">リセット</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Button.OK">確認</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Button.Cancel">キャンセル</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.ToolTip">カスタム Spotify API Client 設定チュートリアルを見るにはクリックしてください</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Message.WrongClientSecret">Client Secret が間違っています。入力を確認してください。</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Message.WrongClientIdSecret">Client ID または Client Secret が間違っています。入力を確認してください。</system:String>
 
     <!--Backup Center-->
     <system:String x:Key="String.Window.BackupCenter">バックアップ &amp; オートメーション</system:String>
@@ -1034,6 +1104,7 @@
     <system:String x:Key="String.Messages.App.Exception.TryToRelogin">再ログインしてみてください</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">リクエストが多すぎます（429 エラー）。後で再試行してください</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">リクエストが多すぎます（429 エラー）。{0} 秒後に再試行してください。</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify">カスタム API Client を設定することで、429 エラーを解決することができます。クリックして詳細を見る。</system:String>
 
     <!--MainWindow-->
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 エラー、後で再試行してください</system:String>
@@ -1048,9 +1119,25 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.NetworkIssue">ネットワークの問題、インターネット接続を確認してください</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.TryToRelogin">再ログインしてみてください</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.SomethingsWrong">問題が発生しました。インターネット接続を確認するか、開発者にお問い合わせください</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.InvalidClient">無効な Client 情報、API Client 設定を確認してください。</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">ユーザーは Spotify Developer Dashboard に登録していません。</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">喜びの報告：Spotify サーバーがダウンしました（503 エラー、サービス利用不可）。後でもう一度お試しください。</system:String>
+
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">極端な 429 エラー</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.HavePublic.Notice">あなたのカスタムAPIクライアントは極端な状況（{0} 秒の待機時間を伴う 429 エラーが返されました）を経験しています。Lyricify は公共 API クライアントを通じて作業を続けます。</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.NoPublic.Message" xml:space="preserve">あなたのカスタム API Client は極端な状況（{0} 秒の待機時間を伴う 429 エラーが返されました）を経験しており、公共 API クライアントが設定されていないため、Lyricify は 429 が終了するまで動作できません。ログアウトしますか（はい）、それとも Lyricify を閉じますか（いいえ）。</system:String>
+
+    <system:String x:Key="String.Messages.MainWindow.Lyrics.NoTrackPlaying">Spotify が再生を開始する前に、歌詞を開くことはできません。</system:String>
+    <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">Spotify が再生を開始する前に、Apple Music 歌詞を開くことはできません。</system:String>
+    <system:String x:Key="String.Messages.LyricifyFullscreen.NoTrackPlaying">Spotify が再生を開始する前に、Lyricify の全画面歌詞を開くことはできません。</system:String>
+    <system:String x:Key="String.Messages.MobileUIFullscreen.NoTrackPlaying">Spotify が再生を開始する前に、モバイル UI の全画面歌詞を開くことはできません。</system:String>
 
     <system:String x:Key="String.Messages.MainWindow.LogOut.Query">この Spotify アカウントからログアウトしてもよろしいですか</system:String>
     <system:String x:Key="String.Messages.MainWindow.LogOut.Failed">ログアウト できませんでした</system:String>
+
+    <!--Updates-->
+    <system:String x:Key="String.Messages.Updates.FoundNewVersion">新しいバージョンを見る</system:String>
+    <system:String x:Key="String.Messages.Updates.FoundNewVersion.GoToStore">クリックすると Microsoft Store で表示されます。</system:String>
 
     <!--Operations-->
     <system:String x:Key="String.Messages.Operation.Spotify.Add.LikedSongs">「お気に入りの曲」に追加じた</system:String>
