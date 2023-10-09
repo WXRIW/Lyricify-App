@@ -68,7 +68,7 @@ Lyricify 4 是免费软件，如果你觉得 Lyricify 4 做的不错，则可以
 ![image](images/readme/func-lyrics-am-highlight.png)
 ![image](images/readme/func-lyrics-am-multiline.png)
 
-### Lyrcifiy 4 Original
+### Lyricify 4 Original
 Lyricify 4 是目前 Lyricify 系列中最具创新的功能结晶，在这里列出部分首创于 Lyricify 的功能。  
 - 灵动词岛 / Dynamic Lyrics Island
   - 首创于 2022.09.30
