@@ -76,7 +76,9 @@ Lyricify Mobile 不支持桌面歌词。
 ### 导致原因
 由于 Lyricify Mobile 是跨平台开发的，需要同时考虑 Android 和 iOS，而 iOS 上无法实现传统桌面歌词效果，故 Android 上也暂时不会添加桌面歌词功能。
 ### 解决方案
-使用小窗等功能来近似实现。
+在 Android 上可使用小窗等功能来近似实现。  
+在 Windows 上可使用 Lyricify 4 获取完整体验。  
+在 iOS、iPadOS、macOS 上暂无解决方案。
 
 ## 如何在手机上使用 Lyricify 4
 Lyricify 4 好多功能 Lyricify Mobile 都没有啊，啥时候才能有呢。
@@ -108,3 +110,12 @@ Spotify 返回了 `429 请求过多` 错误，不是 Lyricify 的锅。
 ### 解决方案
 配置自定义 API Client，可参考[这个教程](CustomClient/Readme.zh-CN.md)。  
 或者等待，等到 Spotify 不返回 429 了，就好了。  
+
+## iOS 版是否会上架 App Store
+使用自签方式安装非常麻烦，上架 App Store 会方便很多。  
+### 导致原因
+1. Apple 要求上传 App Store 需要 Apple 开发者账号，年费 688 元，十分高昂。
+2. 若需在 App Store 大陆地区上架，还需进行 ICP 备案，导致通过审核的几率更低。若仅上架外区，大部分大陆用户没有相关支付方式，也将成为一个问题。
+### 解决方案
+自签安装即可。  
+或者资助开发者购买 Apple 开发者账号。若成功通过审核，开发者将返还 Apple 开发者账号年费，并赠送 Lyricify 授权一份。  
