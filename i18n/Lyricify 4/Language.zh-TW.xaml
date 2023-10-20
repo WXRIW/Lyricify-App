@@ -274,6 +274,7 @@
     <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">特別感謝 Spotify 在音樂流媒體界的貢獻</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">特別感謝 Difer 提供 Spotify Premium 帳戶</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksInsiders">特別感謝我們的預覽成員</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksStorePurchase">感謝所有在 Microsoft Store 上購買了 Lyricify 的用戶</system:String>
     <system:String x:Key="String.Page.About.Internationalization">國際化</system:String>
     <system:String x:Key="String.Page.About.References">引用</system:String>
     <system:String x:Key="String.Page.About.References.MITLicense.Brackets">(MIT 許可)</system:String>
@@ -350,6 +351,8 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Source.Description">Lyricify 與 QQ 音樂詞源配合最佳，某些 Lyricify 特性在使用網易雲音樂詞源時不可用</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.QQFirst">QQ 音樂優先</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.NeteaseFirst">網易雲音樂優先</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.QQFirst">翻譯優先且 QQ 音樂優先</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.NeteaseFirst">翻譯優先且網易雲音樂優先</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Apple Music 歌詞</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">背景</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">選擇你想在 Apple Music 歌詞中使用的背景</system:String>
@@ -372,6 +375,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">上浮動畫</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">同框對唱</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">畫面兩側會顯示多位歌手，讓使用者更輕鬆跟唱對唱或合唱歌曲</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst">優先右側對齊</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst.Description">讓歌詞預設為右對齊</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling">拖動效果</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.Description">設定拖動效果的強度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Disabled">禁用</system:String>

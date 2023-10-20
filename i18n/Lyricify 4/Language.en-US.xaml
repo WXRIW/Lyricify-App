@@ -274,6 +274,7 @@
     <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">Special thanks to Spotify for its contribution to the whole music streaming industry</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">Special thanks to Difer for providing Spotify Premium account</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksInsiders">Special thanks to our insiders</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksStorePurchase">Thanks to all users who have purchased Lyricify on Microsoft Store</system:String>
     <system:String x:Key="String.Page.About.Internationalization">Internationalization</system:String>
     <system:String x:Key="String.Page.About.References">References</system:String>
     <system:String x:Key="String.Page.About.References.MITLicense.Brackets">(MIT License)</system:String>
@@ -350,6 +351,8 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Source.Description">Lyricify works the best with QQ Music source, some Lyricify features might not be available when using Netease Cloud Music source</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.QQFirst">QQ Music first</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.NeteaseFirst">Netease Cloud Music first</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.QQFirst">Translation first and QQ Music first</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.NeteaseFirst">Translation first and Netease Cloud Music first</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">Background</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Choose the background you want to use in Apple Music Lyrics</system:String>
@@ -372,6 +375,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">Float animation</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">Duet view</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">Multiple vocalists show on opposite sides of the screen to make duets or multi-singer tracks easy to sing along to</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst">Right alignment first</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst.Description">Align lyrics to the right first</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling">Pulling effect</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.Description">Set power for pulling effect</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Disabled">Disabled</system:String>
