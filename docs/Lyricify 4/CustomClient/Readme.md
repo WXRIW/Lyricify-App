@@ -20,12 +20,12 @@ If you have already completed the preparation steps, you can directly use the pr
    - App description: Lyricify Custom API Client
    - Website: (Leave it empty)
    - Redirect URI: http://localhost:766/callback
-
-   Check `I understand and agree with Spotify's Developer Terms of Service and Design Guidelines`；
-   Click `Save`.
+5. Check `Web API` in `Which API/SDKs are you planning to use?` section;  
+   Check `I understand and agree with Spotify's Developer Terms of Service and Design Guidelines`;  
+   Click `Save`.  
 ![](pic/Demo-Pic03.png)
-5. Click `Settings` at the right top corner.
-6. Now you can see your Client ID，Click `View client secret` to show the Client secret. `Client ID` and `Client Secret` are needed in future steps.
+6. Click `Settings` at the right top corner.
+7. Now you can see your Client ID，Click `View client secret` to show the Client secret. `Client ID` and `Client Secret` are needed in future steps.
 ![](pic/Demo-Pic04.png)
 
 ## Works on Lyricify
