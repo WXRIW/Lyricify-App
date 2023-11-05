@@ -318,9 +318,9 @@ Lyricify 4 支持内置播放，但是并不建议使用。这只是一个测试
 
 ## Apple Music 歌词流畅度优化
 Apple Music 歌词界面 CJK (中日韩) 歌词流畅度较低，这是微软的锅。  
-本优化对于灵动词岛的卡顿问题也有作用。  
+*本优化对于灵动词岛的卡顿问题也有作用。*  
 在这里，Lyricify 提供了优化方案。  
-**注意：** Lyricify 4.0.9 或更高版本中会自动执行本优化，无需用户手动执行。(仅限非微软商店版本)  
+**注意：** Lyricify 4.0.9 或更高版本中会自动执行本优化，无需用户手动执行。(微软商店版本因权限和重定向问题，无法实现自动安装，需手动优化)  
 **方法：**  
 1. 下载 [PingFang SC for Lyricify.7z](https://github.com/WXRIW/Lyricify-App/raw/main/resources/font/PingFang%20SC%20for%20Lyricify.7z)。
 2. 将这个压缩包里的字体安装到系统中（解压后右击字体，点击安装即可）。
