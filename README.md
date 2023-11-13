@@ -92,7 +92,7 @@ Lyricify 4 是目前 Lyricify 系列中最具创新的功能结晶，在这里�
 Lyricify 的歌词处理相关代码均已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中使用 MIT 协议开源，希望能为开源社区做出贡献。  
 
 ## Lyricify Mobile
-Lyricify Mobile 为 Lyricify 家族的移动端，目前安卓版已经发布，iOS 版请耐心等待。  
+Lyricify Mobile 为 Lyricify 家族的移动端，目前支持 Android，iOS 和 iPadOS 平台。  
 
 点击这里查看 [Lyricify Mobile 使用指南](/docs/Lyricify%20Mobile/README.md)  
   
