@@ -18,7 +18,7 @@
 
     <!--Login-->
     <system:String x:Key="String.MainWindow.Login.Welcome">Welcome to Lyricify, {0}!</system:String>
-    <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Welcome to Lyricify, supreme {0}!</system:String>
+    <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Welcome home, supreme {0}!</system:String>
     <system:String x:Key="String.MainWindow.Login.LoggingIn">Logging in</system:String>
     <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">This might take a while</system:String>
     <system:String x:Key="String.MainWindow.Login.StillTrying">We are still trying to log you in</system:String>
@@ -176,6 +176,7 @@
     <system:String x:Key="String.AudioFeatures.Album.TracksCount">Tracks count</system:String>
     <system:String x:Key="String.AudioFeatures.Artist">Artist</system:String>
     <system:String x:Key="String.AudioFeatures.Artists">Artist(s)</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist.Name">Name</system:String>
     <system:String x:Key="String.AudioFeatures.Artist.Names">Name(s)</system:String>
     <system:String x:Key="String.AudioFeatures.Relink">Relinked From</system:String>
     <system:String x:Key="String.AudioFeatures.Relink.Track.Name">Track name</system:String>
@@ -348,7 +349,7 @@
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">Show explicit lyrics</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics.Description">By turning off, explicit words will be replaced with asterisks</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source">Source</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.Source.Description">Lyricify works the best with QQ Music source, some Lyricify features might not be available when using Netease Cloud Music source</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Description">Lyricify works better with QQ Music source, some Lyricify features might not be available when using Netease Cloud Music source</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.QQFirst">QQ Music first</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.NeteaseFirst">Netease Cloud Music first</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.QQFirst">Translation first and QQ Music first</system:String>
@@ -909,9 +910,13 @@
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle.ToolTip">Title lines contains: title, credits info and other non-lyrics lines</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView">Duet View</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView.ToolTip">Double click "Duet View" title can clear duet view settings</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Button">Load All Lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Button.Notice">Load all lyrics to enable all editing functions</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Timestamp">Copy timestamp</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Lyrics">Copy lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Translation">Copy translation</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampLyrics">Copy timestamp and lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampTranslation">Copy timestamp and translation</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.Loading">Loading Server Lyrics Information</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">Empty track</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">Failed to load server lyrics info</system:String>

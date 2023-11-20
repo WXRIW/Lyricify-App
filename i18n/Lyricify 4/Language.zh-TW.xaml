@@ -18,7 +18,7 @@
 
     <!--Login-->
     <system:String x:Key="String.MainWindow.Login.Welcome">歡迎來到 Lyricify，{0}！</system:String>
-    <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">歡迎來到 Lyricify，尊貴的 {0}！</system:String>
+    <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">歡迎回家，尊貴的 {0}！</system:String>
     <system:String x:Key="String.MainWindow.Login.LoggingIn">登入中</system:String>
     <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">這可能會花費一定時間</system:String>
     <system:String x:Key="String.MainWindow.Login.StillTrying">我們仍在嘗試登入</system:String>
@@ -176,6 +176,7 @@
     <system:String x:Key="String.AudioFeatures.Album.TracksCount">曲目數</system:String>
     <system:String x:Key="String.AudioFeatures.Artist">藝人</system:String>
     <system:String x:Key="String.AudioFeatures.Artists">藝人</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist.Name">藝人名</system:String>
     <system:String x:Key="String.AudioFeatures.Artist.Names">藝人名</system:String>
     <system:String x:Key="String.AudioFeatures.Relink">重新連結自</system:String>
     <system:String x:Key="String.AudioFeatures.Relink.Track.Name">歌曲名</system:String>
@@ -348,7 +349,7 @@
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">顯示髒詞</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics.Description">關閉此選項，髒詞將會被替換為星號</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source">來源</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.Source.Description">Lyricify 與 QQ 音樂詞源配合最佳，某些 Lyricify 特性在使用網易雲音樂詞源時不可用</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Description">Lyricify 與 QQ 音樂詞源配合更佳，某些 Lyricify 特性在使用網易雲音樂詞源時不可用</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.QQFirst">QQ 音樂優先</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.NeteaseFirst">網易雲音樂優先</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.QQFirst">翻譯優先且 QQ 音樂優先</system:String>
@@ -909,9 +910,13 @@
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle.ToolTip">標題行包括：標題、創作者資訊及其他非歌詞行</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView">同框對唱</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView.ToolTip">按兩下"同框對唱"標題可清除同框對唱設定</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Button">載入所有歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Button.Notice">載入所有歌詞以啟用所有編輯功能</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Timestamp">複製時間戳</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Lyrics">複製歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Translation">複製翻譯</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampLyrics">複製時間戳和歌詞</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampTranslation">複製時間戳和翻譯</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.Loading">正在載入伺服器歌詞資訊</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">空曲目</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">伺服器歌詞資訊載入失敗</system:String>
