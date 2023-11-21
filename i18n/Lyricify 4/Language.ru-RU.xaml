@@ -176,7 +176,8 @@
     <system:String x:Key="String.AudioFeatures.Album.TracksCount">Количество трека</system:String>
     <system:String x:Key="String.AudioFeatures.Artist">Исполнитель</system:String>
     <system:String x:Key="String.AudioFeatures.Artists">Исполнителя(ей)</system:String>
-    <system:String x:Key="String.AudioFeatures.Artist.Names">Имени</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist.Name">Имя исполнителей</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist.Names">Имени исполнителей</system:String>
     <system:String x:Key="String.AudioFeatures.Relink">Переподключение с</system:String>
     <system:String x:Key="String.AudioFeatures.Relink.Track.Name">Имя трека</system:String>
     <system:String x:Key="String.AudioFeatures.Relink.Track.ID">ID трека</system:String>
@@ -274,6 +275,7 @@
     <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">Отдельная благодарность Spotify за вклад в мир потоковой музыки</system:String>
     <system:String x:Key="String.Page.About.Thanklist.thanksPremium">Отдельная благодарность компании Difer за предоставление аккаунта Spotify Premium</system:String>
     <system:String x:Key="String.Page.About.Thanklist.thanksInsiders">Отдельная благодарность нашим инсайдерам</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksStorePurchase">Спасибо всем, кто приобрел Lyricify в Microsoft Store</system:String>
     <system:String x:Key="String.Page.About.Internationalization">Интернационализация UI</system:String>
     <system:String x:Key="String.Page.About.References">Цитата</system:String>
     <system:String x:Key="String.Page.About.References.MITLicense.Brackets">(лицензия MIT)</system:String>
@@ -350,6 +352,8 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Source.Description">Lyricify идеально сочетается с текстами песен Tencent Music, некоторые функции Lyricify недоступны при использовании текстов песен из Netease Music</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.QQFirst">Приоритет Tencent Music</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.NeteaseFirst">Приоритет Netease Music</system:String>
+        <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.QQFirst">Приоритет перевода Tencent QQ Music</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.NeteaseFirst">Приоритет перевода Netease Cloud Music</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Текст Apple Music</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">Фон текста</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Выберите фон для текста Apple Music</system:String>
@@ -372,6 +376,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">Плавающая анимация</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">Вид дуэта</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">Несколько вокалистов отображаются на противоположных сторонах экрана, чтобы облегчить подпевание дуэтам или трекам с несколькими исполнителями</system:String>
+        <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst">Приоритет правое выравнивание</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst.Description">Сделать тексты по умолчанию выровненными по правому краю</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling">Эффект вытягивания</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.Description">Установить мощность для эффекта вытягивания</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Disabled">Вылк.</system:String>
@@ -731,6 +737,7 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Button.Continue">Продолжить</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Title">Поскольку вы используете собственный API Client, мы рекомендуем лицензировать публичный клиент API</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip">Пропустить (не рекомендуется)</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip.Ask">Вы уверены, что хотите пропустить этот шаг? Мы не рекомендуем этого делать.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Title">Заполните лицензию Spotify в веб-браузере</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Skip">Пропустить</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Error.Title">Что-то не так, но вы все еще можете использовать Lyricify</system:String>
@@ -860,6 +867,7 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">Заблокировать текст</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">Текст песни заблокирован администратором</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">Offset (временное отставание) должно быть целым числом (единица измерения - миллисекунды)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.TooLarge">Значение Offset обычно не так велико. Вы уверены, что это не ошибка? (Offset - это настройка метки времени, единицы мс)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">Null (не отмечен на сервере)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.RemoveLyrics">Удалить текст</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">Поиск</system:String>
@@ -868,7 +876,6 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.QQ.Description">Импортировать текст MIDами песни Tencent Music или поделиться ссылкой</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">Импортировать текст IDами песни Netease Music или поделиться ссылкой</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit">Изменить</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.TooLarge">Значение Offset обычно не так велико. Вы уверены, что это не ошибка? (Offset - это настройка метки времени, единицы мс)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">Расширенное редактирование текста</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify">Lyrics Vault Lyricify</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit">Импорт и изменить</system:String>
@@ -903,9 +910,13 @@
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle.ToolTip">Строки заголовков содержат: заголовок, информацию о титрах и другие строки, не относящиеся к лирике</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView">Представление «Дуэт»</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView.ToolTip">Двойной щелчок по заголовку "Просмотр дуэта" может очистить настройки просмотра дуэта</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Button">Загрузить все</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Button.Notice">Загрузить все тексты, чтобы включить все функции редактирования</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Timestamp">Копировать метку времени</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Lyrics">Копировать тексты</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Translation">Копирование перевод текстов</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampLyrics">Копировать тексты с метка времени</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampTranslation">Копировать перевод текстов с метка времени</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.Loading">Загрузка информации о текстах песен сервера</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">Пустой трек</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">Не удалось загрузить информацию о текстах песен сервера</system:String>
