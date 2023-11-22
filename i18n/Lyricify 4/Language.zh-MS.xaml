@@ -1,4 +1,8 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<!-- Name: Lyricify 中文 (微软) 本地化 -->
+<!-- Description: 这个配置文件包含了 Lyricify 4 中文 (微软) 语言的本地化字符串信息。 -->
+<!-- 欢迎各位 Lyricify 用户提供修改意见！ -->
+
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <!--
