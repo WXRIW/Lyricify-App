@@ -309,7 +309,7 @@
     <system:String x:Key="String.Page.Settings.Appearance.Zoom">缩放</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Description">改变 Lyricify 的显示缩放比</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Button.Reset">重置</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.Zoom.Help">你也可以改变通过按下 Ctrl 键并使用鼠标滚轮去调整显示缩放比，或 &quot;Ctrl + -&quot; 以缩小，&quot;Ctrl + =&quot; 以放大，&quot;Ctrl + 0&quot; 以重置缩放。</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.Zoom.Help">你也可以通过按下 Ctrl 键并使用鼠标滚轮去调整显示缩放比，或 &quot;Ctrl + -&quot; 以缩小，&quot;Ctrl + =&quot; 以放大，&quot;Ctrl + 0&quot; 以重置缩放。</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization">歌词样式个性化</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Description">Spotify 样式页中的歌词样式</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode">歌词样式个性化 (移动端样式)</system:String>
@@ -374,6 +374,14 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation">启用额外的动画</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Description">更好的动画，更好的体验</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">上浮动画</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">随着歌词走动，单词缓缓浮动，灵魂正被触动</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Disabled">禁用</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">低 (默认)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Medium">中度</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">高</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">极高</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">单词发光效果</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">一闪一闪亮晶晶，歌词成了小星星</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">对唱视图</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">多位歌手会在屏幕两侧显示，让对唱或多人合唱歌曲跟唱起来更加轻松</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst">优先右侧对齐</system:String>
@@ -825,7 +833,7 @@
 
     <!--Network Diagnose-->
     <system:String x:Key="String.Window.NetworkDiagnose">网络诊断</system:String>
-    <system:String x:Key="String.Window.NetworkDiagnose.Description">检查你的 Internet 与 Lyricify 服务器的连接.</system:String>
+    <system:String x:Key="String.Window.NetworkDiagnose.Description">检查你的 Internet 与 Lyricify 服务器的连接。</system:String>
     <system:String x:Key="String.Window.NetworkDiagnose.Button.Check">检查</system:String>
     <system:String x:Key="String.Window.NetworkDiagnose.Button.Close">关闭</system:String>
 

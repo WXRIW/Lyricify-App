@@ -13,17 +13,18 @@
 
 | 软件</br>Application | 最新版本</br>Latest Version | 备注</br>Notes | 平台</br>Platform | 使用指南</br>User Guide |
 | :-: | :-: | :-: | :-: | :-: |
-| [Lyricify 4](https://github.com/WXRIW/Lyricify-App#lyricify-4) | [4.2.2-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.2.2) | 适用于 Spotify 用户</br>For Spotify users | Windows | [点击查看</br>Click to view](/docs/Lyricify%204/README.md)<sup><a href="#ref3_en">2</a></sup> |
-| [Lyricify Mobile](https://github.com/WXRIW/Lyricify-App#lyricify-mobile) | [1.4.1-release](https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.4.1) | 适用于 Spotify 用户</br>For Spotify users | Android, iOS, iPadOS | [点击查看</br>Click to view](/docs/Lyricify%20Mobile/README.md)<sup><a href="#ref3_en">2</a></sup> |
-| [Lyricify 3](https://github.com/WXRIW/Lyricify-App#lyricify-3) | [3.8.6-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v3.8.6) | 适用于 Spotify、iTunes 等<sup><a href="#ref2">1</a></sup> 的用户</br>For Spotify, iTunes and more apps<sup><a href="#ref2_en">1</a></sup>' users | Windows | [点击查看</br>Click to view](/docs/Lyricify%203/README.md)<sup><a href="#ref3_en">2</a></sup> |
+| [Lyricify 4](https://github.com/WXRIW/Lyricify-App#lyricify-4) | [4.2.4-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.2.4) | 适用于 Spotify 用户</br>For Spotify users | Windows | [点击查看</br>Click to view](/docs/Lyricify%204/README.md)<sup><a href="#ref2_en">2</a></sup> |
+| [Lyricify Mobile](https://github.com/WXRIW/Lyricify-App#lyricify-mobile) | [1.4.2-release](https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.4.2) | 适用于 Spotify 用户</br>For Spotify users | Android, iOS, iPadOS, macOS<sup><a href="#ref3">3</a></sup>, Windows | [点击查看</br>Click to view](/docs/Lyricify%20Mobile/README.md)<sup><a href="#ref2_en">2</a></sup> |
+| [Lyricify 3](https://github.com/WXRIW/Lyricify-App#lyricify-3) | [3.8.6-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v3.8.6) | 适用于 Spotify、iTunes 等<sup><a href="#ref1">1</a></sup> 的用户</br>For Spotify, iTunes and more apps<sup><a href="#ref1_en">1</a></sup>' users | Windows | [点击查看</br>Click to view](/docs/Lyricify%203/README.md)<sup><a href="#ref2_en">2</a></sup> |
 
 **备注**  
-1. <span id="ref2">Lyricify 3 目前支持 Spotify、iTunes、Apple Music、Music Center、QQ 音乐、网易云音乐、YesPlayMusic，建议 Spotify 用户使用 Lyricify 4，不要使用 Lyricify 3。</span>  
-2. <span id="ref3">Lyricify 4、Lyricify 3 均可以借助 Wine 实现在 Linux 上运行。Lyricify 4 实现过程可能会比较繁琐，需要您耐心尝试。</span>  
+1. <span id="ref1">Lyricify 3 目前支持 Spotify、iTunes、Apple Music、Music Center、QQ 音乐、网易云音乐、YesPlayMusic，建议 Spotify 用户使用 Lyricify 4，不要使用 Lyricify 3。</span>  
+2. <span id="ref2">Lyricify 4、Lyricify 3 均可以借助 Wine 实现在 Linux 上运行。Lyricify 4 实现过程可能会比较繁琐，需要您耐心尝试。</span>  
+3. <span id="ref3">Lyricify Mobile for macOS 因为一些问题暂时未发布，预计随 1.4.3 发布，敬请期待。</span>  
 
 **Notes**  
-1. <span id="ref2_en">Lyricify 3 currently supports Spotify, iTunes, Apple Music, Music Center, QQ Music, Netease Cloud Music, YesPlayMusic, we suggest all Spotify users to use Lyricify 4, instead of Lyricify 3.</span>  
-2. <span id="ref3_en">User guide documents are in Simplified Chinese, use a translator if you don't speak Chinese.</span>  
+1. <span id="ref1_en">Lyricify 3 currently supports Spotify, iTunes, Apple Music, Music Center, QQ Music, Netease Cloud Music, YesPlayMusic, we suggest all Spotify users to use Lyricify 4, instead of Lyricify 3.</span>  
+2. <span id="ref2_en">User guide documents are in Simplified Chinese, use a translator if you don't speak Chinese.</span>  
 
 **Telegram Group / Telegram 群:**  
 https://t.me/lyricify
