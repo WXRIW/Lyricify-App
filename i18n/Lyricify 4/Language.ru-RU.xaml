@@ -374,9 +374,17 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation">Включить дополнительные анимации</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Description">Лучшая анимация, лучший опыт</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">Плавающая анимация</system:String>
+        <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">Пульс шагает и в ритм</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Disabled">Выкл.</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">Низкий (по умолчанию)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Medium">Средний</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">Высокий</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">Очень высокий</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">Эффект свечения слов</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">Сияет как звезда</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">Вид дуэта</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">Несколько вокалистов отображаются на противоположных сторонах экрана, чтобы облегчить подпевание дуэтам или трекам с несколькими исполнителями</system:String>
-        <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst">Приоритет правое выравнивание</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst">Приоритет правое выравнивание</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst.Description">Сделать тексты по умолчанию выровненными по правому краю</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling">Эффект вытягивания</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.Description">Установить мощность для эффекта вытягивания</system:String>
@@ -790,7 +798,7 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Name">Имя</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Description">Описание</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.File">Файл</system:String>
-    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.IsEnabled">Ввкыл.</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.IsEnabled">Вкл.</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfiguration">Добавить конфигурацию</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.ReloadAllConfiguration">Перезагрузить все конфигурации</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.RemoveAllConfigurations">Удалить все конфигурации</system:String>
