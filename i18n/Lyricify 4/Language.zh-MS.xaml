@@ -67,9 +67,9 @@
     <system:String x:Key="String.Page.Home.Button.Following">已关注</system:String>
     <system:String x:Key="String.Page.Home.Button.Followed">已关注</system:String>
 
-    <system:String x:Key="String.Page.Home.Panel.YourFavoriteArtists">你中意的艺术家</system:String>
-    <system:String x:Key="String.Page.Home.Panel.MoreLike">喜爱艺术家</system:String>
-    <system:String x:Key="String.Page.Home.Panel.MoreLike.Argument">与 {0} 喜爱的艺术家</system:String>
+    <system:String x:Key="String.Page.Home.Panel.YourFavoriteArtists">你中意的美术家</system:String>
+    <system:String x:Key="String.Page.Home.Panel.MoreLike">喜爱美术家</system:String>
+    <system:String x:Key="String.Page.Home.Panel.MoreLike.Argument">与 {0} 喜爱的美术家</system:String>
     <system:String x:Key="String.Page.Home.Panel.FeaturedPlaylists">主打播放列表</system:String>
     <system:String x:Key="String.Page.Home.Panel.PopularNewReleases">流行新释放</system:String>
 
@@ -95,7 +95,7 @@
 
     <system:String x:Key="String.Page.Album.Artwork.FileDialog.Filter">JPEG 图片 (*.jpg)|*.jpg</system:String>
 
-    <system:String x:Key="String.Page.Artist.VerifiedArtist">认证艺术家</system:String>
+    <system:String x:Key="String.Page.Artist.VerifiedArtist">认证美术家</system:String>
     <system:String x:Key="String.Page.Artist.Popular">流行</system:String>
     <system:String x:Key="String.Page.Artist.Follower">{0:N0} 位关注</system:String>
     <system:String x:Key="String.Page.Artist.Followers">{0:N0} 位关注</system:String>
@@ -120,16 +120,16 @@
     <system:String x:Key="String.Page.Profile.PublicPlaylist">{0:N0} 公开播放列表</system:String>
     <system:String x:Key="String.Page.Profile.PublicPlaylist.Plural">{0:N0} 公开播放列表</system:String>
     <system:String x:Key="String.Page.Profile.PublicPlaylists">公开播放列表</system:String>
-    <system:String x:Key="String.Page.Profile.TopArtists.Month">本月你最喜欢的艺术家</system:String>
-    <system:String x:Key="String.Page.Profile.TopArtists.HalfYear">半年来你最喜欢的艺术家</system:String>
-    <system:String x:Key="String.Page.Profile.TopArtists.All">大爆炸以来你最喜欢的艺术家</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.Month">本月你最喜欢的美术家</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.HalfYear">半年来你最喜欢的美术家</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.All">大爆炸以来你最喜欢的美术家</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.Month">本月你最喜欢的轨道</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.HalfYear">半年来你最喜欢的轨道</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.All">大爆炸以来你最喜欢的轨道</system:String>
     
     <!--Page Library-->
     <system:String x:Key="String.Page.Library.Playlists">播放列表</system:String>
-    <system:String x:Key="String.Page.Library.Artists">艺术家</system:String>
+    <system:String x:Key="String.Page.Library.Artists">美术家</system:String>
     <system:String x:Key="String.Page.Library.Albums">相册</system:String>
     
     <!--Page Mobile UI-->
@@ -141,9 +141,9 @@
     <system:String x:Key="String.Page.Search.Title.Availability">可用性</system:String>
     <system:String x:Key="String.Page.Search.429Error">超出 API 速率限制 (429 错误)</system:String>
     <system:String x:Key="String.Page.Search.Retry">重试</system:String>
-    <system:String x:Key="String.Page.Search.Search.SearchBar.PlaceHolder">搜索轨道、艺术家、相册或播放列表</system:String>
+    <system:String x:Key="String.Page.Search.Search.SearchBar.PlaceHolder">搜索轨道、美术家、相册或播放列表</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Songs">轨道</system:String>
-    <system:String x:Key="String.Page.Search.Search.Result.Artists">艺术家</system:String>
+    <system:String x:Key="String.Page.Search.Search.Result.Artists">美术家</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Albums">相册</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Playlists">播放列表</system:String>
     <system:String x:Key="String.Page.Search.Lyrics.NotAvailable">目前不可用</system:String>
@@ -178,10 +178,10 @@
     <system:String x:Key="String.AudioFeatures.Album.UPC.Null">无 UPC</system:String>
     <system:String x:Key="String.AudioFeatures.Album.ReleaseDate">释放日期</system:String>
     <system:String x:Key="String.AudioFeatures.Album.TracksCount">轨道数</system:String>
-    <system:String x:Key="String.AudioFeatures.Artist">艺术家</system:String>
-    <system:String x:Key="String.AudioFeatures.Artists">艺术家</system:String>
-    <system:String x:Key="String.AudioFeatures.Artist.Name">艺术家</system:String>
-    <system:String x:Key="String.AudioFeatures.Artist.Names">艺术家</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist">美术家</system:String>
+    <system:String x:Key="String.AudioFeatures.Artists">美术家</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist.Name">美术家</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist.Names">美术家</system:String>
     <system:String x:Key="String.AudioFeatures.Relink">重新链接自</system:String>
     <system:String x:Key="String.AudioFeatures.Relink.Track.Name">轨道名称</system:String>
     <system:String x:Key="String.AudioFeatures.Relink.Track.ID">轨道 ID</system:String>
@@ -222,12 +222,12 @@
     <system:String x:Key="String.AudioFeatures.Copy.AlbumUPC">相册 UPC</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.AlbumReleaseDate">相册释放日期</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.AlbumTracksCount">相册轨道数</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistName">艺术家</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistID">艺术家 ID</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistNames">艺术家</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs">艺术家 ID</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistNames.Bracket">艺术家</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs.Bracket">艺术家 ID</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistName">美术家</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistID">美术家 ID</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistNames">美术家</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs">美术家 ID</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistNames.Bracket">美术家</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs.Bracket">美术家 ID</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.Relink">重新链接自</system:String>
 
     <system:String x:Key="String.Info.Copy.DiscNum">唱片 {0}</system:String>
@@ -256,12 +256,12 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip3">下滑以最小化</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip4">按下右键滑动以控制歌词定位</system:String>
 
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToArtist">前往艺术家</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToArtist">前往美术家</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToAlbum">前往相册</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToPlaylist">前往播放列表</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.AddToLibrary">添加到资料库</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.DeleteFromLibrary">从资料库中删除</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">显示艺术家</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">显示美术家</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">显示相册</system:String>
 
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon">创作者：</system:String>
@@ -499,13 +499,13 @@
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup">在启动时检查</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup.Description">每当你启动 Lyricify 时，检查是否有新释放的相册</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases">只在 &quot;热门的新歌热播&quot; 中检查</system:String>
-    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases.Description">这将减少 Spotify Web API 的请求数，降低得到太多请求错误 (429 错误) 的可能性。通过打开此选项开关，部分新相册将不会被显示。 (当你关注了 20 或以上位艺术家时，Lyricify 建议你打开此选项)</system:String>
-    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization">自定义想要检查的艺术家</system:String>
-    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.Description">你可以选择一部分艺术家让 Lyricify 去检查，你甚至可以添加你没有关注的艺术家</system:String>
-    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists">选择艺术家</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases.Description">这将减少 Spotify Web API 的请求数，降低得到太多请求错误 (429 错误) 的可能性。通过打开此选项开关，部分新相册将不会被显示。 (当你关注了 20 或以上位美术家时，Lyricify 建议你打开此选项)</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization">自定义想要检查的美术家</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.Description">你可以选择一部分美术家让 Lyricify 去检查，你甚至可以添加你没有关注的美术家</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists">选择美术家</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Button.AddOrEdit">添加或修改</system:String>
-    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Description">选择你想要 Lyricify 去检查的艺术家</system:String>
-    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Choosen">已选择的艺术家</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Description">选择你想要 Lyricify 去检查的美术家</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Choosen">已选择的美术家</system:String>
     <system:String x:Key="String.Page.Settings.Spotify">Spotify</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion">首选的推荐区域</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.Description">这将影响到你的首页推荐</system:String>
@@ -662,7 +662,7 @@
     <system:String x:Key="String.Menu.Pages.CopyAlbumUPC">复制相册 UPC</system:String>
     <system:String x:Key="String.Menu.Pages.CheckAlbumAvailability">检查相册可用性</system:String>
     <system:String x:Key="String.Menu.Pages.CheckPlaylistAvailability">检查播放列表可用性</system:String>
-    <system:String x:Key="String.Menu.Pages.CopyArtistInfo">复制艺术家信息</system:String>
+    <system:String x:Key="String.Menu.Pages.CopyArtistInfo">复制美术家信息</system:String>
     <system:String x:Key="String.Menu.Pages.CopyPlaylistInfo">复制播放列表信息</system:String>
     <system:String x:Key="String.Menu.Pages.CopyUserInfo">复制用户信息</system:String>
     <system:String x:Key="String.Menu.Pages.CopyTrackList">复制轨道列表</system:String>
@@ -684,7 +684,7 @@
 
     <system:String x:Key="String.Menu.Track.GoToPlaylist">转至播放列表</system:String>
     <system:String x:Key="String.Menu.Track.GoToAlbum">转至相册</system:String>
-    <system:String x:Key="String.Menu.Track.GoToArtist">转至艺术家</system:String>
+    <system:String x:Key="String.Menu.Track.GoToArtist">转至美术家</system:String>
     <system:String x:Key="String.Menu.Track.ShowCredits">查看制作人员</system:String>
     <system:String x:Key="String.Menu.Track.OpenTrackManagement">打开轨道管理</system:String>
 
@@ -708,7 +708,7 @@
     <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeLess">收起</system:String>
     <system:String x:Key="String.Tools.AdvancedItemsPanel.OnlyVisibleToYou">仅自己可见</system:String>
 
-    <system:String x:Key="String.Tools.DisplayItem.Artist">艺术家</system:String>
+    <system:String x:Key="String.Tools.DisplayItem.Artist">美术家</system:String>
     <system:String x:Key="String.Tools.DisplayItem.By">创建者：{0}</system:String>
 
 
@@ -865,7 +865,7 @@
     <system:String x:Key="String.Window.TrackManagement.Track.Lock.Notice">轨道已被管理员锁定</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo">基本信息</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Track">轨道名称</system:String>
-    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Artist">艺术家</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Artist">美术家</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Album">相册</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental">乐器的</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.Unset">未设置</system:String>
@@ -1027,10 +1027,10 @@
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.LikedSongs">已喜欢的轨道</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Playlist">播放列表</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Album">相册</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Artist">艺术家</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Artist">美术家</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Json.Description">Json 文件提供为 Lyricify 提供了完整的恢复能力</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Csv.Description">CSV 文件可以展示为表格，并且与其他服务提供商有一定兼容性</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Text.Description">文本文件仅保存轨道名称和艺术家</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Text.Description">文本文件仅保存轨道名称和美术家</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Intro">我们建议你选择 Json 文件，它与 Lyricify 配合的很好，它还能够用密码加以保护。目前，CSV 文件和文本文档仅支持“已喜欢的轨道”。</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Password.CheckBox">使用密码</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Password.Input">密码</system:String>
@@ -1057,8 +1057,8 @@
     <system:String x:Key="String.Page.BackupCenter.Type.Playlist.Output.Plural">{0} 个播放列表</system:String>
     <system:String x:Key="String.Page.BackupCenter.Type.Album.Output">{0} 张相册</system:String>
     <system:String x:Key="String.Page.BackupCenter.Type.Album.Output.Plural">{0} 张相册</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Type.Artist.Output">{0} 位艺术家</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Type.Artist.Output.Plural">{0} 位艺术家</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Artist.Output">{0} 位美术家</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Artist.Output.Plural">{0} 位美术家</system:String>
 
     <!--Others-->
     <system:String x:Key="String.Helpers.Player.Time.Hour">小时</system:String>
