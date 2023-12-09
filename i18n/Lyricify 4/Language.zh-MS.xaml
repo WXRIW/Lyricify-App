@@ -30,13 +30,13 @@
     <!--User Widget-->
     <system:String x:Key="String.MainWindow.UserWidget.Profile">个人资料</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.GetSpotifyPremium">获取 Spotify Premium</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.LogOut">登出</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LogOut">注销</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.Settings">设置</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.About">关于</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.About">大约</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession">Media Session</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">已连接</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">未连接</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. Media Session 仅在您使用 Spotify 桌面版 (含 Store 版) 播放时可用，其他情况 (如使用网页版、移动版等) 下不可用！&#x000A;2. 只有 Lyricify 获取到了当前播放信息，才会尝试连接 Media Session！</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. Media Session 仅在您使用 Spotify 桌面版 (包含 Store 版) 播放时可用，其他情况 (例如使用网页版、移动版等) 下不可用！&#x000A;2. 只有 Lyricify 获取到了当前播放信息，才会尝试连接 Media Session！</system:String>
 
     <system:String x:Key="String.MainWindow.PinnedArea.Notice">钉住项目以快速访问</system:String>
 
@@ -49,7 +49,7 @@
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Lyrics">歌词</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AppleMusicLyrics">Apple Music 歌词</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.SpotifyConnect">Spotify Connect</system:String>
-    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Volume">体积</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Volume">卷</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Fullscreen">全屏</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.MobileUIFullscreen">移动端 UI 全屏</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.LyricifyFullscreen">Lyricify 全屏</system:String>
@@ -147,10 +147,10 @@
     <system:String x:Key="String.Page.Search.Search.Result.Albums">相册</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Playlists">播放列表</system:String>
     <system:String x:Key="String.Page.Search.Lyrics.NotAvailable">目前不可用</system:String>
-    <system:String x:Key="String.Page.Search.Availability.SearchBar.PlaceHolder">在这里输入链接或 Spotify URI</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.PlaceHolder">在这里进入链接或 Spotify URI</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.NetworkIssue.Message">网络问题，请检查你的 Internet 连接。</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">未找到相册，请检查你输入的 ID。</system:String>
-    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">错误的输入或不支持的输入。仅支持轨道（重定向至相册）、相册和播放列表链接。这里有几个示例。</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">错误的进入或不支持的进入。仅支持轨道（重定向至相册）、相册和播放列表链接。这里有几个示例。</system:String>
     <system:String x:Key="String.Page.Search.Availability.Market">市场</system:String>
     <system:String x:Key="String.Page.Search.Availability.Market.Unspecified">未指定</system:String>
     <system:String x:Key="String.Page.Search.Availability.MoreVersions">更多版本</system:String>
@@ -192,9 +192,9 @@
     <system:String x:Key="String.AudioFeatures.Relink.Album.ReleaseDate">相册释放日期</system:String>
     <system:String x:Key="String.AudioFeatures.Relink.Album.TracksCount">相册轨道数</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature">音频特性</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode">调式</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Major">大调</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Minor">小调</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode">方式</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Major">主修</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Minor">较小</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.TimeSignature">拍号</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.PitchClass">音高等级</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Loudness">响度</system:String>
@@ -222,9 +222,9 @@
     <system:String x:Key="String.AudioFeatures.Copy.AlbumUPC">相册 UPC</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.AlbumReleaseDate">相册释放日期</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.AlbumTracksCount">相册轨道数</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistName">美术家</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistName">美术家姓名</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.ArtistID">美术家 ID</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistNames">美术家</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistNames">美术家姓名</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs">美术家 ID</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.ArtistNames.Bracket">美术家</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs.Bracket">美术家 ID</system:String>
@@ -248,7 +248,7 @@
     <system:String x:Key="String.Info.Copy.Artist.Followers">关注数</system:String>
     <system:String x:Key="String.Info.Copy.User.DisplayName">显示用户名</system:String>
     <system:String x:Key="String.Info.Copy.User.ID">用户 ID</system:String>
-    <system:String x:Key="String.Info.Copy.User.Followers">关注数</system:String>
+    <system:String x:Key="String.Info.Copy.User.Followers">追随者计数</system:String>
 
     <!--Page Apple Music Lyrics-->
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip1">点击以关闭</system:String>
@@ -269,7 +269,7 @@
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">关于</system:String>
     <system:String x:Key="String.Page.About.NonPublicWarning">这不是一个公开释放的版本，请不要传播！</system:String>
-    <system:String x:Key="String.Page.About.MadeWithHeart">由 WXRIW 用 ❤️ 制作</system:String>
+    <system:String x:Key="String.Page.About.MadeWithHeart">用 WXRIW 的 ❤️ 制作</system:String>
     <system:String x:Key="String.Page.About.Copyright">版权所有 © {0} WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">歌词提供者</system:String>
     <system:String x:Key="String.Page.About.LyricsProviders">Lyricify 歌词库, QQ 音乐, 网易云音乐</system:String>
@@ -287,10 +287,10 @@
     <system:String x:Key="String.Page.About.References.Apache2.Brackets">(Apache 许可 2.0)</system:String>
     <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(LGPL 许可 2.1)</system:String>
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(无许可)</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming">版权申明</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">版权所有 © 2023 WXRIW 保留所有权利</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">主窗口 UI 设计, 移动端 UI 全屏设计, Spotify Circular 版权所有 © Spotify AB</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music 歌词 UI 设计, SF Pro, 苹方(简体) 版权所有 © Apple Inc.</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming">复制右侧声称</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">复制右侧 © 2023 WXRIW 所有右侧预留</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">主窗口 UI 设计, 移动端 UI 全屏设计, Spotify Circular 复制向右 © Spotify AB</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music 歌词 UI 设计, SF Pro, 苹方(简体) 复制向右 © Apple Inc.</system:String>
 
     <!--Page Settings-->
     <system:String x:Key="String.Page.Settings.Title">设置</system:String>
