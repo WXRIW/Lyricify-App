@@ -265,6 +265,14 @@
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">About</system:String>
     <system:String x:Key="String.Page.About.NonPublicWarning">THIS IS NOT A PUBLIC RELEASE, DO NOT SPREAD PLEASE!</system:String>
+    <system:String x:Key="String.Page.About.Architecture.32Bits">32-Bit</system:String>
+    <system:String x:Key="String.Page.About.Architecture.64Bits">64-Bit</system:String>
+    <system:String x:Key="String.Page.About.Architecture.Emulated">{0} emulated</system:String>
+    <system:String x:Key="String.Page.About.Portable">Portable Version</system:String>
+    <system:String x:Key="String.Page.About.Portable.RunningArchitecture">Portable version running on {0}</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore">Microsoft Store Version</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Purchased">Purchased Microsoft Store Version</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Trial">Microsoft Store Trial Version</system:String>
     <system:String x:Key="String.Page.About.MadeWithHeart">Made with ❤️ by WXRIW</system:String>
     <system:String x:Key="String.Page.About.Copyright">Copyright © {0} WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">Lyrics provided by</system:String>
@@ -399,6 +407,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">Introducing Magic Strip! &#x000A;&#x000A;You can press the strip button to exit Apple Music Lyrics, &#x000A;swipe down to minimize, &#x000A;swipe left or right to maximize or recover, &#x000A;and swipe up to cancel. &#x000A;&#x000A;You can also press your right mouse button to swipe up to go to the first line of lyrics, &#x000A;swipe down to go to the last line of lyrics, &#x000A;swipe left or right to go to current line, &#x000A;and a single right click will do nothing.</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">Zooming restore</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">Restore zooming in Apple Music Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple">Buggy Apple</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.Description">Apple without bugs is no longer Apple</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">Enable traditional version</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">Add entry to Apple Music Lyrics (Traditional) in main menu</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Lyricify Fullscreen</system:String>

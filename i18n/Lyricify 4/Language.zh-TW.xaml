@@ -265,6 +265,14 @@
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">關於</system:String>
     <system:String x:Key="String.Page.About.NonPublicWarning">這不是一個公開發行的版本，請不要傳播！</system:String>
+    <system:String x:Key="String.Page.About.Architecture.32Bits">32 位元</system:String>
+    <system:String x:Key="String.Page.About.Architecture.64Bits">64 位元</system:String>
+    <system:String x:Key="String.Page.About.Architecture.Emulated">{0} 轉譯</system:String>
+    <system:String x:Key="String.Page.About.Portable">便攜版</system:String>
+    <system:String x:Key="String.Page.About.Portable.RunningArchitecture">便攜版，以 {0} 運行</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore">Microsoft Store 版本</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Purchased">已購買的 Microsoft Store 版本</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Trial">Microsoft Store 試用版本</system:String>
     <system:String x:Key="String.Page.About.MadeWithHeart">由 WXRIW 用 ❤️ 製作</system:String>
     <system:String x:Key="String.Page.About.Copyright">版權所有 © {0} WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">歌詞提供者</system:String>
@@ -399,6 +407,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">隆重推出妙控條 (Magic Strip)！ &#x000A;&#x000A;你可以點擊條狀按鈕來退出 Apple Music 歌詞，&#x000A;向下滑動以最小化，&#x000A;向左或向右滑動以最大化或還原，&#x000A;向上滑動以取消操作。&#x000A;&#x000A;你還可以按下右鍵向上滑動跳到首行歌詞，&#x000A;向下滑動跳到最後一行歌詞，&#x000A;向左或向右滑動跳到目前行，&#x000A;僅右擊則無操作。</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">縮放記憶</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">在 Apple Music 歌詞中恢復縮放記憶</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple">Buggy Apple (漏洞百出的 Apple)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.Description">沒有 bug 的 Apple 不是 Apple。讓我們致敬 Bug，致敬 Apple</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">啟用傳統版本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">在主選單中新增 Apple Music 歌詞 (傳統) 入口</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Lyricify 全螢幕</system:String>
