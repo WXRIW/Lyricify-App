@@ -265,6 +265,14 @@
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">О Lyricify</system:String>
     <system:String x:Key="String.Page.About.NonPublicWarning">Не для публичного распространения!</system:String>
+    <system:String x:Key="String.Page.About.Architecture.32Bits">x86_32</system:String>
+    <system:String x:Key="String.Page.About.Architecture.64Bits">x86_64</system:String>
+    <system:String x:Key="String.Page.About.Architecture.Emulated">{0} переводит</system:String>
+    <system:String x:Key="String.Page.About.Portable">Портативная версия</system:String>
+    <system:String x:Key="String.Page.About.Portable.RunningArchitecture">Портативная версия, работает под {0}</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore">Версия Microsoft Store</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Purchased">Приобретенный версия Microsoft Store</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Trial">Пробная версия Microsoft Store</system:String>
     <system:String x:Key="String.Page.About.MadeWithHeart">Сделано с заботой ❤️ WXRIW</system:String>
     <system:String x:Key="String.Page.About.Copyright">© {0} WXRIW. Все права защищены</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">Текст предоставлен</system:String>
@@ -353,7 +361,7 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.QQFirst">Приоритет Tencent Music</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.NeteaseFirst">Приоритет Netease Music</system:String>
         <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.QQFirst">Приоритет перевода Tencent QQ Music</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.NeteaseFirst">Приоритет перевода Netease Cloud Music</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.NeteaseFirst">Приоритет перевода Netease Music</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Текст Apple Music</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">Фон текста</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Выберите фон для текста Apple Music</system:String>
@@ -399,6 +407,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">Представляем с гордостью Magic Strip! &#x000A;&#x000A; &#x000A;Вы можете нажать на полоску-кнопку, чтобы закрыть текст Apple Music, &#x000A;потянуть вниз, чтобы свернуть, &#x000A;потянуть влево или вправо, чтобы развернуть или вернуть, &#x000A;потянуть вверх, чтобы отменить действие. &#x000A;Вы также можете нажать правую кнопку и потянуть вверх, чтобы перейти к первой строке текста, &#x000A;потянуть вниз, чтобы перейти к последней строке, &#x000A;потянуть влево или вправо, чтобы перейти к текущей строке, &#x000A;при простом нажатии правой кнопки никаких действий не будет.</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">Запомнить масштаб</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">Включить запоминание масштаба в тексте Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple">Buggy Apple (Apple с ошибками)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.Description">Apple без ошибок - это не Apple, так что давайте воздадим должное ошибкам, и воздадим должное Apple.</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">Включить традиционную версию</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">Добавить в главное меню вход в тексты Apple Music (традиционный)</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Полноэкранный режим Lyricify</system:String>
