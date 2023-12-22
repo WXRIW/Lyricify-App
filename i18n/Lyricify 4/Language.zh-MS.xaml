@@ -267,10 +267,10 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon">创作者：</system:String>
 
     <!--Page About-->
-    <system:String x:Key="String.Page.About.Title">关于</system:String>
+    <system:String x:Key="String.Page.About.Title">大约</system:String>
     <system:String x:Key="String.Page.About.NonPublicWarning">这不是一个公开释放的版本，请不要传播！</system:String>
     <system:String x:Key="String.Page.About.MadeWithHeart">用 WXRIW 的 ❤️ 制作</system:String>
-    <system:String x:Key="String.Page.About.Copyright">版权所有 © {0} WXRIW</system:String>
+    <system:String x:Key="String.Page.About.Copyright">复制右侧 © {0} WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">歌词提供者</system:String>
     <system:String x:Key="String.Page.About.LyricsProviders">Lyricify 歌词库, QQ 音乐, 网易云音乐</system:String>
     <system:String x:Key="String.Page.About.Donation">捐助</system:String>
@@ -297,15 +297,15 @@
     <system:String x:Key="String.Page.Settings.General">通用</system:String>
     <system:String x:Key="String.Page.Settings.General.Language">语言</system:String>
     <system:String x:Key="String.Page.Settings.General.Language.Description">选择 Lyricify 的显示语言 (某些改变可能需要重启应用)</system:String>
-    <system:String x:Key="String.Page.Settings.General.CloseToHide">点击关闭以隐藏</system:String>
+    <system:String x:Key="String.Page.Settings.General.CloseToHide">关闭至隐藏</system:String>
     <system:String x:Key="String.Page.Settings.General.CloseToHide.Description">点击关闭按钮时，隐藏 Lyricify 到托盘 (通知栏)</system:String>
     <system:String x:Key="String.Page.Settings.General.RestoreWindow">恢复窗口</system:String>
     <system:String x:Key="String.Page.Settings.General.RestoreWindow.Description">启动时恢复 Lyricify 窗口的状态</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance">外观</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.ColorMode">颜色模式</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.Description">改变 Lyricify 的颜色模式</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">深色 (默认)</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Light">浅色</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance">外貌</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode">彩色模式</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.Description">改变 Lyricify 的彩色模式</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">黑暗 (默认)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Light">光</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground">歌词背景</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.Description">改变歌词背景</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.ComboBox.SingleColor">单色</system:String>
@@ -608,8 +608,8 @@
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.NetworkDiagnose">网络诊断</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.ChangeLyricifyPassword">修改 Lyricify 账户密码</system:String>
 
-    <system:String x:Key="String.Menu.MainWindow.Main.About">关于 &amp; 帮助</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.About.About">关于</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About">大约 &amp; 帮助</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.About">大约</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow">追随</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.NeteaseCloudMusic">网易云音乐</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Bilibili">哔哩哔哩</system:String>
