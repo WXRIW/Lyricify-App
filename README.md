@@ -13,7 +13,7 @@
 
 | 软件</br>Application | 最新版本</br>Latest Version | 备注</br>Notes | 平台</br>Platform | 使用指南</br>User Guide |
 | :-: | :-: | :-: | :-: | :-: |
-| [Lyricify 4](https://github.com/WXRIW/Lyricify-App#lyricify-4) | [4.2.6-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.2.6) | 适用于 Spotify 用户</br>For Spotify users | Windows | [点击查看</br>Click to view](/docs/Lyricify%204/README.md)<sup><a href="#ref2_en">2</a></sup> |
+| [Lyricify 4](https://github.com/WXRIW/Lyricify-App#lyricify-4) | [4.2.7-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.2.7) | 适用于 Spotify 用户</br>For Spotify users | Windows | [点击查看</br>Click to view](/docs/Lyricify%204/README.md)<sup><a href="#ref2_en">2</a></sup> |
 | [Lyricify Mobile](https://github.com/WXRIW/Lyricify-App#lyricify-mobile) | [1.4.2-release](https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.4.2) | 适用于 Spotify 用户</br>For Spotify users | Android, iOS, iPadOS, macOS<sup><a href="#ref3">3</a></sup>, Windows | [点击查看</br>Click to view](/docs/Lyricify%20Mobile/README.md)<sup><a href="#ref2_en">2</a></sup> |
 | [Lyricify 3](https://github.com/WXRIW/Lyricify-App#lyricify-3) | [3.8.6-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v3.8.6) | 适用于 Spotify、iTunes 等<sup><a href="#ref1">1</a></sup> 的用户</br>For Spotify, iTunes and more apps<sup><a href="#ref1_en">1</a></sup>' users | Windows | [点击查看</br>Click to view](/docs/Lyricify%203/README.md)<sup><a href="#ref2_en">2</a></sup> |
 
