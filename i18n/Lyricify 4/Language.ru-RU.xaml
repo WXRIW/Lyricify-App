@@ -292,7 +292,7 @@
     <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(Лицензия LGPL 2.1)</system:String>
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(без лицензии)</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming">Заявление о авторских правах</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">"Авторские права © 2023 WXRIW. Все права защищены</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">Авторские права © 2023 WXRIW. Все права защищены</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Дизайн UI главного окна, дизайн полноэкранного UI для мобильных устройств, все права на Spotify Circular © Spotify AB</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Дизайн пользовательского UI текстов песен Apple Music, шрифт SF Pro, шрифт PingFang (Китайская упрощенная), все права принадлежат © Apple Inc.</system:String>
 
