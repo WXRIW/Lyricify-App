@@ -339,10 +339,11 @@ Apple Music 歌词界面 CJK (中日韩) 歌词流畅度较低，这是微软的
 如果您在中国大陆，建议检查您的科学上网工具是否正确设置了分流，是否能正常访问 `e.wxriw.cn`。您还可以在设置中勾选 `不在 Lyricify 服务器请求中使用代理`。
 
 ## 启动 Lyricify 后弹出消息框
-打开 Lyricify 后弹出消息框，出现下列提示之一
+打开 Lyricify 后弹出消息框，出现下列提示之一：
 - The SSL connection could not be established, see inner exception.
 - 由于目标计算机积极拒绝，无法连接。
 - 请求的名称有效，但是找不到请求的类型的数据。
+在关闭消息框后，Lyricify 关闭。
 ### 导致原因
 网络连接状态不好，导致无法完成自动更新。
 ### 解决方案
