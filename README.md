@@ -90,7 +90,7 @@ Lyricify 4 是目前 Lyricify 系列中最具创新的功能结晶，在这里�
 这些创作采用 [CC BY-SA 4.0 协议](https://creativecommons.org/licenses/by-sa/4.0/) 进行许可。欢迎转载、使用、重新发布，但务必保留创作署名 Lyricify (及作者 WXRIW 或 XY Wang)，可用于商业目的，基于创意修改后的作品务必以相同的许可发布。如有任何疑问，请与我联系。  
 
 ## Lyricify Open Source
-Lyricify 的歌词处理相关代码均已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中使用 MIT 协议开源，希望能为开源社区做出贡献。  
+Lyricify 的歌词处理相关代码均已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中使用 Apache License 2.0 协议开源，希望能为开源社区做出贡献。  
 
 ## Lyricify Mobile
 Lyricify Mobile 为 Lyricify 家族的移动端，目前支持 Android，iOS 和 iPadOS 平台。  
