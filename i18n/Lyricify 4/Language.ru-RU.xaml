@@ -281,8 +281,8 @@
     <system:String x:Key="String.Page.About.Thanklist">Список благодарностей</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksApple">Отдельная благодарность за оригинальный дизайн от Apple</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">Отдельная благодарность Spotify за вклад в мир потоковой музыки</system:String>
-    <system:String x:Key="String.Page.About.Thanklist.thanksPremium">Отдельная благодарность компании Difer за предоставление аккаунта Spotify Premium</system:String>
-    <system:String x:Key="String.Page.About.Thanklist.thanksInsiders">Отдельная благодарность нашим инсайдерам</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">Отдельная благодарность компании Difer за предоставление аккаунта Spotify Premium</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksInsiders">Отдельная благодарность нашим инсайдерам</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksStorePurchase">Спасибо всем, кто приобрел Lyricify в Microsoft Store</system:String>
     <system:String x:Key="String.Page.About.Internationalization">Интернационализация UI</system:String>
     <system:String x:Key="String.Page.About.References">Цитата</system:String>
