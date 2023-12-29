@@ -1179,4 +1179,90 @@
 
     <system:String x:Key="String.Messages.Operation.LinkCopied">Ссылка скопирована в буфер обмена</system:String>
     <system:String x:Key="String.Messages.Operation.Copied">Скопировано в буфер обмена</system:String>
+
+    <!--
+        Lyricify Wrapped
+    -->
+
+    <!--Wrapped Year-->
+    <system:String x:Key="String.Wrapped.Title">Годовой отчет Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2023">Все о нас с вами в 2023</system:String>
+    <system:String x:Key="String.Wrapped.Unwrap">Давай</system:String>
+    <system:String x:Key="String.Wrapped.Unwrap.Notice">Включив его, вы принимаете Пользовательское соглашение Lyricify и разрешаете Lyricify обрабатывать и анализировать данные о вашем использовании.</system:String>
+    <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>> Ускоряйтесь</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">Развернуть сейчас</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify обернула все ваши истории с помощью Lyricify в 2023 году, разверните их прямо сейчас!</system:String>
+    <system:String x:Key="String.Wrapped.Notice.CloseReminder">Lyricify Wrapped можно найти в главном меню и меню пользовательских виджетов, поэтому вы можете развернуть его позже.</system:String>
+
+    <system:String x:Key="String.Wrapped.Messages.001">Привет, {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.002">Это я, Lyricify!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.003">Вы помните?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.004" xml:space="preserve">Мы впервые встретились &#x0a;{0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.005">{0:N0} дней назад.</system:String>
+    <system:String x:Key="String.Wrapped.Messages.006">У вас — №{0:N0} пользователь Lyricify 4,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007">И {0},</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.1">администратор</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.2">инсайдер</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.3">Менеджер тексты</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.4">премиальный пользователь</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.5">обычный пользователь</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.6">ограниченный пользователь</system:String>
+    <system:String x:Key="String.Wrapped.Messages.008" xml:space="preserve">В этом году с Lyricify было много событий!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.009">Большое спасибо за покупку Lyricify 4 в Microsoft Store,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.010">Для меня это очень много значит!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.011">В этом году</system:String>
+    <system:String x:Key="String.Wrapped.Messages.012">Вы открывали Lyricify {0:N0} раз,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.013">То есть в среднем раз в {0} дня,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.014">Больше, чем {0} пользователей Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.015">Я также нашел,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.016">что чаще всего вы запускаете Lyricify в промежутке между {0},</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017">Отлично,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.1">Ранняя пташка получает червячка!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.2">Утро, ура!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.3">После полудня, ура!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.4">Lyricify украсьте свою ночь текстами песен</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.5">О, ложись спать пораньше</system:String>
+    <system:String x:Key="String.Wrapped.Messages.018">В этом году Lyricify искал тексты песен {0:N0} раз для вас,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.019">Ничего себе, это очень много!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.020">Входите в число {0} лучших пользователей Lyricify по поиску текстов песен</system:String>
+    <system:String x:Key="String.Wrapped.Messages.021">Давайте посмотрим...</system:String>
+    <system:String x:Key="String.Wrapped.Messages.022">{0}，ага</system:String>
+    <system:String x:Key="String.Wrapped.Messages.023">Время для тексты песен!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.024">Что произошло в {0}?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.025">Ну...</system:String>
+    <system:String x:Key="String.Wrapped.Messages.026">{0} раз, в тот день читали слишком много текстов!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.027">Ага, я нашел!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.028">У вас тоже Lyricify Mobile</system:String>
+    <system:String x:Key="String.Wrapped.Messages.029">В этом году для вас Lyricify Mobile искал тексты песен {0:N0} раз!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.030">Должно быть, вы большой фэн Lyricify!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.031">Кстати,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.032">Lyricify Mobile позволяет просматривать тексты песен на телефоне или планшете!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.033">Вы прочитали {0:N0} текстов песен</system:String>
+    <system:String x:Key="String.Wrapped.Messages.034">Но вашим Lyricify именно правят они</system:String>
+    <system:String x:Key="String.Wrapped.Messages.035">{0:N0} раз</system:String>
+    <system:String x:Key="String.Wrapped.Messages.036">Сервис текстов песен Lyricify создан всеми пользователями Lyricify!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.037">Метки и загрузка текстов песен - два самых важных способа создания тезауруса</system:String>
+    <system:String x:Key="String.Wrapped.Messages.038">В этом году,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.039">Вы пометили текст песни {0:N0} раз,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.040">Загружено {0:N0} раз на Lyricify,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.041">Тексты {0:N0} песен импортированы в Lyricify Vault,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.042">Более {0} пользователей,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.043">Спасибо за эти материалы!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.044">В двух словах,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.045">Это был замечательный год,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.046">И замечательная ты,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.047">Для Lyricify было большой честью провести этот год вместе с вами!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.048">Все в текстах песен,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.049">За тебя Lyricify всегда будет рядом,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.050">Наслаждайтесь!</system:String>
+
+    <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">Количество просмотров тексты</system:String>
+    <system:String x:Key="String.Wrapped.Report.Launches">Количество стартов</system:String>
+    <system:String x:Key="String.Wrapped.Report.Marks">Количество меток</system:String>
+    <system:String x:Key="String.Wrapped.Report.Uploads">Количество загрузок</system:String>
+    <system:String x:Key="String.Wrapped.Report.Imports">Количество импорта</system:String>
+    <system:String x:Key="String.Wrapped.Report.TracksCount">Общее количество песен</system:String>
+    <system:String x:Key="String.Wrapped.Report.MobileViews">Мобильные виды</system:String>
+    <system:String x:Key="String.Wrapped.Report.TrackOfTheYear">Песня года</system:String>
+    <system:String x:Key="String.Wrapped.Report.LyricifyIndex">Индекс Lyricify</system:String>
 </ResourceDictionary>

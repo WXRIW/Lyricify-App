@@ -1179,4 +1179,90 @@
     
     <system:String x:Key="String.Messages.Operation.LinkCopied">Link copied to clipboard</system:String>
     <system:String x:Key="String.Messages.Operation.Copied">Copied to clipboard</system:String>
+
+    <!--
+        Lyricify Wrapped
+    -->
+    
+    <!--Wrapped Year-->
+    <system:String x:Key="String.Wrapped.Title">Lyricify Wrapped</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2023">All about you, me and 2023</system:String>
+    <system:String x:Key="String.Wrapped.Unwrap">Unwrap</system:String>
+    <system:String x:Key="String.Wrapped.Unwrap.Notice">Unwrap means you agree with Lyricify's user agreements and allow Lyricify to process and analyse your app usage.</system:String>
+    <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>> Accelerate</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">Unwrap now</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify has wrapped all your stories with Lyricify in 2023, go unwrap it now!</system:String>
+    <system:String x:Key="String.Wrapped.Notice.CloseReminder">Lyricify Wrapped can be found in the main menu and user widget menu, so you can unwrap it later.</system:String>
+
+    <system:String x:Key="String.Wrapped.Messages.001">Hey, {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.002">It's Lyricify here!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.003">Do you still remember?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.004" xml:space="preserve">We first met at&#x0a;{0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.005">{0:N0} days ago</system:String>
+    <system:String x:Key="String.Wrapped.Messages.006">As No.{0:N0} Lyricify 4 user</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007">And {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.1">an administrator</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.2">an insider</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.3">a lyrics manager</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.4">a premium user</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.5">a user</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.6">a restricted user</system:String>
+    <system:String x:Key="String.Wrapped.Messages.008" xml:space="preserve">You and Lyricify&#x0a;got a long story this year</system:String>
+    <system:String x:Key="String.Wrapped.Messages.009">Thank you so much for purchasing Lyricify 4 on Microsoft Store</system:String>
+    <system:String x:Key="String.Wrapped.Messages.010">It means a lot to me!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.011">In this year</system:String>
+    <system:String x:Key="String.Wrapped.Messages.012">You started Lyricify {0:N0} times</system:String>
+    <system:String x:Key="String.Wrapped.Messages.013">Which means you start Lyricify every {0} days</system:String>
+    <system:String x:Key="String.Wrapped.Messages.014">It's more than {0} Lyricify users</system:String>
+    <system:String x:Key="String.Wrapped.Messages.015">Fun fact to know</system:String>
+    <system:String x:Key="String.Wrapped.Messages.016">You start Lyricify most often between {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017">That's great!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.1">The early bird catches the worm!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.2">Mornings are great!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.3">Afternoons are great!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.4">Lyricify lyricified your evening!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.5">Oops, it's pretty late!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.018">Lyricify helped you search lyrics {0:N0} times this year</system:String>
+    <system:String x:Key="String.Wrapped.Messages.019">Oh my my, that's a lot!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.020">Your lyrics-search-count were in the top {0} of Lyricify users</system:String>
+    <system:String x:Key="String.Wrapped.Messages.021">Let me have a look</system:String>
+    <system:String x:Key="String.Wrapped.Messages.022">{0}, huh</system:String>
+    <system:String x:Key="String.Wrapped.Messages.023">Good time to read lyrics!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.024">Does something happened on {0}?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.025">Well</system:String>
+    <system:String x:Key="String.Wrapped.Messages.026">You have read so many lyrics that day, reaching {0:N0} times</system:String>
+    <system:String x:Key="String.Wrapped.Messages.027">It's good to know that</system:String>
+    <system:String x:Key="String.Wrapped.Messages.028">You are also using Lyricify Mobile!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.029">Lyricify Mobile helped you search lyrics {0:N0} times this year</system:String>
+    <system:String x:Key="String.Wrapped.Messages.030">You must be a big fan of Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.031">By the way</system:String>
+    <system:String x:Key="String.Wrapped.Messages.032">Lyricify Mobile is available for you to view lyrics on your phones or tablets!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.033">You viewed {0:N0} lyrics</system:String>
+    <system:String x:Key="String.Wrapped.Messages.034">But these ruled your Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.035">{0:N0} times</system:String>
+    <system:String x:Key="String.Wrapped.Messages.036">Lyricify's lyrics service are built by all Lyricify users</system:String>
+    <system:String x:Key="String.Wrapped.Messages.037">Mark and Upload lyrics are two major ways to build the lyrics vault</system:String>
+    <system:String x:Key="String.Wrapped.Messages.038">This year</system:String>
+    <system:String x:Key="String.Wrapped.Messages.039">You have marked {0:N0} lyrics</system:String>
+    <system:String x:Key="String.Wrapped.Messages.040">You have uploaded {0:N0} times in Lyricify Track Management</system:String>
+    <system:String x:Key="String.Wrapped.Messages.041">You have imported {0:N0} songs' lyrics into Lyricify Lyrics Vault</system:String>
+    <system:String x:Key="String.Wrapped.Messages.042">More than {0} users</system:String>
+    <system:String x:Key="String.Wrapped.Messages.043">Thank you for contributing</system:String>
+    <system:String x:Key="String.Wrapped.Messages.044">Anyway</system:String>
+    <system:String x:Key="String.Wrapped.Messages.045">Wonderful year</system:String>
+    <system:String x:Key="String.Wrapped.Messages.046">Wonderful you</system:String>
+    <system:String x:Key="String.Wrapped.Messages.047">It has been a privilege for Lyricify to spend this wonderful year with you</system:String>
+    <system:String x:Key="String.Wrapped.Messages.048">Lyrics are everything</system:String>
+    <system:String x:Key="String.Wrapped.Messages.049">Lyricify is always here for you</system:String>
+    <system:String x:Key="String.Wrapped.Messages.050">Just enjoy!</system:String>
+    
+    <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">Total Lyrics Views</system:String>
+    <system:String x:Key="String.Wrapped.Report.Launches">Launches</system:String>
+    <system:String x:Key="String.Wrapped.Report.Marks">Marks</system:String>
+    <system:String x:Key="String.Wrapped.Report.Uploads">Uploads</system:String>
+    <system:String x:Key="String.Wrapped.Report.Imports">Imports</system:String>
+    <system:String x:Key="String.Wrapped.Report.TracksCount">Tracks Count</system:String>
+    <system:String x:Key="String.Wrapped.Report.MobileViews">Mobile Views</system:String>
+    <system:String x:Key="String.Wrapped.Report.TrackOfTheYear">Track of the Year</system:String>
+    <system:String x:Key="String.Wrapped.Report.LyricifyIndex">Lyricify Index</system:String>
 </ResourceDictionary>

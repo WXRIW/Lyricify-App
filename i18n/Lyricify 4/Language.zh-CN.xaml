@@ -1179,4 +1179,90 @@
 
     <system:String x:Key="String.Messages.Operation.LinkCopied">已将链接复制至剪贴板</system:String>
     <system:String x:Key="String.Messages.Operation.Copied">已复制至剪贴板</system:String>
+
+    <!--
+        Lyricify Wrapped
+    -->
+
+    <!--Wrapped Year-->
+    <system:String x:Key="String.Wrapped.Title">Lyricify 年度报告</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2023">关于你与我在 2023 的一切</system:String>
+    <system:String x:Key="String.Wrapped.Unwrap">开启</system:String>
+    <system:String x:Key="String.Wrapped.Unwrap.Notice">开启即说明您接受 Lyricify 用户协议，并允许 Lyricify 处理和分析你的使用数据。</system:String>
+    <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>> 加速动画</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">立即查收</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify 将你与 Lyricify 在 2023 年发生的故事打包好啦，快来看看吧！</system:String>
+    <system:String x:Key="String.Wrapped.Notice.CloseReminder">Lyricify 年度报告可以在主菜单和用户组件菜单中找到，你可以稍后再查看。</system:String>
+
+    <system:String x:Key="String.Wrapped.Messages.001">嘿，{0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.002">是我，Lyricify！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.003">你还记得吗？</system:String>
+    <system:String x:Key="String.Wrapped.Messages.004" xml:space="preserve">我们第一次见面是在&#x0a;{0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.005">已经过去 {0:N0} 天了</system:String>
+    <system:String x:Key="String.Wrapped.Messages.006">作为 Lyricify 4 的第 {0:N0} 位用户</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007">同时还是{0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.1">一位超级管理员</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.2">一位预览成员</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.3">一位歌词管理员</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.4">一位内测组成员</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.5">一位用户</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.6">一位被限制的用户</system:String>
+    <system:String x:Key="String.Wrapped.Messages.008" xml:space="preserve">你和 Lyricify 在这一年&#x0a;发生的故事可真不少</system:String>
+    <system:String x:Key="String.Wrapped.Messages.009">非常感谢你在 Microsoft Store 上购买了 Lyricify 4</system:String>
+    <system:String x:Key="String.Wrapped.Messages.010">这对我来说意义很大！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.011">在这一年里</system:String>
+    <system:String x:Key="String.Wrapped.Messages.012">你启动了 {0:N0} 次 Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.013">这意味着你每 {0} 天就会启动一次 Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.014">超过了 {0} 的 Lyricify 用户</system:String>
+    <system:String x:Key="String.Wrapped.Messages.015">告诉你个有趣的事实</system:String>
+    <system:String x:Key="String.Wrapped.Messages.016">你最常在 {0} 这个时间段启动 Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017">这很不错！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.1">早起的鸟儿有虫吃！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.2">上午，好哇！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.3">下午，好哇！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.4">Lyricify 用歌词装扮你的夜晚！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.5">哎呀，真的太晚了！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.018">Lyricify 今年帮你搜索了 {0:N0} 次歌词</system:String>
+    <system:String x:Key="String.Wrapped.Messages.019">Oh my my，这真的很多！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.020">你的歌词搜索次数排在 Lyricify 用户的前 {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.021">我来看看</system:String>
+    <system:String x:Key="String.Wrapped.Messages.022">{0}，嗯哼</system:String>
+    <system:String x:Key="String.Wrapped.Messages.023">这可是看歌词的好时间啊！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.024">{0}是不是发生了什么？</system:String>
+    <system:String x:Key="String.Wrapped.Messages.025">好吧</system:String>
+    <system:String x:Key="String.Wrapped.Messages.026">你那天看的歌词实在是太多了，达到了 {0:N0} 次</system:String>
+    <system:String x:Key="String.Wrapped.Messages.027">哎，我还发现</system:String>
+    <system:String x:Key="String.Wrapped.Messages.028">你也在使用 Lyricify Mobile 哎！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.029">Lyricify Mobile 今年帮你搜索了 {0:N0} 次歌词</system:String>
+    <system:String x:Key="String.Wrapped.Messages.030">你一定是 Lyricify 的忠实粉丝！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.031">顺便一提</system:String>
+    <system:String x:Key="String.Wrapped.Messages.032">Lyricify Mobile 可以让你在手机或平板电脑上查看歌词！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.033">你看了 {0:N0} 首歌的歌词</system:String>
+    <system:String x:Key="String.Wrapped.Messages.034">但，是它们统治着你的 Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.035">{0:N0} 次</system:String>
+    <system:String x:Key="String.Wrapped.Messages.036">Lyricify 的歌词服务是由所有 Lyricify 用户共同构建的</system:String>
+    <system:String x:Key="String.Wrapped.Messages.037">标记和上传歌词是构建词库的两大重要方式</system:String>
+    <system:String x:Key="String.Wrapped.Messages.038">今年</system:String>
+    <system:String x:Key="String.Wrapped.Messages.039">你一共标记了 {0:N0} 次歌词</system:String>
+    <system:String x:Key="String.Wrapped.Messages.040">在 Lyricify 曲目管理中上传了 {0:N0} 次</system:String>
+    <system:String x:Key="String.Wrapped.Messages.041">将 {0:N0} 首歌的歌词导入了 Lyricify 歌词库</system:String>
+    <system:String x:Key="String.Wrapped.Messages.042">超过了 {0} 的用户</system:String>
+    <system:String x:Key="String.Wrapped.Messages.043">感谢你做出的这些贡献</system:String>
+    <system:String x:Key="String.Wrapped.Messages.044">总的来说</system:String>
+    <system:String x:Key="String.Wrapped.Messages.045">这是精彩的一年</system:String>
+    <system:String x:Key="String.Wrapped.Messages.046">还有精彩的你</system:String>
+    <system:String x:Key="String.Wrapped.Messages.047">能与你共度这一年，是 Lyricify 的荣幸</system:String>
+    <system:String x:Key="String.Wrapped.Messages.048">歌词在表达着一切</system:String>
+    <system:String x:Key="String.Wrapped.Messages.049">Lyricify 会永远在这里陪着你</system:String>
+    <system:String x:Key="String.Wrapped.Messages.050">尽情享受吧！</system:String>
+
+    <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">歌词浏览总数</system:String>
+    <system:String x:Key="String.Wrapped.Report.Launches">启动次数</system:String>
+    <system:String x:Key="String.Wrapped.Report.Marks">标记次数</system:String>
+    <system:String x:Key="String.Wrapped.Report.Uploads">上传次数</system:String>
+    <system:String x:Key="String.Wrapped.Report.Imports">导入次数</system:String>
+    <system:String x:Key="String.Wrapped.Report.TracksCount">歌曲总数</system:String>
+    <system:String x:Key="String.Wrapped.Report.MobileViews">移动端浏览数</system:String>
+    <system:String x:Key="String.Wrapped.Report.TrackOfTheYear">年度歌曲</system:String>
+    <system:String x:Key="String.Wrapped.Report.LyricifyIndex">Lyricify 指数</system:String>
 </ResourceDictionary>
