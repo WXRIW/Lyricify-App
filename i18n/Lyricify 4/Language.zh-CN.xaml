@@ -292,7 +292,7 @@
     <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(LGPL 许可 2.1)</system:String>
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(无许可)</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming">版权申明</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">版权所有 © 2023 WXRIW 保留所有权利</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">版权所有 © {0} WXRIW 保留所有权利</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">主窗口 UI 设计, 移动端 UI 全屏设计, Spotify Circular 版权所有 © Spotify AB</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music 歌词 UI 设计, SF Pro, 苹方(简体) 版权所有 © Apple Inc.</system:String>
 

@@ -273,7 +273,7 @@
     <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(Licence LGPL 2.1)</system:String>
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(Aucune licence)</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming">Revendication de droits d'auteur</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">Copyright © 2023 WXRIW, Tous droits réservés</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">Copyright © {0} WXRIW, Tous droits réservés</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Interface utilisateur de la fenêtre principale, UI mobile plein écran, Spotify Circular Copyright © Spotify AB</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Interface utilisateur Apple Music Lyrics, SF Pro, PingFang SC Copyright © Apple Inc.</system:String>
 

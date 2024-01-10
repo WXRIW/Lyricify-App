@@ -288,7 +288,7 @@
     <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(LGPL 许可 2.1)</system:String>
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(无许可)</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming">复制右侧声称</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">复制右侧 © 2023 WXRIW 所有右侧预留</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">复制右侧 © {0} WXRIW 所有右侧预留</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">主窗口 UI 设计, 移动端 UI 全屏设计, Spotify Circular 复制向右 © Spotify AB</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music 歌词 UI 设计, SF Pro, 苹方(简体) 复制向右 © Apple Inc.</system:String>
 
