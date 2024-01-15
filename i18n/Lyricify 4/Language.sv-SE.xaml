@@ -273,7 +273,7 @@
     <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(LGPL License 2.1)</system:String>
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(Ingen licens)</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming">Anspråk på upphovsrätt</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">Copyright © 2023 WXRIW, Alla rättigheter reserverade</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">Copyright © {0} WXRIW, Alla rättigheter reserverade</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Huvudfönstergränssnitt, Mobilt UI Helskärm, Spotify Circular Copyright © Spotify AB</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music Lyrics UI, SF Pro, PingFang SC Copyright © Apple Inc.</system:String>
 
