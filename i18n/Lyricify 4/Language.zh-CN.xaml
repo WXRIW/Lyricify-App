@@ -407,6 +407,13 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">隆重推出妙控条 (Magic Strip)！ &#x000A;&#x000A;你可以点击条状按钮来退出 Apple Music 歌词，&#x000A;向下滑动以最小化，&#x000A;向左或向右滑动以最大化或还原，&#x000A;向上滑动以取消操作。&#x000A;&#x000A;你还可以按下右键向上滑动跳到首行歌词，&#x000A;向下滑动跳到最后一行歌词，&#x000A;向左或向右滑动跳到当前行，&#x000A;仅右击则无操作。</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">缩放记忆</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">在 Apple Music 歌词中恢复缩放记忆</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset">样式预设</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.Description">细节因系统版本而不同</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS164AndLater">iOS 16.4 及更高版本</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">阻止睡眠</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.Description">阻止自动关闭屏幕和睡眠</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.Always">总是</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.FullscreenOnly">仅全屏</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple">Buggy Apple (漏洞百出的 Apple)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.Description">没有 bug 的 Apple 不是 Apple。让我们致敬 Bug，致敬 Apple</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">启用传统版本</system:String>
