@@ -951,7 +951,7 @@
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">服务器歌词信息加载失败</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message">你可以尝试</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.1">1. 禁用代理，它可能会阻断与 Lyricify 服务器的连接</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.2">2. 登出 Lyricify，并重新登录</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.2">2. 注销 Lyricify，并重新登录</system:String>
     <system:String x:Key="String.Window.TrackManagement.Editor.WordWrap">自动换行</system:String>
     <system:String x:Key="String.Window.TrackManagement.Editor.Notice.AskSave">是否保存更改？</system:String>
     <system:String x:Key="String.Window.TrackManagement.Editor.Notice.NoTimestamp">未检测到时间邮票，继续保存？</system:String>
@@ -1171,8 +1171,8 @@
     <system:String x:Key="String.Messages.LyricifyFullscreen.NoTrackPlaying">在 Spotify 开始播放前，你将无法打开 Lyricify 全屏歌词</system:String>
     <system:String x:Key="String.Messages.MobileUIFullscreen.NoTrackPlaying">在 Spotify 开始播放前，你将无法打开移动端 UI 全屏歌词</system:String>
 
-    <system:String x:Key="String.Messages.MainWindow.LogOut.Query">确定登出此 Spotify 账号吗？</system:String>
-    <system:String x:Key="String.Messages.MainWindow.LogOut.Failed">登出失败</system:String>
+    <system:String x:Key="String.Messages.MainWindow.LogOut.Query">确定注销此 Spotify 账号吗？</system:String>
+    <system:String x:Key="String.Messages.MainWindow.LogOut.Failed">注销失败</system:String>
 
     <!--Updates-->
     <system:String x:Key="String.Messages.Updates.FoundNewVersion">发现新版本</system:String>
