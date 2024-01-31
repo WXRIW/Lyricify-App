@@ -815,8 +815,12 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Name">名稱</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Description">描述</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.File">檔案</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Path">路徑</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.IsEnabled">已啟用</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfiguration">新增設定檔</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription">添加訂閱配置</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription.InputNotice">訂閱 URL</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription.InvalidUrl">無效 URL</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.ReloadAllConfiguration">重新載入所有設定檔</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.RemoveAllConfigurations">移除所有設定檔</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.HelpDocument">幫助文件</system:String>
@@ -828,6 +832,8 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Rename">重新命名</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.EditDescription">編輯描述</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenFile">打開檔案</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenSubscriptionUrl">打開訂閱 URL</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.CopySubscriptionUrl">複製訂閱 URL</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Reload">重新載入</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Remove">移除</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">向上移動</system:String>
@@ -1156,6 +1162,8 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.SomethingsWrong">出了一些問題，請檢查你的網際網路連接或聯繫開發者</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.InvalidClient">無效的 Client 信息, 請檢你的 API Client 配置</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">用戶沒有在 Spotify Developer Dashboard 中註冊</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SslException">SSL 連接無法被建立。</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SslException.Message">你的網路連接出了問題。請確保你可以連通 accounts.spotify.com 和 api.spotify.com。如果你在使用網路代理，可嘗試更換。</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">喜報：Spotify 服務器寄了 (503 錯誤，服務不可用)，請稍後再試</system:String>
 
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">極端 429 錯誤</system:String>

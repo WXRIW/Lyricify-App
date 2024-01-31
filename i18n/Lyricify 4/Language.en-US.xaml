@@ -815,8 +815,12 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Name">Name</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Description">Description</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.File">File</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Path">Path</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.IsEnabled">IsEnabled</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfiguration">Add Configuration</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription">Add Configuration Subscription</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription.InputNotice">Subscription URL</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription.InvalidUrl">Invalid URL</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.ReloadAllConfiguration">Reload All Configurations</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.RemoveAllConfigurations">Remove All Configurations</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.HelpDocument">Help Document</system:String>
@@ -828,6 +832,8 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Rename">Rename</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.EditDescription">Edit description</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenFile">Open file</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenSubscriptionUrl">Open subscription URL</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.CopySubscriptionUrl">Copy subscription URL</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Reload">Reload</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Remove">Remove</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">Move up</system:String>
@@ -1156,6 +1162,8 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.SomethingsWrong">Something's wrong, please check your Internet connection or contact the developer</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.InvalidClient">Invalid Client info, please check your API Client configuration</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">User not registered in Spotify Developer Dashboard</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SslException">The SSL connection could not be established.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SslException.Message">Somethings wrong with your Internet connection. Make sure accounts.spotify.com and api.spotify.com are accessible.</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">Spotify Service is currently not available (503 error), please try later</system:String>
     
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">Extreme 429 Error</system:String>
