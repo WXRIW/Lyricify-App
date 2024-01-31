@@ -382,7 +382,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation">Включить дополнительные анимации</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Description">Лучшая анимация, лучший опыт</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">Плавающая анимация</system:String>
-        <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">Пульс шагает и в ритм</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">Пульс шагает и в ритм</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Disabled">Выкл.</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">Низкий (по умолчанию)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Medium">Средний</system:String>
@@ -407,6 +407,13 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">Представляем с гордостью Magic Strip! &#x000A;&#x000A; &#x000A;Вы можете нажать на полоску-кнопку, чтобы закрыть текст Apple Music, &#x000A;потянуть вниз, чтобы свернуть, &#x000A;потянуть влево или вправо, чтобы развернуть или вернуть, &#x000A;потянуть вверх, чтобы отменить действие. &#x000A;Вы также можете нажать правую кнопку и потянуть вверх, чтобы перейти к первой строке текста, &#x000A;потянуть вниз, чтобы перейти к последней строке, &#x000A;потянуть влево или вправо, чтобы перейти к текущей строке, &#x000A;при простом нажатии правой кнопки никаких действий не будет.</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">Запомнить масштаб</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">Включить запоминание масштаба в тексте Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset">Пресеты стиля</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.Description">Подробности зависят от версии системы</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS164AndLater">iOS 16.4 и более</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">Предотвращение спящий режим</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.Description">Предотвращение перехода компьютера в спящий режим</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.Always">Всегда</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.FullscreenOnly">В полноэкранном режиме</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple">Buggy Apple (Apple с ошибками)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.Description">Apple без ошибок - это не Apple, так что давайте воздадим должное ошибкам, и воздадим должное Apple.</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">Включить традиционную версию</system:String>
@@ -808,8 +815,12 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Name">Имя</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Description">Описание</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.File">Файл</system:String>
+        <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Path">Путь</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.IsEnabled">Вкл.</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfiguration">Добавить конфигурацию</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription">Добавить подписку</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription.InputNotice">URL подписки</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription.InvalidUrl">Недопустимый URL</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.ReloadAllConfiguration">Перезагрузить все конфигурации</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.RemoveAllConfigurations">Удалить все конфигурации</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.HelpDocument">Справка</system:String>
@@ -821,6 +832,8 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Rename">Переименовать</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.EditDescription">Изменить описание</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenFile">Открыть файл</system:String>
+        <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenSubscriptionUrl">Открыть URL подписки</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.CopySubscriptionUrl">Скопируйте URL подписки</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Reload">Перезагрузить</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Remove">Удалить</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">Вверх</system:String>
@@ -1149,7 +1162,9 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.SomethingsWrong">Что-то не так, проверьте подключение к Интернету или обратитесь к разработчику</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.InvalidClient">Недействительная информация о клиенте. Пожалуйста, проверьте конфигурацию вашего API Client</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">Пользователь не зарегистрирован в Spotify Developer Dashboard</system:String>
-    <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">Хорошая новость: сервер Spotify умер (Error 503, сервис недоступен). Повторите попытку позже</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SslException">SSL-соединение установить не удалось.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SslException.Message">Что-то не так с вашим интернет-соединением. Убедитесь, что вы можете подключиться к accounts.spotify.com и api.spotify.com. Если вы используете веб-прокси, попробуйте заменить его.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">Хорошая новость: умер сервер Spotify (Error 503, сервис недоступен). Повторите попытку позже</system:String>
 
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">Экстремальный Error 429</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.HavePublic.Notice">Ваш пользовательский API Client работает в экстремальных условиях (возвращает Error 429 с временем ожидания {0} сек), Lyricify продолжит работу через публичный API Client</system:String>
