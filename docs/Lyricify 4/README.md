@@ -345,14 +345,15 @@ Apple Music 歌词界面 CJK (中日韩) 歌词流畅度较低，这是微软的
 - The SSL connection could not be established, see inner exception.
 - 由于目标计算机积极拒绝，无法连接。
 - 请求的名称有效，但是找不到请求的类型的数据。
-- 由于连接方在一段时间后没有正确答复或链接的主机没有反应，连接尝试失败。
+- 由于连接方在一段时间后没有正确答复或链接的主机没有反应，连接尝试失败。(xxx.com:443)
 
 在确认/关闭消息框后，Lyricify 关闭。
 ### 导致原因
-网络连接状态不好，导致无法完成自动更新。
+网络连接状态不好，导致无法完成自动更新/登录。
 ### 解决方案
 - 使用 [Microsoft Store 版本](https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full)，其自动更新由 Microsoft 负责和管理，比 Lyricify 自带的更新更方便稳定，故强烈推荐使用。
-- 先手动更新至最新版，然后在 `设置` `高级` `更新` `更新来源` 中切换更新源至 `GitHub`。再下次更新发布后（建议开启网络代理），若可正常更新，则可正常使用；若仍然无法正常更新，则建议使用 [Microsoft Store 版本](https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full)。
+- 先手动更新至最新版，然后在 `设置` `高级` `更新` `更新来源` 中切换更新源至 `GitHub`。再下次更新发布后（建议开启网络代理），若可正常更新，则可正常使用；若仍然无法正常更新，则建议使用 [Microsoft Store 版本](https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full)。  
+- 如无法完成 Spotify 授权登录，请确保网络能正常访问到 `accounts.spotify.com` 和 `api.spotify.com` 。校园网用户请尝试切换为热点，代理用户请尝试切换模式为 `全局代理` 。
 
 ## 无法在 曲目管理 中上传歌词
 提示 `你的上传请求被拒绝`。
