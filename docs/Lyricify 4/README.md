@@ -17,6 +17,7 @@
 - [开机自启动](#%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8)
 
 ### 常见问题
+- [启动时提示错误](#%E5%90%AF%E5%8A%A8-lyricify-%E6%97%B6%E6%8F%90%E7%A4%BA%E9%94%99%E8%AF%AF)
 - [切歌后反应迟钝](#%E5%88%87%E6%AD%8C%E5%90%8E%E5%8F%8D%E5%BA%94%E8%BF%9F%E9%92%9D)
 - [过多请求 429 错误](#%E6%80%BB%E6%98%AF%E6%8F%90%E7%A4%BA%E5%87%BA%E7%8E%B0-429-%E9%94%99%E8%AF%AF)
 - [Apple Music 歌词界面卡顿](#apple-music-%E6%AD%8C%E8%AF%8D%E7%95%8C%E9%9D%A2%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98)
