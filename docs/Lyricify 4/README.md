@@ -15,6 +15,7 @@
 - [全局快捷键](#%E5%85%A8%E5%B1%80%E5%BF%AB%E6%8D%B7%E9%94%AE)
 - [曲库可用性查询](#%E5%8F%AF%E7%94%A8%E6%80%A7%E6%9F%A5%E8%AF%A2)
 - [开机自启动](#%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8)
+- [自定义配置](#%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AE)
 
 ### 常见问题
 - [启动时提示错误](#%E5%90%AF%E5%8A%A8-lyricify-%E6%97%B6%E6%8F%90%E7%A4%BA%E9%94%99%E8%AF%AF)
@@ -355,6 +356,7 @@ api.spotify.com
 ```
 
 ## 启动 Lyricify 后弹出消息框
+**注意：** 本问题仅在 4.2.11 或更早版本中出现。
 打开 Lyricify 后弹出消息框，出现下列提示之一：
 - The SSL connection could not be established, see inner exception.
 - 由于目标计算机积极拒绝，无法连接。
