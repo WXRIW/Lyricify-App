@@ -340,6 +340,18 @@ Apple Music 歌词界面 CJK (中日韩) 歌词流畅度较低，这是微软的
 ## 无法从 Lyricify 服务器获取歌词
 如果您在中国大陆，建议检查您的科学上网工具是否正确设置了分流，是否能正常访问 `e.wxriw.cn`。您还可以在设置中勾选 `不在 Lyricify 服务器请求中使用代理`。
 
+## 启动 Lyricify 时提示错误
+启动 Lyricify 时提示出错（超时错误 或 Http 错误），并自动关闭。  
+### 导致原因
+网络连接状态不好，导致无法连接到 Spotify 服务器。与 Lyricify 无关。 
+### 解决方案
+更换网络环境，如果你在使用代理，可尝试更换服务商。  
+请确保在你的网络下，这两个 Spotify 域名可以 Ping 连通：  
+```
+accounts.spotify.com
+api.spotify.com
+```
+
 ## 启动 Lyricify 后弹出消息框
 打开 Lyricify 后弹出消息框，出现下列提示之一：
 - The SSL connection could not be established, see inner exception.
