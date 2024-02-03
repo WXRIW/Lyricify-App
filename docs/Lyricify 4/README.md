@@ -15,8 +15,10 @@
 - [全局快捷键](#%E5%85%A8%E5%B1%80%E5%BF%AB%E6%8D%B7%E9%94%AE)
 - [曲库可用性查询](#%E5%8F%AF%E7%94%A8%E6%80%A7%E6%9F%A5%E8%AF%A2)
 - [开机自启动](#%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8)
+- [自定义配置](#%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AE)
 
 ### 常见问题
+- [启动时提示错误](#%E5%90%AF%E5%8A%A8-lyricify-%E6%97%B6%E6%8F%90%E7%A4%BA%E9%94%99%E8%AF%AF)
 - [切歌后反应迟钝](#%E5%88%87%E6%AD%8C%E5%90%8E%E5%8F%8D%E5%BA%94%E8%BF%9F%E9%92%9D)
 - [过多请求 429 错误](#%E6%80%BB%E6%98%AF%E6%8F%90%E7%A4%BA%E5%87%BA%E7%8E%B0-429-%E9%94%99%E8%AF%AF)
 - [Apple Music 歌词界面卡顿](#apple-music-%E6%AD%8C%E8%AF%8D%E7%95%8C%E9%9D%A2%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98)
@@ -241,6 +243,7 @@ Lyricify 4 有着强大的自定义字体功能，您可以为 `歌词` 界面�
 1. 步骤 5 中的歌词制作可参考 [Lyricify 4 歌词指南及标准](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/Lyrics.md)。  
 2. 中文歌词必须使用简体中文！若上传繁体中文歌词，你的账户将有几率会被限制。  
 3. 上文中的“QQ 音乐、网易云音乐均无歌词”指：QQ 音乐和网易云音乐上均没有对应曲目或对应曲目无歌词。通过 Lyricify 上的搜索按钮没有搜到对应歌词不代表真的没有，需要手动去 QQ 音乐和网易云音乐的 App 内查找，确保没有对应歌词后才可认为“均无歌词”。  
+4. QQ 音乐、网易云音乐有歌词但均无翻译不算作“均无歌词”，这种情况下上传歌词和翻译到 Lyricify 歌词库仍算作违规。您可以到网易云音乐提交翻译，等待过审后 Lyricify 会自动拉取翻译。
 
 ## 可用性查询
 在 Lyricify 4 中，您可以很方便的检查专辑、歌单、已点赞的歌曲在不同地区的可用性。  
@@ -340,7 +343,20 @@ Apple Music 歌词界面 CJK (中日韩) 歌词流畅度较低，这是微软的
 ## 无法从 Lyricify 服务器获取歌词
 如果您在中国大陆，建议检查您的科学上网工具是否正确设置了分流，是否能正常访问 `e.wxriw.cn`。您还可以在设置中勾选 `不在 Lyricify 服务器请求中使用代理`。
 
+## 启动 Lyricify 时提示错误
+启动 Lyricify 时提示出错（超时错误 或 Http 错误），并自动关闭。  
+### 导致原因
+网络连接状态不好，导致无法连接到 Spotify 服务器。与 Lyricify 无关。 
+### 解决方案
+更换网络环境，如果你在使用代理，可尝试更换服务商。  
+请确保在你的网络下，这两个 Spotify 域名可以 Ping 连通：  
+```
+accounts.spotify.com
+api.spotify.com
+```
+
 ## 启动 Lyricify 后弹出消息框
+**注意：** 本问题仅在 4.2.11 或更早版本中出现。
 打开 Lyricify 后弹出消息框，出现下列提示之一：
 - The SSL connection could not be established, see inner exception.
 - 由于目标计算机积极拒绝，无法连接。
