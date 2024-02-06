@@ -362,6 +362,8 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.NeteaseFirst">Netease Cloud Music first</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.QQFirst">Translation first and QQ Music first</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.NeteaseFirst">Translation first and Netease Cloud Music first</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable">Netease word-by-word lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable.Description">Enable Netease Cloud Music word-by-word lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">Background</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Choose the background you want to use in Apple Music Lyrics</system:String>
@@ -744,6 +746,7 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink.Help">Enter Authorization Callback Link Manually</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configure">Configure Custom API Client</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configured">Custom API Client Configured</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.ProxySettings">Proxy Settings</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Button.Cancel">Cancel</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Title">Lyricify is about to close</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Button.Retry">Retry</system:String>

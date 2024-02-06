@@ -362,6 +362,8 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.NeteaseFirst">网易云音乐优先</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.QQFirst">翻译优先且 QQ 音乐优先</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.NeteaseFirst">翻译优先且网易云音乐优先</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable">网易云音乐逐字歌词</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable.Description">启用网易云音乐逐字歌词</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Apple Music 歌词</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">背景</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">选择你想在 Apple Music 歌词中使用的背景</system:String>
@@ -744,6 +746,7 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink.Help">手动输入授权回调链接</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configure">配置自定义 API Client</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configured">已配置自定义 API Client</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.ProxySettings">代理设置</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Button.Cancel">取消</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Title">Lyricify 即将关闭</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Button.Retry">重试</system:String>
