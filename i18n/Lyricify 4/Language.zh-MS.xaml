@@ -909,24 +909,24 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">空 (服务器上标记无标记)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.RemoveLyrics">去除歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">搜索</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search.Description">通过内置 Lyricify 歌词搜索器导入歌词</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import">导入</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.QQ.Description">通过 QQ 音乐轨道 Mid 或分享链接导入歌词</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">通过网易云音乐轨道 Id 或分享链接导入歌词</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search.Description">通过内置 Lyricify 歌词搜索器进口歌词</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import">进口</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.QQ.Description">通过 QQ 音乐轨道 Mid 或分享链接进口歌词</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">通过网易云音乐轨道 Id 或分享链接进口歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit">编辑</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">高级歌词编辑</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify">Lyricify 歌词库</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit">导入 &amp; 编辑</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit">进口 &amp; 编辑</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Description">编辑 Lyricify 歌词库中的歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention" xml:space="preserve">注意：</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention.Content">仅允许在 QQ 音乐和网易云音乐均无歌词时使用。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.Attention">未连接 Media Session 的环境中无法修改 Offset。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ">QQ 音乐</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">请输入 QQ 音乐轨道 Mid 或分享链接以从 QQ 音乐导入歌词。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">请输入 QQ 音乐轨道 Mid 或分享链接以从 QQ 音乐进口歌词。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Input">错误的 QQ 音乐轨道 Mid，请检查你的输入。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Link">通过分享链接获取 QQ 音乐轨道 Mid 时出错。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease">网易云音乐</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox">请输入网易云音乐轨道 Id 或分享链接以从网易云音乐导入歌词。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox">请输入网易云音乐轨道 Id 或分享链接以从网易云音乐进口歌词。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox.Failed.Input">错误的网易云音乐轨道 Id，请检查你的输入。</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Reset">滚回</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Reset.Description">滚回所有更改</system:String>
@@ -937,7 +937,7 @@
     <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow">在主窗口中应用</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow.Description">在主窗口中加载当前的歌词信息 (仅当前播放轨道为本轨道时可用)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Save">保存 (上传)</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Button.Save.Message.ApplyInMainWindow">在主窗口中应用改变，并检查你刚刚导入歌词的文本和时间轴的正确性是强烈推荐的。现在在主窗口中应用 (是), 继续上传 (否), 或是什么都不做 (取消)？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Save.Message.ApplyInMainWindow">在主窗口中应用改变，并检查你刚刚进口歌词的文本和时间轴的正确性是强烈推荐的。现在在主窗口中应用 (是), 继续上传 (否), 或是什么都不做 (取消)？</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Close">关闭</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.EditRawFile">编辑原始文件</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">你确定要关闭而不保存吗？</system:String>
@@ -969,25 +969,32 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">翻译</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">添加翻译</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Message.Translation.AutoFill">使用自动填充的翻译？</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyrics">导入 Apple Music 歌词</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportSpotifyLyrics">导入 Spotify 歌词</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportKugouLyrics">导入酷狗歌词</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyrics">进口 Apple Music 歌词</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyricsById">进口 Apple Music 歌词 (乘坐 ID)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportSpotifyLyrics">进口 Spotify 歌词</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportKugouLyrics">进口酷狗歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">获取 QRC 歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetLyricifySyllable">获取 Lyricify Syllable 歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">逐字行创造器</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">逐字行移动器</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.QrcSpaceMove">将头部空格移至尾部</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Apple Music 歌词导入</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.LyricifyLyricsVault.Attention" xml:space="preserve">注意：&#x000A;如果 QQ 音乐或网易云音乐有歌词，请不要手动上传其他来源歌词！&#x000A;通过 Lyricify 上的搜索按钮没有搜到对应歌词不代表真的没有，需要手动去 QQ 音乐和网易云音乐的 App 内查找，确保没有对应歌词后才可认为“均无歌词”。&#x000A;若违反，你的账户有几率会被限制。&#x000A;仍要进口？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Apple Music 歌词进口</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.EnterIdOrLink">输入 ID 或链接</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet">获取歌词失败</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">未找到歌词</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">这些歌词不是逐字的，继续导入？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">这些歌词不是逐字的，继续进口？</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">将繁体中文转换为简体中文？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoSongs">没有找到对应曲目。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoLyrics">对应曲目没有歌词或没有含时间轴的歌词。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.TooManyRequest">过多请求，请过几个小时再试。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.CurrentlyUnavailable">本功能当前不可用，请明天再试。</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.AddTranslation">请为歌词手动添加中文翻译 (简体中文，不可使用繁体中文)。</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization">大写</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization.Message">将首字母大写？</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Copied.QRC">QRC 已复制到剪切板</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Copied.LyricifySyllable">Lyricify Syllable 已复制到剪切板</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.NotSynced">歌词没有时间轴，导入失败</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.NotSynced">歌词没有时间轴，进口失败</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.ConvertTraditionalChinese">繁体中文已被自动转换为简体中文，请检查歌词，以确保转换是正确的。</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.TokenExpired">服务器侧 Spotify Token 过期，请联系 Lyricify 开发者。</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToFound">没有找到歌词</system:String>
@@ -1137,7 +1144,7 @@
     <system:String x:Key="String.Lyrics.Info.NoLyrics3">哦，我的上帝。你只能猜猜这首歌的歌词了。</system:String>
     <system:String x:Key="String.Lyrics.Info.Error">无法加载这首轨道的歌词。稍后再试。</system:String>
     <system:String x:Key="String.Lyrics.Info.Instrumental">乐器的，请享受。</system:String>
-    <system:String x:Key="String.Lyrics.Info.Button.ManualImport">手动导入 (打开轨道管理)</system:String>
+    <system:String x:Key="String.Lyrics.Info.Button.ManualImport">手动进口 (打开轨道管理)</system:String>
 
     <!--Converter-->
     <system:String x:Key="String.Converter.ValueString">已完成 {0}%</system:String>
@@ -1267,7 +1274,7 @@
     <system:String x:Key="String.Wrapped.Messages.038">今年</system:String>
     <system:String x:Key="String.Wrapped.Messages.039">你一共标记了 {0:N0} 次歌词</system:String>
     <system:String x:Key="String.Wrapped.Messages.040">在 Lyricify 曲目管理中上传了 {0:N0} 次</system:String>
-    <system:String x:Key="String.Wrapped.Messages.041">将 {0:N0} 首歌的歌词导入了 Lyricify 歌词库</system:String>
+    <system:String x:Key="String.Wrapped.Messages.041">将 {0:N0} 首歌的歌词进口了 Lyricify 歌词库</system:String>
     <system:String x:Key="String.Wrapped.Messages.042">超过了 {0} 的用户</system:String>
     <system:String x:Key="String.Wrapped.Messages.043">感谢你做出的这些贡献</system:String>
     <system:String x:Key="String.Wrapped.Messages.044">总的来说</system:String>
@@ -1282,7 +1289,7 @@
     <system:String x:Key="String.Wrapped.Report.Launches">启动次数</system:String>
     <system:String x:Key="String.Wrapped.Report.Marks">标记次数</system:String>
     <system:String x:Key="String.Wrapped.Report.Uploads">上传次数</system:String>
-    <system:String x:Key="String.Wrapped.Report.Imports">导入次数</system:String>
+    <system:String x:Key="String.Wrapped.Report.Imports">进口次数</system:String>
     <system:String x:Key="String.Wrapped.Report.TracksCount">歌曲总数</system:String>
     <system:String x:Key="String.Wrapped.Report.MobileViews">移动端浏览数</system:String>
     <system:String x:Key="String.Wrapped.Report.TrackOfTheYear">年度歌曲</system:String>

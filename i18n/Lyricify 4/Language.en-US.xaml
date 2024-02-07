@@ -966,6 +966,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">Add Translation</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Message.Translation.AutoFill">Use auto filled translation?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyrics">Import Apple Music Lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyricsById">Import Apple Music Lyrics by ID</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportSpotifyLyrics">Import Spotify Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportKugouLyrics">Import Kugou Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">Get QRC Lyrics</system:String>
@@ -973,12 +974,18 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">Syllable Line Creator</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">Syllable Line Mover</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.QrcSpaceMove">Move head space to the end</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.LyricifyLyricsVault.Attention" xml:space="preserve">Attention: &#x000A;Do not manually import lyrics if QQ Music or Netease Cloud Music has the lyrics! &#x000A;If the corresponding lyrics are not found through the search button on Lyricify, it does not mean that there are none. You need to manually search in the apps of QQ Music and NetEase Cloud Music to ensure that there are no corresponding lyrics before it can be considered as "no lyrics". &#x000A;Your account might be limited if you violated this rule. &#x000A;Continue to import?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Apple Music Lyrics Import</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.EnterIdOrLink">Enter ID or link</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet">Failed to get lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">Lyrics not found</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">Those lyrics are not word timing, continue the importation?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">Convert Traditional Chinese to Simplified Chinese?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoSongs">No corresponding songs found.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoLyrics">Corresponding song don't have lyrics or time-synced lyrics.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.TooManyRequest">Too many requests, please retry hours later.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.CurrentlyUnavailable">This function is currently not available, please retry tomorrow.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.AddTranslation">Please manually add Chinese translation for the lyrics you have imported (Simplified Chinese only, Traditional Chinese not allowed).</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization">Capitalization</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization.Message">Capitalize all ahead of lines?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Copied.QRC">QRC copied to clipboard</system:String>
@@ -1041,7 +1048,7 @@
     <system:String x:Key="String.Page.BackupCenter.Home.Transfer.Description">Transfer your data to another account</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Automation">Automation</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Automation.Description">Let Lyricify manage your library</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Home.PersonalUseWarning" xml:space="preserve">Personal use only! &#x000A;If you want to use Lyricify Backup Center for commercial activities, you have to contact Lyricify first.</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.PersonalUseWarning" xml:space="preserve">Personal use only! xml:space="preserve"If you want to use Lyricify Backup Center for commercial activities, you have to contact Lyricify first.</system:String>
 
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step1">Step 1: Choose what you want to backup</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step2">Step 2: Choose backup output format</system:String>
