@@ -1,4 +1,4 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <!--
@@ -342,7 +342,7 @@
     <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Current">Famille de caractère actuelle:</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Current.Default">Défaut</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Custom">Personnalisé</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Reset">Réinitialiser</system:String
+    <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Reset">Réinitialiser</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics">Lyric</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation">Traduire en chinois</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation.Description">La traduction en chinois sera affichée lorsqu'elle est disponible</system:String>
@@ -475,7 +475,7 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Fill">Ligne lumière (Rembourrage)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Border">Ligne lumière (Cadre)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Fill">Ligne prochaine(Rembourrage)</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Border">Ligne prochaine (Cadre)>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Border">Ligne prochaine (Cadre)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle">Le mode une ligne</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Description">Une ligne seulement, la traduction s'affichera quand elle est disponible</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Fill">Rembourrage</system:String>
@@ -974,15 +974,14 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">Créateur de lignes verbatim</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">Déplaceur de ligne verbatim</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.QrcSpaceMove">Déplacer l'espace de l'en-tête vers la queue</system:String>
-<system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.LyricifyLyricsVault.Attention" xml:space="preserve">Note : &#x000A ; Si QQ Music ou Cloud Music ont des lyrics, veuillez ne pas les charger d'autres sources manuellement ! &#x000A; Le fait que vous ne puissiez pas trouver les lyrics à l'aide du bouton de recherche de Lyricify ne signifie pas qu'il n'y en a pas, vous devez aller manuellement sur les applications de QQ Music et Cloud Music et vous assurer qu'il n'y a pas de lyrics avant de considérer qu'il n'y en a pas. &#x000A; SI VOUS NE RESPECTEZ PAS CETTE RÈGLE, VOTRE COMPTE RISQUE D'ÊTRE RESTREINT. Vous voulez encore importer ?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.LyricifyLyricsVault.Attention" xml:space="preserve">Note : &#x000A;Si QQ Music ou Cloud Music ont des lyrics, veuillez ne pas les charger d'autres sources manuellement ! &#x000A;Le fait que vous ne puissiez pas trouver les lyrics à l'aide du bouton de recherche de Lyricify ne signifie pas qu'il n'y en a pas, vous devez aller manuellement sur les applications de QQ Music et Cloud Music et vous assurer qu'il n'y a pas de lyrics avant de considérer qu'il n'y en a pas. &#x000A;SI VOUS NE RESPECTEZ PAS CETTE RÈGLE, VOTRE COMPTE RISQUE D'ÊTRE RESTREINT. Vous voulez encore importer ?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Importer lyric Apple Music</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.EnterIdOrLink">Saisir l'ID ou le lien</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet">Échec de l'obtention des lyrcis</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">Lyrics non trouvées</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">Ces lyrics ne sont pas textuelles. Continuer à importer ?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">Convertir le chinois traditionnel en chinois simplifié ?</system:String>
-
-<system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoSongs">Aucune chanson trouvée</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoSongs">Aucune chanson trouvée</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoLyrics">La piste correspondante n'a pas de lyrics ou les lyrics ne contiennent pas de chronologie.</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.TooManyRequest">Trop de demandes, veuillez réessayer dans quelques heures.</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.CurrentlyUnavailable">Cette fonction est actuellement indisponible, veuillez réessayer demain.</system:String>
@@ -1030,7 +1029,7 @@
     <system:String x:Key="String.Window.CustomApiClientManager.Button.Cancel">Annuler</system:String>
     <system:String x:Key="String.Window.CustomApiClientManager.ToolTip">Cliquez ici pour un tutoriel sur la personnalisation de la configuration du Client API Spotify</system:String>
     <system:String x:Key="String.Window.CustomApiClientManager.Message.WrongClientSecret">Mauvais secret client, veuillez vérifier vos saisies !</system:String>
-    <system:String x:Key="String.Window.CustomApiClientManager.Message.WrongClientIdSecret">Mauvais secret client oui ID Client, veuillez vérifier vos saisies !
+    <system:String x:Key="String.Window.CustomApiClientManager.Message.WrongClientIdSecret">Mauvais secret client oui ID Client, veuillez vérifier vos saisies !</system:String>
 
     <!--Backup Center-->
     <system:String x:Key="String.Window.BackupCenter">Sauvegarde et d'automatisation</system:String>
@@ -1049,11 +1048,11 @@
     <system:String x:Key="String.Page.BackupCenter.Home.Transfer.Description">Transférer vos données vers un autre compte</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Automation">Automatisation</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Automation.Description">Laissez Lyricify gérer votre bibliothèque</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Home.PersonalUseWarning" xml:space="preserve">Usage personnel uniquement !&#x000A;Si vous souhaitez utiliser Centre de sauvegarde et d'automatisation Lyricify dans des activités commerciales, veuillez nous contacter.</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.PersonalUseWarning" xml:space="preserve">Usage personnel uniquement !&#x000A;Si vous souhaitez utiliser Centre de sauvegarde et d'automatisation Lyricify dans des activités commerciales, veuillez nous contacter.</system:String>
 
-    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step1">Étape 1 : Choisissez ce que vous souhaitez enregistrer</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step2">Étape 2 : Sélectionnez le format de la file de sauvegardé</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step3">Étape 3 : Définissez un mot de passe si vous le souhaiteriez</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step1">Étape 1 : Choisissez ce que vous souhaitez enregistrer</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step2">Étape 2 : Sélectionnez le format de la file de sauvegardé</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step3">Étape 3 : Définissez un mot de passe si vous le souhaiteriez</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.LikedSongs">Chansons aimées</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Playlist">Liste de lecture</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Album">Album</system:String>
@@ -1068,12 +1067,12 @@
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Password.TwiceDifferent">Les deux mots de passe ne correspondent pas</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Button.BackupNow">Restaurer tout de suite</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Button.ResetToDefault">Tout restaurer</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step1">Étape 1 : Vérifiez votre bibliothèque</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2">Étape 2 : Sauvegardez-les</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step3">Étape 3 : Enregistrer dans un fichier</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step1">Étape 1 : Vérifiez votre bibliothèque</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2">Étape 2 : Sauvegardez-les</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step3">Étape 3 : Enregistrer dans un fichier</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step1.Output">On a trouvé {0} dans votre bibliothèque</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2.Output">On a sauvegardé {0}</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2.ETA">Temps restant : {0} seconde(s)</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2.ETA">Temps restant : {0} seconde(s)</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Finished.Message">On a terminé. Vous pouvez maintenant vérifier votre sauvegarde.</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.Cancel">Annuler</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.ShowPreview">Afficher l'aperçu</system:String>
@@ -1095,14 +1094,14 @@
     <system:String x:Key="String.Helpers.Player.Time.Minute">min(minute)</system:String>
     <system:String x:Key="String.Helpers.Player.Time.Second">sec(seconde)</system:String>
 
-    <system:String x:Key="String.Helpers.Time.Ago.Day">Il y a {0} jour</system:String>
-    <system:String x:Key="String.Helpers.Time.Ago.Days">Il y a {0} jours</system:String>
-    <system:String x:Key="String.Helpers.Time.Ago.Hour">Il y a {0} heure</system:String>
-    <system:String x:Key="String.Helpers.Time.Ago.Hours">Il y a {0} heures</system:String>
-    <system:String x:Key="String.Helpers.Time.Ago.Minute">Il y a {0} minute</system:String>
-    <system:String x:Key="String.Helpers.Time.Ago.Minutes">Il y a {0} minutes</system:String>
-    <system:String x:Key="String.Helpers.Time.Ago.Second">Il y a {0} seconde</system:String>
-    <system:String x:Key="String.Helpers.Time.Ago.Seconds">Il y a {0} secondes</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Day">Il y a {0} jour</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Days">Il y a {0} jours</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Hour">Il y a {0} heure</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Hours">Il y a {0} heures</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Minute">Il y a {0} minute</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Minutes">Il y a {0} minutes</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Second">Il y a {0} seconde</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Seconds">Il y a {0} secondes</system:String>
 
     <!--Lyrics-->
     <system:String x:Key="String.Lyrics.Provider">Fournisseur de lyric</system:String>
@@ -1186,7 +1185,7 @@
     <system:String x:Key="String.Messages.LyricifyFullscreen.NoTrackPlaying">Vous ne pourrez pas ouvrir les lyrics en plein écran de Lyricify tant que Spotify n'aura pas commencé à les jouer</system:String>
     <system:String x:Key="String.Messages.MobileUIFullscreen.NoTrackPlaying">Vous ne pourrez pas ouvrir les lyrics en IU moblie de Lyricify tant que Spotify n'aura pas commencé à les jouer</system:String>
 
-    <system:String x:Key="String.Messages.MainWindow.LogOut.Query">Êtes-vous sûr de vous déconnecter de ce compte Spotify ?</system:String>
+    <system:String x:Key="String.Messages.MainWindow.LogOut.Query">Êtes-vous sûr de vous déconnecter de ce compte Spotify ?</system:String>
     <system:String x:Key="String.Messages.MainWindow.LogOut.Failed">Échec en déconnectant</system:String>
 
     <!--Updates-->
