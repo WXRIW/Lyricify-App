@@ -360,8 +360,10 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Source.Description">Lyricify идеально сочетается с текстами песен Tencent Music, некоторые функции Lyricify недоступны при использовании текстов песен из Netease Music</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.QQFirst">Приоритет Tencent Music</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.NeteaseFirst">Приоритет Netease Music</system:String>
-        <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.QQFirst">Приоритет перевода Tencent QQ Music</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.QQFirst">Приоритет перевода Tencent QQ Music</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.NeteaseFirst">Приоритет перевода Netease Music</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable">Текст Syllable Netease</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable.Description">Включить текстов Syllable Netease</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Текст Apple Music</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">Фон текста</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Выберите фон для текста Apple Music</system:String>
@@ -744,6 +746,7 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink.Help">Вручную введите ссылку обратного вызова авторизации</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configure">Настройка пользовательского API Client</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configured">Пользовательский API Client настроен</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.ProxySettings">Настройки прокси</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Button.Cancel">Отмена</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Title">Lyricify скоро закроется</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Button.Retry">Повторить</system:String>
@@ -963,6 +966,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">Добавить перевод</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Message.Translation.AutoFill">Использовать автоматическое заполнение для перевода?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyrics">Импорт текстов из Apple Music</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyricsById">Импорт текстов из Apple Music (по ID)</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportSpotifyLyrics">Импорт текстов из Spotify</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportKugouLyrics">Импорт текстов из KuGou Music</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">Получение текстов QRC</system:String>
@@ -970,12 +974,18 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">Генератор посимвольного переноса строки</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">Перемещатель посимвольного переноса строки</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.QrcSpaceMove">Перемещение начальных пробелов в конец</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.LyricifyLyricsVault.Attention" xml:space="preserve">Примечание: &#x000A; Если у Tencent Music или NetEase Music есть тексты песен, пожалуйста, не загружайте тексты из других источников вручную! Пожалуйста, не загружайте тексты песен из других источников, если они доступны на Tencent Music или NetEase Music! Если вы не можете найти тексты песен с помощью кнопки поиска на Lyricify, это не значит, что их нет, вам нужно вручную перейти в приложения Tencent Music и NetEase Music и убедиться, что текстов нет, прежде чем считать их "без текстов". Если вы нарушите это правило, есть вероятность, что ваш аккаунт будет заблокирован. Все еще хотите импортировать?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Импорт текстов из Apple Music</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.EnterIdOrLink">Введите ID или ссылку</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet">Не удалось получить текст песни</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">Текст песни не найден</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">Эти тексты песен не являются посимвольными. Продолжить импорт?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">Преобразовать традиционный китайский в упрощенный китайский?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoSongs">Соответствующих треков не найдено.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoLyrics">Соответствующий трек не имеет текста или не имеет текста, содержащего временную шкалу.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.TooManyRequest">Слишком много запросов, повторите попытку через несколько часов.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.CurrentlyUnavailable">В настоящее время эта функция недоступна, повторите попытку завтра.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.AddTranslation">Пожалуйста, вручную добавьте китайский перевод (упрощенный, а не традиционный китайский) для текстов песен.</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization">Капитализация</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization.Message">Сделать первую букву заглавной?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Copied.QRC">QRC скопировано</system:String>
