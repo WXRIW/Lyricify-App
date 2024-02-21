@@ -394,15 +394,17 @@ Apple Music 歌词界面 CJK (中日韩) 歌词流畅度较低，这是微软的
 ### 导致原因
 网络连接状态不好，导致无法连接到 Spotify 服务器。与 Lyricify 无关。 
 ### 解决方案
-更换网络环境，如果你在使用代理，可尝试更换服务商。  
+更换网络环境，如果你在使用代理，可尝试更换节点或服务提供商。  
 请确保在你的网络下，这两个 Spotify 域名可以 Ping 连通：  
 ```
 accounts.spotify.com
 api.spotify.com
 ```
+如果可以连通，但仍然无法启动 Lyricify，请继续更换你的网络连接或服务提供商，直到可以连通为止。  
+Lyricify 可以保证的是，Lyricify 本身没有问题，这个问题是纯网络问题。
 
 ## 启动 Lyricify 后弹出消息框
-**注意：** 本问题仅在 4.2.11 或更早版本中出现。
+**注意：** 本问题仅在 4.2.11 或更早版本中出现。  
 打开 Lyricify 后弹出消息框，出现下列提示之一：
 - The SSL connection could not be established, see inner exception.
 - 由于目标计算机积极拒绝，无法连接。
