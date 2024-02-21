@@ -1173,7 +1173,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.InvalidClient">無效的 Client 信息, 請檢你的 API Client 配置</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">用戶沒有在 Spotify Developer Dashboard 中註冊</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.SslException">SSL 連接無法被建立。</system:String>
-    <system:String x:Key="String.Messages.MainWindow.Exception.SslException.Message">你的網路連接出了問題。請確保你可以連通 accounts.spotify.com 和 api.spotify.com。如果你在使用網路代理，可嘗試更換。</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SslException.Message">你的網路連接出了問題。請確保你可以連通 accounts.spotify.com 和 api.spotify.com。如果你在使用網路代理，可嘗試更換節點或服務提供商。</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">喜報：Spotify 服務器寄了 (503 錯誤，服務不可用)，請稍後再試</system:String>
 
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">極端 429 錯誤</system:String>
