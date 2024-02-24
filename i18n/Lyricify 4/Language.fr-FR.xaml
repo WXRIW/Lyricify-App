@@ -525,7 +525,7 @@
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion">Votre région de recommandée</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.Description">Cela donnera des impacts de votre région de recommandée</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.Default">Par défaut (La région de votre compte)</system:String>
-    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternerLocation">Localocalisation Internet (Selon votre IP)</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternetLocation">Localocalisation Internet (Selon votre IP)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced">Paramètre avancé</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">Utiliser l'image d'album rédirigée</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Utiliser l'image d'album rédirigée quand la chanson est rédirigée</system:String>

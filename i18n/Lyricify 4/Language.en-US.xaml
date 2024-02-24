@@ -527,7 +527,7 @@
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion">Preferred recommendation region</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.Description">This will affect your Home page</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.Default">Default (your account's region)</system:String>
-    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternerLocation">Interner Location (your IP's region)</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternetLocation">Internet Location (your IP's region)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced">Advanced</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">Enable track's artwork relinking</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Use relinked artwork instead of artwork from original track when the track is relinked</system:String>

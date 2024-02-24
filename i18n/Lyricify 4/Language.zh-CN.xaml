@@ -527,7 +527,7 @@
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion">首选的推荐区域</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.Description">这将影响到你的首页推荐</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.Default">默认 (你的账户地区)</system:String>
-    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternerLocation">网络位置 (你的 IP 地区)</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternetLocation">网络位置 (你的 IP 地区)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced">高级</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">使用重新链接曲目的专辑图片</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">当曲目被重新链接时，使用重新链接曲目的专辑图片代替原曲目的专辑图片</system:String>

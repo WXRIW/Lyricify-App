@@ -429,7 +429,7 @@
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion">منطقة التوصية المفضلة</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.Description">سيؤثر هذا على صفحتك الرئيسية</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.Default">الافتراضي (منطقة حسابك)</system:String>
-    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternerLocation">الموقع الداخلي (منطقة IP الخاصة بك)</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternetLocation">الموقع الداخلي (منطقة IP الخاصة بك)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced">خيارات متقدمة</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">تمكين إعادة ربط العمل الفني للمسار</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">استخدم العمل الفني المعاد ربطه بدلاً من العمل الفني من المسار الأصلي عند إعادة ربط المسار</system:String>
