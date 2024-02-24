@@ -441,6 +441,8 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">開啟後，靈動詞島將在暫停時自動隱藏</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">全螢幕隱藏</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">運行全螢幕程式時隱藏靈動詞島</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage">顯示藝人圖片</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">當你切換到新的曲目後，在靈動詞島左側顯示藝人圖片</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">不透明度</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">桌面歌詞</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">雙行模式</system:String>
@@ -565,6 +567,11 @@
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Port">埠</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Username">用戶名</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Password">密碼</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test">測試</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.ProxyOverrideEnabled">代理覆蓋未啟用，測試結果可能不同。仍然測試？</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Status">網絡狀態</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Connected">已連通</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Disconnected">未連通</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Apply">應用</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">部分功能需要重啟才能生效。</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile">設定檔</system:String>

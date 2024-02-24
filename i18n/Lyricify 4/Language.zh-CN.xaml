@@ -441,6 +441,8 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">开启后，灵动词岛将在暂停时自动隐藏</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">全屏隐藏</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">运行全屏程序时隐藏灵动词岛</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage">显示艺人图片</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">当你切换到新的曲目后，在灵动词岛左侧显示艺人图片</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">不透明度</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">桌面歌词</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">双行模式</system:String>
@@ -565,6 +567,11 @@
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Port">端口</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Username">用户名</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Password">密码</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test">测试</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.ProxyOverrideEnabled">代理覆盖未启用，测试结果可能不同。仍然测试？</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Status">网络状态</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Connected">已连通</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Disconnected">未连通</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Apply">应用</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">部分功能需要重启才能生效。</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile">设置文件</system:String>

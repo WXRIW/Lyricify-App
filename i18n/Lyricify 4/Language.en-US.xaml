@@ -441,6 +441,8 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">By turning on, Dynamic Lyrics Island will be hidden at pause</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">Fullscreen hide</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">Hide Dynamic Lyrics Island when you have program running at fullscreen mode</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage">Show artist image</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">Show artist image on the left side of the Dynamic Lyrics Island after you switch to a new song</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">Opacity</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">Desktop Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Due-Line mode</system:String>
@@ -565,6 +567,11 @@
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Port">Port</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Username">Username</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Password">Password</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test">Test</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.ProxyOverrideEnabled">Proxy override not enabled, the test result could be different. Still test?</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Status">Network Status</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Connected">Connected</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Disconnected">Disconnected</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Apply">Apply</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">Some functions might need a restart to take effect.</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile">Settings file</system:String>
