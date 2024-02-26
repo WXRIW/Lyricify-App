@@ -441,6 +441,8 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">Если включить этот параметр, Dynamic Lyrics Island будет скрыт во время паузы</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">Скрыть когда полноэкранный режим</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">Скрывать Dynamic Lyrics Island, когда программа работает в полноэкранном режиме</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage">Показать фотографии артиста</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">При переходе к новому треку изображение исполнителя отображается в левой части Dynamic Lyrics Island.</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">Непрозрачность</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">Слова для рабочего стола</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Режим две строки</system:String>
@@ -565,6 +567,11 @@
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Port">Порт</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Username">Имя пользователя</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Password">Пароль</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test">Проверить соединение</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.ProxyOverrideEnabled">Переопределение прокси не включено, результаты тестирования могут отличаться. Все еще тестируете?</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Status">Статус</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Connected">Онлайн</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Disconnected">Оффлайн</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Apply">ОК</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">Для вступления в силу некоторых функций может потребоваться перезагрузка.</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile">Файл настроек</system:String>
