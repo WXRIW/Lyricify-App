@@ -492,7 +492,7 @@
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion">優先レコメンデーション地域</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.Description">これはホームページに影響します</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.Default">デフォルト (アカウントの地域)</system:String>
-    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternerLocation">インターネットの場所 (IP 地域)</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternetLocation">インターネットの場所 (IP 地域)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced">高度な設定</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">再リンクを有効にする</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">トラックが再リンクされたときに、元のトラックのアートワークの代わりに再リンクされたアートワークを使用する</system:String>

@@ -525,7 +525,7 @@
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion">Предпочитаемый регион рекомендаций</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.Description">Это повлияет на вашу домашнюю страницу</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.Default">По умолчанию (регион вашей учетной записи)</system:String>
-    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternerLocation">Внутреннее местоположение (ваш регион IP)</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternetLocation">Внутреннее местоположение (ваш регион IP)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced">Расширенные</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">Включить повторное связывание обложки трека</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Использовать повторно связанную обложку вместо обложки из исходной дорожки, когда дорожка повторно связана</system:String>

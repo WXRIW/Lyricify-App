@@ -456,7 +456,7 @@
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion">Önskad rekommendationsregion</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.Description">Detta kommer att påverka din startsida</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.Default">Standard (ditt kontos region)</system:String>
-    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternerLocation">Internerplats (din IP:s region)</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternetLocation">Internetplats (din IP:s region)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced">Avancerat</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">Aktivera omlänkning av spårets konstverk</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Använd återlänkade konstverk istället för konstverk från originalspåret när spåret återlänks</system:String>

@@ -441,6 +441,8 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">开启后，灵动词岛将在暂停时自动隐藏</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">全屏隐藏</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">运行全屏程序时隐藏灵动词岛</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage">显示艺人图片</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">当你切换到新的曲目后，在灵动词岛左侧显示艺人图片</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">不透明度</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">桌面歌词</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">双行模式</system:String>
@@ -525,7 +527,7 @@
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion">首选的推荐区域</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.Description">这将影响到你的首页推荐</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.Default">默认 (你的账户地区)</system:String>
-    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternerLocation">网络位置 (你的 IP 地区)</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternetLocation">网络位置 (你的 IP 地区)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced">高级</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">使用重新链接曲目的专辑图片</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">当曲目被重新链接时，使用重新链接曲目的专辑图片代替原曲目的专辑图片</system:String>
@@ -565,6 +567,11 @@
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Port">端口</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Username">用户名</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Password">密码</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test">测试</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.ProxyOverrideEnabled">代理覆盖未启用，测试结果可能不同。仍然测试？</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Status">网络状态</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Connected">已连通</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Disconnected">未连通</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Apply">应用</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">部分功能需要重启才能生效。</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile">设置文件</system:String>
@@ -1173,7 +1180,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.InvalidClient">无效的 Client 信息, 请检你的 API Client 配置</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">用户没有在 Spotify Developer Dashboard 中注册</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.SslException">SSL 连接无法被建立。</system:String>
-    <system:String x:Key="String.Messages.MainWindow.Exception.SslException.Message">你的网络连接出了问题。请确保你可以连通 accounts.spotify.com 和 api.spotify.com。如果你在使用网络代理，可尝试更换。</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SslException.Message">你的网络连接出了问题。请确保你可以连通 accounts.spotify.com 和 api.spotify.com。如果你在使用网络代理，可尝试更换节点或服务提供商。</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">喜报：Spotify 服务器寄了 (503 错误，服务不可用)，请稍后再试</system:String>
 
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">极端 429 错误</system:String>

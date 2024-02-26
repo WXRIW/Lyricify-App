@@ -146,7 +146,7 @@
     <system:String x:Key="String.Page.Search.Availability.SearchBar.PlaceHolder">Input link or Spotify URI here</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.NetworkIssue.Message">Network issue, please check your Internet connection.</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">Album not found, please check the ID your input.</system:String>
-    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Wrong input or unsupported input. Only track (redirect to it's album), album and playlist links are supported. Here are some examples.</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Wrong input or unsupported input. Only track (redirect to its album), album and playlist links are supported. Here are some examples.</system:String>
     <system:String x:Key="String.Page.Search.Availability.Market">Market</system:String>
     <system:String x:Key="String.Page.Search.Availability.Market.Unspecified">Unspecified</system:String>
     <system:String x:Key="String.Page.Search.Availability.MoreVersions">More versions</system:String>
@@ -427,7 +427,7 @@
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo.Description">Use colorful Lyricify logo instead of single color Lyricify logo</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Byland mode</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Byland or Island, it's up to you! Different styles enjoys different features</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Byland or Island, it's up to you! Different styles enjoy different features</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dynamic Lyrics Island will automatically disappear at your cursor entrance in Byland mode, but in Island mode, you can use your cursor to move the island. &#x000A;You will be able to close Dynamic Lyrics Island by right click menu in Island Mode, but in Byland mode, you can only close by main menu or hotkey.</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">Always show two lines</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">Always show two lines of lyrics even when translation is not available</system:String>
@@ -441,6 +441,8 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">By turning on, Dynamic Lyrics Island will be hidden at pause</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">Fullscreen hide</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">Hide Dynamic Lyrics Island when you have program running at fullscreen mode</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage">Show artist image</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">Show artist image on the left side of the Dynamic Lyrics Island after you switch to a new song</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">Opacity</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">Desktop Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Due-Line mode</system:String>
@@ -525,7 +527,7 @@
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion">Preferred recommendation region</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.Description">This will affect your Home page</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.Default">Default (your account's region)</system:String>
-    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternerLocation">Interner Location (your IP's region)</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternetLocation">Internet Location (your IP's region)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced">Advanced</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">Enable track's artwork relinking</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Use relinked artwork instead of artwork from original track when the track is relinked</system:String>
@@ -565,6 +567,11 @@
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Port">Port</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Username">Username</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Password">Password</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test">Test</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.ProxyOverrideEnabled">Proxy override not enabled, the test result could be different. Still test?</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Status">Network Status</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Connected">Connected</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Disconnected">Disconnected</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Apply">Apply</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">Some functions might need a restart to take effect.</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile">Settings file</system:String>
@@ -763,9 +770,9 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice">We have noticed that you are not playing songs on Spotify. Since Lyricify is a lyrics app, not a music player, you need to play songs on Spotify in order to view lyrics in Lyricify.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice.Button.Continue">Continue</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Button.Continue">Continue</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Title">Since you are using Custom API Client, it is recommended to authorise public API client in order to use Lyricify under extreme conditions</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Title">Since you are using Custom API Client, it is recommended to authorize public API client in order to use Lyricify under extreme conditions</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip">Skip this step (not recommended)</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip.Ask">Are you sure to skip this step? It is highly recommended to authorise public API client in order to use Lyricify under extreme conditions.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip.Ask">Are you sure to skip this step? It is highly recommended to authorize public API client in order to use Lyricify under extreme conditions.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Title">Finish Spotify authorization in your web browser, just like what you have just did</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Skip">Skip</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Error.Title">Something's wrong, but you can still use Lyricify, just sit back and relax</system:String>
@@ -933,7 +940,7 @@
     <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow">Apply in Main Window</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow.Description">Load current lyrics info in Main Window (Only available when this track is currently playing)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Save">Save (Upload)</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Button.Save.Message.ApplyInMainWindow">Apply changes in Main Window and check the lyrics you have just imported is strongly recommanded. Apply in Main Window now (Yes), continue the upload (No), or do nothing (Cancel)?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Save.Message.ApplyInMainWindow">Apply changes in Main Window and check the lyrics you have just imported is strongly recommended. Apply in Main Window now (Yes), continue the upload (No), or do nothing (Cancel)?</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Close">Close</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.EditRawFile">Edit Raw File</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">Are you sure to close without saving?</system:String>
@@ -1178,7 +1185,7 @@
     
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">Extreme 429 Error</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.HavePublic.Notice">Your custom API client is under extreme condition (returning 429 error with a retry after of {0} seconds), Lyricify will continue to work using public API client</system:String>
-    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.NoPublic.Message" xml:space="preserve">Your custom API client is under extreme condition (returning 429 error with a retry after of {0} seconds), and public API client hasn't been configured, so Lyricify is dysfunctional until 429 error ends.&#x000A;Press Yes to log out, pless No to close Lyricify.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.NoPublic.Message" xml:space="preserve">Your custom API client is under extreme condition (returning 429 error with a retry after of {0} seconds), and public API client hasn't been configured, so Lyricify is dysfunctional until 429 error ends.&#x000A;Press Yes to log out, press No to close Lyricify.</system:String>
     
     <system:String x:Key="String.Messages.MainWindow.Lyrics.NoTrackPlaying">You won't be able to open Lyrics until Spotify starts playing</system:String>
     <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">You won't be able to open Apple Music Lyrics until Spotify starts playing</system:String>
@@ -1213,7 +1220,7 @@
     <system:String x:Key="String.Wrapped.Title">Lyricify Wrapped</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2023">All about you, me and 2023</system:String>
     <system:String x:Key="String.Wrapped.Unwrap">Unwrap</system:String>
-    <system:String x:Key="String.Wrapped.Unwrap.Notice">Unwrap means you agree with Lyricify's user agreements and allow Lyricify to process and analyse your app usage.</system:String>
+    <system:String x:Key="String.Wrapped.Unwrap.Notice">Unwrap means you agree with Lyricify's user agreements and allow Lyricify to process and analyze your app usage.</system:String>
     <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>> Accelerate</system:String>
     <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">Unwrap now</system:String>
     <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify has wrapped all your stories with Lyricify in 2023, go unwrap it now!</system:String>

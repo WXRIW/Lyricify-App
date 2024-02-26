@@ -245,6 +245,52 @@ Lyricify 4 有着强大的自定义字体功能，您可以为 `歌词` 界面�
 3. 上文中的“QQ 音乐、网易云音乐均无歌词”指：QQ 音乐和网易云音乐上均没有对应曲目或对应曲目无歌词。通过 Lyricify 上的搜索按钮没有搜到对应歌词不代表真的没有，需要手动去 QQ 音乐和网易云音乐的 App 内查找，确保没有对应歌词后才可认为“均无歌词”。  
 4. QQ 音乐、网易云音乐有歌词但均无翻译不算作“均无歌词”，这种情况下上传歌词和翻译到 Lyricify 歌词库仍算作违规。您可以到网易云音乐提交翻译，等待过审后 Lyricify 会自动拉取翻译。
 
+### 添加翻译
+在添加非中文歌词后，需要手动添加中文翻译。  
+点击 `高级歌词编辑器` 窗口右上角的 `添加翻译` 按钮，即可自动添加时间轴，在这之后，您可以手动输入中文翻译。  
+  
+**这里再提供一种更容易的翻译导入方式：**  
+导入歌词后，可以先将翻译以以下格式复制到剪切板中，再点击 `添加翻译` 按钮，这时 Lyricify 会自动匹配翻译行。
+如，歌词原文为：
+```
+Lately, I've been, I've been losing sleep
+Dreaming about the things that we could be
+Oh
+But baby, I've been, I've been praying hard
+Said no more counting dollars
+```
+翻译为
+```
+最近我总是辗转反侧 难以入眠
+对我们可能的未来 浮想联翩
+
+但亲爱的 我一直在努力祈祷
+不再财迷心窍
+```
+这时，可以将以下内容复制到剪切板：
+```
+Lately, I've been, I've been losing sleep
+最近我总是辗转反侧 难以入眠
+Dreaming about the things that we could be
+对我们可能的未来 浮想联翩
+Oh
+
+But baby, I've been, I've been praying hard
+但亲爱的 我一直在努力祈祷
+Said no more counting dollars
+不再财迷心窍
+```
+也可以只包含翻译：
+```
+最近我总是辗转反侧 难以入眠
+对我们可能的未来 浮想联翩
+
+但亲爱的 我一直在努力祈祷
+不再财迷心窍
+```
+注意，第三行歌词的翻译为空，此时一定要保留空行，不然会导致翻译与歌词错位。  
+此外，还需要注意翻译行数与歌词原文的行数一致。
+
 ## 可用性查询
 在 Lyricify 4 中，您可以很方便的检查专辑、歌单、已点赞的歌曲在不同地区的可用性。  
 可用性查询在 `主界面左侧导航栏` `搜索` `可用性` 里。  
@@ -348,15 +394,17 @@ Apple Music 歌词界面 CJK (中日韩) 歌词流畅度较低，这是微软的
 ### 导致原因
 网络连接状态不好，导致无法连接到 Spotify 服务器。与 Lyricify 无关。 
 ### 解决方案
-更换网络环境，如果你在使用代理，可尝试更换服务商。  
+更换网络环境，如果你在使用代理，可尝试更换节点或服务提供商。  
 请确保在你的网络下，这两个 Spotify 域名可以 Ping 连通：  
 ```
 accounts.spotify.com
 api.spotify.com
 ```
+如果可以连通，但仍然无法启动 Lyricify，请继续更换你的网络连接或服务提供商，直到可以连通为止。  
+Lyricify 可以保证的是，Lyricify 本身没有问题，这个问题是纯网络问题。
 
 ## 启动 Lyricify 后弹出消息框
-**注意：** 本问题仅在 4.2.11 或更早版本中出现。
+**注意：** 本问题仅在 4.2.11 或更早版本中出现。  
 打开 Lyricify 后弹出消息框，出现下列提示之一：
 - The SSL connection could not be established, see inner exception.
 - 由于目标计算机积极拒绝，无法连接。
