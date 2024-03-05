@@ -17,7 +17,7 @@
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Apple">Apple</system:String>
 
     <!--Login-->
-    <system:String x:Key="String.MainWindow.Login.Welcome">Bienvenu(e) sur Lyricify，{0}</system:String>
+    <system:String x:Key="String.MainWindow.Login.Welcome">Bienvenu(e) sur Lyricify, {0}</system:String>
     <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Bienvenu(e), cher(chère) {0}</system:String>
     <system:String x:Key="String.MainWindow.Login.LoggingIn">Connexion</system:String>
     <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">Cela pourrait prendre du temps</system:String>
@@ -32,7 +32,7 @@
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession">Session media</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">Vous êtes connecté(e)</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">Vous êtes déconnecté(e)</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. La session media serait seulement utilisable quand vous utilisez la version PC (celle de Microsoft Store est inclue) jouer de la musique. La version web et mobile ne sont pas soutenues！&#x000A;2. Uniquement si des infos sur la chanson en cours de lecture sont détectées，Lyricify va essayer de connecter à la session media</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. La session media serait seulement utilisable quand vous utilisez la version PC (celle de Microsoft Store est inclue) jouer de la musique. La version web et mobile ne sont pas soutenues!&#x000A;2. Uniquement si des infos sur la chanson en cours de lecture sont détectées,Lyricify va essayer de connecter à la session media</system:String>
 
     <system:String x:Key="String.MainWindow.PinnedArea.Notice">Épingler la liste de lecture</system:String>
 
@@ -47,7 +47,7 @@
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.SpotifyConnect">Se connecter à Spotify</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Volume">Volume</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Fullscreen">Plein écran</system:String>
-    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.MobileUIFullscreen">Plein écran d'IU mobile'</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.MobileUIFullscreen">Plein écran d'IU mobile</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.LyricifyFullscreen">Plein écran Lyricify</system:String>
 
 
@@ -143,13 +143,13 @@
     <system:String x:Key="String.Page.Search.Search.Result.Albums">Albums</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Playlists">Listes de lecture</system:String>
     <system:String x:Key="String.Page.Search.Lyrics.NotAvailable">Indisponible actuellement</system:String>
-    <system:String x:Key="String.Page.Search.Availability.SearchBar.PlaceHolder">Ércivez le lien ou coller l'URL de Spotify</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.PlaceHolder">Saisissez le lien ou coller l'URL de Spotify</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.NetworkIssue.Message">Problème de réseau, veuillez vérifier la connexion.</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">Aucun album trouvé, veuillez vérifier l'ID saisi</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Réessayez, Seul le lien de chanson (rediriger vers à l'album), d'album et de liste de lecture sont pris en charge. Voici quelque exemples.</system:String>
     <system:String x:Key="String.Page.Search.Availability.Market">Marché</system:String>
     <system:String x:Key="String.Page.Search.Availability.Market.Unspecified">Non spécifié</system:String>
-    <system:String x:Key="String.Page.Search.Availability.MoreVersions">Plus d'édition'</system:String>
+    <system:String x:Key="String.Page.Search.Availability.MoreVersions">Plus d'édition</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.UnavailableTracks">Pistes indisponibles</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.AllAvailable">Toutes disponibles</system:String>
     <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.ToolTip.GoToAlbum">Vers à l'album</system:String>
@@ -220,7 +220,7 @@
     <system:String x:Key="String.AudioFeatures.Copy.AlbumTracksCount">Nombre de pistes d'album</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.ArtistName">Artiste</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.ArtistID">L'ID d'artiste</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistNames">Artistes </system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistNames">Artistes</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs">Les IDs des artistes</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.ArtistNames.Bracket">Aartiste</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs.Bracket">Les IDs des artistes</system:String>
@@ -229,8 +229,8 @@
     <system:String x:Key="String.Info.Copy.DiscNum">Dsique {0}</system:String>
     <system:String x:Key="String.Info.Copy.TrackNum">Piste {0}</system:String>
     <system:String x:Key="String.Info.Copy.Tracklist">Liste de piste</system:String>
-    <system:String x:Key="String.Info.Copy.Tracklist.Of">Liste de piste de {0} </system:String>
-    <system:String x:Key="String.Info.Copy.TopTracks.From">Liste de chansons populaires de {0} </system:String>
+    <system:String x:Key="String.Info.Copy.Tracklist.Of">Liste de piste de {0}</system:String>
+    <system:String x:Key="String.Info.Copy.TopTracks.From">Liste de chansons populaires de {0}</system:String>
     <system:String x:Key="String.Info.Copy.Album.TotalLength">Durée totale de l'album</system:String>
     <system:String x:Key="String.Info.Copy.Album.DiscsCount">Nombre de disques d'album</system:String>
     <system:String x:Key="String.Info.Copy.Playlist.Name">Nom de liste de lecture</system:String>
@@ -260,7 +260,7 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">Afficher l'artiste</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Afficher l'album</system:String>
 
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon">Auteur：</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon">Créé par:</system:String>
 
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">À propos</system:String>
@@ -279,8 +279,8 @@
     <system:String x:Key="String.Page.About.LyricsProviders">Base de lyric de Lyricify, QQ Music, Cloud Music</system:String>
     <system:String x:Key="String.Page.About.Donation">Faire un don</system:String>
     <system:String x:Key="String.Page.About.Thanklist">Remerciement</system:String>
-    <system:String x:Key="String.Page.About.Thanklist.ThanksApple">Grand merci à Apple pour cette conception ingénieuse !</system:String>
-    <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">Grand merci à Spotify grâce à sa contribution dans la musique en streaming mondiale !</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksApple">Grand merci à Apple pour cette conception ingénieuse</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">Grand merci à Spotify grâce à sa contribution dans la musique en streaming mondiale</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">Grand merci à Difer, qui offre un compte Spotify Premium</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksInsiders">Grand merci aux membres de Lyricify Insider</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksStorePurchase">Merci à tout le monde qui achete Lyricify dans Microsoft Store</system:String>
@@ -313,7 +313,7 @@
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground">Contexte de lyric</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.Description">Modifier l'arrière-plan de lyric</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.ComboBox.SingleColor">Couleur pure</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.ComboBox.BlurredCover">Couverture floue (Par défaut) </system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.ComboBox.BlurredCover">Couverture floue (Par défaut)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom">Zoomer</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Description">Modifier le taux de zoom de l'écran de Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Button.Reset">Réinitialiser</system:String>
@@ -366,7 +366,7 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable.Description">Activer lyric verbatim de Cloud Music</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Lyric d'Apple Music</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">L'arrière-plan</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Sélectionnez ce que vous voudriez utiliser comme l'arrière-plan du lyric d'Apple Music </system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Sélectionnez ce que vous voudriez utiliser comme l'arrière-plan du lyric d'Apple Music</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.Static">Statique</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.Dynamic">Dynamique</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.DynamicBeating">Dynamique (Battement)</system:String>
@@ -557,7 +557,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Sources.GitHub">GitHub</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Sources.GitHubProxy">GitHub Proxy (ghproxy.com)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.MicrosoftStore.Description">La mise à jour est gérée pas Microsoft Store</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer">Ne pas utiliser le proxy dans les requêtes du serveur Lyricify </system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer">Ne pas utiliser le proxy dans les requêtes du serveur Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer.Description">Si vous êtes en Chine continentale, ne pas utiliser de proxy dans ces requêtes pourrait améliorer vos expériences.</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings">Activer les paramètres manuels du proxy</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings.Description">Cela remplacera les paramètres de votre agent système dans Lyricify.</system:String>
@@ -764,7 +764,7 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice.Button.Continue">Continuer</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Button.Continue">Continuer</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Title">Étant donné que vous utilisez un client API personnalisé, il est fortement recommandé d'autoriser le client API public à continuer d'utiliser Lyricify dans des conditions extrêmes.</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip">Sauter cette étape (non recommandé)  </system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip">Sauter cette étape (non recommandé)</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip.Ask">Vous êtes sûr de vouloir sauter cette étape ? Il est fortement recommandé d'autoriser les clients de l'API publique à continuer d'utiliser Lyricify dans des conditions extrêmes.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Title">Complétez la licence Spotify dans votre navigateur, comme vous venez de le faire</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Skip">Sauter</system:String>
@@ -802,7 +802,7 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ColorfulLogo">Symboles colorés</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.BoldText">Texte en gras</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">Copier</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.Share.Button.Rendering">En cours de rendu </system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Button.Rendering">En cours de rendu</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">Sauvegarder</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">L'image JPEG (*.jpg)|*.jpg</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">L'enregistrement a échoué.</system:String>
@@ -813,10 +813,10 @@
     <system:String x:Key="String.Window.ConfigureWeb.Notice2">Si la version web de Spotify s'affiche correctement, la lecture en ligne de Lyricify devrait être possible (Un redémarrage de Lyricify peut être nécessaire).</system:String>
 
     <!--Custom Configuration Manager-->
-    <system:String x:Key="String.Window.CustomConfigurationManager">Personnaliser la gestionnaire de configuration </system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager">Personnaliser la gestionnaire de configuration</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Description">Chargez votre création ou même une configuration personnalisée d'un autre utilisateur.</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Name">Nom</system:String>
-    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Description">Description </system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Description">Description</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.File">Papier</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Path">Sentiers</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.IsEnabled">Activé</system:String>
@@ -1220,7 +1220,7 @@
     <system:String x:Key="String.Wrapped.Notice.CloseReminder">Le Wrapped de Lyricify se trouve dans le menu principal et dans le menu des composants utilisateur, que vous pouvez consulter ultérieurement</system:String>
 
     <system:String x:Key="String.Wrapped.Messages.001">Salut, {0}</system:String>
-    <system:String x:Key="String.Wrapped.Messages.002">C'est moi, Lyricify！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.002">C'est moi, Lyricify!</system:String>
     <system:String x:Key="String.Wrapped.Messages.003">Tu te le souviens ?</system:String>
     <system:String x:Key="String.Wrapped.Messages.004" xml:space="preserve">Nous nous sommes rencontrés pour la première fois à &#x0a;{0}</system:String>
     <system:String x:Key="String.Wrapped.Messages.005">Depuis {0:N0} jours</system:String>
