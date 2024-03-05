@@ -17,8 +17,8 @@
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Apple">Apple</system:String>
 
     <!--Login-->
-    <system:String x:Key="String.MainWindow.Login.Welcome">Bienvenu(e) sur Lyricify，{0}！</system:String>
-    <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Bienvenu(e), cher(chère) {0}！</system:String>
+    <system:String x:Key="String.MainWindow.Login.Welcome">Bienvenu(e) sur Lyricify，{0}</system:String>
+    <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Bienvenu(e), cher(chère) {0}</system:String>
     <system:String x:Key="String.MainWindow.Login.LoggingIn">Connexion</system:String>
     <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">Cela pourrait prendre du temps</system:String>
     <system:String x:Key="String.MainWindow.Login.StillTrying">Nous essayons encore de vous connecter. </system:String>
@@ -32,7 +32,7 @@
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession">Session media</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">Vous êtes connecté(e)</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">Vous êtes déconnecté(e)</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. La session media serait seulement utilisable quand vous utilisez la version PC (celle de Microsoft Store est inclue) jouer de la musique. La version web et mobile ne sont pas soutenues！&#x000A;2. Uniquement si des infos sur la chanson en cours de lecture sont détectées，Lyricify va essayer de connecter à la session media！</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. La session media serait seulement utilisable quand vous utilisez la version PC (celle de Microsoft Store est inclue) jouer de la musique. La version web et mobile ne sont pas soutenues！&#x000A;2. Uniquement si des infos sur la chanson en cours de lecture sont détectées，Lyricify va essayer de connecter à la session media</system:String>
 
     <system:String x:Key="String.MainWindow.PinnedArea.Notice">Épingler la liste de lecture</system:String>
 
