@@ -260,7 +260,7 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">Afficher l'artiste</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Afficher l'album</system:String>
 
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon">Créé par:</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon" xml:space="preserve">Écriture : </system:String>
 
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">À propos</system:String>
@@ -525,7 +525,7 @@
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion">Votre région de recommandée</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.Description">Cela donnera des impacts de votre région de recommandée</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.Default">Par défaut (La région de votre compte)</system:String>
-    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternerLocation">Localocalisation Internet (Selon votre IP)</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternetLocation">Localocalisation Internet (Selon votre IP)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced">Paramètre avancé</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">Utiliser l'image d'album rédirigée</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Utiliser l'image d'album rédirigée quand la chanson est rédirigée</system:String>
@@ -893,7 +893,7 @@
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.Unset">Non défini</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.True">Oui</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.False">Non</system:String>
-    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer">Créateur</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer">Auteur</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format">Format:</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format.Description">Les créateurs multiples doivent être séparés par un , (point-virgule virgule). Vous pouvez également saisir un créateur par ligne et laisser Lyricify s'occuper du formatage. Les noms chinois doivent être en chinois simplifié.</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Example">Exemple:</system:String>
