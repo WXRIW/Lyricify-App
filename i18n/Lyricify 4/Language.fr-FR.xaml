@@ -21,7 +21,7 @@
     <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Bienvenu(e), cher(chère) {0}</system:String>
     <system:String x:Key="String.MainWindow.Login.LoggingIn">Connexion</system:String>
     <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">Cela pourrait prendre du temps</system:String>
-    <system:String x:Key="String.MainWindow.Login.StillTrying">Nous essayons encore de vous connecter. </system:String>
+    <system:String x:Key="String.MainWindow.Login.StillTrying">Nous essayons encore de vous connecter</system:String>
 
     <!--User Widget-->
     <system:String x:Key="String.MainWindow.UserWidget.Profile">Votre profil</system:String>
@@ -135,7 +135,7 @@
     <system:String x:Key="String.Page.Search.Title.Search">Rechercher</system:String>
     <system:String x:Key="String.Page.Search.Title.Lyrics">Lyric</system:String>
     <system:String x:Key="String.Page.Search.Title.Availability">Disponibilité</system:String>
-    <system:String x:Key="String.Page.Search.429Error">Trop de demandes - Une limitation d'api a été appliquée. (l'erreur 429)</system:String>
+    <system:String x:Key="String.Page.Search.429Error">Trop de demandes - Une limitation d'api a été appliquée (l'erreur 429)</system:String>
     <system:String x:Key="String.Page.Search.Retry">Réessayer</system:String>
     <system:String x:Key="String.Page.Search.Search.SearchBar.PlaceHolder">Rechercher des chansons,artiste,albums et listes de lecture</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Songs">Chansons</system:String>
@@ -514,7 +514,7 @@
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup">Détecter en démarrant</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup.Description">Détecter les nouvelles albums en démarrant Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases">Seulement &quot;en boucle &quot; détecter</system:String>
-    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases.Description">Cela réduira le nombre de requêtes à l'API Web de Spotify et réduira la probabilité d'obtenir trop d'erreurs de requête (429 erreurs). En activant cette option, certains nouveaux albums ne seront pas affichés. (On recommande d'activer cette option lorsque vous suivez 20 artistes ou plus).</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases.Description">Cela réduira le nombre de requêtes à l'API Web de Spotify et réduira la probabilité d'obtenir trop d'erreurs de requête (429 erreurs). En activant cette option, certains nouveaux albums ne seront pas affichés. (On recommande d'activer cette option lorsque vous suivez 20 artistes ou plus)</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization">Personnaliter</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.Description">Vous pouvez sélectionner une partie d'artiste et faire Lyricify leur détecter, même si ceux qui vous ne suivez pas.</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists">Sélectionner un artiste</system:String>
@@ -531,7 +531,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Utiliser l'image d'album rédirigée quand la chanson est rédirigée</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">La disponibilité des titres dépend du pays enregistré dans les paramètres du profil Spotify de l'utilisateur. La disponibilité des titres dépend du pays enregistré dans les paramètres du profil Spotify de l'utilisateur. Cela se produit généralement lorsque le titre sur lequel porte l'album a été publié plusieurs fois sous différentes licences dans différents marchés.&#x000A;&#x000A;Ces pistes sont reliées entre elles de sorte que lorsqu'un utilisateur essaie de jouer une piste qui n'est pas disponible sur sa propre place de marché, Spotify essaiera de jouer une autre version d'un titre disponible sur le marché de l'utilisateur.</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement">Activer enforce la Session Media</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">Utiliser la Session Media du système afin d'améliorer l'expérience en utilisant Spotify. (Assurez-vous que vous avez activé l'option "Afficher la fenêtre de bureau lors de l'utilisation des touches multimédia" dans les paramètres de Spotify.)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">Utiliser la Session Media du système afin d'améliorer l'expérience en utilisant Spotify. (Assurez-vous que vous avez activé l'option "Afficher la fenêtre de bureau lors de l'utilisation des touches multimédia" dans les paramètres de Spotify)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement">Activer la mise à jour en cours de lecture</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement.Description">L'expérience supérieur en changeant des pistes, fonctionnée par le core intelligent du Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">Activer la correction de la ligne de temps</system:String>
@@ -541,7 +541,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">Activer la transformée du chinois</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">Activer la transformée du chinois pour les éléments de Spotify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">Retard d'appareil</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">Le valoir: milleseconde, cet option est désignée pour le retard des appareils bluetooths, n'utlisez pas pour le retard des lyrics. Efficace après rechargement.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">Le valoir: milleseconde, cet option est désignée pour le retard des appareils bluetooths, n'utlisez pas pour le retard des lyrics. Efficace après rechargement</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">Gestion des raccourcis</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">Ouvrir la gestionnaire des raccourcis et gérer des raccourcis globales</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">Ouvrir</system:String>
