@@ -6,13 +6,13 @@
     -->
     
     <!--Navigation Panel-->
-    <system:String x:Key="String.MainWindow.Navigation.Home">Page d'accueil</system:String>
+    <system:String x:Key="String.MainWindow.Navigation.Home">Accueil</system:String>
     <system:String x:Key="String.MainWindow.Navigation.Search">Rechercher</system:String>
     <system:String x:Key="String.MainWindow.Navigation.YourLibrary">Votre bibliothèque</system:String>
     <system:String x:Key="String.MainWindow.Navigation.LikedSongs">Chansons aimées</system:String>
 
     <!--Mobile Mode Navigation-->
-    <system:String x:Key="String.MainWindow.Mobile.Navigation.Home">Page d'accueil</system:String>
+    <system:String x:Key="String.MainWindow.Mobile.Navigation.Home">Accueil</system:String>
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Lyrics">Lyric</system:String>
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Apple">Apple</system:String>
 
@@ -1035,7 +1035,7 @@
     <system:String x:Key="String.Window.BackupCenter">Sauvegarde et d'automatisation</system:String>
     <system:String x:Key="String.Window.BackupCenter.Title">Centre de sauvegarde et d'automatisation Lyricify</system:String>
     <system:String x:Key="String.Window.BackupCenter.Tab.Home">Accueil</system:String>
-    <system:String x:Key="String.Window.BackupCenter.Tab.Backup">sauvegarder</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Tab.Backup">Sauvegarder</system:String>
     <system:String x:Key="String.Window.BackupCenter.Tab.Restore">Restaurer</system:String>
     <system:String x:Key="String.Window.BackupCenter.Tab.Preview">Apreçevoir</system:String>
     <system:String x:Key="String.Window.BackupCenter.Tab.Automation">Automatisation</system:String>
