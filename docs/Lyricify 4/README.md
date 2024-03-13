@@ -609,4 +609,5 @@ Lyricify 4 专为 Spotify 设计，`Lyricify 4` 全称 `Lyricify for Spotify`。
 | 名称 | 描述 |
 | - | - |
 | 歌词 | 歌词，“字幕”是不被 Lyricify 认同的说法 |
-| Lyricify | Lyricify 的名称是 “Lyricify”，“ly”“Ly”“Lyr”“Lyricfy”等是不被 Lyricify 认同的说法 |
+| Lyricify | Lyricify 的名称是 “Lyricify”，“ly”“Ly”“Lyr”“Liricify”“Lyricfy” 等是不被 Lyricify 认同的说法 |
+| Lyricify 4 | Lyricify 4 的名称是 “Lyricify 4”，全称为 “Lyricify for Spotify”，“l4”“Ly4” 等是不被 Lyricify 认同的说法 |
