@@ -29,6 +29,14 @@
     <system:String x:Key="String.MainWindow.UserWidget.LogOut">登出</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.Settings">設定</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.About">關於</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount">Lyricify 帳戶</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.1">超級管理員</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.2">預覽成員</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.3">歌詞管理員</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.4">內測組成員</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.5">用戶</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.6">被限制的用戶</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.Null">未找到或未註冊</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession">Media Session</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">已連接</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">未連接</system:String>
@@ -424,6 +432,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">背景人聲飛出動畫與方向</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">移動端佈局</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout.Description">Apple Music 移動端佈局</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">呼吸點對齊方向</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">呼吸點在 iOS 上總是左對齊，而在安卓上與歌詞保持同側</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">阻止睡眠</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.Description">阻止自動關閉螢幕和睡眠</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.Always">總是</system:String>
@@ -818,6 +828,7 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ShowTranslation">顯示翻譯</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ColorfulLogo">彩色標誌</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowTranslation">顯示翻譯</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowBackgroundVocals">顯示背景人聲</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ColorfulLogo">彩色標誌</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.BoldText">粗體文字</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">複製</system:String>
