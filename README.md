@@ -27,7 +27,7 @@
 1. <span id="ref1_en">Lyricify 3 currently supports Spotify, iTunes, Apple Music, Music Center, QQ Music, Netease Cloud Music, YesPlayMusic, we suggest all Spotify users to use Lyricify 4, instead of Lyricify 3.</span>  
 2. <span id="ref2_en">Lyricify 4, Lyricify 3 can run on Linux and macOS via Wine. The installation process of Lyricify 4 may be cumbersome and requires your patience. On Macs with M-series chips, it is recommended to use a Windows on ARM virtual machine to run the Lyricify ARM64 version for a better experience.</span>  
 3. <span id="ref3_en">Lyricify Mobile can run on visionOS as Compatible iOS App.</span> 
-4. <span id="ref4_en">Lyricify Mobile for macOS has not been released yet due to some issues. It is expected to be released with 1.4.3, stay tuned.</span>  
+4. <span id="ref4_en">Lyricify Mobile for macOS has not been released yet due to some issues. It is expected to be released with Lyricify Mobile version 1.4.3, stay tuned.</span>  
 5. <span id="ref5_en">User guide documents are in Simplified Chinese, use a translator if you don't speak Chinese.</span>  
 
 **Telegram Group / Telegram 群:**  
@@ -97,7 +97,7 @@ Lyricify 4 是目前 Lyricify 系列中最具创新的功能结晶，在这里�
 Lyricify 的歌词处理相关代码均已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中使用 Apache License 2.0 协议开源，希望能为开源社区做出贡献。  
 
 ## Lyricify Mobile
-Lyricify Mobile 为 Lyricify 家族的移动端，目前支持 Android，iOS 和 iPadOS 平台。  
+Lyricify Mobile 为 Lyricify 家族的移动端，目前支持 Android，iOS, iPadOS 和 visionOS 平台，且有发布 Windows 版本。在将来版本会提供 macOS 支持。  
 
 点击这里查看 [Lyricify Mobile 使用指南](/docs/Lyricify%20Mobile/README.md)  
   
