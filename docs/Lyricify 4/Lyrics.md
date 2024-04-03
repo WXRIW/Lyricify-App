@@ -10,6 +10,7 @@ Lyricify 4 目前支持的歌词格式有 LRC、QRC、YRC、Lyricify Syllable、
 | LRC | 记录每行歌词的起始时间，制作方便 | 只能实现逐行歌词 |
 | QRC | 记录每个单词/字的起始时间和时长 | 逐字歌词，但制作复杂耗时 |
 | YRC | 记录每个单词/字的起始时间和时长 | 网易云音乐的逐字歌词格式，目前不支持手动导入 |
+| Lyricify Lines | 记录每行歌词的起始时间和结束时间 | Lyricify 的逐行歌词格式 |
 | Lyricify Syllable | 记录每个音节或单词的起始时间和时长，记录每行歌词的背景人声和对唱视图信息 | Lyricify 的逐音节歌词格式 |
 | Apple Syllable | 记录字词句段的起始时间和结束时间，记录每行歌词的演唱者信息，记录背景人声信息 | Apple Music 逐音节歌词，管理员可以导入 |
 
@@ -146,6 +147,27 @@ YRC 歌词的标准格式为：
 [57380,5130](57380,150,0)I (57530,600,0)think (58130,180,0)I'm (58310,690,0)moving (59000,420,0)but (59420,150,0)I (59570,690,0)go (60260,2250,0)nowhere
 [62840,4800](62840,450,0)Yeah (63290,120,0)I (63410,510,0)know (63920,360,0)that (64280,1260,0)everyone (65540,330,0)gets (65870,1770,0)scared
 [67730,5670](67730,360,0)But (68090,360,0)I've (68450,690,0)become (69140,270,0)what (69410,210,0)I (69620,1050,0)can't (70670,2730,0)be
+```
+
+## Lyricify Lines 格式规范
+
+### 头部信息
+Lyricify Lines 的歌词头部会带有 `[type:LyricifyLines]` 的标记。
+
+### 歌词
+Lyricify Lines 歌词的标准格式为：
+```
+[start,end]Lyrics
+```
+`start` 为起始时间，`end` 为结束时间。  
+时间戳的是大于零的整数，单位是毫秒 (ms)。  
+  
+这是一个示范：
+```
+[54260,57380]Stop and stare
+[57380,62840]I think I'm moving but I go nowhere
+[62840,67730]Yeah, I know that everyone gets scared
+[67730,73370]But I've become what I can't be
 ```
 
 ## Lyricify Syllable 格式规范
