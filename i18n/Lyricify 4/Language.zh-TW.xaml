@@ -29,6 +29,14 @@
     <system:String x:Key="String.MainWindow.UserWidget.LogOut">登出</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.Settings">設定</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.About">關於</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount">Lyricify 帳戶</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.1">超級管理員</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.2">預覽成員</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.3">歌詞管理員</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.4">內測組成員</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.5">用戶</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.6">被限制的用戶</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.Null">未找到或未註冊</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession">Media Session</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">已連接</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">未連接</system:String>
@@ -364,6 +372,10 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.NeteaseFirst">翻譯優先且網易雲音樂優先</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable">網易雲音樂逐字歌詞</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable.Description">啟用網易雲音樂逐字歌詞</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch">啟用 Musixmatch</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch.Description">將 Musixmatch 作為備用歌詞來源</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable">Musixmatch 逐字歌詞</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable.Description">啟用 Musixmatch 逐字歌詞</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Apple Music 歌詞</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">背景</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">選擇你想在 Apple Music 歌詞中使用的背景</system:String>
@@ -424,6 +436,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">背景人聲飛出動畫與方向</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">移動端佈局</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout.Description">Apple Music 移動端佈局</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">呼吸點對齊方向</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">呼吸點在 iOS 上總是左對齊，而在安卓上與歌詞保持同側</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">阻止睡眠</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.Description">阻止自動關閉螢幕和睡眠</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.Always">總是</system:String>
@@ -818,6 +832,7 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ShowTranslation">顯示翻譯</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ColorfulLogo">彩色標誌</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowTranslation">顯示翻譯</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowBackgroundVocals">顯示背景人聲</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ColorfulLogo">彩色標誌</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.BoldText">粗體文字</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">複製</system:String>
@@ -991,7 +1006,16 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">獲取 QRC 歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetLyricifySyllable">獲取 Lyricify Syllable 歌詞</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">逐字行創造器</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.StartRecord">開始記錄</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.StopRecord">停止記錄</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.Clear">清空</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.InputLyrics">導入文字</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.OutputLyrics">匯出文字</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.ChangeStartTime">調整起始時間</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">逐字行移動器</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.CopyCurrentTime">複製目前時間</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.GetTimestampByMillisecond">透過時間戳記取得毫秒數</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.MoveTo">移至</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.QrcSpaceMove">將頭部空格移至尾部</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.LyricifyLyricsVault.Attention" xml:space="preserve">注意：&#x000A;如果 QQ 音樂或網易雲音樂有歌詞，請不要手動上傳其他來源歌詞！&#x000A;透過 Lyricify 上的搜尋按鈕沒有搜到對應歌詞不代表真的沒有，需要手動去 QQ 音樂和網易雲音樂的 App 內查找，確保沒有對應歌詞後才可認為“均無歌詞”。&#x000A;如果違反，你的帳戶有幾率會被限制。&#x000A;仍要導入？</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Apple Music 歌詞匯入</system:String>
