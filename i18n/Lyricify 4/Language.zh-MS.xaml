@@ -459,6 +459,9 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">灵动大陆模式</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">岛还是陆，你来决定！不同的时尚有着不同的功能</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">当你的鼠标指针进入时灵动大陆模式下的灵动词岛时，词岛将自动消失，但在灵动岛模式下，你可以用指针拖动岛的定位。&#x000A;在灵动岛模式下，你可以通过右键菜单来关闭灵动词岛，但在灵动大陆模式下，你只可以通过主菜单或者快捷键来关闭。</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex">屏幕序号</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.Description">选择你想让灵动大陆模式下的灵动词岛显示在哪块屏幕</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem">屏幕 {0}</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">总是显示两行</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">总是显示两行，即使没有翻译可用</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation">隐藏翻译和音译</system:String>

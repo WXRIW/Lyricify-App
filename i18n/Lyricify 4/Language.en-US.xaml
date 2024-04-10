@@ -455,6 +455,9 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Byland mode</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Byland or Island, it's up to you! Different styles enjoy different features</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dynamic Lyrics Island will automatically disappear at your cursor entrance in Byland mode, but in Island mode, you can use your cursor to move the island. &#x000A;You will be able to close Dynamic Lyrics Island by right click menu in Island Mode, but in Byland mode, you can only close by main menu or hotkey.</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex">Screen index</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.Description">Select which screen you want Dynamic Lyrics Island to display on in byland mode</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem">Screen {0}</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">Always show two lines</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">Always show two lines of lyrics even when translation is not available</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation">Hide translation and pronunciation</system:String>
