@@ -436,7 +436,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">Фоновый вокал вылетает из анимации с режиссурой</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">Мобильная раскладка</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout.Description">Мобильная раскладка Apple Music</system:String>
-       <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">Направление выравнивания точек дыхания</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">Направление выравнивания точек дыхания</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">Точки дыхания всегда выравниваются по левому краю на iOS и остаются на той же стороне, что и текст песни на Android</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">Предотвращение спящий режим</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.Description">Предотвращение перехода компьютера в спящий режим</system:String>
@@ -455,6 +455,9 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Режим Byland</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Byland или Island, решать вам! Разные стили имеют разные функции</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dynamic Lyrics Island автоматически исчезнет при входе курсора в режиме Byland, но в режиме Island вы можете вы ваш курсор, чтобы переместить остров. &#x000A;Вы сможете закрыть Dynamic Lyrics Island, щелкнув правой кнопкой мыши меню в режиме острова, но в режиме Byland вы можете закрыть только главное меню или горячую клавишу.</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex">Индекс экрана</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.Description">Выберите, на каком экране будет отображаться Dynamic Lyrics Island в режиме Byland</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem">Экран {0}</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">Всегда показывать две строки</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">Всегда показывать две строки текста, даже если перевод недоступен</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation">Скрыть перевод и транскрипцию</system:String>
