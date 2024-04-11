@@ -455,6 +455,9 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">動態大陸模式</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">島還是陸，你來決定！不同的樣式有著不同的功能</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">當你的滑鼠指標進入時動態大陸模式下的靈動詞島時，詞島將自動消失，但在動態島模式下，你可以用指標拖動島的位置。&#x000A;在動態島模式下，你可以通過右鍵功能表來關閉靈動詞島，但在動態大陸模式下，你只可以通過主功能表或者快速鍵來關閉。</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex">螢幕序號</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.Description">選擇你想讓靈動大陸模式的靈動詞島嶼顯示在哪塊螢幕</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem">螢幕 {0}</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">總是顯示兩行</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">總是顯示兩行，即使沒有翻譯可用</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation">隱藏翻譯和音譯</system:String>
