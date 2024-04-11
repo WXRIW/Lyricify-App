@@ -458,6 +458,7 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex">屏幕序号</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.Description">选择你想让灵动大陆模式下的灵动词岛显示在哪块屏幕</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem">屏幕 {0}</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem.Primary">屏幕 {0} (主显示器)</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">总是显示两行</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">总是显示两行，即使没有翻译可用</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation">隐藏翻译和音译</system:String>

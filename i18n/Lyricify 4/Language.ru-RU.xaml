@@ -458,7 +458,7 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex">Индекс экрана</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.Description">Выберите, на каком экране будет отображаться Dynamic Lyrics Island в режиме Byland</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem">Экран {0}</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">Всегда показывать две строки</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem.Primary">Экран {0} (основной монитор)</system:String>    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">Всегда показывать две строки</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">Всегда показывать две строки текста, даже если перевод недоступен</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation">Скрыть перевод и транскрипцию</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation.Description">Скрыть перевод и транскрипцию, даже если они доступны</system:String>
