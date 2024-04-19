@@ -398,9 +398,9 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">上浮動畫</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">隨著歌詞走動，單詞緩緩浮動，靈魂正被觸動</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Disabled">禁用</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">低 (默認)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">低</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Medium">中度</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">高</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">高 (默認)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">極高</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">單詞發光效果</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">一閃一閃亮晶晶，歌詞成了小星星</system:String>

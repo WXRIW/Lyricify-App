@@ -398,9 +398,9 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">Плавающая анимация</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">Пульс шагает и в ритм</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Disabled">Выкл.</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">Низкий (по умолчанию)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">Низкий</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Medium">Средний</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">Высокий</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">Высокий (по умолчанию)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">Очень высокий</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">Эффект свечения слов</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">Сияет как звезда</system:String>

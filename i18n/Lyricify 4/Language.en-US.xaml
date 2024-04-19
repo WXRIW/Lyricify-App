@@ -398,9 +398,9 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">Float animation</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">Lyrics playing, syllables floating, so amazing</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Disabled">Disabled</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">Low (Default)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">Low</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Medium">Medium</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">High</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">High (Default)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">Tremendous</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">Word shining effect</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">That's glorious</system:String>

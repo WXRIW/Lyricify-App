@@ -402,9 +402,9 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">上浮动画</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">随着歌词走动，单词缓缓浮动，灵魂正被触动</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Disabled">禁用</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">低 (默认)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">低</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Medium">中度</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">高</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">高 (默认)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">极高</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">单词发光效果</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">一闪一闪亮晶晶，歌词成了小星星</system:String>

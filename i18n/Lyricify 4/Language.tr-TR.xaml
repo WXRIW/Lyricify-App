@@ -386,9 +386,9 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">Şamandıra animasyonu</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">Şarkı sözleri çalıyor, heceler süzülüyor, çok şaşırtıcı</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Disabled">Devre dışı</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">Düşük (Varsayılan)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">Düşük</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Medium">Orta</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">Yüksek</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">Yüksek (Varsayılan)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">Muazzam</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">Kelime parlatma efekti</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">Bu muhteşem.</system:String>
