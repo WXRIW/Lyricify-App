@@ -23,7 +23,7 @@
 2. <span id="ref2">Lyricify 4、Lyricify 3 可借助 Wine 实现在 Linux 和 macOS 上运行。Lyricify 4 实现过程可能会比较繁琐，需要您耐心尝试。在 M 系列芯片的 Mac 上，建议使用 Windows on ARM 虚拟机运行 Lyricify ARM64 版本以获得更好的体验。</span>  
 3. <span id="ref3">Lyricify Mobile 可作为兼容的 iOS 应用在 visionOS 上运行。</span>  
 4. <span id="ref4">Lyricify Mobile for macOS 因为一些问题暂时未发布，预计随 1.4.3 发布，敬请期待。</span>  
-5. <span id="ref1">Lyricify Lite 计划支持部分已接入 SMTC 的 app，如 Spotify、Apple Music、HyPlayer 等。</span>  
+5. <span id="ref5">Lyricify Lite 计划支持部分已接入 SMTC 的 app，如 Spotify、Apple Music、HyPlayer 等。</span>  
 
 **Notes**  
 1. <span id="ref1_en">Lyricify 3 currently supports Spotify, iTunes, Apple Music, Music Center, QQ Music, Netease Cloud Music, YesPlayMusic, we suggest all Spotify users to use Lyricify 4, instead of Lyricify 3.</span>  
