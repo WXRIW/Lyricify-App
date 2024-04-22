@@ -30,7 +30,7 @@
 2. <span id="ref2_en">Lyricify 4, Lyricify 3 can run on Linux and macOS via Wine. The installation process of Lyricify 4 may be cumbersome and requires your patience. On Macs with M-series chips, it is recommended to use a Windows on ARM virtual machine to run the Lyricify ARM64 version for a better experience.</span>  
 3. <span id="ref3_en">Lyricify Mobile can run on visionOS as Compatible iOS App.</span> 
 4. <span id="ref4_en">Lyricify Mobile for macOS has not been released yet due to some issues. It is expected to be released with Lyricify Mobile version 1.4.3, stay tuned.</span>  
-5. <span id="ref5_en">Lyricify Lite has been planned to support apps connected to SMTC，such as Spotify, Apple Music, HyPlayer, etc.</span>  
+5. <span id="ref5_en">Lyricify Lite has been planned to support apps connected to SMTC, such as Spotify, Apple Music, HyPlayer, etc.</span>  
 5. <span id="ref6_en">User guide documents are in Simplified Chinese, use a translator if you don't speak Chinese.</span>  
 
 **Telegram Group / Telegram 群:**  
