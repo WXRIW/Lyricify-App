@@ -1221,7 +1221,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">使用者沒有在 Spotify Developer Dashboard 中註冊</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.SslException">SSL 連線無法被建立。</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.SslException.Message">你的網路連線出了問題。請確保你可以連通 accounts.spotify.com 和 api.spotify.com。如果你在使用網路代理，可嘗試更換節點或服務提供商。</system:String>
-    <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">喜報：Spotify 伺服器寄了 (503 錯誤，服務不可用)，請稍後再試</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">喜報：Spotify 伺服器掛了 (503 錯誤，服務不可用)，請稍後再試</system:String>
 
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">極端 429 錯誤</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.HavePublic.Notice">你的自定義 API 客戶端正經歷著極端條件 (返回了等待時長為 {0} 秒的429 錯誤)， Lyricify 將繼續透過公共 API 客戶端工作</system:String>
