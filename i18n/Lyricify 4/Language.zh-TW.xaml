@@ -1334,7 +1334,7 @@
     <system:String x:Key="String.Wrapped.Report.Uploads">上傳次數</system:String>
     <system:String x:Key="String.Wrapped.Report.Imports">匯入次數</system:String>
     <system:String x:Key="String.Wrapped.Report.TracksCount">歌曲總數</system:String>
-    <system:String x:Key="String.Wrapped.Report.MobileViews">移動端流覽數</system:String>
+    <system:String x:Key="String.Wrapped.Report.MobileViews">移動端瀏覽數</system:String>
     <system:String x:Key="String.Wrapped.Report.TrackOfTheYear">年度歌曲</system:String>
     <system:String x:Key="String.Wrapped.Report.LyricifyIndex">Lyricify 指數</system:String>
 </ResourceDictionary>
