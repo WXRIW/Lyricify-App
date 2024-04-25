@@ -376,6 +376,8 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch.Description">Use Musixmatch as backup source</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable">Musixmatch word-by-word lyrics</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable.Description">Enable Musixmatch word-by-word lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.EnableColorfulEmoji">Colorful Emoji</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.EnableColorfulEmoji.Description">Enable colorful emojis at rendering (not all interfaces support colorful emojis)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">Background</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Choose the background you want to use in Apple Music Lyrics</system:String>
@@ -568,6 +570,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement.Description">Superb track switching experience powered by Lyricify Intelligent Engine</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">Enable timeline correction</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">Improve timeline precision</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.CrossfadeNotice">Timeline correction might not work properly when crossfade is enabled</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">Enable lyrics preload</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">Preload lyrics can make lyrics loading imperceptible at track switching</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">Enable Chinese conversion</system:String>

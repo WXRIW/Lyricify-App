@@ -376,6 +376,8 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch.Description">将 Musixmatch 作为备用歌词来源</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable">Musixmatch 逐字歌词</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable.Description">启用 Musixmatch 逐字歌词</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.EnableColorfulEmoji">彩色 Emoji</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.EnableColorfulEmoji.Description">渲染时使用彩色 Emoji (表情符号) (并非所有界面都支持彩色 Emoji)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Apple Music 歌词</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">背景</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">选择你想在 Apple Music 歌词中使用的背景</system:String>
@@ -568,6 +570,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement.Description">极佳的曲目切换体验，由 Lyricify 智能引擎 (Lyricify Intelligent Engine) 强劲驱动</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">启用时间轴修正</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">提高时间轴精确度</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.CrossfadeNotice">Crossfade (淡入/淡出) 已被启用，时间轴修正可能无法正常工作</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">启用歌词预加载</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">预加载歌词可以让曲目切换时的歌词加载几乎无感</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">启用中文转换</system:String>
