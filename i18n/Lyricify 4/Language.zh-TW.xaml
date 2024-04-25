@@ -669,7 +669,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp">獲取幫助</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.TelegramGroup">Telegram 群組</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup">QQ 群組</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup">使用者群 {0}: {1}</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup">群組 {0}: {1}</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases">獲取最新釋出</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.TelegramChannel">Telegram 頻道</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.LyricifyOfficialWebsite">Lyricify 官方網站</system:String>
