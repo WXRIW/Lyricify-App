@@ -13,7 +13,7 @@
 
 | 软件</br>Application | 最新版本</br>Latest Version | 备注</br>Notes | 平台</br>Platform | 使用指南</br>User Guide |
 | :-: | :-: | :-: | :-: | :-: |
-| [Lyricify 4](https://github.com/WXRIW/Lyricify-App#lyricify-4) | [4.2.26-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.2.26) | 适用于 Spotify 用户</br>For Spotify users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%204/README.md)<sup><a href="#ref6_en">6</a></sup> |
+| [Lyricify 4](https://github.com/WXRIW/Lyricify-App#lyricify-4) | [4.2.27-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.2.27) | 适用于 Spotify 用户</br>For Spotify users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%204/README.md)<sup><a href="#ref6_en">6</a></sup> |
 | [Lyricify Mobile](https://github.com/WXRIW/Lyricify-App#lyricify-mobile) | [1.4.2-release](https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.4.2) | 适用于 Spotify 用户</br>For Spotify users | Android, iOS, iPadOS, visionOS<sup><a href="#ref3">3</a></sup>, macOS<sup><a href="#ref4">4</a></sup>, Windows | [点击查看</br>Click to view](/docs/Lyricify%20Mobile/README.md)<sup><a href="#ref6_en">6</a></sup> |
 | [Lyricify 3](https://github.com/WXRIW/Lyricify-App#lyricify-3) | [3.8.6-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v3.8.6) | 适用于 Spotify、iTunes 等<sup><a href="#ref1">1</a></sup> 的用户</br>For Spotify, iTunes and more apps<sup><a href="#ref1_en">1</a></sup>' users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%203/README.md)<sup><a href="#ref6_en">6</a></sup> |
 | [Lyricify Lite](https://github.com/WXRIW/Lyricify-App/issues/144) | 暂未发布</br>Currently not released | 适用于 Spotify、Apple Music 等<sup><a href="#ref5">5</a></sup> 的用户</br>For Spotify, Apple Music and more apps<sup><a href="#ref5_en">5</a></sup>' users | Windows | [点击查看</br>Click to view](https://github.com/WXRIW/Lyricify-App/issues/144)<sup><a href="#ref6_en">6</a></sup> |
@@ -63,6 +63,8 @@ A fantastic app to provide auto-scrolling lyrics and additional functions for [S
 Lyricify 4 是免费软件，如果你觉得 Lyricify 4 做的不错，则可以通过以下渠道支持：
 - 在软件中，菜单-关于页里有打赏方式
 - 在 [Microsoft Store](https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full) 中购买
+
+如果您在 Microsoft Store 购买过程中遇到困难，可以考虑通过打赏的方式支持 Lyricify。  
 
 如果你发现有人在非法销售本软件 (只有 Microsoft Store 中的 Lyricify 是官方发布)，请联系我们！感谢你的支持！  
 

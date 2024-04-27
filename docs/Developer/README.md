@@ -1,6 +1,8 @@
 # Lyricify 开发者文档
 
-Lyricify 将会在未来几百年内择期开放 Lyricify 词库，欢迎更多开发者使用 Lyricify 词库，让歌词传播变得更轻松。  
+注意：本计划暂时搁置，短期内不考虑启动！
+
+Lyricify 将会在未来择期开放 Lyricify 词库，欢迎更多开发者使用 Lyricify 词库，让歌词传播变得更轻松。  
 “Lyricify 开放词库”，后文简称“词库”。
 
 ## 了解 Lyricify 开放词库
