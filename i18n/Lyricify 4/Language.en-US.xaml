@@ -1207,7 +1207,8 @@
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">Too many requests (429 error), retry later</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">Too many requests (429 error), retry after {0} seconds</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify">You can avoid 429 errors by setting up Custom API Client (Click to learn more)</system:String>
-    
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify.Full">You can avoid 429 errors by setting up Custom API Client, which can speed ​​up Lyricify startup and song switching (Click to learn more)</system:String>
+
     <!--MainWindow-->
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 Error, retry later</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Timeout">Timeout exception, retry later</system:String>

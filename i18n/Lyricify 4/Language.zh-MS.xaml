@@ -1210,6 +1210,7 @@
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">过多请求 (429 错误)，请稍后再试</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">过多请求 (429 错误)，请 {0} 秒后再试</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify">你可以通过设置自定义 API Client 以解决 429 错误问题 (点击了解更多)</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify.Full">你可以通过设置自定义 API Client 解决 429 错误问题，加快 Lyricify 启动速度和歌曲切换速度 (点击了解更多)</system:String>
 
     <!--MainWindow-->
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 错误，请稍后再试</system:String>
