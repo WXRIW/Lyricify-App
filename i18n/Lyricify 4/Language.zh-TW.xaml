@@ -406,6 +406,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">極高</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">單詞發光效果</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">一閃一閃亮晶晶，歌詞成了小星星</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk">啟用 CJK 單詞發光效果</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk.Description">為多個 CJK 字元啟用單詞發光效果</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">同框對唱</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">畫面兩側會顯示多位歌手，讓使用者更輕鬆跟唱對唱或合唱歌曲</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst">優先右側對齊</system:String>
@@ -438,6 +440,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">背景人聲飛出動畫與方向</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">移動端佈局</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout.Description">Apple Music 移動端佈局</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect">單詞發光效果</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect.Description">單詞發光效果在 iOS 和 Android 上不同</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">呼吸點對齊方向</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">呼吸點在 iOS 上總是左對齊，而在安卓上與歌詞保持同側</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">阻止睡眠</system:String>
@@ -573,6 +577,8 @@
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.CrossfadeNotice">Crossfade (淡入/淡出) 已被啟用，時間軸修正可能無法正常運作</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">啟用歌詞預載入</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">預載入歌詞可以讓曲目切換時的歌詞載入幾乎無感</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation">啟用取消按讚確認</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation.Description">從你的資料庫 (已按讚的歌曲) 中刪除歌曲前請求確認</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">啟用中文轉換</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">為 Spotify 內容啟用中文轉換</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">裝置延遲</system:String>
@@ -697,6 +703,10 @@
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">按兩下以隱藏 2s</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">水平置中</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">關閉</system:String>
+    
+    <!--Desktop Lyrics-->
+    <system:String x:Key="String.Menu.DesktopLyrics.DuoLineMode">雙行模式</system:String>
+    <system:String x:Key="String.Menu.DesktopLyrics.LyricsAlign">歌詞對齊</system:String>
 
     <!--Apple Music Lyrics-->
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.In">放大</system:String>
@@ -913,6 +923,10 @@
     <system:String x:Key="String.Window.LocalFilesManager.Notice.NoImage">無圖片 (點選新增)</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.AddImage">新增一張圖片</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.ReplaceImage">替換為另一張圖片</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.All">所有支援的檔案</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Image">圖片檔案</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Audio">音訊檔案</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.ImageNotFoundInMediaFile">在選取的媒體檔案中找不到圖片。</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.SuccessUpdate">成功更新了圖片。</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.FailUpdate">更新圖片失敗。</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.AskRemove">確定要移除這張圖片嗎？</system:String>
@@ -1207,7 +1221,7 @@
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">過多請求 (429 錯誤)，請 {0} 秒後再試</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify">你可以透過設定自訂 API Client 來解決 429 錯誤問題 (點選瞭解更多)</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify.Full">你可以透過設定自訂 API Client 解決 429 錯誤問題，加快Lyricify 啟動速度和歌曲切換速度 (點選瞭解更多)</system:String>
-    
+
     <!--MainWindow-->
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 錯誤，請稍後再試</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Timeout">逾時錯誤，請稍後再試</system:String>

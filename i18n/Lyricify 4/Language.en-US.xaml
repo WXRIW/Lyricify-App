@@ -406,6 +406,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">Tremendous</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">Word shining effect</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">That's glorious</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk">Enable CJK word shining effect</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk.Description">Enable word shining effect for multiple CJK characters</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">Duet view</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">Multiple vocalists show on opposite sides of the screen to make duets or multi-singer tracks easy to sing along to</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst">Right alignment first</system:String>
@@ -438,6 +440,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">Background Vocal flyout animation and direction</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">Mobile layout</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout.Description">Apple Music mobile layout</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect">Word shining effect</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect.Description">Word shining effect is different on iOS and Android</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">Breathing Dots alignment</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">Breathing Dots are always left aligned on iOS, but remain on the same side as the lyrics on Android</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">Prevent sleep</system:String>
@@ -573,6 +577,8 @@
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.CrossfadeNotice">Timeline correction might not work properly when crossfade is enabled</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">Enable lyrics preload</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">Preload lyrics can make lyrics loading imperceptible at track switching</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation">Enable dislike confirmation</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation.Description">Request for confirmation before removing songs from your library (Liked Songs)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">Enable Chinese conversion</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">Enable Chinese conversion for Spotify contents</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">Device latency</system:String>
@@ -698,6 +704,10 @@
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">Align Center</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">Close</system:String>
     
+    <!--Desktop Lyrics-->
+    <system:String x:Key="String.Menu.DesktopLyrics.DuoLineMode">Duo-Line Mode</system:String>
+    <system:String x:Key="String.Menu.DesktopLyrics.LyricsAlign">Lyrics Align</system:String>
+
     <!--Apple Music Lyrics-->
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.In">Zoom In</system:String>
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.Out">Zoom Out</system:String>
@@ -913,6 +923,10 @@
     <system:String x:Key="String.Window.LocalFilesManager.Notice.NoImage">No Image (Click to add)</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.AddImage">Add an image</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.ReplaceImage">Replace with another image</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.All">All Supported Files</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Image">Image Files</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Audio">Audio Files</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.ImageNotFoundInMediaFile">No images found in the chosen media file.</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.SuccessUpdate">Successfully updated image.</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.FailUpdate">Failed to update image.</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.AskRemove">Are you sure to remove this image?</system:String>

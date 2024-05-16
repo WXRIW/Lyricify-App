@@ -410,6 +410,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">极高</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">单词发光效果</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">一闪一闪亮晶晶，歌词成了小星星</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk">启用 CJK 单词发光效果</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk.Description">为多个 CJK 字符启用单词发光效果</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">二重查看</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">多位歌手会在屏幕两侧显示，让二重或多人合唱轨道跟唱起来更加轻松</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst">右侧对齐第一</system:String>
@@ -442,6 +444,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">背景人声飞出动画与方向</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">移动端布局</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout.Description">Apple Music 移动端布局</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect">单词发光效果</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect.Description">单词发光效果在 iOS 和 Android 上不同</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">呼吸点对齐方向</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">呼吸点在 iOS 上总是左对齐，而在安卓上与歌词保持同侧</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">阻止睡眠</system:String>
@@ -577,6 +581,8 @@
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.CrossfadeNotice">Crossfade (淡入/淡出) 已被启用，时间轴修正可能无法正常工作</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">启用歌词预加载</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">预加载歌词可以让轨道切换时的歌词加载几乎无感</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation">启用取消点赞确认</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation.Description">从你的资料库 (已点赞的歌曲) 中删除歌曲前请求确认</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">启用中文转换</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">为 Spotify 内容启用中文转换</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">设备延迟</system:String>
@@ -701,6 +707,10 @@
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">双击以隐藏 2s</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">水平居中</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">关闭</system:String>
+
+    <!--Desktop Lyrics-->
+    <system:String x:Key="String.Menu.DesktopLyrics.DuoLineMode">双行模式</system:String>
+    <system:String x:Key="String.Menu.DesktopLyrics.LyricsAlign">歌词对齐</system:String>
 
     <!--Apple Music Lyrics-->
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.In">放大</system:String>
@@ -917,6 +927,10 @@
     <system:String x:Key="String.Window.LocalFilesManager.Notice.NoImage">无图片 (点击添加)</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.AddImage">添加一张图片</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.ReplaceImage">替换为另一张图片</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.All">所有支持的文件</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Image">图片文件</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Audio">音频文件</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.ImageNotFoundInMediaFile">在选中的媒体文件中没有找到图片。</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.SuccessUpdate">成功更新了图片。</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.FailUpdate">更新图片失败。</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.AskRemove">确定要去除这张图片吗？</system:String>
