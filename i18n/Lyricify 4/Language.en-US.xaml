@@ -318,6 +318,8 @@
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.Description">Change the colors that appear in Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">Dark (Default)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Light">Light</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset">Interface font preset</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset.Description">Choose the font preset for Lyricify interface</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground">Lyrics Background</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.Description">Change lyrics Background</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.ComboBox.SingleColor">Solid Color</system:String>
@@ -391,6 +393,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">Level</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">Bold Text</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">Use bold text in Apple Music Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FontPreset">Font preset</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FontPreset.Description">Use font presets in Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode">Karaoke mode</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Description">Yes, now you can have karaoke style lyrics in Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK">Disable karaoke style for CJK lyrics</system:String>
@@ -480,6 +484,8 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage">Show artist image</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">Show artist image on the left side of the Dynamic Lyrics Island after you switch to a new song</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">Opacity</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale">Scale</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale.Description">Controlling the size and scaling of the Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">Desktop Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Due-Line mode</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">By turning off, only one line of lyrics will be displayed</system:String>
@@ -583,6 +589,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">Enable Chinese conversion for Spotify contents</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">Device latency</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">In milliseconds. This argument is designed for Bluetooth playback devices' latency, DO NOT use this for lyrics offset. Refresh lyrics to take effect</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Button.Configure">Configure</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">Hotkey Management</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">Open Hotkey Manager to manage global hotkeys</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">Open</system:String>
@@ -660,6 +667,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced">Advanced</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.BackupCenter">Backup &amp; Automation Center</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CustomConfigurationManager">Custom Configuration Manager</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.DeviceLatencyManager">Device Latency Manager</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.HotkeyManager">Hotkey Manager</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LocalFilesManager">Local Files Manager</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">Login to Spotify Web</system:String>
@@ -893,6 +901,25 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">Move up</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveDown">Move down</system:String>
 
+    <!--Device Latency Manager-->
+    <system:String x:Key="String.Window.DeviceLatencyManager">Device Latency Manager</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Description">Set individual device latencies for each playback device.</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Description.Additional">This is designed for playback devices' latency (such as Bluetooth devices), do not use this for lyrics offset.</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DefaultLatency">Default latency</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DefaultLatency.Description">A whole number in milliseconds, the default value is 0.</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceList">Device List</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.ComboBoxLatencyOption.Default">Default</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.ComboBoxLatencyOption.Custom">Custom</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.Menu.Remove">Remove</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.Icon.CurrentDevice.ToolTip">Current playback device</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.CurrentLatency">Current Latency:</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.CurrentLatency.Value">{0} ms</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DisconnectedOrDisabled">Disconnected or disabled</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.RefreshDeviceList">Refresh Device List</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.RefreshLyrics">Refresh Lyrics</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.Close">Close</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.Close.Notice">All settings will be saved automatically.</system:String>
+    
     <!--Hotkey Manager-->
     <system:String x:Key="String.Window.HotkeyManager">Hotkey Manager</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Description">You can manage global hotkeys here. (Use Backspace to clear a shortcut)</system:String>
@@ -1209,7 +1236,16 @@
 
     <!--Converter-->
     <system:String x:Key="String.Converter.ValueString">{0}% finished</system:String>
-    
+
+    <!--Dialogs-->
+    <system:String x:Key="String.Dialog.Store.Title">You've found an exclusive feature!</system:String>
+    <system:String x:Key="String.Dialog.Store.Explore">We invite you to explore Lyricify on the Microsoft Store for an enhanced experience. Your support will greatly contribute to its continued improvement and development.</system:String>
+    <system:String x:Key="String.Dialog.Store.Purchase">We encourage you to consider purchasing Lyricify on the Microsoft Store. Your support will help us enhance your experience and continue to develop new features.</system:String>
+    <system:String x:Key="String.Dialog.Store.Button.GoToStore">Go to Microsoft Store</system:String>
+    <system:String x:Key="String.Dialog.Store.Button.Close">Close</system:String>
+    <system:String x:Key="String.Dialog.Store.Donator">Already a donator?</system:String>
+    <system:String x:Key="String.Dialog.Store.Donator.ToolTip">Supporters who donate equal to or exceed the Microsoft Store selling price can request a free Microsoft Store redeem code from the developer.</system:String>
+
     <!--
         Messages
     -->
@@ -1222,7 +1258,7 @@
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">Too many requests (429 error), retry after {0} seconds</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify">You can avoid 429 errors by setting up Custom API Client (Click to learn more)</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify.Full">You can avoid 429 errors by setting up Custom API Client, which can speed ​​up Lyricify startup and song switching (Click to learn more)</system:String>
-
+    
     <!--MainWindow-->
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 Error, retry later</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Timeout">Timeout exception, retry later</system:String>
