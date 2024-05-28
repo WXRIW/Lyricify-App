@@ -29,6 +29,14 @@
     <system:String x:Key="String.MainWindow.UserWidget.LogOut">Log out</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.Settings">Settings</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.About">About</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount">Lyricify Account</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.1">Administrator</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.2">Insider</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.3">Lyrics manager</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.4">Premium user</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.5">User</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.6">Restricted user</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.Null">Not found</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession">Media Session</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">Connected</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">Disconnected</system:String>
@@ -364,6 +372,12 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.NeteaseFirst">Translation first and Netease Cloud Music first</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable">Netease word-by-word lyrics</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable.Description">Enable Netease Cloud Music word-by-word lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch">Enable Musixmatch</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch.Description">Use Musixmatch as backup source</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable">Musixmatch word-by-word lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable.Description">Enable Musixmatch word-by-word lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.EnableColorfulEmoji">Colorful Emoji</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.EnableColorfulEmoji.Description">Enable colorful emojis at rendering (not all interfaces support colorful emojis)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">Background</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Choose the background you want to use in Apple Music Lyrics</system:String>
@@ -386,12 +400,14 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">Float animation</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">Lyrics playing, syllables floating, so amazing</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Disabled">Disabled</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">Low (Default)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">Low</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Medium">Medium</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">High</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">High (Default)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">Tremendous</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">Word shining effect</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">That's glorious</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk">Enable CJK word shining effect</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk.Description">Enable word shining effect for multiple CJK characters</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">Duet view</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">Multiple vocalists show on opposite sides of the screen to make duets or multi-singer tracks easy to sing along to</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst">Right alignment first</system:String>
@@ -424,6 +440,10 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">Background Vocal flyout animation and direction</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">Mobile layout</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout.Description">Apple Music mobile layout</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect">Word shining effect</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect.Description">Word shining effect is different on iOS and Android</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">Breathing Dots alignment</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">Breathing Dots are always left aligned on iOS, but remain on the same side as the lyrics on Android</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">Prevent sleep</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.Description">Prevent from turning off display or sleeping</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.Always">Always</system:String>
@@ -441,6 +461,10 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Byland mode</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Byland or Island, it's up to you! Different styles enjoy different features</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dynamic Lyrics Island will automatically disappear at your cursor entrance in Byland mode, but in Island mode, you can use your cursor to move the island. &#x000A;You will be able to close Dynamic Lyrics Island by right click menu in Island Mode, but in Byland mode, you can only close by main menu or hotkey.</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex">Screen index</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.Description">Select which screen you want Dynamic Lyrics Island to display on in byland mode</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem">Screen {0}</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem.Primary">Screen {0} (Primary display)</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">Always show two lines</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">Always show two lines of lyrics even when translation is not available</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation">Hide translation and pronunciation</system:String>
@@ -550,8 +574,11 @@
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement.Description">Superb track switching experience powered by Lyricify Intelligent Engine</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">Enable timeline correction</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">Improve timeline precision</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.CrossfadeNotice">Timeline correction might not work properly when crossfade is enabled</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">Enable lyrics preload</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">Preload lyrics can make lyrics loading imperceptible at track switching</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation">Enable dislike confirmation</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation.Description">Request for confirmation before removing songs from your library (Liked Songs)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">Enable Chinese conversion</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">Enable Chinese conversion for Spotify contents</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">Device latency</system:String>
@@ -677,6 +704,10 @@
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">Align Center</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">Close</system:String>
     
+    <!--Desktop Lyrics-->
+    <system:String x:Key="String.Menu.DesktopLyrics.DuoLineMode">Duo-Line Mode</system:String>
+    <system:String x:Key="String.Menu.DesktopLyrics.LyricsAlign">Lyrics Align</system:String>
+
     <!--Apple Music Lyrics-->
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.In">Zoom In</system:String>
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.Out">Zoom Out</system:String>
@@ -818,6 +849,7 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ShowTranslation">Show translation</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ColorfulLogo">Colorful logo</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowTranslation">Show Translation</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowBackgroundVocals">Show Background Vocals</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ColorfulLogo">Colorful Logo</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.BoldText">Bold Text</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">Copy</system:String>
@@ -891,6 +923,10 @@
     <system:String x:Key="String.Window.LocalFilesManager.Notice.NoImage">No Image (Click to add)</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.AddImage">Add an image</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.ReplaceImage">Replace with another image</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.All">All Supported Files</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Image">Image Files</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Audio">Audio Files</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.ImageNotFoundInMediaFile">No images found in the chosen media file.</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.SuccessUpdate">Successfully updated image.</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.FailUpdate">Failed to update image.</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.AskRemove">Are you sure to remove this image?</system:String>
@@ -991,7 +1027,16 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">Get QRC Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetLyricifySyllable">Get Lyricify Syllable Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">Syllable Line Creator</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.StartRecord">Start Recording</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.StopRecord">Stop Recording</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.Clear">Clear</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.InputLyrics">Import Lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.OutputLyrics">Export Lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.ChangeStartTime">Change Start Time</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">Syllable Line Mover</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.CopyCurrentTime">Copy Current Time</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.GetTimestampByMillisecond">Get Timestamp by Millisecond</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.MoveTo">Move To</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.QrcSpaceMove">Move head space to the end</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.LyricifyLyricsVault.Attention" xml:space="preserve">Attention: &#x000A;Do not manually import lyrics if QQ Music or Netease Cloud Music has the lyrics! &#x000A;If the corresponding lyrics are not found through the search button on Lyricify, it does not mean that there are none. You need to manually search in the apps of QQ Music and NetEase Cloud Music to ensure that there are no corresponding lyrics before it can be considered as "no lyrics". &#x000A;Your account might be limited if you violated this rule. &#x000A;Continue to import?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Apple Music Lyrics Import</system:String>
@@ -1128,6 +1173,7 @@
     <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">Lyricify Lyrics Vault</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.QQ">QQ Music</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.Netease">Netease Cloud Music</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.Musixmatch">Musixmatch</system:String>
 
     <system:String x:Key="String.Lyrics.Provider.Menu.MarkCorrect">Mark as Correct Lyrics</system:String>
     <system:String x:Key="String.Lyrics.Provider.Menu.ViewSource">View Source</system:String>
@@ -1175,7 +1221,8 @@
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">Too many requests (429 error), retry later</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">Too many requests (429 error), retry after {0} seconds</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify">You can avoid 429 errors by setting up Custom API Client (Click to learn more)</system:String>
-    
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify.Full">You can avoid 429 errors by setting up Custom API Client, which can speed ​​up Lyricify startup and song switching (Click to learn more)</system:String>
+
     <!--MainWindow-->
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 Error, retry later</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Timeout">Timeout exception, retry later</system:String>

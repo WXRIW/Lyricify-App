@@ -9,6 +9,7 @@
 如果您是 Lyricify 4 的老用户，遇到了一些问题，则可以在下方查找是否有您想知道的问题。  
 
 ### 功能
+- [Microsoft Store 版本与 GitHub 版本有什么区别](#microsoft-store-%E7%89%88%E6%9C%AC%E4%B8%8E-github-%E7%89%88%E6%9C%AC%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB)
 - [Spotify Premium 在 Lyricify 中的独占功能](#spotify-premium-%E7%8B%AC%E5%8D%A0%E5%8A%9F%E8%83%BD)
 - [歌词导入](#%E6%AD%8C%E8%AF%8D%E6%A0%87%E8%AE%B0%E5%8F%8A%E5%AF%BC%E5%85%A5)
 - [歌词管理及高级操作](#%E6%9B%B2%E7%9B%AE%E7%AE%A1%E7%90%86)
@@ -32,6 +33,8 @@
 Lyricify 4 是免费软件，如果你觉得 Lyricify 4 做的不错，则可以通过以下渠道支持：
 - 在软件中，菜单-关于页里有打赏方式
 - 在 [Microsoft Store](https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full) 中购买
+
+如果您在 Microsoft Store 购买过程中遇到困难，可以考虑通过打赏的方式支持 Lyricify。  
 
 如果你发现有人在非法销售本软件 (只有 Microsoft Store 中的 Lyricify 是官方发布)，请联系我们！感谢你的支持！  
 
@@ -371,13 +374,35 @@ Lyricify 4 支持内置播放，但是并不建议使用。这只是一个测试
 Apple Music 歌词界面 CJK (中日韩) 歌词流畅度较低，这是微软的锅。  
 *本优化对于灵动词岛的卡顿问题也有作用。*  
 在这里，Lyricify 提供了优化方案。  
-**注意：** Lyricify 4.0.9 或更高版本中会自动执行本优化，无需用户手动执行。(微软商店版本因权限和重定向问题，无法实现自动安装，需手动优化)  
+**注意：**  
+1. Lyricify 4.0.9 或更高版本中会自动执行本优化，无需用户手动执行。(微软商店版本因权限和重定向问题，无法实现自动安装，需手动优化)
+2. 由于部分系统环境复杂，无法自动安装，您可以尝试手动安装以进行优化。
 **方法：**  
 1. 下载 [PingFang SC for Lyricify.7z](https://github.com/WXRIW/Lyricify-App/raw/main/resources/font/PingFang%20SC%20for%20Lyricify.7z)。
 2. 将这个压缩包里的字体安装到系统中（解压后右击字体，点击安装即可）。
 3. 重启 Lyricify。
 
 # 常见问题
+
+## Microsoft Store 版本与 GitHub 版本有什么区别
+*注：下文中的 GitHub 版本指 Microsoft Store 版本外的其他分发方式分发的版本，含群聊、网盘等分发渠道。*
+### 主要区别
+1. 发布新版本时，Microsoft Store 版本通常会提前 1-3 天更新，您可以提前体验新功能。
+2. Microsoft Store 版本的自动更新由 Microsoft 负责和管理，体验更好。
+   GitHub 版本的更新由 Lyricify 负责，更新源为 GitHub 服务器，在部分地区体验不如 Microsoft Store 版本。
+3. 已购买的 Microsoft Store 版本在启动时会有特殊欢迎提示。
+
+目前，Microsoft Store 版本与 GitHub 版本没有功能上的区别，但后期可能会开发 Microsoft Store 版本独享功能。  
+在 Microsoft Store 购买 Lyricify 是对 Lyricify 开发者的一种支持和信任，感谢所有购买或打赏过 Lyricify 的用户！  
+
+### 更多信息
+Lyricify 4 是免费软件，如果你觉得 Lyricify 4 做的不错，则可以通过以下渠道支持：
+- 在软件中，菜单-关于页里有打赏方式
+- 在 [Microsoft Store](https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full) 中购买
+
+如果您在 Microsoft Store 购买过程中遇到困难，可以考虑通过打赏的方式支持 Lyricify。  
+
+如果你发现有人在非法销售本软件 (只有 Microsoft Store 中的 Lyricify 是官方发布)，请联系我们！感谢你的支持！
 
 ## 点击播放按钮没有反应
 打开 Lyricify 主界面，点击播放按钮，没开始播放，并提示 `需要 Premium`、`未找到可用设备，请开启你的 Spotify 客户端`、`429 错误，请稍后再试`。
@@ -591,7 +616,7 @@ Lyricify 4 专为 Spotify 设计，`Lyricify 4` 全称 `Lyricify for Spotify`。
 ### 功能
 | 名称 | 描述 |
 | - | - |
-| 灵动词岛 | 外观与“灵动岛”和刘海有关的用于显示歌词的悬浮窗口，“灵动岛”是不被 Lyricify 认同的说法 |
+| 灵动词岛 | 外观与“灵动岛”和刘海有关的用于显示歌词的悬浮窗口，“灵动岛”“灵动岛歌词” 等是不被 Lyricify 认同的说法 |
 | 桌面歌词 | 桌面歌词，“悬浮歌词”是不被 Lyricify 认同的说法 |
 
 ### Apple Music 歌词
@@ -609,4 +634,5 @@ Lyricify 4 专为 Spotify 设计，`Lyricify 4` 全称 `Lyricify for Spotify`。
 | 名称 | 描述 |
 | - | - |
 | 歌词 | 歌词，“字幕”是不被 Lyricify 认同的说法 |
-| Lyricify | Lyricify 的名称是 “Lyricify”，“ly”“Ly”“Lyr”“Lyricfy”等是不被 Lyricify 认同的说法 |
+| Lyricify | Lyricify 的名称是 “Lyricify”，“ly”“Ly”“Lyr”“Liricify”“Lyricfy” 等是不被 Lyricify 认同的说法 |
+| Lyricify 4 | Lyricify 4 的名称是 “Lyricify 4”，全称为 “Lyricify for Spotify”，“l4”“Ly4” 等是不被 Lyricify 认同的说法 |

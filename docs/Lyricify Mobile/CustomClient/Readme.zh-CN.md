@@ -31,3 +31,8 @@
 1. 如果你已经在 Lyricify Mobile 中登录了 Spotify，则需要在打开 Lyricify Mobile 后，进入登录界面时点击 `取消`。
 2. 在欢迎界面 `自定义 API Client` 区域对应处输入准备步骤中获取到的 `Client ID` 和 `Client Secret`。
 3. 点击 `登录 (获取 Token)`，重新完成登录和授权即可。
+
+# 常见问题
+
+## 授权时提示 INVALID_CLIENT: Invalid redirect URI
+请检查 `Redirect URI` 是否填写错误，确保其值包含 `http://localhost:766/callback`。

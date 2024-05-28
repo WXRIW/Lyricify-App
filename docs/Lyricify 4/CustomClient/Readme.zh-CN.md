@@ -33,3 +33,8 @@
 ![](pic/Demo-Pic05_zh-CN.png)
 3. 在弹出的窗口中输入准备步骤中获取到的 `Client ID` 和 `Client Secret`，点击确定即可。
 4. 继续完成登录，享受你的 Lyricify 之旅吧。
+
+# 常见问题
+
+## 授权时提示 INVALID_CLIENT: Invalid redirect URI
+请检查 `Redirect URI` 是否填写错误，确保其值包含 `http://localhost:766/callback`。
