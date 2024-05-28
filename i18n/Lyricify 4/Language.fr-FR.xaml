@@ -948,7 +948,7 @@
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.Unset">Non défini</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.True">Oui</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.False">Non</system:String>
-    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer">Créateur</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer">Auteur</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format">Format:</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format.Description">Les créateurs multiples doivent être séparés par un , (point-virgule virgule). Vous pouvez également saisir un créateur par ligne et laisser Lyricify s'occuper du formatage. Les noms chinois doivent être en chinois simplifié.</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Example">Exemple:</system:String>
