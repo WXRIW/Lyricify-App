@@ -268,7 +268,7 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">Показать исполнителя</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Показать альбом</system:String>
 
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon" xml:space="preserve">Автор: </system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Автор: </system:String>
 
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">О Lyricify</system:String>

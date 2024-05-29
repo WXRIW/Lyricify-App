@@ -268,7 +268,7 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">顯示藝人</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">顯示專輯</system:String>
 
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon">創作者：</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon">創作者：</system:String>
 
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">關於</system:String>
@@ -837,6 +837,7 @@
     <system:String x:Key="String.Windows.FontSelector">字型選擇工具</system:String>
     <system:String x:Key="String.Windows.FontSelector.InstalledFonts">已安裝的字型</system:String>
     <system:String x:Key="String.Windows.FontSelector.SetFontFamily">設定字型家族</system:String>
+    <system:String x:Key="String.Windows.FontSelector.SetFontFamily.SearchBar.PlaceHolder">篩選字型</system:String>
     <system:String x:Key="String.Windows.FontSelector.AddToList">新增到列表</system:String>
     <system:String x:Key="String.Windows.FontSelector.RemoveFromList">從列表移除</system:String>
     <system:String x:Key="String.Windows.FontSelector.MoveUp">上移</system:String>

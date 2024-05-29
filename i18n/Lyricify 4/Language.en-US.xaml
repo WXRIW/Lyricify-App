@@ -268,7 +268,7 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">Show Artist</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Show Album</system:String>
     
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon" xml:space="preserve">Written By: </system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Written By: </system:String>
     
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">About</system:String>
@@ -837,6 +837,7 @@
     <system:String x:Key="String.Windows.FontSelector">Font Selector</system:String>
     <system:String x:Key="String.Windows.FontSelector.InstalledFonts">Installed Fonts</system:String>
     <system:String x:Key="String.Windows.FontSelector.SetFontFamily">Set Font Family</system:String>
+    <system:String x:Key="String.Windows.FontSelector.SetFontFamily.SearchBar.PlaceHolder">Filter fonts</system:String>
     <system:String x:Key="String.Windows.FontSelector.AddToList">Add to list</system:String>
     <system:String x:Key="String.Windows.FontSelector.RemoveFromList">Remove from list</system:String>
     <system:String x:Key="String.Windows.FontSelector.MoveUp">Move up</system:String>

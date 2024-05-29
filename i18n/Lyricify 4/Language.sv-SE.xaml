@@ -252,7 +252,7 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">Visa artist</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Visa album</system:String>
 
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon" xml:space="preserve">Skrivet av: </system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Skrivet av: </system:String>
 
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">Om</system:String>

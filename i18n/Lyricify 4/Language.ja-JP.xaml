@@ -259,7 +259,7 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">アーティストを表示</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">アルバムを表示</system:String>
 
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon" xml:space="preserve">作成: </system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">作成: </system:String>
 
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">情報</system:String>

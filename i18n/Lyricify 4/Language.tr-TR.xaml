@@ -260,7 +260,7 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">Sanatçıyı Göster</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Albümü Göster</system:String>
 
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon" xml:space="preserve">Yazan: </system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Yazan: </system:String>
 
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">Hakkında</system:String>
