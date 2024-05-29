@@ -268,7 +268,7 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">Afficher l'artiste</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Afficher l'album</system:String>
 
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon">Créé par:</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Auteur : </system:String>
 
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">À propos</system:String>
