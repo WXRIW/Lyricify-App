@@ -60,8 +60,8 @@
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.LyricifyFullscreen">Lyricify Tam Ekran</system:String>
 
     <!--
-      Pages
-      -->
+    Pages
+    -->
 
     <!--Page Home-->
     <system:String x:Key="String.Page.Home.Welcome">Lyricify'ye hoş geldiniz</system:String>
@@ -254,6 +254,7 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.DeleteFromLibrary">Kütüphaneden Sil</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">Sanatçıyı Göster</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Albümü Göster</system:String>
+  
     <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Yazan: </system:String>
 
     <!--Page About-->
@@ -623,8 +624,8 @@
     <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">Mevcut sayfa Mobil Görünümü desteklememektedir, lütfen Mobil Görünümden çıkmak için pencerenizi yeniden boyutlandırın.</system:String>
 
     <!--
-      Menu
-      -->
+        Menu
+    -->
 
     <!--MainWindow-->
 
@@ -754,8 +755,8 @@
     <system:String x:Key="String.Tools.DisplayItem.By">Tarafından {0}</system:String>
 
     <!--
-          Windows
-      -->
+        Windows
+    -->
 
     <!--Welcome-->
     <system:String x:Key="String.Windows.Welcome.Intro.MoreThanLyrics">Şarkı sözlerinden daha fazlası</system:String>
@@ -1208,8 +1209,8 @@
     <system:String x:Key="String.Dialog.Store.Donator.ToolTip">Microsoft Store satış fiyatına eşit veya daha fazla bağış yapan destekçiler, geliştiriciden ücretsiz bir Microsoft Store hediye kodu talep edebilir.</system:String>
 
     <!--
-          Messages
-      -->
+        Messages
+    -->
 
     <!--App-->
     <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">Yetkisiz eylem, devam etmek için yeniden giriş yapın.</system:String>
@@ -1264,8 +1265,8 @@
     <system:String x:Key="String.Messages.Operation.Copied">Panoya kopyalandı</system:String>
 
     <!--
-          Lyricify Wrapped
-      -->
+        Lyricify Wrapped
+    -->
       
     <!--Wrapped Year-->
     <system:String x:Key="String.Wrapped.Title">Lyricify Sarılı</system:String>
