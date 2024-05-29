@@ -1,8 +1,9 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:system="clr-namespace:System;assembly=mscorlib">
-
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
     <!--
-          MainWindow
-      -->
+        MainWindow
+    -->
 
     <!--Navigation Panel-->
     <system:String x:Key="String.MainWindow.Navigation.Home">Ev</system:String>
@@ -16,15 +17,15 @@
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Apple">Apple</system:String>
 
     <!--Login-->
-    <system:String x:Key="String.MainWindow.Login.Welcome">Lyricify'e hoş geldin, {0}!</system:String>
+    <system:String x:Key="String.MainWindow.Login.Welcome">Lyricify'e hoş geldiniz, {0}!</system:String>
     <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Hoş geldin, yüce {0}!</system:String>
-    <system:String x:Key="String.MainWindow.Login.LoggingIn">Giriş yapma</system:String>
+    <system:String x:Key="String.MainWindow.Login.LoggingIn">Giriş yapılıyor</system:String>
     <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">Bu biraz zaman alabilir.</system:String>
-    <system:String x:Key="String.MainWindow.Login.StillTrying">Hala sizi giriş yapmaya çalışıyoruz.</system:String>
+    <system:String x:Key="String.MainWindow.Login.StillTrying">Hala sizi giriş yaptırmaya çalışıyoruz.</system:String>
 
     <!--User Widget-->
     <system:String x:Key="String.MainWindow.UserWidget.Profile">Profil</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.GetSpotifyPremium">Spotify Premium'u Alın</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.GetSpotifyPremium">Spotify Premium'u Al</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LogOut">Çıkış yap</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.Settings">Ayarlar</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.About">Hakkında</system:String>
@@ -38,11 +39,12 @@
     <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.Null">Bulunamadı</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession">Medya Oturumu</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">Bağlı</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">Bağlantı kesildi</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. Medya Oturumu yalnızca Spotify Masaüstü Sürümü (veya Mağaza Sürümü) kullanılırken kullanılabilir hale getirilecektir, Spotify'ın mobil veya web sürümünü kullanırken çalışmayacaktır! 2. Lyricify, oynatma yanıtı alınana kadar Media Session'a bağlanmayı denemeyecek.</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">Bağlantı Kesildi</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. Medya Oturumu yalnızca Spotify Masaüstü Sürümü (veya Mağaza Sürümü) kullanılırken kullanılabilir hale getirilecektir, Spotify'ın mobil veya web sürümünü kullanırken çalışmayacaktır!&#x000A;2. Lyricify, çalma yanıtı alınana kadar Media Session'a bağlanmayı denemeyecek.</system:String>
     <system:String x:Key="String.MainWindow.PinnedArea.Notice">Hızlı erişim için öğeleri sabitleyin!</system:String>
 
     <!--Control Part-->
+
     <!--Frame-->
     <system:String x:Key="String.MainWindow.Frame.Control.GoBack">Geri dön</system:String>
     <system:String x:Key="String.MainWindow.Frame.Control.GoForward">İleri git</system:String>
@@ -62,7 +64,7 @@
       -->
 
     <!--Page Home-->
-    <system:String x:Key="String.Page.Home.Welcome">Lyricify'e hoş geldiniz</system:String>
+    <system:String x:Key="String.Page.Home.Welcome">Lyricify'ye hoş geldiniz</system:String>
     <system:String x:Key="String.Page.Home.FollowDeveloper">Neden geliştiricimizi takip etmiyorsunuz?</system:String>
     <system:String x:Key="String.Page.Home.FollowSuggestion">Öneri</system:String>
     <system:String x:Key="String.Page.Home.Button.Follow">Takip et</system:String>
@@ -94,7 +96,7 @@
     <system:String x:Key="String.Page.Artist.VerifiedArtist">Onaylanmış Sanatçı</system:String>
     <system:String x:Key="String.Page.Artist.Popular">Popüler</system:String>
     <system:String x:Key="String.Page.Artist.Follower">{0:N0} Takipçi</system:String>
-    <system:String x:Key="String.Page.Artist.Followers">{0:N0} Takipçi</system:String>
+    <system:String x:Key="String.Page.Artist.Followers">{0:N0} Takipçiler</system:String>
     <system:String x:Key="String.Page.Artist.Panel.Albums">Albümler</system:String>
     <system:String x:Key="String.Page.Artist.Panel.SinglesAndEPs">Tekliler ve EP'ler</system:String>
     <system:String x:Key="String.Page.Artist.Panel.Compilations">Derlemeler</system:String>
@@ -103,19 +105,19 @@
     <system:String x:Key="String.Page.Playlist.Title">ÇALMA LİSTESİ</system:String>
     <system:String x:Key="String.Page.Playlist.Title.Private">ÖZEL ÇALMA LİSTESİ</system:String>
     <system:String x:Key="String.Page.Playlist.Title.Public">KAMU OYNATMA LİSTESİ</system:String>
-    <system:String x:Key="String.Page.Playlist.Like">Gibi {0:N0}</system:String>
+    <system:String x:Key="String.Page.Playlist.Like">gibi {0:N0}</system:String>
     <system:String x:Key="String.Page.Playlist.Likes">{0:N0} beğeni</system:String>
     <system:String x:Key="String.Page.LikedSongs.Title">ÇALMA LİSTESİ</system:String>
     <system:String x:Key="String.Page.LikedSongs.Name">Beğenilen Şarkılar</system:String>
     <system:String x:Key="String.Page.Profile.Title">PROFİL</system:String>
     <system:String x:Key="String.Page.Profile.Follower">{0:N0} Takipçi</system:String>
-    <system:String x:Key="String.Page.Profile.Followers">{0:N0} Takipçiler</system:String>
+    <system:String x:Key="String.Page.Profile.Followers">{0:N0} Takipçi</system:String>
     <system:String x:Key="String.Page.Profile.PublicPlaylist">{0:N0} Halka Açık Çalma Listesi</system:String>
-    <system:String x:Key="String.Page.Profile.PublicPlaylist.Plural">{0:N0} Halka Açık Çalma Listeleri</system:String>
+    <system:String x:Key="String.Page.Profile.PublicPlaylist.Plural">{0:N0} Kamuya Açık Çalma Listeleri</system:String>
     <system:String x:Key="String.Page.Profile.PublicPlaylists">Kamuoyu Çalma Listeleri</system:String>
     <system:String x:Key="String.Page.Profile.TopArtists.Month">Bu ayın en çok dinlenen sanatçıları</system:String>
-    <system:String x:Key="String.Page.Profile.TopArtists.HalfYear">Altı ay içindeki en iyi sanatçılar</system:String>
-    <system:String x:Key="String.Page.Profile.TopArtists.All">Büyük Patlama'dan beri en üst sanatçılar</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.HalfYear">Altı ay içinde en çok dinlenen sanatçılar</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.All">Büyük Patlama'dan beri en üst düzey sanatçılar</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.Month">Bu ayın en popüler parçaları</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.HalfYear">Altı ay içinde en çok dinlenen parçalar</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.All">Büyük Patlama'dan beri en iyi parçalar</system:String>
@@ -177,16 +179,16 @@
     <system:String x:Key="String.AudioFeatures.Artist.Names">İsim(ler)</system:String>
     <system:String x:Key="String.AudioFeatures.Relink">Yeniden Bağlandı</system:String>
     <system:String x:Key="String.AudioFeatures.Relink.Track.Name">Parça adı</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Track.ID">Parça Kimliği</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.ID">Parça ID</system:String>
     <system:String x:Key="String.AudioFeatures.Relink.Track.ISRC">Parça ISRC</system:String>
     <system:String x:Key="String.AudioFeatures.Relink.Track.TrackNumber">Parça numarası</system:String>
     <system:String x:Key="String.AudioFeatures.Relink.Album.Name">Albüm adı</system:String>
     <system:String x:Key="String.AudioFeatures.Relink.Album.ID">Albüm Kimliği</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Album.ReleaseDate">Albüm çıkış tarihi</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Album.ReleaseDate">Albüm yayın tarihi</system:String>
     <system:String x:Key="String.AudioFeatures.Relink.Album.TracksCount">Albüm parça sayısı</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature">Ses Özellikleri</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Mode">Mod</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Major">Binbaşı</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Major">Büyük</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Minor">Küçük</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.TimeSignature">Zaman imzası</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.PitchClass">Nota sınıfı (Anahtar)</system:String>
@@ -200,10 +202,10 @@
     <system:String x:Key="String.AudioFeatures.AudioFeature.Speechiness">Konuşkanlık</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Valence">Valans</system:String>
     <system:String x:Key="String.AudioFeatures.ToolTip.ClickCopy">Kopyalamak için tıklayın</system:String>
-    <system:String x:Key="String.AudioFeatures.Button.CopyIDs">ID'leri ve ISRC'yi kopyala</system:String>
+    <system:String x:Key="String.AudioFeatures.Button.CopyIDs">Kopyala Kimlikler ve ISRC</system:String>
     <system:String x:Key="String.AudioFeatures.Button.CopyAll">Tüm bilgileri kopyala</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.TrackName">Parça Adı</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.TrackID">Parça ID</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackID">Parça Kimliği</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.TrackISRC">Parça ISRC</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.TrackURI">Parça URI</system:String>
     <system:String x:Key="String.AudioFeatures.Copy.TrackDuration">Parça Süresi</system:String>
@@ -223,7 +225,7 @@
     <system:String x:Key="String.Info.Copy.DiscNum">Disk {0}</system:String>
     <system:String x:Key="String.Info.Copy.TrackNum">Parça {0}</system:String>
     <system:String x:Key="String.Info.Copy.Tracklist">Parça Listesi</system:String>
-    <system:String x:Key="String.Info.Copy.Tracklist.Of">{0} Şarkı Listesi</system:String>
+    <system:String x:Key="String.Info.Copy.Tracklist.Of">{0} 'nin Parça Listesi</system:String>
     <system:String x:Key="String.Info.Copy.TopTracks.From">{0} 'dan Popüler Parçalar</system:String>
     <system:String x:Key="String.Info.Copy.Album.TotalLength">Albüm Toplam Süresi</system:String>
     <system:String x:Key="String.Info.Copy.Album.DiscsCount">Albüm Disk Sayısı</system:String>
@@ -234,7 +236,7 @@
     <system:String x:Key="String.Info.Copy.Playlist.TracksCount">Çalma Listesi Parça Sayısı</system:String>
     <system:String x:Key="String.Info.Copy.Playlist.TotalLength">Çalma Listesi Toplam Süresi</system:String>
     <system:String x:Key="String.Info.Copy.Playlist.Owner.Name">Sahip Adı</system:String>
-    <system:String x:Key="String.Info.Copy.Playlist.Owner.ID">Sahip Kimliği</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Owner.ID">Sahip ID</system:String>
     <system:String x:Key="String.Info.Copy.Artist.Followers">Takipçiler</system:String>
     <system:String x:Key="String.Info.Copy.User.DisplayName">Kullanıcı Görünen Adı</system:String>
     <system:String x:Key="String.Info.Copy.User.ID">Kullanıcı ID</system:String>
@@ -252,11 +254,11 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.DeleteFromLibrary">Kütüphaneden Sil</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">Sanatçıyı Göster</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Albümü Göster</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.WrittenBy.Colon" xml:space="preserve">Yazan: </system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Yazan: </system:String>
 
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">Hakkında</system:String>
-    <system:String x:Key="String.Page.About.NonPublicWarning">BU BİR KAMU YAYINI DEĞİLDİR, LÜTFEN YAYMAYIN!</system:String>
+    <system:String x:Key="String.Page.About.NonPublicWarning">BU BİR KAMU YAYINI DEĞİL, LÜTFEN YAYMAYIN!</system:String>
     <system:String x:Key="String.Page.About.Architecture.32Bits">32-Bit</system:String>
     <system:String x:Key="String.Page.About.Architecture.64Bits">64-Bit</system:String>
     <system:String x:Key="String.Page.About.Architecture.Emulated">{0} taklit etti</system:String>
@@ -265,7 +267,7 @@
     <system:String x:Key="String.Page.About.MicrosoftStore">Microsoft Store Sürümü</system:String>
     <system:String x:Key="String.Page.About.MicrosoftStore.Purchased">Microsoft Store Sürümü Satın Alındı</system:String>
     <system:String x:Key="String.Page.About.MicrosoftStore.Trial">Microsoft Store Deneme Sürümü</system:String>
-    <system:String x:Key="String.Page.About.MadeWithHeart">❤️ ile WXRIW tarafından yapılmıştır</system:String>
+    <system:String x:Key="String.Page.About.MadeWithHeart">❤️ ile WXRIW tarafından yapıldı.</system:String>
     <system:String x:Key="String.Page.About.Copyright">Telif Hakkı © {0} WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">Şarkı sözleri sağlanmıştır tarafından</system:String>
     <system:String x:Key="String.Page.About.LyricsProviders">Lyricify Şarkı Sözleri Kasası, QQ Müzik, Netease Bulut Müzik</system:String>
@@ -302,6 +304,8 @@
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.Description">Lyricify'de görünen renkleri değiştirin.</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">Koyu (Varsayılan)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Light">Işık</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset">Arayüz yazı tipi ön ayarı</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset.Description">Lyricify arayüzü için yazı tipi ön ayarını seçin</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground">Şarkı Sözleri Arka Planı</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.Description">Şarkı sözleri arka planını değiştir</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.ComboBox.SingleColor">Katı Renk</system:String>
@@ -309,9 +313,9 @@
     <system:String x:Key="String.Page.Settings.Appearance.Zoom">Yakınlaştır</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Description">Lyricify'in görüntü yakınlaştırmasını değiştirin</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Button.Reset">Sıfırla</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.Zoom.Help">Kontrol tuşuna basılı tutarak fare tekerleğiyle de görüntüyü yakınlaştırabilir veya uzaklaştırabilirsiniz. Yakınlaştırmak için "Ctrl + -", uzaklaştırmak için "Ctrl + =" ve sıfırlamak için "Ctrl + 0" kullanabilirsiniz.</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.Zoom.Help">Fare tekerleği ile Kontrol tuşuna basılı tutarak görüntüleme yakınlaştırmasını da değiştirebilirsiniz, ya da "Ctrl + -" ile Yakınlaştır, "Ctrl + =" ile Uzaklaştır ve "Ctrl + 0" ile sıfırla.</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization">Şarkı sözü tarzı kişiselleştirme</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Description">Spotify tarzı şarkı sözleri sayfasında şarkı sözleri stili</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Description">Spotify tarzı şarkı sözleri sayfasında lirik stil</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode">Şarkı Sözü Stili Kişiselleştirme (Mobil Mod)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode.Description">Spotify tarzı şarkı sözleri stili (Mobil Mod) sayfası</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Button.Reset">Sıfırla</system:String>
@@ -327,7 +331,7 @@
     <system:String x:Key="String.Page.Settings.Appearance.KaraokeMode">Kelime-kelime modu</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.KaraokeMode.Description">Şarkı sözlerini kelime kelime göster</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.QuickAccess">Hızlı Erişim</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.Description">Sol alt bölgede ne göstermek istediğinizi seçebilirsiniz, özel pinler veya tüm Spotify çalma listeleriniz.</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.Description">Sol alt bölgede ne göstermek istediğinizi seçebilirsiniz, ister özel pinler, ister tüm Spotify çalma listeleriniz.</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.ComboBox.CustomPins">Özel rozetler</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.ComboBox.AllPlaylists">Tüm çalma listeleri</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.FontFamily">Yazı Tipi Ailesi</system:String>
@@ -339,14 +343,14 @@
     <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation">Çince çeviri</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation.Description">Çince çeviri mevcut olduğunda gösterilecek.</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji">Romaji</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.Description">Japonca Romaji için görüntüleme seçeneklerini seçin.</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.Description">Japonca Romaji için görüntü seçeneklerini seçin</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.Disable">Devre dışı bırak</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.TranslationFirst">İlk Çeviri</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiFirst">Romaji İlk</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiOnly">Sadece Romaji</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese">Basitleştirilmiş Çince'yi tercih edin.</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese.Description">Bu seçeneği kapattıysanız, Çince karakterler Geleneksel Çince'ye dönüştürülecektir.</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">Açık sözleri göster</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">Açık sözlü şarkı sözlerini göster</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics.Description">Kapatılarak, açık sözcükler yıldız işaretleriyle değiştirilecektir.</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source">Kaynak</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.Description">Lyricify, QQ Music kaynağı ile daha iyi çalışır, Netease Cloud Music kaynağı kullanılırken bazı Lyricify özellikleri kullanılamayabilir.</system:String>
@@ -357,11 +361,11 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable">Netease kelime kelime şarkı sözleri</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable.Description">Netease Cloud Music kelime kelime şarkı sözlerini etkinleştirin</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch">Musixmatch'i etkinleştir</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch.Description">Yedek kaynak olarak Musixmatch'i kullanın.</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch.Description">Musixmatch'i yedek kaynak olarak kullanın.</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable">Musixmatch kelime-kelime şarkı sözleri</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable.Description">Musixmatch kelime-kelime şarkı sözlerini etkinleştirin</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.EnableColorfulEmoji">Renkli Emoji</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.EnableColorfulEmoji.Description">Renkli emojileri oluşturma sırasında etkinleştirin (tüm arayüzler renkli emojileri desteklemez)</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.EnableColorfulEmoji.Description">Renkli emojileri oluşturmada etkinleştir (tüm arayüzler renkli emojileri desteklemez)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Apple Music Şarkı Sözleri</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">Arka plan</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Apple Music Şarkı Sözleri'nde kullanmak istediğiniz arka planı seçin.</system:String>
@@ -371,13 +375,15 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics">Blur şarkı sözleri</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics.Description">Şarkı sözlerinde bulanık efekti etkinleştirin</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">Bulanıklık seviyesi</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Bulanıklık seviyesini ayarlayın (Yatay modda iPadOS'ta varsayılan seviye 3, dikey modda iPadOS veya iOS'ta 5'tir)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Bulanıklık seviyesini ayarlayın (iPadOS'ta yatay modda varsayılan seviye 3, dikey modda veya iOS'ta 5'tir)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">Seviye</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">Kalın Metin</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">Apple Music Şarkı Sözlerinde kalın metin kullanın</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FontPreset">Yazı tipi ön ayarı</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FontPreset.Description">Apple Music Şarkı Sözlerinde font ön ayarlarını kullanın</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode">Karaoke modu</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Description">Evet, şimdi Apple Music Lyrics'te karaoke tarzı şarkı sözlerine sahip olabilirsiniz.</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK">CJK şarkı sözleri için karaoke stilini devre dışı bırakın</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK">CJK sözleri için karaoke stilini devre dışı bırakın</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK.Description">CJK karaoke sözleri göstermek için daha fazla kaynak kullanır, devre dışı bırakmak animasyon performansını iyileştirebilir.</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation">Ekstra animasyonları etkinleştir</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Description">Daha iyi animasyon, daha iyi deneyim</system:String>
@@ -405,7 +411,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.High">Yüksek</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Tremendous">Muazzam</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial">Sihirli Şerit öğreticisini göster</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Description">Apple Music Lyrics'e girdikten sonra her zaman Magic Strip öğreticisini göster.</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Description">Apple Music Lyrics'e girdikten sonra her zaman Magic Strip öğreticisini gösterin.</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">Karşınızda Sihirli Şerit! &#x000A;&#x000A;Apple Music Şarkı Sözlerinden çıkmak için şerit düğmesine basabilir, &#x000A;küçültmek için aşağı kaydırabilir, &#x000A;büyütmek veya kurtarmak için sola veya sağa kaydırabilir ve &#x000A;iptal etmek için yukarı kaydırabilirsiniz. Ayrıca farenizin sağ tuşuna basarak şarkı sözlerinin ilk satırına gitmek için yukarı kaydırabilir, &#x000A;şarkı sözlerinin son satırına gitmek için aşağı kaydırabilir, &#x000A;geçerli satıra gitmek için sola veya sağa kaydırabilir, &#x000A;ve tek bir sağ tıklama ile hiçbir şey yapamazsınız.</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">Yakınlaştırmayı geri yükle</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">Apple Music Şarkı Sözlerinde yakınlaştırmayı geri yükle</system:String>
@@ -425,15 +431,15 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">Mobil düzen</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout.Description">Apple Music mobil düzeni</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect">Kelime parıltı etkisi</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect.Description">Kelime parlama efekti iOS ve Android'de farklıdır.</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">Noktaların Hizalanması</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">Nefes Alma Noktaları iOS'ta her zaman sola hizalıdır, ancak Android'de şarkı sözlerinin olduğu tarafta kalır.</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect.Description">Kelimenin parıltı efekti iOS ve Android'de farklıdır.</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">Noktaların hizalanması</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">Nefes Noktaları her zaman iOS'ta sola hizalıdır, ancak Android'de şarkı sözlerinin olduğu tarafta kalır.</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">Uykuyu önle</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.Description">Ekranın kapanmasını veya uyumasını önleyin</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.Always">Her zaman</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.FullscreenOnly">Yalnızca tam ekran</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple">Buggy Apple</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.Description">Hatasız bir Apple, artık Apple değildir.</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple">Arızalı Elma</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.Description">Hatasız bir Apple artık Apple değil.</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">Geleneksel sürümü etkinleştir</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">Ana menüye Apple Music Şarkı Sözleri (Geleneksel) girişi ekle</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Lyricify Tam Ekran</system:String>
@@ -444,17 +450,17 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">Dinamik Şarkı Sözleri Adası</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Byland modu</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Kara yolu veya ada, tercih senin! Farklı stiller, farklı özelliklerden hoşlanır.</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dinamik Şarkı Sözleri Adası, Byland modunda imleciniz girdiğinde otomatik olarak kaybolacaktır, ancak Ada modunda, adayı hareket ettirmek için imlecinizi kullanabilirsiniz. Ada Modunda, Dinamik Şarkı Sözleri Adası'nı sağ tıklama menüsünden kapatabilirsiniz, ancak Byland modunda, yalnızca ana menüden veya kısayol tuşuyla kapatabilirsiniz.</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dinamik Şarkı Sözleri Adası, Byland modunda imleciniz giriş yaptığında otomatik olarak kaybolacaktır, ancak Ada modunda, adayı hareket ettirmek için imlecinizi kullanabilirsiniz.&#x000A;Ada Modunda, Dinamik Şarkı Sözleri Adası'nı sağ tıklama menüsünden kapatabilirsiniz, ancak Byland modunda, yalnızca ana menü veya kısayol tuşu ile kapatabilirsiniz.</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex">Ekran indeksi</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.Description">Byland modunda Dinamik Şarkı Sözleri Adası'nın hangi ekranda görüntüleneceğini seçin.</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem">Ekran {0}</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem.Primary">Ekran {0} (Birincil görüntü)</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">Her zaman iki satır göster.</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">Her zaman iki satır göster</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">Çeviri mevcut olmasa bile her zaman iki satır şarkı sözü gösterin.</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation">Çeviri ve telaffuzunu gizle</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation.Description">Mevcut olduğunda çeviri ve telaffuzu gizleyin.</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText">Kalın Metin</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText.Description">Dinamik Şarkı Sözleri Adasında kalın metin kullanın.</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText.Description">Dinamik Şarkı Sözleri Adasında kalın metin kullanın</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode">Karaoke modu</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode.Description">Hiç şarkı sözlerinin parladığını gördün mü?</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide">Otomatik gizle</system:String>
@@ -464,6 +470,8 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage">Sanatçı resmini göster</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">Yeni bir şarkıya geçtikten sonra Dinamik Şarkı Sözleri Adası'nın sol tarafında sanatçı resmini gösterin.</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">Opaklık</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale">Ölçek</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale.Description">Dinamik Şarkı Sözleri Adası'nın boyutunu ve ölçeklendirmesini kontrol etme</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">Masaüstü Şarkı Sözleri</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Son-Tarih modu</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">Kapatıldığında, sadece bir satır şarkı sözü görüntülenecek.</system:String>
@@ -476,11 +484,11 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode">Karaoke modu</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode.Description">Karaoke tarzında şarkı sözleri görüntüleme</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide">Otomatik gizle</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">Açılırsa, Masaüstü Şarkı Sözleri duraklatıldığında gizlenecektir.</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">Açıldığında, Masaüstü Şarkı Sözleri duraklatıldığında gizlenecektir.</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide">Tam ekranı gizle</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide.Description">Tam ekran modunda bir program çalıştırırken Masaüstü Şarkı Sözlerini gizleyin.</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide">Şeffaflık saklar</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Description">Masaüstü Şarkı Sözleri için imleç kilitli duruma girdiğinde daha düşük bir opaklık ayarlayın.</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Description">İmleç kilitli duruma girdiğinde Masaüstü Şarkı Sözleri için daha düşük bir opaklık ayarlayın.</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Opacity">Opaklık</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Opacity.Description">Masaüstü Şarkı Sözlerini gizlemek istiyorsanız bunu 0 olarak ayarlayın.</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">Opaklık</system:String>
@@ -494,12 +502,12 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Button.Reset">Sıfırla</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle">İkili çizgi stili</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.Description">İki ayrı çizgi. Çeviri içeren satırlar çift satır stili kullanmayacak.</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Fill">Vurgulanan satır (Doldur)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Fill">Vurgu çizgisi (Doldur)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Border">Vurgu çizgisi (Sınır)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Fill">Sonraki satır (Doldur)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Border">Sonraki satır (Sınır)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle">Tek çizgi stili</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Description">Yalnızca bir satırı göster. Çeviri mevcutsa görüntülenecektir.</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Description">Yalnızca bir satırı göster. Mevcutsa çeviri gösterilecektir.</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Fill">Doldur</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Border">Sınır</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Fill">Çeviri satırı (Doldur)</system:String>
@@ -535,13 +543,13 @@
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.Description">Yeni çıkanları alın</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup">Başlangıçta kontrol et</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup.Description">Her Lyricify çalıştırdığınızda yeni sürümleri kontrol edin.</system:String>
-    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases">Yalnızca "Popüler Yayınlar"ı kontrol et.</system:String>
-    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases.Description">Bu, Spotify Web API isteklerini azaltacak ve bir API Hız Limiti Hatası almayı (429 Hatası) daha az olası hale getirecektir. Bu seçeneği açarak, bazı yeni yayınlar bildirilmiyor olabilir. (Lyricify, 20'den fazla sanatçıyı takip ettiyseniz bunu açmanızı önerir)</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases">Yalnızca "Popüler yayınlar"ı kontrol et.</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases.Description">Bu, Spotify Web API isteklerini azaltacak ve bir API Hız Limiti Hatası (429 Hatası) alma olasılığını düşürecektir. Bu seçeneği açarak, bazı yeni yayınlar bildirilmiyor olabilir. (Lyricify, 20'den fazla sanatçıyı takip ettiyseniz bunu açmanızı önerir)</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization">Sanatçılar özelleştirmeyi kontrol eder.</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.Description">Lyricify'nin yeni yayınları kontrol etmesi için takip ettiğiniz sanatçıların bir kısmını seçebilir, hatta takip etmediğiniz sanatçıları bile ekleyebilirsiniz.</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists">Sanatçıları seçin</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Button.AddOrEdit">Ekle veya Düzenle</system:String>
-    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Description">Lyricify'nin kontrol etmesi için sanatçılar seçin.</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Description">Lyricify için sanatçılar seçin</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Choosen">Seçilmiş sanatçılar</system:String>
     <system:String x:Key="String.Page.Settings.Spotify">Spotify</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion">Tercih edilen öneri bölgesi</system:String>
@@ -549,13 +557,13 @@
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.Default">Varsayılan (hesabınızın bölgesi)</system:String>
     <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternetLocation">İnternet Konumu (IP'nizin bölgesi)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced">İleri seviye</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">Parça sanat eserinin yeniden bağlantısını etkinleştir</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Parça yeniden bağlandığında, orijinal parçadan alınan sanat eseri yerine yeniden bağlanan sanat eserini kullanın.</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">Bir parçanın kullanılabilirliği, kullanıcının Spotify profil ayarlarında kayıtlı olan ülkeye bağlıdır. Spotify genellikle katalogunda bir parçanın birkaç örneğine sahip olur, her biri farklı bir pazar setinde mevcuttur. Bu genellikle, albümün bulunduğu parça farklı lisanslar altında farklı pazarlarda birden çok kez yayınlandığında olur. Bu parçalar birbirine bağlanmıştır, böylece bir kullanıcı kendi pazarında mevcut olmayan bir parçayı çalmaya çalıştığında, Spotify mobil, masaüstü ve web oynatıcıları, kullanıcının pazarında mevcut olan parçanın başka bir örneğini çalmaya çalışır.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">Parça sanat eserinin yeniden bağlanmasını etkinleştir</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Parça yeniden bağlandığında, orijinal parçadan sanat eseri yerine yeniden bağlanan sanat eserini kullanın.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">Bir parçanın kullanılabilirliği, kullanıcının Spotify profil ayarlarında kayıtlı olan ülkeye bağlıdır. Spotify genellikle katalogunda bir parçanın birkaç örneğini bulundurur, her biri farklı bir pazar setinde mevcuttur. Bu genellikle albümün bulunduğu parça, farklı lisanslar altında farklı pazarlarda birden çok kez yayınlandığında olur.&#x000A;Bu parçalar birbirine bağlanmıştır, böylece bir kullanıcı kendi pazarında mevcut olmayan bir parçayı çalmaya çalıştığında, Spotify mobil, masaüstü ve web oynatıcıları, kullanıcının pazarında mevcut olan parçanın başka bir örneğini çalmaya çalışır.</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement">Medya Oturumu iyileştirmesini etkinleştir</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">Spotify masaüstü istemcisini kullanırken deneyimi iyileştirmek için sistem Medya Oturumunu kullanın. (Spotify ayarlarında "Medya tuşlarını kullanırken masaüstü örtüsünü göster" seçeneğini etkinleştirdiğinizden emin olun)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">Spotify masaüstü istemcisini kullanırken deneyimi iyileştirmek için sistem Medya Oturumunu kullanın. (Spotify ayarlarında "Medya tuşlarını kullanırken masaüstü örtüsünü göster" seçeneğinin etkinleştirildiğinden emin olun)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement">Oynatma güncelleme iyileştirmesini etkinleştir</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement.Description">Lyricify Akıllı Motoru tarafından desteklenen mükemmel parça değiştirme deneyimi</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement.Description">Lyricify Intelligent Engine tarafından desteklenen mükemmel parça değiştirme deneyimi</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">Zaman çizelgesi düzeltmesini etkinleştir</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">Zaman çizelgesi hassasiyetini geliştirin</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.CrossfadeNotice">Zaman çizelgesi düzeltmesi, çapraz solma etkinleştirildiğinde düzgün çalışmayabilir.</system:String>
@@ -563,15 +571,16 @@
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">Ön yükleme şarkı sözleri, parça değiştirme sırasında şarkı sözlerinin yüklenmesini fark edilemez hale getirebilir.</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation">Beğenmeme onayını etkinleştir</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation.Description">Kütüphanenizden (Beğenilen Şarkılar) şarkıları kaldırmadan önce onay isteği</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">Çince dönüşümü etkinleştirin.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">Çince dönüşümü etkinleştirin</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">Spotify içerikleri için Çince dönüşümü etkinleştirin</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">Cihaz gecikmesi</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">Milisaniyeler içinde. Bu argüman, Bluetooth oynatma cihazlarının gecikmesi için tasarlanmıştır, şarkı sözleri ofseti için BUNU KULLANMAYIN. Şarkı sözlerinin etkili olması için yenileyin</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Button.Configure">Yapılandır</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">Kısayol Yönetimi</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">Global kısayolları yönetmek için Hotkey Manager'ı açın</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">Açık</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar">Spotify API bekleme çubuğu</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar.Description">Parça değiştirme'nin 429 hatalarında alttaki ilerleme çubuğunu göster</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar.Description">Parça değiştirme sırasında 429 hatalarında alttaki ilerleme çubuğunu göster</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates">Güncellemeler</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.Description">Lyricify güncellemeleri hakkında ayarlar</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.Button.Check">Güncellemeleri Kontrol Et</system:String>
@@ -591,18 +600,18 @@
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Username">Kullanıcı adı</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Password">Şifre</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test">Test</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.ProxyOverrideEnabled">Proxy geçersiz kılma etkinleştirilmedi, test sonucu farklı olabilir. Hala test?</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.ProxyOverrideEnabled">Proxy geçersiz kılma etkin değil, test sonucu farklı olabilir. Hala test mi?</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Status">Ağ Durumu</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Connected">Bağlı</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Disconnected">Bağlantı kesildi</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Disconnected">Bağlantı Kesildi</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Apply">Uygula</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">Bazı işlevlerin etkili olması için yeniden başlatma gerekebilir.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">Bazı işlevlerin etkili olabilmesi için yeniden başlatma gerekebilir.</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile">Ayarlar dosyası</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Description">Ayarlar dosyasını doğrudan düzenle (İleri düzey)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Description">Doğrudan ayarlar dosyasını düzenle (İleri Seviye)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Open">Açık</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Load">Yük</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.ResetAll">Tümünü Sıfırla</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">Tüm ayarlarınızı sıfırlamak istediğinizden emin misiniz?</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">Tüm ayarlarınızı sıfırlamak konusunda emin misiniz?</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Done">Lyricify'in manuel olarak yeniden başlatılması gerekebilir.</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Log">Kütük</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Log.Description">Log işlemleri</system:String>
@@ -618,6 +627,7 @@
       -->
 
     <!--MainWindow-->
+
     <!--Three Dot Main Menu-->
     <system:String x:Key="String.Menu.MainWindow.Main.View">Görünüm</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.View.Topmost">En üstteki</system:String>
@@ -637,12 +647,13 @@
     <system:String x:Key="String.Menu.MainWindow.Main.LyricifyFullscreen">Lyricify Tam Ekran</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.MobileUIFullscreen">Mobil Kullanıcı Arayüzü Tam Ekran</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Settings">Ayarlar</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.Advanced">İleri düzey</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced">İleri seviye</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.BackupCenter">Yedekleme &amp; Otomasyon Merkezi</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CustomConfigurationManager">Özel Yapılandırma Yöneticisi</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.DeviceLatencyManager">Cihaz Gecikme Yöneticisi</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.HotkeyManager">Kısayol Yöneticisi</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LocalFilesManager">Yerel Dosya Yöneticisi</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">Spotify Web'e Giriş Yap</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">Spotify Web'e giriş yapın</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.RefreshPlaybackInfo">Spotify Yeniden Oynatma Bilgisini Yenile</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CopyRefreshToken">Yenileme Token'ını Kopyala</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.MediaSessionStatus">Medya Oturum Durumu</system:String>
@@ -666,7 +677,7 @@
     <!--Main Lyrics Line-->
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.Copy">Kopyala</system:String>
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyTranslation">Kopya çeviri</system:String>
-    <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyLineWithTranslation">Çeviriyle satırı kopyala</system:String>
+    <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyLineWithTranslation">Çeviri ile satırı kopyala</system:String>
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyAllLines">Tüm satırları kopyala</system:String>
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyAllTranslations">Tüm çevirileri kopyala</system:String>
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyAllLinesWithTranslation">Tüm satırları çeviri ile kopyalayın.</system:String>
@@ -675,11 +686,11 @@
     <!--Pinned Item-->
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.Rename">Yeniden adlandır</system:String>
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.MoveUp">Yukarı Taşın</system:String>
-    <system:String x:Key="String.Menu.MainWindow.PinnedItem.MoveDown">Aşağı Git</system:String>
+    <system:String x:Key="String.Menu.MainWindow.PinnedItem.MoveDown">Aşağı Taşı</system:String>
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.Remove">Kaldır</system:String>
 
     <!--Dynamic Lyrics Island-->
-    <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">2 saniye gizlemek için çift tıklayın</system:String>
+    <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">2s gizlemek için çift tıklayın</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">Ortala</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">Kapat</system:String>
 
@@ -703,7 +714,7 @@
     <!--Pages-->
     <system:String x:Key="String.Menu.Pages.CopyAlbumInfo">Albüm bilgisini kopyala</system:String>
     <system:String x:Key="String.Menu.Pages.CopyAlbumUPC">Albüm UPC'yi kopyala</system:String>
-    <system:String x:Key="String.Menu.Pages.CheckAlbumAvailability">Albümün mevcudiyetini kontrol et</system:String>
+    <system:String x:Key="String.Menu.Pages.CheckAlbumAvailability">Albümün kullanılabilirliğini kontrol et</system:String>
     <system:String x:Key="String.Menu.Pages.CheckPlaylistAvailability">Çalma listesi kullanılabilirliğini kontrol et</system:String>
     <system:String x:Key="String.Menu.Pages.CopyArtistInfo">Sanatçı bilgisini kopyala</system:String>
     <system:String x:Key="String.Menu.Pages.CopyPlaylistInfo">Çalma listesi bilgisini kopyala</system:String>
@@ -719,7 +730,7 @@
 
     <!--Track-->
     <system:String x:Key="String.Menu.Track.CopyTrackInfo">Parça bilgisini kopyala</system:String>
-    <system:String x:Key="String.Menu.Track.CopyTrackISRC">Kopyala parça ISRC</system:String>
+    <system:String x:Key="String.Menu.Track.CopyTrackISRC">ISRC'yi kopyala</system:String>
     <system:String x:Key="String.Menu.Track.AddToQueue">Kuyruğa ekle</system:String>
     <system:String x:Key="String.Menu.Track.GoToPlaylist">Çalma listesine git</system:String>
     <system:String x:Key="String.Menu.Track.GoToAlbum">Albüme git</system:String>
@@ -766,18 +777,18 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Button.Retry">Tekrar dene</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Button.Close">Kapat</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Title">Bir şeyler yanlış, işte hatayla ilgili daha fazla bilgi</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Retry">Tekrar deneyin</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Retry">Tekrar dene</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Close">Kapat</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Title" xml:space="preserve">Spotify'ya başarıyla bağlandı! </system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">Şimdi geriye yaslanın ve rahatlayın, hadi Lyricify'ı keşfedelim.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.WelcomeBack">Lyricify'e tekrar hoş geldiniz!</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">Siz {0:N0} numaralı Lyricify kullanıcısısınız.</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Success.FailedToRegister">Lyricify sunucusuna kayıt başarısız oldu. Sunucu tarafı işlevler sınırlı olabilir. Tekrar giriş yapmak bu sorunu çözebilir.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.FailedToRegister">Lyricify sunucusuna kayıt başarısız oldu. Sunucu tarafı işlevler sınırlı olabilir. Bu sorunu çözmek için tekrar giriş yapmayı deneyin.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">Git</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice">Spotify'da şarkı çalmadığınızı fark ettik. Lyricify bir şarkı sözleri uygulaması olduğu için, şarkı sözlerini Lyricify'da görüntüleyebilmek için şarkıları Spotify'da çalmanız gerekmektedir.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice.Button.Continue">Devam et</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Button.Continue">Devam et</system:String>
-    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Title">Özel API İstemcisini kullandığınızdan dolayı, aşırı koşullar altında Lyricify'ı kullanabilmek için genel API istemcisini yetkilendirmeniz önerilir.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Title">Özel API İstemcisini kullandığınızdan dolayı, Lyricify'ı aşırı koşullar altında kullanabilmek için genel API istemcisini yetkilendirmeniz önerilir.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip">Bu adımı atla (önerilmez)</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip.Ask">Bu adımı atlamak istediğinize emin misiniz? Aşırı koşullar altında Lyricify'i kullanmak için genel API istemcisini yetkilendirmeniz şiddetle tavsiye edilir.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Title">Web tarayıcınızda Spotify yetkilendirmesini tamamlayın, tıpkı az önce yaptığınız gibi.</system:String>
@@ -793,12 +804,13 @@
     <system:String x:Key="String.Windows.FontSelector">Yazı Tipi Seçici</system:String>
     <system:String x:Key="String.Windows.FontSelector.InstalledFonts">Yüklü Yazı Tipleri</system:String>
     <system:String x:Key="String.Windows.FontSelector.SetFontFamily">Yazı Tipi Ailesini Ayarla</system:String>
+    <system:String x:Key="String.Windows.FontSelector.SetFontFamily.SearchBar.PlaceHolder">Yazı tiplerini filtrele</system:String>
     <system:String x:Key="String.Windows.FontSelector.AddToList">Listeye ekle</system:String>
     <system:String x:Key="String.Windows.FontSelector.RemoveFromList">Listeden çıkar</system:String>
     <system:String x:Key="String.Windows.FontSelector.MoveUp">Yukarı çık</system:String>
     <system:String x:Key="String.Windows.FontSelector.MoveDown">Aşağı in</system:String>
     <system:String x:Key="String.Windows.FontSelector.Preview">Önizleme</system:String>
-    <system:String x:Key="String.Windows.FontSelector.TypeHereToPreview">Buraya önizleme için yazın.</system:String>
+    <system:String x:Key="String.Windows.FontSelector.TypeHereToPreview">Buraya önizleme için yazın</system:String>
     <system:String x:Key="String.Windows.FontSelector.OK">Tamam</system:String>
     <system:String x:Key="String.Windows.FontSelector.Cancel">İptal</system:String>
 
@@ -825,7 +837,7 @@
 
     <!--Configure Web Window-->
     <system:String x:Key="String.Window.ConfigureWeb.Notice1">Lyricify içinde çalmayı etkinleştirmek için buradan Spotify'a giriş yapın.</system:String>
-    <system:String x:Key="String.Window.ConfigureWeb.Notice2">Spotify Web sayfası düzgün bir şekilde görüntüleniyorsa, Lyricify sesi oynatabilmelidir. (Lyricify'in yeniden başlatılması gerekebilir)</system:String>
+    <system:String x:Key="String.Window.ConfigureWeb.Notice2">Spotify Web sayfası düzgün bir şekilde görüntüleniyorsa, Lyricify'in sesi oynatması mümkün olmalıdır. (Lyricify'in yeniden başlatılması gerekebilir)</system:String>
 
     <!--Custom Configuration Manager-->
     <system:String x:Key="String.Window.CustomConfigurationManager">Özel Yapılandırma Yöneticisi</system:String>
@@ -857,6 +869,25 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">Yukarı çık</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveDown">Aşağı in</system:String>
 
+    <!--Device Latency Manager-->
+    <system:String x:Key="String.Window.DeviceLatencyManager">Cihaz Gecikme Yöneticisi</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Description">Her oynatma cihazı için bireysel cihaz gecikmelerini ayarlayın.</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Description.Additional">Bu, çalma cihazlarının gecikmesi (Bluetooth cihazları gibi) için tasarlanmıştır, şarkı sözleri ofseti için kullanmayın.</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DefaultLatency">Varsayılan gecikme</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DefaultLatency.Description">Milisaniye cinsinden tam bir sayı, varsayılan değer 0'dır.</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceList">Cihaz Listesi</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.ComboBoxLatencyOption.Default">Varsayılan</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.ComboBoxLatencyOption.Custom">Görenek</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.Menu.Remove">Kaldır</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.Icon.CurrentDevice.ToolTip">Mevcut oynatma cihazı</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.CurrentLatency">Mevcut Gecikme:</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.CurrentLatency.Value">{0} ms</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DisconnectedOrDisabled">Bağlantısı kesilmiş veya devre dışı bırakılmış</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.RefreshDeviceList">Cihaz Listesini Yenile</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.RefreshLyrics">Yenile Şarkı Sözleri</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.Close">Kapat</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.Close.Notice">Tüm ayarlar otomatik olarak kaydedilecektir.</system:String>
+
     <!--Hotkey Manager-->
     <system:String x:Key="String.Window.HotkeyManager">Kısayol Yöneticisi</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Description">Burada global kısayolları yönetebilirsiniz. (Bir kısayolu temizlemek için Backspace tuşunu kullanın)</system:String>
@@ -886,7 +917,7 @@
     <system:String x:Key="String.Window.LocalFilesManager.Notice.HaveImage">Resim Var (Değiştirmek için tıklayın, kaldırmak için sağ tıklayın)</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.NoImage">Resim Yok (Eklemek için tıklayın)</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.AddImage">Bir resim ekle</system:String>
-    <system:String x:Key="String.Window.LocalFilesManager.Notice.ReplaceImage">Başka bir resimle değiştir</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.ReplaceImage">Başka bir resimle değiştirin</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.All">Tüm Desteklenen Dosyalar</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Image">Görüntü Dosyaları</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Audio">Ses Dosyaları</system:String>
@@ -895,15 +926,15 @@
     <system:String x:Key="String.Window.LocalFilesManager.Message.FailUpdate">Görüntü güncellenemedi.</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.AskRemove">Bu resmi kaldırmak istediğinize emin misiniz?</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.SuccessRemove">Görüntü başarıyla kaldırıldı.</system:String>
-    <system:String x:Key="String.Window.LocalFilesManager.Message.FailRemove">Resim kaldırılamadı.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.FailRemove">Görüntüyü kaldırmak başarısız oldu.</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Type.Albums">Albümler:</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Type.Tracks">İzler:</system:String>
 
     <!--Track Management-->
-    <system:String x:Key="String.Window.TrackManagement">İzleme Yönetimi</system:String>
+    <system:String x:Key="String.Window.TrackManagement">İz Yönetimi</system:String>
     <system:String x:Key="String.Window.TrackManagement.Title">Lyricify Parça Yönetimi</system:String>
     <system:String x:Key="String.Window.TrackManagement.Track.Lock">Kilit İzleme</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Track.Lock.Notice">Parça admin tarafından kilitlendi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Track.Lock.Notice">Parça admin tarafından kilitlendi.</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo">Temel Bilgiler</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Track">Pist</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo.Artist">Sanatçı</system:String>
@@ -920,13 +951,13 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">Kilit Şarkı Sözleri</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">Şarkı sözleri yönetici tarafından kilitlenmiştir.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">Offset bir sayı olmalıdır (offset'in birimi milisaniyedir)</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.TooLarge">Ofset bu kadar büyük olmamalı, belki buraya yanlış numarayı girmişsinizdir. Onu muhafaza etmek ister misin? (Ofset, milisaniye cinsinden zaman damgası ayarlamasıdır)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.TooLarge">Ofset bu kadar büyük olmamalı, belki buraya yanlış numarayı girmiş olabilirsiniz. Onu muhafaza etmek ister misin? (Ofset, milisaniye cinsinden zaman damgası ayarlamasıdır)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">Null (Sunucuda işaretlenmemiş)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.RemoveLyrics">Şarkı Sözlerini Kaldır</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">Ara</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search.Description">Dahili Lyricify Şarkı Sözleri Arayıcısı ile şarkı sözleri içe aktarın</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import">İthalat</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.QQ.Description">QQ Music Song Mid'i içe aktarın veya paylaşım bağlantısını kullanın.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.QQ.Description">QQ Music Şarkı Mid'i tarafından içe aktarılan sözler veya paylaşım bağlantısı</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">Netease Cloud Music Şarkı Id'si veya paylaşım linki ile şarkı sözleri içe aktarın.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit">Düzenle</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">İleri düzey şarkı sözü düzenleme</system:String>
@@ -937,7 +968,7 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention.Content">Yalnızca şarkı sözleri hem QQ Music'te hem de Netease Cloud Music'te mevcut değilse bunu kullanın.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.Attention">Medya Oturumu bağlantısı kesilmiş ortamda ofset değiştirilemez.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ">QQ Müzik</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">Lütfen QQ Müzik Şarkı Mid'i veya paylaşım linkini, QQ Müzik'ten şarkı sözlerini almak için girin.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">Lütfen QQ Müzik Şarkı Mid'i veya paylaşım linkini QQ Müzik'ten şarkı sözleri almak için girin.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Input">Yanlış QQ Müzik Şarkı Ortası, lütfen girişinizi kontrol edin.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Link">Paylaşım linki ile QQ Müzik Şarkı Mid'ini almak başarısız oldu.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease">Netease Bulut Müzik</system:String>
@@ -945,14 +976,14 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox.Failed.Input">Yanlış Netease Cloud Music Şarkı Id'si, lütfen girişinizi kontrol edin.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Reset">Sıfırla</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Reset.Description">Tüm değişiklikleri sıfırla</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo">Yerel Bilgiyi Yenile</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo">Yerel Bilgileri Yenile</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo.Description">Tüm değişiklikleri saklayın, genellikle görsel bir etkisi olmayacaktır.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.RefreshServerInfo">Sunucu Bilgisini Yenile</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.RefreshServerInfo.Description">Değişiklikleri reddet ve en son sunucu bilgisini yükle</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow">Ana Pencerede Uygula</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow.Description">Ana Pencerede mevcut şarkı sözleri bilgisini yükle (Yalnızca bu parça şu anda çalarken kullanılabilir)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow.Description">Ana Pencerede mevcut şarkı sözleri bilgisini yükle (Sadece bu parça şu anda çalarken kullanılabilir)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Save">Kaydet (Yükle)</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Button.Save.Message.ApplyInMainWindow">Ana Penceredeki değişiklikleri uygulayın ve yeni içe aktardığınız şarkı sözlerini kontrol etmeniz şiddetle tavsiye edilir. Ana Pencerede uygula (Evet), yüklemeye devam et (Hayır) veya hiçbir şey yapma (İptal)?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Save.Message.ApplyInMainWindow">Ana Penceredeki değişiklikleri uygulayın ve yeni içe aktardığınız şarkı sözlerini kontrol etmeniz şiddetle tavsiye edilir. Ana Pencerede şimdi uygula (Evet), yüklemeye devam et (Hayır) veya hiçbir şey yapma (İptal)?</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Close">Kapat</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.EditRawFile">Ham Ham Dosyasını Düzenle</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">Kaydetmeden kapatmak istediğinize emin misiniz?</system:String>
@@ -962,16 +993,16 @@
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle">BaşlıkMı</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle.ToolTip">Başlık satırları: başlık, kredi bilgileri ve diğer söz olmayan satırları içerir.</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView">Düet Görünümü</system:String>
-    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView.ToolTip">"Duet View" başlığına çift tıklamak, duet görünüm ayarlarını silebilir.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView.ToolTip">"Duet View" başlığına çift tıklamak duet görünüm ayarlarını silebilir.</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Button">Tüm Şarkı Sözlerini Yükle</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Button.Notice">Tüm düzenleme işlevlerini etkinleştirmek için tüm şarkı sözlerini yükleyin.</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Timestamp">Zaman damgasını kopyala</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Lyrics">Şarkı sözlerini kopyala</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Translation">Kopya çeviri</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampLyrics">Zaman damgasını kopyala ve şarkı sözleri</system:String>
-    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampTranslation">Zaman damgasını kopyala ve çevir</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampTranslation">Zaman damgasını kopyala ve çevir.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.Loading">Sunucu Şarkı Sözleri Bilgisi Yükleniyor</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">Boş parça</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">Boş iz</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">Sunucu şarkı sözleri bilgisi yüklenemedi</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message">Denemeyi düşünebilirsin.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.1">1. Lyricify sunucusuna bağlantıyı engelleyebilecek proxy'yi devre dışı bırakın.</system:String>
@@ -983,7 +1014,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Lyrics">Şarkı sözleri</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">Çeviri</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">Çeviri Ekle</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Message.Translation.AutoFill">Otomatik doldurulan çeviriyi kullanmak ister misiniz?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Message.Translation.AutoFill">Otomatik doldurulan çeviriyi kullanın?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyrics">Apple Music Şarkı Sözlerini İçe Aktar</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyricsById">ID ile Apple Music Şarkı Sözlerini İçe Aktar</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportSpotifyLyrics">Spotify Şarkı Sözlerini İçe Aktar</system:String>
@@ -1007,15 +1038,15 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.EnterIdOrLink">Kimlik veya bağlantı girin</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet">Şarkı sözleri alınamadı</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">Şarkı sözleri bulunamadı</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">Bu sözler kelime zamanlaması değil, ithalatı sürdürmeli miyiz?</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">Geleneksel Çince'yi Basitleştirilmiş Çince'ye nasıl çevirebilirim?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">Bu sözler kelime zamanlaması değil, ithalatı sürdürmeli miyim?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">Geleneksel Çince'yi Basitleştirilmiş Çince'ye çevirin?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoSongs">Karşılık gelen şarkılar bulunamadı.</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoLyrics">İlgili şarkının sözleri veya zaman senkronize sözleri yok.</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.TooManyRequest">Çok fazla istek, lütfen saatler sonra tekrar deneyin.</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.CurrentlyUnavailable">Bu işlev şu anda kullanılamıyor, lütfen yarın tekrar deneyin.</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.AddTranslation">Lütfen içe aktardığınız şarkı sözleri için manuel olarak Çince çeviri ekleyin (sadece Basitleştirilmiş Çince, Geleneksel Çince kabul edilmez).</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.AddTranslation">Lütfen içe aktardığınız şarkı sözleri için manuel olarak Çince çeviri ekleyin (Sadece Basitleştirilmiş Çince, Geleneksel Çince kabul edilmez).</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization">Büyük Harf Kullanımı</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization.Message">Tüm satır başlarını büyük harf yapın mı?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization.Message">Tüm satır başlarını büyük harf yapın?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Copied.QRC">QRC panoya kopyalandı</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Copied.LyricifySyllable">Lyricify Hece panoya kopyalandı</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.NotSynced">Şarkı sözleri senkronize edilemedi, içe aktarma başarısız oldu.</system:String>
@@ -1023,7 +1054,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.TokenExpired">Sunucu tarafı Spotify Token süresi doldu, lütfen Lyricify'in geliştiricisiyle iletişime geçin.</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToFound">Şarkı sözü bulunamadı</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToGet">Şarkı sözleri alınamadı</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToConvert">Şarkı sözleri çevirilemedi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToConvert">Şarkı sözlerini çevirme başarısız oldu.</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor">Ham Dosya Düzenleyici</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">Deserialize edilemiyor, değişikliklerinizi gözden geçirin (Evet) veya kaydetmeden kapatın (Hayır)?</system:String>
 
@@ -1068,14 +1099,14 @@
     <system:String x:Key="String.Window.BackupCenter.Tab.Preview">Önizleme</system:String>
     <system:String x:Key="String.Window.BackupCenter.Tab.Automation">Otomasyon</system:String>
     <system:String x:Key="String.Window.BackupCenter.Tab.Schedule">Program</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Home.Welcome">Lyricify Yedekleme &amp; Otomasyon Merkezine Hoş Geldiniz</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.Welcome">Lyricify Yedekleme ve Otomasyon Merkezine Hoş Geldiniz</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Backup">Yedek</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Backup.Description">Kütüphanenizi ve daha fazla verinizi yedekleyin.</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Transfer">Transfer</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Transfer.Description">Verilerinizi başka bir hesaba aktarın.</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Automation">Otomasyon</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Automation.Description">Lyricify'in kütüphanenizi yönetmesine izin verin</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Home.PersonalUseWarning" xml:space="preserve">Yalnızca kişisel kullanım! xml:space="preserve"Eğer Lyricify Yedekleme Merkezi'ni ticari faaliyetler için kullanmak istiyorsanız, öncelikle Lyricify ile iletişime geçmelisiniz.</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.PersonalUseWarning" xml:space="preserve">Yalnızca kişisel kullanım! xml:space="preserve"Eğer Lyricify Yedekleme Merkezini ticari faaliyetler için kullanmak istiyorsanız, öncelikle Lyricify ile iletişime geçmelisiniz.</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step1">Adım 1: Yedeklemek istediğiniz şeyi seçin</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step2">Adım 2: Yedek çıktı formatını seçin</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step3">Adım 3: İsterseniz bir şifre belirleyin</system:String>
@@ -1083,7 +1114,7 @@
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Playlist">Çalma listesi</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Album">Albüm</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Artist">Sanatçı</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Json.Description">Json dosyaları, Lyricify'in tamamen geri yüklenmesini sağlar.</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Json.Description">Json dosyaları, Lyricify'nin tamamen geri yükleme yeteneği sağlar.</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Csv.Description">CSV dosyaları bir sayfa olarak gösterilebilir ve bazı diğer hizmet sağlayıcılarla uyumludur.</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Text.Description">Metin dosyaları sadece parça adını ve sanatçı adını kaydeder.</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Intro">Size Json dosyasını seçmenizi öneririz, doğal olarak Lyricify ile çalışır, ayrıca bir şifre ile korunabilir. Şu anda, CSV dosyaları ve Metin dosyaları sadece Beğenilen Şarkılar için mevcuttur.</system:String>
@@ -1095,7 +1126,7 @@
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Button.ResetToDefault">Tümünü Varsayılana Sıfırla</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step1">Adım 1: Kütüphanenizi kontrol edin</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2">Adım 2: Onları yedekleyin</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step3">Adım 3: Dosyayı kaydet</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step3">Adım 3: Dosyaya kaydet</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step1.Output">Kütüphanenizde {0} bulduk.</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2.Output">{0}'yi yedekledik.</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2.ETA">Kalan süre: {0} saniye</system:String>
@@ -1116,7 +1147,7 @@
 
     <!--Others-->
     <system:String x:Key="String.Helpers.Player.Time.Hour">saat</system:String>
-    <system:String x:Key="String.Helpers.Player.Time.Minute">ben</system:String>
+    <system:String x:Key="String.Helpers.Player.Time.Minute">dakika</system:String>
     <system:String x:Key="String.Helpers.Player.Time.Second">bekle</system:String>
     <system:String x:Key="String.Helpers.Time.Ago.Day">{0} gün önce</system:String>
     <system:String x:Key="String.Helpers.Time.Ago.Days">{0} gün önce</system:String>
@@ -1144,15 +1175,15 @@
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Exist">Şarkı sözleri zaten işaretlenmiş.</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">Başarısız, bu bir iç hata olabilir.</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Network">Lyricify'nin sunucusunda veya ağınızda bir sorun var.</system:String>
-    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">Boş sözler nedeniyle başarısız oldu, bu bir iç hata olabilir.</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">Boş şarkı sözleri nedeniyle başarısız oldu, bu bir iç hata olabilir.</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Exist">Şarkı sözleri var, daha sonra tekrar deneyin.</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Locked">Bu parça kilitlenmiştir.</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Denied">İşaret talebiniz reddedildi.</system:String>
-    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Success">Sunucuya başarıyla yüklendi.</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Success">Sunucuya başarıyla yüklendi</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail">Başarısız, bu bir iç hata olabilir.</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.EmptyUpload">Boş yükleme</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Part">Yüklemenin bir kısmı başarısız oldu, lütfen daha sonra tekrar deneyin.</system:String>
-    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Denied">Yükleme isteğiniz reddedildi.</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Denied">Yükleme talebiniz reddedildi.</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Locked">Bu parça kilitlenmiştir.</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Network">Yükleme başarısız oldu, bu bir ağ sorunu nedeniyle olmuş olabilir.</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.ServerException">Yükleme başarısız oldu, bu sunucu istisnasından kaynaklanmaktadır.</system:String>
@@ -1167,29 +1198,38 @@
     <!--Converter-->
     <system:String x:Key="String.Converter.ValueString">{%0} tamamlandı</system:String>
 
+    <!--Dialogs-->
+    <system:String x:Key="String.Dialog.Store.Title">Özel bir özellik buldunuz!</system:String>
+    <system:String x:Key="String.Dialog.Store.Explore">Sizi, gelişmiş bir deneyim için Microsoft Store'daki Lyricify'i keşfetmeye davet ediyoruz. Desteğiniz, sürekli iyileştirilmesi ve geliştirilmesine büyük ölçüde katkı sağlayacaktır.</system:String>
+    <system:String x:Key="String.Dialog.Store.Purchase">Lyricify'ı Microsoft Store'dan satın almayı düşünmenizi öneririz. Destekleriniz, deneyiminizi geliştirmemize ve yeni özellikler geliştirmeye devam etmemize yardımcı olacaktır.</system:String>
+    <system:String x:Key="String.Dialog.Store.Button.GoToStore">Microsoft Store'a gidin</system:String>
+    <system:String x:Key="String.Dialog.Store.Button.Close">Kapat</system:String>
+    <system:String x:Key="String.Dialog.Store.Donator">Zaten bir bağışçı mısınız?</system:String>
+    <system:String x:Key="String.Dialog.Store.Donator.ToolTip">Microsoft Store satış fiyatına eşit veya daha fazla bağış yapan destekçiler, geliştiriciden ücretsiz bir Microsoft Store hediye kodu talep edebilir.</system:String>
+
     <!--
           Messages
       -->
 
     <!--App-->
-    <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">Yetkisiz eylem, devam etmek için tekrar giriş yapın.</system:String>
-    <system:String x:Key="String.Messages.App.Exception.PremiumRequired">Prim gereklidir</system:String>
+    <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">Yetkisiz eylem, devam etmek için yeniden giriş yapın.</system:String>
+    <system:String x:Key="String.Messages.App.Exception.PremiumRequired">Premium gereklidir</system:String>
     <system:String x:Key="String.Messages.App.Exception.TryToRelogin">Lütfen tekrar giriş yapmayı deneyin.</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">Çok fazla istek (429 hatası), daha sonra tekrar deneyin.</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">Çok fazla istek (429 hatası), {0} saniye sonra tekrar deneyin.</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify">429 hatalarından kaçınmak için Özel API İstemcisini kurabilirsiniz (Daha fazla bilgi için tıklayın)</system:String>
-    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify.Full">Özel API İstemcisi'ni kurarak 429 hatalarından kaçınabilirsiniz, bu Lyricify başlangıcını ve şarkı değişimini hızlandırabilir (Daha fazla bilgi için tıklayın)</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify.Full">Özel API İstemcisi'ni kurarak 429 hatalarından kaçınabilirsiniz, bu Lyricify başlangıcını ve şarkı değiştirmeyi hızlandırabilir (Daha fazla bilgi için tıklayın)</system:String>
 
     <!--MainWindow-->
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 Hatası, daha sonra tekrar deneyin</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Timeout">Zaman aşımı hatası, daha sonra tekrar deneyin.</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Http İstisna Talebi, daha sonra tekrar deneyin</system:String>
-    <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">Lyricify hesabı bulunamadı, sunucu ile ilgili işlevler sınırlı olacak. Çıkış yapmak ve tekrar giriş yapmak yardımcı olabilir.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">Lyricify hesabı bulunamadı, sunucu ile ilgili işlevler sınırlı olacak.&#x000A;Çıkış yapmak ve tekrar giriş yapmak yardımcı olabilir.</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Restricted">Lyricify hesabınız kısıtlandı, yardım için yöneticiyle iletişime geçin.</system:String>
     <system:String x:Key="String.Messages.MainWindow.Message.NonPremium">Öneri: Lyricify'den en iyi şekilde yararlanmak için Spotify Premium alın.</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed">Lyricify kapatılacak.</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed.Wrong">Bir şeyler yanlış, Spotify için Lyricify kapanacak.</system:String>
-    <system:String x:Key="String.Messages.MainWindow.SpotifyAccount.Error.Relogin">Spotify hesabınızda bir sorun var, tekrar giriş yapmayı deneyin mi?</system:String>
+    <system:String x:Key="String.Messages.MainWindow.SpotifyAccount.Error.Relogin">Spotify hesabınızda bir sorun var, tekrar giriş yapmayı denediniz mi?</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.NetworkIssue">Ağ sorunu. Lütfen İnternet bağlantınızı kontrol edin.</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.TryToRelogin">Lütfen tekrar giriş yapmayı deneyin.</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.SomethingsWrong">Bir şeyler yanlış, lütfen İnternet bağlantınızı kontrol edin veya geliştiriciyle iletişime geçin.</system:String>
@@ -1200,20 +1240,20 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">Spotify Hizmeti şu anda kullanılamıyor (503 hata), lütfen daha sonra deneyin.</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">Aşırı 429 Hatası</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.HavePublic.Notice">Özel API istemciniz aşırı durum altında (429 hata döndürüyor ve {0} saniye sonra yeniden deneme yapılacak), Lyricify halka açık API istemcisi kullanarak çalışmaya devam edecek.</system:String>
-    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.NoPublic.Message" xml:space="preserve">Özel API istemciniz aşırı durumda (429 hata dönüşü ve {0} saniye sonra yeniden deneme), ve genel API istemcisi yapılandırılmamış, bu yüzden Lyricify, 429 hatası sona erene kadar işlevsiz. Çıkış yapmak için Evet'e basın, Lyricify'i kapatmak için Hayır'a basın.</system:String>
-    <system:String x:Key="String.Messages.MainWindow.Lyrics.NoTrackPlaying">Spotify çalmaya başlamadan Şarkı Sözlerini açamayacaksın.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.NoPublic.Message" xml:space="preserve">Özel API istemciniz aşırı durum altında (429 hata dönüşü ve {0} saniye sonra yeniden deneme), ve genel API istemcisi yapılandırılmamış, bu yüzden Lyricify, 429 hatası sona erene kadar işlevsiz.&#x000A;Çıkış yapmak için Evet'e basın, Lyricify'i kapatmak için Hayır'a basın.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Lyrics.NoTrackPlaying">Spotify çalmaya başlamadan Şarkı Sözlerini açamayacaksınız.</system:String>
     <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">Spotify çalmaya başlamadan Apple Music Şarkı Sözlerini açamayacaksın.</system:String>
     <system:String x:Key="String.Messages.LyricifyFullscreen.NoTrackPlaying">Spotify çalmaya başlayana kadar Lyricify Tam Ekran'ı açamayacaksınız.</system:String>
     <system:String x:Key="String.Messages.MobileUIFullscreen.NoTrackPlaying">Spotify çalmaya başlayana kadar Mobil UI Tam Ekran'ı açamayacaksınız.</system:String>
     <system:String x:Key="String.Messages.MainWindow.LogOut.Query">Bu Spotify hesabından çıkış yapmak istediğinize emin misiniz?</system:String>
-    <system:String x:Key="String.Messages.MainWindow.LogOut.Failed">Çıkış yapılamadı</system:String>
+    <system:String x:Key="String.Messages.MainWindow.LogOut.Failed">Çıkış yapma başarısız oldu</system:String>
 
     <!--Updates-->
     <system:String x:Key="String.Messages.Updates.FoundNewVersion">Yeni sürüm tespit edildi</system:String>
     <system:String x:Key="String.Messages.Updates.FoundNewVersion.GoToStore">Microsoft Store'da kontrol etmek için tıklayın.</system:String>
 
     <!--Operations-->
-    <system:String x:Key="String.Messages.Operation.Spotify.Add.LikedSongs">Beğenilen Şarkılarınıza eklendi</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Add.LikedSongs">Beğenilen Şarkılarınıza Eklendi</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Remove.LikedSongs">Beğenilen Şarkılarınızdan Kaldırıldı</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Add.Library">Kütüphanenize Kaydedildi</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Remove.Library">Kütüphanenizden Kaldırıldı</system:String>
@@ -1226,20 +1266,20 @@
     <!--
           Lyricify Wrapped
       -->
-
+      
     <!--Wrapped Year-->
     <system:String x:Key="String.Wrapped.Title">Lyricify Sarılı</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2023">Sen, ben ve 2023 hakkında her şey</system:String>
     <system:String x:Key="String.Wrapped.Unwrap">Paketini aç</system:String>
-    <system:String x:Key="String.Wrapped.Unwrap.Notice">Unwrap, Lyricify'in kullanıcı sözleşmelerini kabul ettiğiniz ve Lyricify'in uygulama kullanımınızı işlemesine ve analiz etmesine izin verdiğiniz anlamına gelir.</system:String>
+    <system:String x:Key="String.Wrapped.Unwrap.Notice">Unwrap, Lyricify'in kullanıcı anlaşmalarını kabul ettiğiniz ve Lyricify'in uygulama kullanımınızı işlemesine ve analiz etmesine izin verdiğiniz anlamına gelir.</system:String>
     <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">Hızlan</system:String>
     <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">Şimdi aç</system:String>
-    <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify, tüm hikayelerinizi 2023'te Lyricify ile sarmış, hemen gidip açın!</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify, tüm hikayelerinizi 2023'te Lyricify ile sarmış, hemen açın!</system:String>
     <system:String x:Key="String.Wrapped.Notice.CloseReminder">Lyricify Wrapped, ana menüde ve kullanıcı widget menüsünde bulunabilir, böylece daha sonra açabilirsiniz.</system:String>
     <system:String x:Key="String.Wrapped.Messages.001">Merhaba, {0}</system:String>
-    <system:String x:Key="String.Wrapped.Messages.002">Burası Lyricify!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.002">Burada Lyricify var!</system:String>
     <system:String x:Key="String.Wrapped.Messages.003">Hala hatırlıyor musun?</system:String>
-    <system:String x:Key="String.Wrapped.Messages.004" xml:space="preserve">İlk olarak şurada tanıştık: {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.004" xml:space="preserve">İlk olarak şurada tanıştık: &#x000A;{0}</system:String>
     <system:String x:Key="String.Wrapped.Messages.005">{0:N0} gün önce</system:String>
     <system:String x:Key="String.Wrapped.Messages.006">No.{0:N0} Lyricify 4 kullanıcısı olarak</system:String>
     <system:String x:Key="String.Wrapped.Messages.007">Ve {0}</system:String>
@@ -1249,8 +1289,8 @@
     <system:String x:Key="String.Wrapped.Messages.007.Types.4">premium kullanıcı</system:String>
     <system:String x:Key="String.Wrapped.Messages.007.Types.5">bir kullanıcı</system:String>
     <system:String x:Key="String.Wrapped.Messages.007.Types.6">sınırlı kullanıcı</system:String>
-    <system:String x:Key="String.Wrapped.Messages.008" xml:space="preserve">Sen ve Lyricify. Bu yıl uzun bir hikayem var</system:String>
-    <system:String x:Key="String.Wrapped.Messages.009">Microsoft Store'dan Lyricify 4 satın aldığınız için çok teşekkür ederiz.</system:String>
+    <system:String x:Key="String.Wrapped.Messages.008" xml:space="preserve">Sen ve Lyricify &#x000A; bu yıl uzun bir hikayem var</system:String>
+    <system:String x:Key="String.Wrapped.Messages.009">Microsoft Store'dan Lyricify 4 satın aldığınız için çok teşekkür ederim.</system:String>
     <system:String x:Key="String.Wrapped.Messages.010">Benim için çok şey ifade ediyor!</system:String>
     <system:String x:Key="String.Wrapped.Messages.011">Bu yıl</system:String>
     <system:String x:Key="String.Wrapped.Messages.012">Lyricify'i {0:N0} kez başlattınız.</system:String>
@@ -1270,7 +1310,7 @@
     <system:String x:Key="String.Wrapped.Messages.021">Bir bakayım</system:String>
     <system:String x:Key="String.Wrapped.Messages.022">{0}, ha</system:String>
     <system:String x:Key="String.Wrapped.Messages.023">Şarkı sözlerini okumak için iyi bir zaman!</system:String>
-    <system:String x:Key="String.Wrapped.Messages.024">{0} tarihinde bir şeyler oldu mu?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.024">{0} tarihinde bir şey oldu mu?</system:String>
     <system:String x:Key="String.Wrapped.Messages.025">İyi</system:String>
     <system:String x:Key="String.Wrapped.Messages.026">O gün o kadar çok şarkı sözü okudunuz ki, {0:N0} defa ulaştınız.</system:String>
     <system:String x:Key="String.Wrapped.Messages.027">Bunu bilmek iyi</system:String>
@@ -1280,7 +1320,7 @@
     <system:String x:Key="String.Wrapped.Messages.031">Bu arada</system:String>
     <system:String x:Key="String.Wrapped.Messages.032">Lyricify Mobile, şarkı sözlerini telefonlarınızda veya tabletlerinizde görüntülemeniz için kullanılabilir!</system:String>
     <system:String x:Key="String.Wrapped.Messages.033">{0:N0} şarkı sözü görüntülediniz.</system:String>
-    <system:String x:Key="String.Wrapped.Messages.034">Ama bunlar Lyricify'ınızı yönetti.</system:String>
+    <system:String x:Key="String.Wrapped.Messages.034">Ama bunlar senin Şarkı Sözlerini yönetti.</system:String>
     <system:String x:Key="String.Wrapped.Messages.035">{0:N0} kez</system:String>
     <system:String x:Key="String.Wrapped.Messages.036">Lyricify'in şarkı sözleri hizmeti tüm Lyricify kullanıcıları tarafından oluşturulmuştur.</system:String>
     <system:String x:Key="String.Wrapped.Messages.037">Mark ve Upload şarkı sözleri, şarkı sözleri kasasını oluşturmanın iki önemli yoludur.</system:String>
@@ -1292,8 +1332,8 @@
     <system:String x:Key="String.Wrapped.Messages.043">Katkıda bulunduğunuz için teşekkür ederim.</system:String>
     <system:String x:Key="String.Wrapped.Messages.044">Her neyse</system:String>
     <system:String x:Key="String.Wrapped.Messages.045">Harika yıl</system:String>
-    <system:String x:Key="String.Wrapped.Messages.046">Harika sen</system:String>
-    <system:String x:Key="String.Wrapped.Messages.047">Lyricify'nin bu harika yılı sizinle geçirmiş olması bir ayrıcalıktı.</system:String>
+    <system:String x:Key="String.Wrapped.Messages.046">Harika sensin</system:String>
+    <system:String x:Key="String.Wrapped.Messages.047">Bu harika yılı sizinle geçirmek Lyricify için bir ayrıcalık oldu.</system:String>
     <system:String x:Key="String.Wrapped.Messages.048">Şarkı sözleri her şeydir</system:String>
     <system:String x:Key="String.Wrapped.Messages.049">Lyricify her zaman senin için burada</system:String>
     <system:String x:Key="String.Wrapped.Messages.050">Sadece keyfini çıkar!</system:String>
