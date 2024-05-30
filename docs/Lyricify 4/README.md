@@ -181,7 +181,7 @@ Lyricify 4 支持全局快捷键，且支持自定义。
 ## 设置
 
 ### 字体
-Lyricify 4 有着强大的自定义字体功能，您可以为 `歌词` 界面、`Lyricify 全屏` 界面、`桌面歌词` 设置自定义字体。
+Lyricify 4 有着强大的自定义字体功能，您可以为 `歌词` 界面、`Apple Music 歌词` 界面、`灵动词岛`、`桌面歌词`、`Lyricify 全屏` 界面 设置自定义字体。
 如果您想要自定义字体，则可以通过以下步骤实现：
 1. 设置中找到对应界面的 `字体家族` 设置，点击 `自定义` 按钮。
 2. 这时会打开 `字体选择工具` 窗口，左侧为已安装字体列表，右侧为自定义字体列表。
@@ -370,18 +370,6 @@ Lyricify 4 支持内置播放，但是并不建议使用。这只是一个测试
 1. 在 `Windows 资源管理器` 的地址栏中输入 `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`，按 `Enter` 键。
 2. 将 Lyricify 快捷方式复制到此文件夹中即可。
 
-## Apple Music 歌词流畅度优化
-Apple Music 歌词界面 CJK (中日韩) 歌词流畅度较低，这是微软的锅。  
-*本优化对于灵动词岛的卡顿问题也有作用。*  
-在这里，Lyricify 提供了优化方案。  
-**注意：**  
-1. Lyricify 4.0.9 或更高版本中会自动执行本优化，无需用户手动执行。(微软商店版本因权限和重定向问题，无法实现自动安装，需手动优化)
-2. 由于部分系统环境复杂，无法自动安装，您可以尝试手动安装以进行优化。
-**方法：**  
-1. 下载 [PingFang SC for Lyricify.7z](https://github.com/WXRIW/Lyricify-App/raw/main/resources/font/PingFang%20SC%20for%20Lyricify.7z)。
-2. 将这个压缩包里的字体安装到系统中（解压后右击字体，点击安装即可）。
-3. 重启 Lyricify。
-
 # 常见问题
 
 ## Microsoft Store 版本与 GitHub 版本有什么区别
@@ -391,9 +379,15 @@ Apple Music 歌词界面 CJK (中日韩) 歌词流畅度较低，这是微软的
 2. Microsoft Store 版本的自动更新由 Microsoft 负责和管理，体验更好。
    GitHub 版本的更新由 Lyricify 负责，更新源为 GitHub 服务器，在部分地区体验不如 Microsoft Store 版本。
 3. 已购买的 Microsoft Store 版本在启动时会有特殊欢迎提示。
+4. 部分功能为 Microsoft Store 版本独享功能。
 
-目前，Microsoft Store 版本与 GitHub 版本没有功能上的区别，但后期可能会开发 Microsoft Store 版本独享功能。  
-在 Microsoft Store 购买 Lyricify 是对 Lyricify 开发者的一种支持和信任，感谢所有购买或打赏过 Lyricify 的用户！  
+### Microsoft Store 独享功能
+为了提升用户体验，促进开发良心循环，部分功能是作为 Microsoft Store 独享功能开发的。  
+目前 Microsoft Store 版本有以下独享功能：
+1. Apple Music 歌词的自定义字体功能。
+2. 灵动词岛的自定义字体功能。
+  
+在 Microsoft Store 购买 Lyricify 是对 Lyricify 开发者的一种支持和信任，感谢所有购买或打赏过 Lyricify 的用户！也欢迎各位用户给出 5 星好评和评语，这对我有很大帮助！  
 
 ### 更多信息
 Lyricify 4 是免费软件，如果你觉得 Lyricify 4 做的不错，则可以通过以下渠道支持：
@@ -447,6 +441,9 @@ Lyricify 可以保证的是，Lyricify 本身没有问题，这个问题是纯�
 提示 `你的上传请求被拒绝`。
 ### 解决方案
 如果您是新用户，请等待 24 小时再上传。
+
+## Lyricify 账户被限制
+参考[本文](LyricifyAccount/README.zh-CN.md)。
 
 ## 打开 Lyricify 的同时打开 Spotify 功能不见了
 此功能在 Lyricify 3 中仅为测试功能，目前没有找到完美的实现方式，故 Lyricify 4 取消了该功能。  
@@ -576,12 +573,6 @@ Lyricify 为提升体验，需在歌曲开头以最小的影响进行时间轴�
 ### 解决方案
 ~~重新打开 Lyricify。~~  
 使用 Lyricify 4.1 或更新版本的 64 位版本。
-
-## 灵动词岛没有 Lyricify 3 流畅
-### 导致原因
-`dynamicClass.IL_STUB_COMtoCLR` 占用高，未查明具体原因。
-### 解决方案
-暂无，您也可以尝试[这个优化](#apple-music-%E6%AD%8C%E8%AF%8D%E6%B5%81%E7%95%85%E5%BA%A6%E4%BC%98%E5%8C%96)，此优化对于灵动词岛也有效果。
 
 # 特殊问题
 
