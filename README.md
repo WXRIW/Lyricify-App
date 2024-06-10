@@ -24,7 +24,7 @@
    **对于 Linux 平台：** 我们已经在尝试让 Lyricify 通过 Wine 在 Linux 平台上运行，并力求简便和稳定。您可以在 [Lyricify on Wine 仓库](https://github.com/Lyricify/Lyricify-on-Wine)下载软件包。  
    **对于 macOS 平台：** 在 M 系列芯片的 Mac 上，建议使用 Windows on ARM 虚拟机运行 Lyricify ARM64 版本以获得更好的体验。</span>  
 4. <span id="ref3">Lyricify Mobile 可作为兼容的 iOS 应用在 visionOS 上运行。</span>  
-5. <span id="ref4">Lyricify Mobile for macOS 因为一些问题暂时未发布，预计随 1.4.3 发布，敬请期待。</span>  
+5. <span id="ref4">Lyricify Mobile for macOS 因为一些问题暂时未发布，预计随 1.4.4 发布，敬请期待。</span>  
 6. <span id="ref5">Lyricify Lite 计划支持部分已接入 SMTC 的 app，如 Spotify、Apple Music、HyPlayer 等。</span>  
 
 **Notes**  
@@ -33,7 +33,7 @@
    **For Linux platforms:** We are endeavoring to operate Lyricify via Wine on the Linux platform, striving for consistent reproduction. You may procure the software package from [Lyricify on Wine repository](https://github.com/Lyricify/Lyricify-on-Wine).  
    **For macOS platforms:** On Macs with M-series chips, it is recommended to use a Windows on ARM virtual machine to run the Lyricify ARM64 version for a better experience.</span>  
 5. <span id="ref3_en">Lyricify Mobile can run on visionOS as Compatible iOS App.</span> 
-6. <span id="ref4_en">Lyricify Mobile for macOS has not been released yet due to some issues. It is expected to be released with Lyricify Mobile version 1.4.3, stay tuned.</span>  
+6. <span id="ref4_en">Lyricify Mobile for macOS has not been released yet due to some issues. It is expected to be released with Lyricify Mobile version 1.4.4, stay tuned.</span>  
 7. <span id="ref5_en">Lyricify Lite has been planned to support apps connected to SMTC, such as Spotify, Apple Music, HyPlayer, etc.</span>  
 5. <span id="ref6_en">User guide documents are in Simplified Chinese, use a translator if you don't speak Chinese.</span>  
 
@@ -47,6 +47,8 @@ https://t.me/lyricifyreleases
 [点击加入群聊【Lyricify 用户群 1】](https://jq.qq.com/?_wv=1027&k=hZG8VRV4)（群号：972282479）  
 [点击加入群聊【Lyricify 用户群 2】](https://jq.qq.com/?_wv=1027&k=l0Sy2aGi)（群号：653663090）  
 [点击加入群聊【Lyricify 用户群 3】](https://jq.qq.com/?_wv=1027&k=nUr4jHVU)（群号：515098369）  
+[点击加入群聊【Lyricify 用户群 4】](https://qm.qq.com/q/ejJ0huLLsQ)（群号：630964785）  
+[点击加入群聊【Lyricify 用户群 5】](https://qm.qq.com/q/wGe070e4rS)（群号：561373781）  
 
 **Reserved Download Link / 备用下载地址:**  
 https://wxriw.lanzoux.com/b015qcwob
