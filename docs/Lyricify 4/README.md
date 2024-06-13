@@ -382,7 +382,7 @@ Lyricify 4 支持内置播放，但是并不建议使用。这只是一个测试
 4. 部分功能为 Microsoft Store 版本独享功能。
 
 ### Microsoft Store 独享功能
-为了提升用户体验，促进开发良心循环，部分功能是作为 Microsoft Store 独享功能开发的。  
+为了提升用户体验，促进开发良性循环，部分功能是作为 Microsoft Store 独享功能开发的。  
 目前 Microsoft Store 版本有以下独享功能：
 1. Apple Music 歌词的自定义字体功能。
 2. 灵动词岛的自定义字体功能。
