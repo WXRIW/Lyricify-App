@@ -10,10 +10,6 @@
 
 </div>
 
-**请旧版用户尽快更新至最新版，旧版服务器被攻击，无法继续使用，更新新版后即可正常使用。**  
-对于中国大陆地区用户：如果更新后软件访问很慢，则可以尝试将 wxriw.cn 下的所有流量通过代理访问，您还可以通过访问[这里](https://api.wxriw.cn/app/connection-test)测试您与 Lyricify 服务器的连通性。  
-**Please update to the latest version as soon as possible if you are using earlier versions. The old server has been attacked and cannot be used any longer. You can use it normally after updating to the new version.**  
-
 | 软件</br>Application | 最新版本</br>Latest Version | 备注</br>Notes | 平台</br>Platform | 使用指南</br>User Guide |
 | :-: | :-: | :-: | :-: | :-: |
 | [Lyricify 4](https://github.com/WXRIW/Lyricify-App#lyricify-4) | [4.3.4-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.3.4) | 适用于 Spotify 用户</br>For Spotify users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%204/README.md)<sup><a href="#ref5_en">5</a></sup> |
