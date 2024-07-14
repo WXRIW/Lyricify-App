@@ -259,6 +259,14 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip2">左滑或右滑以最大化</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip3">下滑以最小化</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip4">按下右键滑动以控制歌词位置</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Close">退出 Apple Music 歌词</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MaximizeWindow">全屏窗口</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.RestoreWindow">还原窗口</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MinimizeWindow">最小化窗口</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToCurrentLine">查看当前行</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToFirstLine">查看首行</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToLastLine">查看末行</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.None">无操作</system:String>
 
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToArtist">前往艺人</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToAlbum">前往专辑</system:String>
@@ -424,9 +432,13 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Medium">中度 (默认)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.High">高</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Tremendous">极高</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MagicStripFeature">妙控条功能描述</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MagicStripFeature.Description">使用妙控条时显示对应功能</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial">显示妙控条教程</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Description">总是在进入 Apple Music 歌词后显示妙控条教程</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">隆重推出妙控条 (Magic Strip)！ &#x000A;&#x000A;你可以点击条状按钮来退出 Apple Music 歌词，&#x000A;向下滑动以最小化，&#x000A;向左或向右滑动以最大化或还原，&#x000A;向上滑动以取消操作。&#x000A;&#x000A;你还可以按下右键向上滑动跳到首行歌词，&#x000A;向下滑动跳到最后一行歌词，&#x000A;向左或向右滑动跳到当前行，&#x000A;仅右击则无操作。</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime">动态时间状态</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime.Description">启用时间状态改变动画</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">缩放记忆</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">在 Apple Music 歌词中恢复缩放记忆</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset">样式预设</system:String>
@@ -574,6 +586,10 @@
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">使用重新链接曲目的专辑图片</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">当曲目被重新链接时，使用重新链接曲目的专辑图片代替原曲目的专辑图片</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">曲目的可用性取决于在用户的 Spotify 配置文件设置中注册的国家/地区。 Spotify 通常在其目录中有多个曲目实例，每个曲目在不同的市场集上可用。 当专辑所在的曲目已在不同市场以不同许可多次发行时，通常会发生这种情况。&#x000A;&#x000A;这些曲目链接在一起，因此当用户尝试播放他们自己的市场上没有的曲目时，Spotify 移动、桌面和网络播放器会尝试播放用户市场上可用的曲目的另一个实例。</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine">Lyricify 智能引擎</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description">为 Lyricify 与 Spotify 的连接与交互提供强大的智慧技术和功能支持</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description.Premium">需要 Spotify Premium 订阅！</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Button.GetPremium">获取 Spotify Premium</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement">启用 Media Session 增强</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">使用系统 Media Session 以提升使用 Spotify 桌面端时的体验. (确保你在 Spotify 设置中开启了“使用媒体键时显示桌面叠加”)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement">启用播放更新增强</system:String>
@@ -871,6 +887,7 @@
     <!--Configure Web Window-->
     <system:String x:Key="String.Window.ConfigureWeb.Notice1">在这里登录 Spotify 以启用 Lyricify 内置播放</system:String>
     <system:String x:Key="String.Window.ConfigureWeb.Notice2">如果 Spotify 网页版正常显示，那么 Lyricify 的内嵌播放应该是可以播放的。(可能会需要重启 Lyricify)</system:String>
+    <system:String x:Key="String.Window.ConfigureWeb.ToggleSwitch">启用内嵌播放</system:String>
 
     <!--Custom Configuration Manager-->
     <system:String x:Key="String.Window.CustomConfigurationManager">自定义配置管理器</system:String>
@@ -1201,6 +1218,7 @@
     <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">Lyricify 歌词库</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.QQ">QQ 音乐</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.Netease">网易云音乐</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.Musixmatch">Musixmatch</system:String>
 
     <system:String x:Key="String.Lyrics.Provider.Menu.MarkCorrect">标记为正确歌词</system:String>
     <system:String x:Key="String.Lyrics.Provider.Menu.ViewSource">查看来源</system:String>
@@ -1209,6 +1227,7 @@
     <system:String x:Key="String.Lyrics.Provider.Server.Info.Marked">已在服务器上标记</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">自动搜索</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Fail.Version">当前版本已过时，请更新</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Uploading">正在上传歌词至服务器...</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">成功在服务器上标记</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Exist">歌词已经被标记</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">标记失败，这可能是内部错误</system:String>

@@ -1055,9 +1055,10 @@
     <!--Lyrics-->
     <system:String x:Key="String.Lyrics.Provider">歌詞プロバイダー</system:String>
     <system:String x:Key="String.Lyrics.Provider.ProvidedBy">歌詞は {0} によって提供される</system:String>
-    <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">Lyricify Lyrics Vaul</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">Lyricify Lyrics Vault</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.QQ">QQ Music</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.Netease">Netease Cloud Music</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.Musixmatch">Musixmatch</system:String>
 
     <system:String x:Key="String.Lyrics.Provider.Menu.MarkCorrect">正しい歌詞としてマーク</system:String>
     <system:String x:Key="String.Lyrics.Provider.Menu.ViewSource">ソースを表示</system:String>

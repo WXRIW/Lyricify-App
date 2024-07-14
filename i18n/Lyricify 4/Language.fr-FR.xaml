@@ -1173,6 +1173,7 @@
     <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">Base de parole de Lyricify</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.QQ">QQ  Music</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.Netease">Cloud Music</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.Musixmatch">Musixmatch</system:String>
 
     <system:String x:Key="String.Lyrics.Provider.Menu.MarkCorrect">Marquer comme paroles correctes</system:String>
     <system:String x:Key="String.Lyrics.Provider.Menu.ViewSource">Afficher la source</system:String>

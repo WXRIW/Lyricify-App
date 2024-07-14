@@ -259,6 +259,14 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip2">Swipe left or right to maximize</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip3">Swipe down to minimize</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip4">Right press to control lyrics position</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Close">Exit Apple Music Lyrics</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MaximizeWindow">Fullscreen</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.RestoreWindow">Restore Window</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MinimizeWindow">Minimize Window</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToCurrentLine">View Current Line</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToFirstLine">View First Line</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToLastLine">View Last Line</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.None">No Operation</system:String>
 
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToArtist">Go to Artist</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToAlbum">Go to Album</system:String>
@@ -424,9 +432,13 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Medium">Medium (Default)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.High">High</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Tremendous">Tremendous</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MagicStripFeature">Magic Strip feature description</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MagicStripFeature.Description">Display corresponding functions when using the Magic Strip</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial">Show Magic Strip tutorial</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Description">Always show the tutorial of Magic Strip after entering Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">Introducing Magic Strip! &#x000A;&#x000A;You can press the strip button to exit Apple Music Lyrics, &#x000A;swipe down to minimize, &#x000A;swipe left or right to maximize or recover, &#x000A;and swipe up to cancel. &#x000A;&#x000A;You can also press your right mouse button to swipe up to go to the first line of lyrics, &#x000A;swipe down to go to the last line of lyrics, &#x000A;swipe left or right to go to current line, &#x000A;and a single right click will do nothing.</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime">Animated time status</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime.Description">Enable animations for time status changes</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">Zooming restore</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">Restore zooming in Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset">Style preset</system:String>
@@ -574,6 +586,10 @@
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">Enable track's artwork relinking</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Use relinked artwork instead of artwork from original track when the track is relinked</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">The availability of a track depends on the country registered in the user’s Spotify profile settings. Often Spotify has several instances of a track in its catalogue, each available in a different set of markets. This commonly happens when the track the album is on has been released multiple times under different licenses in different markets. &#x000A;&#x000A;These tracks are linked together so that when a user tries to play a track that isn’t available in their own market, the Spotify mobile, desktop, and web players try to play another instance of the track that is available in the user’s market.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine">Lyricify Intelligent Engine</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description">Provide powerful intelligent technology and functional support for the connection and interaction between Lyricify and Spotify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description.Premium">Spotify Premium subscription is required!</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Button.GetPremium">Get Spotify Premium</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement">Enable Media Session enhancement</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">Use system Media Session to improve experience when you are using Spotify desktop client. (Make sure you have enabled &quot;Show desktop overlay when using media keys&quot; in Spotify settings)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement">Enable playback update enhancement</system:String>
@@ -871,6 +887,7 @@
     <!--Configure Web Window-->
     <system:String x:Key="String.Window.ConfigureWeb.Notice1">Login to Spotify here to enable playback inside Lyricify</system:String>
     <system:String x:Key="String.Window.ConfigureWeb.Notice2">If the Spotify Web page is displayed properly, then Lyricify should be able to play audio. (A restart of Lyricify might be needed)</system:String>
+    <system:String x:Key="String.Window.ConfigureWeb.ToggleSwitch">Enable Internal Player</system:String>
 
     <!--Custom Configuration Manager-->
     <system:String x:Key="String.Window.CustomConfigurationManager">Custom Configuration Manager</system:String>
@@ -1210,6 +1227,7 @@
     <system:String x:Key="String.Lyrics.Provider.Server.Info.Marked">Marked on server</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">Auto search</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Fail.Version">Current version is out of date, please get an update</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Uploading">Uploading lyrics to server...</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">Successfully marked on server</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Exist">Lyrics has already been marked</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">Failed, this might be an internal error</system:String>
