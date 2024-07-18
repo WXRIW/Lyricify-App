@@ -1,4 +1,4 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <!--
@@ -452,6 +452,10 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">透明度過渡寬度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">行內動畫</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation.Description">歌詞行動畫細節</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed">不透明度切換</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed.Description">逐音節行不透明度的切換速度</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity">逐音節待播放不透明度</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity.Description">待播放模式下音節的不透明度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout">背景人聲飛出</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">背景人聲飛出動畫與方向</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">移動端佈局</system:String>
@@ -614,6 +618,9 @@
     <system:String x:Key="String.Page.Settings.Advanced.Updates">更新</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.Description">Lyricify 更新相關設定</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.Button.Check">檢查更新</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.Notify">通知</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.Download">下載並稍後安裝</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.DownloadAndInstall">下載並立即安裝</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate">自動更新</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate.Description">自動檢測和安裝新版本的 Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource">更新來源</system:String>
@@ -1284,6 +1291,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Http 請求錯誤，請稍後再試</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">未找到 Lyricify 帳戶，伺服器相關功能將被限制&#x000A;重新登入也許會有作用</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Restricted">你的 Lyricify 帳戶已被限制，聯絡管理員以尋求幫助</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Message.RegistrationRepaired">成功修復註冊了你的 Lyricify 帳戶！</system:String>
     <system:String x:Key="String.Messages.MainWindow.Message.NonPremium">建議獲取 Spotify Premium 以充分利用 Lyricify</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed">Lyricify 將被關閉</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed.Wrong">出了一些問題，Lyricify 將關閉。</system:String>
