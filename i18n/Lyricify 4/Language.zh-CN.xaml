@@ -452,6 +452,10 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">透明度过渡宽度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">行内动画</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation.Description">歌词行动画细节</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed">不透明度切换</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed.Description">逐音节行不透明度的切换速度</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity">逐音节待播放不透明度</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity.Description">待播放模式下音节的不透明度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout">背景人声飞出</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">背景人声飞出动画与方向</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">移动端布局</system:String>
@@ -614,6 +618,9 @@
     <system:String x:Key="String.Page.Settings.Advanced.Updates">更新</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.Description">Lyricify 更新相关设置</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.Button.Check">检查更新</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.Notify">通知</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.Download">下载并稍后安装</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.DownloadAndInstall">下载并立即安装</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate">自动更新</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate.Description">自动检测和安装新版本的 Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource">更新来源</system:String>
@@ -1284,6 +1291,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Http 请求错误，请稍后再试</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">未找到 Lyricify 账户，服务器相关功能将被限制&#x000A;重新登录也许会有作用</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Restricted">你的 Lyricify 账户已被限制，联系管理员以寻求帮助</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Message.RegistrationRepaired">成功修复注册了你的 Lyricify 账户！</system:String>
     <system:String x:Key="String.Messages.MainWindow.Message.NonPremium">建议获取 Spotify Premium 以充分利用 Lyricify</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed">Lyricify 将被关闭</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed.Wrong">出了一些问题，Lyricify 将关闭。</system:String>

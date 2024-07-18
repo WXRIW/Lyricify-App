@@ -452,6 +452,10 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">Opacity transition width</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">Inline animation</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation.Description">Animation details in lyrics lines</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed">Opacity switching</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed.Description">Syllable line opacity switching speed</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity">Syllable preplay opacity</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity.Description">Opacity for syllables at preplay mode</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout">Background Vocal flyout</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">Background Vocal flyout animation and direction</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">Mobile layout</system:String>
@@ -614,6 +618,9 @@
     <system:String x:Key="String.Page.Settings.Advanced.Updates">Updates</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.Description">Settings about Lyricify updates</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.Button.Check">Check Updates</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.Notify">Notify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.Download">Download and Install Later</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.DownloadAndInstall">Download and Install Immediately</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate">Auto update</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate.Description">Automatically detect and install new versions of Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource">Update source</system:String>
@@ -1284,6 +1291,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Http Request Exception, retry later</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">Lyricify account not found, server related functions will be limited&#x000A;Log out and relogin might help</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Restricted">Your Lyricify account has been restricted, contact admin for help</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Message.RegistrationRepaired">Successfully repaired and registered your Lyricify account!</system:String>
     <system:String x:Key="String.Messages.MainWindow.Message.NonPremium">Suggestion: Get Spotify Premium to get the most out of Lyricify</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed">Lyricify will be closed</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed.Wrong">Something is wrong, Lyricify for Spotify will close.</system:String>

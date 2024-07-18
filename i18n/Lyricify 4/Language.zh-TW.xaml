@@ -1,4 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <!--
@@ -734,7 +734,7 @@
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">按兩下以隱藏 2s</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">水平置中</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">關閉</system:String>
-    
+
     <!--Desktop Lyrics-->
     <system:String x:Key="String.Menu.DesktopLyrics.DuoLineMode">雙行模式</system:String>
     <system:String x:Key="String.Menu.DesktopLyrics.LyricsAlign">歌詞對齊</system:String>
@@ -944,7 +944,7 @@
     <system:String x:Key="String.Window.DeviceLatencyManager.Button.RefreshLyrics">重新整理歌詞</system:String>
     <system:String x:Key="String.Window.DeviceLatencyManager.Button.Close">關閉</system:String>
     <system:String x:Key="String.Window.DeviceLatencyManager.Button.Close.Notice">所有設定將會被自動儲存。</system:String>
-    
+
     <!--Hotkey Manager-->
     <system:String x:Key="String.Window.HotkeyManager">快捷鍵管理器</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Description">你可以在這裡管理全域快捷鍵。(使用倒退鍵 (Backspace) 以清除快捷鍵)</system:String>
