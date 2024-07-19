@@ -259,6 +259,14 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip2">Проведите влево или вправо для максимизации</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip3">Потяните вниз для закрытия</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip4">Зажмите правую кнопку мыши и проведите для управления текстом песни</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Close">Закрыть тексты Apple Music</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MaximizeWindow">Полноэкранный</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.RestoreWindow">Восстановить</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MinimizeWindow">Свернуть</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToCurrentLine">Вернуться к текущей строке</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToFirstLine">Вернитесь к первой строке</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToLastLine">Вернитесь к последней строке</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.None">Ничего не сделано</system:String>
 
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToArtist">Перейти к исполнителю</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToAlbum">Перейти к альбому</system:String>
@@ -268,7 +276,7 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">Показать исполнителя</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Показать альбом</system:String>
 
-    <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Автор: </system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Авторство: </system:String>
 
     <!--Page About-->
     <system:String x:Key="String.Page.About.Title">О Lyricify</system:String>
@@ -424,9 +432,13 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Medium">Средний (по умолчанию)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.High">Высокий</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Tremendous">Очень высокий</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MagicStripFeature">Описание Magic Stripe</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MagicStripFeature.Description">Описание функцииОтображение соответствующих функций при использовании Magic Strip</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial">Показать руководство по Magic Stripe</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Description">Всегда показывать руководство по Magic Stripe после входа в текст Apple Music</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">Представляем с гордостью Magic Strip! &#x000A;&#x000A; &#x000A;Вы можете нажать на полоску-кнопку, чтобы закрыть текст Apple Music, &#x000A;потянуть вниз, чтобы свернуть, &#x000A;потянуть влево или вправо, чтобы развернуть или вернуть, &#x000A;потянуть вверх, чтобы отменить действие. &#x000A;Вы также можете нажать правую кнопку и потянуть вверх, чтобы перейти к первой строке текста, &#x000A;потянуть вниз, чтобы перейти к последней строке, &#x000A;потянуть влево или вправо, чтобы перейти к текущей строке, &#x000A;при простом нажатии правой кнопки никаких действий не будет.</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime">Анимированный статус времени</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime.Description">Включите анимацию для изменения статуса времени</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">Запомнить масштаб</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">Включить запоминание масштаба в тексте Apple Music</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset">Пресеты стиля</system:String>
@@ -440,6 +452,10 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">Ширина перехода прозрачности</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">Текстовое действие эффект живописи</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation.Description">Детали эффекта рисования текстового действия</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed">Переключение непрозрачности</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed.Description">Скорость переключения непрозрачности слоговой линии</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity">Прозрачность предварительного воспроизведения слога</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity.Description">Непрозрачность для слогов в режиме предварительного</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout">Fly-out фоновая лирика</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">Фоновый вокал вылетает из анимации с режиссурой</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">Мобильная раскладка</system:String>
@@ -574,6 +590,10 @@
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">Включить повторное связывание обложки трека</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Использовать повторно связанную обложку вместо обложки из исходной дорожки, когда дорожка повторно связана</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">Доступность трека зависит от страны, зарегистрированной в настройках профиля пользователя Spotify. Часто в каталоге Spotify есть несколько экземпляров трека, каждый из которых доступен на разных рынках. Это обычно происходит, когда трек, на котором записан альбом, был выпущен несколько раз под разными лицензиями на разных рынках. &#x000A;&#x000A;Эти дорожки связаны друг с другом, поэтому, когда пользователь пытается воспроизвести дорожку, недоступную на их собственном рынке, мобильные, настольные и веб-плееры Spotify пытаются воспроизвести другой экземпляр дорожки. который доступен на рынке пользователя.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine">Lyricify Intelligent Engine</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description">Обеспечьте мощную интеллектуальную технологию и функциональную поддержку для соединения и взаимодействия между Lyricify и Spotify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description.Premium">Нужна подписка Spotify Premium!</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Button.GetPremium">Получить Spotify Premium</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement">Включить расширение Media Session</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">Используйте систем Media Session, чтобы улучшить опыт использования Spotify на рабочем столе. (Убедитесь, что в настройках Spotify включена опция "Отображать наложение на рабочем столе при использовании мультимедийных клавиш")</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement">Включить усовершенствование воспроизведения</system:String>
@@ -598,6 +618,9 @@
     <system:String x:Key="String.Page.Settings.Advanced.Updates">Обновление</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.Description">Настройки обновлений Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.Button.Check">Проверить обновления</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.Notify">Уведомить</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.Download">Загрузите и установите позже</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.DownloadAndInstall">Загрузите и установите прямо сейчас</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate">Автоматически обновлять</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate.Description">Автоматически обнаруживать и устанавливать новые версии Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource">Источник обновлений</system:String>
@@ -837,6 +860,7 @@
     <system:String x:Key="String.Windows.FontSelector">Выбор шрифта</system:String>
     <system:String x:Key="String.Windows.FontSelector.InstalledFonts">Установленные шрифты</system:String>
     <system:String x:Key="String.Windows.FontSelector.SetFontFamily">Установить семейство шрифтов</system:String>
+    <system:String x:Key="String.Windows.FontSelector.SetFontFamily.SearchBar.PlaceHolder">Фильтр шрифтов</system:String>
     <system:String x:Key="String.Windows.FontSelector.AddToList">Добавить в список</system:String>
     <system:String x:Key="String.Windows.FontSelector.RemoveFromList">Удалить из списка</system:String>
     <system:String x:Key="String.Windows.FontSelector.MoveUp">Переместить вверх</system:String>
@@ -870,6 +894,7 @@
     <!--Configure Web Window-->
     <system:String x:Key="String.Window.ConfigureWeb.Notice1">Войдите в Spotify для активации воспроизведения в Lyricify</system:String>
     <system:String x:Key="String.Window.ConfigureWeb.Notice2">Если веб-версия Spotify работает нормально, то внутреннее воспроизведение Lyricify также должно работать. (Возможно, потребуется перезапуск Lyricify)</system:String>
+    <system:String x:Key="String.Window.ConfigureWeb.ToggleSwitch">Включить внутренний плеер</system:String>
 
     <!--Custom Configuration Manager-->
     <system:String x:Key="String.Window.CustomConfigurationManager">Пользовательский менеджер конфигураций</system:String>
@@ -1059,6 +1084,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.Clear">Очистить</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.InputLyrics">Импортировать текст</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.OutputLyrics">Экспорт текста</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.ChangeStartTime">Изменить время начала</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">Перемещатель посимвольного переноса строки</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.CopyCurrentTime">Копировать текущей метки времени</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.GetTimestampByMillisecond">Получить миллисекунды по метке времени</system:String>
@@ -1208,6 +1234,7 @@
     <system:String x:Key="String.Lyrics.Provider.Server.Info.Marked">Отмечено на сервере</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">Автопоиск</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Fail.Version">Текущая версия устарела, получите обновление</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Uploading">Загрузка на сервер...</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">Успешно отмечен на сервере</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Exist">Текст песни был помечен.</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">Ошибка, возможно, это внутренняя ошибка</system:String>
@@ -1264,6 +1291,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Исключение HTTP-запроса, повторите попытку позже</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">Аккаунт Lyricify не найден. Некоторые функции, связанные с сервером, могут быть ограничены&#x000A;Попробуйте выполнить вход заново, возможно, это поможет</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Restricted">Ваша учетная запись Lyricify была ограничена. Свяжитесь с администратором для получения помощи</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Message.RegistrationRepaired">Успешно восстановили и зарегистрировали свой аккаунт Lyricify!</system:String>
     <system:String x:Key="String.Messages.MainWindow.Message.NonPremium">Рекомендуется приобрести подписку Spotify Premium для полного использования возможностей Lyricify</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed">Lyricify будет закрыт</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed.Wrong">Возникли некоторые проблемы, Lyricify будет закрыт.</system:String>
