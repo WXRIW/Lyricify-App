@@ -1,29 +1,31 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
     <!--
         MainWindow
     -->
 
-    <!--Navigation Panel-->
+    <!--  Navigation Panel  -->
     <system:String x:Key="String.MainWindow.Navigation.Home">ホーム</system:String>
     <system:String x:Key="String.MainWindow.Navigation.Search">検索</system:String>
     <system:String x:Key="String.MainWindow.Navigation.YourLibrary">マイライブラリ</system:String>
     <system:String x:Key="String.MainWindow.Navigation.LikedSongs">お気に入りの曲</system:String>
 
-    <!--Mobile Mode Navigation-->
+    <!--  Mobile Mode Navigation  -->
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Home">ホーム</system:String>
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Lyrics">歌詞</system:String>
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Apple">Apple</system:String>
 
-    <!--Login-->
+    <!--  Login  -->
     <system:String x:Key="String.MainWindow.Login.Welcome">Lyricify へようこそ、{0}！</system:String>
     <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Lyricify へようこそ、{0} 様！</system:String>
     <system:String x:Key="String.MainWindow.Login.LoggingIn">ロギングしています</system:String>
     <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">これには時間がかかるかもしれません</system:String>
     <system:String x:Key="String.MainWindow.Login.StillTrying">ロギングしています</system:String>
 
-    <!--User Widget-->
+    <!--  User Widget  -->
     <system:String x:Key="String.MainWindow.UserWidget.Profile">アカウント</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.GetSpotifyPremium">Spotify Premium を入手</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LogOut">ログアウト</system:String>
@@ -36,11 +38,11 @@
 
     <system:String x:Key="String.MainWindow.PinnedArea.Notice">アイテムをロックしてすばやくアクセス！</system:String>
 
-    <!--Control Part-->
-    <!--Frame-->
+    <!--  Control Part  -->
+    <!--  Frame  -->
     <system:String x:Key="String.MainWindow.Frame.Control.GoBack">戻る</system:String>
     <system:String x:Key="String.MainWindow.Frame.Control.GoForward">進む</system:String>
-    <!--Bottom Bar-->
+    <!--  Bottom Bar  -->
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AlbumArtwork">クリックして曲情報を表示</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Lyrics">歌詞</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AppleMusicLyrics">Apple Music 歌詞</system:String>
@@ -52,10 +54,10 @@
 
 
     <!--
-    Pages
+        Pages
     -->
 
-    <!--Page Home-->
+    <!--  Page Home  -->
     <system:String x:Key="String.Page.Home.Welcome">Lyricify へようこそ</system:String>
     <system:String x:Key="String.Page.Home.FollowDeveloper">開発者にフォローましよう！</system:String>
     <system:String x:Key="String.Page.Home.FollowSuggestion">おすすめコンテンツ</system:String>
@@ -69,7 +71,7 @@
     <system:String x:Key="String.Page.Home.Panel.FeaturedPlaylists">特色プレイリスト</system:String>
     <system:String x:Key="String.Page.Home.Panel.PopularNewReleases">人気の新曲</system:String>
 
-    <!--Other Pages-->
+    <!--  Other Pages  -->
     <system:String x:Key="String.Page.List.Title.Title">タイトル</system:String>
     <system:String x:Key="String.Page.List.Title.Album">アルバム</system:String>
     <system:String x:Key="String.Page.List.Title.DateAdded">追加日</system:String>
@@ -123,15 +125,15 @@
     <system:String x:Key="String.Page.Profile.TopTracks.HalfYear">半年であなたのお気に入りの曲</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.All">あなたのお気に入りの曲</system:String>
 
-    <!--Page Library-->
+    <!--  Page Library  -->
     <system:String x:Key="String.Page.Library.Playlists">プレイリスト</system:String>
     <system:String x:Key="String.Page.Library.Artists">アーティスト</system:String>
     <system:String x:Key="String.Page.Library.Albums">アルバム</system:String>
 
-    <!--Page Mobile UI-->
+    <!--  Page Mobile UI  -->
     <system:String x:Key="String.Page.MobileUI.Title">歌詞</system:String>
 
-    <!--Page Search-->
+    <!--  Page Search  -->
     <system:String x:Key="String.Page.Search.Title.Search">検索</system:String>
     <system:String x:Key="String.Page.Search.Title.Lyrics">歌詞</system:String>
     <system:String x:Key="String.Page.Search.Title.Availability">可用性</system:String>
@@ -156,14 +158,14 @@
     <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Available">利用可能</system:String>
     <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Unavailable">利用不可</system:String>
 
-    <!--Page Spotify Connect-->
+    <!--  Page Spotify Connect  -->
     <system:String x:Key="String.Page.SpotifyConnect.CurrentDevice">お使いのデバイス</system:String>
     <system:String x:Key="String.Page.SpotifyConnect.SelectAnotherDevice">別のデバイスを選択</system:String>
     <system:String x:Key="String.Page.SpotifyConnect.NoDeviceFound">利用可能のデバイスが見つかりません</system:String>
     <system:String x:Key="String.Page.SpotifyConnect.NoOtherDevicesFound">他のデバイスが見つかりません</system:String>
     <system:String x:Key="String.Page.SpotifyConnect.ThisComputer">このコンピュータ</system:String>
 
-    <!--Audio Features-->
+    <!--  Audio Features  -->
     <system:String x:Key="String.AudioFeatures.Track">曲</system:String>
     <system:String x:Key="String.AudioFeatures.Track.Name">曲名</system:String>
     <system:String x:Key="String.AudioFeatures.Track.ISRC.Null">ISRC なし</system:String>
@@ -245,7 +247,7 @@
     <system:String x:Key="String.Info.Copy.User.ID">ユーザーの ID</system:String>
     <system:String x:Key="String.Info.Copy.User.Followers">ファン数</system:String>
 
-    <!--Page Apple Music Lyrics-->
+    <!--  Page Apple Music Lyrics  -->
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip1">クリックして閉じる</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip2">左または右にスライドして最大化</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip3">下にスライドして最小化</system:String>
@@ -261,7 +263,7 @@
 
     <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">作成: </system:String>
 
-    <!--Page About-->
+    <!--  Page About  -->
     <system:String x:Key="String.Page.About.Title">情報</system:String>
     <system:String x:Key="String.Page.About.NonPublicWarning">これは公開リリースではない。再配布しないでください。</system:String>
     <system:String x:Key="String.Page.About.MadeWithHeart">WXRIW が ❤️ を込めて作った</system:String>
@@ -286,7 +288,7 @@
     <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Main Window UI Design, Mobile UI Fullscreen Design, Spotify Circular Copyright © Spotify AB</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music Lyrics UI Design, SF Pro, PingFang SC Copyright © Apple Inc.</system:String>
 
-    <!--Page Settings-->
+    <!--  Page Settings  -->
     <system:String x:Key="String.Page.Settings.Title">設定</system:String>
     <system:String x:Key="String.Page.Settings.General">一般</system:String>
     <system:String x:Key="String.Page.Settings.General.Language">言語</system:String>
@@ -547,17 +549,17 @@
     <system:String x:Key="String.Page.Settings.Advanced.Log.Button.OpenLyrics">歌詞ログを開く</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Log.Button.OpenFolder">開いたフォルダ</system:String>
 
-    <!--Page Horizontal Notice-->
+    <!--  Page Horizontal Notice  -->
     <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">このページはモバイル ビューをサポートしていません。ウィンドウのサイズを変更してモバイル ビューを終了してください</system:String>
 
 
 
     <!--
-    Menu
+        Menu
     -->
 
-    <!--MainWindow-->
-    <!--Three Dot Main Menu-->
+    <!--  MainWindow  -->
+    <!--  Three Dot Main Menu  -->
     <system:String x:Key="String.Menu.MainWindow.Main.View">見る</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.View.Topmost">一番上</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.View.MinimizeToTray">トレイに最小化</system:String>
@@ -605,7 +607,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.LyricifyOfficialWebsite">リリシファイ公式サイト</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.LanzousCloud">Lanzous Cloud</system:String>
 
-    <!--Main Lyrics Line-->
+    <!--  Main Lyrics Line  -->
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.Copy">コピー</system:String>
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyTranslation">翻訳をコピー</system:String>
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyLineWithTranslation">歌詞と翻訳をコピー</system:String>
@@ -614,18 +616,18 @@
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyAllLinesWithTranslation">すべての歌詞と翻訳をコピー</system:String>
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.Share">共有</system:String>
 
-    <!--Pinned Item-->
+    <!--  Pinned Item  -->
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.Rename">名前を変更</system:String>
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.MoveUp">上に移動</system:String>
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.MoveDown">下に移動</system:String>
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.Remove">削除する</system:String>
 
-    <!--Dynamic Lyrics Island-->
+    <!--  Dynamic Lyrics Island  -->
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">ダブルクリックして 2 秒間非表示にする</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">中央揃え</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">閉じる</system:String>
 
-    <!--Apple Music Lyrics-->
+    <!--  Apple Music Lyrics  -->
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.In">ズームイン</system:String>
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.Out">ズームアウト</system:String>
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.Reset">ズームをリセット</system:String>
@@ -634,12 +636,12 @@
     <system:String x:Key="String.Menu.AppleMusicLyrics.Translation">中国語翻訳</system:String>
 
 
-    <!--Notification Icon-->
+    <!--  Notification Icon  -->
     <system:String x:Key="String.Menu.NotificationIcon.UnlockDesktopLyrics">デスクトップ歌詞のロック解除</system:String>
     <system:String x:Key="String.Menu.NotificationIcon.MinimizeToTray">トレイに最小化</system:String>
     <system:String x:Key="String.Menu.NotificationIcon.Exit">終了</system:String>
 
-    <!--Pages-->
+    <!--  Pages  -->
     <system:String x:Key="String.Menu.Pages.CopyAlbumInfo">アルバム情報をコピー</system:String>
     <system:String x:Key="String.Menu.Pages.CopyAlbumUPC">アルバム UPC をコピー</system:String>
     <system:String x:Key="String.Menu.Pages.CheckAlbumAvailability">检アルバムの可用性を確認する查专辑可用性</system:String>
@@ -659,7 +661,7 @@
 
     <system:String x:Key="String.Menu.Pages.SaveArtwork">アートワークの保存</system:String>
 
-    <!--Track-->
+    <!--  Track  -->
     <system:String x:Key="String.Menu.Track.CopyTrackInfo">トラック情報をコピー</system:String>
     <system:String x:Key="String.Menu.Track.CopyTrackISRC">ISRC をコピー</system:String>
     <system:String x:Key="String.Menu.Track.AddToQueue">キューに追加する</system:String>
@@ -676,7 +678,7 @@
 
 
 
-    <!--Tools-->
+    <!--  Tools  -->
     <system:String x:Key="String.Tools.Page.RefreshButton">リロード</system:String>
 
     <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice">えっ、Spotify の API レート制限に達しました。後でリロードしてみてください。</system:String>
@@ -699,7 +701,7 @@
         Windows
     -->
 
-    <!--Welcome-->
+    <!--  Welcome  -->
     <system:String x:Key="String.Windows.Welcome.Intro.MoreThanLyrics">歌詞だけでなく</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Title">はじめましょう！</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Agreement">続けるとはLyricify のユーザー同意書に同意することを意味します</system:String>
@@ -741,7 +743,7 @@
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Quality">最高品質</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Performance">最高パフォーマンス</system:String>
 
-    <!--Font Selector-->
+    <!--  Font Selector  -->
     <system:String x:Key="String.Windows.FontSelector">フォントセレクター</system:String>
     <system:String x:Key="String.Windows.FontSelector.InstalledFonts">インストール済みフォント</system:String>
     <system:String x:Key="String.Windows.FontSelector.SetFontFamily">フォント ファミリーを設定</system:String>
@@ -754,7 +756,7 @@
     <system:String x:Key="String.Windows.FontSelector.OK">OK</system:String>
     <system:String x:Key="String.Windows.FontSelector.Cancel">キャンセル</system:String>
 
-    <!--Share Lyrics-->
+    <!--  Share Lyrics  -->
     <system:String x:Key="String.Windows.ShareLyrics">歌詞を共有</system:String>
     <system:String x:Key="String.Page.ShareLyrics.SelectLyrics">歌詞を選択</system:String>
     <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.SelectCount">{0} 行の歌詞が選択された</system:String>
@@ -774,11 +776,11 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">保存できませんでした</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.RenderFailed">レンダリングに失敗しました。</system:String>
 
-    <!--Configure Web Window-->
+    <!--  Configure Web Window  -->
     <system:String x:Key="String.Window.ConfigureWeb.Notice1">ここから Spotify にログインして、Lyricify 内での再生を有効にする</system:String>
     <system:String x:Key="String.Window.ConfigureWeb.Notice2">Spotify の Web ページが正しく表示されていれば、Lyricify はオーディオを再生できるはずです。 (Lyricify の再起動が必要になる場合があります)</system:String>
 
-    <!--Custom Configuration Manager-->
+    <!--  Custom Configuration Manager  -->
     <system:String x:Key="String.Window.CustomConfigurationManager">カスタム構成マネージャー</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Description">自分の作品からアイデアをロードしたり、他のユーザーからのカスタマイズをロードしたりできます。</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Name">名前</system:String>
@@ -802,7 +804,7 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">上に移動</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveDown">下に移動</system:String>
 
-    <!--Hotkey Manager-->
+    <!--  Hotkey Manager  -->
     <system:String x:Key="String.Window.HotkeyManager">ホットキーマネージャー</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Description">ここでグローバル ホットキーを管理できます。 (Backspace を使用してショートカットをクリアします)</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.DesktopLyrics">デスクトップ歌詞</system:String>
@@ -817,13 +819,13 @@
     <system:String x:Key="String.Window.HotkeyManager.Message.FailedAt">これらのホットキーは登録できなった:</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Message.CheckUsing">別のプログラムがこれらのキーを使用しているかどうかを確認してください。</system:String>
 
-    <!--Network Diagnose-->
+    <!--  Network Diagnose  -->
     <system:String x:Key="String.Window.NetworkDiagnose">ネットワーク診断</system:String>
     <system:String x:Key="String.Window.NetworkDiagnose.Description">Lyricify サーバーへのインターネット接続を確認してください。</system:String>
     <system:String x:Key="String.Window.NetworkDiagnose.Button.Check">確認</system:String>
     <system:String x:Key="String.Window.NetworkDiagnose.Button.Close">閉じる</system:String>
 
-    <!--Local Files Manager-->
+    <!--  Local Files Manager  -->
     <system:String x:Key="String.Window.LocalFilesManager">ローカル ファイル マネージャー</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Title">Spotify ローカル ファイルのマネージャー</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Description">Lyricify を開いたときに Spotify で再生したローカル ファイルのみがここに表示される。</system:String>
@@ -840,7 +842,7 @@
     <system:String x:Key="String.Window.LocalFilesManager.Type.Albums">アルバム：</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Type.Tracks">トラック：</system:String>
 
-    <!--Track Management-->
+    <!--  Track Management  -->
     <system:String x:Key="String.Window.TrackManagement">トラック管理</system:String>
     <system:String x:Key="String.Window.TrackManagement.Title">Lyricify トラック管理</system:String>
     <system:String x:Key="String.Window.TrackManagement.Track.Lock">トラックをロック</system:String>
@@ -948,7 +950,7 @@
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor">元のファイルエディター</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">デシリアライズできない、変更を確認できない(はい)、または保存せずに閉じることができない(いいえ)</system:String>
 
-    <!--Lyricify Account-->
+    <!--  Lyricify Account  -->
     <system:String x:Key="String.Window.LyricifyAccount">Lyricify アカウント</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Button.OK">OK</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Button.Change">変化する</system:String>
@@ -971,7 +973,7 @@
     <system:String x:Key="String.Window.LyricifyAccount.Message.TooManyAttempts">試行回数が多すぎる</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Message.TwiceDifferent">2回入力したパスワードが違う</system:String>
 
-    <!--Custom API Client Manager-->
+    <!--  Custom API Client Manager  -->
     <system:String x:Key="String.Window.CustomApiClientManager">カスタム API Client の設定</system:String>
     <system:String x:Key="String.Window.CustomApiClientManager.Button.Reset">リセット</system:String>
     <system:String x:Key="String.Window.CustomApiClientManager.Button.OK">確認</system:String>
@@ -980,7 +982,7 @@
     <system:String x:Key="String.Window.CustomApiClientManager.Message.WrongClientSecret">Client Secret が間違っています。入力を確認してください。</system:String>
     <system:String x:Key="String.Window.CustomApiClientManager.Message.WrongClientIdSecret">Client ID または Client Secret が間違っています。入力を確認してください。</system:String>
 
-    <!--Backup Center-->
+    <!--  Backup Center  -->
     <system:String x:Key="String.Window.BackupCenter">バックアップ &amp; オートメーション</system:String>
     <system:String x:Key="String.Window.BackupCenter.Title">Lyricify バックアップ &amp; 自動化センター</system:String>
     <system:String x:Key="String.Window.BackupCenter.Tab.Home">ホーム</system:String>
@@ -1038,7 +1040,7 @@
     <system:String x:Key="String.Page.BackupCenter.Type.Artist.Output">{0} アーティスト</system:String>
     <system:String x:Key="String.Page.BackupCenter.Type.Artist.Output.Plural">{0} アーティスト</system:String>
 
-    <!--Others-->
+    <!--  Others  -->
     <system:String x:Key="String.Helpers.Player.Time.Hour">時間</system:String>
     <system:String x:Key="String.Helpers.Player.Time.Minute">分</system:String>
     <system:String x:Key="String.Helpers.Player.Time.Second">秒</system:String>
@@ -1052,7 +1054,7 @@
     <system:String x:Key="String.Helpers.Time.Ago.Second">{0} 秒前</system:String>
     <system:String x:Key="String.Helpers.Time.Ago.Seconds">{0} 秒前</system:String>
 
-    <!--Lyrics-->
+    <!--  Lyrics  -->
     <system:String x:Key="String.Lyrics.Provider">歌詞プロバイダー</system:String>
     <system:String x:Key="String.Lyrics.Provider.ProvidedBy">歌詞は {0} によって提供される</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">Lyricify Lyrics Vault</system:String>
@@ -1092,14 +1094,14 @@
     <system:String x:Key="String.Lyrics.Info.Instrumental">インストルメンタル、どうぞお楽しみください。</system:String>
     <system:String x:Key="String.Lyrics.Info.Button.ManualImport">手動インポート (オープントラック マネジャー)</system:String>
 
-    <!--Converter-->
+    <!--  Converter  -->
     <system:String x:Key="String.Converter.ValueString">{0}% 完了</system:String>
 
     <!--
         Messages
     -->
 
-    <!--App-->
+    <!--  App  -->
     <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">不正な操作です。続行するには再ログインしてください</system:String>
     <system:String x:Key="String.Messages.App.Exception.PremiumRequired">Premium が必要</system:String>
     <system:String x:Key="String.Messages.App.Exception.TryToRelogin">再ログインしてみてください</system:String>
@@ -1107,7 +1109,7 @@
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">リクエストが多すぎます（429 エラー）。{0} 秒後に再試行してください。</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify">カスタム API Client を設定することで、429 エラーを解決することができます。クリックして詳細を見る。</system:String>
 
-    <!--MainWindow-->
+    <!--  MainWindow  -->
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 エラー、後で再試行してください</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Timeout">タイムアウト、後で再試行してください</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Http Request Exception、後で再試行してください</system:String>
@@ -1136,11 +1138,11 @@
     <system:String x:Key="String.Messages.MainWindow.LogOut.Query">この Spotify アカウントからログアウトしてもよろしいですか</system:String>
     <system:String x:Key="String.Messages.MainWindow.LogOut.Failed">ログアウト できませんでした</system:String>
 
-    <!--Updates-->
+    <!--  Updates  -->
     <system:String x:Key="String.Messages.Updates.FoundNewVersion">新しいバージョンを見る</system:String>
     <system:String x:Key="String.Messages.Updates.FoundNewVersion.GoToStore">クリックすると Microsoft Store で表示されます。</system:String>
 
-    <!--Operations-->
+    <!--  Operations  -->
     <system:String x:Key="String.Messages.Operation.Spotify.Add.LikedSongs">「お気に入りの曲」に追加じた</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Remove.LikedSongs">「お気に入りの曲」から削除された</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Add.Library">ライブラリ に保存した</system:String>

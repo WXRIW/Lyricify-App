@@ -1,29 +1,31 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
     <!--
         MainWindow
     -->
 
-    <!--Navigation Panel-->
+    <!--  Navigation Panel  -->
     <system:String x:Key="String.MainWindow.Navigation.Home">Hem</system:String>
     <system:String x:Key="String.MainWindow.Navigation.Search">Sök</system:String>
     <system:String x:Key="String.MainWindow.Navigation.YourLibrary">Ditt bibliotek</system:String>
     <system:String x:Key="String.MainWindow.Navigation.LikedSongs">Gillade låtar</system:String>
 
-    <!--Mobile Mode Navigation-->
+    <!--  Mobile Mode Navigation  -->
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Home">Hem</system:String>
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Lyrics">Sångtext</system:String>
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Apple">Apple</system:String>
 
-    <!--Login-->
+    <!--  Login  -->
     <system:String x:Key="String.MainWindow.Login.Welcome">Välkommen till Lyricify, {0}!</system:String>
     <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Välkommen till Lyricify, kära {0}!</system:String>
     <system:String x:Key="String.MainWindow.Login.LoggingIn">Logga in</system:String>
     <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">Detta kan ta ett tag</system:String>
     <system:String x:Key="String.MainWindow.Login.StillTrying">Vi försöker fortfarande logga in dig</system:String>
 
-    <!--User Widget-->
+    <!--  User Widget  -->
     <system:String x:Key="String.MainWindow.UserWidget.Profile">Profil</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LogOut">Logga ut</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.Settings">Inställningar</system:String>
@@ -34,11 +36,11 @@
 
     <system:String x:Key="String.MainWindow.PinnedArea.Notice">Fäst objekt för snabb åtkomst!</system:String>
 
-    <!--Control Part-->
-    <!--Frame-->
+    <!--  Control Part  -->
+    <!--  Frame  -->
     <system:String x:Key="String.MainWindow.Frame.Control.GoBack">Gå tillbaka</system:String>
     <system:String x:Key="String.MainWindow.Frame.Control.GoForward">Gå framåt</system:String>
-    <!--Bottom Bar-->
+    <!--  Bottom Bar  -->
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AlbumArtwork">Klicka för att visa mer information om det här spåret</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Lyrics">Sångtext</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AppleMusicLyrics">Apple Music Lyrics</system:String>
@@ -50,10 +52,10 @@
 
 
     <!--
-    Pages
+        Pages
     -->
 
-    <!--Page Home-->
+    <!--  Page Home  -->
     <system:String x:Key="String.Page.Home.Welcome">Välkommen till Lyricify</system:String>
     <system:String x:Key="String.Page.Home.FollowDeveloper">Varför inte följa vår utvecklare</system:String>
     <system:String x:Key="String.Page.Home.FollowSuggestion">Förslag</system:String>
@@ -67,7 +69,7 @@
     <system:String x:Key="String.Page.Home.Panel.FeaturedPlaylists">Utvalda spellistor</system:String>
     <system:String x:Key="String.Page.Home.Panel.PopularNewReleases">Populära nya versioner</system:String>
 
-    <!--Other Pages-->
+    <!--  Other Pages  -->
     <system:String x:Key="String.Page.List.Title.Title">TITEL</system:String>
     <system:String x:Key="String.Page.List.Title.Album">ALBUM</system:String>
     <system:String x:Key="String.Page.List.Title.DateAdded">DATUM TILLÄGGTS</system:String>
@@ -119,15 +121,15 @@
     <system:String x:Key="String.Page.Profile.TopTracks.HalfYear">Bästa spår på sex månader</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.All">Toplåtar sedan Big Bang</system:String>
 
-    <!--Page Library-->
+    <!--  Page Library  -->
     <system:String x:Key="String.Page.Library.Playlists">Spellistor</system:String>
     <system:String x:Key="String.Page.Library.Artists">Artister</system:String>
     <system:String x:Key="String.Page.Library.Albums">Album</system:String>
 
-    <!--Page Mobile UI-->
+    <!--  Page Mobile UI  -->
     <system:String x:Key="String.Page.MobileUI.Title">LYRICS</system:String>
 
-    <!--Page Search-->
+    <!--  Page Search  -->
     <system:String x:Key="String.Page.Search.Title.Search">Sök</system:String>
     <system:String x:Key="String.Page.Search.Title.Lyrics">Sångtext</system:String>
     <system:String x:Key="String.Page.Search.Title.Availability">Tillgänglighet</system:String>
@@ -149,14 +151,14 @@
     <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Available">Tillgänglig</system:String>
     <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Unavailable">Ej tillgänglig</system:String>
 
-    <!--Page Spotify Connect-->
+    <!--  Page Spotify Connect  -->
     <system:String x:Key="String.Page.SpotifyConnect.CurrentDevice">Aktuell enhet</system:String>
     <system:String x:Key="String.Page.SpotifyConnect.SelectAnotherDevice">Välj en annan enhet</system:String>
     <system:String x:Key="String.Page.SpotifyConnect.NoDeviceFound">Ingen enhet hittades</system:String>
     <system:String x:Key="String.Page.SpotifyConnect.NoOtherDevicesFound">Inga andra enheter hittades</system:String>
     <system:String x:Key="String.Page.SpotifyConnect.ThisComputer">Den här datorn</system:String>
 
-    <!--Audio Features-->
+    <!--  Audio Features  -->
     <system:String x:Key="String.AudioFeatures.Track">Spår</system:String>
     <system:String x:Key="String.AudioFeatures.Track.Name">Namn</system:String>
     <system:String x:Key="String.AudioFeatures.Track.ISRC.Null">Ingen ISRC</system:String>
@@ -238,7 +240,7 @@
     <system:String x:Key="String.Info.Copy.User.ID">Användar-ID</system:String>
     <system:String x:Key="String.Info.Copy.User.Followers">Följare</system:String>
 
-    <!--Page Apple Music Lyrics-->
+    <!--  Page Apple Music Lyrics  -->
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip1">Klicka för att stänga</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip2">Svep åt vänster eller höger för att maximera</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip3">Svep ner för att minimera</system:String>
@@ -254,7 +256,7 @@
 
     <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Skrivet av: </system:String>
 
-    <!--Page About-->
+    <!--  Page About  -->
     <system:String x:Key="String.Page.About.Title">Om</system:String>
     <system:String x:Key="String.Page.About.NonPublicWarning">DETTA ÄR INTE EN OFFENTLIG UTGIFT, SPRID INTE!</system:String>
     <system:String x:Key="String.Page.About.MadeWithHeart">Gjord med ❤️ av WXRIW</system:String>
@@ -277,7 +279,7 @@
     <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Huvudfönstergränssnitt, Mobilt UI Helskärm, Spotify Circular Copyright © Spotify AB</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music Lyrics UI, SF Pro, PingFang SC Copyright © Apple Inc.</system:String>
 
-    <!--Page Settings-->
+    <!--  Page Settings  -->
     <system:String x:Key="String.Page.Settings.Title">Inställningar</system:String>
     <system:String x:Key="String.Page.Settings.General">Allmänt</system:String>
     <system:String x:Key="String.Page.Settings.General.Language">Språk</system:String>
@@ -490,7 +492,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">Är du säker på att återställa alla dina inställningar?</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Done">En manuell omstart av Lyricify kan behövas.</system:String>
 
-    <!--Page Horizontal Notice-->
+    <!--  Page Horizontal Notice  -->
     <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">Den aktuella sidan stöder inte Mobile View, ändra storlek på ditt fönster för att avsluta Mobile View</system:String>
 
 
@@ -499,8 +501,8 @@
         Menu
     -->
 
-    <!--MainWindow-->
-    <!--Three Dot Main Menu-->
+    <!--  MainWindow  -->
+    <!--  Three Dot Main Menu  -->
     <system:String x:Key="String.Menu.MainWindow.Main.View">Visa</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.View.Topmost">Översta</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.View.MinimizeToTray">Minimera till fack</system:String>
@@ -548,7 +550,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.LyricifyOfficialWebsite">Lyricify officiella webbplats</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.LanzousCloud">Lanzous Cloud</system:String>
 
-    <!--Main Lyrics Line-->
+    <!--  Main Lyrics Line  -->
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.Copy">Kopiera</system:String>
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyTranslation">Kopiera översättning</system:String>
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyLineWithTranslation">Kopiera rad med översättning</system:String>
@@ -557,17 +559,17 @@
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyAllLinesWithTranslation">Kopiera alla rader med översättning</system:String>
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.Share">Dela</system:String>
 
-    <!--Pinned Item-->
+    <!--  Pinned Item  -->
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.Rename">Byt namn</system:String>
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.MoveUp">Flytta upp</system:String>
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.MoveDown">Flytta ner</system:String>
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.Remove">Ta bort</system:String>
 
-    <!--Dynamic Lyrics Island-->
+    <!--  Dynamic Lyrics Island  -->
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">Dubbelklicka för att dölja i 2s</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">Stäng</system:String>
 
-    <!--Apple Music Lyrics-->
+    <!--  Apple Music Lyrics  -->
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.In">Zooma in</system:String>
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.Out">Zooma ut</system:String>
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.Reset">Återställ zoom</system:String>
@@ -576,11 +578,11 @@
     <system:String x:Key="String.Menu.AppleMusicLyrics.Translation">Kinesisk översättning</system:String>
 
 
-    <!--Notification Icon-->
+    <!--  Notification Icon  -->
     <system:String x:Key="String.Menu.NotificationIcon.MinimizeToTray">Minimera till fack</system:String>
     <system:String x:Key="String.Menu.NotificationIcon.Exit">Avsluta</system:String>
 
-    <!--Pages-->
+    <!--  Pages  -->
     <system:String x:Key="String.Menu.Pages.CopyAlbumInfo">Kopiera albuminformation</system:String>
     <system:String x:Key="String.Menu.Pages.CopyAlbumUPC">Kopiera album UPC</system:String>
     <system:String x:Key="String.Menu.Pages.CheckAlbumAvailability">Kontrollera albumtillgänglighet</system:String>
@@ -598,7 +600,7 @@
     <system:String x:Key="String.Menu.Pages.CopySpotifyLink">Kopiera Spotify-länk</system:String>
     <system:String x:Key="String.Menu.Pages.ShowInSpotify">Visa i Spotify</system:String>
 
-    <!--Track-->
+    <!--  Track  -->
     <system:String x:Key="String.Menu.Track.CopyTrackInfo">Kopiera spårinformation</system:String>
     <system:String x:Key="String.Menu.Track.CopyTrackISRC">Kopiera spår ISRC</system:String>
     <system:String x:Key="String.Menu.Track.AddToQueue">Lägg till i kö</system:String>
@@ -615,7 +617,7 @@
 
 
 
-    <!--Tools-->
+    <!--  Tools  -->
     <system:String x:Key="String.Tools.Page.RefreshButton">LADDA OM</system:String>
 
     <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice">Hoppsan, du har nått Spotifys API-hastighetsgräns, försök ladda om senare.</system:String>
@@ -638,7 +640,7 @@
         Windows
     -->
 
-    <!--Welcome-->
+    <!--  Welcome  -->
     <system:String x:Key="String.Windows.Welcome.Intro.MoreThanLyrics">Mer än sångtexter</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Title">Låt oss komma igång</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Agreement">Fortsätt betyder att du godkänner Lyricifys användaravtal</system:String>
@@ -662,7 +664,7 @@
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Quality">Bästa kvalitet</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Performance">Bästa prestanda</system:String>
 
-    <!--Font Selector-->
+    <!--  Font Selector  -->
     <system:String x:Key="String.Windows.FontSelector">Teckensnittsväljare</system:String>
     <system:String x:Key="String.Windows.FontSelector.InstalledFonts">Installerade teckensnitt</system:String>
     <system:String x:Key="String.Windows.FontSelector.SetFontFamily">Ställ in teckensnittsfamilj</system:String>
@@ -675,7 +677,7 @@
     <system:String x:Key="String.Windows.FontSelector.OK">OK</system:String>
     <system:String x:Key="String.Windows.FontSelector.Cancel">Avbryt</system:String>
 
-    <!--Share Lyrics-->
+    <!--  Share Lyrics  -->
     <system:String x:Key="String.Windows.ShareLyrics">Dela sångtexter</system:String>
     <system:String x:Key="String.Page.ShareLyrics.SelectLyrics">Välj sångtexter</system:String>
     <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.SelectCount">{0} rad vald</system:String>
@@ -695,11 +697,11 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">Det gick inte att spara.</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.RenderFailed">Något är fel, det gick inte att rendera.</system:String>
 
-    <!--Configure Web Window-->
+    <!--  Configure Web Window  -->
     <system:String x:Key="String.Window.ConfigureWeb.Notice1">Logga in på Spotify här för att aktivera uppspelning i Lyricify</system:String>
     <system:String x:Key="String.Window.ConfigureWeb.Notice2">Om Spotify-webbsidan visas korrekt bör Lyricify kunna spela upp ljud. (En omstart av Lyricify kan behövas)</system:String>
 
-    <!--Custom Configuration Manager-->
+    <!--  Custom Configuration Manager  -->
     <system:String x:Key="String.Window.CustomConfigurationManager">Anpassad konfigurationshanterare</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Description">Ladda in idéer från dina skapelser, eller till och med anpassningar från andra användare.</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Name">Namn</system:String>
@@ -722,7 +724,7 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">Flytta upp</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveDown">Flytta ned</system:String>
 
-    <!--Hotkey Manager-->
+    <!--  Hotkey Manager  -->
     <system:String x:Key="String.Window.HotkeyManager">Snabbkommandon</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Description">Du kan hantera globala snabbtangenter här. (Använd Backsteg för att rensa en genväg)</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.DesktopLyrics">Skrivbordstexter</system:String>
@@ -737,7 +739,7 @@
     <system:String x:Key="String.Window.HotkeyManager.Message.FailedAt">Det gick inte att registrera dessa snabbtangenter:</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Message.CheckUsing">Kontrollera om ett annat program använder dessa nycklar.</system:String>
 
-    <!--Local Files Manager-->
+    <!--  Local Files Manager  -->
     <system:String x:Key="String.Window.LocalFilesManager">Lokal filhanterare</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Title">Hanterare för Spotify Local Files</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Description">Endast lokala filer som du har spelat på Spotify när Lyricify är öppet visas här.</system:String>
@@ -754,7 +756,7 @@
     <system:String x:Key="String.Window.LocalFilesManager.Type.Albums">Album:</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Type.Tracks">Spår:</system:String>
 
-    <!--Track Management-->
+    <!--  Track Management  -->
     <system:String x:Key="String.Window.TrackManagement">Spårhantering</system:String>
     <system:String x:Key="String.Window.TrackManagement.Title">Lyricify Track Management</system:String>
     <system:String x:Key="String.Window.TrackManagement.Track.Lock">Låsspår</system:String>
@@ -826,7 +828,7 @@
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor">Raw File Editor</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">Kan du inte deserialisera, granska dina ändringar (Ja) eller stänga utan att spara (Nej)?</system:String>
 
-    <!--Lyricify Account-->
+    <!--  Lyricify Account  -->
     <system:String x:Key="String.Window.LyricifyAccount">Lyricify Account</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Button.OK">OK</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Button.Change">Ändra</system:String>
@@ -849,7 +851,7 @@
     <system:String x:Key="String.Window.LyricifyAccount.Message.TooManyAttempts">För många försök</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Message.TwiceDifferent">Lösenord som angetts två gånger är olika</system:String>
 
-    <!--Backup Center-->
+    <!--  Backup Center  -->
     <system:String x:Key="String.Window.BackupCenter">Säkerhetskopiering &amp; Automation</system:String>
     <system:String x:Key="String.Window.BackupCenter.Title">Lyricify Backup &amp; Automationscenter</system:String>
     <system:String x:Key="String.Window.BackupCenter.Tab.Home">Hem</system:String>
@@ -907,7 +909,7 @@
     <system:String x:Key="String.Page.BackupCenter.Type.Artist.Output">{0} artist</system:String>
     <system:String x:Key="String.Page.BackupCenter.Type.Artist.Output.Plural">{0} artister</system:String>
 
-    <!--Others-->
+    <!--  Others  -->
     <system:String x:Key="String.Helpers.Player.Time.Hour">hr</system:String>
     <system:String x:Key="String.Helpers.Player.Time.Minute">min</system:String>
     <system:String x:Key="String.Helpers.Player.Time.Second">sek</system:String>
@@ -921,7 +923,7 @@
     <system:String x:Key="String.Helpers.Time.Ago.Second">{0} sekund sedan</system:String>
     <system:String x:Key="String.Helpers.Time.Ago.Seconds">{0} sekunder sedan</system:String>
 
-    <!--Lyrics-->
+    <!--  Lyrics  -->
     <system:String x:Key="String.Lyrics.Provider">Textleverantör</system:String>
     <system:String x:Key="String.Lyrics.Provider.ProvidedBy">Sångtext från {0}</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">Lyricify Lyrics Vault</system:String>
@@ -959,20 +961,20 @@
     <system:String x:Key="String.Lyrics.Info.Instrumental">Instrumentell musik, njut.</system:String>
     <system:String x:Key="String.Lyrics.Info.Button.ManualImport">Manuell import (Open Track Management)</system:String>
 
-    <!--Converter-->
+    <!--  Converter  -->
     <system:String x:Key="String.Converter.ValueString">{0}% klar</system:String>
 
     <!--
         Messages
     -->
 
-    <!--App-->
+    <!--  App  -->
     <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">Obehörig åtgärd, logga in igen för att fortsätta</system:String>
     <system:String x:Key="String.Messages.App.Exception.PremiumRequired">Premium krävs</system:String>
     <system:String x:Key="String.Messages.App.Exception.TryToRelogin">Försök att logga in igen</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">För många förfrågningar (429-fel), försök igen senare</system:String>
 
-    <!--MainWindow-->
+    <!--  MainWindow  -->
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 Fel, försök igen senare</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Timeout">Timeout-undantag, försök igen senare</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Http Request Exception, försök igen senare</system:String>
@@ -984,7 +986,7 @@
     <system:String x:Key="String.Messages.MainWindow.LogOut.Query">Är du säker på att logga ut detta Spotify-konto?</system:String>
     <system:String x:Key="String.Messages.MainWindow.LogOut.Failed">Det gick inte att logga ut</system:String>
 
-    <!--Operations-->
+    <!--  Operations  -->
     <system:String x:Key="String.Messages.Operation.Spotify.Add.LikedSongs">Lagt till i dina gillade låtar</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Remove.LikedSongs">Borttagen från dina gillade låtar</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Add.Library">Sparat i ditt bibliotek</system:String>
