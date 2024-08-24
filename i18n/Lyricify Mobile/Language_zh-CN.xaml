@@ -55,7 +55,7 @@
     <x:String x:Key="String.Message.Login.429.CustomClient">可通过自定义 API Client 解决 429 错误问题</x:String>
     <x:String x:Key="String.Message.Login.NullPlayback">无正在播放的歌曲，你得在 Spotify 放歌才能显示歌词呀</x:String>
     <x:String x:Key="String.Message.Login.429Error">429 错误，待会儿再试</x:String>
-    <x:String x:Key="String.Message.Login.InvalidClient">无效的 Client 信息, 请检你的 API Client 配置</x:String>
+    <x:String x:Key="String.Message.Login.InvalidClient">无效的 Client 信息，请检你的 API Client 配置</x:String>
     <x:String x:Key="String.Message.Login.UserNotRegistered">用户没有在 Spotify Developer Dashboard 中注册</x:String>
     <x:String x:Key="String.Message.Login.ThirdParty.Notice">第三方 (Google、Facebook 和 Apple) 登录是不被支持的，请使用你的 Spotify 账号和密码完成登录 (你可以在 Spotify 官网设置密码)</x:String>
     <x:String x:Key="String.Message.Lyrics.Instrumental">纯音乐，请您欣赏。</x:String>
