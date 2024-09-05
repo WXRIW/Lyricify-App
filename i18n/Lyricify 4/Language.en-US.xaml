@@ -329,6 +329,7 @@
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.Description">Change the colors that appear in Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">Dark (Default)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Light">Light</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.FollowSystem">Follow system</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset">Interface font preset</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset.Description">Choose the font preset for Lyricify interface</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground">Lyrics Background</system:String>
@@ -375,6 +376,8 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiOnly">Romaji Only</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese">Prefer Simplified Chinese</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese.Description">Chinese characters will be converted into Traditional Chinese if you toggled off this option</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation">Lyrics segmentation</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation.Description">Enable Chinese long sentence segmentation (Takes effect after refreshing lyrics)</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">Show explicit lyrics</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics.Description">By turning off, explicit words will be replaced with asterisks</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source">Source</system:String>
@@ -1009,6 +1012,32 @@
     <system:String x:Key="String.Window.LocalFilesManager.Type.Albums">Albums:</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Type.Tracks">Tracks:</system:String>
 
+    <!--  Storage Manager  -->
+    <system:String x:Key="String.Window.StorageManager">Storage Manager</system:String>
+    <system:String x:Key="String.Window.StorageManager.Description">Manage Lyricify's strorage on this device.</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Configurations">Configurations</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Configurations.Description">Settings, configs and account info</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Caches">Caches</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Caches.Description">Cached images and other caches</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Logs">Logs</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Logs.Description">Log files generated during runtime</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Backups">Backups</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Backups.Description">Account data backups, lyrics editor auto backups and other backups</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup">Storage Cleanup</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Configurations.UnusedLocalFileImages">Unused local file images</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Caches.Images">Cached images</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.CurrentLog">Current log</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.CurrentLyricsLog">Current lyrics log</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.HistoryLogs">History logs</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Backups.AccountData">Account data backups</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Backups.LyricsEditorAutoBackup">Lyrics editor auto backups</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.SelectedSize">{0} selected</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.SelectRecommended">Select Recommended</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.SelectAll">Select All</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.DeselectAll">Deselect All</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean">Clean</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean.Ask">Are you sure you want to clean? You cannot restore it after the cleaning.</system:String>
+
     <!--  Track Management  -->
     <system:String x:Key="String.Window.TrackManagement">Track Management</system:String>
     <system:String x:Key="String.Window.TrackManagement.Title">Lyricify Track Management</system:String>
@@ -1301,6 +1330,7 @@
     <!--  App  -->
     <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">Unauthorized action, relogin to continue</system:String>
     <system:String x:Key="String.Messages.App.Exception.PremiumRequired">Premium required</system:String>
+    <system:String x:Key="String.Messages.App.Exception.PremiumRequired.More">Premium required (Click to learn more)</system:String>
     <system:String x:Key="String.Messages.App.Exception.TryToRelogin">Please try to relogin</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">Too many requests (429 error), retry later</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">Too many requests (429 error), retry after {0} seconds</system:String>

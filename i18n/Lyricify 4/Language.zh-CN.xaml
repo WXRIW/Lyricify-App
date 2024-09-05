@@ -329,6 +329,7 @@
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.Description">改变 Lyricify 的颜色模式</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">深色 (默认)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Light">浅色</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.FollowSystem">跟随系统</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset">界面字体预设</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset.Description">为 Lyricify 界面选择字体预设</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground">歌词背景</system:String>
@@ -375,6 +376,8 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiOnly">仅罗马音</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese">更喜欢简体中文</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese.Description">如果关闭此选项，中文字符将被转换至繁体中文</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation">歌词分割</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation.Description">启用中文长句分割 (刷新歌词后生效)</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">显示脏词</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics.Description">关闭此选项，脏词将会被替换为星号</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source">来源</system:String>
@@ -1009,6 +1012,32 @@
     <system:String x:Key="String.Window.LocalFilesManager.Type.Albums">专辑：</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Type.Tracks">曲目：</system:String>
 
+    <!--  Storage Manager  -->
+    <system:String x:Key="String.Window.StorageManager">存储空间管理器</system:String>
+    <system:String x:Key="String.Window.StorageManager.Description">管理 Lyricify 在本设备上占用的存储空间。</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Configurations">配置</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Configurations.Description">设置、配置以及账户信息</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Caches">缓存</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Caches.Description">缓存的图片和其它缓存</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Logs">日志</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Logs.Description">运行时生成的日志文件</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Backups">备份</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Backups.Description">账户数据备份、歌词编辑器自动备份以及其它备份</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup">存储空间清理</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Configurations.UnusedLocalFileImages">未被使用的本地文件歌曲图片</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Caches.Images">缓存的图片</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.CurrentLog">当前日志</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.CurrentLyricsLog">当前歌词日志</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.HistoryLogs">历史日志</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Backups.AccountData">账户数据备份</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Backups.LyricsEditorAutoBackup">歌词编辑器自动备份</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.SelectedSize">已选中 {0}</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.SelectRecommended">选择推荐项</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.SelectAll">全选</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.DeselectAll">全不选</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean">清理</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean.Ask">确定要清理吗？清理后将无法恢复。</system:String>
+
     <!--  Track Management  -->
     <system:String x:Key="String.Window.TrackManagement">曲目管理</system:String>
     <system:String x:Key="String.Window.TrackManagement.Title">Lyricify 曲目管理</system:String>
@@ -1301,6 +1330,7 @@
     <!--  App  -->
     <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">未经授权的操作，重新登录以继续</system:String>
     <system:String x:Key="String.Messages.App.Exception.PremiumRequired">需要 Premium</system:String>
+    <system:String x:Key="String.Messages.App.Exception.PremiumRequired.More">需要 Premium (点击了解更多)</system:String>
     <system:String x:Key="String.Messages.App.Exception.TryToRelogin">请尝试重新登录</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">过多请求 (429 错误)，请稍后再试</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">过多请求 (429 错误)，请 {0} 秒后再试</system:String>
