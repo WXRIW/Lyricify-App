@@ -370,6 +370,10 @@ Lyricify 4 支持内置播放，但是并不建议使用。这只是一个测试
 1. 在 `Windows 资源管理器` 的地址栏中输入 `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`，按 `Enter` 键。
 2. 将 Lyricify 快捷方式复制到此文件夹中即可。
 
+## Microsoft Store 版创建快捷方式
+1. 打开 `开始菜单`，点击右上角的 `所有应用`。
+2. 找到 `Lyricify 4`，按住拖动到想要创建快捷方式的地方即可完成创建。
+
 # 常见问题
 
 ## Microsoft Store 版本与 GitHub 版本有什么区别
@@ -386,6 +390,8 @@ Lyricify 4 支持内置播放，但是并不建议使用。这只是一个测试
 目前 Microsoft Store 版本有以下独享功能：
 1. Apple Music 歌词的自定义字体功能。
 2. 灵动词岛的自定义字体功能。
+3. 独享中国大陆加速服务器。
+4. 自定义启动欢迎消息。
   
 在 Microsoft Store 购买 Lyricify 是对 Lyricify 开发者的一种支持和信任，感谢所有购买或打赏过 Lyricify 的用户！也欢迎各位用户给出 5 星好评和评语，这对我有很大帮助！  
 
