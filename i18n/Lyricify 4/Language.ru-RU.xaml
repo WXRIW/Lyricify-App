@@ -297,6 +297,7 @@
     <system:String x:Key="String.Page.About.LyricsProviders">Lyricify, Tencent Music, Netease Music</system:String>
     <system:String x:Key="String.Page.About.Donation">Пожертвование</system:String>
     <system:String x:Key="String.Page.About.Thanklist">Список благодарностей</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.SupporterListInfo">Отсортирован по сумме и времени, обновлен {0}</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksApple">Отдельная благодарность за оригинальный дизайн от Apple</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">Отдельная благодарность Spotify за вклад в мир потоковой музыки</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">Отдельная благодарность компании Difer за предоставление аккаунта Spotify Premium</system:String>
@@ -328,6 +329,7 @@
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.Description">Изменить цвета, отображаемые в Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">Темный (по умолчанию)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Light">Светлый</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.FollowSystem">Следуйте системе</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset">Шрифт интерфейса</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset.Description">Выбор шрифт для Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground">Фон текста песни</system:String>
@@ -374,6 +376,8 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiOnly">Только ромадзи</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese">Принудительно упрощенный китайский</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese.Description">Китайские иероглифы будут преобразованы в традиционные китайские, если вы отключили эту опцию</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation">Сегментация текстов</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation.Description">Включить сегментацию длинных предложений на китайском (эффективно после обновления)</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">Показать запрещенные слова</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics.Description">При отключении явные слова будут заменены звездочками</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source">Источник</system:String>
@@ -605,6 +609,8 @@
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.CrossfadeNotice">Crossfade включен, коррекция временной шкалы может работать некорректно</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">Включить предварительную загрузку текстов</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">Предварительная загрузка текстов позволяет практически незаметно загружать тексты при переключении треков</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableImagePreload">Включить предварительную загрузку изображений</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableImagePreload.Description">Предварительная загрузка изображений позволяет практически незаметно загружать изображений при переключении треков</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation">Включить подтверждение «Не нравится»</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation.Description">Запрос подтверждения перед удалением песни из библиотеки (понравившиеся песни)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">Включить преобразование в китайский язык</system:String>
@@ -617,6 +623,15 @@
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">Открыть</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar">Индикатор ожидания Spotify API</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar.Description">При переключении треков, если возникнет Error 429, отобразить индикатор ожидания</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage">Приветственное сообщение</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.Description">Приветственное сообщение при запуске Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.CurrentWelcomeMessage">Текущее приветственное сообщение</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.CustomizeWelcomeMessage">Настройте приветственное сообщение</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.CustomizeWelcomeMessage.Description">Введите {NAME}, чтобы ввести свое имя пользователя (нажмите, чтобы вставить {NAME})</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.CustomizeWelcomeMessage.PlaceHolder">Войдите сюда</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.ComboBox.Standard">Стандартный прием</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.ComboBox.Supreme">Уважаемый прием</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.ComboBox.Custom">Пользовательское сообщение</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates">Обновление</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.Description">Настройки обновлений Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.Button.Check">Проверить обновления</system:String>
@@ -630,6 +645,11 @@
     <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Sources.GitHub">GitHub</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Sources.GitHubProxy">GitHub Proxy (ghproxy.com)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Updates.MicrosoftStore.Description">Обновления управляются через Microsoft Store.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer">Lyricify Proxy-сервер по умолчанию</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer.Description">Если вы находитесь в материковом Китае, отказ от использования прокси-сервера в запросах к серверу Lyricify может улучшить вашу работу.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer.ComboBox.Enable">Включить прокси</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer.ComboBox.Auto">Автоматический</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer.ComboBox.Disable">Выключить</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer">Отключить прокси для запросов сервера Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer.Description">Отключение прокси-сервера для этих запросов может улучшить работу, если вы находитесь в материковом Китае</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings">Включить ручные настройки прокси</system:String>
@@ -753,6 +773,7 @@
     <!--  Notification Icon  -->
     <system:String x:Key="String.Menu.NotificationIcon.UnlockDesktopLyrics">Разблокировать текст для рабочего стола</system:String>
     <system:String x:Key="String.Menu.NotificationIcon.MinimizeToTray">Свернуть в панель уведомлений</system:String>
+    <system:String x:Key="String.Menu.NotificationIcon.Restart">Перезагрузить</system:String>
     <system:String x:Key="String.Menu.NotificationIcon.Exit">Выход</system:String>
 
     <!--  Pages  -->
@@ -796,6 +817,8 @@
     <system:String x:Key="String.Tools.Page.RefreshButton">ЗАГРУЗИТЬ</system:String>
 
     <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice">Ой, вы достигли ограничения частоты запросов API Spotify, пожалуйста подождите немного и попробуйте перезагрузить.</system:String>
+    <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice.Network">Упс, что-то пошло не так. Пожалуйста, проверьте подключение к Интернету.</system:String>
+    <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice.Internal">Ну, что-то пошло не так. Пожалуйста, обратитесь за помощью к разработчику.</system:String>
 
     <system:String x:Key="String.Tools.FollowButton.Follow">ПОДПИСАТЬСЯ</system:String>
     <system:String x:Key="String.Tools.FollowButton.Following">ПОДПИСАЛСЯ</system:String>
@@ -988,6 +1011,32 @@
     <system:String x:Key="String.Window.LocalFilesManager.Message.FailRemove">Не удалось удалить изображение.</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Type.Albums">Альбомы:</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Type.Tracks">Треки:</system:String>
+
+    <!--  Storage Manager  -->
+    <system:String x:Key="String.Window.StorageManager">Менеджер хранилища</system:String>
+    <system:String x:Key="String.Window.StorageManager.Description">Управляйте пространством хранения, используемым Lyricify на этом устройстве.</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Configurations">Конфигурация</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Configurations.Description">Настройка, конфигурация и информация об учетной записи</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Caches">Кэш</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Caches.Description">Кэшированные изображения и другие кеши</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Logs">Логи</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Logs.Description">Файлы журналов, созданные во время выполнения</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Backups">Резервная копия</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Backups.Description">Резервное копирование данных учетной записи, автоматическое резервное копирование редактора текстов песен и другие резервные копии.</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup">Уборка складских помещений</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Configurations.UnusedLocalFileImages">Неиспользованные изображения песен из локальных файлов</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Caches.Images">Кешированные изображения</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.CurrentLog">Текущие логи</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.CurrentLyricsLog">Текущие журнал текстов</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.HistoryLogs">Логи истории</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Backups.AccountData">Резервное копирование данных аккаунта</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Backups.LyricsEditorAutoBackup">Редактор текстов, автоматическое резервное копирование</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.SelectedSize">{0} выбрано</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.SelectRecommended">Выберите рекомендуемые товары</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.SelectAll">Выбрать все</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.DeselectAll">Выбрать нет</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean">Убирать</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean.Ask">Вы уверены, что хотите убирать? После чистки его невозможно восстановить.</system:String>
 
     <!--  Track Management  -->
     <system:String x:Key="String.Window.TrackManagement">Управление трека</system:String>
@@ -1280,6 +1329,7 @@
 
     <!--  App  -->
     <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">Несанкционированное действие, повторно войдите в систему, чтобы продолжить</system:String>
+    <system:String x:Key="String.Messages.App.Exception.PremiumRequired">Требует Premium</system:String>
     <system:String x:Key="String.Messages.App.Exception.PremiumRequired">Требуется Premium</system:String>
     <system:String x:Key="String.Messages.App.Exception.TryToRelogin">Попробуйте повторно войти</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">Слишком много запросов (Error 429), повторите попытку позже</system:String>
