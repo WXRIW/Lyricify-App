@@ -41,15 +41,12 @@ https://t.me/lyricify
 https://t.me/lyricifyreleases
 
 **QQ Group / QQ 群:**  
-[点击加入群聊【Lyricify 用户群 1】](https://jq.qq.com/?_wv=1027&k=hZG8VRV4)（群号：972282479）  
-[点击加入群聊【Lyricify 用户群 2】](https://jq.qq.com/?_wv=1027&k=l0Sy2aGi)（群号：653663090）  
+[点击加入群聊【Lyricify 用户群 1】](https://jq.qq.com/?_wv=1027&k=hZG8VRV4)（群号：972282479）（已满）  
+[点击加入群聊【Lyricify 用户群 2】](https://jq.qq.com/?_wv=1027&k=l0Sy2aGi)（群号：653663090）（已满）  
 [点击加入群聊【Lyricify 用户群 3】](https://jq.qq.com/?_wv=1027&k=nUr4jHVU)（群号：515098369）  
 [点击加入群聊【Lyricify 用户群 4】](https://qm.qq.com/q/ejJ0huLLsQ)（群号：630964785）  
 [点击加入群聊【Lyricify 用户群 5】](https://qm.qq.com/q/wGe070e4rS)（群号：561373781）  
 [点击加入群聊【Lyricify 用户群 6】](https://qm.qq.com/q/TEj2v8gvK2)（群号：636998823）  
-
-**Reserved Download Link / 备用下载地址:**  
-https://wxriw.lanzoux.com/b015qcwob
 
 **Lyricify Open Source / 开源 Lyricify:**  
 Lyricify 歌词处理部分已开源，详见[这里](#lyricify-open-source)。
@@ -84,13 +81,13 @@ Lyricify 4 是免费软件，如果你觉得 Lyricify 4 做的不错，则可以
 
 ### Lyricify 4 Original
 Lyricify 4 是目前 Lyricify 系列中最具创新的功能结晶，在这里列出部分首创于 Lyricify 的功能。  
-- 灵动词岛 / Dynamic Lyrics Island
+- 灵动词岛 / Dynamic Lyrics Island *
   - 首创于 2022.09.30
   - 公开于 Lyricify 3.8.1-release
-- 妙控条 / Magic Strip
+- 妙控条 / Magic Strip *
   - 首创于 2022.10.09
   - 公开于 Lyricify 4.0.0.230121-release
-- 歌词界面使用动态专辑封面 / Live Album Cover
+- 歌词界面使用动态专辑封面 / Live Album Cover *
   - 首创于 2022.11.14
   - 公开于 Lyricify 4.0.0.230121-release
 - Lyricify Syllable
@@ -100,7 +97,7 @@ Lyricify 4 是目前 Lyricify 系列中最具创新的功能结晶，在这里�
   - 首创于 2023.04.26
   - 公开于 Lyricify 4.1.0.230503-release
 
-这些创作采用 [CC BY-SA 4.0 协议](https://creativecommons.org/licenses/by-sa/4.0/) 进行许可。欢迎转载、使用、重新发布，但务必保留创作署名 Lyricify (及作者 WXRIW 或 XY Wang)，可用于商业目的，基于创意修改后的作品务必以相同的许可发布。如有任何疑问，请与我联系。  
+标记 * 的创作采用 [CC BY-SA 4.0 协议](https://creativecommons.org/licenses/by-sa/4.0/) 进行许可。欢迎转载、使用、重新发布，但务必保留创作署名 Lyricify (及作者 WXRIW 或 XY Wang)，可用于商业目的，基于创意修改后的作品务必以相同的许可发布。如有任何疑问，请与我联系。  
 
 ## Lyricify Open Source
 Lyricify 的歌词处理相关代码均已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中使用 Apache License 2.0 协议开源，希望能为开源社区做出贡献。  
