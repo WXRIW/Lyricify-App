@@ -527,8 +527,7 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Description">Définir une transparence élevée pour les paroles du bureau lorsque le pointeur entre dans l'état verrouillé</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Opacity">Degré d'opacité</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Opacity.Description">Modifierez le valoir 0 si vous voulez masquer le parole de bureau</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">
-        >Degré d'opacité</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">Degré d'opacité</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.BorderThickness">Épaisseur du cadre</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign">Alignment paroles</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Center">Centre (Par défaut)</system:String>
@@ -554,8 +553,7 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Fill">Joué (Rembourrage)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Border">Joué (Cadre)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Fill">Non joué (Rembourrage)</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Border">
-        >Non joué (Cadre)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Border">Non joué (Cadre)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.ArtworkMainColor">La couleur du couverture</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Black">Noir</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.White">Blacn</system:String>
@@ -567,8 +565,6 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Direction">Direction</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Direction.Description">Par défaut : 315°</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Opacity">Opacité</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale">Niveau de zoom</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale.Description">Contrôler la taille et le zoom de l'île dynamique</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Radius">Rayon</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position">Postition et taille</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Description">Si les paroles desktop ne s'affichent pas correctement, essayez de réinitialiser le système.</system:String>
@@ -613,12 +609,15 @@
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.CrossfadeNotice">Le fondu est activé, les corrections de la ligne de temps peuvent ne pas fonctionner correctement</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">Activer le préchargé</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">Les paroles préchargés peuvent rendre presque insensé le chargement des lyrcis lors du passage d'une à l'autre</system:String>
+
+
     <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation">Activer la confirmation en annulant les appréciés</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation.Description">Demander une confirmation avant de supprimer une chanson de votre bibliothèque (chansons appréciées)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">Activer la transformation du chinois</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">Activer la transformée du chinois pour les éléments de Spotify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">Retard d'appareil</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">Le valoir: milleseconde, cet option est désignée pour le retard des appareils bluetooths, n'utlisez pas pour le retard des paroles. Efficace après rechargement</system:String>
+
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">Gestion des raccourcis</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">Ouvrir la gestionnaire des raccourcis et gérer des raccourcis globales</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">Ouvrir</system:String>
@@ -905,10 +904,9 @@
     <system:String x:Key="String.Page.ShareLyrics.Share">Partager</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.ClickForMore">Cliquez pour en savoir plus</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ShowTranslation">Afficher la traduction</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowBackgroundVocals">Afficher le vocal d'arrière-plan</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ColorfulLogo">Symboles colorés</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowTranslation">Afficher la traduction</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowBackgroundVocals">Montrer les voix de font</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowBackgroundVocals">Afficher le vocal d'arrière-plan</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ColorfulLogo">Symboles colorés</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.BoldText">Texte en gras</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">Copier</system:String>
@@ -920,8 +918,8 @@
 
     <!--  Configure Web Window  -->
     <system:String x:Key="String.Window.ConfigureWeb.Notice1">Connectez-vous à Spotify ici pour activer la fonction de lecture intégrée de Lyricify</system:String>
-    <system:String x:Key="String.Window.ConfigureWeb.ToggleSwitch">Activer la fonction de lecture intégrée</system:String>
     <system:String x:Key="String.Window.ConfigureWeb.Notice2">Si la version web de Spotify s'affiche correctement, la lecture en ligne de Lyricify devrait être possible (Un redémarrage de Lyricify peut être nécessaire).</system:String>
+    <system:String x:Key="String.Window.ConfigureWeb.ToggleSwitch">Activer la fonction de lecture intégrée</system:String>
 
     <!--  Custom Configuration Manager  -->
     <system:String x:Key="String.Window.CustomConfigurationManager">Personnaliser la gestionnaire de configuration</system:String>
@@ -971,7 +969,6 @@
     <system:String x:Key="String.Window.DeviceLatencyManager.Button.RefreshLyrics">Actualiser les paroles</system:String>
     <system:String x:Key="String.Window.DeviceLatencyManager.Button.Close">Fermer</system:String>
     <system:String x:Key="String.Window.DeviceLatencyManager.Button.Close.Notice">Tous les paramètres seront enregistré automatiquement.</system:String>
-
 
     <!--  Hotkey Manager  -->
     <system:String x:Key="String.Window.HotkeyManager">Gestionnaire de raccourcis</system:String>
@@ -1288,6 +1285,7 @@
     <system:String x:Key="String.Lyrics.Provider.Server.Info.Marked">Marqué sur le serveur</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">Recherche automatique</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Fail.Version">Cette version actuelle est obsolète, veuillez obtenir une mise à jour</system:String>
+
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">Marquage réussi sur le serveur</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Exist">Ces paroles ont été mnarqués</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">Échec, il  s'agirait d'une erreur interne</system:String>
@@ -1332,6 +1330,7 @@
     <!--  App  -->
     <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">Action non autorisée, reconnectez-vous pour continuer</system:String>
     <system:String x:Key="String.Messages.App.Exception.PremiumRequired">Premium requis</system:String>
+    
     <system:String x:Key="String.Messages.App.Exception.TryToRelogin">Veuillez essayer de vous reconnecter</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">Trop de requêtes (erreur 429), réessayez plus tard</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">Trop de requêtes (erreur 429), réessayez après {0} sec</system:String>
@@ -1344,6 +1343,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Exception de requête HTTP, réessayez plus tard</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">Votre compte Lyricify non trouvé. Les fonctions liées au serveur seront limitées. Se reconnecter pourrait aider.</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Restricted">Votre compte Lyricify a été restreint, contactez un administrateur pour obtenir de l'aide !</system:String>
+
     <system:String x:Key="String.Messages.MainWindow.Message.NonPremium">L'obtention de Spotify Premium est fortement recommandée afin d'expérience le meilleur parti de Lyricify !</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed">Lyricify fermera</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed.Wrong">Les erreurs se sont produits, Lyricify fermera</system:String>
