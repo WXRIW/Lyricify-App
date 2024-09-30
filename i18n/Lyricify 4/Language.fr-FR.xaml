@@ -610,13 +610,13 @@
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">Activer le préchargé</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">Les paroles préchargés peuvent rendre presque insensé le chargement des lyrcis lors du passage d'une à l'autre</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableImagePreload">Activer le pré-chargement d'image</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.EnableImagePreload.Description">Grâce aux images préchargées, le chargement des pochettes d'album lors du changement de piste n'a presque plus de sens !system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableImagePreload.Description">Grâce aux images préchargées, le chargement des pochettes d'album lors du changement de piste n'a presque plus de sens !</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation">Activer la confirmation en annulant les appréciés</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation.Description">Demander une confirmation avant de supprimer une chanson de votre bibliothèque (chansons appréciées)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">Activer la transformation du chinois</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">Activer la transformée du chinois pour les éléments de Spotify</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">Délai d'appareil</system:String>
-pour le retard des appareils bluetooths, n'utlisez pas pour le retard des paroles. Efficace après rechargement</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">Retard d'appareil</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">Le valoir: milleseconde, cet option est désignée pour le retard des appareils bluetooths, n'utlisez pas pour le retard des paroles. Efficace après rechargement</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Button.Configure">Configuration</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">Gestion des raccourcis</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">Ouvrir la gestionnaire des raccourcis et gérer des raccourcis globales</system:String>
