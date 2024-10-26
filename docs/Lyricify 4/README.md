@@ -11,6 +11,7 @@
 ### 功能
 - [Microsoft Store 版本与 GitHub 版本有什么区别](#microsoft-store-%E7%89%88%E6%9C%AC%E4%B8%8E-github-%E7%89%88%E6%9C%AC%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB)
 - [Spotify Premium 在 Lyricify 中的独占功能](#spotify-premium-%E7%8B%AC%E5%8D%A0%E5%8A%9F%E8%83%BD)
+- [自定义 API Client](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/CustomClient/Readme.zh-CN.md)
 - [歌词导入](#%E6%AD%8C%E8%AF%8D%E6%A0%87%E8%AE%B0%E5%8F%8A%E5%AF%BC%E5%85%A5)
 - [歌词管理及高级操作](#%E6%9B%B2%E7%9B%AE%E7%AE%A1%E7%90%86)
 - [全局快捷键](#%E5%85%A8%E5%B1%80%E5%BF%AB%E6%8D%B7%E9%94%AE)
@@ -521,8 +522,8 @@ Spotify 没有上传当前的播放信息。这是网络原因，也可能是 Sp
 ## Media Session 未连接
 请检查 Spotify 中 `使用媒体键时显示桌面叠加` 是否开启。  
 #### 注意
-1. Media Session 仅在您使用 Spotify 桌面版 (含 Store 版) 播放时可用，其他情况 (如使用网页版、移动版等) 下不可用！  
-2. 只有 Lyricify 获取到了当前播放信息，才会尝试连接 Media Session！
+1. 只有 Lyricify 获取到了当前播放信息，才会尝试连接 Media Session！若未获取到播放信息，请先查看 [Lyricify 无法获取当前播放信息](#lyricify-%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E6%92%AD%E6%94%BE%E4%BF%A1%E6%81%AF)。
+2. Media Session 仅在您使用 Spotify 桌面版 (含 Store 版) 播放时可用，其他情况 (如使用网页版、移动版等) 下不可用！
 3. 系统版本小于 10.0.17763.0 时不支持 Media Session。
 
 如果您的 Media Session 出现异常，您还可以尝试重启 Spotify 和 Lyricify。  
@@ -541,6 +542,13 @@ Lyricify 为提升体验，需在歌曲开头以最小的影响进行时间轴�
 ### 解决方案
 关闭 `设置` `高级` `启用 Media Session 增强` 中的 `启用时间轴修正` 即可。  
 注意：关闭后体验会下降。  
+
+## 除主界面外的其他界面没有歌词
+主界面歌词正常显示，但其他界面（如“桌面歌词”“Apple Music 歌词”等）没有歌词。
+### 可能的导致原因
+这首歌的歌词被错误的配置。
+### 解决方案
+打开[曲目管理](#%E5%9C%A8%E5%93%AA%E9%87%8C%E5%8F%AF%E4%BB%A5%E6%89%93%E5%BC%80-%E6%9B%B2%E7%9B%AE%E7%AE%A1%E7%90%86)，检查“标题行”是否被错误的标记，可尝试通过双击 `是标题行` 进行标题行自动识别，完成后点击 `应用到主窗口`，检查歌词是否恢复。若恢复，则可以点击 `保存 (上传)` 将修改保存至 Lyricify 服务器。
 
 ## Apple Music 歌词界面卡顿问题
 如果是打开该界面的第一首歌就很卡，那就是你电脑性能不够。不要全屏，因为全屏需要占用很多资源，硬件性能不够就不要去尝试！  

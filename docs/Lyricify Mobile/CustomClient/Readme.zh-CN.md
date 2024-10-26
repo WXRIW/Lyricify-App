@@ -12,7 +12,8 @@
 1. 在浏览器中登录 Spotify (https://www.spotify.com) ，如果你已登录，可进入步骤 2。
 2. 打开 https://developer.spotify.com/dashboard ，如果你是第一次打开这个网址，则需要先同意 Spotify Developer Terms。勾选下方的 `I accept the Spotify Developer Terms of Service`，再点击 `Accept the terms` 即可。
 ![](pic/Demo-Pic01.png)
-3. 点击 Dashboard 页面右上方的 `Create app`。
+3. 点击 Dashboard 页面右上方的 `Create app`。  
+   如果提示 `You need to verify your email address before you can create an app.`，则需要你先验证你的邮箱。
 ![](pic/Demo-Pic02.png)
 4. 在 Create app 页面中填写以下信息：
    - App name: Lyricify

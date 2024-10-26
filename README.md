@@ -12,17 +12,17 @@
 
 | 软件</br>Application | 最新版本</br>Latest Version | 备注</br>Notes | 平台</br>Platform | 使用指南</br>User Guide |
 | :-: | :-: | :-: | :-: | :-: |
-| [Lyricify 4](https://github.com/WXRIW/Lyricify-App#lyricify-4) | [4.3.12-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.3.12) | 适用于 Spotify 用户</br>For Spotify users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%204/README.md)<sup><a href="#ref5_en">5</a></sup> |
+| [Lyricify 4](https://github.com/WXRIW/Lyricify-App#lyricify-4) | [4.3.16-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.3.16) | 适用于 Spotify 用户</br>For Spotify users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%204/README.md)<sup><a href="#ref5_en">5</a></sup> |
 | [Lyricify Mobile](https://github.com/WXRIW/Lyricify-App#lyricify-mobile) | [1.4.3-release](https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.4.3) | 适用于 Spotify 用户</br>For Spotify users | Android, iOS, iPadOS, visionOS<sup><a href="#ref3">3</a></sup>, macOS, Windows | [点击查看</br>Click to view](/docs/Lyricify%20Mobile/README.md)<sup><a href="#ref5_en">5</a></sup> |
 | [Lyricify 3](https://github.com/WXRIW/Lyricify-App#lyricify-3) | [3.8.8-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v3.8.8) | 适用于 Spotify、iTunes 等<sup><a href="#ref1">1</a></sup> 的用户</br>For Spotify, iTunes and more apps<sup><a href="#ref1_en">1</a></sup>' users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%203/README.md)<sup><a href="#ref5_en">5</a></sup> |
-| [Lyricify Lite](https://github.com/WXRIW/Lyricify-App/issues/144) | 开发中，暂未发布</br>Developing, currently not released | 适用于 Spotify、Apple Music 等<sup><a href="#ref4">4</a></sup> 的用户</br>For Spotify, Apple Music and more apps<sup><a href="#ref4_en">4</a></sup>' users | Windows | [点击查看</br>Click to view](https://github.com/WXRIW/Lyricify-App/issues/144)<sup><a href="#ref5_en">5</a></sup> |
+| [Lyricify Lite](https://github.com/WXRIW/Lyricify-App/issues/144) | 开发过半，暂未发布</br>Developing, currently not released | 适用于 Spotify、Apple Music 等所有接入了 SMTC 的 app<sup><a href="#ref4">4</a></sup></br>For Spotify, Apple Music, and any app that supports SMTC<sup><a href="#ref4_en">4</a></sup> | Windows | [点击查看</br>Click to view](https://github.com/WXRIW/Lyricify-App/issues/144)<sup><a href="#ref5_en">5</a></sup> |
 
 **备注**  
 1. <span id="ref1">Lyricify 3 目前支持 Spotify、iTunes、Apple Music、Music Center、QQ 音乐、网易云音乐、YesPlayMusic，建议 Spotify 用户使用 Lyricify 4，不要使用 Lyricify 3。</span>  
 2. <span id="ref2">Lyricify 4、Lyricify 3 可借助 Wine 实现在 Linux 和 macOS 上运行。Lyricify 4 实现过程可能会比较繁琐，需要您耐心尝试。  
    **对于 Linux 平台：** 我们已经在尝试让 Lyricify 通过 Wine 在 Linux 平台上运行，并力求简便和稳定。您可以在 [Lyricify on Wine 仓库](https://github.com/Lyricify/Lyricify-on-Wine)下载软件包。  
    **对于 macOS 平台：** 在 M 系列芯片的 Mac 上，建议使用 Windows on ARM 虚拟机运行 Lyricify ARM64 版本以获得更好的体验。</span>  
-3. <span id="ref3">Lyricify Mobile 可作为兼容的 iOS 应用在 visionOS 上运行。</span>  
+3. <span id="ref3">Lyricify Mobile 可作为兼容的 iPadOS 应用在 visionOS 上运行。</span>  
 4. <span id="ref4">Lyricify Lite 计划支持部分已接入 SMTC 的 app，如 Spotify、Apple Music、HyPlayer 等。</span>  
 
 **Notes**  
@@ -30,7 +30,7 @@
 2. <span id="ref2_en">Lyricify 4, Lyricify 3 can run on Linux and macOS via Wine. The installation process of Lyricify 4 may be cumbersome and requires your patience.  
    **For Linux platforms:** We are endeavoring to operate Lyricify via Wine on the Linux platform, striving for consistent reproduction. You may procure the software package from [Lyricify on Wine repository](https://github.com/Lyricify/Lyricify-on-Wine).  
    **For macOS platforms:** On Macs with M-series chips, it is recommended to use a Windows on ARM virtual machine to run the Lyricify ARM64 version for a better experience.</span>  
-3. <span id="ref3_en">Lyricify Mobile can run on visionOS as Compatible iOS App.</span> 
+3. <span id="ref3_en">Lyricify Mobile can run on visionOS as Compatible iPadOS App.</span> 
 4. <span id="ref4_en">Lyricify Lite has been planned to support apps connected to SMTC, such as Spotify, Apple Music, HyPlayer, etc.</span>  
 5. <span id="ref5_en">User guide documents are in Simplified Chinese, use a translator if you don't speak Chinese.</span>  
 
@@ -41,15 +41,12 @@ https://t.me/lyricify
 https://t.me/lyricifyreleases
 
 **QQ Group / QQ 群:**  
-[点击加入群聊【Lyricify 用户群 1】](https://jq.qq.com/?_wv=1027&k=hZG8VRV4)（群号：972282479）  
-[点击加入群聊【Lyricify 用户群 2】](https://jq.qq.com/?_wv=1027&k=l0Sy2aGi)（群号：653663090）  
+[点击加入群聊【Lyricify 用户群 1】](https://jq.qq.com/?_wv=1027&k=hZG8VRV4)（群号：972282479）（已满）  
+[点击加入群聊【Lyricify 用户群 2】](https://jq.qq.com/?_wv=1027&k=l0Sy2aGi)（群号：653663090）（已满）  
 [点击加入群聊【Lyricify 用户群 3】](https://jq.qq.com/?_wv=1027&k=nUr4jHVU)（群号：515098369）  
 [点击加入群聊【Lyricify 用户群 4】](https://qm.qq.com/q/ejJ0huLLsQ)（群号：630964785）  
 [点击加入群聊【Lyricify 用户群 5】](https://qm.qq.com/q/wGe070e4rS)（群号：561373781）  
 [点击加入群聊【Lyricify 用户群 6】](https://qm.qq.com/q/TEj2v8gvK2)（群号：636998823）  
-
-**Reserved Download Link / 备用下载地址:**  
-https://wxriw.lanzoux.com/b015qcwob
 
 **Lyricify Open Source / 开源 Lyricify:**  
 Lyricify 歌词处理部分已开源，详见[这里](#lyricify-open-source)。
@@ -84,13 +81,13 @@ Lyricify 4 是免费软件，如果你觉得 Lyricify 4 做的不错，则可以
 
 ### Lyricify 4 Original
 Lyricify 4 是目前 Lyricify 系列中最具创新的功能结晶，在这里列出部分首创于 Lyricify 的功能。  
-- 灵动词岛 / Dynamic Lyrics Island
+- 灵动词岛 / Dynamic Lyrics Island *
   - 首创于 2022.09.30
   - 公开于 Lyricify 3.8.1-release
-- 妙控条 / Magic Strip
+- 妙控条 / Magic Strip *
   - 首创于 2022.10.09
   - 公开于 Lyricify 4.0.0.230121-release
-- 歌词界面使用动态专辑封面 / Live Album Cover
+- 歌词界面使用动态专辑封面 / Live Album Cover *
   - 首创于 2022.11.14
   - 公开于 Lyricify 4.0.0.230121-release
 - Lyricify Syllable
@@ -100,7 +97,7 @@ Lyricify 4 是目前 Lyricify 系列中最具创新的功能结晶，在这里�
   - 首创于 2023.04.26
   - 公开于 Lyricify 4.1.0.230503-release
 
-这些创作采用 [CC BY-SA 4.0 协议](https://creativecommons.org/licenses/by-sa/4.0/) 进行许可。欢迎转载、使用、重新发布，但务必保留创作署名 Lyricify (及作者 WXRIW 或 XY Wang)，可用于商业目的，基于创意修改后的作品务必以相同的许可发布。如有任何疑问，请与我联系。  
+标记 * 的创作采用 [CC BY-SA 4.0 协议](https://creativecommons.org/licenses/by-sa/4.0/) 进行许可。欢迎转载、使用、重新发布，但务必保留创作署名 Lyricify (及作者 WXRIW 或 XY Wang)，可用于商业目的，基于创意修改后的作品务必以相同的许可发布。如有任何疑问，请与我联系。  
 
 ## Lyricify Open Source
 Lyricify 的歌词处理相关代码均已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中使用 Apache License 2.0 协议开源，希望能为开源社区做出贡献。  

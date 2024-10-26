@@ -128,9 +128,11 @@
     <system:String x:Key="String.Page.Profile.PublicPlaylists">Public Playlists</system:String>
     <system:String x:Key="String.Page.Profile.TopArtists.Month">Top artists this month</system:String>
     <system:String x:Key="String.Page.Profile.TopArtists.HalfYear">Top artists in six months</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.Year">Top artists this year</system:String>
     <system:String x:Key="String.Page.Profile.TopArtists.All">Top artists since the Big Bang</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.Month">Top tracks this month</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.HalfYear">Top tracks in six months</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.Year">Top tracks this year</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.All">Top tracks since the Big Bang</system:String>
 
     <!--  Page Library  -->
@@ -451,9 +453,11 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.Description">Details are different in different system versions</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Default">Default</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Custom">Custom</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS162AndLater">iOS 16.2 and later</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS163AndLater">iOS 16.3 and later</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS164AndLater">iOS 16.4 and later</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS170AndLater">iOS 17.0 and later</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS171AndLater">iOS 17.1 and later</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth">Transition width</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">Opacity transition width</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">Inline animation</system:String>
@@ -470,6 +474,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect.Description">Word shining effect is different on iOS and Android</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">Breathing Dots alignment</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">Breathing Dots are always left aligned on iOS, but remain on the same side as the lyrics on Android</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming">Highlight zooming</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming.Description">Adjust current highlight line's zooming level</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">Prevent sleep</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.Description">Prevent from turning off display or sleeping</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.Always">Always</system:String>
@@ -800,6 +806,24 @@
     <system:String x:Key="String.Menu.Track.CopyTrackInfo">Copy track info</system:String>
     <system:String x:Key="String.Menu.Track.CopyTrackISRC">Copy track ISRC</system:String>
     <system:String x:Key="String.Menu.Track.AddToQueue">Add to queue</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer">Sleep timer</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.TurnOffTimer">Turn off timer</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.StopAudioIn">Stop audio in:</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.PlayFullTrack">Play full track then stop</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.WaitPlayFullTrack">Waiting for the song to finish playing</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.1">1 minute</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.5">5 minutes</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.10">10 minutes</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.15">15 minutes</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.30">30 minutes</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.45">45 minutes</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.60">1 hour</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Hour">{0} hour left</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Hours">{0} hours left</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Minute">{0} minute left</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Minutes">{0} minutes left</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Second">{0} second left</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Seconds">{0} seconds left</system:String>
 
     <system:String x:Key="String.Menu.Track.GoToPlaylist">Go to playlist</system:String>
     <system:String x:Key="String.Menu.Track.GoToAlbum">Go to album</system:String>
@@ -1215,7 +1239,7 @@
     <system:String x:Key="String.Page.BackupCenter.Home.Transfer.Description">Transfer your data to another account</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Automation">Automation</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Automation.Description">Let Lyricify manage your library</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Home.PersonalUseWarning" xml:space="preserve">Personal use only! xml:space="preserve"If you want to use Lyricify Backup Center for commercial activities, you have to contact Lyricify first.</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.PersonalUseWarning" xml:space="preserve">Personal use only! &#x000A;If you want to use Lyricify Backup Center for commercial activities, you have to contact Lyricify first.</system:String>
 
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step1">Step 1: Choose what you want to backup</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step2">Step 2: Choose backup output format</system:String>

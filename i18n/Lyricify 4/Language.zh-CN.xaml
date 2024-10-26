@@ -128,9 +128,11 @@
     <system:String x:Key="String.Page.Profile.PublicPlaylists">公开歌单</system:String>
     <system:String x:Key="String.Page.Profile.TopArtists.Month">本月你最喜欢的艺人</system:String>
     <system:String x:Key="String.Page.Profile.TopArtists.HalfYear">半年来你最喜欢的艺人</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.Year">今年你最喜欢的艺人</system:String>
     <system:String x:Key="String.Page.Profile.TopArtists.All">大爆炸以来你最喜欢的艺人</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.Month">本月你最喜欢的歌曲</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.HalfYear">半年来你最喜欢的歌曲</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.Year">今年你最喜欢的歌曲</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.All">大爆炸以来你最喜欢的歌曲</system:String>
 
     <!--  Page Library  -->
@@ -451,9 +453,11 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.Description">细节因系统版本而不同</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Default">默认</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Custom">自定义</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS162AndLater">iOS 16.2 及更高版本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS163AndLater">iOS 16.3 及更高版本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS164AndLater">iOS 16.4 及更高版本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS170AndLater">iOS 17.0 及更高版本</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS171AndLater">iOS 17.1 及更高版本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth">过渡宽度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">透明度过渡宽度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">行内动画</system:String>
@@ -470,6 +474,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect.Description">单词发光效果在 iOS 和 Android 上不同</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">呼吸点对齐方向</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">呼吸点在 iOS 上总是左对齐，而在安卓上与歌词保持同侧</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming">高亮缩放</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming.Description">调节当前高亮行的缩放比例</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">阻止睡眠</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.Description">阻止自动关闭屏幕和睡眠</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.Always">总是</system:String>
@@ -800,6 +806,24 @@
     <system:String x:Key="String.Menu.Track.CopyTrackInfo">复制歌曲信息</system:String>
     <system:String x:Key="String.Menu.Track.CopyTrackISRC">复制歌曲 ISRC</system:String>
     <system:String x:Key="String.Menu.Track.AddToQueue">添加至播放队列</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer">睡眠定时器</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.TurnOffTimer">关闭定时器</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.StopAudioIn">音乐停止时刻：</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.PlayFullTrack">播完整首歌曲后停止播放</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.WaitPlayFullTrack">正在等待当前歌曲播放完</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.1">1 分钟</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.5">5 分钟</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.10">10 分钟</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.15">15 分钟</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.30">30 分钟</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.45">45 分钟</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.60">1 小时</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Hour">剩余 {0} 小时</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Hours">剩余 {0} 小时</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Minute">剩余 {0} 分钟</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Minutes">剩余 {0} 分钟</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Second">剩余 {0} 秒</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Seconds">剩余 {0} 秒</system:String>
 
     <system:String x:Key="String.Menu.Track.GoToPlaylist">转至歌单</system:String>
     <system:String x:Key="String.Menu.Track.GoToAlbum">转至专辑</system:String>
