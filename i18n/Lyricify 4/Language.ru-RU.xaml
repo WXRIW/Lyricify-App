@@ -128,9 +128,11 @@
     <system:String x:Key="String.Page.Profile.PublicPlaylists">Открытые плейлисты(ов)</system:String>
     <system:String x:Key="String.Page.Profile.TopArtists.Month">Топ исполнители в месяце</system:String>
     <system:String x:Key="String.Page.Profile.TopArtists.HalfYear">Топ исполнители за полгода</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.Year">Топ исполнители за года</system:String>
     <system:String x:Key="String.Page.Profile.TopArtists.All">Топ исполнители со времен Большого взрыва</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.Month">Топ треков этого месяца</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.HalfYear">Топ треков этого месяца</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.Year">Топ треков за года</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.All">Топ треки со времен Большого взрыва</system:String>
 
     <!--  Page Library  -->
@@ -451,9 +453,11 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.Description">Подробности зависят от версии системы</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Default">По умолчанию</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Custom">Персонализация</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS162AndLater">iOS 16.2 и выше</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS163AndLater">iOS 16.3 и выше</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS164AndLater">iOS 16.4 и выше</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS170AndLater">iOS 17.0 и выше</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS171AndLater">iOS 17.1 и выше</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth">Ширина перехода</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">Ширина перехода прозрачности</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">Текстовое действие эффект живописи</system:String>
@@ -470,6 +474,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect.Description">Эффект свечения слов отличается на iOS и Android</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">Направление выравнивания точек дыхания</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">Точки дыхания всегда выравниваются по левому краю на iOS и остаются на той же стороне, что и текст песни на Android</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming">Увеличение выделенной линии</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming.Description">Регулирует масштаб текущей выделенной линии</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">Предотвращение спящий режим</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.Description">Предотвращение перехода компьютера в спящий режим</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.Always">Всегда</system:String>
@@ -800,6 +806,24 @@
     <system:String x:Key="String.Menu.Track.CopyTrackInfo">Копировать информацию трека</system:String>
     <system:String x:Key="String.Menu.Track.CopyTrackISRC">Копировать ISRC трека</system:String>
     <system:String x:Key="String.Menu.Track.AddToQueue">Добавить в очередь</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer">Таймер сна</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.TurnOffTimer">Выкл.</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.StopAudioIn">Остановить аудио через: </system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.PlayFullTrack">После всей песни</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.WaitPlayFullTrack">Ожидание окончания текущей песни</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.1">1 мин.</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.5">5 мин.</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.10">10 мин.</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.15">15 мин.</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.30">30 мин.</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.45">45 мин.</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.60">1 ч.</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Hour">Осталась {0} ч.</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Hours">Осталось {0} ч.</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Minute">Осталась {0} мин.</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Minutes">Осталось {0} мин.</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Second">Осталась {0} сек.</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Seconds">Осталось {0} сек.</system:String>
 
     <system:String x:Key="String.Menu.Track.GoToPlaylist">Перейти к плейлисту</system:String>
     <system:String x:Key="String.Menu.Track.GoToAlbum">Перейти к альбому</system:String>
