@@ -1353,8 +1353,8 @@
 
     <!--  App  -->
     <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">Несанкционированное действие, повторно войдите в систему, чтобы продолжить</system:String>
-    <system:String x:Key="String.Messages.App.Exception.PremiumRequired">Требует Premium</system:String>
-    <system:String x:Key="String.Messages.App.Exception.PremiumRequired">Требуется Premium</system:String>
+    <system:String x:Key="String.Messages.App.Exception.PremiumRequired">Требуется премиум</system:String>
+    <system:String x:Key="String.Messages.App.Exception.PremiumRequired.More">Требуется Premium (нажмите, чтобы узнать больше)</system:String>
     <system:String x:Key="String.Messages.App.Exception.TryToRelogin">Попробуйте повторно войти</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">Слишком много запросов (Error 429), повторите попытку позже</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">Слишком много запросов (Error 429). Пожалуйста, повторите через {0} сек.</system:String>
