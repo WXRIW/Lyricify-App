@@ -1,4 +1,4 @@
-﻿<ResourceDictionary
+<ResourceDictionary
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
@@ -379,7 +379,7 @@
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese">更喜歡簡體中文</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese.Description">如果關閉此選項，中文字元將被轉換至繁體中文</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation">歌詞分割</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation.Description">啟用中文長句分割 (刷新歌詞後生效)</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation.Description">啟用中文長句分割 (重新整理歌詞後生效)</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">顯示髒話</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics.Description">關閉此選項，髒話將會被取代為星號</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source">來源</system:String>
@@ -474,8 +474,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect.Description">單字發光效果在 iOS 和 Android 上不同</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">呼吸點對齊方向</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">呼吸點在 iOS 上總是左對齊，而在安卓上與歌詞保持同側</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming">高亮縮放</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming.Description">調整目前高亮行的縮放比例</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming">突顯縮放</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming.Description">調整目前突顯行的縮放比例</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">阻止睡眠</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.Description">阻止自動關閉螢幕和睡眠</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.Always">總是</system:String>
@@ -1044,7 +1044,7 @@
     <system:String x:Key="String.Window.StorageManager.Types.Caches">快取</system:String>
     <system:String x:Key="String.Window.StorageManager.Types.Caches.Description">快取的圖片和其它快取</system:String>
     <system:String x:Key="String.Window.StorageManager.Types.Logs">日誌</system:String>
-    <system:String x:Key="String.Window.StorageManager.Types.Logs.Description">運行時產生的日誌檔案</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Logs.Description">執行時產生的日誌檔案</system:String>
     <system:String x:Key="String.Window.StorageManager.Types.Backups">備份</system:String>
     <system:String x:Key="String.Window.StorageManager.Types.Backups.Description">帳戶資料備份、歌詞編輯器自動備份以及其它備份</system:String>
     <system:String x:Key="String.Window.StorageManager.StorageCleanup">儲存空間清理</system:String>
@@ -1060,7 +1060,7 @@
     <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.SelectAll">全選</system:String>
     <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.DeselectAll">全不選</system:String>
     <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean">清理</system:String>
-    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean.Ask">確定要清理嗎？清理後將無法恢復。</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean.Ask">確定要清理嗎？清理後將無法復原。</system:String>
 
     <!--  Track Management  -->
     <system:String x:Key="String.Window.TrackManagement">曲目管理</system:String>
