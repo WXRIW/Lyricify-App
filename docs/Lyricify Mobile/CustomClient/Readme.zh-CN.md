@@ -19,13 +19,15 @@
    - App name: Lyricify
    - App description: Lyricify Custom API Client
    - Website: （空着不写）
-   - Redirect URI: http://localhost:766/callback
+   - Redirect URI: （填写以下两条，每条填写完成后点击 `Add` 按钮）
+     - http://localhost:766/callback
+     - lyricify://callback
 5. 勾选 `Which API/SDKs are you planning to use?` 部分中的 `Web API`；  
    勾选 `I understand and agree with Spotify's Developer Terms of Service and Design Guidelines`；  
    点击 `Save` 按钮。  
 ![](pic/Demo-Pic03.png)
-1. 点击右上方的 `Settings` 按钮，进入设置页面。
-2. 这时你就能看到 Client ID，点击 `View client secret`，即可显示 Client secret。在后续步骤中将需要用到 `Client ID` 和 `Client Secret`。
+6. 点击右上方的 `Settings` 按钮，进入设置页面。
+7. 这时你就能看到 Client ID，点击 `View client secret`，即可显示 Client secret。在后续步骤中将需要用到 `Client ID` 和 `Client Secret`。
 ![](pic/Demo-Pic04.png)
 
 ## Lyricify Mobile 上的工作
@@ -36,4 +38,5 @@
 # 常见问题
 
 ## 授权时提示 INVALID_CLIENT: Invalid redirect URI
-请检查 `Redirect URI` 是否填写错误，确保其值包含 `http://localhost:766/callback`。
+请检查 `Redirect URI` 是否填写错误，确保其值包含 `http://localhost:766/callback`。  
+如果你是在 iOS 设备上使用，请检查其值是否包含 `lyricify://callback`。
