@@ -38,5 +38,5 @@
 # 常见问题
 
 ## 授权时提示 INVALID_CLIENT: Invalid redirect URI
-请检查 `Redirect URI` 是否填写错误，确保其值包含 `http://localhost:766/callback`。  
-如果你是在 iOS 设备上使用，请检查其值是否包含 `lyricify://callback`。
+请检查 `Redirect URI` 是否填写错误，确保其值包含 `http://localhost:766/callback` 和 `lyricify://callback`。  
+如果你是在 Android 或 iOS 设备上使用，请确保其值包含 `lyricify://callback`。
