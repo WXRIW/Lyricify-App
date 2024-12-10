@@ -14,7 +14,7 @@
 | Spotify | 完美 | 较好 |  |
 | Apple Music | 时间轴精度低；曲目信息不全 | 一般 |  |
 | QQ 音乐 | 无时间轴信息 | 较好 |  |
-| 网易云音乐 | 无时间轴信息 | 较好 | 需安装[插件](https://github.com/BetterNCM/InfinityLink) |
+| 网易云音乐 | 无时间轴信息 | 较好 | 需安装额外的[插件](https://github.com/BetterNCM/InfinityLink) |
 | 网易云音乐 UWP | 较好 | 较好 |  |
 | 酷狗音乐 | 无时间轴信息 | 较好 |  |
 | Groove Music | 时间轴完美；曲目信息取决于具体曲目 | 一般，取决于具体文件 |  |
@@ -22,6 +22,7 @@
 | Google Chrome | 时间轴较好；曲目信息取决于具体播放内容 | 一般，取决于具体内容 |  |
 | Microsoft Edge | 时间轴较好；曲目信息取决于具体播放内容 | 一般，取决于具体内容 |  |
 
+**注意：**
 1. 请确保相关 app 已更新至最新版本，部分旧版本可能并不支持 SMTC。
 2. 曲目匹配“完美”指 Lyricify Lite 可以完美匹配当前播放的曲目。其它匹配程度指 Lyricify Lite 需要通过对曲目信息进行搜索来匹配对应曲目。
 
