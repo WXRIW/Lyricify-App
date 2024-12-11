@@ -12,10 +12,10 @@
 
 | 软件</br>Application | 最新版本</br>Latest Version | 备注</br>Notes | 平台</br>Platform | 使用指南</br>User Guide |
 | :-: | :-: | :-: | :-: | :-: |
-| [Lyricify 4](https://github.com/WXRIW/Lyricify-App#lyricify-4) | [4.3.19-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.3.19)</br><a href="https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full"><img src="https://get.microsoft.com/images/en-us%20dark.svg" style="width: 150px;"/></a> | 适用于 Spotify 用户</br>For Spotify users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%204/README.md)<sup><a href="#ref5_en">5</a></sup> |
-| [Lyricify Mobile](https://github.com/WXRIW/Lyricify-App#lyricify-mobile) | [1.4.3-release](https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.4.3) | 适用于 Spotify 用户</br>For Spotify users | Android, iOS, iPadOS, visionOS<sup><a href="#ref3">3</a></sup>, macOS, Windows | [点击查看</br>Click to view](/docs/Lyricify%20Mobile/README.md)<sup><a href="#ref5_en">5</a></sup> |
-| [Lyricify 3](https://github.com/WXRIW/Lyricify-App#lyricify-3) | [3.8.8-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v3.8.8) | 适用于 Spotify、iTunes 等<sup><a href="#ref1">1</a></sup> 的用户</br>For Spotify, iTunes and more apps<sup><a href="#ref1_en">1</a></sup>' users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%203/README.md)<sup><a href="#ref5_en">5</a></sup> |
-| [Lyricify Lite](https://github.com/WXRIW/Lyricify-App/issues/144) | 即将发布</br>Coming soon</br><a><img src="https://get.microsoft.com/images/en-us%20dark.svg" style="width: 150px;"/></a> | 适用于所有接入了 SMTC 的 app<sup><a href="#ref4">4</a></sup></br>For all apps that support SMTC<sup><a href="#ref4_en">4</a></sup> | Windows | [点击查看</br>Click to view](/docs/Lyricify%20Lite/README.md)<sup><a href="#ref5_en">5</a></sup> |
+| [Lyricify 4](#lyricify-4) | [4.3.19-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.3.19)</br><a href="https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full"><img src="https://get.microsoft.com/images/en-us%20dark.svg" style="width: 150px;"/></a> | 适用于 Spotify 用户</br>For Spotify users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%204/README.md)<sup><a href="#ref5_en">5</a></sup> |
+| [Lyricify Mobile](#lyricify-mobile) | [1.4.3-release](https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.4.3) | 适用于 Spotify 用户</br>For Spotify users | Android, iOS, iPadOS, visionOS<sup><a href="#ref3">3</a></sup>, macOS, Windows | [点击查看</br>Click to view](/docs/Lyricify%20Mobile/README.md)<sup><a href="#ref5_en">5</a></sup> |
+| [Lyricify 3](#lyricify-3) | [3.8.8-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v3.8.8) | 适用于 Spotify、iTunes 等<sup><a href="#ref1">1</a></sup> 的用户</br>For Spotify, iTunes and more apps<sup><a href="#ref1_en">1</a></sup>' users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%203/README.md)<sup><a href="#ref5_en">5</a></sup> |
+| [Lyricify Lite](#lyricify-lite) | 即将发布</br>Coming soon</br><a href="https://apps.microsoft.com/store/detail/9NLTPSV395K2?launch=true&mode=full"><img src="https://get.microsoft.com/images/en-us%20dark.svg" style="width: 150px;"/></a> | 适用于所有接入了 SMTC 的 app<sup><a href="#ref4">4</a></sup></br>For all apps that support SMTC<sup><a href="#ref4_en">4</a></sup> | Windows | [点击查看</br>Click to view](/docs/Lyricify%20Lite/README.md)<sup><a href="#ref5_en">5</a></sup> |
 
 **备注**  
 1. <span id="ref1">Lyricify 3 目前支持 Spotify、iTunes、Apple Music、Music Center、QQ 音乐、网易云音乐、YesPlayMusic，建议 Spotify 用户使用 Lyricify 4，不要使用 Lyricify 3。</span>  
@@ -101,6 +101,11 @@ Lyricify 4 是目前 Lyricify 系列中最具创新的功能结晶，在这里�
 
 ## Lyricify Open Source
 Lyricify 的歌词处理相关代码均已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中使用 Apache License 2.0 协议开源，希望能为开源社区做出贡献。  
+
+## Lyricify Lite
+Lyricify Lite 运行于 Windows 平台，仅保留了灵动词岛功能，支持所有接入了 SMTC 的音乐播放器，包括 HyPlayer、LyricEase、Apple Music、QQ 音乐、网易云音乐 UWP、酷狗音乐、Foobar 2000、Groove Music 等诸多音乐软件。  
+
+点击这里查看 [Lyricify Lite 使用指南](/docs/Lyricify%20Lite/README.md)   
 
 ## Lyricify Mobile
 Lyricify Mobile 为 Lyricify 家族的移动端，目前支持 Android，iOS, iPadOS 和 visionOS 平台，且有发布 Windows 版本。在将来版本会提供 macOS 支持。  
