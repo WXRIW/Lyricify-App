@@ -33,7 +33,6 @@
 
 **注意：** 如需反馈或提问，对于 Lyricify 功能，请使用[官方认定的正确的名称](#lyricify-%E5%90%8D%E8%AF%8D)来描述。  
 
-
 ## Microsoft Store 版本与 GitHub 版本有什么区别
 *注：下文中的 GitHub 版本指 Microsoft Store 版本外的其他分发方式分发的版本，含群聊、网盘等分发渠道。*
 ### 主要区别
