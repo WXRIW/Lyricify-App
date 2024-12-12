@@ -26,11 +26,48 @@
 **注意：**
 1. 请确保相关 app 已更新至最新版本，部分旧版本可能并不支持 SMTC。
 2. 对于 SMTC 无时间轴信息的 app，Lyricify Lite 将使用内置定时器更新歌词进度，所以在手动修改播放进度后，Lyricify Lite 无法更新播放进度，歌词会发生前后错位。
-3. 曲目匹配“完美”指 Lyricify Lite 可以完美匹配当前播放的曲目。其它匹配程度指 Lyricify Lite 需要通过对曲目信息进行搜索来匹配对应曲目，所以匹配可能不精准或匹配不到。。
+3. 曲目匹配“完美”指 Lyricify Lite 可以完美匹配当前播放的曲目。其它匹配程度指 Lyricify Lite 需要通过对曲目信息进行搜索来匹配对应曲目，所以匹配可能不精准或匹配不到。
+4. 所有接入 SMTC 的应用均支持 Lyricify Lite，未在上表中列出的 app 并不代表不支持 Lyricify Lite。
 
 # 常见问题
 
 **注意：** 如需反馈或提问，对于 Lyricify 功能，请使用[官方认定的正确的名称](#lyricify-%E5%90%8D%E8%AF%8D)来描述。  
+
+## Microsoft Store 版本与 GitHub 版本有什么区别
+*注：下文中的 GitHub 版本指 Microsoft Store 版本外的其他分发方式分发的版本，含群聊、网盘等分发渠道。*
+### 主要区别
+1. 发布新版本时，Microsoft Store 版本通常会提前 1-3 天更新，您可以提前体验新功能。
+2. Microsoft Store 版本的自动更新由 Microsoft 负责和管理，体验更好。
+   GitHub 版本的更新由 Lyricify 负责，更新源为 GitHub 服务器，在部分地区体验不如 Microsoft Store 版本。
+3. 部分功能为 Microsoft Store 版本独享功能。
+
+### Microsoft Store 独享功能
+为了提升用户体验，促进开发良性循环，部分功能是作为 Microsoft Store 独享功能开发的。  
+目前 Microsoft Store 版本有以下独享功能：
+1. 灵动词岛的自定义字体功能。
+2. 独享中国大陆加速服务器。
+  
+在 Microsoft Store 购买 Lyricify 是对 Lyricify 开发者的一种支持和信任，感谢所有购买或打赏过 Lyricify 的用户！也欢迎各位用户给出 5 星好评和评语，这对我有很大帮助！  
+
+### 更多信息
+Lyricify Lite 是免费软件，如果你觉得 Lyricify Lite 做的不错，则可以通过以下渠道支持：
+- 在软件中，菜单-关于页里有打赏方式
+- 在 [Microsoft Store](https://apps.microsoft.com/store/detail/9NLTPSV395K2?launch=true&mode=full) 中购买
+
+如果您在 Microsoft Store 购买过程中遇到困难，可以考虑通过打赏的方式支持 Lyricify。  
+
+如果你发现有人在非法销售本软件 (只有 Microsoft Store 中的 Lyricify 是官方发布)，请联系我们！感谢你的支持！
+
+## Microsoft Store 版创建快捷方式
+1. 打开 `开始菜单`，点击右上角的 `所有应用`。
+2. 找到 `Lyricify Lite`，按住拖动到想要创建快捷方式的地方即可完成创建。
+
+## 桌面歌词 或 灵动词岛 异常消失
+打开 `桌面歌词` 或 `灵动词岛` 后，闪一下就消失了，或是在最小化所有窗口后消失。
+### 导致原因
+有全屏窗口处于前台。
+### 解决方案
+想办法关闭该全屏窗口 (如动态壁纸等)，或在设置中关闭 `全屏隐藏` 选项。
 
 # 附录
 
