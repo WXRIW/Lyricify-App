@@ -9,6 +9,7 @@
 Spotify API won't affect you by returning 429 Error anymore.
 
 ## Preparations
+If you have already completed the preparation steps, you can directly use the previously obtained `Client ID` and `Client Secret` in `Works on Lyricify Mobile` part.
 1. Login to Spotify (https://www.spotify.com) in your browser, if you have already logged in, go to step 2.
 2. Open https://developer.spotify.com/dashboard, if this is your first navigation to this website, you will need to agree with Spotify Developer Terms. Just check `I accept the Spotify Developer Terms of Service` and click `Accept the terms`.
 ![](pic/Demo-Pic01.png)
