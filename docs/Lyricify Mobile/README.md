@@ -25,10 +25,8 @@
 ### 解决方案
 科学上网。
 
-## 无法使用第三方登录
-使用 Google、Facebook 等第三方无法成功登录授权。
-### 解决方案
-使用 Spotify 账号登录。
+## 登录时提示 INVALID_CLIENT: Invalid Redirect URI
+检查你的 Redirect URI 是否正确填写。确保[教程](CustomClient/Readme.zh-CN.md)中的两条 Redirect URI 均已正确填写。
 
 ## 无法正常进入歌词界面
 **提示 connection closed:** 检查你的网络  
