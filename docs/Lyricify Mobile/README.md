@@ -14,7 +14,8 @@
 您可以在下载 .ipa 安装包后，采用自签的方式安装，点击[这里](iOS/IpaGuide.md)查看详细教程。   
 
 ## 如何在 Mac 上安装 Lyricify Mobile
-下载 .macOS.zip 后，将压缩包中的 Lyricify Mobile for macOS.app 拖入 `应用程序` 文件夹，即可完成安装。
+直接下载 `macOS.pkg` 安装即可。（推荐）  
+您也可以下载 .macOS.zip，将压缩包中的 Lyricify Mobile for macOS.app 拖入 `应用程序` 文件夹，即可完成安装。  
 
 # 常见问题
 
