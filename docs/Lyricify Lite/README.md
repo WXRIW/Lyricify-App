@@ -65,6 +65,9 @@ Lyricify Lite 无法检测到网易云音乐。
 ### 解决方案
 安装 [InfinityLink 插件](https://github.com/BetterNCM/InfinityLink)即可。
 
+## 桌面歌词
+桌面歌词正在移植中，敬请期待！
+
 ## Microsoft Store 版创建快捷方式
 1. 打开 `开始菜单`，点击右上角的 `所有应用`。
 2. 找到 `Lyricify Lite`，按住拖动到想要创建快捷方式的地方即可完成创建。

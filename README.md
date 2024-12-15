@@ -12,10 +12,10 @@
 
 | 软件</br>Application | 最新版本</br>Latest Version | 备注</br>Notes | 平台</br>Platform | 使用指南</br>User Guide |
 | :-: | :-: | :-: | :-: | :-: |
-| [Lyricify 4](#lyricify-4) | [4.3.20-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.3.20)</br><a href="https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full"><img src="https://get.microsoft.com/images/en-us%20dark.svg" style="width: 150px;"/></a> | 适用于 Spotify 用户</br>For Spotify users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%204/README.md)<sup><a href="#ref5_en">5</a></sup> |
-| [Lyricify Lite](#lyricify-lite) | [1.0.0-release](https://github.com/WXRIW/Lyricify-App/releases/tag/lite-v1.0.0)</br><a href="https://apps.microsoft.com/store/detail/9NLTPSV395K2?launch=true&mode=full"><img src="https://get.microsoft.com/images/en-us%20dark.svg" style="width: 150px;"/></a> | 适用于所有接入了 SMTC 的 app<sup><a href="#ref1">1</a></sup></br>For all apps that support SMTC<sup><a href="#ref1_en">1</a></sup> | Windows | [点击查看</br>Click to view](/docs/Lyricify%20Lite/README.md)<sup><a href="#ref5_en">5</a></sup> |
-| [Lyricify Mobile](#lyricify-mobile) | [1.5.0-release](https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.5.0) | 适用于 Spotify 用户</br>For Spotify users | Android, iOS, iPadOS, visionOS<sup><a href="#ref3">3</a></sup>, macOS, Windows | [点击查看</br>Click to view](/docs/Lyricify%20Mobile/README.md)<sup><a href="#ref5_en">5</a></sup> |
-| [Lyricify 3](#lyricify-3) | [3.8.8-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v3.8.8) | 适用于 Spotify、iTunes 等<sup><a href="#ref4">4</a></sup> 的用户</br>For Spotify, iTunes and more apps<sup><a href="#ref4_en">4</a></sup>' users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%203/README.md)<sup><a href="#ref5_en">5</a></sup> |
+| [Lyricify 4](#lyricify-4) | [4.3.20-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.3.20)</br><a href="https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full"><img src="https://get.microsoft.com/images/en-us%20dark.svg" style="width: 150px;"/></a> | 适用于 Spotify 用户</br>For Spotify users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%204/README.md)<sup><a href="#ref6_en">6</a></sup> |
+| [Lyricify Lite](#lyricify-lite) | [1.0.0-release](https://github.com/WXRIW/Lyricify-App/releases/tag/lite-v1.0.0)</br><a href="https://apps.microsoft.com/store/detail/9NLTPSV395K2?launch=true&mode=full"><img src="https://get.microsoft.com/images/en-us%20dark.svg" style="width: 150px;"/></a> | 适用于所有接入了 SMTC 的 app<sup><a href="#ref1">1</a></sup></br>For all apps that support SMTC<sup><a href="#ref1_en">1</a></sup> | Windows | [点击查看</br>Click to view](/docs/Lyricify%20Lite/README.md)<sup><a href="#ref6_en">6</a></sup> |
+| [Lyricify Mobile](#lyricify-mobile) | [1.5.0-release](https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.5.0) | 适用于 Spotify 用户</br>For Spotify users | Android, iOS, iPadOS, visionOS<sup><a href="#ref3">3</a></sup>, macOS, Windows | [点击查看</br>Click to view](/docs/Lyricify%20Mobile/README.md)<sup><a href="#ref6_en">6</a></sup> |
+| [Lyricify 3](#lyricify-3)</br>(EOL)<sup><a href="#ref5">5</a></sup> | [3.8.8-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v3.8.8) | 适用于 Spotify、iTunes 等<sup><a href="#ref4">4</a></sup> 的用户</br>For Spotify, iTunes and more apps<sup><a href="#ref4_en">4</a></sup>' users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%203/README.md)<sup><a href="#ref6_en">6</a></sup> |
 
 **备注**  
 1. <span id="ref1">Lyricify Lite 支持所有已接入 SMTC 的 app，如 Spotify、Apple Music、Foobar 2000、HyPlayer、LyricEase、QQ 音乐、网易云音乐 UWP、酷狗音乐、Groove Music 等。</span>  
@@ -24,6 +24,7 @@
    **对于 macOS 平台：** 在 M 系列芯片的 Mac 上，建议使用 Windows on ARM 虚拟机运行 Lyricify ARM64 版本以获得更好的体验。</span>  
 3. <span id="ref3">Lyricify Mobile 可作为兼容的 iPadOS 应用在 visionOS 上运行。</span>  
 4. <span id="ref4">Lyricify 3 目前支持 Spotify、iTunes、Apple Music、Music Center、QQ 音乐、网易云音乐、YesPlayMusic，建议 Spotify 用户使用 Lyricify 4，不要使用 Lyricify 3。</span>  
+5. <span id="ref5">Lyricify 3 已进入 EOL 阶段，即生命周期已结束。不会再发布任何新功能、错误修复或软件更新。</span>  
 
 **Notes**  
 1. <span id="ref1_en">Lyricify Lite supports all apps connected to SMTC, such as Spotify, Apple Music, Foobar 2000, HyPlayer, LyricEase, QQ Music, Netease Cloud Music UWP, Kugou Music, Groove Music, etc.</span>  
@@ -32,7 +33,8 @@
    **For macOS platforms:** On Macs with M-series chips, it is recommended to use a Windows on ARM virtual machine to run the Lyricify ARM64 version for a better experience.</span>  
 3. <span id="ref3_en">Lyricify Mobile can run on visionOS as Compatible iPadOS App.</span>  
 4. <span id="ref4_en">Lyricify 3 currently supports Spotify, iTunes, Apple Music, Music Center, QQ Music, Netease Cloud Music, YesPlayMusic, we suggest all Spotify users to use Lyricify 4, instead of Lyricify 3.</span>  
-5. <span id="ref5_en">User guide documents are in Simplified Chinese, use a translator if you don't speak Chinese.</span>  
+5. <span id="ref5_en">Lyricify 3 has reached EOL, which means it has reached the end of life. No new features, bug fixes, or updates will be released.</span>  
+6. <span id="ref6_en">User guide documents are in Simplified Chinese, use a translator if you don't speak Chinese.</span>  
 
 **Telegram Group / Telegram 群:**  
 https://t.me/lyricify
