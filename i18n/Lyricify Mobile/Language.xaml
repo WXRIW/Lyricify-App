@@ -12,11 +12,19 @@
     <x:String x:Key="String.Page.Main.Login.Title">Login to Spotify</x:String>
     <x:String x:Key="String.Page.Main.Login.Title.Notice">Third-party login not supported</x:String>
     <x:String x:Key="String.Page.Main.Login.Button.Back">Back</x:String>
+    <x:String x:Key="String.Page.Main.Login.External.Title">Please complete the Spotify login authorization in the popped-up browser page!</x:String>
+    <x:String x:Key="String.Page.Main.Login.External.Description">If no page pops up for a long time or there is an issue during the authorization process, you can try using embedded login for authorization.</x:String>
+    <x:String x:Key="String.Page.Main.Login.External.Button.UseInternal">Use Embedded Login</x:String>
 
     <x:String x:Key="String.Settings">Settings</x:String>
-    <x:String x:Key="String.Settings.RestartMessage">(Some settings need a restart to take effect)</x:String>
+    <x:String x:Key="String.Settings.Description">Customize your Lyricify Mobile with these settings</x:String>
+    <x:String x:Key="String.Settings.GoToPage">Go to settings page</x:String>
+    <x:String x:Key="String.Settings.RestartMessage">Some settings might need a restart to take effect</x:String>
     <x:String x:Key="String.Settings.Translation">Translation</x:String>
     <x:String x:Key="String.Settings.BoldText">Bold Text</x:String>
+    <x:String x:Key="String.Settings.FontSizeScale">Font Size Scale</x:String>
+    <x:String x:Key="String.Settings.BlurEffect">Blur Effect</x:String>
+    <x:String x:Key="String.Settings.BlurRadiusScale">Blur Radius Scale</x:String>
     <x:String x:Key="String.Settings.PullingEffect">Pulling Effect</x:String>
     <x:String x:Key="String.Settings.ExplicitLyrics">Explicit Lyrics</x:String>
 
@@ -26,6 +34,7 @@
     <x:String x:Key="String.Page.About.UserGuide">User Guide: </x:String>
     <x:String x:Key="String.Page.About.UserGuide.Notice">Tap to open</x:String>
     <x:String x:Key="String.Page.About.QQGroup">QQ Group: </x:String>
+    <x:String x:Key="String.Page.About.GetPremium">Click to get Spotify Premium</x:String>
     <x:String x:Key="String.Page.About.429.Title">Solve 429 Error Issue</x:String>
     <x:String x:Key="String.Page.About.CustomClient">Custom API Client:</x:String>
     <x:String x:Key="String.Page.About.Thanks">Donation &amp; Thanklist</x:String>
@@ -48,7 +57,7 @@
     <x:String x:Key="String.Page.Thanks.Thanklist.Donators.1">Lyricify Mobile Special Thanklist</x:String>
     <x:String x:Key="String.Page.Thanks.Thanklist.Donators.1.Notice">Sorted by amount and time</x:String>
     <x:String x:Key="String.Page.Thanks.Thanklist.Donators.2">Lyricify Donators Thanklist</x:String>
-    <x:String x:Key="String.Page.Thanks.Thanklist.Donators.2.Notice">Sorted by amount and time</x:String>
+    <x:String x:Key="String.Page.Thanks.Thanklist.Donators.2.Notice">Sorted by amount and time, list updated on {0}</x:String>
 
     <x:String x:Key="String.Message.Login.429">429 Error, please wait</x:String>
     <x:String x:Key="String.Message.Login.429.RetryAfter">429 Error, will retry after {0} seconds</x:String>
@@ -57,7 +66,7 @@
     <x:String x:Key="String.Message.Login.429Error">429 Error, please retry later</x:String>
     <x:String x:Key="String.Message.Login.InvalidClient">Invalid Client info, please check your API Client configuration</x:String>
     <x:String x:Key="String.Message.Login.UserNotRegistered">User not registered in Spotify Developer Dashboard</x:String>
-    <x:String x:Key="String.Message.Login.ThirdParty.Notice">Third-party (Google, Facebook and Apple) login is not supported, please use your Spotify account and password for login (you can set password at Spotify website)</x:String>
+    <x:String x:Key="String.Message.Login.ThirdParty.Notice">Third-party (Google and Facebook) login is not supported, please use your Spotify account and password for login (you can set password at Spotify website)</x:String>
     <x:String x:Key="String.Message.Lyrics.Instrumental">Instrumental music, please enjoy.</x:String>
     <x:String x:Key="String.Message.Lyrics.FailedToGet">Failed to get lyrics, you can import lyrics in Lyricify 4</x:String>
     <x:String x:Key="String.Message.Lyrics.CannotScroll">Manual scrolling is no longer available</x:String>
