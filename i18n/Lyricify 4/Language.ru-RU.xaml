@@ -863,6 +863,7 @@
     -->
 
     <!--  Welcome  -->
+    <system:String x:Key="String.Windows.Welcome">Добро пожаловать в Lyricify</system:String>
     <system:String x:Key="String.Windows.Welcome.Intro.MoreThanLyrics">Больше, чем текст</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Title">Поехали</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Agreement">Продолжая, вы подтверждаете свое согласие с пользовательским соглашением Lyricify</system:String>
@@ -1417,11 +1418,13 @@
     <!--  Wrapped Year  -->
     <system:String x:Key="String.Wrapped.Title">Годовой отчет Lyricify</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2023">Все о нас с вами в 2023</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2024">2024, я с текстами, и с вами</system:String>
     <system:String x:Key="String.Wrapped.Unwrap">Давай</system:String>
     <system:String x:Key="String.Wrapped.Unwrap.Notice">Включив его, вы принимаете Пользовательское соглашение Lyricify и разрешаете Lyricify обрабатывать и анализировать данные о вашем использовании.</system:String>
     <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>>Ускоряйтесь</system:String>
     <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">Развернуть сейчас</system:String>
     <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify обернула все ваши истории с помощью Lyricify в 2023 году, разверните их прямо сейчас!</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2024">Lyricify написал песню 2024 года вместе с вами. Давайте посмотрим на вашу ежегодную мемуары!</system:String>
     <system:String x:Key="String.Wrapped.Notice.CloseReminder">Lyricify Wrapped можно найти в главном меню и меню пользовательских виджетов, поэтому вы можете развернуть его позже.</system:String>
 
     <system:String x:Key="String.Wrapped.Messages.001">Привет, {0}</system:String>
@@ -1485,6 +1488,16 @@
     <system:String x:Key="String.Wrapped.Messages.048">Все в текстах песен,</system:String>
     <system:String x:Key="String.Wrapped.Messages.049">За тебя Lyricify всегда будет рядом,</system:String>
     <system:String x:Key="String.Wrapped.Messages.050">Наслаждайтесь!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.051">Более года уже Lyricify вас сопровождает!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.052">Это ваша поддержка делает Lyricify более превосходным.</system:String>
+    <system:String x:Key="String.Wrapped.Messages.053">Вы в основном открывали Lyricify в {0}.</system:String>
+    <system:String x:Key="String.Wrapped.Messages.054">Боже, так amazing! </system:String>
+    <system:String x:Key="String.Wrapped.Messages.055">Ваша самая «Top» дата - это {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.056">Знаете, почему?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.057">Прошел еще один год,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.058">Год за годом.</system:String>
+    <system:String x:Key="String.Wrapped.Messages.059">Помни,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.060">Надеюсь, все пройдет хорошо.</system:String>
 
     <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">Количество просмотров тексты</system:String>
     <system:String x:Key="String.Wrapped.Report.Launches">Количество стартов</system:String>
@@ -1494,5 +1507,7 @@
     <system:String x:Key="String.Wrapped.Report.TracksCount">Общее количество песен</system:String>
     <system:String x:Key="String.Wrapped.Report.MobileViews">Мобильные виды</system:String>
     <system:String x:Key="String.Wrapped.Report.TrackOfTheYear">Песня года</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor">Спонсор</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor.True">да</system:String>
     <system:String x:Key="String.Wrapped.Report.LyricifyIndex">Индекс Lyricify</system:String>
 </ResourceDictionary>
