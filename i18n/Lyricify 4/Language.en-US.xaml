@@ -863,6 +863,7 @@
     -->
 
     <!--  Welcome  -->
+    <system:String x:Key="String.Windows.Welcome">Welcome to Lyricify</system:String>
     <system:String x:Key="String.Windows.Welcome.Intro.MoreThanLyrics">More than lyrics</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Title">Let's get started</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Agreement">Continue means you agree with Lyricify's user agreements</system:String>
@@ -1417,11 +1418,13 @@
     <!--  Wrapped Year  -->
     <system:String x:Key="String.Wrapped.Title">Lyricify Wrapped</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2023">All about you, me and 2023</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2024">2024, lyrics, you, and me</system:String>
     <system:String x:Key="String.Wrapped.Unwrap">Unwrap</system:String>
     <system:String x:Key="String.Wrapped.Unwrap.Notice">Unwrap means you agree with Lyricify's user agreements and allow Lyricify to process and analyze your app usage.</system:String>
     <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>>Accelerate</system:String>
     <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">Unwrap now</system:String>
     <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify has wrapped all your stories with Lyricify in 2023, go unwrap it now!</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2024">Lyricify has captured every lyrical moment of your 2024, unwrap it now!</system:String>
     <system:String x:Key="String.Wrapped.Notice.CloseReminder">Lyricify Wrapped can be found in the main menu and user widget menu, so you can unwrap it later.</system:String>
 
     <system:String x:Key="String.Wrapped.Messages.001">Hey, {0}</system:String>
@@ -1485,6 +1488,16 @@
     <system:String x:Key="String.Wrapped.Messages.048">Lyrics are everything</system:String>
     <system:String x:Key="String.Wrapped.Messages.049">Lyricify is always here for you</system:String>
     <system:String x:Key="String.Wrapped.Messages.050">Just enjoy!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.051">Lyricify has been with you for more than a year</system:String>
+    <system:String x:Key="String.Wrapped.Messages.052">Your support has shaped Lyricify into something extraordinary!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.053">You start Lyricify most often between {0} this year</system:String>
+    <system:String x:Key="String.Wrapped.Messages.054">Amazing!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.055">Your TOP day is on {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.056">Do you know why?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.057">Another year has passed</system:String>
+    <system:String x:Key="String.Wrapped.Messages.058">Year after year</system:String>
+    <system:String x:Key="String.Wrapped.Messages.059">Just remember</system:String>
+    <system:String x:Key="String.Wrapped.Messages.060">Wishing you all the best</system:String>
 
     <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">Total Lyrics Views</system:String>
     <system:String x:Key="String.Wrapped.Report.Launches">Launches</system:String>
@@ -1494,5 +1507,7 @@
     <system:String x:Key="String.Wrapped.Report.TracksCount">Tracks Count</system:String>
     <system:String x:Key="String.Wrapped.Report.MobileViews">Mobile Views</system:String>
     <system:String x:Key="String.Wrapped.Report.TrackOfTheYear">Track of the Year</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor">Sponsor</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor.True">YES</system:String>
     <system:String x:Key="String.Wrapped.Report.LyricifyIndex">Lyricify Index</system:String>
 </ResourceDictionary>

@@ -379,7 +379,7 @@
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese">更喜歡簡體中文</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese.Description">如果關閉此選項，中文字元將被轉換至繁體中文</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation">歌詞分割</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation.Description">啟用中文長句分割 (刷新歌詞後生效)</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation.Description">啟用中文長句分割 (重新整理歌詞後生效)</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">顯示髒話</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics.Description">關閉此選項，髒話將會被取代為星號</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source">來源</system:String>
@@ -474,8 +474,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect.Description">單字發光效果在 iOS 和 Android 上不同</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">呼吸點對齊方向</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">呼吸點在 iOS 上總是左對齊，而在安卓上與歌詞保持同側</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming">高亮縮放</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming.Description">調整目前高亮行的縮放比例</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming">突顯縮放</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming.Description">調整目前突顯行的縮放比例</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">阻止睡眠</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.Description">阻止自動關閉螢幕和睡眠</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.Always">總是</system:String>
@@ -863,6 +863,7 @@
     -->
 
     <!--  Welcome  -->
+    <system:String x:Key="String.Windows.Welcome">歡迎來到 Lyricify</system:String>
     <system:String x:Key="String.Windows.Welcome.Intro.MoreThanLyrics">不僅有歌詞</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Title">讓我們開始吧</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Agreement">繼續即說明您接受 Lyricify 使用者協議</system:String>
@@ -1044,7 +1045,7 @@
     <system:String x:Key="String.Window.StorageManager.Types.Caches">快取</system:String>
     <system:String x:Key="String.Window.StorageManager.Types.Caches.Description">快取的圖片和其它快取</system:String>
     <system:String x:Key="String.Window.StorageManager.Types.Logs">日誌</system:String>
-    <system:String x:Key="String.Window.StorageManager.Types.Logs.Description">運行時產生的日誌檔案</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Logs.Description">執行時產生的日誌檔案</system:String>
     <system:String x:Key="String.Window.StorageManager.Types.Backups">備份</system:String>
     <system:String x:Key="String.Window.StorageManager.Types.Backups.Description">帳戶資料備份、歌詞編輯器自動備份以及其它備份</system:String>
     <system:String x:Key="String.Window.StorageManager.StorageCleanup">儲存空間清理</system:String>
@@ -1060,7 +1061,7 @@
     <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.SelectAll">全選</system:String>
     <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.DeselectAll">全不選</system:String>
     <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean">清理</system:String>
-    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean.Ask">確定要清理嗎？清理後將無法恢復。</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean.Ask">確定要清理嗎？清理後將無法復原。</system:String>
 
     <!--  Track Management  -->
     <system:String x:Key="String.Window.TrackManagement">曲目管理</system:String>
@@ -1417,11 +1418,13 @@
     <!--  Wrapped Year  -->
     <system:String x:Key="String.Wrapped.Title">Lyricify 年度報告</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2023">關於你與我在 2023 的一切</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2024">2024，歌詞，你，還有我</system:String>
     <system:String x:Key="String.Wrapped.Unwrap">開啟</system:String>
     <system:String x:Key="String.Wrapped.Unwrap.Notice">開啟即說明您接受 Lyricify 使用者協議，並允許 Lyricify 處理和分析你的使用資料。</system:String>
     <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>>加速動畫</system:String>
     <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">立即查收</system:String>
     <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify 將你與 Lyricify 在 2023 年發生的故事打包好啦，快來看看吧！</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2024">Lyricify 已為你的 2024 年譜寫了動人的樂章，快來解鎖你的年度歌詞回憶吧！</system:String>
     <system:String x:Key="String.Wrapped.Notice.CloseReminder">Lyricify 年度報告可以在主功能表和使用者元件功能表中找到，你可以稍後再檢視。</system:String>
 
     <system:String x:Key="String.Wrapped.Messages.001">嘿，{0}</system:String>
@@ -1485,6 +1488,16 @@
     <system:String x:Key="String.Wrapped.Messages.048">歌詞在表達著一切</system:String>
     <system:String x:Key="String.Wrapped.Messages.049">Lyricify 會永遠在這裡陪著你</system:String>
     <system:String x:Key="String.Wrapped.Messages.050">盡情享受吧！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.051">Lyricify 已經陪伴你超過一年的時間</system:String>
+    <system:String x:Key="String.Wrapped.Messages.052">正是你的支持，讓 Lyricify 臻於卓越！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.053">你今年最常在 {0} 這個時段啟動 Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.054">非常的 Amazing 啊！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.055">你的最 Top 日期是 {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.056">你知道原因嗎？</system:String>
+    <system:String x:Key="String.Wrapped.Messages.057">又是一年流轉</system:String>
+    <system:String x:Key="String.Wrapped.Messages.058">年復一年</system:String>
+    <system:String x:Key="String.Wrapped.Messages.059">請記住</system:String>
+    <system:String x:Key="String.Wrapped.Messages.060">願一切順利</system:String>
 
     <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">歌詞瀏覽總數</system:String>
     <system:String x:Key="String.Wrapped.Report.Launches">啟動次數</system:String>
@@ -1494,5 +1507,7 @@
     <system:String x:Key="String.Wrapped.Report.TracksCount">歌曲總數</system:String>
     <system:String x:Key="String.Wrapped.Report.MobileViews">行動端瀏覽數</system:String>
     <system:String x:Key="String.Wrapped.Report.TrackOfTheYear">年度歌曲</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor">尊貴用戶</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor.True">是</system:String>
     <system:String x:Key="String.Wrapped.Report.LyricifyIndex">Lyricify 指數</system:String>
 </ResourceDictionary>

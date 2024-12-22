@@ -863,6 +863,7 @@
     -->
 
     <!--  Welcome  -->
+    <system:String x:Key="String.Windows.Welcome">欢迎来到 Lyricify</system:String>
     <system:String x:Key="String.Windows.Welcome.Intro.MoreThanLyrics">不仅有歌词</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Title">让我们开始吧</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Agreement">继续即说明您接受 Lyricify 用户协议</system:String>
@@ -1417,11 +1418,13 @@
     <!--  Wrapped Year  -->
     <system:String x:Key="String.Wrapped.Title">Lyricify 年度报告</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2023">关于你与我在 2023 的一切</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2024">2024，歌词，你，还有我</system:String>
     <system:String x:Key="String.Wrapped.Unwrap">开启</system:String>
     <system:String x:Key="String.Wrapped.Unwrap.Notice">开启即说明您接受 Lyricify 用户协议，并允许 Lyricify 处理和分析你的使用数据。</system:String>
     <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>>加速动画</system:String>
     <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">立即查收</system:String>
     <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify 将你与 Lyricify 在 2023 年发生的故事打包好啦，快来看看吧！</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2024">Lyricify 已为你的 2024 年谱写了动人的乐章，快来解锁你的年度歌词回忆吧！</system:String>
     <system:String x:Key="String.Wrapped.Notice.CloseReminder">Lyricify 年度报告可以在主菜单和用户组件菜单中找到，你可以稍后再查看。</system:String>
 
     <system:String x:Key="String.Wrapped.Messages.001">嘿，{0}</system:String>
@@ -1485,6 +1488,16 @@
     <system:String x:Key="String.Wrapped.Messages.048">歌词在表达着一切</system:String>
     <system:String x:Key="String.Wrapped.Messages.049">Lyricify 会永远在这里陪着你</system:String>
     <system:String x:Key="String.Wrapped.Messages.050">尽情享受吧！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.051">Lyricify 已经陪伴你超过一年的时间</system:String>
+    <system:String x:Key="String.Wrapped.Messages.052">正是你的支持，使 Lyricify 臻于卓越！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.053">你今年最常在 {0} 这个时间段启动 Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.054">非常的 Amazing 啊！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.055">你的最 Top 日期是 {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.056">你知道原因吗？</system:String>
+    <system:String x:Key="String.Wrapped.Messages.057">又是一年流转</system:String>
+    <system:String x:Key="String.Wrapped.Messages.058">年复一年</system:String>
+    <system:String x:Key="String.Wrapped.Messages.059">请记住</system:String>
+    <system:String x:Key="String.Wrapped.Messages.060">愿一切顺遂如意</system:String>
 
     <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">歌词浏览总数</system:String>
     <system:String x:Key="String.Wrapped.Report.Launches">启动次数</system:String>
@@ -1494,5 +1507,7 @@
     <system:String x:Key="String.Wrapped.Report.TracksCount">歌曲总数</system:String>
     <system:String x:Key="String.Wrapped.Report.MobileViews">移动端浏览数</system:String>
     <system:String x:Key="String.Wrapped.Report.TrackOfTheYear">年度歌曲</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor">尊贵用户</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor.True">是</system:String>
     <system:String x:Key="String.Wrapped.Report.LyricifyIndex">Lyricify 指数</system:String>
 </ResourceDictionary>

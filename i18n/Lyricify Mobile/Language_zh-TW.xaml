@@ -1,4 +1,4 @@
-<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" 
+﻿<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" 
                     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
     <x:String x:Key="String.Page.Main.Welcome">歡迎來到 Lyricify Mobile!</x:String>
     <x:String x:Key="String.Page.Main.CustomClient">自訂 API Client (可為空)</x:String>
@@ -6,30 +6,39 @@
     <x:String x:Key="String.Page.Main.Token.PlaceHolder">在這裡貼上你的 Spotify Refresh Token</x:String>
     <x:String x:Key="String.Page.Main.Button.Go">繼續</x:String>
     <x:String x:Key="String.Page.Main.Button.ClearRefreshToken">清除 Refresh Token</x:String>
-    <x:String x:Key="String.Page.Main.Button.GetToken">登錄 (獲取 Token)</x:String>
-    <x:String x:Key="String.Page.Main.LoggingIn">登錄中</x:String>
+    <x:String x:Key="String.Page.Main.Button.GetToken">登入 (獲取 Token)</x:String>
+    <x:String x:Key="String.Page.Main.LoggingIn">登入中</x:String>
     <x:String x:Key="String.Page.Main.Button.Cancel">取消</x:String>
-    <x:String x:Key="String.Page.Main.Login.Title">登錄到 Spotify</x:String>
-    <x:String x:Key="String.Page.Main.Login.Title.Notice">不支持第三方登錄</x:String>
+    <x:String x:Key="String.Page.Main.Login.Title">登入到 Spotify</x:String>
+    <x:String x:Key="String.Page.Main.Login.Title.Notice">不支援第三方登入</x:String>
     <x:String x:Key="String.Page.Main.Login.Button.Back">返回</x:String>
+    <x:String x:Key="String.Page.Main.Login.External.Title">請在彈出的瀏覽器頁面中完成 Spotify 登入授權！</x:String>
+    <x:String x:Key="String.Page.Main.Login.External.Description">若長時間沒有彈出，或在授權過程中出現了問題，可嘗試使用內嵌登入進行授權。</x:String>
+    <x:String x:Key="String.Page.Main.Login.External.Button.UseInternal">使用內嵌登入</x:String>
 
-    <x:String x:Key="String.Settings">設置</x:String>
-    <x:String x:Key="String.Settings.RestartMessage">(部分設置需要重啟才可生效)</x:String>
+    <x:String x:Key="String.Settings">設定</x:String>
+    <x:String x:Key="String.Settings.Description">透過這些設置，讓你的 Lyricify Mobile 更有個性</x:String>
+    <x:String x:Key="String.Settings.GoToPage">前往設定頁</x:String>
+    <x:String x:Key="String.Settings.RestartMessage">部分設定可能需要重啟才可生效</x:String>
     <x:String x:Key="String.Settings.Translation">中文翻譯</x:String>
-    <x:String x:Key="String.Settings.BoldText">粗體文本</x:String>
+    <x:String x:Key="String.Settings.BoldText">粗體文字</x:String>
+    <x:String x:Key="String.Settings.FontSizeScale">字號縮放</x:String>
+    <x:String x:Key="String.Settings.BlurEffect">模糊效果</x:String>
+    <x:String x:Key="String.Settings.BlurRadiusScale">模糊半徑縮放</x:String>
     <x:String x:Key="String.Settings.PullingEffect">拖動效果</x:String>
     <x:String x:Key="String.Settings.ExplicitLyrics">Explicit 歌詞</x:String>
-    
+
     <x:String x:Key="String.Page.About.NewVersionAvailable">有新版本可用</x:String>
     <x:String x:Key="String.Page.About.MadeWithHeart">由 WXRIW 用 ❤️ 製作</x:String>
     <x:String x:Key="String.Page.About.Copyright">版權所有 © 2024 WXRIW</x:String>
-    <x:String x:Key="String.Page.About.UserGuide">用戶手冊:</x:String>
+    <x:String x:Key="String.Page.About.UserGuide">使用者手冊:</x:String>
     <x:String x:Key="String.Page.About.UserGuide.Notice">點擊訪問</x:String>
     <x:String x:Key="String.Page.About.QQGroup">QQ 群:</x:String>
+    <x:String x:Key="String.Page.About.GetPremium">點擊獲取 Spotify Premium</x:String>
     <x:String x:Key="String.Page.About.429.Title">解決 429 錯誤問題</x:String>
     <x:String x:Key="String.Page.About.CustomClient">自訂 API Client:</x:String>
     <x:String x:Key="String.Page.About.Thanks">打賞 &amp; 感謝列表</x:String>
-    <x:String x:Key="String.Page.About.Thanks.Message">感謝那些一直支持著 Lyricify Mobile 的用戶們</x:String>
+    <x:String x:Key="String.Page.About.Thanks.Message">感謝那些一直支援著 Lyricify Mobile 的使用者們</x:String>
     <x:String x:Key="String.Page.About.Thanks.Message.Link">點選查看詳情</x:String>
     <x:String x:Key="String.Page.About.Tips">技巧</x:String>
     <x:String x:Key="String.Page.About.Tips.PremiumMessage">(需要 Spotify Premium)</x:String>
@@ -44,11 +53,11 @@
     <x:String x:Key="String.Page.Thanks.Thanklist">感謝列表</x:String>
     <x:String x:Key="String.Page.Thanks.Thanklist.ThanksApple">特別感謝 Apple 獨具匠心的設計</x:String>
     <x:String x:Key="String.Page.Thanks.Thanklist.ThanksSpotify">特別感謝 Spotify 在音樂串流界的貢獻</x:String>
-    <x:String x:Key="String.Page.Thanks.Thanklist.Donators">感謝所有打賞用戶和參與眾籌的用戶，Lyricify 在他們的支持下變得更好</x:String>
+    <x:String x:Key="String.Page.Thanks.Thanklist.Donators">感謝所有打賞使用者和參與眾籌的使用者，Lyricify 在他們的支援下變得更好</x:String>
     <x:String x:Key="String.Page.Thanks.Thanklist.Donators.1">Lyricify Mobile 特別感謝名單</x:String>
     <x:String x:Key="String.Page.Thanks.Thanklist.Donators.1.Notice">依金額和時間排序</x:String>
     <x:String x:Key="String.Page.Thanks.Thanklist.Donators.2">Lyricify 打賞感謝名單</x:String>
-    <x:String x:Key="String.Page.Thanks.Thanklist.Donators.2.Notice">按金額和時間排序</x:String>
+    <x:String x:Key="String.Page.Thanks.Thanklist.Donators.2.Notice">按金額和時間排序，列表更新于 {0}</x:String>
 
     <x:String x:Key="String.Message.Login.429">429 錯誤，請稍後</x:String>
     <x:String x:Key="String.Message.Login.429.RetryAfter">429 錯誤，將在 {0} 秒後重試</x:String>
@@ -56,16 +65,16 @@
     <x:String x:Key="String.Message.Login.NullPlayback">無正在播放的歌曲，你得在 Spotify 放歌才能顯示歌詞呀</x:String>
     <x:String x:Key="String.Message.Login.429Error">429 錯誤，待會再試</x:String>
     <x:String x:Key="String.Message.Login.InvalidClient">無效的 Client 資訊，請檢你的 API Client 配置</x:String>
-    <x:String x:Key="String.Message.Login.UserNotRegistered">用戶沒有在 Spotify Developer Dashboard 中註冊</x:String>
-    <x:String x:Key="String.Message.Login.ThirdParty.Notice">第三方 (Google、Facebook 和 Apple) 登入是不被支援的，請使用你的 Spotify 帳號和密碼完成登入 (你可以在 Spotify 官網設定密碼)</x:String>
+    <x:String x:Key="String.Message.Login.UserNotRegistered">使用者沒有在 Spotify Developer Dashboard 中註冊</x:String>
+    <x:String x:Key="String.Message.Login.ThirdParty.Notice">第三方 (Google 和 Facebook) 登入是不被支援的，請使用你的 Spotify 帳號和密碼完成登入 (你可以在 Spotify 官網設定密碼)</x:String>
     <x:String x:Key="String.Message.Lyrics.Instrumental">純音樂，請您欣賞。</x:String>
-    <x:String x:Key="String.Message.Lyrics.FailedToGet">沒有找到歌詞，您可以在電腦上使用 Lyricify 4 導入歌詞</x:String>
+    <x:String x:Key="String.Message.Lyrics.FailedToGet">沒有找到歌詞，您可以在電腦上使用 Lyricify 4 匯入歌詞</x:String>
     <x:String x:Key="String.Message.Lyrics.CannotScroll">手動滾動不再可用</x:String>
     <x:String x:Key="String.Message.Operation.Pause">暫停</x:String>
-    <x:String x:Key="String.Message.Operation.Play">播放 / 恢復</x:String>
+    <x:String x:Key="String.Message.Operation.Play">播放 / 復原</x:String>
     <x:String x:Key="String.Message.Operation.PreviousTrack">上一首</x:String>
     <x:String x:Key="String.Message.Operation.NextTrack">下一首</x:String>
     <x:String x:Key="String.Message.Operation.Exception.PremiumRequired">需要 Spotify Premium</x:String>
     <x:String x:Key="String.Message.NewVersion">發現新版本: {0}</x:String>
-    <x:String x:Key="String.Message.CurrentVersion">當前版本: {0}</x:String>
+    <x:String x:Key="String.Message.CurrentVersion">目前版本: {0}</x:String>
 </ResourceDictionary>
