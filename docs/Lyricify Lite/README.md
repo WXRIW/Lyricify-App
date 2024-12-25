@@ -20,7 +20,7 @@
 | 酷狗音乐 | 无时间轴信息 | 较好 |  |
 | Groove Music | 时间轴完美；曲目信息取决于具体曲目 | 一般，取决于具体文件 |  |
 | Foobar 2000 | 无时间轴信息；曲目信息取决于具体曲目 | 一般，取决于具体文件 |  |
-| PotPlayer | 时间轴较好；曲目信息取决于具体播放内容 | 一般，取决于具体内容 |  |
+| PotPlayer | 时间轴完美；曲目信息取决于具体播放内容 | 一般，取决于具体内容 |  |
 | Google Chrome | 时间轴较好；曲目信息取决于具体播放内容 | 一般，取决于具体内容 | 默认不启用 |
 | Microsoft Edge | 时间轴较好；曲目信息取决于具体播放内容 | 一般，取决于具体内容 | 默认不启用 |
 
@@ -29,6 +29,23 @@
 2. 对于 SMTC 无时间轴信息的 app，Lyricify Lite 将使用内置定时器更新歌词进度，所以在手动修改播放进度后，Lyricify Lite 无法更新播放进度，歌词会发生前后错位。
 3. 曲目匹配“完美”指 Lyricify Lite 可以完美匹配当前播放的曲目。其它匹配程度指 Lyricify Lite 需要通过对曲目信息进行搜索来匹配对应曲目，所以匹配可能不精准或匹配不到。
 4. 所有接入 SMTC 的应用均支持 Lyricify Lite，未在上表中列出的 app 并不代表不支持 Lyricify Lite。
+
+# Lyricify Lite 基础
+
+## Lyricify Lite 是什么
+Lyricify Lite 是 Lyricify 家族于 2024 年 12 月推出的新软件，它运行于 Windows 平台，仅保留了 Lyricify 4 的灵动词岛功能（后期会加入桌面歌词等功能），支持所有接入了 SMTC 的音乐播放器，包括 HyPlayer、LyricEase、Apple Music、QQ 音乐、网易云音乐 UWP、酷狗音乐、Foobar 2000、Groove Music 等诸多音乐软件。 
+
+## Lyricify Lite 有哪些功能
+Lyricify Lite 目前只有灵动词岛功能，后期会加入桌面歌词等功能。
+
+## 运行 Lyricify Lite
+如果您想使用 Lyricify Lite，请确保您的系统中安装了 `.NET Desktop Runtime 8.0`，如果启动时提示您的未安装，则需要您在这里下载安装：  
+点击下载 .NET Desktop Runtime 8.0.11 [x86](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-8.0.11-windows-x86-installer) [x64](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-8.0.11-windows-x64-installer) [Arm64](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-8.0.11-windows-arm64-installer)   
+[点击转到 .NET 8.0 官方下载地址](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0)
+
+## 如何找到运行中的 Lyricify Lite
+你随时可以在系统通知栏（托盘）中找到 Lyricify Lite 的图标。  
+你可以右击该图标以控制 Lyricify Lite，包括开启功能、配置设置、退出 Lyricify Lite 等。
 
 # 常见问题
 
@@ -66,13 +83,6 @@ Lyricify Lite 是免费软件，如果你觉得 Lyricify Lite 做的不错，则
 1. 打开 `开始菜单`，点击右上角的 `所有应用`。
 2. 找到 `Lyricify Lite`，按住拖动到想要创建快捷方式的地方即可完成创建。
 
-## 桌面歌词 或 灵动词岛 异常消失
-打开 `桌面歌词` 或 `灵动词岛` 后，闪一下就消失了，或是在最小化所有窗口后消失。
-### 导致原因
-有全屏窗口处于前台。
-### 解决方案
-想办法关闭该全屏窗口 (如动态壁纸等)，或在设置中关闭 `全屏隐藏` 选项。
-
 ## 使用 QQ 音乐时无法显示歌词
 Lyricify Lite 无法检测到 QQ 音乐。
 ### 导致原因
@@ -100,6 +110,24 @@ Lyricify Lite 无法检测到 PotPlayer。
 PotPlayer 不是最新版，没有 SMTC 功能。
 ### 解决方案
 更新 PotPlayer 至最新版，最低版本要求 240618。
+
+## 桌面歌词 或 灵动词岛 异常消失
+打开 `桌面歌词` 或 `灵动词岛` 后，闪一下就消失了，或是在最小化所有窗口后消失。
+### 导致原因
+有全屏窗口处于前台。
+### 解决方案
+想办法关闭该全屏窗口 (如动态壁纸等)，或在设置中关闭 `全屏隐藏` 选项。
+
+## 自动更新
+Lyricify Lite 支持自动更新，其策略如下。
+### Microsoft Store 版本
+Microsoft Store 版本的自动更新由 Microsoft 负责。  
+Lyricify Lite 的默认策略是在启动时自动检查更新，有更新时会请求 Microsoft Store 进行静默更新，并在用户关闭 Lyricify Lite 或重启后完成更新。  
+你可以在 Lyricify Lite 的设置中修改该策略。
+### 非 Microsoft Store 版本 (GitHub 版本)
+非 Microsoft Store 版本的自动更新由 Lyricify Lite 负责。  
+Lyricify Lite 会在启动时自动检查更新，有更新时会立即下载更新并完成安装，更新过程会自动重启 Lyricify Lite。  
+Lyricify Lite 默认开启自动更新，你可以在设置中修改该策略以停用普通更新。需要注意的是，版本过低时的强制更新不受该设置影响。
 
 # 附录
 
