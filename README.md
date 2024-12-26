@@ -4,8 +4,6 @@
 
 # Lyricify App
 
-<a href="https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full">
-	<img src="https://get.microsoft.com/images/en-us%20dark.svg" style="width: 150px;"/>
 </a>
 
 </div>
