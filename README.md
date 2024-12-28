@@ -48,8 +48,16 @@ https://t.me/lyricifyreleases
 [点击加入群聊【Lyricify 用户群 5】](https://qm.qq.com/q/wGe070e4rS)（群号：561373781）（已满）  
 [点击加入群聊【Lyricify 用户群 6】](https://qm.qq.com/q/TEj2v8gvK2)（群号：636998823）  
 
-**Lyricify Open Source / 开源 Lyricify:**  
-Lyricify 歌词处理部分已开源，详见[这里](#lyricify-open-source)。
+## Lyricify Open Source
+Lyricify 的歌词处理相关代码均已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中使用 Apache License 2.0 协议开源，希望能为开源社区做出贡献。  
+
+## 开发计划 / 画饼时间
+Lyricify 系列的未来开发计划。
+
+| 软件 | 备注 | 平台 | 预计开发时间 |
+| :-: | :-: | :-: | :-: |
+| Lyricify Mobile Lite | 适用于所有接入了 Media Session 的 app | Android | 2025 年 - 2026 年 |
+| Lyricify Mobile 2 | 适用于 Spotify 用户 | iOS, iPadOS, macOS | 2026 年 - 2027 年 |
 
 ## Lyricify 4
 <h3>More than lyrics 不仅有歌词</h3>  
@@ -98,9 +106,6 @@ Lyricify 4 是目前 Lyricify 系列中最具创新的功能结晶，在这里�
   - 公开于 Lyricify 4.1.0.230503-release
 
 标记 * 的创作采用 [CC BY-SA 4.0 协议](https://creativecommons.org/licenses/by-sa/4.0/) 进行许可。欢迎转载、使用、重新发布，但务必保留创作署名 Lyricify (及作者 WXRIW 或 XY Wang)，可用于商业目的，基于创意修改后的作品务必以相同的许可发布。如有任何疑问，请与我联系。  
-
-## Lyricify Open Source
-Lyricify 的歌词处理相关代码均已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中使用 Apache License 2.0 协议开源，希望能为开源社区做出贡献。  
 
 ## Lyricify Lite
 Lyricify Lite 运行于 Windows 平台，仅保留了灵动词岛功能，支持所有接入了 SMTC 的音乐播放器，包括 HyPlayer、LyricEase、Apple Music、QQ 音乐、网易云音乐 UWP、酷狗音乐、Foobar 2000、Groove Music 等诸多音乐软件。  
