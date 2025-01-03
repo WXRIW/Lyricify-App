@@ -13,7 +13,7 @@
 | LyricEase | 完美 | 完美 |  |
 | Spotify | 完美 | 较好 |  |
 | Apple Music | 时间轴精度低；曲目信息不全 | 一般 |  |
-| QQ 音乐 | 无时间轴信息 | 较好 |  |
+| QQ 音乐 | 完美 | 较好 |  |
 | QQ 音乐 UWP | 一般，信息提供不稳定 | 较好 |  |
 | 网易云音乐 | 无时间轴信息 | 较好 | 需安装额外的[插件](https://github.com/BetterNCM/InfinityLink) |
 | 网易云音乐 UWP | 较好 | 较好 |  |
@@ -39,7 +39,7 @@ Lyricify Lite 是 Lyricify 家族于 2024 年 12 月推出的新软件，它运�
 Lyricify Lite 目前只有灵动词岛功能，后期会加入桌面歌词等功能。
 
 ## 运行 Lyricify Lite
-如果您想使用 Lyricify Lite，请确保您的系统中安装了 `.NET Desktop Runtime 8.0`，如果启动时提示您的未安装，则需要您在这里下载安装：  
+如果您想使用 Lyricify Lite，请确保您的系统版本不低于 10.0.17763.0，且安装了 `.NET Desktop Runtime 8.0`。如果启动时提示您的未安装，则需要您在这里下载安装：  
 点击下载 .NET Desktop Runtime 8.0.11 [x86](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-8.0.11-windows-x86-installer) [x64](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-8.0.11-windows-x64-installer) [Arm64](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-8.0.11-windows-arm64-installer)   
 [点击转到 .NET 8.0 官方下载地址](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0)
 
@@ -77,39 +77,19 @@ Lyricify Lite 是免费软件，如果你觉得 Lyricify Lite 做的不错，则
 如果你发现有人在非法销售本软件 (只有 Microsoft Store 中的 Lyricify 是官方发布)，请联系我们！感谢你的支持！
 
 ## 桌面歌词
-桌面歌词正在移植中，敬请期待！
+即将到来，敬请期待。  
+预计随 1.0.2 版本更新发布。
+
+## 无法检测到播放器
+Lyricify Lite 无法检测到你正在使用的音乐软件的播放状态。
+### 导致原因
+你使用的软件可能并不支持 SMTC，或是没有正确配置 SMTC。
+### 解决方案
+如果你使用的软件在 [App 支持列表](#app-支持列表) 中列出，请查看[逐应用常见问题](#常见问题逐应用)。
 
 ## Microsoft Store 版创建快捷方式
 1. 打开 `开始菜单`，点击右上角的 `所有应用`。
 2. 找到 `Lyricify Lite`，按住拖动到想要创建快捷方式的地方即可完成创建。
-
-## 使用 QQ 音乐时无法显示歌词
-Lyricify Lite 无法检测到 QQ 音乐。
-### 导致原因
-QQ 音乐不是最新版，或未开启 SMTC。
-### 解决方案
-更新 QQ 音乐至最新版，并确保 SMTC 已启用（位置：`设置->常规设置->通知->显示系统媒体传输控件（SMTC）`）。
-
-## 使用网易云音乐时无法显示歌词
-Lyricify Lite 无法检测到网易云音乐。
-### 导致原因
-网易云音乐 Win32 原版并不支持 SMTC。
-### 解决方案
-安装 [InfinityLink 插件](https://github.com/BetterNCM/InfinityLink)即可。
-
-## 使用酷狗音乐时无法显示歌词
-Lyricify Lite 无法检测到酷狗音乐。
-### 导致原因
-酷狗音乐不是最新版，或未开启 SMTC。
-### 解决方案
-更新酷狗音乐至最新版，并确保 SMTC 已启用（位置：`设置->常规设置->播放->支持系统播放控件，如锁屏界面`）。
-
-## 使用 PotPlayer 时无法显示歌词
-Lyricify Lite 无法检测到 PotPlayer。
-### 导致原因
-PotPlayer 不是最新版，没有 SMTC 功能。
-### 解决方案
-更新 PotPlayer 至最新版，最低版本要求 240618。
 
 ## 桌面歌词 或 灵动词岛 异常消失
 打开 `桌面歌词` 或 `灵动词岛` 后，闪一下就消失了，或是在最小化所有窗口后消失。
@@ -128,6 +108,39 @@ Lyricify Lite 的默认策略是在启动时自动检查更新，有更新时会
 非 Microsoft Store 版本的自动更新由 Lyricify Lite 负责。  
 Lyricify Lite 会在启动时自动检查更新，有更新时会立即下载更新并完成安装，更新过程会自动重启 Lyricify Lite。  
 Lyricify Lite 默认开启自动更新，你可以在设置中修改该策略以停用普通更新。需要注意的是，版本过低时的强制更新不受该设置影响。
+
+# 常见问题（逐应用）
+
+## 使用 QQ 音乐时没有时间轴
+在使用 QQ 音乐时，手动修改播放进度后，Lyricify Lite 无法更新播放进度，歌词会发生前后错位。
+### 导致原因
+没有更新至支持 SMTC 时间轴的 QQ 音乐版本。
+### 解决方案
+更新 QQ 音乐至最新版，确保其版本号不低于 21.10.2962。
+
+## 无法检测到 QQ 音乐
+### 导致原因
+QQ 音乐不是最新版，或未开启 SMTC。
+### 解决方案
+更新 QQ 音乐至最新版，并确保 SMTC 已启用（位置：`设置->常规设置->通知->显示系统媒体传输控件（SMTC）`）。
+
+## 无法检测到网易云音乐
+### 导致原因
+网易云音乐 Win32 原版并不支持 SMTC。
+### 解决方案
+安装 [InfinityLink 插件](https://github.com/BetterNCM/InfinityLink)即可。
+
+## 无法检测到酷狗音乐
+### 导致原因
+酷狗音乐不是最新版，或未开启 SMTC。
+### 解决方案
+更新酷狗音乐至最新版，并确保 SMTC 已启用（位置：`设置->常规设置->播放->支持系统播放控件，如锁屏界面`）。
+
+## 无法检测到 PotPlayer
+### 导致原因
+PotPlayer 不是最新版，没有 SMTC 功能。
+### 解决方案
+更新 PotPlayer 至最新版，最低版本要求 240618。
 
 # 附录
 
