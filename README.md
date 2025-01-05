@@ -51,7 +51,7 @@ https://t.me/lyricifyreleases
 ## Lyricify Open Source / Lyricify 开源
 Lyricify 的歌词处理相关代码均已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中使用 Apache License 2.0 协议开源，希望能为开源社区做出贡献。  
 
-## Lyricify 系列工具
+## Lyricify Tools / Lyricify 系列工具
 | 软件 | 最新版本 | 备注</br>Notes | 平台 | 使用指南 |
 | :-: | :-: | :-: | :-: | :-: |
 | [Lyricify Lyrics Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) | [0.1.4-release](https://github.com/WXRIW/Lyricify-Lyrics-Helper/releases/tag/v0.1.4)</br> | Lyricify 歌词处理库 | .NET Standard | [点击查看](https://github.com/WXRIW/Lyricify-Lyrics-Helper/blob/master/README.md) |
