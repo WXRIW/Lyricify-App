@@ -52,10 +52,10 @@ https://t.me/lyricifyreleases
 Lyricify 的歌词处理相关代码均已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中使用 Apache License 2.0 协议开源，希望能为开源社区做出贡献。  
 
 ## Lyricify 系列工具
-| 软件</br>Application | 最新版本</br>Latest Version | 备注</br>Notes | 平台</br>Platform | 使用指南</br>User Guide |
+| 软件 | 最新版本 | 备注</br>Notes | 平台 | 使用指南 |
 | :-: | :-: | :-: | :-: | :-: |
-| [Lyricify Lyrics Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) | [0.1.4-release](https://github.com/WXRIW/Lyricify-Lyrics-Helper/releases/tag/v0.1.4)</br> | Lyricify 开源歌词处理库 | .NET Standard | [点击查看</br>Click to view](https://github.com/WXRIW/Lyricify-Lyrics-Helper/blob/master/README.md) |
-| [Lyricify Lines Creator](https://github.com/WXRIW/Lyricify-Lines-Creator) | [0.2.0-beta](https://github.com/WXRIW/Lyricify-Lines-Creator/releases/tag/v0.2.0)</br> | Lyricify Lines 逐行歌词打轴工具 | Windows | [点击查看</br>Click to view](https://github.com/WXRIW/Lyricify-Lines-Creator/blob/master/README.md) |
+| [Lyricify Lyrics Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) | [0.1.4-release](https://github.com/WXRIW/Lyricify-Lyrics-Helper/releases/tag/v0.1.4)</br> | Lyricify 歌词处理库 | .NET Standard | [点击查看](https://github.com/WXRIW/Lyricify-Lyrics-Helper/blob/master/README.md) |
+| [Lyricify Lines Creator](https://github.com/WXRIW/Lyricify-Lines-Creator) | [0.2.0-beta](https://github.com/WXRIW/Lyricify-Lines-Creator/releases/tag/v0.2.0)</br> | Lyricify Lines 逐行歌词打轴工具 | Windows | [点击查看](https://github.com/WXRIW/Lyricify-Lines-Creator/blob/master/README.md) |
 
 ## Future Plans / 未来计划 (画饼时间)
 Lyricify 系列的未来开发计划。
