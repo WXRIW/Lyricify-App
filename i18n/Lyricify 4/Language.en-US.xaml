@@ -515,7 +515,7 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale">Scale</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale.Description">Controlling the size and scaling of the Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">Desktop Lyrics</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Due-Line mode</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Duo-Line mode</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">By turning off, only one line of lyrics will be displayed</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EfficiencyMode">Efficiency mode</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EfficiencyMode.Description">Lyricify is committed to helping reduce carbon emissions and energy usage causing environmental impact</system:String>
@@ -1498,6 +1498,7 @@
     <system:String x:Key="String.Wrapped.Messages.058">Year after year</system:String>
     <system:String x:Key="String.Wrapped.Messages.059">Just remember</system:String>
     <system:String x:Key="String.Wrapped.Messages.060">Wishing you all the best</system:String>
+    <system:String x:Key="String.Wrapped.Messages.061">Looking forward to your contributions next year</system:String>
 
     <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">Total Lyrics Views</system:String>
     <system:String x:Key="String.Wrapped.Report.Launches">Launches</system:String>
