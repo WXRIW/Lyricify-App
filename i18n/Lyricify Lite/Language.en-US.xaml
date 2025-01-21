@@ -3,6 +3,8 @@
                     xmlns:system="clr-namespace:System;assembly=netstandard">
 
     <system:String x:Key="String.NotifyIcon.Menu.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.NotifyIcon.Menu.DesktopLyrics">Desktop Lyrics</system:String>
+    <system:String x:Key="String.NotifyIcon.Menu.DesktopLyrics.UnlockDesktopLyrics">Unlock Desktop Lyrics</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.RefreshLyrics">Refresh Lyrics</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.RefreshSession">Refresh Session</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.Settings">Settings</system:String>
@@ -23,7 +25,7 @@
     <system:String x:Key="String.NotifyIcon.Menu.About.GetNewReleases.LanzousCloud">Lanzous Cloud</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.Restart">Restart</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.Exit">Exit</system:String>
-    
+
     <system:String x:Key="String.Settings.General">General</system:String>
     <system:String x:Key="String.Settings.General.Language">Language</system:String>
     <system:String x:Key="String.Settings.General.Language.Description">Choose the display language of Lyricify (Some changes might need an app restart to be applied)</system:String>
@@ -114,6 +116,72 @@
     <system:String x:Key="String.Settings.DynamicLyricsIsland.LyricifyLogo">Lyricify logo</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.LyricifyLogo.Description">Choose a Lyricify logo preset</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.LyricifyLogo.ComboBox.SingleColor">Single color</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics">Desktop Lyrics</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.DuoLineMode">Duo-Line mode</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.DuoLineMode.Description">By turning off, only one line of lyrics will be displayed</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.EfficiencyMode">Efficiency mode</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.EfficiencyMode.Description">Lyricify is committed to helping reduce carbon emissions and energy usage causing environmental impact</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.LyricsSwitchingAnimation">Lyrics switching animation</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.LyricsSwitchingAnimation.Description">Play animation when switching to another lyrics line</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.LyricsSwitchingAnimation.BlurEffect">Blur effect</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.LyricsSwitchingAnimation.BlurEffect.Description">Enable blur effect at line switching</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.KaraokeMode">Karaoke mode</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.KaraokeMode.Description">Get karaoke style of lyrics display</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.AutoHide">Auto hide</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.AutoHide.Description">By turning on, Desktop Lyrics will be hidden at pause</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.FullscreenHide">Fullscreen hide</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.FullscreenHide.Description">Hide Desktop Lyrics when you have program running at fullscreen mode</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.EnterHide">Transparency hide</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.EnterHide.Description">Set a lower opacity for Desktop Lyrics when cursor enters at locked state</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.EnterHide.Opacity">Opacity</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.EnterHide.Opacity.Description">Set this to 0 if you want to hide Desktop Lyrics</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Opacity">Opacity</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.BorderThickness">Border thickness</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.LyricsAlign">Lyrics align</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.LyricsAlign.ComboBox.Center">Center (Default)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.LyricsAlign.ComboBox.Left">Left</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.LyricsAlign.ComboBox.Right">Right</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors">Colors</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.Description">It might be the most customizable Desktop Lyrics ever</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.Button.Reset">Reset</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.DuoLineStyle">Duo line style</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.DuoLineStyle.Description">Two separated lines. Lines with translation won't use duo line style</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Fill">Highlight line (Fill)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Border">Highlight line (Border)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Fill">Next line (Fill)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Border">Next line (Border)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.SingleLineStyle">Single line style</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.SingleLineStyle.Description">Display only one line. Translation will be displayed if available</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.SingleLineStyle.Fill">Fill</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.SingleLineStyle.Border">Border</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Fill">Translation line (Fill)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Border">Translation line (Border)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.KaraokeStyle">Karaoke style</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.KaraokeStyle.Description">This applies to both duo line and single line</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Fill">Played (Fill)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Border">Played (Border)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Fill">Preplay (Fill)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Border">Preplay (Border)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.ArtworkMainColor">Artwork main color</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.Black">Black</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.White">White</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.Custom">Custom</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.ShadowEffect">Shadow effect</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.ShadowEffect.Description">Drop shadow effect under lyrics</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.ShadowEffect.Color">Color</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.ShadowEffect.Depth">Depth</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.ShadowEffect.Direction">Direction</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.ShadowEffect.Direction.Description">Default value: 315°</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.ShadowEffect.Opacity">Opacity</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.ShadowEffect.Radius">Radius</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Position">Position &amp; size</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Position.Description">If Desktop Lyrics isn't displayed correctly, you can try to Reset</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Position.Button.Reset">Reset</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Lock">Lock</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Lock.Description">Lock Desktop Lyrics's position and size</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Lock.Button.Unlock">Unlock</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Lock.HideUnlock">Hide unlock button</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Lock.HideUnlock.Description">Hide unlock button so it won't interrupt your operation</system:String>
     <system:String x:Key="String.Settings.Hotkeys">Hotkeys</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Description">You can manage global hotkeys here. (Use Backspace to clear a shortcut)</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Notification">Notification</system:String>
@@ -197,7 +265,7 @@
 
     <system:String x:Key="String.About.About">About</system:String>
     <system:String x:Key="String.About.Support">Support</system:String>
-    
+
     <system:String x:Key="String.About.NonPublicWarning">THIS IS NOT A PUBLIC RELEASE, DO NOT SPREAD PLEASE!</system:String>
     <system:String x:Key="String.About.Architecture.32Bits">32-Bit</system:String>
     <system:String x:Key="String.About.Architecture.64Bits">64-Bit</system:String>
@@ -214,11 +282,7 @@
     <system:String x:Key="String.About.Donation">Donation</system:String>
     <system:String x:Key="String.About.Thanklist">Thanklist</system:String>
     <system:String x:Key="String.About.Thanklist.SupporterListInfo">Sort by amount and time, list updated on {0}</system:String>
-    <system:String x:Key="String.About.Thanklist.ThanksApple">Special thanks to Apple for the fascinating and unique design</system:String>
-    <system:String x:Key="String.About.Thanklist.ThanksSpotify">Special thanks to Spotify for its contribution to the whole music streaming industry</system:String>
-    <system:String x:Key="String.About.Thanklist.ThanksPremium">Special thanks to Difer for providing Spotify Premium account</system:String>
-    <system:String x:Key="String.About.Thanklist.ThanksInsiders">Special thanks to our insiders</system:String>
-    <system:String x:Key="String.About.Thanklist.ThanksStorePurchase">Thanks to all users who have purchased Lyricify on Microsoft Store</system:String>
+    <system:String x:Key="String.About.Thanklist.ThanksStorePurchase">Thanks to all users who have purchased Lyricify Lite on Microsoft Store</system:String>
     <system:String x:Key="String.About.Internationalization">Internationalization</system:String>
     <system:String x:Key="String.About.References">References</system:String>
     <system:String x:Key="String.About.References.MITLicense.Brackets">(MIT License)</system:String>
@@ -227,15 +291,19 @@
     <system:String x:Key="String.About.References.LGPLLicense21.Brackets">(LGPL License 2.1)</system:String>
     <system:String x:Key="String.About.References.NoLicense.Brackets">(No License)</system:String>
     <system:String x:Key="String.About.CopyrightClaiming">Copyright Claiming</system:String>
+    <system:String x:Key="String.About.CopyrightClaiming.HotLyric">HotLyric™ Inside, Copyright © cnbluefire</system:String>
     <system:String x:Key="String.About.CopyrightClaiming.WXRIW">Copyright © {0} WXRIW, All Rights Reserved</system:String>
 
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">Double click to hide for 2s</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">Align Center</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">Close</system:String>
 
+    <system:String x:Key="String.Menu.DesktopLyrics.DuoLineMode">Duo-Line Mode</system:String>
+    <system:String x:Key="String.Menu.DesktopLyrics.LyricsAlign">Lyrics Align</system:String>
+
     <system:String x:Key="String.Dialog.Store.Title">You've found an exclusive feature!</system:String>
-    <system:String x:Key="String.Dialog.Store.Explore">We invite you to explore Lyricify on the Microsoft Store for an enhanced experience. Your support will greatly contribute to its continued improvement and development.</system:String>
-    <system:String x:Key="String.Dialog.Store.Purchase">We encourage you to consider purchasing Lyricify on the Microsoft Store. Your support will help us enhance your experience and continue to develop new features.</system:String>
+    <system:String x:Key="String.Dialog.Store.Explore">We invite you to explore Lyricify Lite on the Microsoft Store for an enhanced experience. Your support will greatly contribute to its continued improvement and development.</system:String>
+    <system:String x:Key="String.Dialog.Store.Purchase">We encourage you to consider purchasing Lyricify Lite on the Microsoft Store. Your support will help us enhance your experience and continue to develop new features.</system:String>
     <system:String x:Key="String.Dialog.Store.Button.GoToStore">Go to Microsoft Store</system:String>
     <system:String x:Key="String.Dialog.Store.Button.Close">Close</system:String>
     <system:String x:Key="String.Dialog.Store.Donator">Already a donator?</system:String>
@@ -298,5 +366,8 @@
     <system:String x:Key="String.Windows.Debug.Lyrics.MatchType.Low">Low</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.MatchType.VeryLow">Very Low</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.MatchType.NoMatch">No Match</system:String>
+    <system:String x:Key="String.Windows.Debug.Lyrics.Type.Instrumental">Instrumental music</system:String>
+    <system:String x:Key="String.Windows.Debug.Lyrics.Type.NoLyricsOrNoTimeline">No lyrics or lyrics not synced</system:String>
+    <system:String x:Key="String.Windows.Debug.Lyrics.Type.NoLyrics">No lyrics for this track</system:String>
     <system:String x:Key="String.Windows.Debug.Sessions">Session</system:String>
 </ResourceDictionary>

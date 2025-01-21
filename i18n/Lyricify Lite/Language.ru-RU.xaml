@@ -3,6 +3,8 @@
                     xmlns:system="clr-namespace:System;assembly=netstandard">
 
     <system:String x:Key="String.NotifyIcon.Menu.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.NotifyIcon.Menu.DesktopLyrics">Текст для рабочего стола</system:String>
+    <system:String x:Key="String.NotifyIcon.Menu.DesktopLyrics.UnlockDesktopLyrics">Разблокировать текст для рабочего стола</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.RefreshLyrics">Обновить текст песни</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.RefreshSession">Обновить сеанс</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.Settings">Настройки</system:String>
@@ -114,6 +116,72 @@
     <system:String x:Key="String.Settings.DynamicLyricsIsland.LyricifyLogo">Lyricify логотип</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.LyricifyLogo.Description">Выберите предустановку логотипа Lyricify</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.LyricifyLogo.ComboBox.SingleColor">Один цвет</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics">Слова для рабочего стола</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.DuoLineMode">Режим две строки</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.DuoLineMode.Description">Если этот параметр отключить, будет отображаться только одна строка текста</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.EfficiencyMode">Энергосберегающий режим</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.EfficiencyMode.Description">Lyricify стремится снизить негативное воздействие на окружающую среду, вызванное выбросами углерода и энергопотреблением</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.LyricsSwitchingAnimation">Анимация переключения текстов</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.LyricsSwitchingAnimation.Description">Воспроизводить анимацию при переключении на другую строку текста</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.LyricsSwitchingAnimation.BlurEffect">Эффект размытия</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.LyricsSwitchingAnimation.BlurEffect.Description">Использовать эффект размытия при переходе на новую строку текста</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.KaraokeMode">Режим караоке</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.KaraokeMode.Description">Использовать стиль караоке</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.AutoHide">Автоматическое скрытие</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.AutoHide.Description">Если включить этот параметр, тексты песен на рабочем столе будут скрыты при паузе</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.FullscreenHide">Скрыть полноэкранный режим</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.FullscreenHide.Description">Скрывать тексты песен на рабочем столе, когда программа работает в полноэкранном режиме</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.EnterHide">Прозрачное скрытие</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.EnterHide.Description">В режиме блокировки, при наведении указателя, установить высокую степень прозрачности для текста на рабочем столе</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.EnterHide.Opacity">Непрозрачность</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.EnterHide.Opacity.Description">Установите на 0, если хотите скрыть текст на рабочем столе</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Opacity">Непрозрачность</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.BorderThickness">Толщина границы</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.LyricsAlign">Выравнивание текста</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.LyricsAlign.ComboBox.Center">По центру (по умолчанию)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.LyricsAlign.ComboBox.Left">Влево</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.LyricsAlign.ComboBox.Right">Вправо</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors">Цвета</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.Description">Это может быть самый настраиваемый текст для рабочего стола</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.Button.Reset">Сбросить</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.DuoLineStyle">Стиль линии Duo</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.DuoLineStyle.Description">Две разделенные строки. Строки с переводом не будут использовать стиль двойной линии</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Fill">Выделенная строка (заливка)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Border">Выделенная строка (граница)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Fill">Следующая строка (граница)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Border">Следующая строка (граница)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.SingleLineStyle">Однострочный стиль</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.SingleLineStyle.Description">Отображать только одну строку. Перевод будет отображаться, если он доступен</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.SingleLineStyle.Fill">Заливка</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.SingleLineStyle.Border">Граница</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Fill">Строка перевода (заливка)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Border">Строка перевода (граница)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.KaraokeStyle">Стиль караоке</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.KaraokeStyle.Description">Это относится как к двойной, так и к одиночной линии</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Fill">Воспроизведено (заливка)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Border">Воспроизведено (граница)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Fill">Неигранное (заливка)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Border">Неигранное (граница)</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.ArtworkMainColor">Основной цвет изображения</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.Black">Черный</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.White">Белый</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Colors.Custom">Настроенный</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.ShadowEffect">Эффект тени</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.ShadowEffect.Description">Создать тень под текстом</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.ShadowEffect.Color">Цвет</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.ShadowEffect.Depth">Глубина</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.ShadowEffect.Direction">Направление</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.ShadowEffect.Direction.Description">По умолчанию: 315°</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.ShadowEffect.Opacity">Непрозрачность</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.ShadowEffect.Radius">Радиус</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Position">Позиция и размер</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Position.Description">Если тексты на рабочем столе отображаются неправильно, попробуйте выполнить сброс</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Position.Button.Reset">Сброс</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Lock">Заблокировать</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Lock.Description">Заблокировать положение и размер текста на рабочем столе</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Lock.Button.Unlock">Разблокировать</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Lock.HideUnlock">Скрыть кнопку снятия блокировки</system:String>
+    <system:String x:Key="String.Settings.DesktopLyrics.Lock.HideUnlock.Description">Скрыть кнопку снятия блокировки, чтобы она больше не мешала вашим действиям</system:String>
     <system:String x:Key="String.Settings.Hotkeys">Горячие клавиши</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Description">Здесь можно управлять глобальными горячими клавишами. (Используйте Backspace, чтобы очистить ярлык)</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Notification">Уведомление</system:String>
@@ -214,11 +282,7 @@
     <system:String x:Key="String.About.Donation">Пожертвование</system:String>
     <system:String x:Key="String.About.Thanklist">Список благодарностей</system:String>
     <system:String x:Key="String.About.Thanklist.SupporterListInfo">Отсортирован по сумме и времени, обновлен {0}</system:String>
-    <system:String x:Key="String.About.Thanklist.ThanksApple">Отдельная благодарность за оригинальный дизайн от Apple</system:String>
-    <system:String x:Key="String.About.Thanklist.ThanksSpotify">Отдельная благодарность Spotify за вклад в мир потоковой музыки</system:String>
-    <system:String x:Key="String.About.Thanklist.ThanksPremium">Отдельная благодарность компании Difer за предоставление аккаунта Spotify Premium</system:String>
-    <system:String x:Key="String.About.Thanklist.ThanksInsiders">Отдельная благодарность нашим инсайдерам</system:String>
-    <system:String x:Key="String.About.Thanklist.ThanksStorePurchase">Спасибо всем, кто приобрел Lyricify в Microsoft Store</system:String>
+    <system:String x:Key="String.About.Thanklist.ThanksStorePurchase">Спасибо всем, кто приобрел Lyricify Lite в Microsoft Store</system:String>
     <system:String x:Key="String.About.Internationalization">Интернационализация UI</system:String>
     <system:String x:Key="String.About.References">Цитата</system:String>
     <system:String x:Key="String.About.References.MITLicense.Brackets">(лицензия MIT)</system:String>
@@ -227,15 +291,19 @@
     <system:String x:Key="String.About.References.LGPLLicense21.Brackets">(Лицензия LGPL 2.1)</system:String>
     <system:String x:Key="String.About.References.NoLicense.Brackets">(без лицензии)</system:String>
     <system:String x:Key="String.About.CopyrightClaiming">Заявление о авторских правах</system:String>
+    <system:String x:Key="String.About.CopyrightClaiming.HotLyric">HotLyric™ Inside, авторские права © cnbluefire</system:String>
     <system:String x:Key="String.About.CopyrightClaiming.WXRIW">Авторские права © {0} WXRIW. Все права защищены</system:String>
 
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">Двойной клик для скрытия (2 сек)</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">По центру</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">Закрыть</system:String>
 
+    <system:String x:Key="String.Menu.DesktopLyrics.DuoLineMode">Двухлинейный режим</system:String>
+    <system:String x:Key="String.Menu.DesktopLyrics.LyricsAlign">Выравнивание текстов</system:String>
+
     <system:String x:Key="String.Dialog.Store.Title">Вы обнаружили эксклюзивную функцию!</system:String>
-    <system:String x:Key="String.Dialog.Store.Explore">Приглашаем вас исследовать Lyricify в Microsoft Store для улучшенного опыта. Ваша поддержка сильно поможет нам в постоянном совершенствовании и развитии приложения.</system:String>
-    <system:String x:Key="String.Dialog.Store.Purchase">Рассмотрите возможность приобретения Lyricify в Microsoft Store. Ваша поддержка поможет нам улучшать ваш опыт использования и продолжать разработку новых функций.</system:String>
+    <system:String x:Key="String.Dialog.Store.Explore">Приглашаем вас исследовать Lyricify Lite в Microsoft Store для улучшенного опыта. Ваша поддержка сильно поможет нам в постоянном совершенствовании и развитии приложения.</system:String>
+    <system:String x:Key="String.Dialog.Store.Purchase">Рассмотрите возможность приобретения Lyricify Lite в Microsoft Store. Ваша поддержка поможет нам улучшать ваш опыт использования и продолжать разработку новых функций.</system:String>
     <system:String x:Key="String.Dialog.Store.Button.GoToStore">Перейти в Microsoft Store</system:String>
     <system:String x:Key="String.Dialog.Store.Button.Close">Закрыть</system:String>
     <system:String x:Key="String.Dialog.Store.Donator">Уже являетесь поддерживающим пользователем?</system:String>
@@ -247,7 +315,7 @@
     <system:String x:Key="String.Sources.Lyrics.QQMusic">QQ Music</system:String>
     <system:String x:Key="String.Sources.Lyrics.NeteaseMusic">Netease Cloud Music</system:String>
     <system:String x:Key="String.Sources.Lyrics.KugouMusic">Kugou Music</system:String>
-    
+
     <system:String x:Key="String.Sources.Sessions.GrooveMusic">Groove Music</system:String>
     <system:String x:Key="String.Sources.Sessions.NeteaseMusic">Netease Cloud Music</system:String>
     <system:String x:Key="String.Sources.Sessions.NeteaseMusicUwp">Netease Cloud Music UWP</system:String>
@@ -273,7 +341,7 @@
     <system:String x:Key="String.Windows.Welcome.Guide.GetHelp.Description.2">Все необходимые ссылки вы найдете в меню значка в трее, включая документы руководства пользователя и ссылки на группы.</system:String>
     <system:String x:Key="String.Windows.Welcome.Button.Continue">Продолжить</system:String>
     <system:String x:Key="String.Windows.Welcome.Button.Finish">Завершить</system:String>
-    
+
     <system:String x:Key="String.Windows.FontSelector">Выбор шрифта</system:String>
     <system:String x:Key="String.Windows.FontSelector.InstalledFonts">Установленные шрифты</system:String>
     <system:String x:Key="String.Windows.FontSelector.SetFontFamily">Установить семейство шрифтов</system:String>
@@ -286,7 +354,7 @@
     <system:String x:Key="String.Windows.FontSelector.TypeHereToPreview">Введите здесь для предварительного просмотра</system:String>
     <system:String x:Key="String.Windows.FontSelector.OK">ОК</system:String>
     <system:String x:Key="String.Windows.FontSelector.Cancel">Отмена</system:String>
-    
+
     <system:String x:Key="String.Windows.Debug">Отладка</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics">Текст</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.MatchType">Уровень соответствия</system:String>
@@ -298,5 +366,8 @@
     <system:String x:Key="String.Windows.Debug.Lyrics.MatchType.Low">Низкий</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.MatchType.VeryLow">Очень низкий</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.MatchType.NoMatch">Нет совпадения</system:String>
+    <system:String x:Key="String.Windows.Debug.Lyrics.Type.Instrumental">Инструментальная</system:String>
+    <system:String x:Key="String.Windows.Debug.Lyrics.Type.NoLyricsOrNoTimeline">Нет текста песни или текст песни без временной шкалы</system:String>
+    <system:String x:Key="String.Windows.Debug.Lyrics.Type.NoLyrics">Трек не имеет текста</system:String>
     <system:String x:Key="String.Windows.Debug.Sessions">Сеанс</system:String>
 </ResourceDictionary>
