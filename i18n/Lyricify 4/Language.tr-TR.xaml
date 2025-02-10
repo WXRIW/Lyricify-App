@@ -1,4 +1,4 @@
-﻿<ResourceDictionary
+<ResourceDictionary
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
@@ -59,6 +59,7 @@
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Fullscreen">Tam Ekran</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.MobileUIFullscreen">Mobil UI Tam Ekran</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.LyricifyFullscreen">Lyricify Tam Ekran</system:String>
+
 
     <!--
         Pages
@@ -685,11 +686,13 @@
 
     <!--  Page Horizontal Notice  -->
     <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">Geçerli sayfa Mobil Görünümü desteklememektedir, Mobil Görünümden çıkmak için lütfen pencerenizin boyutunu değiştirin</system:String>
-    
+
+
+
     <!--
         Menu
     -->
-    
+
     <!--  MainWindow  -->
     <!--  Three Dot Main Menu  -->
     <system:String x:Key="String.Menu.MainWindow.Main.View">Görünüm</system:String>
@@ -701,7 +704,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.View.FontSize.In">Yazı Tipi Boyutunu Artır</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.View.FontSize.Out">Yazı Tipi Boyutunu Azalt</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.View.FontSize.Reset">Yazı Tipi Boyutunu Sıfırla</system:String>
-    
+
     <system:String x:Key="String.Menu.MainWindow.Main.RefreshLyrics">Şarkı Sözlerini Yenile</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Translation">Çeviri</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.DesktopLyrics">Masaüstü Şarkı Sözleri</system:String>
@@ -710,7 +713,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.AppleMusicLyricsTraditional">Apple Music Şarkı Sözleri (Geleneksel)</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.LyricifyFullscreen">Lyricify Tam Ekran</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.MobileUIFullscreen">Mobil Arayüz Tam Ekran</system:String>
-    
+
     <system:String x:Key="String.Menu.MainWindow.Main.Settings">Ayarlar</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced">Gelişmiş</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.BackupCenter">Yedekleme ve Otomasyon Merkezi</system:String>
@@ -724,7 +727,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.MediaSessionStatus">Medya Oturumu Durumu</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.NetworkDiagnose">Ağ Teşhisi</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.ChangeLyricifyPassword">Lyricify Hesap Şifresini Değiştir</system:String>
-    
+
     <system:String x:Key="String.Menu.MainWindow.Main.About">Hakkında &amp; Yardım</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.About">Hakkında</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow">Takip Et</system:String>
@@ -748,22 +751,22 @@
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyAllTranslations">Tüm Çevirileri Kopyala</system:String>
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyAllLinesWithTranslation">Tüm Satırları Çeviriyle Birlikte Kopyala</system:String>
     <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.Share">Paylaş</system:String>
-    
+
     <!--  Pinned Item  -->
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.Rename">Yeniden Adlandır</system:String>
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.MoveUp">Yukarı Taşı</system:String>
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.MoveDown">Aşağı Taşı</system:String>
     <system:String x:Key="String.Menu.MainWindow.PinnedItem.Remove">Kaldır</system:String>
-    
+
     <!--  Dynamic Lyrics Island  -->
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">Gizlemek için çift tıklayın (2 saniye)</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">Ortala</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">Kapat</system:String>
-    
+
     <!--  Desktop Lyrics  -->
     <system:String x:Key="String.Menu.DesktopLyrics.DuoLineMode">Çift Satır Modu</system:String>
     <system:String x:Key="String.Menu.DesktopLyrics.LyricsAlign">Şarkı Sözlerini Hizala</system:String>
-    
+
     <!--  Apple Music Lyrics  -->
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.In">Yakınlaştır</system:String>
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.Out">Uzaklaştır</system:String>
@@ -771,13 +774,14 @@
     <system:String x:Key="String.Menu.AppleMusicLyrics.Blur">Şarkı Sözlerini Bulanıklaştır</system:String>
     <system:String x:Key="String.Menu.AppleMusicLyrics.BoldText">Kalın Yazı</system:String>
     <system:String x:Key="String.Menu.AppleMusicLyrics.Translation">Çince Çeviri</system:String>
-    
+
+
     <!--  Notification Icon  -->
     <system:String x:Key="String.Menu.NotificationIcon.UnlockDesktopLyrics">Masaüstü Şarkı Sözlerini Kilitleme</system:String>
     <system:String x:Key="String.Menu.NotificationIcon.MinimizeToTray">Sistem Çekmecesine Küçült</system:String>
     <system:String x:Key="String.Menu.NotificationIcon.Restart">Yeniden Başlat</system:String>
     <system:String x:Key="String.Menu.NotificationIcon.Exit">Çıkış</system:String>
-    
+
     <!--  Pages  -->
     <system:String x:Key="String.Menu.Pages.CopyAlbumInfo">Albüm Bilgilerini Kopyala</system:String>
     <system:String x:Key="String.Menu.Pages.CopyAlbumUPC">Albüm UPC'sini Kopyala</system:String>
@@ -788,16 +792,16 @@
     <system:String x:Key="String.Menu.Pages.CopyUserInfo">Kullanıcı Bilgilerini Kopyala</system:String>
     <system:String x:Key="String.Menu.Pages.CopyTrackList">Parça Listesini Kopyala</system:String>
     <system:String x:Key="String.Menu.Pages.CopyTopTracks">En Popüler Parçaları Kopyala</system:String>
-    
+
     <system:String x:Key="String.Menu.Pages.Pin">Hızlı Erişime Sabitle</system:String>
     <system:String x:Key="String.Menu.Pages.Unpin">Hızlı Erişimden Kaldır</system:String>
-    
+
     <system:String x:Key="String.Menu.Pages.CopySpotifyURI">Spotify URI'sini Kopyala</system:String>
     <system:String x:Key="String.Menu.Pages.CopySpotifyLink">Spotify Bağlantısını Kopyala</system:String>
     <system:String x:Key="String.Menu.Pages.ShowInSpotify">Spotify'da Göster</system:String>
-    
+
     <system:String x:Key="String.Menu.Pages.SaveArtwork">Albüm Kapak Resmini Kaydet</system:String>
-    
+
     <!--  Track  -->
     <system:String x:Key="String.Menu.Track.CopyTrackInfo">Parça bilgisini kopyala</system:String>
     <system:String x:Key="String.Menu.Track.CopyTrackISRC">Parça ISRC'sini kopyala</system:String>
@@ -820,37 +824,41 @@
     <system:String x:Key="String.Menu.Track.SleepTimer.Left.Minutes">{0} dakika kaldı</system:String>
     <system:String x:Key="String.Menu.Track.SleepTimer.Left.Second">{0} saniye kaldı</system:String>
     <system:String x:Key="String.Menu.Track.SleepTimer.Left.Seconds">{0} saniye kaldı</system:String>
-    
+
     <system:String x:Key="String.Menu.Track.GoToPlaylist">Çalma listesine git</system:String>
     <system:String x:Key="String.Menu.Track.GoToAlbum">Albümüne git</system:String>
     <system:String x:Key="String.Menu.Track.GoToArtist">Sanatçısına git</system:String>
     <system:String x:Key="String.Menu.Track.ShowCredits">Katkıda Bulunanları Göster</system:String>
     <system:String x:Key="String.Menu.Track.OpenTrackManagement">Parça Yönetimini Aç</system:String>
-    
+
     <system:String x:Key="String.Menu.Track.CopySpotifyURI">Spotify URI'sını kopyala</system:String>
     <system:String x:Key="String.Menu.Track.CopySpotifyLink">Spotify bağlantısını kopyala</system:String>
     <system:String x:Key="String.Menu.Track.ShowInSpotify">Spotify'da göster</system:String>
-    
+
+
+
     <!--  Tools  -->
     <system:String x:Key="String.Tools.Page.RefreshButton">YENİDEN YÜKLE</system:String>
-    
+
     <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice">Üzgünüz, Spotify'ın API istek sınırına ulaştınız, lütfen daha sonra yeniden yüklemeyi deneyin.</system:String>
     <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice.Network">Üzgünüz, bir sorun oluştu. Lütfen internet bağlantınızı kontrol edin.</system:String>
     <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice.Internal">Üzgünüz, bir sorun oluştu. Lütfen geliştiriciyle iletişime geçin.</system:String>
-    
+
     <system:String x:Key="String.Tools.FollowButton.Follow">TAKİP ET</system:String>
     <system:String x:Key="String.Tools.FollowButton.Following">TAKİP EDİLİYOR</system:String>
-    
+
     <system:String x:Key="String.Tools.HeartButton.AskRemove">Bunu kütüphanenizden kaldırmak istediğinizden emin misiniz?</system:String>
-    
+
     <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeMore">DAHA FAZLA GÖSTER</system:String>
     <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeLess">DAHA AZ GÖSTER</system:String>
     <system:String x:Key="String.Tools.AdvancedItemsPanel.OnlyVisibleToYou">Sadece size görünür</system:String>
-    
+
     <system:String x:Key="String.Tools.DisplayItem.Artist">Sanatçı</system:String>
     <system:String x:Key="String.Tools.DisplayItem.By">{0} tarafından</system:String>
 
-        <!--
+
+
+    <!--
         Windows
     -->
 
