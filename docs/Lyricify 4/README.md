@@ -405,6 +405,10 @@ Lyricify 4 是免费软件，如果你觉得 Lyricify 4 做的不错，则可以
 
 如果你发现有人在非法销售本软件 (只有 Microsoft Store 中的 Lyricify 是官方发布)，请联系我们！感谢你的支持！
 
+## Self-contained 版本特殊说明
+Self-contained 版本包含 .NET 6.0 Desktop Runtime 运行时，仅建议那些因某些原因无法正常安装 .NET 6.0 运行时的用户使用。其他用户建议选择 Microsoft Store 版本或标准安装版（即不包含 .NET 运行时的版本）。  
+请注意：Self-contained 版本不支持自动更新。在发布新版本后，用户需要手动下载并安装更新。Lyricify 默认开启自动更新，尽管 self-contained 版本仍会尝试下载并安装更新，但由于更新内容为标准版本，即不包含 .NET 运行时，更新后 Lyricify 应用将无法启动。  
+
 ## 点击播放按钮没有反应
 打开 Lyricify 主界面，点击播放按钮，没开始播放，并提示 `需要 Premium`、`未找到可用设备，请开启你的 Spotify 客户端`、`429 错误，请稍后再试`。
 ### 导致原因 & 解决方案
