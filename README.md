@@ -115,7 +115,7 @@ Lyricify 4 是目前 Lyricify 系列中最具创新的功能结晶，在这里�
 标记 * 的创作采用 [CC BY-SA 4.0 协议](https://creativecommons.org/licenses/by-sa/4.0/) 进行许可。欢迎转载、使用、重新发布，但务必保留创作署名 Lyricify (及作者 WXRIW 或 XY Wang)，可用于商业目的，基于创意修改后的作品务必以相同的许可发布。如有任何疑问，请与我联系。  
 
 ## Lyricify Lite
-Lyricify Lite 运行于 Windows 平台，仅保留了灵动词岛功能，支持所有接入了 SMTC 的音乐播放器，包括 HyPlayer、LyricEase、Apple Music、QQ 音乐、网易云音乐 UWP、酷狗音乐、Foobar 2000、Groove Music 等诸多音乐软件。  
+Lyricify Lite 运行于 Windows 平台，仅保留了灵动词岛和桌面歌词功能，支持所有接入了 SMTC 的音乐播放器，包括 HyPlayer、LyricEase、Apple Music、QQ 音乐、网易云音乐 UWP、酷狗音乐、Foobar 2000、Groove Music 等诸多音乐软件。  
 
 点击这里查看 [Lyricify Lite 使用指南](/docs/Lyricify%20Lite/README.md)   
 
