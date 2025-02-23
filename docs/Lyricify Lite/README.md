@@ -25,7 +25,7 @@
 | Microsoft Edge | 时间轴较好；曲目信息取决于具体播放内容 | 一般，取决于具体内容 | 默认不启用 |
 
 **注意：**
-1. 请确保相关 app 已更新至最新版本，部分旧版本可能并不支持 SMTC。Spotify 用户建议使用 Lyricify 4，不建议使用 Lyricify Lite。
+1. 请确保相关 app 已更新至最新版本，部分旧版本可能并不支持 SMTC。Spotify 用户建议使用 Lyricify 4，不建议使用 Lyricify Lite，点击查看[具体原因](#spotify-用户应使用-lyricify-4)。
 2. 对于 SMTC 无时间轴信息的 app，Lyricify Lite 将使用内置定时器更新歌词进度，所以在手动修改播放进度后，Lyricify Lite 无法更新播放进度，歌词会发生前后错位。
 3. 曲目匹配“完美”指 Lyricify Lite 可以完美匹配当前播放的曲目。其它匹配程度指 Lyricify Lite 需要通过对曲目信息进行搜索来匹配对应曲目，所以匹配可能不精准或匹配不到。
 4. 所有接入 SMTC 的应用均支持 Lyricify Lite，未在上表中列出的 app 并不代表不支持 Lyricify Lite。
@@ -138,6 +138,15 @@ Lyricify Lite 会在启动时自动检查更新，有更新时会立即下载更
 Lyricify Lite 默认开启自动更新，你可以在设置中修改该策略以停用普通更新。需要注意的是，版本过低时的强制更新不受该设置影响。
 
 # 常见问题（逐应用）
+
+## Spotify 用户应使用 Lyricify 4
+对于 Spotify 用户，我们推荐使用 Lyricify 4，而不建议使用 Lyricify Lite。
+### 具体原因
+1. Lyricify 4 全称 Lyricify for Spotify，是专为 Spotify 研发的软件，针对 Spotify 提供了专门的优化，提升用户体验。
+2. Lyricify 4 提供独立的词库，用户可以标记或上传准确的歌词，并对错误歌词进行修正。与之相比，Lyricify Lite 当前尚未接入 Lyricify 4 的词库，使用时体验较差。
+3. Lyricify 4 不仅拥有更丰富的歌词展示界面，还包含诸如针对 Spotify 优化的全局快捷键、曲库查询、时间轴优化等更多实用功能。
+### 更多信息
+如果你仅使用 Lyricify Lite 的灵动词岛或桌面歌词功能配合 Spotify，仍然建议切换到 Lyricify 4。尽管它们在表面功能上相似，但在实际体验上，Lyricify 4 将为你提供更好的词库与功能支持。
 
 ## 使用 QQ 音乐时没有时间轴
 在使用 QQ 音乐时，手动修改播放进度后，Lyricify Lite 无法更新播放进度，歌词发生前后错位。
