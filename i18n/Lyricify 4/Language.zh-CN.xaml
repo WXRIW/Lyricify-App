@@ -31,6 +31,11 @@
     <system:String x:Key="String.MainWindow.UserWidget.LogOut">登出</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.Settings">设置</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.About">关于</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion">Lyricify 版本</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.FreeVersion">免费版</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Free">免费版</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Free.Store">免费版 (商店试用版)</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Purchased.Store">商店购买版</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount">Lyricify 账户</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.1">超级管理员</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.2">预览成员</system:String>
@@ -342,6 +347,8 @@
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Description">改变 Lyricify 的显示缩放比</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Button.Reset">重置</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Help">你也可以通过按下 Ctrl 键并使用鼠标滚轮去调整显示缩放比，或 &quot;Ctrl + -&quot; 以缩小，&quot;Ctrl + =&quot; 以放大，&quot;Ctrl + 0&quot; 以重置缩放。</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ShowLyricifyVersionInfo">显示 Lyricify 版本信息</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ShowLyricifyVersionInfo.Description">在用户组件区域显示 Lyricify 版本信息</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization">歌词样式个性化</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Description">Spotify 样式页中的歌词样式</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode">歌词样式个性化 (移动端样式)</system:String>
@@ -407,6 +414,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">模糊程度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">设置模糊程度 (iPadOS 横屏下的默认级别是 3，iPadOS 竖屏或 iOS 下的默认级别是 5)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">级别</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DisableBlurAtLyricsLineMouseOver">自动取消模糊</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DisableBlurAtLyricsLineMouseOver.Description">鼠标悬停时暂时禁用模糊效果</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">粗体文本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">在 Apple Music 歌词内使用粗体文本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FontPreset">字体预设</system:String>
@@ -613,6 +622,8 @@
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">启用时间轴修正</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">提高时间轴精确度</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.CrossfadeNotice">Crossfade (淡入/淡出) 已被启用，时间轴修正可能无法正常工作</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrectionPlus">启用时间轴修正 Plus</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrectionPlus.Description">通过更加侵入性的方式修正时间轴，以获得更好的修正效果</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">启用歌词预加载</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">预加载歌词可以让曲目切换时的歌词加载几乎无感</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableImagePreload">启用图片预加载</system:String>
@@ -965,7 +976,7 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveOne">确定要移除本配置吗？</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveAll">确定要移除所有配置吗？</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.AddDialogTitle">选择一个自定义配置文件</system:String>
-    <system:String x:Key="String.Window.CustomConfigurationManager.AddDialogTitle.Filter">Xaml 文档 (*.xaml)|*.xaml</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.AddDialogTitle.Filter">XAML 文档 (*.xaml)|*.xaml</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Rename">重命名</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.EditDescription">编辑描述</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenFile">打开文件</system:String>
@@ -975,6 +986,13 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Remove">移除</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">向上移动</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveDown">向下移动</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Name">未命名配置</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Name.Subscription">未命名订阅配置</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorSavingProfile">保存配置时出错</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorAddingProfile">添加配置时出错</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorAddingProfile.Subscription">添加订阅配置时出错</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ContentIllegal">配置内容不合法</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ContentIllegal.Subscription">订阅配置内容不合法</system:String>
 
     <!--  Device Latency Manager  -->
     <system:String x:Key="String.Window.DeviceLatencyManager">设备延迟管理器</system:String>
@@ -1170,6 +1188,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Apple Music 歌词导入</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.EnterIdOrLink">输入 ID 或链接</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet">获取歌词失败</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet.TokenExpired">获取歌词失败，服务器端 token 已过期，请等待开发者修复后再试。</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">未找到歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">这些歌词不是逐字的，继续导入？</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">将繁体中文转换为简体中文？</system:String>
@@ -1341,8 +1360,10 @@
 
     <!--  Dialogs  -->
     <system:String x:Key="String.Dialog.Store.Title">你发现了一项专属功能！</system:String>
+    <system:String x:Key="String.Dialog.Store.Title.FreePromotion">更多功能可以被解锁!</system:String>
     <system:String x:Key="String.Dialog.Store.Explore">我们邀请您在 Microsoft Store 探索 Lyricify，以获得更佳的体验。您的支持将极大地推动我们对其进行持续改进和发展。</system:String>
     <system:String x:Key="String.Dialog.Store.Purchase">我们鼓励您考虑在 Microsoft Store 购买 Lyricify。您的支持将帮助我们持续提升您的使用体验，并继续开发新功能。</system:String>
+    <system:String x:Key="String.Dialog.Store.StoreExclusiveExplanation">在 Microsoft Store 购买后，你可以解锁 Apple Music 歌词和灵动词岛的自定义字体、Lyricify 加速服务器、自定义欢迎消息等诸多功能。</system:String>
     <system:String x:Key="String.Dialog.Store.Button.GoToStore">前往 Microsoft Store</system:String>
     <system:String x:Key="String.Dialog.Store.Button.Close">关闭</system:String>
     <system:String x:Key="String.Dialog.Store.Donator">已经是打赏用户?</system:String>
@@ -1351,6 +1372,9 @@
     <!--
         Messages
     -->
+
+    <!--  Titles  -->
+    <system:String x:Key="String.Messages.Title.Error">Lyricify 错误</system:String>
 
     <!--  App  -->
     <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">未经授权的操作，重新登录以继续</system:String>

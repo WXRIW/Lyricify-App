@@ -25,7 +25,7 @@
     <system:String x:Key="String.NotifyIcon.Menu.About.GetNewReleases.LanzousCloud">Lanzous Cloud</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.Restart">Restart</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.Exit">Exit</system:String>
-
+    
     <system:String x:Key="String.Settings.General">General</system:String>
     <system:String x:Key="String.Settings.General.Language">Language</system:String>
     <system:String x:Key="String.Settings.General.Language.Description">Choose the display language of Lyricify (Some changes might need an app restart to be applied)</system:String>
@@ -74,6 +74,8 @@
     <system:String x:Key="String.Settings.PerApp.LyricsSources">Lyrics sources</system:String>
     <system:String x:Key="String.Settings.PerApp.LyricsSources.Items.MoveUp">Move up</system:String>
     <system:String x:Key="String.Settings.PerApp.LyricsSources.Items.MoveDown">Move down</system:String>
+    <system:String x:Key="String.Settings.PerApp.EnableLyrics">Enable lyrics</system:String>
+    <system:String x:Key="String.Settings.PerApp.EnableLyrics.Description">Enable lyrics for this app, otherwise only track information is displayed</system:String>
     <system:String x:Key="String.Settings.PerApp.Button.Modify">Modify</system:String>
     <system:String x:Key="String.Settings.PerApp.Button.Restore">Restore to default</system:String>
     <system:String x:Key="String.Settings.PerApp.Button.Close">Close</system:String>
@@ -302,12 +304,16 @@
     <system:String x:Key="String.Menu.DesktopLyrics.LyricsAlign">Lyrics Align</system:String>
 
     <system:String x:Key="String.Dialog.Store.Title">You've found an exclusive feature!</system:String>
+    <system:String x:Key="String.Dialog.Store.Title.FreePromotion">More features can be unlocked!</system:String>
     <system:String x:Key="String.Dialog.Store.Explore">We invite you to explore Lyricify Lite on the Microsoft Store for an enhanced experience. Your support will greatly contribute to its continued improvement and development.</system:String>
     <system:String x:Key="String.Dialog.Store.Purchase">We encourage you to consider purchasing Lyricify Lite on the Microsoft Store. Your support will help us enhance your experience and continue to develop new features.</system:String>
+    <system:String x:Key="String.Dialog.Store.StoreExclusiveExplanation">By purchasing the Microsoft Store version, you can unlock custom fonts for Dynamic Lyrics Island and Desktop Lyrics, and many other features.</system:String>
     <system:String x:Key="String.Dialog.Store.Button.GoToStore">Go to Microsoft Store</system:String>
     <system:String x:Key="String.Dialog.Store.Button.Close">Close</system:String>
     <system:String x:Key="String.Dialog.Store.Donator">Already a donator?</system:String>
     <system:String x:Key="String.Dialog.Store.Donator.ToolTip">Supporters who donate equal to or exceed the Microsoft Store selling price can request a free Microsoft Store redeem code from the developer.</system:String>
+
+    <system:String x:Key="String.Widget.LyricifyVersion.FreeVersion">Free version</system:String>
 
     <system:String x:Key="String.Messages.Updates.FoundNewVersion">New version detected</system:String>
     <system:String x:Key="String.Messages.Updates.FoundNewVersion.GoToStore">Click to check it out in Microsoft Store</system:String>
@@ -368,6 +374,7 @@
     <system:String x:Key="String.Windows.Debug.Lyrics.MatchType.NoMatch">No Match</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.Type.Instrumental">Instrumental music</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.Type.NoLyricsOrNoTimeline">No lyrics or lyrics not synced</system:String>
+    <system:String x:Key="String.Windows.Debug.Lyrics.Type.Disabled">Lyrics has been disabled</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.Type.NoLyrics">No lyrics for this track</system:String>
     <system:String x:Key="String.Windows.Debug.Sessions">Session</system:String>
 </ResourceDictionary>

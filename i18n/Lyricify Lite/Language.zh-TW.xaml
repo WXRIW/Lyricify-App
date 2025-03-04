@@ -74,6 +74,8 @@
     <system:String x:Key="String.Settings.PerApp.LyricsSources">歌詞來源</system:String>
     <system:String x:Key="String.Settings.PerApp.LyricsSources.Items.MoveUp">上移</system:String>
     <system:String x:Key="String.Settings.PerApp.LyricsSources.Items.MoveDown">下移</system:String>
+    <system:String x:Key="String.Settings.PerApp.EnableLyrics">啟用歌詞</system:String>
+    <system:String x:Key="String.Settings.PerApp.EnableLyrics.Description">啟用本 app 的歌詞，否則將只顯示曲目資訊</system:String>
     <system:String x:Key="String.Settings.PerApp.Button.Modify">修改</system:String>
     <system:String x:Key="String.Settings.PerApp.Button.Restore">恢復預設值</system:String>
     <system:String x:Key="String.Settings.PerApp.Button.Close">關閉</system:String>
@@ -302,12 +304,16 @@
     <system:String x:Key="String.Menu.DesktopLyrics.LyricsAlign">歌詞對齊</system:String>
 
     <system:String x:Key="String.Dialog.Store.Title">你發現了一個專屬功能！</system:String>
+    <system:String x:Key="String.Dialog.Store.Title.FreePromotion">更多功能可以解鎖!</system:String>
     <system:String x:Key="String.Dialog.Store.Explore">我們邀請您在 Microsoft Store 探索 Lyricify Lite，以獲得更佳的體驗。您的支援將極大地推動我們對其進行持續改進和發展。</system:String>
     <system:String x:Key="String.Dialog.Store.Purchase">我們鼓勵您考慮在 Microsoft Store 購買 Lyricify Lite。您的支援將幫助我們持續提升您的使用體驗，並持續開發新功能。</system:String>
+    <system:String x:Key="String.Dialog.Store.StoreExclusiveExplanation">在 Microsoft Store 購買後，你可以解鎖靈動詞島和桌面歌詞的自訂字體、Lyricify 加速伺服器等諸多功能。</system:String>
     <system:String x:Key="String.Dialog.Store.Button.GoToStore">前往 Microsoft Store</system:String>
     <system:String x:Key="String.Dialog.Store.Button.Close">關閉</system:String>
     <system:String x:Key="String.Dialog.Store.Donator">已經是打賞使用者?</system:String>
     <system:String x:Key="String.Dialog.Store.Donator.ToolTip">對於打賞金額等於或超過 Microsoft Store 售價的支援者，可向開發者索取免費的 Microsoft Store 兌換碼。</system:String>
+
+    <system:String x:Key="String.Widget.LyricifyVersion.FreeVersion">免費版</system:String>
 
     <system:String x:Key="String.Messages.Updates.FoundNewVersion">發現新版本</system:String>
     <system:String x:Key="String.Messages.Updates.FoundNewVersion.GoToStore">點選以在 Microsoft Store 中檢視</system:String>
@@ -368,6 +374,7 @@
     <system:String x:Key="String.Windows.Debug.Lyrics.MatchType.NoMatch">不符</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.Type.Instrumental">純音樂</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.Type.NoLyricsOrNoTimeline">沒有歌詞或歌詞沒有時間軸</system:String>
+    <system:String x:Key="String.Windows.Debug.Lyrics.Type.Disabled">歌詞已停用</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.Type.NoLyrics">曲目無歌詞</system:String>
     <system:String x:Key="String.Windows.Debug.Sessions">會話</system:String>
 </ResourceDictionary>

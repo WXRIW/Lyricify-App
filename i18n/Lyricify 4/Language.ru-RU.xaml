@@ -808,7 +808,7 @@
     <system:String x:Key="String.Menu.Track.AddToQueue">Добавить в очередь</system:String>
     <system:String x:Key="String.Menu.Track.SleepTimer">Таймер сна</system:String>
     <system:String x:Key="String.Menu.Track.SleepTimer.TurnOffTimer">Выкл.</system:String>
-    <system:String x:Key="String.Menu.Track.SleepTimer.StopAudioIn">Остановить аудио через: </system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.StopAudioIn">Остановить аудио через:</system:String>
     <system:String x:Key="String.Menu.Track.SleepTimer.PlayFullTrack">После всей песни</system:String>
     <system:String x:Key="String.Menu.Track.SleepTimer.WaitPlayFullTrack">Ожидание окончания текущей песни</system:String>
     <system:String x:Key="String.Menu.Track.SleepTimer.Time.1">1 мин.</system:String>
@@ -1491,7 +1491,7 @@
     <system:String x:Key="String.Wrapped.Messages.051">Более года уже Lyricify вас сопровождает!</system:String>
     <system:String x:Key="String.Wrapped.Messages.052">Это ваша поддержка делает Lyricify более превосходным.</system:String>
     <system:String x:Key="String.Wrapped.Messages.053">Вы в основном открывали Lyricify в {0}.</system:String>
-    <system:String x:Key="String.Wrapped.Messages.054">Боже, так amazing! </system:String>
+    <system:String x:Key="String.Wrapped.Messages.054">Боже, так amazing!</system:String>
     <system:String x:Key="String.Wrapped.Messages.055">Ваша самая «Top» дата - это {0}</system:String>
     <system:String x:Key="String.Wrapped.Messages.056">Знаете, почему?</system:String>
     <system:String x:Key="String.Wrapped.Messages.057">Прошел еще один год,</system:String>
