@@ -1,4 +1,4 @@
-﻿<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" 
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" 
                     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
     <x:String x:Key="String.Page.Main.Welcome">歡迎來到 Lyricify Mobile!</x:String>
     <x:String x:Key="String.Page.Main.CustomClient">自訂 API Client (可為空)</x:String>
@@ -17,7 +17,7 @@
     <x:String x:Key="String.Page.Main.Login.External.Button.UseInternal">使用內嵌登入</x:String>
 
     <x:String x:Key="String.Settings">設定</x:String>
-    <x:String x:Key="String.Settings.Description">透過這些設置，讓你的 Lyricify Mobile 更有個性</x:String>
+    <x:String x:Key="String.Settings.Description">透過這些設定，讓你的 Lyricify Mobile 更有個性</x:String>
     <x:String x:Key="String.Settings.GoToPage">前往設定頁</x:String>
     <x:String x:Key="String.Settings.RestartMessage">部分設定可能需要重啟才可生效</x:String>
     <x:String x:Key="String.Settings.Translation">中文翻譯</x:String>
@@ -57,7 +57,7 @@
     <x:String x:Key="String.Page.Thanks.Thanklist.Donators.1">Lyricify Mobile 特別感謝名單</x:String>
     <x:String x:Key="String.Page.Thanks.Thanklist.Donators.1.Notice">依金額和時間排序</x:String>
     <x:String x:Key="String.Page.Thanks.Thanklist.Donators.2">Lyricify 打賞感謝名單</x:String>
-    <x:String x:Key="String.Page.Thanks.Thanklist.Donators.2.Notice">按金額和時間排序，列表更新于 {0}</x:String>
+    <x:String x:Key="String.Page.Thanks.Thanklist.Donators.2.Notice">按金額和時間排序，列表更新於 {0}</x:String>
 
     <x:String x:Key="String.Message.Login.429">429 錯誤，請稍後</x:String>
     <x:String x:Key="String.Message.Login.429.RetryAfter">429 錯誤，將在 {0} 秒後重試</x:String>

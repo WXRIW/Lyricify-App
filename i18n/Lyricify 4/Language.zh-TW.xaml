@@ -1,4 +1,4 @@
-﻿<ResourceDictionary
+<ResourceDictionary
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
@@ -379,7 +379,7 @@
     <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation.Description">當中文翻譯可用時將會被顯示</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji">羅馬拼音</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.Description">選擇日語羅馬拼音的顯示選項</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.Disable">禁用</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.Disable">停用</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.TranslationFirst">翻譯優先</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiFirst">羅馬拼音優先</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiOnly">僅羅馬拼音</system:String>
@@ -422,13 +422,13 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FontPreset.Description">在 Apple Music 歌詞內使用預設字型</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode">卡拉 OK 模式</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Description">是的，現在你可以在 Apple Music 歌詞中使用卡拉 OK 樣式的歌詞</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK">禁用 CJK 歌詞的卡拉 OK 樣式</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK.Description">中日韓歌詞會使用更多資源來顯示，禁用可提高動畫效能</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK">停用 CJK 歌詞的卡拉 OK 樣式</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK.Description">中日韓歌詞會使用更多資源來顯示，停用可提高動畫效能</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation">啟用額外的動畫</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Description">更好的動畫，更好的體驗</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">上浮動畫</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">隨著歌詞走動，單字緩緩浮動，靈魂正被觸動</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Disabled">禁用</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Disabled">停用</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">低</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Medium">中度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">高 (預設)</system:String>
@@ -443,7 +443,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst.Description">讓歌詞預設為向右對齊</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling">拖動效果</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.Description">設定拖動效果的強度</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Disabled">禁用</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Disabled">停用</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Low">低</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Regular">一般</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Medium">中度 (預設)</system:String>
@@ -1156,7 +1156,7 @@
     <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">空曲目</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">伺服器歌詞資訊載入失敗</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message">你可以嘗試</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.1">1. 禁用代理，它可能會阻止與 Lyricify 伺服器的連線</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.1">1. 停用代理，它可能會阻止與 Lyricify 伺服器的連線</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.2">2. 登出 Lyricify，並重新登入</system:String>
     <system:String x:Key="String.Window.TrackManagement.Editor.WordWrap">自動換行</system:String>
     <system:String x:Key="String.Window.TrackManagement.Editor.Notice.AskSave">是否儲存變更？</system:String>
@@ -1532,7 +1532,7 @@
     <system:String x:Key="String.Wrapped.Report.TracksCount">歌曲總數</system:String>
     <system:String x:Key="String.Wrapped.Report.MobileViews">行動端瀏覽數</system:String>
     <system:String x:Key="String.Wrapped.Report.TrackOfTheYear">年度歌曲</system:String>
-    <system:String x:Key="String.Wrapped.Report.Sponsor">尊貴用戶</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor">尊貴使用者</system:String>
     <system:String x:Key="String.Wrapped.Report.Sponsor.True">是</system:String>
     <system:String x:Key="String.Wrapped.Report.LyricifyIndex">Lyricify 指數</system:String>
 </ResourceDictionary>
