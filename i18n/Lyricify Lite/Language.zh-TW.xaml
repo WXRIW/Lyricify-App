@@ -1,14 +1,14 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=netstandard">
 
     <system:String x:Key="String.NotifyIcon.Menu.DynamicLyricsIsland">靈動詞島</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.DesktopLyrics">桌面歌詞</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.DesktopLyrics.UnlockDesktopLyrics">解鎖桌面歌詞</system:String>
-    <system:String x:Key="String.NotifyIcon.Menu.RefreshLyrics">刷新歌詞</system:String>
-    <system:String x:Key="String.NotifyIcon.Menu.RefreshSession">刷新會話</system:String>
+    <system:String x:Key="String.NotifyIcon.Menu.RefreshLyrics">重新整理歌詞</system:String>
+    <system:String x:Key="String.NotifyIcon.Menu.RefreshSession">重新整理工作階段</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.Settings">設定</system:String>
-    <system:String x:Key="String.NotifyIcon.Menu.Debug">調試</system:String>
+    <system:String x:Key="String.NotifyIcon.Menu.Debug">除錯</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.AboutAndHelp">關於 &amp; 幫助</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.About">關於</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.About.Follow">追蹤</system:String>
@@ -46,14 +46,14 @@
     <system:String x:Key="String.Settings.Lyrics.ChineseTranslation.Description">當中文翻譯可用時將會被顯示</system:String>
     <system:String x:Key="String.Settings.Lyrics.Romaji">羅馬拼音</system:String>
     <system:String x:Key="String.Settings.Lyrics.Romaji.Description">選擇日語羅馬拼音的顯示選項</system:String>
-    <system:String x:Key="String.Settings.Lyrics.Romaji.ComboBox.Disable">禁用</system:String>
+    <system:String x:Key="String.Settings.Lyrics.Romaji.ComboBox.Disable">停用</system:String>
     <system:String x:Key="String.Settings.Lyrics.Romaji.ComboBox.TranslationFirst">翻譯優先</system:String>
     <system:String x:Key="String.Settings.Lyrics.Romaji.ComboBox.RomajiFirst">羅馬拼音優先</system:String>
     <system:String x:Key="String.Settings.Lyrics.Romaji.ComboBox.RomajiOnly">僅羅馬拼音</system:String>
     <system:String x:Key="String.Settings.Lyrics.PreferSimplifiedChinese">更喜歡簡體中文</system:String>
     <system:String x:Key="String.Settings.Lyrics.PreferSimplifiedChinese.Description">如果關閉此選項，中文字元將被轉換至繁體中文</system:String>
     <system:String x:Key="String.Settings.Lyrics.ChineseLongSentenceSegmentation">歌詞分割</system:String>
-    <system:String x:Key="String.Settings.Lyrics.ChineseLongSentenceSegmentation.Description">啟用中文長句分割 (刷新歌詞後生效)</system:String>
+    <system:String x:Key="String.Settings.Lyrics.ChineseLongSentenceSegmentation.Description">啟用中文長句分割 (重新整理歌詞後生效)</system:String>
     <system:String x:Key="String.Settings.Lyrics.ShowExplicitLyrics">顯示髒話</system:String>
     <system:String x:Key="String.Settings.Lyrics.ShowExplicitLyrics.Description">關閉此選項，髒話將會被取代為星號</system:String>
     <system:String x:Key="String.Settings.Lyrics.Source.NeteaseSyllable">網易雲音樂逐字歌詞</system:String>
@@ -69,7 +69,7 @@
     <system:String x:Key="String.Settings.PerApp.NoApps.Description">在支援 SMTC 的應用程式中播放音樂以載入設定。</system:String>
     <system:String x:Key="String.Settings.PerApp.EnableApp">啟用應用程式</system:String>
     <system:String x:Key="String.Settings.PerApp.EnableApp.Description">為此應用程式啟用 Lyricify Lite 中的歌詞</system:String>
-    <system:String x:Key="String.Settings.PerApp.SessionLatency">會話延遲</system:String>
+    <system:String x:Key="String.Settings.PerApp.SessionLatency">工作階段延遲</system:String>
     <system:String x:Key="String.Settings.PerApp.SessionLatency.Description">以毫秒為單位的整數，預設值為 0</system:String>
     <system:String x:Key="String.Settings.PerApp.LyricsSources">歌詞來源</system:String>
     <system:String x:Key="String.Settings.PerApp.LyricsSources.Items.MoveUp">上移</system:String>
@@ -77,7 +77,7 @@
     <system:String x:Key="String.Settings.PerApp.EnableLyrics">啟用歌詞</system:String>
     <system:String x:Key="String.Settings.PerApp.EnableLyrics.Description">啟用本 app 的歌詞，否則將只顯示曲目資訊</system:String>
     <system:String x:Key="String.Settings.PerApp.Button.Modify">修改</system:String>
-    <system:String x:Key="String.Settings.PerApp.Button.Restore">恢復預設值</system:String>
+    <system:String x:Key="String.Settings.PerApp.Button.Restore">復原預設值</system:String>
     <system:String x:Key="String.Settings.PerApp.Button.Close">關閉</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland">靈動詞島</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.BylandMode">靈動大陸模式</system:String>
@@ -108,7 +108,7 @@
     <system:String x:Key="String.Settings.DynamicLyricsIsland.KaraokeMode.Animation.Description">更好的動畫，更好的體驗</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.KaraokeMode.Animation.Float">上浮動畫</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.KaraokeMode.Animation.Float.Description">隨著歌詞走動，單字緩緩浮動，靈魂正被觸動</system:String>
-    <system:String x:Key="String.Settings.DynamicLyricsIsland.KaraokeMode.Animation.Float.ComboBox.Disabled">禁用</system:String>
+    <system:String x:Key="String.Settings.DynamicLyricsIsland.KaraokeMode.Animation.Float.ComboBox.Disabled">停用</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.KaraokeMode.Animation.Float.ComboBox.Low">低</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.KaraokeMode.Animation.Float.ComboBox.Medium">中度</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.KaraokeMode.Animation.Float.ComboBox.High">高 (預設)</system:String>
@@ -184,23 +184,23 @@
     <system:String x:Key="String.Settings.DesktopLyrics.Lock.Button.Unlock">解除鎖定</system:String>
     <system:String x:Key="String.Settings.DesktopLyrics.Lock.HideUnlock">隱藏取消鎖定按鈕</system:String>
     <system:String x:Key="String.Settings.DesktopLyrics.Lock.HideUnlock.Description">隱藏取消鎖定按鈕，這樣它就不會打擾你的操作了</system:String>
-    <system:String x:Key="String.Settings.Hotkeys">熱鍵</system:String>
+    <system:String x:Key="String.Settings.Hotkeys">快速鍵</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Description">你可以在這裡管理全域快捷鍵。(使用倒退鍵 (Backspace) 以清除快捷鍵)</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Notification">通知</system:String>
-    <system:String x:Key="String.Settings.Hotkeys.Notification.Description">註冊熱鍵失敗時的通知</system:String>
+    <system:String x:Key="String.Settings.Hotkeys.Notification.Description">註冊快速鍵失敗時的通知</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Hotkey.DesktopLyrics">桌面歌詞</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Hotkey.DynamicLyricsIsland">靈動詞島</system:String>
-    <system:String x:Key="String.Settings.Hotkeys.Hotkey.RefreshLyrics">刷新歌詞</system:String>
+    <system:String x:Key="String.Settings.Hotkeys.Hotkey.RefreshLyrics">重新整理歌詞</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Hotkey.ResetWindow">重設視窗</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Hotkey.PlayPause">播放 / 暫停</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Hotkey.PreviousTrack">上一首</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Hotkey.NextTrack">下一首</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Button.ResetAll">重設所有快捷鍵</system:String>
-    <system:String x:Key="String.Settings.Hotkeys.Button.Save">保存</system:String>
+    <system:String x:Key="String.Settings.Hotkeys.Button.Save">儲存</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Button.Cancel">取消</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Message.FailedAt">註冊下列快捷鍵時失敗：</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Message.CheckUsing">請檢查是否有其他程式佔用了這些快捷鍵。</system:String>
-    <system:String x:Key="String.Settings.Hotkeys.Save.Success">成功保存。</system:String>
+    <system:String x:Key="String.Settings.Hotkeys.Save.Success">成功儲存。</system:String>
     <system:String x:Key="String.Settings.DeviceLatency">裝置延遲</system:String>
     <system:String x:Key="String.Settings.DeviceLatency.Description">為每個播放裝置設定獨立的裝置延遲值。</system:String>
     <system:String x:Key="String.Settings.DeviceLatency.Description.Additional">此參數是為重播裝置的延遲 (如藍牙裝置等) 設計的，不要將此用於設定歌詞時間差。</system:String>
@@ -328,7 +328,7 @@
     <system:String x:Key="String.Sources.Sessions.QQMusic">QQ 音樂</system:String>
     <system:String x:Key="String.Sources.Sessions.QQMusicUwp">QQ 音樂 UWP</system:String>
     <system:String x:Key="String.Sources.Sessions.KugouMusic">酷狗音樂</system:String>
-    <system:String x:Key="String.Sources.Sessions.Unknown">未知會話</system:String>
+    <system:String x:Key="String.Sources.Sessions.Unknown">未知工作階段</system:String>
 
     <system:String x:Key="String.Windows.Welcome">歡迎 - Lyricify Lite</system:String>
     <system:String x:Key="String.Windows.Welcome.Title">歡迎來到 Lyricify Lite!</system:String>
@@ -340,11 +340,11 @@
     <system:String x:Key="String.Windows.Welcome.Guide.AppSupport.Description.1">Lyricify Lite 適用於所有存取了SMTC 的app，包括Spotify、Apple Music、Foobar 2000、QQ 音樂、網易雲音樂UWP、酷狗音樂，甚至還支援你的網頁瀏覽器(瀏覽器預設為停用狀態)。</system:String>
     <system:String x:Key="String.Windows.Welcome.Guide.AppSupport.Description.2">提醒一下，部分 app 由於其 SMTC 資訊不足或不準確而無法得到很好的支援。如 Apple Music、QQ 音樂等。</system:String>
     <system:String x:Key="String.Windows.Welcome.Guide.TrayIcon">在哪裡可以找到 Lyricify Lite？</system:String>
-    <system:String x:Key="String.Windows.Welcome.Guide.TrayIcon.Description.1">你總是可以在系統匣 (通知列) 找到運行中的 Lyricify Lite。</system:String>
+    <system:String x:Key="String.Windows.Welcome.Guide.TrayIcon.Description.1">你總是可以在系統匣 (通知列) 找到執行中的 Lyricify Lite。</system:String>
     <system:String x:Key="String.Windows.Welcome.Guide.TrayIcon.Description.2">在哪裡，你可以開啟或關閉功能、修改設定、進行偵錯或關閉 Lyricify Lite。</system:String>
     <system:String x:Key="String.Windows.Welcome.Guide.GetHelp">如何取得協助？</system:String>
     <system:String x:Key="String.Windows.Welcome.Guide.GetHelp.Description.1">加入我們的 QQ 群組或 Telegram 群組。你也可以在我們的 GitHub 倉庫獲得協助。</system:String>
-    <system:String x:Key="String.Windows.Welcome.Guide.GetHelp.Description.2">你可以在托盤選單中找到你所需要的所有鏈接，包括使用指南文檔和群組鏈接。</system:String>
+    <system:String x:Key="String.Windows.Welcome.Guide.GetHelp.Description.2">你可以在系統匣選單中找到你所需要的所有連結，包括使用指南文件和群組連結。</system:String>
     <system:String x:Key="String.Windows.Welcome.Button.Continue">繼續</system:String>
     <system:String x:Key="String.Windows.Welcome.Button.Finish">完成</system:String>
 
@@ -361,7 +361,7 @@
     <system:String x:Key="String.Windows.FontSelector.OK">確定</system:String>
     <system:String x:Key="String.Windows.FontSelector.Cancel">取消</system:String>
 
-    <system:String x:Key="String.Windows.Debug">調試</system:String>
+    <system:String x:Key="String.Windows.Debug">除錯</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics">歌詞</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.MatchType">匹配程度</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.MatchType.Perfect">完美</system:String>
@@ -376,5 +376,5 @@
     <system:String x:Key="String.Windows.Debug.Lyrics.Type.NoLyricsOrNoTimeline">沒有歌詞或歌詞沒有時間軸</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.Type.Disabled">歌詞已停用</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.Type.NoLyrics">曲目無歌詞</system:String>
-    <system:String x:Key="String.Windows.Debug.Sessions">會話</system:String>
+    <system:String x:Key="String.Windows.Debug.Sessions">工作階段</system:String>
 </ResourceDictionary>
