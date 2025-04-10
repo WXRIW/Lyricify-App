@@ -21,14 +21,13 @@ If you have already completed the preparation steps, you can directly use the pr
    - App description: Lyricify Custom API Client
    - Website: (Leave it empty)
    - Redirect URI:
-     - http://localhost:766/callback
+     - http://127.0.0.1:766/callback
      - lyricify://callback
 5. Check `Web API` in `Which API/SDKs are you planning to use?` section;  
    Check `I understand and agree with Spotify's Developer Terms of Service and Design Guidelines`;  
    Click `Save`.  
 ![](pic/Demo-Pic03.png)
-1. Click `Settings` at the right top corner.
-2. Now you can see your Client ID，Click `View client secret` to show the Client secret. `Client ID` and `Client Secret` are needed in future steps.
+6. Now you can see your Client ID，Click `View client secret` to show the Client secret. `Client ID` and `Client Secret` are needed in future steps.
 ![](pic/Demo-Pic04.png)
 
 ## Works on Lyricify
@@ -37,3 +36,25 @@ If you have already completed the preparation steps, you can directly use the pr
 ![](pic/Demo-Pic05_en-US.png)
 3. Enter `Client ID` and `Client Secret` you previously obtained.
 4. Continue the login, and just enjoy Lyricify.
+
+# Common Issues
+
+## Error during authorization: INVALID_CLIENT: Invalid redirect URI
+Please check if the `Redirect URI` is entered correctly. Make sure it includes `http://127.0.0.1:766/callback` and **not** `https://127.0.0.1:766/callback`.
+
+### Important Note
+If you **created and configured your custom API Client before April 9, 2025**, please make sure to update your app settings in the Spotify Developer Dashboard. Due to recent changes in Spotify's redirect URI validation, **URIs using `localhost` are no longer accepted**. You need to replace the original:
+
+```
+http://localhost:766/callback
+```
+
+with:
+
+```
+http://127.0.0.1:766/callback
+```
+
+Go to your app’s settings page, and add `http://127.0.0.1:766/callback` under the **Redirect URIs** section. Once updated, your custom API Client should work properly during authorization.
+
+> ⚠️ Note: `127.0.0.1` is the IP address equivalent of `localhost`. Under Spotify's current validation rules, `127.0.0.1` is accepted, while `localhost` is not.
