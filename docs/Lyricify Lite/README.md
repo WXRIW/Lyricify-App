@@ -179,6 +179,14 @@ PotPlayer 不是最新版，没有 SMTC 功能。
 ### 解决方案
 更新 PotPlayer 至最新版，最低版本要求 240618。
 
+## Apple Music 时间轴不稳定
+使用 Apple Music 时，时间轴不稳定，存在异常跳动现象。
+### 导致原因
+Apple Music 提供的时间轴精度很低，且上报不稳定。  
+这个问题自 Apple Music Windows 发布以来就已存在，Lyricify Lite 已尽力优化。
+### 解决方案
+与 Apple 取得联系，并向他们寻求帮助。或更换其他音乐 app，以提升你的 Lyricify 使用体验。
+
 # 附录
 
 ## Lyricify 名词
