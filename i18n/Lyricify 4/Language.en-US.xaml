@@ -886,6 +886,7 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink.Help">Copy Spotify Authorization Link</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink">Succeeded authorization not detected:</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink.Help">Enter Authorization Callback Link Manually</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.InvalidClient.InvalidRedirectUri.Help">Spotify's Fault, Click Here for the Solution</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configure">Configure Custom API Client</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configured">Custom API Client Configured</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.ProxySettings">Proxy Settings</system:String>

@@ -886,6 +886,7 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink.Help">複製 Spotify 授權連結</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink">成功的授權未被檢測到：</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink.Help">手動輸入授權回溯連結</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.InvalidClient.InvalidRedirectUri.Help">Spotify 的問題，點擊這裡查看解決方案</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configure">配置自訂 API Client</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configured">已配置自訂 API Client</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.ProxySettings">代理設定</system:String>
