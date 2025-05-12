@@ -42,8 +42,8 @@ https://t.me/lyricifyreleases
 
 **QQ Group / QQ 群:**  
 [点击加入群聊【Lyricify 用户群 1】](https://jq.qq.com/?_wv=1027&k=hZG8VRV4)（群号：972282479）（已满）  
-[点击加入群聊【Lyricify 用户群 2】](https://jq.qq.com/?_wv=1027&k=l0Sy2aGi)（群号：653663090）（已满）  
-[点击加入群聊【Lyricify 用户群 3】](https://jq.qq.com/?_wv=1027&k=nUr4jHVU)（群号：515098369）（已满）  
+[点击加入群聊【Lyricify 用户群 2】](https://jq.qq.com/?_wv=1027&k=l0Sy2aGi)（群号：653663090）（剩余少许空位）  
+[点击加入群聊【Lyricify 用户群 3】](https://jq.qq.com/?_wv=1027&k=nUr4jHVU)（群号：515098369）（剩余少许空位）  
 [点击加入群聊【Lyricify 用户群 4】](https://qm.qq.com/q/ejJ0huLLsQ)（群号：630964785）（剩余少许空位）  
 [点击加入群聊【Lyricify 用户群 5】](https://qm.qq.com/q/wGe070e4rS)（群号：561373781）（剩余少许空位）  
 [点击加入群聊【Lyricify 用户群 6】](https://qm.qq.com/q/TEj2v8gvK2)（群号：636998823）  
@@ -76,7 +76,7 @@ A fantastic app to provide auto-scrolling lyrics and additional functions for [S
 
 点击这里查看 [Lyricify 4 使用指南](/docs/Lyricify%204/README.md)  
 
-Lyricify 4 是免费软件，如果你觉得 Lyricify 4 做的不错，则可以通过以下渠道支持：
+Lyricify 4 是免费软件，仅部分个性化设置为商店版独享。如果你觉得 Lyricify 4 做的不错，则可以通过以下渠道支持：
 - 在软件中，菜单-关于页里有打赏方式
 - 在 [Microsoft Store](https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full) 中购买
 

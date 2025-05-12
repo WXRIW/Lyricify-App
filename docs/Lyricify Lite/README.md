@@ -69,7 +69,7 @@ Lyricify Lite 目前有灵动词岛和桌面歌词功能，支持所有接入了
 在 Microsoft Store 购买 Lyricify 是对 Lyricify 开发者的一种支持和信任，感谢所有购买或打赏过 Lyricify 的用户！也欢迎各位用户给出 5 星好评和评语，这对我有很大帮助！  
 
 ### 更多信息
-Lyricify Lite 是免费软件，如果你觉得 Lyricify Lite 做的不错，则可以通过以下渠道支持：
+Lyricify Lite 是免费软件，仅部分个性化设置为商店版独享。如果你觉得 Lyricify Lite 做的不错，则可以通过以下渠道支持：
 - 在软件中，菜单-关于页里有打赏方式
 - 在 [Microsoft Store](https://apps.microsoft.com/store/detail/9NLTPSV395K2?launch=true&mode=full) 中购买
 
