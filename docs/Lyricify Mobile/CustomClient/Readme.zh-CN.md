@@ -56,13 +56,3 @@ http://127.0.0.1:766/callback
 请进入对应应用的设置页面，并在 `Redirect URI` 中添加 `http://127.0.0.1:766/callback`。完成后即可正常使用自定义 API Client 进行授权。  
 
 > ⚠️ 注意：`127.0.0.1` 是 `localhost` 的等效 IP 地址，在当前 Spotify 的校验机制中被视为有效地址，而 `localhost` 会被拒绝。
-
-## 授权时提示 INVALID_CLIENT: Insecure redirect URI
-近期，Spotify 正式强制执行新的登录授权政策，要求使用更安全的重定向 URI。这一变更已影响到 Lyricify 系列中的 Lyricify 4 和 Lyricify Mobile，而 Lyricify 3 也将在 2025 年 11 月起受到影响。  
-
-Lyricify Mobile 使用了非 HTTP 协议的重定向 URI（lyricify://callback），理论上仍符合 Spotify 的新安全要求。然而，目前 Spotify 存在误判问题，将这类 URI 错误地视为不安全并阻止授权流程。  
-
-对于 2025 年 4 月 9 日之后创建的应用，将直接遭遇授权被拦截的问题。目前已有开发者在 Spotify 社区中反馈此问题，但尚未获得官方修复。  
-
-欢迎你前往下方链接留言反馈，帮助推动问题尽快得到解决：https://community.spotify.com/t5/Spotify-for-Developers/Web-API-authetication-after-2025-04-09/td-p/6915683  
-关联 issue：https://github.com/WXRIW/Lyricify-App/issues/483  

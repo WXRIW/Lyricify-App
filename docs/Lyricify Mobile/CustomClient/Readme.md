@@ -57,15 +57,3 @@ http://127.0.0.1:766/callback
 Go to your app’s settings page, and add `http://127.0.0.1:766/callback` under the **Redirect URIs** section. Once updated, your custom API Client should work properly during authorization.
 
 > ⚠️ Note: `127.0.0.1` is the IP address equivalent of `localhost`. Under Spotify's current validation rules, `127.0.0.1` is accepted, while `localhost` is not.
-
-## Authorization Error: INVALID_CLIENT: Insecure redirect URI
-Recently, Spotify has officially enforced a new login authorization policy requiring the use of more secure redirect URIs. This change has impacted the Lyricify series, including Lyricify 4 and Lyricify Mobile, and Lyricify 3 will also be affected starting from November 2025.  
- 
-Lyricify Mobile uses a non-HTTP redirect URI (`lyricify://callback`), which, in theory, still complies with Spotify's new security requirements. However, Spotify is currently experiencing a misjudgment issue, mistakenly identifying such URIs as insecure and blocking the authorization flow.
-
-For applications created after April 9, 2025, this issue will cause immediate authorization failures. Developers have already reported the problem in the Spotify Community, but no official fix has been provided yet.
-
-You're welcome to leave a comment at the following link to help accelerate the resolution of this issue:  
-https://community.spotify.com/t5/Spotify-for-Developers/Web-API-authetication-after-2025-04-09/td-p/6915683  
-
-Related issue: https://github.com/WXRIW/Lyricify-App/issues/483

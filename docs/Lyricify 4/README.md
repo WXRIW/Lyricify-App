@@ -397,7 +397,7 @@ Lyricify 4 支持内置播放，但是并不建议使用。这只是一个测试
 在 Microsoft Store 购买 Lyricify 是对 Lyricify 开发者的一种支持和信任，感谢所有购买或打赏过 Lyricify 的用户！也欢迎各位用户给出 5 星好评和评语，这对我有很大帮助！  
 
 ### 更多信息
-Lyricify 4 是免费软件，如果你觉得 Lyricify 4 做的不错，则可以通过以下渠道支持：
+Lyricify 4 是免费软件，仅部分个性化设置为商店版独享。如果你觉得 Lyricify 4 做的不错，则可以通过以下渠道支持：
 - 在软件中，菜单-关于页里有打赏方式
 - 在 [Microsoft Store](https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full) 中购买
 
