@@ -35,7 +35,7 @@
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession">Media Session</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">接続済み</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">接続されない</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. Media Session は、Spotify のデスクトップ版（ストアバージョンを含む）で再生している時のみ利用可能で、それ以外（ウェブバージョン、モバイルバージョンなど）では利用できません！2. Lyricify が現在の再生情報を得た場合のみ、Media Session への接続を試みます！</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. Media Session は、Spotify のデスクトップ版（ストアバージョンを含む）で再生している時のみ利用可能で、それ以外（ウェブバージョン、モバイルバージョンなど）では利用できません！&#x000A;2. Lyricify が現在の再生情報を得た場合のみ、Media Session への接続を試みます！</system:String>
     <system:String x:Key="String.MainWindow.PinnedArea.Notice">アイテムをロックしてすばやくアクセス！</system:String>
     <system:String x:Key="String.MainWindow.Frame.Control.GoBack">戻る</system:String>
     <system:String x:Key="String.MainWindow.Frame.Control.GoForward">進む</system:String>
@@ -246,7 +246,7 @@
     <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary">問題が発生したため、PCを再起動する必要があります。</system:String>
     <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary.WithTrackName">問題が発生したため、{0} を再起動する必要があります。</system:String>
     <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full">問題が発生したため、PCを再起動する必要があります。エラー情報を取集しています。自動的に再起動します。</system:String>
-    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full.WithTrackName" xml:space="preserve">問題が発生したため、{0} を再起動する必要があります。エラー情報を取集しています。自動的に再起動します。</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full.WithTrackName" xml:space="preserve">問題が発生したため、{0} を再起動する必要があります。&#x0a;エラー情報を取集しています。自動的に再起動します。</system:String>
     <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.PercentComplete">{0}% 完了</system:String>
     <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Main">この問題と可能な解決方法の詳細については、https://lyricify.appを参照してください。</system:String>
     <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Call">サポート担当者に連絡する場合は、この情報を伝えてください</system:String>
@@ -415,7 +415,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MagicStripFeature.Description">マジックストリップ使う時に機能説明を表示する</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial">Magic Strip のチュートリアルを表示する</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Description">Apple Music の歌詞を入力した後、常に Magic Strip チュートリアルを表示する</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">Magic Strip 登場！ ストリップボタンを押すと、Apple Music スタイルを終了できる。下にスワイプして最小化する、左または右にスワイプして最大化または復元する、上にスワイプしてキャンセルする。マウスの右ボタンを押して上にスワイプし、歌詞の最初の行に移動することもできる、下にスワイプして歌詞の最後の行に移動し、左または右にスワイプして現在の行に移動し、単一の右クリックは何もしない。</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">Magic Strip 登場！ &#x000A;&#x000A;ストリップボタンを押すと、Apple Music スタイルを終了できる。&#x000A;下にスワイプして最小化する、&#x000A;左または右にスワイプして最大化または復元する、&#x000A;上にスワイプしてキャンセルする。&#x000A;&#x000A;マウスの右ボタンを押して上にスワイプし、歌詞の最初の行に移動することもできる、&#x000A;下にスワイプして歌詞の最後の行に移動し、&#x000A;左または右にスワイプして現在の行に移動し、&#x000A;単一の右クリックは何もしない。</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime">アニメーションによる時刻表示</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime.Description">タイムステータスの変更でアニメーションを表示する</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">ズーム リストア</system:String>
@@ -488,7 +488,7 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">陸地モード</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">陸地か島か、それはあなた次第です！ 異なるスタイルは異なる機能を楽しむ</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dynamic Lyrics Island は、バイランドモードではカーソルの入り口で自動的に消えますが、アイランドモードではカーソルで島を動かすことができる。Dynamic Lyrics Island は、アイランド モードでは右クリック メニューで閉じることができますが、バイランド モードでは、メイン メニューまたはホットキーでしか閉じることができない。</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dynamic Lyrics Island は、バイランドモードではカーソルの入り口で自動的に消えますが、アイランドモードではカーソルで島を動かすことができる。Dynamic Lyrics Island は、&#x000A;アイランド モードでは右クリック メニューで閉じることができますが、バイランド モードでは、メイン メニューまたはホットキーでしか閉じることができない。</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex">スクリーン番号</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.Description">Dynamic Lyrics Island は陸地モードのとき表示するスクリーン</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem">スクリーン {0}</system:String>
@@ -597,7 +597,7 @@
     <system:String x:Key="String.Page.Settings.Advanced">高度な設定</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">再リンクを有効にする</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">トラックが再リンクされたときに、元のトラックのアートワークの代わりに再リンクされたアートワークを使用する</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">トラックが利用可能かどうかは、ユーザーの Spotify プロフィール設定に登録されている国によって異なります。多くの場合、Spotify はそのカタログにトラックの複数のインスタンスを持っており、それぞれが異なる市場のセットで利用可能です。これは、アルバムのトラックが異なる市場で異なるライセンスの下で複数回リリースされている場合によく起こります。これらのトラックはリンクされており、ユーザーが自分のマーケットで入手できないトラックを再生しようとすると、スポティファイのモバイル、デスクトップ、ウェブのプレーヤーは、ユーザーのマーケットで入手可能な別のインスタンスのトラックを再生しようとする。</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">トラックが利用可能かどうかは、ユーザーの Spotify プロフィール設定に登録されている国によって異なります。多くの場合、Spotify はそのカタログにトラックの複数のインスタンスを持っており、それぞれが異なる市場のセットで利用可能です。&#x000A;&#x000A;これは、アルバムのトラックが異なる市場で異なるライセンスの下で複数回リリースされている場合によく起こります。これらのトラックはリンクされており、ユーザーが自分のマーケットで入手できないトラックを再生しようとすると、スポティファイのモバイル、デスクトップ、ウェブのプレーヤーは、ユーザーのマーケットで入手可能な別のインスタンスのトラックを再生しようとする。</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine">Lyricify 人工知能エンジン</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description">LyricifyとSpotifyの接続を支援するため、強力な AI 技術と機能的なサポートを提供する</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description.Premium">Spotify Premium が必要！</system:String>
@@ -1101,7 +1101,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.GetTimestampByMillisecond">ミリ秒単位でタイムスタンプを取得する</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.MoveTo">…へ移動する</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.QrcSpaceMove">先頭のスペースを末尾に移動する</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.LyricifyLyricsVault.Attention" xml:space="preserve">注意：QQ ミュージックや NetEase Cloud Music に歌詞がある場合は、手動で歌詞をインポートしないでください。Lyricify の「検索」ボタンで該当する歌詞が見つからない場合でも、必ず QQ ミュージックおよび NetEase Cloud Music のアプリ内で手動検索を行い、歌詞が存在しないことを確認してから「歌詞なし」としてください。このルールに違反するとアカウントが制限される可能性があります。インポートを続行しますか？</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.LyricifyLyricsVault.Attention" xml:space="preserve">注意：&#x000A;QQ ミュージックや NetEase Cloud Music に歌詞がある場合は、手動で歌詞をインポートしないでください。&#x000A;Lyricify の「検索」ボタンで該当する歌詞が見つからない場合でも、必ず QQ ミュージックおよび NetEase Cloud Music のアプリ内で手動検索を行い、歌詞が存在しないことを確認してから「歌詞なし」としてください。&#x000A;このルールに違反するとアカウントが制限される可能性があります。&#x000A;インポートを続行しますか？</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Apple Music 歌詞インポート</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.EnterIdOrLink">ID またはリンクを入力してください</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet">歌詞の取得に失敗しました</system:String>
@@ -1169,7 +1169,7 @@
     <system:String x:Key="String.Page.BackupCenter.Home.Transfer.Description">データを他のアカウントに移行する</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Automation">自動化</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Automation.Description">Lyricify にライブラリを管理させて</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Home.PersonalUseWarning" xml:space="preserve">個人利用のみ！Lyricify バックアップセンターを商業活動に利用したい場合は、まずLyricifyに連絡する必要があります。</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.PersonalUseWarning" xml:space="preserve">個人利用のみ！&#x000A;Lyricify バックアップセンターを商業活動に利用したい場合は、まずLyricifyに連絡する必要があります。</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step1">ステップ1: バックアップしたいものを選択する</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step2">ステップ2: バックアップの出力形式を選択する</system:String>
     <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step3">ステップ3: ご必要な場合、パスワードを設定できる</system:String>
@@ -1276,7 +1276,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 エラー、少し後で試してください。</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Timeout">タイムアウトエラーが発生しました。少し後で試してください。</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">HTTP リクエストエラー、少し後で試してください。</system:String>
-    <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">Lyricify アカウントが見つかりません。サーバー関連の機能が制限されます。ログアウトして再ログインしたら、問題が解決するかもしれません</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">Lyricify アカウントが見つかりません。サーバー関連の機能が制限されます。&#x000A;ログアウトして再ログインしたら、問題が解決するかもしれません</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Restricted">あなたの Lyricify アカウントが制限された。サポートが必要な場合は、管理者に連絡してください。</system:String>
     <system:String x:Key="String.Messages.MainWindow.Message.RegistrationRepaired">Lyricify アカウントの修復と登録が完了した</system:String>
     <system:String x:Key="String.Messages.MainWindow.Message.NonPremium">提案: Spotify Premium を入手して、Lyricify を最大限に活用しましょう。</system:String>
@@ -1293,7 +1293,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">Spotify サービスは今利用できません（503 エラー）。少し後で試しください</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">極端な429エラー</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.HavePublic.Notice">カスタム API Client が過負荷状態です（429エラー、{0} 秒後に再試行可能）。Lyricifyは引き続きパブリック API クライアントを使用して動作します。</system:String>
-    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.NoPublic.Message" xml:space="preserve">カスタムAPI Client が過負荷状態です（429 エラー、{0} 秒後に再試行可能）かつ、パブリックAPIクライアントが未設定のため、Lyricifyは一時的に使用できません。「はい」でログアウト、「いいえ」で Lyricify を終了します。</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.NoPublic.Message" xml:space="preserve">カスタムAPI Client が過負荷状態です（429 エラー、{0} 秒後に再試行可能）かつ、パブリックAPIクライアントが未設定のため、Lyricifyは一時的に使用できません。&#x000A;「はい」でログアウト、「いいえ」で Lyricify を終了します。</system:String>
     <system:String x:Key="String.Messages.MainWindow.Lyrics.NoTrackPlaying">Spotify が再生を開始するまで、歌詞が表示できません</system:String>
     <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">Spotify が再生を開始するまで、Apple Music の歌詞が表示できません</system:String>
     <system:String x:Key="String.Messages.LyricifyFullscreen.NoTrackPlaying">Spotify が再生を開始するまで、Lyricify のフルスクリーンモードが表示できません</system:String>
@@ -1326,7 +1326,7 @@
     <system:String x:Key="String.Wrapped.Messages.001">こんにちは、{0}</system:String>
     <system:String x:Key="String.Wrapped.Messages.002">こちら Lyricify</system:String>
     <system:String x:Key="String.Wrapped.Messages.003">まだ覚えていますか</system:String>
-    <system:String x:Key="String.Wrapped.Messages.004" xml:space="preserve">私たちは初めて {0} で出会いました</system:String>
+    <system:String x:Key="String.Wrapped.Messages.004" xml:space="preserve">私たちは初めて&#x0a; {0} で出会いました</system:String>
     <system:String x:Key="String.Wrapped.Messages.005">{0:N0} 日渡しました</system:String>
     <system:String x:Key="String.Wrapped.Messages.006">No.{0:N0} Lyricify 4 ユーザーとして</system:String>
     <system:String x:Key="String.Wrapped.Messages.007">そして {0} として</system:String>
@@ -1336,7 +1336,7 @@
     <system:String x:Key="String.Wrapped.Messages.007.Types.4">premium ユーザー</system:String>
     <system:String x:Key="String.Wrapped.Messages.007.Types.5">ユーザー</system:String>
     <system:String x:Key="String.Wrapped.Messages.007.Types.6">制限付きユーザー</system:String>
-    <system:String x:Key="String.Wrapped.Messages.008" xml:space="preserve">あなたと Lyricify は、今年長い歴史を築いてきました</system:String>
+    <system:String x:Key="String.Wrapped.Messages.008" xml:space="preserve">あなたと Lyricify は&#x0a;今年長い歴史を築いてきました</system:String>
     <system:String x:Key="String.Wrapped.Messages.009">Microsoft Store で Lyricify 4 をご購入いただき、誠にありがとうございました</system:String>
     <system:String x:Key="String.Wrapped.Messages.010">私たちにとってとても大切なことです！</system:String>
     <system:String x:Key="String.Wrapped.Messages.011">今年</system:String>
