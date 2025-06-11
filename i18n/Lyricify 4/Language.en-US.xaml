@@ -287,6 +287,28 @@
 
     <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Written By: </system:String>
 
+    <!--  Page Windows Update Lyrics  -->
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.10">Working on updates</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.8">Configuring Windows updates</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.11">You are {0}% there.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.10">{0}% complete</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.11">Please keep your computer on.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.10">Don't turn off your computer</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.8">Do not turn off your computer.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.11">Your computer may restart a few times.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.10">Your PC may restart several times.</system:String>
+
+    <!--  Page Windows Blue Screen Lyrics  -->
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary">Your device ran into a problem and needs to restart.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary.WithTrackName">{0} ran into a problem and needs to restart.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full">Your device ran into a problem and needs to restart. We're just collecting some error info, and then we'll restart for you.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full.WithTrackName" xml:space="preserve">{0} ran into a problem and needs to restart. &#x0A;We're just collecting some error info, and then we'll restart for you.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.PercentComplete">{0}% complete</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Main">For more information about this issue and possible fixes, visit https://lyricify.app</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Call">If you call a support person, give them this info:</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.StopCode">Stop code: {0}</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Artist">Artist: {0}</system:String>
+
     <!--  Page About  -->
     <system:String x:Key="String.Page.About.Title">About</system:String>
     <system:String x:Key="String.Page.About.NonPublicWarning">THIS IS NOT A PUBLIC RELEASE, DO NOT SPREAD PLEASE!</system:String>
@@ -467,6 +489,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS164AndLater">iOS 16.4 and later</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS170AndLater">iOS 17.0 and later</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS171AndLater">iOS 17.1 and later</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS260AndLater">iOS 26.0 and later</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth">Transition width</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">Opacity transition width</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">Inline animation</system:String>
@@ -475,6 +498,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed.Description">Syllable line opacity switching speed</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity">Syllable preplay opacity</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity.Description">Opacity for syllables at preplay mode</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition">Background Vocal position</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition.Description">The position of Background Vocal lyrics relative to the main lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout">Background Vocal flyout</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">Background Vocal flyout animation and direction</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">Mobile layout</system:String>
@@ -498,6 +523,28 @@
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics.Description">Enable blur effect on lyrics</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo">Colorful logo</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo.Description">Use colorful Lyricify logo instead of single color Lyricify logo</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics">Windows Update Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Style">Style</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Style.Description">Select the style preset you want</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea">Bottom aera</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.Description">Select the content displayed in the bottom area</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.TrackInfo">Track info</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.WindowsTips">Windows tips</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.Hidden">Hidden</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.MultipleLine">Multiple line lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.MultipleLine.Description">Allows display of multiple lines of currently playing lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language">Language</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.Description">Interface language preferences</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.ComboBox.Default">Default</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.ComboBox.Auto">Auto</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics">Windows Blue Screen Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.Default">Default</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.Insider">Insider Preview</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.ArtworkMainColor">Artwork main color</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit">Scale to fit</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit.Description">Zoom the content to maximize the use of the screen</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution">Emulate low resolution</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution.Description">Emulate the display effect of a low-resolution screen</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Byland mode</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Byland or Island, it's up to you! Different styles enjoy different features</system:String>
@@ -724,6 +771,8 @@
     <system:String x:Key="String.Menu.MainWindow.Main.AppleMusicLyricsTraditional">Apple Music Lyrics (Traditional)</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.LyricifyFullscreen">Lyricify Fullscreen</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.MobileUIFullscreen">Mobile UI Fullscreen</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.WindowsUpdateLyrics">Windows Update Lyrics</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.WindowsBlueScreenLyrics">Windows Blue Screen Lyrics</system:String>
 
     <system:String x:Key="String.Menu.MainWindow.Main.Settings">Settings</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced">Advanced</system:String>
@@ -1415,6 +1464,8 @@
     <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">You won't be able to open Apple Music Lyrics until Spotify starts playing</system:String>
     <system:String x:Key="String.Messages.LyricifyFullscreen.NoTrackPlaying">You won't be able to open Lyricify Fullscreen until Spotify starts playing</system:String>
     <system:String x:Key="String.Messages.MobileUIFullscreen.NoTrackPlaying">You won't be able to open Mobile UI Fullscreen until Spotify starts playing</system:String>
+    <system:String x:Key="String.Messages.WindowsUpdateLyrics.NoTrackPlaying">You won't be able to open Windows Update Lyrics until Spotify starts playing</system:String>
+    <system:String x:Key="String.Messages.WindowsBlueScreenLyrics.NoTrackPlaying">You won't be able to open Windows Blue Screen Lyrics until Spotify starts playing</system:String>
 
     <system:String x:Key="String.Messages.MainWindow.LogOut.Query">Are you sure to log out this Spotify account?</system:String>
     <system:String x:Key="String.Messages.MainWindow.LogOut.Failed">Failed to log out</system:String>

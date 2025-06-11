@@ -287,6 +287,28 @@
 
     <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon">創作者：</system:String>
 
+    <!-- Page Windows Update Lyrics -->
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.10">正在處理更新</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.8">正在處理 Windows 更新</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.11">更新完成 {0}%。</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.10">{0}% 完成</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.11">請保持電腦開啓。</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.10">請勿關閉電腦</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.8">請勿關閉電腦。</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.11">你的電腦將重新啟動幾次。</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.10">你的電腦將重新啟動若干次。</system:String>
+
+    <!-- Page Windows Blue Screen Lyrics -->
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary">你的電腦發生問題，因此必須重新啓動。</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary.WithTrackName">{0} 發生問題，因此必須重新啓動。</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full" xml:space="preserve">你的電腦發生問題，因此必須重新啓動。&#x0A;我們剛剛正在收集某些錯誤資訊，接著我們會為您重新啓動。</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full.WithTrackName" xml:space="preserve">{0} 發生問題，因此必須重新啓動。&#x0A;我們剛剛正在收集某些錯誤資訊，接著我們會為您重新啓動。</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.PercentComplete">已完成 {0}%</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Main">如需此問題與可能修正的詳細資訊，請瀏覽 https://lyricify.app</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Call">致電支援人員時，請提供此資訊:</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.StopCode">停止代碼: {0}</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Artist">藝人: {0}</system:String>
+
     <!--  Page About  -->
     <system:String x:Key="String.Page.About.Title">關於</system:String>
     <system:String x:Key="String.Page.About.NonPublicWarning">這不是一個公開發行的版本，請不要傳播！</system:String>
@@ -467,6 +489,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS164AndLater">iOS 16.4 及更高版本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS170AndLater">iOS 17.0 及更高版本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS171AndLater">iOS 17.1 及更高版本</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS260AndLater">iOS 26.0 及更高版本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth">過渡寬度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">透明度過渡寬度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">行內動畫</system:String>
@@ -475,6 +498,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed.Description">逐音節行不透明度的切換速度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity">逐音節待播放不透明度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity.Description">待播放模式下音節的不透明度</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition">背景人聲位置</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition.Description">背景人聲歌詞相對主歌詞的位置</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout">背景人聲飛出</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">背景人聲飛出動畫與方向</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">行動端佈局</system:String>
@@ -498,6 +523,28 @@
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics.Description">在歌詞上啟用模糊效果</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo">彩色標誌</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo.Description">使用彩色 Lyricify 標誌，而不是單色 Lyricify 標誌</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics">Windows 更新歌詞</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Style">樣式</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Style.Description">選擇您想要的樣式預設</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea">底部區域</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.Description">選擇底部區域的顯示內容</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.TrackInfo">曲目資訊</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.WindowsTips">Windows 提示</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.Hidden">隱藏</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.MultipleLine">多行歌詞</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.MultipleLine.Description">允許顯示目前正在播放的多行歌詞</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language">語言</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.Description">介面語言偏好</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.ComboBox.Default">預設</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.ComboBox.Auto">自動</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics">Windows 藍屏歌詞</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.Default">預設</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.Insider">預覽體驗版</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.ArtworkMainColor">封面主顏色</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit">縮放適應</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit.Description">縮放內容以最大化利用螢幕</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution">模擬低解析度</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution.Description">模擬低解析度螢幕的顯示效果</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">靈動詞島</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">靈動大陸模式</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">島還是陸，你來決定！不同的樣式有著不同的功能</system:String>
@@ -724,6 +771,8 @@
     <system:String x:Key="String.Menu.MainWindow.Main.AppleMusicLyricsTraditional">Apple Music 歌詞 (傳統)</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.LyricifyFullscreen">Lyricify 全螢幕</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.MobileUIFullscreen">行動版 UI 全螢幕</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.WindowsUpdateLyrics">Windows 更新歌詞</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.WindowsBlueScreenLyrics">Windows 藍屏歌詞</system:String>
 
     <system:String x:Key="String.Menu.MainWindow.Main.Settings">設定</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced">進階</system:String>
@@ -1415,6 +1464,8 @@
     <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">在 Spotify 開始播放前，你將無法開啟 Apple Music 歌詞</system:String>
     <system:String x:Key="String.Messages.LyricifyFullscreen.NoTrackPlaying">在 Spotify 開始播放前，你將無法開啟 Lyricify 全螢幕歌詞</system:String>
     <system:String x:Key="String.Messages.MobileUIFullscreen.NoTrackPlaying">在 Spotify 開始播放前，你將無法開啟行動版 UI 全螢幕歌詞</system:String>
+    <system:String x:Key="String.Messages.WindowsUpdateLyrics.NoTrackPlaying">在 Spotify 開始播放前，你將無法開啟 Windows 更新歌詞</system:String>
+    <system:String x:Key="String.Messages.WindowsBlueScreenLyrics.NoTrackPlaying">在 Spotify 開始播放前，你將無法開啟 Windows 藍屏歌詞</system:String>
 
     <system:String x:Key="String.Messages.MainWindow.LogOut.Query">確定登出此 Spotify 帳戶嗎？</system:String>
     <system:String x:Key="String.Messages.MainWindow.LogOut.Failed">登出失敗</system:String>
