@@ -31,7 +31,7 @@
 
 **注意：** 如需反馈或提问，对于 Lyricify 功能，请使用[官方认定的正确的名称](#lyricify-%E5%90%8D%E8%AF%8D)来描述。  
 
-Lyricify 4 是免费软件，如果你觉得 Lyricify 4 做的不错，则可以通过以下渠道支持：
+Lyricify 4 是免费软件，仅部分个性化设置为商店版独享。如果你觉得 Lyricify 4 做的不错，则可以通过以下渠道支持：
 - 在软件中，菜单-关于页里有打赏方式
 - 在 [Microsoft Store](https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full) 中购买
 
@@ -201,7 +201,7 @@ Lyricify 4 有着强大的自定义字体功能，您可以为 `歌词` 界面�
 
 **注意：**  
 1. 并非所有字体都支持这种修改为加粗版本的方式。
-2. 如果有不理解的地方，您可以自行搜索和学习 `Json 文件` 的相关知识。
+2. 如果有不理解的地方，您可以自行搜索和学习 `JSON 文件` 的相关知识。
 
 # Lyricify 4 进阶
 
@@ -397,13 +397,17 @@ Lyricify 4 支持内置播放，但是并不建议使用。这只是一个测试
 在 Microsoft Store 购买 Lyricify 是对 Lyricify 开发者的一种支持和信任，感谢所有购买或打赏过 Lyricify 的用户！也欢迎各位用户给出 5 星好评和评语，这对我有很大帮助！  
 
 ### 更多信息
-Lyricify 4 是免费软件，如果你觉得 Lyricify 4 做的不错，则可以通过以下渠道支持：
+Lyricify 4 是免费软件，仅部分个性化设置为商店版独享。如果你觉得 Lyricify 4 做的不错，则可以通过以下渠道支持：
 - 在软件中，菜单-关于页里有打赏方式
 - 在 [Microsoft Store](https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full) 中购买
 
 如果您在 Microsoft Store 购买过程中遇到困难，可以考虑通过打赏的方式支持 Lyricify。  
 
 如果你发现有人在非法销售本软件 (只有 Microsoft Store 中的 Lyricify 是官方发布)，请联系我们！感谢你的支持！
+
+## Self-contained 版本特殊说明
+Self-contained 版本包含 .NET 6.0 Desktop Runtime 运行时，仅建议那些因某些原因无法正常安装 .NET 6.0 运行时的用户使用。其他用户建议选择 Microsoft Store 版本或标准安装版（即不包含 .NET 运行时的版本）。  
+请注意：Self-contained 版本不支持自动更新。在发布新版本后，用户需要手动下载并安装更新。Lyricify 默认开启自动更新，尽管 self-contained 版本仍会尝试下载并安装更新，但由于更新内容为标准版本，即不包含 .NET 运行时，更新后 Lyricify 应用将无法启动。  
 
 ## 点击播放按钮没有反应
 打开 Lyricify 主界面，点击播放按钮，没开始播放，并提示 `需要 Premium`、`未找到可用设备，请开启你的 Spotify 客户端`、`429 错误，请稍后再试`。
@@ -413,10 +417,10 @@ Lyricify 4 是免费软件，如果你觉得 Lyricify 4 做的不错，则可以
 提示 `429 错误，请稍后再试`：[导致原因](#%E6%80%BB%E6%98%AF%E6%8F%90%E7%A4%BA%E5%87%BA%E7%8E%B0-429-%E9%94%99%E8%AF%AF)  
 
 ## 无法从 Lyricify 服务器获取歌词
-如果您在中国大陆，建议检查您的科学上网工具是否正确设置了分流，是否能正常访问 `e.wxriw.cn`。您还可以在设置中勾选 `不在 Lyricify 服务器请求中使用代理`。
+如果您在中国大陆，建议检查您的科学上网工具是否正确设置了分流，是否能正常访问 `api.lyricify.app`。您还可以在设置中勾选 `不在 Lyricify 服务器请求中使用代理`。
 
 ## 启动 Lyricify 时提示错误
-启动 Lyricify 时提示出错（超时错误 或 Http 错误），并自动关闭。  
+启动 Lyricify 时提示出错（超时错误或 Http 错误），并自动关闭。  
 ### 导致原因
 网络连接状态不好，导致无法连接到 Spotify 服务器。与 Lyricify 无关。 
 ### 解决方案
@@ -427,7 +431,8 @@ accounts.spotify.com
 api.spotify.com
 ```
 如果可以连通，但仍然无法启动 Lyricify，请继续更换你的网络连接或服务提供商，直到可以连通为止。  
-Lyricify 可以保证的是，Lyricify 本身没有问题，这个问题是纯网络问题。
+如果你在中国大陆地区，且没有使用代理，则可以尝试开启代理后再试。  
+Lyricify 可以保证的是，Lyricify 本身没有问题，本问题为用户侧网络问题。
 
 ## 启动 Lyricify 后弹出消息框
 **注意：** 本问题仅在 4.2.11 或更早版本中出现。  
@@ -444,7 +449,7 @@ Lyricify 可以保证的是，Lyricify 本身没有问题，这个问题是纯�
 - 使用 [Microsoft Store 版本](https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full)，其自动更新由 Microsoft 负责和管理，比 Lyricify 自带的更新更方便稳定，故强烈推荐使用。
 - 先手动更新至最新版，然后在 `设置` `高级` `更新` `更新来源` 中切换更新源至 `GitHub`。再下次更新发布后（建议开启网络代理），若可正常更新，则可正常使用；若仍然无法正常更新，则建议使用 [Microsoft Store 版本](https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full)。
 
-## 无法在 曲目管理 中上传歌词
+## 无法在曲目管理中上传歌词
 提示 `你的上传请求被拒绝`。
 ### 解决方案
 如果您是新用户，请等待 24 小时再上传。
@@ -460,7 +465,7 @@ Lyricify 可以保证的是，Lyricify 本身没有问题，这个问题是纯�
 2. 需要播放音乐时，打开 Lyricify，然后在 Lyricify 中选择想要播放的歌曲即可。
 3. 注意：在 Lyricify 中点歌需要您的账户有 Spotify Premium 订阅。
 
-## 桌面歌词 或 灵动词岛 异常消失
+## “桌面歌词”或“灵动词岛”异常消失
 打开 `桌面歌词` 或 `灵动词岛` 后，闪一下就消失了，或是在最小化所有窗口后消失。
 ### 导致原因
 有全屏窗口处于前台。
@@ -472,7 +477,16 @@ Lyricify 可以保证的是，Lyricify 本身没有问题，这个问题是纯�
 
 ## 使用 OBS 捕获桌面歌词
 因为这个功能的特殊性，所以没有在 `设置` 页面中提供修改选项，目前需要手动修改配置文件。
-打开 `设置`，找到 `高级` `设置文件` `打开`，然后找到 `enable_obs_capture` 属性 (在 175 行附近)，将 `false` 修改为 `true` 后保存文件，然后点击 `加载` 即可。
+打开 `设置`，找到 `高级` `设置文件` `打开`，然后找到 `enable_obs_capture` 属性 (在 209 行附近)，将 `false` 修改为 `true` 后保存文件，然后点击 `加载` 即可。
+
+## Buggy Apple 是什么
+Buggy Apple (漏洞百出的 Apple) 是 Lyricify 4 的 Apple Music 歌词界面中的一个特殊功能。  
+开启后，Lyricify 将会复现 Apple Music 的一些 bug，尽力还原真实的 Apple Music 体验。
+### 已复现的 bug
+1. 呼吸点后背景人声的重叠问题（iOS 16.2+）
+3. 背景人声进入方向问题（iOS 16.2+）
+2. 超大呼吸点问题（iOS 15）
+4. 含背景人声的歌词行的透明度突变问题（iOS 16.4+）
 
 ## 切歌后反应迟钝
 切歌后 Lyricify 需要过较长时间才能显示新的歌曲信息。  
@@ -513,18 +527,19 @@ Lyricify 没有显示当前正在播放的歌曲。
 ### 导致原因
 Spotify 没有上传当前的播放信息。这是网络原因，也可能是 Spotify 客户端的问题。
 ### 解决方案
-1. 校园网用户，可以尝试使用热点。
-2. 科学上网工具改为全局。
-3. 重装 Spotify 最新版。
-4. 使用 Spotify 移动版或网页版。
-5. 反正不是 Lyricify 的锅，自己想办法解决。
+1. 尝试重启 Spotify 客户端。
+2. 校园网用户，可以尝试使用热点。
+3. 科学上网工具改为全局。
+4. 重装 Spotify 最新版。
+5. 使用 Spotify 移动版或网页版。
+6. Spotify 的播放信息是由 Spotify 提供的，不是 Lyricify 的锅，自己想办法解决。
 
 ## Media Session 未连接
 请检查 Spotify 中 `使用媒体键时显示桌面叠加` 是否开启。  
 #### 注意
 1. 只有 Lyricify 获取到了当前播放信息，才会尝试连接 Media Session！若未获取到播放信息，请先查看 [Lyricify 无法获取当前播放信息](#lyricify-%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E6%92%AD%E6%94%BE%E4%BF%A1%E6%81%AF)。
 2. Media Session 仅在您使用 Spotify 桌面版 (含 Store 版) 播放时可用，其他情况 (如使用网页版、移动版等) 下不可用！
-3. 系统版本小于 10.0.17763.0 时不支持 Media Session。
+3. 系统版本低于 10.0.17763.0 时不支持 Media Session。
 
 如果您的 Media Session 出现异常，您还可以尝试重启 Spotify 和 Lyricify。  
 
@@ -549,6 +564,64 @@ Lyricify 为提升体验，需在歌曲开头以最小的影响进行时间轴�
 这首歌的歌词被错误的配置。
 ### 解决方案
 打开[曲目管理](#%E5%9C%A8%E5%93%AA%E9%87%8C%E5%8F%AF%E4%BB%A5%E6%89%93%E5%BC%80-%E6%9B%B2%E7%9B%AE%E7%AE%A1%E7%90%86)，检查“标题行”是否被错误的标记，可尝试通过双击 `是标题行` 进行标题行自动识别，完成后点击 `应用到主窗口`，检查歌词是否恢复。若恢复，则可以点击 `保存 (上传)` 将修改保存至 Lyricify 服务器。
+
+## 自动更新
+Lyricify 4 支持自动更新，其策略如下。
+### Microsoft Store 版本
+Microsoft Store 版本的自动更新由 Microsoft 负责。  
+Lyricify 4 的默认策略是在启动时自动检查更新，有更新时会请求 Microsoft Store 进行静默更新，并在用户关闭 Lyricify 4 或重启后完成更新。  
+你可以在 Lyricify 4 的设置中修改该策略。
+### 非 Microsoft Store 版本 (GitHub 版本)
+非 Microsoft Store 版本的自动更新由 Lyricify 4 负责。  
+Lyricify 4 会在启动时自动检查更新，有更新时会立即下载更新并完成安装，更新过程会自动重启 Lyricify 4。  
+Lyricify 4 默认开启自动更新，你可以在设置中修改该策略以停用普通更新。需要注意的是，版本过低时的强制更新不受该设置影响。
+
+## 配置文件迁移
+如果你原先在另一台设备上使用 Lyricify 4，现在想要将配置文件迁移至新的设备，则可通过以下方法实现。
+### 从源设备上获取配置文件
+如果你使用的是非商店版（即普通安装版或绿色版），或是在使用商店版之前曾在这台设备上使用过非商店版，则可以在以下路径中找到 Lyricify 4 的配置文件：  
+```
+%AppData%\Lyricify\Lyricify for Spotify
+```
+如果你一直使用的是商店版，则可以在以下路径中找到 Lyricify 4 的配置文件：  
+```
+%LocalAppData%\Packages\63265WXRIW.Lyricify_8ybqz4qm5hwha\LocalCache\Roaming\Lyricify\Lyricify for Spotify
+```
+如果你使用的是便携版，则可以在以下路径中找到 Lyricify 4 的配置文件：  
+```
+\Data
+```
+### 将文件复制到目标设备
+如果你想在目标设备上使用非商店版，你可以直接将配置文件复制到以下路径：  
+```
+%AppData%\Lyricify\Lyricify for Spotify
+```
+如果你想在目标设备上使用商店版，且在复制前没有在目标设备上运行过 Lyricify 4 商店版，则可以将配置文件复制到上方路径。你也可以将配置文件复制到以下路径（如果在复制前曾运行过 Lyricify 4 商店版，则必须将配置文件复制到以下路径）：  
+```
+%LocalAppData%\Packages\63265WXRIW.Lyricify_8ybqz4qm5hwha\LocalCache\Roaming\Lyricify\Lyricify for Spotify
+```
+### 应当复制哪些文件
+条件允许的情况下，建议复制配置文件路径下的全部文件及文件夹至目标设备路径。  
+如果你想在迁移配置文件的同时，丢弃日志文件、缓存文件及自动备份文件，则可以仅复制以下文件或文件夹：  
+```
+Custom          // 自定义配置 (自定义配置管理器中加载的相关配置)
+Local           // 本地文件配置 (本地文件管理器中本地曲目的图片关联配置)
+Pins            // 快捷访问配置 (Lyricify 主界面左侧快捷访问区的相关配置)
+Account.json    // 账户信息
+HotKey.json     // 热键配置
+Settings.json   // 设置文件
+```
+
+## 曲目时间轴不准确  
+在某些情况下，歌词显示的时间轴与实际播放进度存在偏差。
+
+### 解决方案  
+请确保 Media Session 已连接，然后尝试以下方法进行校正：
+
+1. **点击任意一行歌词**，可手动纠正时间轴。  
+2. **暂停后立即继续播放**，也可以自动校正时间轴偏差。  
+3. 如果以上方法无效，建议使用 [Spotify 版本 1.2.45.454](https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.45.454.gc16ec9f6-122.exe)，因为该版本的 SMTC 时间轴同步更准确，而后续版本可能存在偏差。
+4. 如果你是在自动切歌后时间轴发生偏移，则可以酌情开启 “时间轴纠正 Plus” 功能。该设置位于 `设置` `高级` `启用 Media Session 增强` `启用时间轴纠正 Plus`。
 
 ## Apple Music 歌词界面卡顿问题
 如果是打开该界面的第一首歌就很卡，那就是你电脑性能不够。不要全屏，因为全屏需要占用很多资源，硬件性能不够就不要去尝试！  
@@ -603,7 +676,7 @@ Lyricify 4 专为 Spotify 设计，`Lyricify 4` 全称 `Lyricify for Spotify`。
 从您现有的音乐平台迁移到 Spotify，并转用 Lyricify 4。
 
 ## 无法连接到 Lyricify 服务器
-如果您在中国大陆，建议检查您的科学上网工具是否正确设置了分流，是否能正常访问 `e.wxriw.cn`。您还可以在设置中勾选 `不在 Lyricify 服务器请求中使用代理`。  
+如果您在中国大陆，建议检查您的科学上网工具是否正确设置了分流，是否能正常访问 `api.lyricify.app`。您还可以在设置中勾选 `不在 Lyricify 服务器请求中使用代理`。  
 这种情况是因为您的网络屏蔽了 Lyricify 服务器。
 
 # 附录

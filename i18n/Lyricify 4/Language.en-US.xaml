@@ -31,6 +31,11 @@
     <system:String x:Key="String.MainWindow.UserWidget.LogOut">Log out</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.Settings">Settings</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.About">About</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion">Lyricify Version</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.FreeVersion">Free version</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Free">Free</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Free.Store">Free (Store trial)</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Purchased.Store">Store purchased</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount">Lyricify Account</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.1">Administrator</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.2">Insider</system:String>
@@ -282,6 +287,28 @@
 
     <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Written By: </system:String>
 
+    <!--  Page Windows Update Lyrics  -->
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.10">Working on updates</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.8">Configuring Windows updates</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.11">You are {0}% there.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.10">{0}% complete</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.11">Please keep your computer on.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.10">Don't turn off your computer</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.8">Do not turn off your computer.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.11">Your computer may restart a few times.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.10">Your PC may restart several times.</system:String>
+
+    <!--  Page Windows Blue Screen Lyrics  -->
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary">Your device ran into a problem and needs to restart.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary.WithTrackName">{0} ran into a problem and needs to restart.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full">Your device ran into a problem and needs to restart. We're just collecting some error info, and then we'll restart for you.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full.WithTrackName" xml:space="preserve">{0} ran into a problem and needs to restart. &#x0A;We're just collecting some error info, and then we'll restart for you.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.PercentComplete">{0}% complete</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Main">For more information about this issue and possible fixes, visit https://lyricify.app</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Call">If you call a support person, give them this info:</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.StopCode">Stop code: {0}</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Artist">Artist: {0}</system:String>
+
     <!--  Page About  -->
     <system:String x:Key="String.Page.About.Title">About</system:String>
     <system:String x:Key="String.Page.About.NonPublicWarning">THIS IS NOT A PUBLIC RELEASE, DO NOT SPREAD PLEASE!</system:String>
@@ -342,6 +369,8 @@
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Description">Change Lyricify's display zooming</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Button.Reset">Reset</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Help">You can also change the display zooming by mouse wheel with Control pressed, or &quot;Ctrl + -&quot; to Zoom In, &quot;Ctrl + =&quot; to Zoom Out and &quot;Ctrl + 0&quot; to reset.</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ShowLyricifyVersionInfo">Show Lyricify version info</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ShowLyricifyVersionInfo.Description">Show Lyricify version info in user widget area</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization">Lyrics style personalization</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Description">Lyrics style in Spotify style lyrics page</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode">Lyrics style personalization (Mobile Mode)</system:String>
@@ -407,6 +436,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">Blur level</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Set blur level (Default level on iPadOS in horizontal mode is 3, on iPadOS in vertical mode or iOS is 5)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">Level</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DisableBlurAtLyricsLineMouseOver">Auto unblur</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DisableBlurAtLyricsLineMouseOver.Description">Temporarily disable blur effect on mouseover</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">Bold Text</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">Use bold text in Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FontPreset">Font preset</system:String>
@@ -458,6 +489,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS164AndLater">iOS 16.4 and later</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS170AndLater">iOS 17.0 and later</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS171AndLater">iOS 17.1 and later</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS260AndLater">iOS 26.0 and later</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth">Transition width</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">Opacity transition width</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">Inline animation</system:String>
@@ -466,6 +498,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed.Description">Syllable line opacity switching speed</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity">Syllable preplay opacity</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity.Description">Opacity for syllables at preplay mode</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition">Background Vocal position</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition.Description">The position of Background Vocal lyrics relative to the main lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout">Background Vocal flyout</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">Background Vocal flyout animation and direction</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">Mobile layout</system:String>
@@ -489,6 +523,28 @@
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics.Description">Enable blur effect on lyrics</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo">Colorful logo</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo.Description">Use colorful Lyricify logo instead of single color Lyricify logo</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics">Windows Update Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Style">Style</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Style.Description">Select the style preset you want</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea">Bottom aera</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.Description">Select the content displayed in the bottom area</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.TrackInfo">Track info</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.WindowsTips">Windows tips</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.Hidden">Hidden</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.MultipleLine">Multiple line lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.MultipleLine.Description">Allows display of multiple lines of currently playing lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language">Language</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.Description">Interface language preferences</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.ComboBox.Default">Default</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.ComboBox.Auto">Auto</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics">Windows Blue Screen Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.Default">Default</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.Insider">Insider Preview</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.ArtworkMainColor">Artwork main color</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit">Scale to fit</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit.Description">Zoom the content to maximize the use of the screen</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution">Emulate low resolution</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution.Description">Emulate the display effect of a low-resolution screen</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Byland mode</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Byland or Island, it's up to you! Different styles enjoy different features</system:String>
@@ -515,7 +571,7 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale">Scale</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale.Description">Controlling the size and scaling of the Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">Desktop Lyrics</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Due-Line mode</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Duo-Line mode</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">By turning off, only one line of lyrics will be displayed</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EfficiencyMode">Efficiency mode</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EfficiencyMode.Description">Lyricify is committed to helping reduce carbon emissions and energy usage causing environmental impact</system:String>
@@ -610,9 +666,11 @@
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">Use system Media Session to improve experience when you are using Spotify desktop client. (Make sure you have enabled &quot;Show desktop overlay when using media keys&quot; in Spotify settings)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement">Enable playback update enhancement</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement.Description">Superb track switching experience powered by Lyricify Intelligent Engine</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">Enable timeline correction</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">Improve timeline precision</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">Enable Timeline-Correction</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">Optimize timeline precision</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.CrossfadeNotice">Timeline correction might not work properly when crossfade is enabled</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrectionPlus">Enable Timeline-Correction Plus</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrectionPlus.Description">Correct the timeline in a more invasive way to get better correction results</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">Enable lyrics preload</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">Preload lyrics can make lyrics loading imperceptible at track switching</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableImagePreload">Enable image preload</system:String>
@@ -713,6 +771,8 @@
     <system:String x:Key="String.Menu.MainWindow.Main.AppleMusicLyricsTraditional">Apple Music Lyrics (Traditional)</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.LyricifyFullscreen">Lyricify Fullscreen</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.MobileUIFullscreen">Mobile UI Fullscreen</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.WindowsUpdateLyrics">Windows Update Lyrics</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.WindowsBlueScreenLyrics">Windows Blue Screen Lyrics</system:String>
 
     <system:String x:Key="String.Menu.MainWindow.Main.Settings">Settings</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced">Advanced</system:String>
@@ -863,6 +923,7 @@
     -->
 
     <!--  Welcome  -->
+    <system:String x:Key="String.Windows.Welcome">Welcome to Lyricify</system:String>
     <system:String x:Key="String.Windows.Welcome.Intro.MoreThanLyrics">More than lyrics</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Title">Let's get started</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Agreement">Continue means you agree with Lyricify's user agreements</system:String>
@@ -874,6 +935,7 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink.Help">Copy Spotify Authorization Link</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink">Succeeded authorization not detected:</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink.Help">Enter Authorization Callback Link Manually</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.InvalidClient.InvalidRedirectUri.Help">Spotify's Fault, Click Here for the Solution</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configure">Configure Custom API Client</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configured">Custom API Client Configured</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.ProxySettings">Proxy Settings</system:String>
@@ -964,7 +1026,7 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveOne">Are you sure to remove this configuration?</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveAll">Are you sure to remove all configurations?</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.AddDialogTitle">Select a custom configuration file</system:String>
-    <system:String x:Key="String.Window.CustomConfigurationManager.AddDialogTitle.Filter">Xaml Document (*.xaml)|*.xaml</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.AddDialogTitle.Filter">XAML Document (*.xaml)|*.xaml</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Rename">Rename</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.EditDescription">Edit description</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenFile">Open file</system:String>
@@ -974,6 +1036,13 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Remove">Remove</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">Move up</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveDown">Move down</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Name">Untitled Configuration</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Name.Subscription">Untitled Configuration Subscription</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorSavingProfile">Error occurred while saving profiles</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorAddingProfile">Error occurred while adding the profile</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorAddingProfile.Subscription">Error occurred while adding the subscription profile</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ContentIllegal">Configuration content is not legal</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ContentIllegal.Subscription">Configuration subscription content is not legal</system:String>
 
     <!--  Device Latency Manager  -->
     <system:String x:Key="String.Window.DeviceLatencyManager">Device Latency Manager</system:String>
@@ -1169,6 +1238,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Apple Music Lyrics Import</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.EnterIdOrLink">Enter ID or link</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet">Failed to get lyrics</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet.TokenExpired">Failed to get lyrics. The server-side token has expired. Please wait for the developer to fix it and try again.</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">Lyrics not found</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">Those lyrics are not word timing, continue the importation?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">Convert Traditional Chinese to Simplified Chinese?</system:String>
@@ -1340,8 +1410,10 @@
 
     <!--  Dialogs  -->
     <system:String x:Key="String.Dialog.Store.Title">You've found an exclusive feature!</system:String>
+    <system:String x:Key="String.Dialog.Store.Title.FreePromotion">More features can be unlocked!</system:String>
     <system:String x:Key="String.Dialog.Store.Explore">We invite you to explore Lyricify on the Microsoft Store for an enhanced experience. Your support will greatly contribute to its continued improvement and development.</system:String>
     <system:String x:Key="String.Dialog.Store.Purchase">We encourage you to consider purchasing Lyricify on the Microsoft Store. Your support will help us enhance your experience and continue to develop new features.</system:String>
+    <system:String x:Key="String.Dialog.Store.StoreExclusiveExplanation">By purchasing the Microsoft Store version, you can unlock custom fonts for Apple Music lyrics and Dynamic Lyrics Island, Lyricify accelerated servers, and many other features.</system:String>
     <system:String x:Key="String.Dialog.Store.Button.GoToStore">Go to Microsoft Store</system:String>
     <system:String x:Key="String.Dialog.Store.Button.Close">Close</system:String>
     <system:String x:Key="String.Dialog.Store.Donator">Already a donator?</system:String>
@@ -1350,6 +1422,9 @@
     <!--
         Messages
     -->
+
+    <!--  Titles  -->
+    <system:String x:Key="String.Messages.Title.Error">Lyricify Error</system:String>
 
     <!--  App  -->
     <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">Unauthorized action, relogin to continue</system:String>
@@ -1389,6 +1464,8 @@
     <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">You won't be able to open Apple Music Lyrics until Spotify starts playing</system:String>
     <system:String x:Key="String.Messages.LyricifyFullscreen.NoTrackPlaying">You won't be able to open Lyricify Fullscreen until Spotify starts playing</system:String>
     <system:String x:Key="String.Messages.MobileUIFullscreen.NoTrackPlaying">You won't be able to open Mobile UI Fullscreen until Spotify starts playing</system:String>
+    <system:String x:Key="String.Messages.WindowsUpdateLyrics.NoTrackPlaying">You won't be able to open Windows Update Lyrics until Spotify starts playing</system:String>
+    <system:String x:Key="String.Messages.WindowsBlueScreenLyrics.NoTrackPlaying">You won't be able to open Windows Blue Screen Lyrics until Spotify starts playing</system:String>
 
     <system:String x:Key="String.Messages.MainWindow.LogOut.Query">Are you sure to log out this Spotify account?</system:String>
     <system:String x:Key="String.Messages.MainWindow.LogOut.Failed">Failed to log out</system:String>
@@ -1417,11 +1494,13 @@
     <!--  Wrapped Year  -->
     <system:String x:Key="String.Wrapped.Title">Lyricify Wrapped</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2023">All about you, me and 2023</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2024">2024, lyrics, you, and me</system:String>
     <system:String x:Key="String.Wrapped.Unwrap">Unwrap</system:String>
     <system:String x:Key="String.Wrapped.Unwrap.Notice">Unwrap means you agree with Lyricify's user agreements and allow Lyricify to process and analyze your app usage.</system:String>
     <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>>Accelerate</system:String>
     <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">Unwrap now</system:String>
     <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify has wrapped all your stories with Lyricify in 2023, go unwrap it now!</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2024">Lyricify has captured every lyrical moment of your 2024, unwrap it now!</system:String>
     <system:String x:Key="String.Wrapped.Notice.CloseReminder">Lyricify Wrapped can be found in the main menu and user widget menu, so you can unwrap it later.</system:String>
 
     <system:String x:Key="String.Wrapped.Messages.001">Hey, {0}</system:String>
@@ -1485,6 +1564,17 @@
     <system:String x:Key="String.Wrapped.Messages.048">Lyrics are everything</system:String>
     <system:String x:Key="String.Wrapped.Messages.049">Lyricify is always here for you</system:String>
     <system:String x:Key="String.Wrapped.Messages.050">Just enjoy!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.051">Lyricify has been with you for more than a year</system:String>
+    <system:String x:Key="String.Wrapped.Messages.052">Your support has shaped Lyricify into something extraordinary!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.053">You start Lyricify most often between {0} this year</system:String>
+    <system:String x:Key="String.Wrapped.Messages.054">Amazing!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.055">Your TOP day is on {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.056">Do you know why?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.057">Another year has passed</system:String>
+    <system:String x:Key="String.Wrapped.Messages.058">Year after year</system:String>
+    <system:String x:Key="String.Wrapped.Messages.059">Just remember</system:String>
+    <system:String x:Key="String.Wrapped.Messages.060">Wishing you all the best</system:String>
+    <system:String x:Key="String.Wrapped.Messages.061">Looking forward to your contributions next year</system:String>
 
     <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">Total Lyrics Views</system:String>
     <system:String x:Key="String.Wrapped.Report.Launches">Launches</system:String>
@@ -1494,5 +1584,7 @@
     <system:String x:Key="String.Wrapped.Report.TracksCount">Tracks Count</system:String>
     <system:String x:Key="String.Wrapped.Report.MobileViews">Mobile Views</system:String>
     <system:String x:Key="String.Wrapped.Report.TrackOfTheYear">Track of the Year</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor">Sponsor</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor.True">YES</system:String>
     <system:String x:Key="String.Wrapped.Report.LyricifyIndex">Lyricify Index</system:String>
 </ResourceDictionary>

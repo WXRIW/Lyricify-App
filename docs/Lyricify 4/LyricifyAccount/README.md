@@ -7,7 +7,7 @@ Your Lyricify account is linked to the Spotify account you log into on Lyricify.
 After you complete the Spotify account authorization, if Lyricify prompts `You are No. n Lyricify user`, it means that your Spotify account has been successfully registered and associated on the Lyricify server. Can be used normally.
 If after completing the Spotify account authorization, Lyricify prompts `Failed to register on Lyricify server. Server side functions might be limited. A re-login might solve this issue.` which indicates that Lyricify account registration failed, or this link failed. If you have not used Lyricify 4 before, or have used it before, but it does not display `You are No. n Lyricify user`, it means that the Lyricify account registration failed. You can try the following:
 1. If you are using a proxy, you can close it and try again.
-2. Change the network environment and ensure that `e.wxriw.cn` can be accessed. You can test it by accessing `http://e.wxriw.cn:22608/app/connection-test`. If OK is returned, the connection is normal.
+2. Change the network environment and ensure that `api.lyricify.app` can be accessed. You can test it by accessing `https://api.lyricify.app/app/connection-test`. If OK is returned, the connection is normal.
 
 Note: The `try again` mentioned above refers to logging out of Lyricify and re-authorizing the login.
 
@@ -17,7 +17,6 @@ If your Lyricify account has been restricted, don't panic; you can request to ha
 For specific rules of Lyricify Lyrics Vault, please click [here](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#lyricify-%E6%AD%8C%E8%AF%8D%E5%BA%93) to view. (the documents are in Simplified Chinese, use a translator if needed)
 
 ### How to contact Lyricify to remove restrictions
-- Via [QQ Group](https://jq.qq.com/?_wv=1027&k=hZG8VRV4)
 - Via [Telegram Group](https://t.me/lyricify)
 - Via [GitHub Issues](https://github.com/WXRIW/Lyricify-App/issues) (not recommended)
 - Via [Email](mailto:wxriw@foxmail.com). Please use `Lyricify Account Unrestriction` as the email subject

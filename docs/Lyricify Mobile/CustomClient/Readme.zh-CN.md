@@ -19,13 +19,14 @@
    - App name: Lyricify
    - App description: Lyricify Custom API Client
    - Website: （空着不写）
-   - Redirect URI: http://localhost:766/callback
+   - Redirect URI: （填写以下两条，每条填写完成后点击 `Add` 按钮）
+     - http://127.0.0.1:766/callback
+     - lyricify://callback
 5. 勾选 `Which API/SDKs are you planning to use?` 部分中的 `Web API`；  
    勾选 `I understand and agree with Spotify's Developer Terms of Service and Design Guidelines`；  
    点击 `Save` 按钮。  
 ![](pic/Demo-Pic03.png)
-1. 点击右上方的 `Settings` 按钮，进入设置页面。
-2. 这时你就能看到 Client ID，点击 `View client secret`，即可显示 Client secret。在后续步骤中将需要用到 `Client ID` 和 `Client Secret`。
+6. 这时你就能看到 Client ID，点击 `View client secret`，即可显示 Client secret。在后续步骤中将需要用到 `Client ID` 和 `Client Secret`。
 ![](pic/Demo-Pic04.png)
 
 ## Lyricify Mobile 上的工作
@@ -36,4 +37,22 @@
 # 常见问题
 
 ## 授权时提示 INVALID_CLIENT: Invalid redirect URI
-请检查 `Redirect URI` 是否填写错误，确保其值包含 `http://localhost:766/callback`。
+请检查 `Redirect URI` 是否填写错误，确保其值包含 `lyricify://callback` 和 `http://127.0.0.1:766/callback`，而不是 `https://127.0.0.1:766/callback`。  
+如果你是在 Android 或 iOS 设备上使用，请确保其值包含 `lyricify://callback`。
+
+### 特别注意
+如果你**在 2025 年 4 月 9 日前**创建并配置过自定义 API Client，请务必前往 Spotify Developer Dashboard 更新设置。由于 Spotify 调整了对重定向 URI 的要求，**原本使用 `localhost` 的 URI 已不再被接受**，你需要将原先的：
+
+```
+http://localhost:766/callback
+```
+
+替换为：
+
+```
+http://127.0.0.1:766/callback
+```
+
+请进入对应应用的设置页面，并在 `Redirect URI` 中添加 `http://127.0.0.1:766/callback`。完成后即可正常使用自定义 API Client 进行授权。  
+
+> ⚠️ 注意：`127.0.0.1` 是 `localhost` 的等效 IP 地址，在当前 Spotify 的校验机制中被视为有效地址，而 `localhost` 会被拒绝。

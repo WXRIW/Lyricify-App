@@ -12,11 +12,19 @@
     <x:String x:Key="String.Page.Main.Login.Title">登录到 Spotify</x:String>
     <x:String x:Key="String.Page.Main.Login.Title.Notice">不支持第三方登录</x:String>
     <x:String x:Key="String.Page.Main.Login.Button.Back">返回</x:String>
+    <x:String x:Key="String.Page.Main.Login.External.Title">请在弹出的浏览器页面中完成 Spotify 登录授权！</x:String>
+    <x:String x:Key="String.Page.Main.Login.External.Description">若长时间没有弹出，或在授权过程中出现了问题，可尝试使用内嵌登录进行授权。</x:String>
+    <x:String x:Key="String.Page.Main.Login.External.Button.UseInternal">使用内嵌登录</x:String>
 
     <x:String x:Key="String.Settings">设置</x:String>
-    <x:String x:Key="String.Settings.RestartMessage">(部分设置需要重启才可生效)</x:String>
+    <x:String x:Key="String.Settings.Description">通过这些设置，让你的 Lyricify Mobile 更加个性化</x:String>
+    <x:String x:Key="String.Settings.GoToPage">前往设置页</x:String>
+    <x:String x:Key="String.Settings.RestartMessage">部分设置可能需要重启才可生效</x:String>
     <x:String x:Key="String.Settings.Translation">中文翻译</x:String>
     <x:String x:Key="String.Settings.BoldText">粗体文本</x:String>
+    <x:String x:Key="String.Settings.FontSizeScale">字号缩放</x:String>
+    <x:String x:Key="String.Settings.BlurEffect">模糊效果</x:String>
+    <x:String x:Key="String.Settings.BlurRadiusScale">模糊半径缩放</x:String>
     <x:String x:Key="String.Settings.PullingEffect">拖动效果</x:String>
     <x:String x:Key="String.Settings.ExplicitLyrics">Explicit 歌词</x:String>
 
@@ -26,6 +34,7 @@
     <x:String x:Key="String.Page.About.UserGuide">用户手册:</x:String>
     <x:String x:Key="String.Page.About.UserGuide.Notice">点击访问</x:String>
     <x:String x:Key="String.Page.About.QQGroup">QQ 群:</x:String>
+    <x:String x:Key="String.Page.About.GetPremium">点击获取 Spotify Premium</x:String>
     <x:String x:Key="String.Page.About.429.Title">解决 429 错误问题</x:String>
     <x:String x:Key="String.Page.About.CustomClient">自定义 API Client:</x:String>
     <x:String x:Key="String.Page.About.Thanks">打赏 &amp; 感谢列表</x:String>
@@ -48,16 +57,16 @@
     <x:String x:Key="String.Page.Thanks.Thanklist.Donators.1">Lyricify Mobile 特别感谢名单</x:String>
     <x:String x:Key="String.Page.Thanks.Thanklist.Donators.1.Notice">按金额和时间排序</x:String>
     <x:String x:Key="String.Page.Thanks.Thanklist.Donators.2">Lyricify 打赏感谢名单</x:String>
-    <x:String x:Key="String.Page.Thanks.Thanklist.Donators.2.Notice">按金额和时间排序</x:String>
+    <x:String x:Key="String.Page.Thanks.Thanklist.Donators.2.Notice">按金额和时间排序，列表更新于 {0}</x:String>
 
     <x:String x:Key="String.Message.Login.429">429 错误，请稍后</x:String>
     <x:String x:Key="String.Message.Login.429.RetryAfter">遇到了 429 错误，将等待 {0} 秒再重试</x:String>
     <x:String x:Key="String.Message.Login.429.CustomClient">可通过自定义 API Client 解决 429 错误问题</x:String>
     <x:String x:Key="String.Message.Login.NullPlayback">无正在播放的歌曲，你得在 Spotify 放歌才能显示歌词呀</x:String>
     <x:String x:Key="String.Message.Login.429Error">429 错误，待会儿再试</x:String>
-    <x:String x:Key="String.Message.Login.InvalidClient">无效的 Client 信息，请检你的 API Client 配置</x:String>
+    <x:String x:Key="String.Message.Login.InvalidClient">无效的 Client 信息, 请检你的 API Client 配置</x:String>
     <x:String x:Key="String.Message.Login.UserNotRegistered">用户没有在 Spotify Developer Dashboard 中注册</x:String>
-    <x:String x:Key="String.Message.Login.ThirdParty.Notice">第三方 (Google、Facebook 和 Apple) 登录是不被支持的，请使用你的 Spotify 账号和密码完成登录 (你可以在 Spotify 官网设置密码)</x:String>
+    <x:String x:Key="String.Message.Login.ThirdParty.Notice">第三方 (Google 和 Facebook) 登录是不被支持的，请使用你的 Spotify 账号和密码完成登录 (你可以在 Spotify 官网设置密码)</x:String>
     <x:String x:Key="String.Message.Lyrics.Instrumental">纯音乐，请您欣赏。</x:String>
     <x:String x:Key="String.Message.Lyrics.FailedToGet">没有找到歌词，您可以在电脑上使用 Lyricify 4 导入歌词</x:String>
     <x:String x:Key="String.Message.Lyrics.CannotScroll">手动滚动不再可用</x:String>

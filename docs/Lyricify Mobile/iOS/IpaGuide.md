@@ -1,10 +1,10 @@
 # Apple 设备自签教程 By [Tiger](https://github.com/mcuTiger)
 
 ## 前置准备
-Lyricify Mobile iOS.ipa、[Sideloadly](https://sideloadly.io/#download)、iTunes、iCloud（iTunes、iCloud 可能需要非 Microsoft Store 版本）
+Lyricify Mobile iOS.ipa (在 GitHub Releases 中获得最新版本)、[Sideloadly](https://sideloadly.io/#download)、iTunes、iCloud（iTunes、iCloud 可能需要非 Microsoft Store 版本）
 
 ## 步骤
-1. 打开 Sideloadly，使用数据线将 iPhone / iPad 连接到您的 PC；点击 IPA 图标，选择安装软件。  
+1. 打开 Sideloadly，使用数据线将 iPhone / iPad 连接到您的 PC；点击 IPA 图标，载入 .ipa 文件。  
 ![Sideloadly App main interface](pic/image01.png)  
   注意事项：
     1. 第一次连接时，你的 iPhone / iPad 会提示是否信任此设备，选择信任即可；
