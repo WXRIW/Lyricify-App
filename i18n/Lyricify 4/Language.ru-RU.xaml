@@ -30,7 +30,12 @@
     <system:String x:Key="String.MainWindow.UserWidget.GetSpotifyPremium">Получить Spotify Premium</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LogOut">Выйти</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.Settings">Настройки</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.About">О нас</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.About">О Lyricify</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion">Версия Lyricify</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.FreeVersion">Бесплатная версия</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Free">Бесплатная</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Free.Store">Бесплатная (Пробная Microsoft Store)</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Purchased.Store">Платная версия Microsoft Store</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount">Аккаунт Lyricify</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.1">Администратор</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.2">Альфа-инсайдер</system:String>
@@ -263,7 +268,7 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip2">Проведите влево или вправо для максимизации</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip3">Потяните вниз для закрытия</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip4">Зажмите правую кнопку мыши и проведите для управления текстом песни</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Close">Закрыть тексты Apple Music</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Close">Закрыть текст Apple Music</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MaximizeWindow">Полноэкранный</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.RestoreWindow">Восстановить</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MinimizeWindow">Свернуть</system:String>
@@ -281,6 +286,28 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Показать альбом</system:String>
 
     <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Авторство: </system:String>
+
+    <!--  Page Windows Update Lyrics  -->
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.10">Настройка обновлений</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.8">Настройка обновлений</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.11">Обновление завершено на {0}%</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.10">Обновление завершено на {0}%</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.11">Не выключайте компьютер</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.10">Не выключайте компьютер</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.8">Не выключайте компьютер</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.11">Ваш компьютер будет перезагружен несколько раз</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.10">Ваш компьютер будет перезагружен несколько раз</system:String>
+
+    <!--  Page Windows Blue Screen Lyrics  -->
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary">На вашем устройстве возникла проблема, требуется перезагрузка.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary.WithTrackName">В {0} возникла проблема, требуется перезагрузка.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full" xml:space="preserve">На вашем устройстве возникла проблема, требуется перезагрузка.&#x0A;Мы собираем только определённую информацию об ошибке, после чего устройство будет перезагружено.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full.WithTrackName" xml:space="preserve">В {0} возникла проблема, требуется перезагрузка.&#x0A;Мы собираем только определённую информацию об ошибке, после чего устройство будет перезагружено.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.PercentComplete">{0}% завершено</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Main">Для получения подробной информации об этой проблеме и возможных путях её решения посетите https://lyricify.app</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Call">Если вы обращаетесь в службу поддержки, предоставьте следующую информацию:</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.StopCode">Код остановки: {0}</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Artist">Авторство: {0}</system:String>
 
     <!--  Page About  -->
     <system:String x:Key="String.Page.About.Title">О Lyricify</system:String>
@@ -342,6 +369,8 @@
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Description">Изменить масштаб отображения Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Button.Reset">Сбросить</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Help">Вы также можете изменить масштаб изображения с помощью колесика мыши при нажатой клавише Control или &quot;Ctrl + -&quot; для увеличения, &quot;Ctrl + =&quot; для уменьшения масштаба и &quot;Ctrl + 0&quot; для сброса.</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ShowLyricifyVersionInfo">Отображение информации о версии Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ShowLyricifyVersionInfo.Description">Отображение информации о версии Lyricify в области Компоненты пользователя</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization">Персонализация стиля текста</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Description">Стиль текста на странице текста текста в стиле Spotify</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode">Персонализация стиля текстов песен (мобильный режим)</system:String>
@@ -407,6 +436,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">Уровень размытия</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Установить уровень размытия (уровень по умолчанию в iPadOS в горизонтальном режиме — 3, в iPadOS в вертикальном режиме или iOS — 5)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">Уровень</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DisableBlurAtLyricsLineMouseOver">Автоматическое устранение размытости</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DisableBlurAtLyricsLineMouseOver.Description">Временно отключите эффект размытия при наведении мыши</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">Жирный текст</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">Использовать жирный шрифт в текстах песен Apple Music</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FontPreset">Шрифтовые пресеты</system:String>
@@ -458,6 +489,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS164AndLater">iOS 16.4 и выше</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS170AndLater">iOS 17.0 и выше</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS171AndLater">iOS 17.1 и выше</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS260AndLater">iOS 26.0 и выше</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth">Ширина перехода</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">Ширина перехода прозрачности</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">Текстовое действие эффект живописи</system:String>
@@ -466,6 +498,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed.Description">Скорость переключения непрозрачности слоговой линии</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity">Прозрачность предварительного воспроизведения слога</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity.Description">Непрозрачность для слогов в режиме предварительного</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition">Положение фоновой лирики</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition.Description">Положение фоновой относительно основного текста</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout">Fly-out фоновая лирика</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">Фоновый вокал вылетает из анимации с режиссурой</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">Мобильная раскладка</system:String>
@@ -483,12 +517,34 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple">Buggy Apple (Apple с ошибками)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.Description">Apple без ошибок - это не Apple, так что давайте воздадим должное ошибкам, и воздадим должное Apple.</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">Включить традиционную версию</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">Добавить в главное меню вход в тексты Apple Music (традиционный)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">Добавить в главное меню вход в текст Apple Music (традиционный)</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Полноэкранный режим Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics">Размытие текста</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics.Description">Включить эффект размытия текста</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo">Цветная иконка Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo.Description">Использовать цветной логотип Lyricify вместо монохромного</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics">Текст Обновления Windows</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Style">Стиль</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Style.Description">Выберите нужную предустановку стиля</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea">Нижняя область</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.Description">Выберите, что будет отображаться в нижней области</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.TrackInfo">Информация треки</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.WindowsTips">Советы Windows</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.Hidden">Скрытые</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.MultipleLine">Многострочные тексты</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.MultipleLine.Description">Отображение многострочных текстов песен</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language">Язык</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.Description">Предпочтение языка интерфейса</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.ComboBox.Default">По умолчанию</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.ComboBox.Auto">Автоматический</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics">Текст синего экрана Windows</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.Default">По умолчанию</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.Insider">Инсайдер</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.ArtworkMainColor">Основной цвет задней обложки</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit">Адаптация масштаба</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit.Description">Масштабирование содержимого под экран</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution">Аналоговое низкое разрешение</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution.Description">Имитация отображения экрана с низким разрешением</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Режим Byland</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Byland или Island, решать вам! Разные стили имеют разные функции</system:String>
@@ -514,7 +570,7 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">Непрозрачность</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale">Коэффициент масштабирования</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale.Description">Управляйте размером и масштабом анимированного острова слов</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics">Слова для рабочего стола</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics">Текст для рабочего стола</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Режим две строки</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">Если этот параметр отключить, будет отображаться только одна строка текста</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EfficiencyMode">Энергосберегающий режим</system:String>
@@ -613,6 +669,8 @@
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">Включить коррекцию временной шкалы</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">Повысить точность временной шкалы</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.CrossfadeNotice">Crossfade включен, коррекция временной шкалы может работать некорректно</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrectionPlus">Включить коррекцию временной шкалы Plus</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrectionPlus.Description">Исправление временной шкалы более инвазивным способом для лучшей коррекции</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">Включить предварительную загрузку текстов</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">Предварительная загрузка текстов позволяет практически незаметно загружать тексты при переключении треков</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableImagePreload">Включить предварительную загрузку изображений</system:String>
@@ -713,6 +771,8 @@
     <system:String x:Key="String.Menu.MainWindow.Main.AppleMusicLyricsTraditional">Текст Apple Music (традиционный)</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.LyricifyFullscreen">Полноэкранный режим Lyricify</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.MobileUIFullscreen">Полноэкранный режим Mobile</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.WindowsUpdateLyrics">Текст Обновления Windows</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.WindowsBlueScreenLyrics">Текст синего экрана Windows</system:String>
 
     <system:String x:Key="String.Menu.MainWindow.Main.Settings">Настройки</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced">Расширенные</system:String>
@@ -875,6 +935,7 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink.Help">Копировать ссылку для авторизации Spotify</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink">Успешная авторизация не обнаружена:</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink.Help">Вручную введите ссылку обратного вызова авторизации</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.InvalidClient.InvalidRedirectUri.Help">Это проблема Spotify, нажмите здесь, чтобы найти решение</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configure">Настройка пользовательского API Client</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configured">Пользовательский API Client настроен</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.ProxySettings">Настройки прокси</system:String>
@@ -975,6 +1036,13 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Remove">Удалить</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">Вверх</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveDown">Вниз</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Name">Неназванная конфигурация</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Name.Subscription">Неназванная конфигурация подписки</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorSavingProfile">Ошибка сохранения конфигурации</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorAddingProfile">Ошибка при добавлении конфигурации</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorAddingProfile.Subscription">Ошибка при добавлении конфигурации подписки</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ContentIllegal">Недопустимое содержимое конфигурации</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ContentIllegal.Subscription">Недопустимое содержимое конфигурации подписки</system:String>
 
     <!--  Device Latency Manager  -->
     <system:String x:Key="String.Window.DeviceLatencyManager">Менеджер задержек устройства</system:String>
@@ -1170,6 +1238,7 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Импорт текстов из Apple Music</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.EnterIdOrLink">Введите ID или ссылку</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet">Не удалось получить текст песни</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet.TokenExpired">Не удалось получить текст песни, срок действия токена на стороне сервера истек, пожалуйста, подождите, пока разработчик исправит это, и повторите попытку.</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">Текст песни не найден</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">Эти тексты песен не являются посимвольными. Продолжить импорт?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">Преобразовать традиционный китайский в упрощенный китайский?</system:String>
@@ -1341,8 +1410,10 @@
 
     <!--  Dialogs  -->
     <system:String x:Key="String.Dialog.Store.Title">Вы обнаружили эксклюзивную функцию!</system:String>
+    <system:String x:Key="String.Dialog.Store.Title.FreePromotion">Можно открыть еще больше функций!</system:String>
     <system:String x:Key="String.Dialog.Store.Explore">Приглашаем вас исследовать Lyricify в Microsoft Store для улучшенного опыта. Ваша поддержка сильно поможет нам в постоянном совершенствовании и развитии приложения.</system:String>
     <system:String x:Key="String.Dialog.Store.Purchase">Рассмотрите возможность приобретения Lyricify в Microsoft Store. Ваша поддержка поможет нам улучшать ваш опыт использования и продолжать разработку новых функций.</system:String>
+    <system:String x:Key="String.Dialog.Store.StoreExclusiveExplanation">Купив Lyricify в Microsoft Store, вы сможете разблокировать пользовательские шрифты для текстов Apple Music и Dynamic Lyrics Island, серверы с ускорением Lyricify, пользовательские приветственные сообщения и многое другое.</system:String>
     <system:String x:Key="String.Dialog.Store.Button.GoToStore">Перейти в Microsoft Store</system:String>
     <system:String x:Key="String.Dialog.Store.Button.Close">Закрыть</system:String>
     <system:String x:Key="String.Dialog.Store.Donator">Уже являетесь поддерживающим пользователем?</system:String>
@@ -1351,6 +1422,9 @@
     <!--
         Messages
     -->
+
+    <!--  Titles  -->
+    <system:String x:Key="String.Messages.Title.Error">Ошибка Lyricify</system:String>
 
     <!--  App  -->
     <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">Несанкционированное действие, повторно войдите в систему, чтобы продолжить</system:String>
@@ -1388,8 +1462,10 @@
 
     <system:String x:Key="String.Messages.MainWindow.Lyrics.NoTrackPlaying">Перед началом воспроизведения на Spotify вы не сможете открыть текст</system:String>
     <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">Перед началом воспроизведения на Spotify вы не сможете открыть текст Apple Music</system:String>
-    <system:String x:Key="String.Messages.LyricifyFullscreen.NoTrackPlaying">Перед началом воспроизведения на Spotify вы не сможете открыть полноэкранный текст в Lyricify</system:String>
+    <system:String x:Key="String.Messages.LyricifyFullscreen.NoTrackPlaying">Перед началом воспроизведения на Spotify вы не сможете открыть текст полноэкранного Lyricify</system:String>
     <system:String x:Key="String.Messages.MobileUIFullscreen.NoTrackPlaying">Перед началом воспроизведения на Spotify вы не сможете открыть полноэкранный текст Mobile</system:String>
+    <system:String x:Key="String.Messages.WindowsUpdateLyrics.NoTrackPlaying">Перед началом воспроизведения на Spotify вы не сможете открыть текст Обновления Windows</system:String>
+    <system:String x:Key="String.Messages.WindowsBlueScreenLyrics.NoTrackPlaying">Перед началом воспроизведения на Spotify вы не сможете открыть текст синего экрана Windows</system:String>
 
     <system:String x:Key="String.Messages.MainWindow.LogOut.Query">Выйти из этой учетной записи Spotify?</system:String>
     <system:String x:Key="String.Messages.MainWindow.LogOut.Failed">Не удалось выйти из системы</system:String>
@@ -1498,6 +1574,7 @@
     <system:String x:Key="String.Wrapped.Messages.058">Год за годом.</system:String>
     <system:String x:Key="String.Wrapped.Messages.059">Помни,</system:String>
     <system:String x:Key="String.Wrapped.Messages.060">Надеюсь, все пройдет хорошо.</system:String>
+    <system:String x:Key="String.Wrapped.Messages.061">Мы с нетерпением ждем вашего выдающегося вклада в предстоящем году.</system:String>
 
     <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">Количество просмотров тексты</system:String>
     <system:String x:Key="String.Wrapped.Report.Launches">Количество стартов</system:String>

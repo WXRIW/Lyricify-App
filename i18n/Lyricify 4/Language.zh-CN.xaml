@@ -502,6 +502,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition.Description">背景人声歌词相对主歌词的位置</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout">背景人声飞出</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">背景人声飞出动画与方向</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.ComboBox.LyricifyOld">Lyricify (旧)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">移动端布局</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout.Description">Apple Music 移动端布局</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect">单词发光效果</system:String>
@@ -1189,6 +1190,7 @@
     <system:String x:Key="String.Window.TrackManagement.Button.EditRawFile">编辑原始文件</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">你确定要关闭而不保存吗？</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.FinishDuetView">请完成对唱视图设置 (双击"对唱视图"标题可清除对唱视图设置)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.CheckTitleLines" xml:space="preserve">请检查标题行定义，你似乎勾选了所有的行作为标题行。(双击"是标题行"标题可重置标题行信息)&#x000A;你想取消本次上传吗？</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Timestamp">时间戳</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Lyrics">歌词</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle">是标题行</system:String>
@@ -1418,6 +1420,12 @@
     <system:String x:Key="String.Dialog.Store.Button.Close">关闭</system:String>
     <system:String x:Key="String.Dialog.Store.Donator">已经是打赏用户?</system:String>
     <system:String x:Key="String.Dialog.Store.Donator.ToolTip">对于打赏金额等于或超过 Microsoft Store 售价的支持者，可向开发者索取免费的 Microsoft Store 兑换码。</system:String>
+
+    <system:String x:Key="String.Dialog.MediaSessionStatus.NoSessionsFound">没有找到会话</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.SessionsFound.Colon">{0} 个会话已找到：</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.SystemRequirements">Media Session 要求 Windows 10 (Build 17763) 或更高版本。</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.Tips.SpotifyNoPlayback">看起来你的 Spotify 正在播放，但是并没有正确上传播放信息到 Spotify 服务器。请检查你的 Internet 连接。</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.Tips.MediaSessionRequirements.Colon">Media Session 要求：</system:String>
 
     <!--
         Messages
