@@ -502,6 +502,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition.Description">The position of Background Vocal lyrics relative to the main lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout">Background Vocal flyout</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">Background Vocal flyout animation and direction</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.ComboBox.LyricifyOld">Lyricify (Old)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">Mobile layout</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout.Description">Apple Music mobile layout</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect">Word shining effect</system:String>
@@ -1189,6 +1190,7 @@
     <system:String x:Key="String.Window.TrackManagement.Button.EditRawFile">Edit Raw File</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">Are you sure to close without saving?</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.FinishDuetView">Please finish duet view settings (Double click "Duet View" title can clear duet view settings)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.CheckTitleLines" xml:space="preserve">Please check the title lines defination, it looks like you've marked all lines as title lines. (Double click "IsTitle" title can reset title lines defination)&#x000A;Do you want to cancel the upload?</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Timestamp">Timestamp</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Lyrics">Lyrics</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle">IsTitle</system:String>
@@ -1418,6 +1420,12 @@
     <system:String x:Key="String.Dialog.Store.Button.Close">Close</system:String>
     <system:String x:Key="String.Dialog.Store.Donator">Already a donator?</system:String>
     <system:String x:Key="String.Dialog.Store.Donator.ToolTip">Supporters who donate equal to or exceed the Microsoft Store selling price can request a free Microsoft Store redeem code from the developer.</system:String>
+
+    <system:String x:Key="String.Dialog.MediaSessionStatus.NoSessionsFound">No sessions found</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.SessionsFound.Colon">{0} session(s) found:</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.SystemRequirements">Media Session requires Windows 10 (Build 17763) or higher version.</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.Tips.SpotifyNoPlayback">It looks like your Spotify is playing, but the playback info is not uploaded correctly to the Spotify server. Please check your Internet connection.</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.Tips.MediaSessionRequirements.Colon">Media Session requirements:</system:String>
 
     <!--
         Messages

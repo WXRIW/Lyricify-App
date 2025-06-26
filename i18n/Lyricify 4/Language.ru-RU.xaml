@@ -287,7 +287,7 @@
 
     <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Авторство: </system:String>
 
-<!--  Page Windows Update Lyrics  -->
+    <!--  Page Windows Update Lyrics  -->
     <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.10">Настройка обновлений</system:String>
     <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.8">Настройка обновлений</system:String>
     <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.11">Обновление завершено на {0}%</system:String>
@@ -1424,7 +1424,7 @@
     -->
 
     <!--  Titles  -->
-        <system:String x:Key="String.Messages.Title.Error">Ошибка Lyricify</system:String>
+    <system:String x:Key="String.Messages.Title.Error">Ошибка Lyricify</system:String>
 
     <!--  App  -->
     <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">Несанкционированное действие, повторно войдите в систему, чтобы продолжить</system:String>
