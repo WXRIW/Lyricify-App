@@ -324,9 +324,9 @@
     <system:String x:Key="String.Page.About.Copyright">著作権 © {0} WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">歌詞提供者</system:String>
     <system:String x:Key="String.Page.About.LyricsProviders">Lyricify Lyrics Vault, QQ Music, Netease Cloud Music</system:String>
-    <system:String x:Key="String.Page.About.Donation">作者にお金を寄付します</system:String>
+    <system:String x:Key="String.Page.About.Donation">作者にお金を寄付</system:String>
     <system:String x:Key="String.Page.About.Thanklist">感謝リスト</system:String>
-    <system:String x:Key="String.Page.About.Thanklist.SupporterListInfo">金額と時間でソート、リストは{0}日に更新した</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.SupporterListInfo">金額と時間でソート、リストは {0} 日に更新した</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksApple">魅力的でユニークなデザインのため、Apple に感謝します</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">音楽ストリーミング業界全体への貢献のため、Spotify に感謝します</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">Spotify Premium アカウントを提供してくれた Difer に感謝します</system:String>
@@ -420,7 +420,7 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable">Netease Cloud Music 逐字歌詞</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable.Description">Netease Cloud Music 逐字歌詞を表示する</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch">Musixmatch を有効にする</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch.Description">Musixmatchをバックアップソースとして使用</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch.Description">Musixmatchをバックアップソースとして使用する</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable">Musixmatch 逐字歌詞</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable.Description">Musixmatch 逐字歌詞を表示する</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.EnableColorfulEmoji">カラフルな絵文字</system:String>
@@ -449,14 +449,14 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation">追加のアニメーションを有効にする</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Description">より良いアニメーション、より良い体験</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">フローティングアニメーション</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">歌詞が流れ、音節が浮かび、心が感動する</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">歌詞が流れ、音節が漂う、こころを動く</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Disabled">無効</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">低</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Medium">中</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">高（デフォルト）</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">より高い</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">輝かせる効果</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">きらきらひかる 、星のような歌词よ</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">きらきらひかる 、星ような歌词よ</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk">日中韓単語の輝かせる効果を有効にする</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk.Description">複数の日中韓文字の単語輝かせる効果を有効にする</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">デュエット ビュー</system:String>
@@ -572,7 +572,7 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale">スケール</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale.Description"> Dynamic Lyrics Island のサイズとスケーリングの制御</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">デスクトップ歌詞</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">二重線スタイル</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">2 行モード</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">これをオフにすると歌詞が 1 行だけ表示される</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EfficiencyMode">効率モデル</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EfficiencyMode.Description">Lyricify は、炭素排出とエネルギー使用による環境への影響を削減することを約束します</system:String>
@@ -592,7 +592,7 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Opacity.Description">デスクトップの歌詞を非表示にしたい場合は 0 を設定する。</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">不透明度</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.BorderThickness">ボーダーの太さ</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign">歌詞の整列モード</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign">歌詞の揃え方</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Center">中央揃え (デフォルト)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Left">左揃え</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Right">右揃え</system:String>
@@ -680,7 +680,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation.Description">ライブラリから曲（お気に入り曲）を削除する前に確認する</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">中国語変換を有効にする</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">Spotify コンテンツの中国語変換を有効にする</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">デバイスのレイテンシ</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">デバイス遅延</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">単位: ミリ秒。 この引数は、Bluetooth 再生デバイスのレイテンシ用に設計されています。歌詞のオフセットには使用しないでください。 歌詞を更新して有効にする</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Button.Configure">設定する</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">ホットキーマネージャー</system:String>
@@ -721,7 +721,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings.Description">これにより Lyricify のシステムプロキシ設定が上書きされる</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Host">ホスト</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Port">ポート</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Username">ユーザーネーム</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Username">ユーザー名</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Password">パスワード</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test">テストする</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.ProxyOverrideEnabled">プロキシのオーバーライドが有効になっていません。テスト結果が異なる可能性があります。それでもテストを実行しますか？</system:String>
@@ -735,7 +735,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Open">開ける</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Load">ロード</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.ResetAll">すべてリセット</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">すべての設定をリセットしてもよろしいですか</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">本当にすべての設定をリセットしますか</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Done">Lyricify を手動で再起動する必要がある場合があります。</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Log">ログ</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Log.Description">ログ操作</system:String>
@@ -1071,8 +1071,8 @@
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.ResetWindow">ウィンドウのリセット</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.PlayPause">再生 / 一時停止</system:String>
-    <system:String x:Key="String.Window.HotkeyManager.Hotkey.PreviousTrack">前のトラック</system:String>
-    <system:String x:Key="String.Window.HotkeyManager.Hotkey.NextTrack">次のトラック</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.PreviousTrack">前へ</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.NextTrack">次へ</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Button.ResetAll">すべてのホットキーをリセット</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Button.Apply">アプライ</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Button.Cancel">キャンセル</system:String>
