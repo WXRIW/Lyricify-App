@@ -375,6 +375,8 @@ Lyricify 4 支持内置播放，但是并不建议使用。这只是一个测试
 1. 打开 `开始菜单`，点击右上角的 `所有应用`。
 2. 找到 `Lyricify 4`，按住拖动到想要创建快捷方式的地方即可完成创建。
 
+**注意：** 你可以手动修改快捷方式图标，原始图标文件可于[此处](https://raw.githubusercontent.com/WXRIW/Lyricify-App/refs/heads/main/resources/icon/Lyricify%20Icon.ico)获取。
+
 # 常见问题
 
 ## Microsoft Store 版本与 GitHub 版本有什么区别
@@ -418,6 +420,21 @@ Self-contained 版本包含 .NET 6.0 Desktop Runtime 运行时，仅建议那些
 
 ## 无法从 Lyricify 服务器获取歌词
 如果您在中国大陆，建议检查您的科学上网工具是否正确设置了分流，是否能正常访问 `api.lyricify.app`。您还可以在设置中勾选 `不在 Lyricify 服务器请求中使用代理`。
+
+## 授权成功后无反应或手动授权失败
+浏览器中提示授权成功，但 Lyricify 上没有反应。或是点击左下角 “登录时遇到问题” 进行手动授权时提示出错。  
+### 导致原因
+网络连接状态不好，导致无法连接到 Spotify 服务器。与 Lyricify 无关。 
+### 解决方案
+更换网络环境，如果你在使用代理，可尝试更换节点或服务提供商。  
+请确保在你的网络下，这两个 Spotify 域名可以 Ping 连通：  
+```
+accounts.spotify.com
+api.spotify.com
+```
+如果可以连通，但仍然无法完成授权 Lyricify，请继续更换你的网络连接或服务提供商，直到可以连通为止。  
+如果你在中国大陆地区，且没有使用代理，则可以尝试开启代理后再试。  
+Lyricify 可以保证的是，Lyricify 本身没有问题，本问题为用户侧网络问题。
 
 ## 启动 Lyricify 时提示错误
 启动 Lyricify 时提示出错（超时错误或 Http 错误），并自动关闭。  
