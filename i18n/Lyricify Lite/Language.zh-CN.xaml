@@ -79,6 +79,8 @@
     <system:String x:Key="String.Settings.PerApp.Button.Modify">修改</system:String>
     <system:String x:Key="String.Settings.PerApp.Button.Restore">恢复默认值</system:String>
     <system:String x:Key="String.Settings.PerApp.Button.Close">关闭</system:String>
+    <system:String x:Key="String.Settings.PerApp.Tips.Colon">提示：</system:String>
+    <system:String x:Key="String.Settings.PerApp.Tips.LyricifyForSpotify" xml:space="preserve">推荐所有 Spotify 用户使用 Lyricify 4，以获得 Lyricify Lite 无法带来的独特体验。&#x000A;Lyricify 4 拥有完全的独立词库支持、时间轴校正以及众多专为 Spotify 设计的功能，是 Spotify 的最佳搭档。</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland">灵动词岛</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.BylandMode">灵动大陆模式</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.BylandMode.Description">岛还是陆，你来决定！不同的样式有着不同的功能</system:String>

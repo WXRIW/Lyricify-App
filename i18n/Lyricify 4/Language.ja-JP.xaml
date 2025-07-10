@@ -1,4 +1,4 @@
-<ResourceDictionary
+﻿<ResourceDictionary
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
@@ -570,7 +570,7 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">新しい曲に切り替えた後、 Dynamic Lyrics Island の左側にアーティストのイメージを表示する</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">不透明度</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale">スケール</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale.Description"> Dynamic Lyrics Island のサイズとスケーリングの制御</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale.Description">Dynamic Lyrics Island のサイズとスケーリングの制御</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">デスクトップ歌詞</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">2 行モード</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">これをオフにすると歌詞が 1 行だけ表示される</system:String>
@@ -1561,7 +1561,7 @@
     <system:String x:Key="String.Wrapped.Messages.037">マークとアップロードは、歌詞のライブラリを構築する主な2つの方法です。</system:String>
     <system:String x:Key="String.Wrapped.Messages.038">今年</system:String>
     <system:String x:Key="String.Wrapped.Messages.039">あなたは {0:N0} の歌詞をマークしました</system:String>
-    <system:String x:Key="String.Wrapped.Messages.040">Lyricify Track Management で {0:N0} 回アップロードしました	</system:String>
+    <system:String x:Key="String.Wrapped.Messages.040">Lyricify Track Management で {0:N0} 回アップロードしました</system:String>
     <system:String x:Key="String.Wrapped.Messages.041">{0:N0} 曲の歌詞をLyricify 歌詞のライブラリにインポートしました</system:String>
     <system:String x:Key="String.Wrapped.Messages.042">{0} 人を超えました</system:String>
     <system:String x:Key="String.Wrapped.Messages.043">ご協力いただき、ありがとうございまあした</system:String>

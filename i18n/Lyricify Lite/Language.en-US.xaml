@@ -79,6 +79,8 @@
     <system:String x:Key="String.Settings.PerApp.Button.Modify">Modify</system:String>
     <system:String x:Key="String.Settings.PerApp.Button.Restore">Restore to default</system:String>
     <system:String x:Key="String.Settings.PerApp.Button.Close">Close</system:String>
+    <system:String x:Key="String.Settings.PerApp.Tips.Colon">Tips:</system:String>
+    <system:String x:Key="String.Settings.PerApp.Tips.LyricifyForSpotify" xml:space="preserve">Lyricify 4 is recommended to all Spotify users for the unique experience that Lyricify Lite cannot bring.&#x000A;With independent lyrics vault support, timeline optimization and many features designed specifically for Spotify, Lyricify 4 is sure to be the best match for Spotify.</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.BylandMode">Byland mode</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.BylandMode.Description">Byland or Island, it's up to you! Different styles enjoy different features</system:String>
