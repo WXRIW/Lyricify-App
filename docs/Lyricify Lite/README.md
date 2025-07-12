@@ -21,7 +21,7 @@
 | Media Player | 时间轴完美；曲目信息取决于具体曲目 | 一般，取决于具体文件 | 原 Groove Music |
 | Foobar 2000 | 无时间轴信息；曲目信息取决于具体曲目 | 一般，取决于具体文件 | 时间轴可由[插件](https://github.com/ungive/foo_mediacontrol)提供 |
 | PotPlayer | 时间轴完美；曲目信息取决于播放内容的文件名 | 较差，取决于文件名 |  |
-| AIMP | 无时间轴信息；曲目信息取决于具体曲目 |  一般，取决于具体文件 | 时间轴可由[插件](https://www.aimp.ru/?do=catalog&rec_id=1097)提供 |
+| AIMP | 无时间轴信息；曲目信息取决于具体曲目 |  一般，取决于具体文件 | 需安装额外的[插件](https://www.aimp.ru/?do=catalog&rec_id=1097) |
 | Google Chrome | 时间轴较好；曲目信息取决于具体播放内容 | 一般，取决于具体内容 | 默认不启用 |
 | Microsoft Edge | 时间轴较好；曲目信息取决于具体播放内容 | 一般，取决于具体内容 | 默认不启用 |
 
