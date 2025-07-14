@@ -209,7 +209,7 @@ Lyricify Syllable 的注意参考 QRC (Lyricify 标准) 标准，这里不再重
 ### 制作工具
 不推荐您手动制作 Lyricify Syllable 歌词，因为手动打轴十分艰难，会让您无法坐和放宽，且精确度不高。  
 如果您仍想尝试自行制作 Lyricify Syllable 歌词，则推荐您使用下列工具。 
-- AMLL TTML Tool (https://steve-xmh.github.io/amll-ttml-tool)
+- AMLL TTML Tool (fred913 分支优化版) (https://fred913.github.io/amll-ttml-tool/)
 
 ## Apple Syllable 格式规范
 略 
