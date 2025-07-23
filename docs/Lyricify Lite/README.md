@@ -204,7 +204,8 @@ QQ 音乐不是最新版，或未开启 SMTC。
 ### 导致原因
 InfinityLink 插件异常的传递了时间轴信息，导致 Lyricify Lite 获取到的 SMTC 信息错误，故产生异常行为。
 ### 解决方案
-联系 InfinityLink 插件作者进行反馈，等待修复，暂时更换其它播放器，或等待网易云官方支持 SMTC。
+联系 InfinityLink 插件作者进行反馈，等待修复，暂时更换其它播放器，或等待网易云官方支持 SMTC。  
+你也可以尝试开启 `设置->逐应用配置->网易云音乐->修改->使用内置计时器`，以屏蔽时间轴信息。
 
 ## 无法检测到酷狗音乐
 ### 导致原因
@@ -223,7 +224,16 @@ PotPlayer 不是最新版，没有 SMTC 功能。
 ### 导致原因
 Apple Music 提供的时间轴精度很低，且上报不稳定。  
 这个问题自 Apple Music Windows 发布以来就已存在，Lyricify Lite 已尽力优化。
-### 解决方案
+### 解决方案（新）
+你可以尝试使用 Lyricify 智能引擎提供的全新方案————Apple Music 时间轴稳定器。  
+
+**注意：**
+1. 本功能仅 [Microsoft Store 商店购买版](https://apps.microsoft.com/detail/9NLTPSV395K2)支持，且默认开启。
+2. 设置项位置：设置 -> 逐应用配置 -> Apple Music -> 修改 -> Apple Music 时间轴稳定器。
+3. 开启本功能后，Lyricify 将自动优化和调整 Apple Music 传入的时间轴，尽力提供一个稳定的进度输出。
+4. 由于 Apple Music 存在延迟，建议将会话延迟调整为 -500 ms ~ -400 ms。
+
+### 解决方案（旧）
 与 Apple 取得联系，并向他们寻求帮助。或更换其他音乐 app，以提升你的 Lyricify 使用体验。
 
 # 附录
