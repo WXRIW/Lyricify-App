@@ -225,7 +225,7 @@ PotPlayer 不是最新版，没有 SMTC 功能。
 Apple Music 提供的时间轴精度很低，且上报不稳定。  
 这个问题自 Apple Music Windows 发布以来就已存在，Lyricify Lite 已尽力优化。
 ### 解决方案（新）
-你可以尝试使用 Lyricify 智能引擎提供的全新方案————Apple Music 时间轴稳定器。  
+你可以尝试使用 Lyricify 智能引擎提供的全新方案：Apple Music 时间轴稳定器。  
 
 **注意：**
 1. 本功能仅 [Microsoft Store 商店购买版](https://apps.microsoft.com/detail/9NLTPSV395K2)支持，且默认开启。
