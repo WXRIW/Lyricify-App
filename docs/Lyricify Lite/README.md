@@ -197,7 +197,8 @@ QQ 音乐不是最新版，或未开启 SMTC。
 ### 导致原因
 网易云音乐 Win32 原版并不支持 SMTC。
 ### 解决方案
-安装 [InfinityLink 插件](https://github.com/BetterNCM/InfinityLink)即可。
+安装 [InfinityLink 插件](https://github.com/BetterNCM/InfinityLink)即可。  
+可参考[此 issue](https://github.com/WXRIW/Lyricify-App/issues/521) 中的教程。
 
 ## 使用网易云音乐时时间轴异常
 在使用网易云音乐时，Lyricify Lite 歌词卡在曲目信息或第一句歌词，无法正常显示。
