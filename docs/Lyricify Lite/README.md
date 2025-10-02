@@ -15,7 +15,7 @@
 | Apple Music | 时间轴精度低；曲目信息不全 | 一般 |  |
 | QQ 音乐 | 完美 | 较好 |  |
 | QQ 音乐 UWP | 一般，信息提供不稳定 | 较好 |  |
-| 网易云音乐 | 一般，信息提供不稳定 | 较好 | 需安装额外的[插件](https://github.com/BetterNCM/InfinityLink) |
+| 网易云音乐 | 一般，信息提供不稳定 | 较好 | 需安装额外的[插件](https://github.com/apoint123/inflink-rs/) |
 | 网易云音乐 UWP | 无时间轴信息 | 较好 |  |
 | 酷狗音乐 | 无时间轴信息 | 较好 |  |
 | Media Player | 时间轴完美；曲目信息取决于具体曲目 | 一般，取决于具体文件 | 原 Groove Music |
@@ -201,8 +201,7 @@ QQ 音乐不是最新版，或未开启 SMTC。
 ### 导致原因
 网易云音乐 Win32 原版并不支持 SMTC。
 ### 解决方案
-安装 [InfinityLink 插件](https://github.com/BetterNCM/InfinityLink)即可。  
-可参考[此 issue](https://github.com/WXRIW/Lyricify-App/issues/521) 中的教程。
+安装由 apoint123 重构的 [InfLink 插件](https://github.com/apoint123/inflink-rs/)即可。  
 
 ## 使用网易云音乐时时间轴异常
 在使用网易云音乐时，Lyricify Lite 歌词卡在曲目信息或第一句歌词，无法正常显示。
