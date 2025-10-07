@@ -502,6 +502,7 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition.Description">Положение фоновой относительно основного текста</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout">Fly-out фоновая лирика</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">Фоновый вокал вылетает из анимации с режиссурой</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.ComboBox.LyricifyOld">Lyricify (старый)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">Мобильная раскладка</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout.Description">Мобильная раскладка Apple Music</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect">Эффект свечения слов</system:String>
@@ -1189,6 +1190,7 @@
     <system:String x:Key="String.Window.TrackManagement.Button.EditRawFile">Редактировать необработанный файл</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">Вы уверены, что закроете без сохранения?</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.FinishDuetView">Завершите настройку режима дуэта (двойной щелчок по заголовку "Просмотр дуэта" может очистить настройки режима дуэта)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.CheckTitleLines" xml:space="preserve">Пожалуйста, проверьте определения строк заголовка. Похоже, вы выбрали все строки в качестве строк заголовка. (Двойной щелчок по метке «Это заголовок» сбросит информацию о строке заголовка)&#x000A;Отменить загрузку?</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Timestamp">Временная метка</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Lyrics">Текст</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle">Это заголовок</system:String>
@@ -1418,6 +1420,12 @@
     <system:String x:Key="String.Dialog.Store.Button.Close">Закрыть</system:String>
     <system:String x:Key="String.Dialog.Store.Donator">Уже являетесь поддерживающим пользователем?</system:String>
     <system:String x:Key="String.Dialog.Store.Donator.ToolTip">Поддерживающие пользователи, внесшие пожертвование на сумму, равную или превышающую цену в Microsoft Store, могут получить бесплатный код для обмена в магазине.</system:String>
+
+    <system:String x:Key="String.Dialog.MediaSessionStatus.NoSessionsFound">Сессия не найдена</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.SessionsFound.Colon">{0} найденных сессий:</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.SystemRequirements">Для Media Session требуется Windows 10 (Build 17763) или более поздней версии.</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.Tips.SpotifyNoPlayback">Похоже, что Spotify воспроизводится, но информация о воспроизведении не загружается на серверы Spotify. Проверьте подключение к Интернету.</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.Tips.MediaSessionRequirements.Colon">Требования к медиа-сессии:</system:String>
 
     <!--
         Messages
