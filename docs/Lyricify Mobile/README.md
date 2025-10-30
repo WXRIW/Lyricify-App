@@ -16,11 +16,12 @@
 ## 如何在 Mac 上安装 Lyricify Mobile
 直接下载 `macOS.pkg` 安装即可。（推荐）  
 您也可以下载 `.macOS.zip`，将压缩包中的 Lyricify Mobile for macOS.app 拖入 `应用程序` 文件夹，即可完成安装。  
+特别的，在 Mac 设备上完成登录需参考[本教程](#在-mac-设备上完成登录)。
 
 ## 如何在 Windows 上使用 Lyricify Mobile
 Lyricify Mobile for Windows 为测试性质，不建议日常使用，建议使用具有完整功能的 Lyricify 4。
 Lyricify Mobile for Windows 下载 `.Windows.zip` 后，解压后运行 `Lyricify Mobile.WPF.exe` 即可。
-不支持网页登录，需要手动输入 Token。
+不支持网页登录，需要手动输入 Token。类似的，可参考[本教程](#在-mac-设备上完成登录)。
 
 # 常见问题
 
@@ -32,7 +33,29 @@ Lyricify Mobile for Windows 下载 `.Windows.zip` 后，解压后运行 `Lyricif
 科学上网。
 
 ## 登录时提示 INVALID_CLIENT: Invalid Redirect URI
-检查你的 Redirect URI 是否正确填写。确保[教程](CustomClient/Readme.zh-CN.md)中的两条 Redirect URI 均已正确填写。
+检查你的 Redirect URI 是否正确填写。确保[教程](CustomClient/Readme.zh-CN.md)中的两条 Redirect URI 均已正确填写。  
+请确保你使用的是 1.5.0 或更新版本的 Lyricify Mobile，且使用的是 `跳转浏览器登录`。由于 Spotify 的调整，`内嵌网页登录` 暂时无法使用，下一版本更新后将恢复。  
+特别的，macOS 版本的登录需参考[在 Mac 设备上完成登录](#在-mac-设备上完成登录)。
+
+## 在 Mac 设备上完成登录
+macOS 版本 (1.5.0 或更早版本) 仅支持 `内嵌网页登录`，但由于 Spotify 的调整，`内嵌网页登录` 暂时无法使用，故目前需借助其他平台完成登录。下一版本更新后将恢复 `内嵌网页登录` 功能。  
+目前可借助其他平台的设备通过以下方法完成登录。
+
+### 借助 Windows 设备
+你可以借助 Windows 设备完成 Lyricify Mobile for macOS 的登录授权。具体步骤如下。
+1. 在 Windows 设备上安装 Lyricify 4 并完成登录授权。
+2. 打开 Lyricify 4 主菜单 (左上角 `···`)，找到 `高级`，点击 `复制 Refresh Token`。
+3. 此时授权信息已复制到你的 Windows 剪切板中，你可以通过其他软件将此信息传递到你的 Mac 设备。
+4. 在 Mac 设备上打开 Lyricify Mobile for macOS，点击左上角 `返回` 按钮，这时你能看到 3 个文本框，请在第 3 个 (Spotify Refresh Token) 中粘贴授权信息。
+5. 点击 `继续` 按钮，即可完成登录授权。
+
+### 借助 iPhone、iPad 或 Android 设备
+你可以借助 iPhone、iPad 或 Android 设备完成 Lyricify Mobile for macOS 的登录授权。具体步骤如下。
+1. 在 iPhone、iPad 或 Android 设备上安装 Lyricify Mobile 并完成登录授权后，关闭 Lyricify Mobile。
+2. 打开 Lyricify Mobile，出现 `登录中` 页面时，点击下方的 `取消` 按钮，此时你能看到 3 个文本框。
+3. 在 Mac 设备上打开 Lyricify Mobile for macOS，点击左上角 `返回` 按钮，这时你能看到相同的 3 个文本框。
+4. 将 iPhone、iPad 或 Android 设备上文本框中的内容一一对应的复制到 Mac 设备上。
+5. 点击 `继续` 按钮，即可完成登录授权。
 
 ## 无法正常进入歌词界面
 **提示 connection closed:** 检查你的网络  
