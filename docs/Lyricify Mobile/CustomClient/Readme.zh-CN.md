@@ -38,7 +38,8 @@
 
 ## 授权时提示 INVALID_CLIENT: Invalid redirect URI
 请检查 `Redirect URI` 是否填写错误，确保其值包含 `lyricify://callback` 和 `http://127.0.0.1:766/callback`，而不是 `https://127.0.0.1:766/callback`。  
-如果你是在 Android 或 iOS 设备上使用，请确保其值包含 `lyricify://callback`。
+如果你是在 Android 或 iOS 设备上使用，请确保其值包含 `lyricify://callback`。  
+请确保你使用的是 1.5.0 或更新版本的 Lyricify Mobile，且使用的是 `跳转浏览器登录`。由于 Spotify 的调整，`内嵌网页登录` 暂时无法使用，下一版本更新后将恢复。  
 
 ### 特别注意
 如果你**在 2025 年 4 月 9 日前**创建并配置过自定义 API Client，请务必前往 Spotify Developer Dashboard 更新设置。由于 Spotify 调整了对重定向 URI 的要求，**原本使用 `localhost` 的 URI 已不再被接受**，你需要将原先的：
