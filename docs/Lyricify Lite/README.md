@@ -12,7 +12,7 @@
 | HyPlayer | 完美 | 完美 |  |
 | LyricEase | 完美 | 完美 |  |
 | Spotify | 完美 | 较好 |  |
-| Apple Music | 时间轴精度低；曲目信息不全 | 一般 |  |
+| Apple Music | 时间轴精度低；曲目信息不全 | 一般 | 商店版支持优化时间轴<sup><a href="#ref5">5</a></sup> |
 | QQ 音乐 | 完美 | 较好 |  |
 | QQ 音乐 UWP | 一般，信息提供不稳定 | 较好 |  |
 | 网易云音乐 | 完美 | 完美 | 需安装额外的[插件](https://github.com/apoint123/inflink-rs/) |
@@ -33,6 +33,7 @@
 2. 对于 SMTC 无时间轴信息的 app，Lyricify Lite 将使用内置定时器更新歌词进度，所以在手动修改播放进度后，Lyricify Lite 无法更新播放进度，歌词会发生前后错位。
 3. 曲目匹配“完美”指 Lyricify Lite 可以完美匹配当前播放的曲目。其它匹配程度指 Lyricify Lite 需要通过对曲目信息进行搜索来匹配对应曲目，所以匹配可能不精准或匹配不到。
 4. 所有接入 SMTC 的应用均支持 Lyricify Lite，未在上表中列出的 app 并不代表不支持 Lyricify Lite。
+5. <span id="ref5">Apple Music 的时间轴传递不稳定，Lyricify Lite 的 Microsoft Store 商店购买版提供“Apple Music 时间轴稳定器”功能，且默认开启。具体可参考[常见问题](#apple-music-%E6%97%B6%E9%97%B4%E8%BD%B4%E4%B8%8D%E7%A8%B3%E5%AE%9A)。</span>
 
 # Lyricify Lite 基础
 
