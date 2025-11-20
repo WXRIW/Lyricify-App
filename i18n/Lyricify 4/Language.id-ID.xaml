@@ -1505,7 +1505,7 @@
     <system:String x:Key="String.Wrapped.Subtitle.2024">2024, lirik, Anda, dan saya</system:String>
     <system:String x:Key="String.Wrapped.Unwrap">Buka</system:String>
     <system:String x:Key="String.Wrapped.Unwrap.Notice">Membuka berarti Anda setuju dengan persetujuan pengguna Lyricify dan mengizinkan Lyricify untuk memproses dan menganalisis penggunaan aplikasi Anda.</system:String>
-    <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>Akselerasi</system:String>
+    <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>>Akselerasi</system:String>
     <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">Buka sekarang</system:String>
     <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify telah membungkus semua cerita Anda dengan Lyricify di tahun 2023, ayo buka sekarang!</system:String>
     <system:String x:Key="String.Wrapped.Notice.Message2024">Lyricify telah menangkap setiap momen lirik Anda di 2024, buka sekarang!</system:String>
