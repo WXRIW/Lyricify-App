@@ -7,5 +7,5 @@ Japanese (日本語, ja-JP) is maintained by [@BPTPW](https://github.com/BPTPW) 
 Russian (Pусский, ru-RU) is maintained by [@TSAVPYN](https://github.com/tsavpyn)  
 French (Français, fr-FR) is maintained by [@R-953](https://github.com/R-953)  
 Turkish (Türkçe, tr-TR) is maintained by [@WINZORT](https://github.com/mikropsoft)  
-Indonesia (Bahasa Indonesia, id-ID) is maintained by [@dionarya23](https://github.com/dionarya23)
+Indonesian (Bahasa Indonesia, id-ID) is maintained by [@dionarya23](https://github.com/dionarya23)
 Currently, Swedish (Svenska, sv-SE) are using machine translation  
