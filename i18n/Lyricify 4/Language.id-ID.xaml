@@ -1,0 +1,1598 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!--
+        MainWindow
+    -->
+
+    <!--  Navigation Panel  -->
+    <system:String x:Key="String.MainWindow.Navigation.Home">Beranda</system:String>
+    <system:String x:Key="String.MainWindow.Navigation.Search">Cari</system:String>
+    <system:String x:Key="String.MainWindow.Navigation.YourLibrary">Koleksi Anda</system:String>
+    <system:String x:Key="String.MainWindow.Navigation.LikedSongs">Lagu yang Disukai</system:String>
+
+    <!--  Mobile Mode Navigation  -->
+    <system:String x:Key="String.MainWindow.Mobile.Navigation.Home">Beranda</system:String>
+    <system:String x:Key="String.MainWindow.Mobile.Navigation.Lyrics">Lirik</system:String>
+    <system:String x:Key="String.MainWindow.Mobile.Navigation.Apple">Apple</system:String>
+
+    <!--  Login  -->
+    <system:String x:Key="String.MainWindow.Login.Welcome">Selamat datang di Lyricify, {0}!</system:String>
+    <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Selamat datang kembali, {0} yang terhormat!</system:String>
+    <system:String x:Key="String.MainWindow.Login.LoggingIn">Sedang masuk</system:String>
+    <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">Ini mungkin memakan waktu</system:String>
+    <system:String x:Key="String.MainWindow.Login.StillTrying">Kami masih mencoba masuk ke akun kamu</system:String>
+
+    <!--  User Widget  -->
+    <system:String x:Key="String.MainWindow.UserWidget.Profile">Profil</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.GetSpotifyPremium">Dapatkan Spotify Premium</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LogOut">Keluar</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.Settings">Pengaturan</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.About">Tentang</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion">Versi Lyricify</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.FreeVersion">Versi gratis</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Free">Gratis</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Free.Store">Gratis (Uji coba toko)</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Purchased.Store">Telah dibeli di toko</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount">Akun Lyricify</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.1">Administrator</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.2">Insider</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.3">Manajer lirik</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.4">Pengguna premium</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.5">Pengguna</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.6">Pengguna terbatas</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.Null">Tidak ditemukan</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession">Sesi Media</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">Terhubung</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">Terputus</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. Sesi Media hanya tersedia saat menggunakan Spotify Desktop (atau Versi Toko), tidak akan berfungsi saat menggunakan versi mobile atau web Spotify!&#x000A;2. Lyricify tidak akan mencoba menghubungkan Sesi Media hingga menerima respons pemutaran.</system:String>
+
+    <system:String x:Key="String.MainWindow.PinnedArea.Notice">Sematkan item untuk akses cepat!</system:String>
+
+    <!--  Control Part  -->
+    <!--  Frame  -->
+    <system:String x:Key="String.MainWindow.Frame.Control.GoBack">Kembali</system:String>
+    <system:String x:Key="String.MainWindow.Frame.Control.GoForward">Maju</system:String>
+    <!--  Bottom Bar  -->
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AlbumArtwork">Klik untuk menampilkan info lebih lanjut tentang lagu ini</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Lyrics">Lirik</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AppleMusicLyrics">Lirik Apple Music</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.SpotifyConnect">Spotify Connect</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Volume">Volume</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Fullscreen">Layar penuh</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.MobileUIFullscreen">UI Mobile Layar Penuh</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.LyricifyFullscreen">Lyricify Layar Penuh</system:String>
+
+
+    <!--
+        Pages
+    -->
+
+    <!--  Page Home  -->
+    <system:String x:Key="String.Page.Home.Welcome">Selamat datang di Lyricify</system:String>
+    <system:String x:Key="String.Page.Home.FollowDeveloper">Mengapa tidak mengikuti pengembang kami</system:String>
+    <system:String x:Key="String.Page.Home.FollowSuggestion">Saran</system:String>
+    <system:String x:Key="String.Page.Home.Button.Follow">Ikuti</system:String>
+    <system:String x:Key="String.Page.Home.Button.Following">Mengikuti</system:String>
+    <system:String x:Key="String.Page.Home.Button.Followed">Telah diikuti</system:String>
+
+    <system:String x:Key="String.Page.Home.Panel.YourFavoriteArtists">Artis favorit Anda</system:String>
+    <system:String x:Key="String.Page.Home.Panel.MoreLike">Lebih seperti</system:String>
+    <system:String x:Key="String.Page.Home.Panel.MoreLike.Argument">Lebih seperti {0}</system:String>
+    <system:String x:Key="String.Page.Home.Panel.FeaturedPlaylists">Daftar putar pilihan</system:String>
+    <system:String x:Key="String.Page.Home.Panel.PopularNewReleases">Rilis baru populer</system:String>
+
+    <!--  Other Pages  -->
+    <system:String x:Key="String.Page.List.Title.Title">JUDUL</system:String>
+    <system:String x:Key="String.Page.List.Title.Album">ALBUM</system:String>
+    <system:String x:Key="String.Page.List.Title.DateAdded">TANGGAL DITAMBAHKAN</system:String>
+    <system:String x:Key="String.Page.List.Title.DateReleased">TANGGAL RILIS</system:String>
+
+    <system:String x:Key="String.Page.Info.Song">{0} lagu</system:String>
+    <system:String x:Key="String.Page.Info.Songs">{0} lagu</system:String>
+    <system:String x:Key="String.Page.Info.Disc">{0} cakram</system:String>
+    <system:String x:Key="String.Page.Info.Discs">{0} cakram</system:String>
+
+    <system:String x:Key="String.Page.Album.Title.AlbumType.Album">ALBUM</system:String>
+    <system:String x:Key="String.Page.Album.Title.AlbumType.EP">EP</system:String>
+    <system:String x:Key="String.Page.Album.Title.AlbumType.Single">SINGLE</system:String>
+    <system:String x:Key="String.Page.Album.DiscSeparator.Title">Cakram {0}</system:String>
+
+    <system:String x:Key="String.Info.Album.AlbumType.Album">Album</system:String>
+    <system:String x:Key="String.Info.Album.AlbumType.EP">EP</system:String>
+    <system:String x:Key="String.Info.Album.AlbumType.Single">Single</system:String>
+
+    <system:String x:Key="String.Page.Album.Artwork.FileDialog.Filter">Gambar JPEG (*.jpg)|*.jpg</system:String>
+
+    <system:String x:Key="String.Page.Artist.VerifiedArtist">Artis Terverifikasi</system:String>
+    <system:String x:Key="String.Page.Artist.Popular">Populer</system:String>
+    <system:String x:Key="String.Page.Artist.Follower">{0:N0} Pengikut</system:String>
+    <system:String x:Key="String.Page.Artist.Followers">{0:N0} Pengikut</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.Albums">Album</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.SinglesAndEPs">Single dan EP</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.Compilations">Kompilasi</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.FansAlsoLike">Penggemar juga suka</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.AppearsOn">Muncul Dalam</system:String>
+
+    <system:String x:Key="String.Page.Playlist.Title">DAFTAR PUTAR</system:String>
+    <system:String x:Key="String.Page.Playlist.Title.Private">DAFTAR PUTAR PRIBADI</system:String>
+    <system:String x:Key="String.Page.Playlist.Title.Public">DAFTAR PUTAR PUBLIK</system:String>
+    <system:String x:Key="String.Page.Playlist.Like">{0:N0} suka</system:String>
+    <system:String x:Key="String.Page.Playlist.Likes">{0:N0} suka</system:String>
+
+    <system:String x:Key="String.Page.LikedSongs.Title">DAFTAR PUTAR</system:String>
+    <system:String x:Key="String.Page.LikedSongs.Name">Lagu yang Disukai</system:String>
+
+    <system:String x:Key="String.Page.Profile.Title">PROFIL</system:String>
+    <system:String x:Key="String.Page.Profile.Follower">{0:N0} Pengikut</system:String>
+    <system:String x:Key="String.Page.Profile.Followers">{0:N0} Pengikut</system:String>
+    <system:String x:Key="String.Page.Profile.PublicPlaylist">{0:N0} Daftar Putar Publik</system:String>
+    <system:String x:Key="String.Page.Profile.PublicPlaylist.Plural">{0:N0} Daftar Putar Publik</system:String>
+    <system:String x:Key="String.Page.Profile.PublicPlaylists">Daftar Putar Publik</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.Month">Artis teratas bulan ini</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.HalfYear">Artis teratas dalam enam bulan</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.Year">Artis teratas tahun ini</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.All">Artis teratas sejak Big Bang</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.Month">Lagu teratas bulan ini</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.HalfYear">Lagu teratas dalam enam bulan</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.Year">Lagu teratas tahun ini</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.All">Lagu teratas sejak Big Bang</system:String>
+
+    <!--  Page Library  -->
+    <system:String x:Key="String.Page.Library.Playlists">Daftar Putar</system:String>
+    <system:String x:Key="String.Page.Library.Artists">Artis</system:String>
+    <system:String x:Key="String.Page.Library.Albums">Album</system:String>
+
+    <!--  Page Mobile UI  -->
+    <system:String x:Key="String.Page.MobileUI.Title">LIRIK</system:String>
+
+    <!--  Page Search  -->
+    <system:String x:Key="String.Page.Search.Title.Search">Cari</system:String>
+    <system:String x:Key="String.Page.Search.Title.Lyrics">Lirik</system:String>
+    <system:String x:Key="String.Page.Search.Title.Availability">Ketersediaan</system:String>
+    <system:String x:Key="String.Page.Search.429Error">Batas permintaan API terlampaui (Kesalahan 429)</system:String>
+    <system:String x:Key="String.Page.Search.Retry">Coba Lagi</system:String>
+    <system:String x:Key="String.Page.Search.Search.SearchBar.PlaceHolder">Cari lagu, artis, album dan daftar putar</system:String>
+    <system:String x:Key="String.Page.Search.Search.Result.Songs">Lagu</system:String>
+    <system:String x:Key="String.Page.Search.Search.Result.Artists">Artis</system:String>
+    <system:String x:Key="String.Page.Search.Search.Result.Albums">Album</system:String>
+    <system:String x:Key="String.Page.Search.Search.Result.Playlists">Daftar Putar</system:String>
+    <system:String x:Key="String.Page.Search.Lyrics.NotAvailable">Saat ini tidak tersedia</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.PlaceHolder">Masukkan tautan atau URI Spotify di sini</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.NetworkIssue.Message">Masalah jaringan, mohon periksa koneksi Internet Anda.</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">Album tidak ditemukan, mohon periksa ID yang Anda masukkan.</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Input salah atau tidak didukung. Hanya tautan lagu (akan dialihkan ke albumnya), album dan daftar putar yang didukung. Berikut beberapa contohnya.</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Market">Wilayah</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Market.Unspecified">Tidak ditentukan</system:String>
+    <system:String x:Key="String.Page.Search.Availability.MoreVersions">Versi lainnya</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Playlist.UnavailableTracks">Lagu yang tidak tersedia</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Playlist.AllAvailable">Semua lagu tersedia</system:String>
+    <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.ToolTip.GoToAlbum">Ke album</system:String>
+    <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Available">Tersedia</system:String>
+    <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Unavailable">Tidak tersedia</system:String>
+
+    <!--  Page Spotify Connect  -->
+    <system:String x:Key="String.Page.SpotifyConnect.CurrentDevice">Perangkat saat ini</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.SelectAnotherDevice">Pilih perangkat lain</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.NoDeviceFound">Tidak ditemukan perangkat</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.NoOtherDevicesFound">Tidak ditemukan perangkat lain</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.ThisComputer">Komputer ini</system:String>
+
+    <!--  Audio Features  -->
+    <system:String x:Key="String.AudioFeatures.Track">Lagu</system:String>
+    <system:String x:Key="String.AudioFeatures.Track.Name">Nama</system:String>
+    <system:String x:Key="String.AudioFeatures.Track.ISRC.Null">Tidak ada ISRC</system:String>
+    <system:String x:Key="String.AudioFeatures.Track.TrackNumber">Nomor lagu</system:String>
+    <system:String x:Key="String.AudioFeatures.Track.Duration">Durasi</system:String>
+    <system:String x:Key="String.AudioFeatures.Album">Album</system:String>
+    <system:String x:Key="String.AudioFeatures.Album.Name">Nama</system:String>
+    <system:String x:Key="String.AudioFeatures.Album.UPC.Null">Tidak ada UPC</system:String>
+    <system:String x:Key="String.AudioFeatures.Album.ReleaseDate">Tanggal rilis</system:String>
+    <system:String x:Key="String.AudioFeatures.Album.TracksCount">Jumlah lagu</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist">Artis</system:String>
+    <system:String x:Key="String.AudioFeatures.Artists">Artis</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist.Name">Nama</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist.Names">Nama</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink">Ditautkan dari</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.Name">Nama lagu</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.ID">ID Lagu</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.ISRC">ISRC Lagu</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.TrackNumber">Nomor lagu</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Album.Name">Nama album</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Album.ID">ID Album</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Album.ReleaseDate">Tanggal rilis album</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Album.TracksCount">Jumlah lagu album</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature">Fitur Audio</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode">Mode</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Major">Mayor</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Minor">Minor</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.TimeSignature">Tanda waktu</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.PitchClass">Kelas nada (Kunci)</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Loudness">Kekerasan</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Tempo">Tempo</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Acousticness">Kesenyawaan</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Danceability">Ketari-an</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Energy">Energi</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Instrumentalness">Keinstrumen-an</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Liveness">Kehidupan</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Speechiness">Kebicara-an</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Valence">Valensi</system:String>
+
+    <system:String x:Key="String.AudioFeatures.ToolTip.ClickCopy">Klik untuk menyalin</system:String>
+    <system:String x:Key="String.AudioFeatures.Button.CopyIDs">Salin ID dan ISRC</system:String>
+    <system:String x:Key="String.AudioFeatures.Button.CopyAll">Salin semua info</system:String>
+
+    <system:String x:Key="String.AudioFeatures.Copy.TrackName">Nama Lagu</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackID">ID Lagu</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackISRC">ISRC Lagu</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackURI">URI Lagu</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackDuration">Durasi Lagu</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackNumber">Nomor Lagu</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumName">Nama Album</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumID">ID Album</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumUPC">UPC Album</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumReleaseDate">Tanggal Rilis Album</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumTracksCount">Jumlah Lagu Album</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistName">Nama Artis</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistID">ID Artis</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistNames">Nama Artis</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs">ID Artis</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistNames.Bracket">Nama Artis</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs.Bracket">ID Artis</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.Relink">Ditautkan dari</system:String>
+
+    <system:String x:Key="String.Info.Copy.DiscNum">Cakram {0}</system:String>
+    <system:String x:Key="String.Info.Copy.TrackNum">Lagu {0}</system:String>
+    <system:String x:Key="String.Info.Copy.Tracklist">Daftar Lagu</system:String>
+    <system:String x:Key="String.Info.Copy.Tracklist.Of">Daftar Lagu dari {0}</system:String>
+    <system:String x:Key="String.Info.Copy.TopTracks.From">Lagu Populer dari {0}</system:String>
+    <system:String x:Key="String.Info.Copy.Album.TotalLength">Total Durasi Album</system:String>
+    <system:String x:Key="String.Info.Copy.Album.DiscsCount">Jumlah Cakram Album</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Name">Nama Daftar Putar</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Description">Deskripsi Daftar Putar</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Type">Jenis Daftar Putar</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.ID">ID Daftar Putar</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.TracksCount">Jumlah Lagu Daftar Putar</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.TotalLength">Total Durasi Daftar Putar</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Owner.Name">Nama Pemilik</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Owner.ID">ID Pemilik</system:String>
+    <system:String x:Key="String.Info.Copy.Artist.Followers">Pengikut</system:String>
+    <system:String x:Key="String.Info.Copy.User.DisplayName">Nama Tampilan Pengguna</system:String>
+    <system:String x:Key="String.Info.Copy.User.ID">ID Pengguna</system:String>
+    <system:String x:Key="String.Info.Copy.User.Followers">Pengikut</system:String>
+
+    <!--  Page Apple Music Lyrics  -->
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip1">Klik untuk menutup</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip2">Geser ke kiri atau kanan untuk memaksimalkan</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip3">Geser ke bawah untuk meminimalkan</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip4">Klik kanan untuk mengontrol posisi lirik</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Close">Keluar dari Lirik Apple Music</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MaximizeWindow">Layar penuh</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.RestoreWindow">Kembalikan Jendela</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MinimizeWindow">Minimalkan Jendela</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToCurrentLine">Lihat Baris Saat Ini</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToFirstLine">Lihat Baris Pertama</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToLastLine">Lihat Baris Terakhir</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.None">Tidak Ada Tindakan</system:String>
+
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToArtist">Ke Artis</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToAlbum">Ke Album</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToPlaylist">Ke Daftar Putar</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.AddToLibrary">Tambahkan ke Koleksi</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.DeleteFromLibrary">Hapus dari Koleksi</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">Tampilkan Artis</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Tampilkan Album</system:String>
+
+    <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Ditulis Oleh: </system:String>
+
+    <!--  Page Windows Update Lyrics  -->
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.10">Sedang memperbarui</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.8">Mengonfigurasi pembaruan Windows</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.11">Anda {0}% selesai.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.10">{0}% selesai</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.11">Mohon biarkan komputer Anda tetap menyala.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.10">Jangan matikan komputer Anda</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.8">Jangan mematikan komputer Anda.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.11">Komputer Anda mungkin restart beberapa kali.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.10">PC Anda mungkin restart beberapa kali.</system:String>
+
+    <!--  Page Windows Blue Screen Lyrics  -->
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary">Perangkat Anda mengalami masalah dan perlu di-restart.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary.WithTrackName">{0} mengalami masalah dan perlu di-restart.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full">Perangkat Anda mengalami masalah dan perlu di-restart. Kami sedang mengumpulkan informasi kesalahan, lalu akan merestart untuk Anda.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full.WithTrackName" xml:space="preserve">{0} mengalami masalah dan perlu di-restart. &#x0A;Kami sedang mengumpulkan informasi kesalahan, lalu akan merestart untuk Anda.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.PercentComplete">{0}% selesai</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Main">Untuk informasi lebih lanjut tentang masalah ini dan kemungkinan solusinya, kunjungi https://lyricify.app</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Call">Jika Anda menghubungi petugas dukungan, berikan info berikut:</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.StopCode">Kode berhenti: {0}</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Artist">Artis: {0}</system:String>
+
+    <!--  Page About  -->
+    <system:String x:Key="String.Page.About.Title">Tentang</system:String>
+    <system:String x:Key="String.Page.About.NonPublicWarning">INI BUKAN RILIS PUBLIK, JANGAN SEBARKAN!</system:String>
+    <system:String x:Key="String.Page.About.Architecture.32Bits">32-Bit</system:String>
+    <system:String x:Key="String.Page.About.Architecture.64Bits">64-Bit</system:String>
+    <system:String x:Key="String.Page.About.Architecture.Emulated">{0} diemulasi</system:String>
+    <system:String x:Key="String.Page.About.Portable">Versi Portabel</system:String>
+    <system:String x:Key="String.Page.About.Portable.RunningArchitecture">Versi portabel berjalan di {0}</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore">Versi Microsoft Store</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Purchased">Versi Microsoft Store yang telah dibeli</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Trial">Versi Uji Coba Microsoft Store</system:String>
+    <system:String x:Key="String.Page.About.MadeWithHeart">Dibuat dengan ❤️ oleh WXRIW</system:String>
+    <system:String x:Key="String.Page.About.Copyright">Hak Cipta © {0} WXRIW</system:String>
+    <system:String x:Key="String.Page.About.LyricsProvidedBy">Lirik disediakan oleh</system:String>
+    <system:String x:Key="String.Page.About.LyricsProviders">Lyricify Lyrics Vault, QQ Music, Netease Cloud Music</system:String>
+    <system:String x:Key="String.Page.About.Donation">Donasi</system:String>
+    <system:String x:Key="String.Page.About.Thanklist">Daftar Terima Kasih</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.SupporterListInfo">Disusun berdasarkan jumlah dan waktu, daftar diperbarui pada {0}</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksApple">Terima kasih khusus kepada Apple atas desain yang menakjubkan dan unik</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">Terima kasih khusus kepada Spotify atas kontribusinya pada seluruh industri streaming musik</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">Terima kasih khusus kepada Difer atas penyediaan akun Spotify Premium</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksInsiders">Terima kasih khusus kepada para insider kami</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksStorePurchase">Terima kasih kepada semua pengguna yang telah membeli Lyricify di Microsoft Store</system:String>
+    <system:String x:Key="String.Page.About.Internationalization">Internasionalisasi</system:String>
+    <system:String x:Key="String.Page.About.References">Referensi</system:String>
+    <system:String x:Key="String.Page.About.References.MITLicense.Brackets">(Lisensi MIT)</system:String>
+    <system:String x:Key="String.Page.About.References.WTFPLLicense.Brackets">(Lisensi WTFPL)</system:String>
+    <system:String x:Key="String.Page.About.References.Apache2.Brackets">(Lisensi Apache 2.0)</system:String>
+    <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(Lisensi LGPL 2.1)</system:String>
+    <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(Tanpa Lisensi)</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming">Klaim Hak Cipta</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">Hak Cipta © {0} WXRIW, Hak Dilindungi</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Desain UI Jendela Utama, Desain UI Mobile Layar Penuh, Hak Cipta Spotify Circular © Spotify AB</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Desain UI Lirik Apple Music, SF Pro, Hak Cipta PingFang SC © Apple Inc.</system:String>
+
+    <!--  Page Settings  -->
+    <system:String x:Key="String.Page.Settings.Title">Pengaturan</system:String>
+    <system:String x:Key="String.Page.Settings.General">Umum</system:String>
+    <system:String x:Key="String.Page.Settings.General.Language">Bahasa</system:String>
+    <system:String x:Key="String.Page.Settings.General.Language.Description">Pilih bahasa tampilan Lyricify (Beberapa perubahan mungkin perlu restart aplikasi untuk diterapkan)</system:String>
+    <system:String x:Key="String.Page.Settings.General.CloseToHide">Tutup untuk menyembunyikan</system:String>
+    <system:String x:Key="String.Page.Settings.General.CloseToHide.Description">Tombol tutup seharusnya meminimalkan jendela Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.General.RestoreWindow">Kembalikan jendela</system:String>
+    <system:String x:Key="String.Page.Settings.General.RestoreWindow.Description">Kembalikan status jendela Lyricify saat startup</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance">Tampilan</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode">Mode warna</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.Description">Ganti warna yang muncul di Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">Gelap (Bawaan)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Light">Terang</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.FollowSystem">Ikuti sistem</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset">Preset font antarmuka</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset.Description">Pilih preset font untuk antarmuka Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground">Latar belakang lirik</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.Description">Ganti latar belakang lirik</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.ComboBox.SingleColor">Warna Tunggal</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.ComboBox.BlurredCover">Sampul Buram (Bawaan)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.Zoom">Perbesar</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.Zoom.Description">Ganti pembesaran tampilan Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.Zoom.Button.Reset">Atur ulang</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.Zoom.Help">Anda juga bisa mengganti pembesaran tampilan dengan roda mouse sambil menekan Control, atau "Ctrl + -" untuk Memperbesar, "Ctrl + =" untuk Memperkecil dan "Ctrl + 0" untuk mengatur ulang.</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ShowLyricifyVersionInfo">Tampilkan info versi Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ShowLyricifyVersionInfo.Description">Tampilkan info versi Lyricify di area widget pengguna</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization">Personalisasi gaya lirik</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Description">Gaya lirik di halaman lirik bergaya Spotify</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode">Personalisasi gaya lirik (Mode Mobile)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode.Description">Gaya lirik di halaman lirik bergaya Spotify (Mode Mobile)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Button.Reset">Atur ulang</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign">Perataan lirik</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Center">Tengah (Bawaan)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Left">Kiri</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Right">Kanan</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.Margin">Margin</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.FontSize.Lyrics">Ukuran font lirik</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.FontSize.Translation">Ukuran font terjemahan</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LineSpacing">Jarak baris</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.PlayingLineZoomingAnimation">Animasi pembesaran baris yang diputar</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.KaraokeMode">Mode per-kata</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.KaraokeMode.Description">Tampilkan lirik per kata</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.QuickAccess">Akses Cepat</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.Description">Anda bisa memilih apa yang ingin ditampilkan di area kiri bawah, baik pin kustom, atau semua daftar putar Spotify Anda.</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.ComboBox.CustomPins">Pin kustom</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.ComboBox.AllPlaylists">Semua daftar putar</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FontFamily">Keluarga Font</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Current">Keluarga Font Saat Ini:</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Current.Default">Bawaan</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Custom">Kustom</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Reset">Atur ulang</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics">Lirik</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation">Terjemahan Tiongkok</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation.Description">Terjemahan Tiongkok akan ditampilkan bila tersedia</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji">Romaji</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.Description">Pilih opsi tampilan untuk Romaji Jepang</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.Disable">Nonaktifkan</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.TranslationFirst">Terjemahan Duluan</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiFirst">Romaji Duluan</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiOnly">Hanya Romaji</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese">Utamakan Tionghoa Sederhana</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese.Description">Karakter Tiongkok akan dikonversi ke Tiongkok Tradisional jika Anda mematikan opsi ini</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation">Segmentasi lirik</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation.Description">Aktifkan segmentasi kalimat Tiongkok yang panjang (Berlaku setelah menyegarkan lirik)</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">Tampilkan lirik eksplisit</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics.Description">Dengan mematikan ini, kata-kata eksplisit akan diganti dengan tanda bintang</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source">Sumber</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Description">Lyricify bekerja lebih baik dengan sumber QQ Music, beberapa fitur Lyricify mungkin tidak tersedia saat menggunakan sumber Netease Cloud Music</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.QQFirst">QQ Music duluan</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.NeteaseFirst">Netease Cloud Music duluan</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.QQFirst">Terjemahan duluan dan QQ Music duluan</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.NeteaseFirst">Terjemahan duluan dan Netease Cloud Music duluan</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable">Lirik per-kata Netease</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable.Description">Aktifkan lirik per-kata Netease Cloud Music</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch">Aktifkan Musixmatch</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch.Description">Gunakan Musixmatch sebagai sumber cadangan</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable">Lirik per-kata Musixmatch</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable.Description">Aktifkan lirik per-kata Musixmatch</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.EnableColorfulEmoji">Emoji Berwarna</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.EnableColorfulEmoji.Description">Aktifkan emoji berwarna pada perenderan (tidak semua antarmuka mendukung emoji berwarna)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Lirik Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">Latar belakang</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Pilih latar belakang yang ingin Anda gunakan di Lirik Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.Static">Statis</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.Dynamic">Dinamis</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.DynamicBeating">Dinamis (Berdenyut)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics">Buramkan lirik</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics.Description">Aktifkan efek buram pada lirik</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">Tingkat keburaman</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Atur tingkat keburaman (Tingkat bawaan pada iPadOS dalam mode horizontal adalah 3, pada iPadOS dalam mode vertikal atau iOS adalah 5)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">Tingkat</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DisableBlurAtLyricsLineMouseOver">Hilangkan buram otomatis</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DisableBlurAtLyricsLineMouseOver.Description">Sementara menonaktifkan efek buram pada hover mouse</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">Teks Tebal</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">Gunakan teks tebal di Lirik Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FontPreset">Preset font</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FontPreset.Description">Gunakan preset font di Lirik Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode">Mode karaoke</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Description">Ya, sekarang Anda bisa memiliki lirik bergaya karaoke di Lirik Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK">Nonaktifkan gaya karaoke untuk lirik CJK</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK.Description">Lirik karaoke CJK menggunakan lebih banyak resource untuk menampilkan, menonaktifkan mungkin meningkatkan kinerja animasi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation">Aktifkan animasi tambahan</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Description">Animasi yang lebih baik, pengalaman yang lebih baik</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">Animasi mengambang</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">Lirik diputar, suku kata mengambang, sangat menakjubkan</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Disabled">Dinonaktifkan</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">Rendah</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Medium">Sedang</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">Tinggi (Bawaan)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">Sangat tinggi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">Efek bersinar pada kata</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">Itu luar biasa</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk">Aktifkan efek bersinar pada kata CJK</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk.Description">Aktifkan efek bersinar pada karakter CJK ganda</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">Tampilan duet</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">Penyanyi ganda muncul di sisi yang berlawanan dari layar untuk memudahkan menyanyikan lagu duet atau multi-penyanyi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst">Perataan kanan duluan</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst.Description">Ratakan lirik ke kanan duluan</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling">Efek menarik</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.Description">Atur kekuatan untuk efek menarik</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Disabled">Dinonaktifkan</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Low">Rendah</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Regular">Biasa</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Medium">Sedang (Bawaan)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.High">Tinggi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Tremendous">Sangat tinggi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MagicStripFeature">Deskripsi fitur Strip Ajaib</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MagicStripFeature.Description">Tampilkan fungsi yang sesuai saat menggunakan Strip Ajaib</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial">Tampilkan tutorial Strip Ajaib</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Description">Selalu tampilkan tutorial Strip Ajaib setelah masuk ke Lirik Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">Memperkenalkan Strip Ajaib! &#x000A;&#x000A;Anda bisa menekan tombol strip untuk keluar dari Lirik Apple Music, &#x000A;geser ke bawah untuk meminimalkan, &#x000A;geser ke kiri atau kanan untuk memaksimalkan atau mengembalikan, &#x000A;dan geser ke atas untuk membatalkan. &#x000A;&#x000A;Anda juga bisa menekan tombol kanan mouse untuk menggeser ke atas ke baris pertama lirik, &#x000A;geser ke bawah ke baris terakhir lirik, &#x000A;geser ke kiri atau kanan ke baris saat ini, &#x000A;dan sekali klik kanan tidak akan melakukan apa-apa.</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime">Status waktu animasi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime.Description">Aktifkan animasi untuk perubahan status waktu</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">Pemulihan pembesaran</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">Pulihkan pembesaran di Lirik Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset">Preset gaya</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.Description">Detail berbeda di versi sistem yang berbeda</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Default">Bawaan</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Custom">Kustom</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS162AndLater">iOS 16.2 dan setelahnya</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS163AndLater">iOS 16.3 dan setelahnya</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS164AndLater">iOS 16.4 dan setelahnya</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS170AndLater">iOS 17.0 dan setelahnya</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS171AndLater">iOS 17.1 dan setelahnya</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS260AndLater">iOS 26.0 dan setelahnya</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth">Lebar transisi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">Lebar transisi opasitas</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">Animasi sebaris</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation.Description">Detail animasi di baris lirik</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed">Penggantian opasitas</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed.Description">Kecepatan penggantian opasitas baris suku kata</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity">Opasitas suku kata sebelum diputar</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity.Description">Opasitas untuk suku kata dalam mode sebelum diputar</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition">Posisi Vokal Latar Belakang</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition.Description">Posisi lirik Vokal Latar Belakang relatif terhadap lirik utama</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout">Flyout Vokal Latar Belakang</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">Animasi dan arah flyout Vokal Latar Belakang</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.ComboBox.LyricifyOld">Lyricify (Lama)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">Tata letak mobile</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout.Description">Tata letak mobile Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect">Efek bersinar pada kata</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect.Description">Efek bersinar pada kata berbeda di iOS dan Android</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">Perataan Titik Bernapas</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">Titik Bernapas selalu rata kiri di iOS, tetapi tetap di sisi yang sama dengan lirik di Android</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming">Pembesaran sorotan</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming.Description">Sesuaikan tingkat pembesaran baris sorotan saat ini</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">Cegah tidur</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.Description">Cegah layar mati atau tidur</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.Always">Selalu</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.FullscreenOnly">Hanya layar penuh</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple">Apple yang bermasalah</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.Description">Apple tanpa bug bukanlah Apple lagi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">Aktifkan versi tradisional</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">Tambahkan entri ke Lirik Apple Music (Tradisional) di menu utama</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Lyricify Layar Penuh</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics">Buramkan lirik</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics.Description">Aktifkan efek buram pada lirik</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo">Logo berwarna</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo.Description">Gunakan logo Lyricify berwarna alih-alih logo Lyricify warna tunggal</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics">Lirik Pembaruan Windows</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Style">Gaya</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Style.Description">Pilih preset gaya yang Anda inginkan</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea">Area bawah</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.Description">Pilih konten yang ditampilkan di area bawah</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.TrackInfo">Info lagu</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.WindowsTips">Tips Windows</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.Hidden">Tersembunyi</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.MultipleLine">Lirik banyak baris</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.MultipleLine.Description">Izinkan tampilan beberapa baris lirik yang sedang diputar</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language">Bahasa</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.Description">Preferensi bahasa antarmuka</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.ComboBox.Default">Bawaan</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.ComboBox.Auto">Otomatis</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics">Lirik Layar Biru Windows</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.Default">Bawaan</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.Insider">Pratinjau Insider</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.ArtworkMainColor">Warna utama artwork</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit">Perbesar agar pas</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit.Description">Perbesar konten untuk memaksimalkan penggunaan layar</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution">Emulasikan resolusi rendah</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution.Description">Emulasikan efek tampilan layar resolusi rendah</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Mode Byland</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Byland atau Island, terserah Anda! Gaya berbeda menikmati fitur berbeda</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dynamic Lyrics Island akan otomatis menghilang saat kursor masuk dalam mode Byland, tetapi dalam mode Island, Anda bisa menggunakan kursor untuk memindahkan island. &#x000A;Anda akan dapat menutup Dynamic Lyrics Island dengan menu klik kanan dalam Mode Island, tetapi dalam mode Byland, Anda hanya bisa menutup melalui menu utama atau hotkey.</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex">Indeks layar</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.Description">Pilih layar tempat Anda ingin Dynamic Lyrics Island ditampilkan dalam mode byland</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem">Layar {0}</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem.Primary">Layar {0} (Tampilan utama)</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">Selalu tampilkan dua baris</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">Selalu tampilkan dua baris lirik bahkan ketika terjemahan tidak tersedia</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation">Sembunyikan terjemahan dan pelafalan</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation.Description">Sembunyikan terjemahan dan pelafalan ketika tersedia</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText">Teks Tebal</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText.Description">Gunakan teks tebal di Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode">Mode karaoke</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode.Description">Pernahkah Anda melihat lirik bersinar?</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide">Sembunyikan otomatis</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">Dengan mengaktifkan ini, Dynamic Lyrics Island akan disembunyikan saat dijeda</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">Sembunyikan layar penuh</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">Sembunyikan Dynamic Lyrics Island ketika Anda memiliki program yang berjalan dalam mode layar penuh</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage">Tampilkan gambar artis</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">Tampilkan gambar artis di sisi kiri Dynamic Lyrics Island setelah Anda beralih ke lagu baru</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">Opasitas</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale">Skala</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale.Description">Mengontrol ukuran dan penskalaan Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics">Lirik Desktop</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Mode Dua-Baris</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">Dengan mematikan ini, hanya satu baris lirik yang akan ditampilkan</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EfficiencyMode">Mode efisiensi</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EfficiencyMode.Description">Lyricify berkomitmen membantu mengurangi emisi karbon dan penggunaan energi yang menyebabkan dampak lingkungan</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation">Animasi penggantian lirik</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation.Description">Putar animasi saat berpindah ke baris lirik lainnya</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation.BlurEffect">Efek buram</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation.BlurEffect.Description">Aktifkan efek buram saat perpindahan baris</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode">Mode karaoke</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode.Description">Dapatkan tampilan lirik bergaya karaoke</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide">Sembunyikan otomatis</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">Dengan mengaktifkan ini, Lirik Desktop akan disembunyikan saat dijeda</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide">Sembunyikan layar penuh</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide.Description">Sembunyikan Lirik Desktop ketika Anda memiliki program yang berjalan dalam mode layar penuh</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide">Sembunyikan transparansi</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Description">Atur opasitas lebih rendah untuk Lirik Desktop ketika kursor memasuki status terkunci</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Opacity">Opasitas</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Opacity.Description">Atur ke 0 jika Anda ingin menyembunyikan Lirik Desktop</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">Opasitas</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.BorderThickness">Ketebalan batas</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign">Perataan lirik</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Center">Tengah (Bawaan)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Left">Kiri</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Right">Kanan</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors">Warna</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Description">Mungkin ini Lirik Desktop paling dapat disesuaikan yang pernah ada</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Button.Reset">Atur ulang</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle">Gaya dua baris</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.Description">Dua baris terpisah. Baris dengan terjemahan tidak akan menggunakan gaya dua baris</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Fill">Baris sorotan (Isi)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Border">Baris sorotan (Batas)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Fill">Baris berikutnya (Isi)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Border">Baris berikutnya (Batas)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle">Gaya satu baris</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Description">Tampilkan hanya satu baris. Terjemahan akan ditampilkan jika tersedia</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Fill">Isi</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Border">Batas</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Fill">Baris terjemahan (Isi)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Border">Baris terjemahan (Batas)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle">Gaya karaoke</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Description">Ini berlaku untuk mode dua baris dan satu baris</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Isi">Isi yang telah diputar</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Border">Batas yang telah diputar</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Fill">Isi sebelum diputar</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Border">Batas sebelum diputar</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.ArtworkMainColor">Warna utama artwork</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Black">Hitam</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.White">Putih</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Custom">Kustom</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect">Efek bayangan</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Description">Efek bayangan di bawah lirik</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Color">Warna</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Depth">Kedalaman</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Direction">Arah</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Direction.Description">Nilai bawaan: 315°</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Opacity">Opasitas</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Radius">Radius</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Position">Posisi &amp; ukuran</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Description">Jika Lirik Desktop tidak ditampilkan dengan benar, Anda bisa mencoba Atur Ulang</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Button.Reset">Atur ulang</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock">Kunci</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.Description">Kunci posisi dan ukuran Lirik Desktop</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.Button.Unlock">Buka kunci</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.HideUnlock">Sembunyikan tombol buka kunci</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.HideUnlock.Description">Sembunyikan tombol buka kunci agar tidak mengganggu operasi Anda</system:String>
+    <system:String x:Key="String.Page.Settings.Functions">Fungsi</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed">Umpan Ikuti</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.Description">Dapatkan rilis baru</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup">Periksa saat startup</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup.Description">Periksa rilis baru setiap kali Anda menjalankan Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases">Hanya periksa "Rilis populer"</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases.Description">Ini akan mengurangi permintaan API Web Spotify dan memiliki kemungkinan lebih rendah mendapatkan Kesalahan Batas Permintaan API (Kesalahan 429). Dengan mengaktifkan opsi ini, beberapa rilis baru mungkin tidak diberi tahu. (Lyricify menyarankan Anda mengaktifkan ini jika Anda telah mengikuti lebih dari 20 artis)</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization">Kustomisasi pemeriksaan artis</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.Description">Anda bisa memilih sebagian dari artis yang Anda ikuti untuk Lyricify memeriksa rilis baru, Anda juga bisa menambahkan artis yang bahkan tidak Anda ikuti</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists">Pilih artis</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Button.AddOrEdit">Tambah atau Edit</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Description">Pilih artis untuk Lyricify memeriksa</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Choosen">Artis yang dipilih</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify">Spotify</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion">Wilayah rekomendasi pilihan</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.Description">Ini akan mempengaruhi halaman Beranda Anda</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.Default">Bawaan (wilayah akun Anda)</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternetLocation">Lokasi Internet (wilayah IP Anda)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced">Lanjutan</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">Aktifkan relinking artwork lagu</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Gunakan artwork yang direlink daripada artwork dari lagu asli saat lagu direlink</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">Ketersediaan lagu bergantung pada negara yang terdaftar di pengaturan profil Spotify pengguna. Seringkali Spotify memiliki beberapa instance dari satu lagu dalam katalognya, masing-masing tersedia di berbagai negara yang berbeda. Ini biasanya terjadi ketika lagu dari album tertentu telah dirilis berkali-kali dengan lisensi berbeda di negara yang berbeda.&#x000A;&#x000A;Lagu-lagu ini terhubung satu sama lain sehingga ketika pengguna mencoba memutar lagu yang tidak tersedia di negaranya, pemutar Spotify (mobile, desktop, dan web) akan mencoba memutar instance lain dari lagu tersebut yang tersedia di negara pengguna.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine">Lyricify Intelligent Engine</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description">Menyediakan teknologi cerdas dan dukungan fungsional untuk koneksi dan interaksi antara Lyricify dan Spotify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description.Premium">Memerlukan langganan Spotify Premium!</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Button.GetPremium">Dapatkan Spotify Premium</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement">Aktifkan peningkatan Sesi Media</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">Gunakan Sesi Media sistem untuk meningkatkan pengalaman saat menggunakan klien desktop Spotify. (Pastikan kamu telah mengaktifkan &quot;Show desktop overlay when using media keys&quot; di pengaturan Spotify)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement">Aktifkan peningkatan pembaruan pemutaran</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement.Description">Pengalaman perpindahan lagu yang luar biasa bertenaga Lyricify Intelligent Engine</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">Aktifkan Koreksi Timeline</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">Optimalkan presisi timeline</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.CrossfadeNotice">Koreksi timeline mungkin tidak bekerja dengan baik saat crossfade diaktifkan</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrectionPlus">Aktifkan Koreksi Timeline Plus</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrectionPlus.Description">Koreksi timeline dengan cara yang lebih invasif untuk mendapatkan hasil koreksi yang lebih baik</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">Aktifkan pramuat lirik</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">Pramuat lirik dapat membuat loading lirik tidak terasa saat perpindahan lagu</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableImagePreload">Aktifkan pramuat gambar</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableImagePreload.Description">Pramuat gambar dapat membuat loading artwork album tidak terasa saat perpindahan lagu</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation">Aktifkan konfirmasi hapus suka</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation.Description">Minta konfirmasi sebelum menghapus lagu dari pustaka kamu (Lagu yang Disukai)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">Aktifkan konversi Mandarin</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">Aktifkan konversi Mandarin untuk konten Spotify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">Latensi perangkat</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">Dalam milidetik. Parameter ini dirancang untuk latensi perangkat pemutaran Bluetooth, JANGAN gunakan ini untuk offset lirik. Refresh lirik agar efektif</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Button.Configure">Konfigurasi</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">Manajemen Hotkey</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">Buka Manajer Hotkey untuk mengelola hotkey global</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">Buka</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar">Bar tunggu API Spotify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar.Description">Tampilkan progress bar bawah saat error 429 pada perpindahan lagu</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage">Pesan selamat datang</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.Description">Pesan selamat datang saat Lyricify dimulai</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.CurrentWelcomeMessage">Pesan selamat datang saat ini</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.CustomizeWelcomeMessage">Sesuaikan pesan selamat datang kamu</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.CustomizeWelcomeMessage.Description">Masukkan {NAME} untuk mengetik username kamu (Klik untuk menyisipkan {NAME})</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.CustomizeWelcomeMessage.PlaceHolder">Ketik pesan di sini</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.ComboBox.Standard">Sambutan standar</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.ComboBox.Supreme">Sambutan istimewa</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.ComboBox.Custom">Pesan kustom</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates">Pembaruan</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.Description">Pengaturan tentang pembaruan Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.Button.Check">Cek Pembaruan</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.Notify">Beri notifikasi</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.Download">Unduh dan Instal Nanti</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.DownloadAndInstall">Unduh dan Instal Segera</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate">Pembaruan otomatis</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate.Description">Otomatis mendeteksi dan menginstal versi baru Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource">Sumber pembaruan</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Description">Pilih sumber unduhan pembaruan (pilih GitHub Proxy jika kamu di Tiongkok daratan dan tidak punya layanan proxy, jika tidak pilih GitHub)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Sources.GitHub">GitHub</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Sources.GitHubProxy">GitHub Proxy (ghproxy.com)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.MicrosoftStore.Description">Pembaruan dikelola oleh Microsoft Store.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer">Preset proxy server Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer.Description">Nonaktifkan proxy untuk permintaan server Lyricify dapat meningkatkan pengalaman jika kamu di Tiongkok daratan</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer.ComboBox.Enable">Aktifkan proxy</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer.ComboBox.Auto">Otomatis</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer.ComboBox.Disable">Nonaktifkan proxy</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer">Nonaktifkan proxy untuk permintaan server Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer.Description">Menonaktifkan proxy untuk permintaan tersebut dapat meningkatkan pengalaman jika kamu di Tiongkok daratan</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings">Aktifkan pengaturan proxy manual</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings.Description">Ini akan mengganti pengaturan proxy sistem kamu di Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Host">Host</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Port">Port</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Username">Username</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Password">Password</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test">Tes</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.ProxyOverrideEnabled">Override proxy tidak diaktifkan, hasil tes bisa berbeda. Tetap tes?</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Status">Status Jaringan</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Connected">Terhubung</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Disconnected">Terputus</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Apply">Terapkan</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">Beberapa fungsi mungkin perlu restart agar efektif.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile">File pengaturan</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Description">Edit file pengaturan secara langsung (Lanjutan)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Open">Buka</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Load">Muat</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.ResetAll">Reset Semua</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">Apakah kamu yakin ingin mereset semua pengaturan?</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Done">Restart manual Lyricify mungkin diperlukan.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log">Log</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Description">Operasi log</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Button.Open">Buka</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Button.OpenLyrics">Buka Log Lirik</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Button.OpenFolder">Buka Folder</system:String>
+
+    <!--  Page Horizontal Notice  -->
+    <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">Halaman saat ini tidak mendukung Tampilan Mobile, mohon ubah ukuran jendela Anda untuk keluar dari Tampilan Mobile</system:String>
+
+
+
+    <!--
+        Menu
+    -->
+
+    <!--  MainWindow  -->
+    <!--  Three Dot Main Menu  -->
+    <system:String x:Key="String.Menu.MainWindow.Main.View">Tampilan</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.Topmost">Paling atas</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.MinimizeToTray">Minimalkan ke tray</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.Zoom.In">Perbesar</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.Zoom.Out">Perkecil</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.Zoom.Reset">Atur ulang pembesaran</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.FontSize.In">Perbesar Ukuran Font</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.FontSize.Out">Perkecil Ukuran Font</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.FontSize.Reset">Atur ulang Ukuran Font</system:String>
+
+    <system:String x:Key="String.Menu.MainWindow.Main.RefreshLyrics">Segarkan Lirik</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Translation">Terjemahan</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.DesktopLyrics">Lirik Desktop</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.AppleMusicLyrics">Lirik Apple Music</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.AppleMusicLyricsTraditional">Lirik Apple Music (Tradisional)</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.LyricifyFullscreen">Lyricify Layar Penuh</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.MobileUIFullscreen">UI Mobile Layar Penuh</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.WindowsUpdateLyrics">Lirik Pembaruan Windows</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.WindowsBlueScreenLyrics">Lirik Layar Biru Windows</system:String>
+
+    <system:String x:Key="String.Menu.MainWindow.Main.Settings">Pengaturan</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced">Lanjutan</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.BackupCenter">Pusat Cadangan &amp; Otomasi</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CustomConfigurationManager">Manajer Konfigurasi Kustom</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.DeviceLatencyManager">Manajer Latensi Perangkat</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.HotkeyManager">Manajer Hotkey</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LocalFilesManager">Manajer File Lokal</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">Masuk ke Spotify Web</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.RefreshPlaybackInfo">Segarkan Info Pemutaran Spotify</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CopyRefreshToken">Salin Token Segar</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.MediaSessionStatus">Status Sesi Media</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.NetworkDiagnose">Diagnosis Jaringan</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.ChangeLyricifyPassword">Ubah Kata Sandi Akun Lyricify</system:String>
+
+    <system:String x:Key="String.Menu.MainWindow.Main.About">Tentang &amp; Bantuan</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.About">Tentang</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.Follow">Ikuti</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.NeteaseCloudMusic">Netease Cloud Music</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Bilibili">Bilibili</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.OneRepublic">OneRepublic</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp">Dapatkan bantuan</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.TelegramGroup">Grup Telegram</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup">Grup QQ</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup">Grup Pengguna {0}: {1}</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases">Dapatkan rilis baru</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.TelegramChannel">Channel Telegram</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.LyricifyOfficialWebsite">Website Resmi Lyricify</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.LanzousCloud">Lanzous Cloud</system:String>
+
+    <!--  Main Lyrics Line  -->
+    <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.Copy">Salin</system:String>
+    <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyTranslation">Salin terjemahan</system:String>
+    <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyLineWithTranslation">Salin baris dengan terjemahan</system:String>
+    <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyAllLines">Salin semua baris</system:String>
+    <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyAllTranslations">Salin semua terjemahan</system:String>
+    <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyAllLinesWithTranslation">Salin semua baris dengan terjemahan</system:String>
+    <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.Share">Bagikan</system:String>
+
+    <!--  Pinned Item  -->
+    <system:String x:Key="String.Menu.MainWindow.PinnedItem.Rename">Ganti nama</system:String>
+    <system:String x:Key="String.Menu.MainWindow.PinnedItem.MoveUp">Pindahkan ke atas</system:String>
+    <system:String x:Key="String.Menu.MainWindow.PinnedItem.MoveDown">Pindahkan ke bawah</system:String>
+    <system:String x:Key="String.Menu.MainWindow.PinnedItem.Remove">Hapus</system:String>
+
+    <!--  Dynamic Lyrics Island  -->
+    <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">Klik ganda untuk menyembunyikan selama 2 detik</system:String>
+    <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">Rata Tengah</system:String>
+    <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">Tutup</system:String>
+
+    <!--  Desktop Lyrics  -->
+    <system:String x:Key="String.Menu.DesktopLyrics.DuoLineMode">Mode Dua-Baris</system:String>
+    <system:String x:Key="String.Menu.DesktopLyrics.LyricsAlign">Perataan Lirik</system:String>
+
+    <!--  Apple Music Lyrics  -->
+    <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.In">Perbesar</system:String>
+    <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.Out">Perkecil</system:String>
+    <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.Reset">Atur ulang pembesaran</system:String>
+    <system:String x:Key="String.Menu.AppleMusicLyrics.Blur">Buramkan Lirik</system:String>
+    <system:String x:Key="String.Menu.AppleMusicLyrics.BoldText">Teks Tebal</system:String>
+    <system:String x:Key="String.Menu.AppleMusicLyrics.Translation">Terjemahan Tiongkok</system:String>
+
+
+    <!--  Notification Icon  -->
+    <system:String x:Key="String.Menu.NotificationIcon.UnlockDesktopLyrics">Buka kunci Lirik Desktop</system:String>
+    <system:String x:Key="String.Menu.NotificationIcon.MinimizeToTray">Minimalkan ke tray</system:String>
+    <system:String x:Key="String.Menu.NotificationIcon.Restart">Restart</system:String>
+    <system:String x:Key="String.Menu.NotificationIcon.Exit">Keluar</system:String>
+
+    <!--  Pages  -->
+    <system:String x:Key="String.Menu.Pages.CopyAlbumInfo">Salin info album</system:String>
+    <system:String x:Key="String.Menu.Pages.CopyAlbumUPC">Salin UPC album</system:String>
+    <system:String x:Key="String.Menu.Pages.CheckAlbumAvailability">Periksa ketersediaan album</system:String>
+    <system:String x:Key="String.Menu.Pages.CheckPlaylistAvailability">Periksa ketersediaan daftar putar</system:String>
+    <system:String x:Key="String.Menu.Pages.CopyArtistInfo">Salin info artis</system:String>
+    <system:String x:Key="String.Menu.Pages.CopyPlaylistInfo">Salin info daftar putar</system:String>
+    <system:String x:Key="String.Menu.Pages.CopyUserInfo">Salin info pengguna</system:String>
+    <system:String x:Key="String.Menu.Pages.CopyTrackList">Salin daftar lagu</system:String>
+    <system:String x:Key="String.Menu.Pages.CopyTopTracks">Salin lagu teratas</system:String>
+
+    <system:String x:Key="String.Menu.Pages.Pin">Sematkan ke akses cepat</system:String>
+    <system:String x:Key="String.Menu.Pages.Unpin">Lepaskan dari akses cepat</system:String>
+
+    <system:String x:Key="String.Menu.Pages.CopySpotifyURI">Salin URI Spotify</system:String>
+    <system:String x:Key="String.Menu.Pages.CopySpotifyLink">Salin tautan Spotify</system:String>
+    <system:String x:Key="String.Menu.Pages.ShowInSpotify">Tampilkan di Spotify</system:String>
+
+    <system:String x:Key="String.Menu.Pages.SaveArtwork">Simpan artwork</system:String>
+
+    <!--  Track  -->
+    <system:String x:Key="String.Menu.Track.CopyTrackInfo">Salin info lagu</system:String>
+    <system:String x:Key="String.Menu.Track.CopyTrackISRC">Salin ISRC lagu</system:String>
+    <system:String x:Key="String.Menu.Track.AddToQueue">Tambahkan ke antrean</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer">Timer tidur</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.TurnOffTimer">Matikan timer</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.StopAudioIn">Hentikan audio dalam:</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.PlayFullTrack">Putar lagu penuh lalu hentikan</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.WaitPlayFullTrack">Menunggu lagu selesai diputar</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.1">1 menit</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.5">5 menit</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.10">10 menit</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.15">15 menit</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.30">30 menit</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.45">45 menit</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.60">1 jam</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Hour">{0} jam tersisa</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Hours">{0} jam tersisa</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Minute">{0} menit tersisa</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Minutes">{0} menit tersisa</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Second">{0} detik tersisa</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Seconds">{0} detik tersisa</system:String>
+
+    <system:String x:Key="String.Menu.Track.GoToPlaylist">Ke daftar putar</system:String>
+    <system:String x:Key="String.Menu.Track.GoToAlbum">Ke album</system:String>
+    <system:String x:Key="String.Menu.Track.GoToArtist">Ke artis</system:String>
+    <system:String x:Key="String.Menu.Track.ShowCredits">Tampilkan kredit</system:String>
+    <system:String x:Key="String.Menu.Track.OpenTrackManagement">Buka Manajemen Lagu</system:String>
+
+    <system:String x:Key="String.Menu.Track.CopySpotifyURI">Salin URI Spotify</system:String>
+    <system:String x:Key="String.Menu.Track.CopySpotifyLink">Salin tautan Spotify</system:String>
+    <system:String x:Key="String.Menu.Track.ShowInSpotify">Tampilkan di Spotify</system:String>
+
+
+
+    <!--  Tools  -->
+    <system:String x:Key="String.Tools.Page.RefreshButton">MUAT ULANG</system:String>
+
+    <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice">Ups, Anda telah mencapai batas permintaan API Spotify, coba muat ulang nanti.</system:String>
+    <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice.Network">Ups, ada yang salah. Mohon periksa koneksi Internet Anda.</system:String>
+    <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice.Internal">Ups, ada yang salah. Mohon tanyakan kepada pengembang untuk bantuan.</system:String>
+
+    <system:String x:Key="String.Tools.FollowButton.Follow">IKUTI</system:String>
+    <system:String x:Key="String.Tools.FollowButton.Following">MENGIKUTI</system:String>
+
+    <system:String x:Key="String.Tools.HeartButton.AskRemove">Anda yakin untuk menghapus ini dari koleksi Anda?</system:String>
+
+    <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeMore">LIHAT LEBIH BANYAK</system:String>
+    <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeLess">LIHAT LEBIH SEDIKIT</system:String>
+    <system:String x:Key="String.Tools.AdvancedItemsPanel.OnlyVisibleToYou">Hanya terlihat oleh Anda</system:String>
+
+    <system:String x:Key="String.Tools.DisplayItem.Artist">Artis</system:String>
+    <system:String x:Key="String.Tools.DisplayItem.By">Oleh {0}</system:String>
+
+
+
+    <!--
+        Windows
+    -->
+
+    <!--  Welcome  -->
+    <system:String x:Key="String.Windows.Welcome">Selamat datang di Lyricify</system:String>
+    <system:String x:Key="String.Windows.Welcome.Intro.MoreThanLyrics">Lebih dari lirik</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Title">Mari kita mulai</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Agreement">Lanjutkan berarti Anda setuju dengan persetujuan pengguna Lyricify</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Button.Continue">Lanjutkan</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Title">Sekarang saatnya menyelesaikan otorisasi Spotify di browser web Anda</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.AuthFinish">Otorisasi Spotify selesai, mohon tunggu beberapa detik lagi</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble">Mengalami kesulitan masuk?</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink">Browser web tidak dibuka:</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink.Help">Salin Tautan Otorisasi Spotify</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink">Otorisasi berhasil tidak terdeteksi:</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink.Help">Masukkan Tautan Callback Otorisasi Secara Manual</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.InvalidClient.InvalidRedirectUri.Help">Kesalahan Spotify, Klik Di Sini untuk Solusinya</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configure">Konfigurasi Klien API Kustom</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configured">Klien API Kustom Terkonfigurasi</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.ProxySettings">Pengaturan Proxy</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Button.Cancel">Batal</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Title">Lyricify akan segera ditutup</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Button.Retry">Coba Lagi</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Button.Close">Tutup</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Error.Title">Ada yang salah, berikut lebih lanjut tentang kesalahan</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Retry">Coba Lagi</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Close">Tutup</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.Title" xml:space="preserve">Berhasil terhubung ke Spotify! </system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">Sekarang duduk dan rileks, mari jelajahi Lyricify.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.WelcomeBack">Selamat datang kembali ke Lyricify!</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">Anda adalah pengguna Lyricify ke-{0:N0}</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.FailedToRegister">Gagal mendaftar di server Lyricify. Fungsi sisi server mungkin terbatas. Login ulang mungkin dapat menyelesaikan masalah ini.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">Mulai</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice">Kami telah mengetahui bahwa Anda tidak memutar lagu di Spotify. Karena Lyricify adalah aplikasi lirik, bukan pemutar musik, Anda perlu memutar lagu di Spotify untuk melihat lirik di Lyricify.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice.Button.Continue">Lanjutkan</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Button.Continue">Lanjutkan</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Title">Karena Anda menggunakan Klien API Kustom, disarankan untuk mengotorisasi klien API publik agar dapat menggunakan Lyricify dalam kondisi ekstrem</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip">Lewati langkah ini (tidak disarankan)</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip.Ask">Anda yakin ingin melewati langkah ini? Sangat disarankan untuk mengotorisasi klien API publik agar dapat menggunakan Lyricify dalam kondisi ekstrem.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Title">Selesaikan otorisasi Spotify di browser web Anda, seperti yang telah Anda lakukan sebelumnya</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Skip">Lewati</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Error.Title">Ada yang salah, tetapi Anda tetap bisa menggunakan Lyricify, duduk dan rileks saja</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Success.Title">Berhasil terhubung ke klien API Spotify publik. Ayo gunakan Lyricify!</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Preset">Preset</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">Bawaan</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Quality">Kualitas Terbaik</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Performance">Performa Terbaik</system:String>
+
+    <!--  Font Selector  -->
+    <system:String x:Key="String.Windows.FontSelector">Pemilih Font</system:String>
+    <system:String x:Key="String.Windows.FontSelector.InstalledFonts">Font Terpasang</system:String>
+    <system:String x:Key="String.Windows.FontSelector.SetFontFamily">Atur Keluarga Font</system:String>
+    <system:String x:Key="String.Windows.FontSelector.SetFontFamily.SearchBar.PlaceHolder">Saring font</system:String>
+    <system:String x:Key="String.Windows.FontSelector.AddToList">Tambahkan ke daftar</system:String>
+    <system:String x:Key="String.Windows.FontSelector.RemoveFromList">Hapus dari daftar</system:String>
+    <system:String x:Key="String.Windows.FontSelector.MoveUp">Pindahkan ke atas</system:String>
+    <system:String x:Key="String.Windows.FontSelector.MoveDown">Pindahkan ke bawah</system:String>
+    <system:String x:Key="String.Windows.FontSelector.Preview">Pratinjau</system:String>
+    <system:String x:Key="String.Windows.FontSelector.TypeHereToPreview">Ketik di sini untuk pratinjau</system:String>
+    <system:String x:Key="String.Windows.FontSelector.OK">OKE</system:String>
+    <system:String x:Key="String.Windows.FontSelector.Cancel">Batal</system:String>
+
+    <!--  Share Lyrics  -->
+    <system:String x:Key="String.Windows.ShareLyrics">Bagikan Lirik</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.SelectLyrics">Pilih lirik</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.SelectCount">{0} baris dipilih</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.SelectCount.Plural">{0} baris dipilih</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.Button.Continue">Lanjutkan</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share">Bagikan</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.ClickForMore">Klik untuk lebih lanjut</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ShowTranslation">Tampilkan terjemahan</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ColorfulLogo">Logo berwarna</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowTranslation">Tampilkan Terjemahan</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowBackgroundVocals">Tampilkan Vokal Latar Belakang</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ColorfulLogo">Logo Berwarna</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.BoldText">Teks Tebal</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">Salin</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Button.Rendering">Merender</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">Simpan</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">Gambar JPEG (*.jpg)|*.jpg</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">Gagal disimpan.</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Message.RenderFailed">Ada yang salah, gagal merender.</system:String>
+
+    <!--  Configure Web Window  -->
+    <system:String x:Key="String.Window.ConfigureWeb.Notice1">Login ke Spotify di sini untuk mengaktifkan pemutaran di dalam Lyricify</system:String>
+    <system:String x:Key="String.Window.ConfigureWeb.Notice2">Jika halaman Spotify Web ditampilkan dengan benar, maka Lyricify seharusnya dapat memutar audio. (Restart Lyricify mungkin diperlukan)</system:String>
+    <system:String x:Key="String.Window.ConfigureWeb.ToggleSwitch">Aktifkan Pemutar Internal</system:String>
+
+    <!--  Custom Configuration Manager  -->
+    <system:String x:Key="String.Window.CustomConfigurationManager">Manajer Konfigurasi Kustom</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Description">Muat ide dari kreasi Anda, atau bahkan kustomisasi dari pengguna lain.</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Name">Nama</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Description">Deskripsi</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.File">File</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Path">Jalur</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.IsEnabled">Diaktifkan</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfiguration">Tambah Konfigurasi</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription">Tambah Langganan Konfigurasi</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription.InputNotice">URL Langganan</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription.InvalidUrl">URL Tidak Valid</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.ReloadAllConfiguration">Muat Ulang Semua Konfigurasi</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.RemoveAllConfigurations">Hapus Semua Konfigurasi</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.HelpDocument">Dokumen Bantuan</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.Close">Tutup</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveOne">Anda yakin ingin menghapus konfigurasi ini?</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveAll">Anda yakin ingin menghapus semua konfigurasi?</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.AddDialogTitle">Pilih file konfigurasi kustom</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.AddDialogTitle.Filter">Dokumen XAML (*.xaml)|*.xaml</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Rename">Ganti nama</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.EditDescription">Edit deskripsi</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenFile">Buka file</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenSubscriptionUrl">Buka URL langganan</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.CopySubscriptionUrl">Salin URL langganan</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Reload">Muat ulang</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Remove">Hapus</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">Pindahkan ke atas</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveDown">Pindahkan ke bawah</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Name">Konfigurasi Tanpa Nama</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Name.Subscription">Langganan Konfigurasi Tanpa Nama</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorSavingProfile">Terjadi kesalahan saat menyimpan profil</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorAddingProfile">Terjadi kesalahan saat menambahkan profil</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorAddingProfile.Subscription">Terjadi kesalahan saat menambahkan profil langganan</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ContentIllegal">Konten konfigurasi tidak sah</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ContentIllegal.Subscription">Konten langganan konfigurasi tidak sah</system:String>
+
+    <!--  Device Latency Manager  -->
+    <system:String x:Key="String.Window.DeviceLatencyManager">Manajer Latensi Perangkat</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Description">Atur latensi perangkat individual untuk setiap perangkat pemutaran.</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Description.Additional">Ini dirancang untuk latensi perangkat pemutaran (seperti perangkat Bluetooth), jangan gunakan ini untuk offset lirik.</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DefaultLatency">Latensi bawaan</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DefaultLatency.Description">Bilangan bulat dalam milidetik, nilai bawaan adalah 0.</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceList">Daftar Perangkat</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.ComboBoxLatencyOption.Default">Bawaan</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.ComboBoxLatencyOption.Custom">Kustom</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.Menu.Remove">Hapus</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.Icon.CurrentDevice.ToolTip">Perangkat pemutaran saat ini</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.CurrentLatency">Latensi Saat Ini:</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.CurrentLatency.Value">{0} ms</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DisconnectedOrDisabled">Terputus atau dinonaktifkan</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.RefreshDeviceList">Segarkan Daftar Perangkat</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.RefreshLyrics">Segarkan Lirik</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.Close">Tutup</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.Close.Notice">Semua pengaturan akan disimpan secara otomatis.</system:String>
+
+    <!--  Hotkey Manager  -->
+    <system:String x:Key="String.Window.HotkeyManager">Manajer Hotkey</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Description">Anda bisa mengelola hotkey global di sini. (Gunakan Backspace untuk menghapus jalan pintas)</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.DesktopLyrics">Lirik Desktop</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.ResetWindow">Atur Ulang Jendela</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.PlayPause">Putar / Jeda</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.PreviousTrack">Lagu Sebelumnya</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.NextTrack">Lagu Berikutnya</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Button.ResetAll">Atur Ulang Semua Hotkey</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Button.Apply">Terapkan</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Button.Cancel">Batal</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Message.FailedAt">Gagal mendaftarkan hotkey berikut:</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Message.CheckUsing">Mohon periksa apakah program lain menggunakan tombol tersebut.</system:String>
+
+    <!--  Network Diagnose  -->
+    <system:String x:Key="String.Window.NetworkDiagnose">Diagnosis Jaringan</system:String>
+    <system:String x:Key="String.Window.NetworkDiagnose.Description">Periksa koneksi Internet Anda dengan server Lyricify.</system:String>
+    <system:String x:Key="String.Window.NetworkDiagnose.Button.Check">Periksa</system:String>
+    <system:String x:Key="String.Window.NetworkDiagnose.Button.Close">Tutup</system:String>
+
+    <!--  Local Files Manager  -->
+    <system:String x:Key="String.Window.LocalFilesManager">Manajer File Lokal</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Title">Manajer untuk File Lokal Spotify</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Description">Hanya file lokal yang telah Anda putar di Spotify saat Lyricify terbuka akan muncul di sini.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Button.RefreshList">Segarkan Daftar</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.HaveImage">Memiliki Gambar (Klik untuk mengganti, klik kanan untuk menghapus)</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.NoImage">Tidak Ada Gambar (Klik untuk menambahkan)</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.AddImage">Tambahkan gambar</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.ReplaceImage">Ganti dengan gambar lain</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.All">Semua File yang Didukung</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Image">File Gambar</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Audio">File Audio</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.ImageNotFoundInMediaFile">Tidak ditemukan gambar dalam file media yang dipilih.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.SuccessUpdate">Berhasil memperbarui gambar.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.FailUpdate">Gagal memperbarui gambar.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.AskRemove">Anda yakin ingin menghapus gambar ini?</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.SuccessRemove">Berhasil menghapus gambar.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.FailRemove">Gagal menghapus gambar.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Type.Albums">Album:</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Type.Tracks">Lagu:</system:String>
+
+    <!--  Storage Manager  -->
+    <system:String x:Key="String.Window.StorageManager">Manajer Penyimpanan</system:String>
+    <system:String x:Key="String.Window.StorageManager.Description">Kelola penyimpanan Lyricify di perangkat ini.</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Configurations">Konfigurasi</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Configurations.Description">Pengaturan, konfigurasi dan info akun</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Caches">Cache</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Caches.Description">Gambar yang di-cache dan cache lainnya</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Logs">Log</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Logs.Description">File log yang dihasilkan selama runtime</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Backups">Cadangan</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Backups.Description">Cadangan data akun, cadangan otomatis editor lirik dan cadangan lainnya</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup">Pembersihan Penyimpanan</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Configurations.UnusedLocalFileImages">Gambar file lokal yang tidak digunakan</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Caches.Images">Gambar yang di-cache</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.CurrentLog">Log saat ini</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.CurrentLyricsLog">Log lirik saat ini</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.HistoryLogs">Log sejarah</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Backups.AccountData">Cadangan data akun</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Backups.LyricsEditorAutoBackup">Cadangan otomatis editor lirik</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.SelectedSize">{0} dipilih</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.SelectRecommended">Pilih Rekomendasi</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.SelectAll">Pilih Semua</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.DeselectAll">Batal Pilih Semua</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean">Bersihkan</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean.Ask">Anda yakin ingin membersihkan? Anda tidak bisa mengembalikannya setelah pembersihan.</system:String>
+
+    <!--  Track Management  -->
+    <system:String x:Key="String.Window.TrackManagement">Manajemen Lagu</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Title">Manajemen Lagu Lyricify</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Track.Lock">Kunci Lagu</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Track.Lock.Notice">Lagu telah dikunci oleh admin</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo">Informasi Dasar</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Track">Lagu</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Artist">Artis</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Album">Album</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental">Instrumental</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.Unset">Belum diatur</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.True">Benar</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.False">Salah</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer">Penulis</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format">Format:</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format.Description">Nama penulis harus dipisahkan dengan , (koma setengah lebar). Anda juga bisa mengetik Penulis dalam baris berbeda dan biarkan Lyricify yang menangani formatnya. Gunakan Tiongkok Sederhana untuk nama Tiongkok.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Example">Contoh:</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics">Lirik</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">Kunci Lirik</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">Lirik telah dikunci oleh admin</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">Offset harus berupa angka (satuan offset adalah milidetik)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.TooLarge">Offset tidak seharusnya sebesar ini, mungkin Anda meletakkan angka yang salah di sini. Ingin tetap menyimpannya? (Offset adalah penyesuaian waktu dalam milidetik)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">Kosong (Tidak ditandai di server)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.RemoveLyrics">Hapus Lirik</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">Cari</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search.Description">Impor lirik dengan Pencari Lirik Lyricify bawaan</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import">Impor</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.QQ.Description">Impor lirik dengan QQ Music Song Mid atau tautan berbagi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">Impor lirik dengan ID Lagu Netease Cloud Music atau tautan berbagi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit">Edit</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">Pengeditan lirik lanjutan</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify">Lyricify Lyrics Vault</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit">Impor &amp; Edit</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Description">Edit lirik di Lyricify Lyrics Vault</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention" xml:space="preserve">PERHATIAN: </system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention.Content">HANYA gunakan ini ketika lirik tidak tersedia di QQ Music dan Netease Cloud Music.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.Attention">Offset tidak bisa diubah dalam lingkungan Sesi Media terputus.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ">QQ Music</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">Mohon masukkan QQ Music Song Mid atau tautan berbagi untuk mendapatkan lirik dari QQ Music.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Input">QQ Music Song Mid salah, mohon periksa input Anda.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Link">Gagal mendapatkan QQ Music Song Mid dari tautan berbagi.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease">Netease Cloud Music</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox">Mohon masukkan ID Lagu Netease Cloud Music atau tautan berbagi untuk mendapatkan lirik dari Netease Cloud Music.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox.Failed.Input">ID Lagu Netease Cloud Music salah, mohon periksa input Anda.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Reset">Atur ulang</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Reset.Description">Atur ulang semua perubahan</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo">Segarkan Info Lokal</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo.Description">Simpan semua perubahan, biasanya tidak akan berpengaruh pada tampilan</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshServerInfo">Segarkan Info Server</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshServerInfo.Description">Abaikan perubahan dan muat info server terbaru</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow">Terapkan di Jendela Utama</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow.Description">Muat info lirik saat ini di Jendela Utama (Hanya tersedia ketika lagu ini sedang diputar)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Save">Simpan (Unggah)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Save.Message.ApplyInMainWindow">Menerapkan perubahan di Jendela Utama dan memeriksa lirik yang baru saja Anda impor sangat disarankan. Terapkan di Jendela Utama sekarang (Ya), lanjutkan unggahan (Tidak), atau tidak melakukan apa-apa (Batal)?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Close">Tutup</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.EditRawFile">Edit File Mentah</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">Anda yakin ingin keluar tanpa menyimpan?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.FinishDuetView">Mohon selesaikan pengaturan tampilan duet (Klik ganda judul "Tampilan Duet" bisa menghapus pengaturan tampilan duet)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.CheckTitleLines" xml:space="preserve">Mohon periksa definisi baris judul, sepertinya Anda telah menandai semua baris sebagai baris judul. (Klik ganda judul "IsTitle" bisa mengatur ulang definisi baris judul)&#x000A;Apakah Anda ingin membatalkan unggahan?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Timestamp">Waktu</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Lyrics">Lirik</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle">AdalahJudul</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle.ToolTip">Baris judul berisi: judul, info kredit dan baris non-lirik lainnya</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView">Tampilan Duet</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView.ToolTip">Klik ganda judul "Tampilan Duet" bisa menghapus pengaturan tampilan duet</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Button">Muat Semua Lirik</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Button.Notice">Muat semua lirik untuk mengaktifkan semua fungsi pengeditan</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Timestamp">Salin waktu</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Lyrics">Salin lirik</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Translation">Salin terjemahan</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampLyrics">Salin waktu dan lirik</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampTranslation">Salin waktu dan terjemahan</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.Loading">Memuat Informasi Lirik Server</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">Lagu kosong</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">Gagal memuat info lirik server</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message">Anda bisa mencoba</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.1">1. Nonaktifkan proxy, yang mungkin memblokir koneksi ke server Lyricify</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.2">2. Logout Lyricify dan login kembali</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.WordWrap">Bungkus Kata</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.Notice.AskSave">Apakah Anda ingin menyimpan perubahan?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.Notice.NoTimestamp">Tidak terdeteksi waktu, tetap lanjutkan menyimpan?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor">Editor Lirik Lanjutan</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Lyrics">Lirik</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">Terjemahan</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">Tambahkan Terjemahan</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Message.Translation.AutoFill">Gunakan terjemahan yang diisi otomatis?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyrics">Impor Lirik Apple Music</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyricsById">Impor Lirik Apple Music dengan ID</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportSpotifyLyrics">Impor Lirik Spotify</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportKugouLyrics">Impor Lirik Kugou</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">Dapatkan Lirik QRC</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetLyricifySyllable">Dapatkan Lirik Suku Kata Lyricify</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">Pembuat Baris Suku Kata</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.StartRecord">Mulai Rekam</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.StopRecord">Hentikan Rekam</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.Clear">Bersihkan</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.InputLyrics">Impor Lirik</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.OutputLyrics">Ekspor Lirik</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.ChangeStartTime">Ubah Waktu Mulai</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">Pemindah Baris Suku Kata</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.CopyCurrentTime">Salin Waktu Saat Ini</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.GetTimestampByMillisecond">Dapatkan Waktu Berdasarkan Milidetik</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.MoveTo">Pindahkan Ke</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.QrcSpaceMove">Pindahkan spasi awal ke akhir</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.LyricifyLyricsVault.Attention" xml:space="preserve">Perhatian: &#x000A;Jangan mengimpor lirik secara manual jika QQ Music atau Netease Cloud Music memiliki lirik tersebut! &#x000A;Jika lirik yang sesuai tidak ditemukan melalui tombol pencarian di Lyricify, bukan berarti tidak ada. Anda perlu mencari secara manual di aplikasi QQ Music dan NetEase Cloud Music untuk memastikan tidak ada lirik yang sesuai sebelum bisa dianggap sebagai "tidak ada lirik". &#x000A;Akun Anda mungkin dibatasi jika Anda melanggar aturan ini. &#x000A;Lanjutkan mengimpor?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Impor Lirik Apple Music</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.EnterIdOrLink">Masukkan ID atau tautan</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet">Gagal mendapatkan lirik</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet.TokenExpired">Gagal mendapatkan lirik. Token sisi server telah kedaluwarsa. Mohon tunggu pengembang untuk memperbaikinya dan coba lagi.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">Lirik tidak ditemukan</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">Lirik tersebut bukan sinkron kata, lanjutkan impor?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">Konversi Tiongkok Tradisional ke Tiongkok Sederhana?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoSongs">Tidak ditemukan lagu yang sesuai.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoLyrics">Lagu yang sesuai tidak memiliki lirik atau lirik sinkron waktu.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.TooManyRequest">Terlalu banyak permintaan, mohon coba lagi beberapa jam kemudian.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.CurrentlyUnavailable">Fungsi ini saat ini tidak tersedia, mohon coba lagi besok.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.AddTranslation">Mohon tambahkan terjemahan Tiongkok secara manual untuk lirik yang telah Anda impor (Hanya Tiongkok Sederhana, tidak diperbolehkan Tiongkok Tradisional).</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization">Kapitalisasi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization.Message">Kapitalisasi semua awal baris?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Copied.QRC">QRC disalin ke clipboard</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Copied.LyricifySyllable">Suku Kata Lyricify disalin ke clipboard</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.NotSynced">Lirik tidak disinkronkan, gagal mengimpor</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.ConvertTraditionalChinese">Tiongkok Tradisional telah dikonversi secara otomatis ke Tiongkok Sederhana, mohon periksa lirik untuk memastikan konversinya benar.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.TokenExpired">Token Spotify Sisi Server telah kedaluwarsa, mohon hubungi pengembang Lyricify.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToFound">Tidak menemukan lirik</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToGet">Gagal mendapatkan lirik</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToConvert">Gagal mengkonversi lirik</system:String>
+    <system:String x:Key="String.Window.TrackManagement.RawFileEditor">Editor File Mentah</system:String>
+    <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">Tidak dapat mendeserialisasi, periksa perubahan Anda (Ya) atau tutup tanpa menyimpan (Tidak)?</system:String>
+
+    <!--  Lyricify Account  -->
+    <system:String x:Key="String.Window.LyricifyAccount">Akun Lyricify</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Button.OK">OKE</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Button.Change">Ubah</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password">Kata Sandi</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password.Reenter">Masukkan ulang</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password.Old">Kata Sandi Lama</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password.Old.PlaceHolder">(Kata sandi disimpan)</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Title.Enter">Mohon masukkan kata sandi Akun Lyricify {0} Anda</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Title.Set">Atur kata sandi untuk Akun Lyricify {0} Anda</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Title.Change">Ubah kata sandi Akun Lyricify {0} Anda</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Administrator">Administrator</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Manager">Manajer</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Insider">Insider</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.EmptyPassword">Kata sandi kosong</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.EmptyOldPassword">Kata sandi lama kosong</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.ServerError">Kesalahan server</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.WrongPassword">Kata sandi salah</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.ShortPassword">Kata sandi terlalu pendek</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.WrongOldPassword">Kata sandi lama salah</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.TooManyAttempts">Terlalu banyak percobaan</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.TwiceDifferent">Kata sandi yang dimasukkan dua kali berbeda</system:String>
+
+    <!--  Custom API Client Manager  -->
+    <system:String x:Key="String.Window.CustomApiClientManager">Konfigurasi Klien API Kustom</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Button.Reset">Atur Ulang</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Button.OK">OKE</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Button.Cancel">Batal</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.ToolTip">Klik untuk melihat Tutorial Konfigurasi Klien Spotify API Kustom</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Message.WrongClientSecret">Client Secret salah, mohon periksa input Anda</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Message.WrongClientIdSecret">Client ID atau Client Secret salah, mohon periksa input Anda</system:String>
+
+    <!--  Backup Center  -->
+    <system:String x:Key="String.Window.BackupCenter">Cadangan &amp; Otomasi</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Title">Pusat Cadangan &amp; Otomasi Lyricify</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Tab.Home">Beranda</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Tab.Backup">Cadangan</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Tab.Restore">Pulihkan</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Tab.Preview">Pratinjau</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Tab.Automation">Otomasi</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Tab.Schedule">Jadwal</system:String>
+
+    <system:String x:Key="String.Page.BackupCenter.Home.Welcome">Selamat datang di Pusat Cadangan &amp; Otomasi Lyricify</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.Backup">Cadangan</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.Backup.Description">Buat cadangan koleksi Anda dan data lainnya</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.Transfer">Transfer</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.Transfer.Description">Transfer data Anda ke akun lain</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.Automation">Otomasi</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.Automation.Description">Biarkan Lyricify mengelola koleksi Anda</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.PersonalUseWarning" xml:space="preserve">Hanya untuk penggunaan pribadi! &#x000A;Jika Anda ingin menggunakan Pusat Cadangan Lyricify untuk kegiatan komersial, Anda harus menghubungi Lyricify terlebih dahulu.</system:String>
+
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step1">Langkah 1: Pilih apa yang ingin Anda cadangkan</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step2">Langkah 2: Pilih format output cadangan</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step3">Langkah 3: Atur kata sandi jika Anda suka</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.LikedSongs">Lagu yang Disukai</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Playlist">Daftar Putar</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Album">Album</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Artist">Artis</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Json.Description">File Json menyediakan kemampuan penuh bagi Lyricify untuk memulihkan</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Csv.Description">File CSV dapat ditampilkan sebagai lembar kerja, dan kompatibel dengan beberapa penyedia layanan lainnya</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Text.Description">File teks hanya menyimpan nama lagu dan nama artis</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Intro">Kami menyarankan Anda memilih file Json, karena bekerja secara alami dengan Lyricify, file ini juga dapat dilindungi dengan kata sandi. Saat ini, file CSV dan file teks hanya tersedia untuk Lagu yang Disukai.</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Password.CheckBox">Gunakan kata sandi</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Password.Input">Kata Sandi</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Password.Input.Reenter">Masukkan Ulang</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Password.TwiceDifferent">Kata sandi yang dimasukkan dua kali berbeda.</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Button.BackupNow">Buat Cadangan Sekarang</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Button.ResetToDefault">Atur Ulang Semua ke Bawaan</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step1">Langkah 1: Periksa koleksi Anda</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2">Langkah 2: Buat cadangan</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step3">Langkah 3: Simpan ke file</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step1.Output">Kami menemukan {0} di koleksi Anda.</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2.Output">Kami telah membuat cadangan {0}.</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2.ETA">Waktu tersisa: {0} detik</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Finished.Message">Selesai. Sekarang Anda bisa memeriksa cadangan Anda.</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.Cancel">Batal</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.ShowPreview">Tampilkan Pratinjau</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.OpenBackupFolder">Buka Folder Cadangan</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.SaveACopy">Simpan Salinan</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.SaveACopy.Failed.Message">Ada yang salah, gagal menyimpan salinan.</system:String>
+
+    <system:String x:Key="String.Page.BackupCenter.Type.LikedSongs.Output">{0} lagu</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.LikedSongs.Output.Plural">{0} lagu</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Playlist.Output">{0} daftar putar</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Playlist.Output.Plural">{0} daftar putar</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Album.Output">{0} album</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Album.Output.Plural">{0} album</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Artist.Output">{0} artis</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Artist.Output.Plural">{0} artis</system:String>
+
+    <!--  Others  -->
+    <system:String x:Key="String.Helpers.Player.Time.Hour">jam</system:String>
+    <system:String x:Key="String.Helpers.Player.Time.Minute">mnt</system:String>
+    <system:String x:Key="String.Helpers.Player.Time.Second">dtk</system:String>
+
+    <system:String x:Key="String.Helpers.Time.Ago.Day">{0} hari yang lalu</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Days">{0} hari yang lalu</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Hour">{0} jam yang lalu</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Hours">{0} jam yang lalu</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Minute">{0} menit yang lalu</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Minutes">{0} menit yang lalu</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Second">{0} detik yang lalu</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Seconds">{0} detik yang lalu</system:String>
+
+    <!--  Lyrics  -->
+    <system:String x:Key="String.Lyrics.Provider">Penyedia Lirik</system:String>
+    <system:String x:Key="String.Lyrics.Provider.ProvidedBy">Lirik disediakan oleh {0}</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">Lyricify Lyrics Vault</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.QQ">QQ Music</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.Netease">Netease Cloud Music</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.Musixmatch">Musixmatch</system:String>
+
+    <system:String x:Key="String.Lyrics.Provider.Menu.MarkCorrect">Tandai sebagai Lirik yang Benar</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Menu.ViewSource">Lihat Sumber</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Menu.ManageTrack">Kelola Lagu Ini</system:String>
+
+    <system:String x:Key="String.Lyrics.Provider.Server.Info.Marked">Ditandai di server</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">Pencarian otomatis</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Fail.Version">Versi saat ini kedaluwarsa, mohon dapatkan pembaruan</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Uploading">Mengunggah lirik ke server...</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">Berhasil ditandai di server</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Exist">Lirik telah ditandai</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">Gagal, ini mungkin kesalahan internal</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Network">Ada yang salah dengan server Lyricify atau jaringan Anda</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">Gagal karena lirik kosong, ini mungkin kesalahan internal</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Exist">Lirik tersedia, coba lagi nanti</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Locked">Lagu ini telah dikunci</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Denied">Permintaan tanda Anda telah ditolak</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Success">Berhasil diunggah ke server</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail">Gagal, ini mungkin kesalahan internal</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.EmptyUpload">Unggahan kosong</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Part">Sebagian unggahan telah gagal, mohon coba lagi nanti</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Denied">Permintaan unggahan Anda telah ditolak</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Locked">Lagu ini telah dikunci</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Network">Gagal mengunggah, ini mungkin disebabkan oleh masalah jaringan</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.ServerException">Gagal mengunggah, ini disebabkan oleh pengecualian server</system:String>
+
+    <system:String x:Key="String.Lyrics.Info.NoLyrics0">Hmm. Kami tidak tahu lirik untuk lagu ini.</system:String>
+    <system:String x:Key="String.Lyrics.Info.NoLyrics1">Sepertinya kami tidak memiliki lirik untuk lagu ini.</system:String>
+    <system:String x:Key="String.Lyrics.Info.NoLyrics2">Anda menangkap kami, kami masih bekerja untuk mendapatkan lirik untuk lagu ini.</system:String>
+    <system:String x:Key="String.Lyrics.Info.NoLyrics3">Anda harus menebak lirik untuk lagu ini.</system:String>
+    <system:String x:Key="String.Lyrics.Info.Error">Tidak bisa memuat lirik untuk lagu ini. Coba lagi nanti.</system:String>
+    <system:String x:Key="String.Lyrics.Info.Instrumental">Musik instrumental, silakan nikmati.</system:String>
+    <system:String x:Key="String.Lyrics.Info.Button.ManualImport">Impor Manual (Buka Manajemen Lagu)</system:String>
+
+    <!--  Converter  -->
+    <system:String x:Key="String.Converter.ValueString">{0}% selesai</system:String>
+
+    <!--  Dialogs  -->
+    <system:String x:Key="String.Dialog.Store.Title">Anda telah menemukan fitur eksklusif!</system:String>
+    <system:String x:Key="String.Dialog.Store.Title.FreePromotion">Lebih banyak fitur bisa dibuka!</system:String>
+    <system:String x:Key="String.Dialog.Store.Explore">Kami mengundang Anda untuk menjelajahi Lyricify di Microsoft Store untuk pengalaman yang lebih baik. Dukungan Anda akan sangat berkontribusi pada perbaikan dan pengembangannya.</system:String>
+    <system:String x:Key="String.Dialog.Store.Purchase">Kami mendorong Anda untuk mempertimbangkan membeli Lyricify di Microsoft Store. Dukungan Anda akan membantu kami meningkatkan pengalaman Anda dan terus mengembangkan fitur-fitur baru.</system:String>
+    <system:String x:Key="String.Dialog.Store.StoreExclusiveExplanation">Dengan membeli versi Microsoft Store, Anda bisa membuka font kustom untuk lirik Apple Music dan Dynamic Lyrics Island, server Lyricify yang dipercepat, dan banyak fitur lainnya.</system:String>
+    <system:String x:Key="String.Dialog.Store.Button.GoToStore">Ke Microsoft Store</system:String>
+    <system:String x:Key="String.Dialog.Store.Button.Close">Tutup</system:String>
+    <system:String x:Key="String.Dialog.Store.Donator">Sudah menjadi donatur?</system:String>
+    <system:String x:Key="String.Dialog.Store.Donator.ToolTip">Pendukung yang menyumbang setara atau melebihi harga jual Microsoft Store dapat meminta kode redeem Microsoft Store gratis dari pengembang.</system:String>
+
+    <system:String x:Key="String.Dialog.MediaSessionStatus.NoSessionsFound">Tidak ditemukan sesi</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.SessionsFound.Colon">{0} sesi ditemukan:</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.SystemRequirements">Sesi Media memerlukan Windows 10 (Build 17763) atau versi yang lebih tinggi.</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.Tips.SpotifyNoPlayback">Sepertinya Spotify Anda sedang diputar, tetapi info pemutaran tidak diunggah dengan benar ke server Spotify. Mohon periksa koneksi Internet Anda.</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.Tips.MediaSessionRequirements.Colon">Persyaratan Sesi Media:</system:String>
+
+    <!--
+        Messages
+    -->
+
+    <!--  Titles  -->
+    <system:String x:Key="String.Messages.Title.Error">Kesalahan Lyricify</system:String>
+
+    <!--  App  -->
+    <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">Tindakan tidak sah, login ulang untuk melanjutkan</system:String>
+    <system:String x:Key="String.Messages.App.Exception.PremiumRequired">Premium diperlukan</system:String>
+    <system:String x:Key="String.Messages.App.Exception.PremiumRequired.More">Premium diperlukan (Klik untuk mengetahui lebih lanjut)</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TryToRelogin">Mohon coba login ulang</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests">Terlalu banyak permintaan (kesalahan 429), coba lagi nanti</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">Terlalu banyak permintaan (kesalahan 429), coba lagi setelah {0} detik</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify">Anda bisa menghindari kesalahan 429 dengan mengatur Klien API Kustom (Klik untuk mengetahui lebih lanjut)</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify.Full">Anda bisa menghindari kesalahan 429 dengan mengatur Klien API Kustom, yang bisa mempercepat startup Lyricify dan perpindahan lagu (Klik untuk mengetahui lebih lanjut)</system:String>
+
+    <!--  MainWindow  -->
+    <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">Kesalahan 429, coba lagi nanti</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Timeout">Kesalahan timeout, coba lagi nanti</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Pengecualian Request Http, coba lagi nanti</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">Akun Lyricify tidak ditemukan, fungsi terkait server akan terbatas&#x000A;Logout dan login ulang mungkin membantu</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Restricted">Akun Lyricify Anda telah dibatasi, hubungi admin untuk bantuan</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Message.RegistrationRepaired">Berhasil memperbaiki dan mendaftarkan akun Lyricify Anda!</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Message.NonPremium">Saran: Dapatkan Spotify Premium untuk mendapatkan manfaat maksimal dari Lyricify</system:String>
+    <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed">Lyricify akan ditutup</system:String>
+    <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed.Wrong">Ada yang salah, Lyricify untuk Spotify akan ditutup.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.SpotifyAccount.Error.Relogin">Ada yang salah dengan akun Spotify Anda, coba login ulang?</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.NetworkIssue">Masalah jaringan. Mohon periksa koneksi Internet Anda</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.TryToRelogin">Mohon coba login ulang</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SomethingsWrong">Ada yang salah, mohon periksa koneksi Internet Anda atau hubungi pengembang</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.InvalidClient">Info klien tidak valid, mohon periksa konfigurasi Klien API Anda</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">Pengguna tidak terdaftar di Spotify Developer Dashboard</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SslException">Koneksi SSL tidak bisa dibuat.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SslException.Message">Ada yang salah dengan koneksi Internet Anda. Pastikan accounts.spotify.com dan api.spotify.com dapat diakses.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">Layanan Spotify saat ini tidak tersedia (kesalahan 503), mohon coba nanti</system:String>
+
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">Kesalahan 429 Ekstrem</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.HavePublic.Notice">Klien API kustom Anda dalam kondisi ekstrem (mengembalikan kesalahan 429 dengan pengulangan setelah {0} detik), Lyricify akan terus bekerja menggunakan klien API publik</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.NoPublic.Message" xml:space="preserve">Klien API kustom Anda dalam kondisi ekstrem (mengembalikan kesalahan 429 dengan pengulangan setelah {0} detik), dan klien API publik belum dikonfigurasi, jadi Lyricify tidak berfungsi hingga kesalahan 429 berakhir.&#x000A;Tekan Ya untuk logout, tekan Tidak untuk menutup Lyricify.</system:String>
+
+    <system:String x:Key="String.Messages.MainWindow.Lyrics.NoTrackPlaying">Anda tidak bisa membuka Lirik sampai Spotify mulai memutar</system:String>
+    <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">Anda tidak bisa membuka Lirik Apple Music sampai Spotify mulai memutar</system:String>
+    <system:String x:Key="String.Messages.LyricifyFullscreen.NoTrackPlaying">Anda tidak bisa membuka Lyricify Layar Penuh sampai Spotify mulai memutar</system:String>
+    <system:String x:Key="String.Messages.MobileUIFullscreen.NoTrackPlaying">Anda tidak bisa membuka UI Mobile Layar Penuh sampai Spotify mulai memutar</system:String>
+    <system:String x:Key="String.Messages.WindowsUpdateLyrics.NoTrackPlaying">Anda tidak bisa membuka Lirik Pembaruan Windows sampai Spotify mulai memutar</system:String>
+    <system:String x:Key="String.Messages.WindowsBlueScreenLyrics.NoTrackPlaying">Anda tidak bisa membuka Lirik Layar Biru Windows sampai Spotify mulai memutar</system:String>
+
+    <system:String x:Key="String.Messages.MainWindow.LogOut.Query">Anda yakin ingin logout dari akun Spotify ini?</system:String>
+    <system:String x:Key="String.Messages.MainWindow.LogOut.Failed">Gagal logout</system:String>
+
+    <!--  Updates  -->
+    <system:String x:Key="String.Messages.Updates.FoundNewVersion">Versi baru terdeteksi</system:String>
+    <system:String x:Key="String.Messages.Updates.FoundNewVersion.GoToStore">Klik untuk memeriksanya di Microsoft Store</system:String>
+
+    <!--  Operations  -->
+    <system:String x:Key="String.Messages.Operation.Spotify.Add.LikedSongs">Ditambahkan ke Lagu yang Disukai Anda</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Remove.LikedSongs">Dihapus dari Lagu yang Disukai Anda</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Add.Library">Disimpan ke Koleksi Anda</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Remove.Library">Dihapus dari Koleksi Anda</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Add.Queue">Ditambahkan ke antrean</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Add.Queue.Fail">Gagal menambahkan ke antrean</system:String>
+
+    <system:String x:Key="String.Messages.Operation.Spotify.NoDevice">Tidak ditemukan perangkat yang tersedia, mohon buka klien Spotify Anda</system:String>
+
+    <system:String x:Key="String.Messages.Operation.LinkCopied">Tautan disalin ke clipboard</system:String>
+    <system:String x:Key="String.Messages.Operation.Copied">Disalin ke clipboard</system:String>
+
+    <!--
+        Lyricify Wrapped
+    -->
+
+    <!--  Wrapped Year  -->
+    <system:String x:Key="String.Wrapped.Title">Lyricify Wrapped</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2023">Semua tentang Anda, saya, dan 2023</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2024">2024, lirik, Anda, dan saya</system:String>
+    <system:String x:Key="String.Wrapped.Unwrap">Buka</system:String>
+    <system:String x:Key="String.Wrapped.Unwrap.Notice">Membuka berarti Anda setuju dengan persetujuan pengguna Lyricify dan mengizinkan Lyricify untuk memproses dan menganalisis penggunaan aplikasi Anda.</system:String>
+    <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>>Akselerasi</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">Buka sekarang</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify telah membungkus semua cerita Anda dengan Lyricify di tahun 2023, ayo buka sekarang!</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2024">Lyricify telah menangkap setiap momen lirik Anda di 2024, buka sekarang!</system:String>
+    <system:String x:Key="String.Wrapped.Notice.CloseReminder">Lyricify Wrapped bisa ditemukan di menu utama dan menu widget pengguna, jadi Anda bisa membukanya nanti.</system:String>
+
+    <system:String x:Key="String.Wrapped.Messages.001">Hai, {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.002">Saya Lyricify!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.003">Masih ingat?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.004" xml:space="preserve">Kita pertama kali bertemu pada&#x0a;{0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.005">{0:N0} hari yang lalu</system:String>
+    <system:String x:Key="String.Wrapped.Messages.006">Sebagai pengguna Lyricify 4 nomor.{0:N0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007">Dan {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.1">seorang administrator</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.2">seorang insider</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.3">seorang manajer lirik</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.4">seorang pengguna premium</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.5">seorang pengguna</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.6">seorang pengguna terbatas</system:String>
+    <system:String x:Key="String.Wrapped.Messages.008" xml:space="preserve">Anda dan Lyricify&#x0a;memiliki cerita panjang tahun ini</system:String>
+    <system:String x:Key="String.Wrapped.Messages.009">Terima kasih banyak telah membeli Lyricify 4 di Microsoft Store</system:String>
+    <system:String x:Key="String.Wrapped.Messages.010">Ini sangat berarti bagi saya!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.011">Di tahun ini</system:String>
+    <system:String x:Key="String.Wrapped.Messages.012">Anda memulai Lyricify {0:N0} kali</system:String>
+    <system:String x:Key="String.Wrapped.Messages.013">Yang berarti Anda memulai Lyricify setiap {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.014">Lebih dari {0} pengguna Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.015">Fakta menarik untuk diketahui</system:String>
+    <system:String x:Key="String.Wrapped.Messages.016">Anda paling sering memulai Lyricify antara {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017">Hebat!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.1">Burung pagi menangkap cacing!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.2">Pagi-pagi itu luar biasa!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.3">Siang hari itu luar biasa!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.4">Lyricify melirikify sore Anda!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.5">Ups, ini cukup larut!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.018">Lyricify membantu Anda mencari lirik {0:N0} kali tahun ini</system:String>
+    <system:String x:Key="String.Wrapped.Messages.019">Wah, itu banyak!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.020">Jumlah pencarian lirik Anda berada di {0} tertinggi dari pengguna Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.021">Mari kita lihat</system:String>
+    <system:String x:Key="String.Wrapped.Messages.022">{0}, ya</system:String>
+    <system:String x:Key="String.Wrapped.Messages.023">Waktu yang bagus untuk membaca lirik!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.024">Apakah sesuatu terjadi pada {0}?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.025">Ya</system:String>
+    <system:String x:Key="String.Wrapped.Messages.026">Anda telah membaca begitu banyak lirik hari itu, mencapai {0:N0} kali</system:String>
+    <system:String x:Key="String.Wrapped.Messages.027">Bagus untuk mengetahui</system:String>
+    <system:String x:Key="String.Wrapped.Messages.028">Anda juga menggunakan Lyricify Mobile!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.029">Lyricify Mobile membantu Anda mencari lirik {0:N0} kali tahun ini</system:String>
+    <system:String x:Key="String.Wrapped.Messages.030">Anda pasti penggemar besar Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.031">Ngomong-ngomong</system:String>
+    <system:String x:Key="String.Wrapped.Messages.032">Lyricify Mobile tersedia bagi Anda untuk melihat lirik di ponsel atau tablet Anda!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.033">Anda melihat {0:N0} lirik</system:String>
+    <system:String x:Key="String.Wrapped.Messages.034">Tapi ini menguasai Lyricify Anda</system:String>
+    <system:String x:Key="String.Wrapped.Messages.035">{0:N0} kali</system:String>
+    <system:String x:Key="String.Wrapped.Messages.036">Layanan lirik Lyricify dibangun oleh semua pengguna Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.037">Menandai dan Mengunggah lirik adalah dua cara utama untuk membangun vault lirik</system:String>
+    <system:String x:Key="String.Wrapped.Messages.038">Tahun ini</system:String>
+    <system:String x:Key="String.Wrapped.Messages.039">Anda telah menandai {0:N0} lirik</system:String>
+    <system:String x:Key="String.Wrapped.Messages.040">Anda telah mengunggah {0:N0} kali di Manajemen Lagu Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.041">Anda telah mengimpor {0:N0} lagu ke Lyricify Lyrics Vault</system:String>
+    <system:String x:Key="String.Wrapped.Messages.042">Lebih dari {0} pengguna</system:String>
+    <system:String x:Key="String.Wrapped.Messages.043">Terima kasih atas kontribusi Anda</system:String>
+    <system:String x:Key="String.Wrapped.Messages.044">Bagaimanapun</system:String>
+    <system:String x:Key="String.Wrapped.Messages.045">Tahun yang luar biasa</system:String>
+    <system:String x:Key="String.Wrapped.Messages.046">Anda yang luar biasa</system:String>
+    <system:String x:Key="String.Wrapped.Messages.047">Telah menjadi kehormatan bagi Lyricify untuk menghabiskan tahun luar biasa ini bersama Anda</system:String>
+    <system:String x:Key="String.Wrapped.Messages.048">Lirik adalah segalanya</system:String>
+    <system:String x:Key="String.Wrapped.Messages.049">Lyricify selalu ada untuk Anda</system:String>
+    <system:String x:Key="String.Wrapped.Messages.050">Nikmati saja!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.051">Lyricify telah bersama Anda lebih dari satu tahun</system:String>
+    <system:String x:Key="String.Wrapped.Messages.052">Dukungan Anda telah membentuk Lyricify menjadi sesuatu yang luar biasa!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.053">Anda paling sering memulai Lyricify antara {0} tahun ini</system:String>
+    <system:String x:Key="String.Wrapped.Messages.054">Menakjubkan!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.055">Hari TOP Anda adalah pada {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.056">Tahukah Anda mengapa?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.057">Tahun lain telah berlalu</system:String>
+    <system:String x:Key="String.Wrapped.Messages.058">Tahun demi tahun</system:String>
+    <system:String x:Key="String.Wrapped.Messages.059">Hanya ingat</system:String>
+    <system:String x:Key="String.Wrapped.Messages.060">Semoga yang terbaik untuk Anda</system:String>
+    <system:String x:Key="String.Wrapped.Messages.061">Berharap untuk kontribusi Anda tahun depan</system:String>
+
+    <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">Total Tampilan Lirik</system:String>
+    <system:String x:Key="String.Wrapped.Report.Launches">Akses</system:String>
+    <system:String x:Key="String.Wrapped.Report.Marks">Tanda</system:String>
+    <system:String x:Key="String.Wrapped.Report.Uploads">Unggahan</system:String>
+    <system:String x:Key="String.Wrapped.Report.Imports">Impor</system:String>
+    <system:String x:Key="String.Wrapped.Report.TracksCount">Jumlah Lagu</system:String>
+    <system:String x:Key="String.Wrapped.Report.MobileViews">Tampilan Mobile</system:String>
+    <system:String x:Key="String.Wrapped.Report.TrackOfTheYear">Lagu Tahun Ini</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor">Sponsor</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor.True">YA</system:String>
+    <system:String x:Key="String.Wrapped.Report.LyricifyIndex">Indeks Lyricify</system:String>
+</ResourceDictionary>
