@@ -490,6 +490,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS170AndLater">iOS 17.0 and later</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS171AndLater">iOS 17.1 and later</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS260AndLater">iOS 26.0 and later</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Android.New">Android (New)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Android.Old">Android (Old)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth">Transition width</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">Opacity transition width</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">Inline animation</system:String>
@@ -794,6 +796,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow">Follow</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.NeteaseCloudMusic">Netease Cloud Music</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Bilibili">Bilibili</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Rednote">rednote</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.OneRepublic">OneRepublic</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp">Get help</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.TelegramGroup">Telegram Group</system:String>
@@ -1503,12 +1506,14 @@
     <system:String x:Key="String.Wrapped.Title">Lyricify Wrapped</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2023">All about you, me and 2023</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2024">2024, lyrics, you, and me</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2025">2025 in lyrics, with you and me</system:String>
     <system:String x:Key="String.Wrapped.Unwrap">Unwrap</system:String>
     <system:String x:Key="String.Wrapped.Unwrap.Notice">Unwrap means you agree with Lyricify's user agreements and allow Lyricify to process and analyze your app usage.</system:String>
     <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>>Accelerate</system:String>
     <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">Unwrap now</system:String>
     <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify has wrapped all your stories with Lyricify in 2023, go unwrap it now!</system:String>
     <system:String x:Key="String.Wrapped.Notice.Message2024">Lyricify has captured every lyrical moment of your 2024, unwrap it now!</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2025">Your 2025 with Lyricify is ready. Unwrap your lyrical journey now!</system:String>
     <system:String x:Key="String.Wrapped.Notice.CloseReminder">Lyricify Wrapped can be found in the main menu and user widget menu, so you can unwrap it later.</system:String>
 
     <system:String x:Key="String.Wrapped.Messages.001">Hey, {0}</system:String>
@@ -1583,6 +1588,19 @@
     <system:String x:Key="String.Wrapped.Messages.059">Just remember</system:String>
     <system:String x:Key="String.Wrapped.Messages.060">Wishing you all the best</system:String>
     <system:String x:Key="String.Wrapped.Messages.061">Looking forward to your contributions next year</system:String>
+    <system:String x:Key="String.Wrapped.Messages.062">Your Lyricify journey this year deserves to be remembered</system:String>
+    <system:String x:Key="String.Wrapped.Messages.063">It's me, Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.064" xml:space="preserve">Lyricify is what it is today&#x0a;because of you</system:String>
+    <system:String x:Key="String.Wrapped.Messages.065">Interesting!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.066">This is your peak Lyricify moment!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.067">{0}, special day</system:String>
+    <system:String x:Key="String.Wrapped.Messages.068">Another year comes to a close</system:String>
+    <system:String x:Key="String.Wrapped.Messages.069">Lyricify is grateful to have shared it with you</system:String>
+    <system:String x:Key="String.Wrapped.Messages.070">Every song, every moment</system:String>
+    <system:String x:Key="String.Wrapped.Messages.071">Year after year, together</system:String>
+    <system:String x:Key="String.Wrapped.Messages.072">Keep these moments close</system:String>
+    <system:String x:Key="String.Wrapped.Messages.073">Lyricify will always be by your side</system:String>
+    <system:String x:Key="String.Wrapped.Messages.074">Here’s to an amazing year ahead</system:String>
 
     <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">Total Lyrics Views</system:String>
     <system:String x:Key="String.Wrapped.Report.Launches">Launches</system:String>
