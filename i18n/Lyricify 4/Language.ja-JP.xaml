@@ -1,4 +1,4 @@
-﻿<ResourceDictionary
+<ResourceDictionary
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
@@ -490,6 +490,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS170AndLater">iOS 17.0 以降</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS171AndLater">iOS 17.1 以降</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS260AndLater">iOS 26.0 以降</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Android.New">Android（新）</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Android.Old">Android（旧）</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth">トランジション幅</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">不透明度のトランジション幅</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">インライン・アニメーション</system:String>
@@ -794,6 +796,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow">フォロー</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.NeteaseCloudMusic">Netease Cloud Music</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Bilibili">Bilibili</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Rednote">小红书</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.OneRepublic">OneRepublic</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp">助けを得ます</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.TelegramGroup">Telegram グループ</system:String>
@@ -1190,10 +1193,10 @@
     <system:String x:Key="String.Window.TrackManagement.Button.EditRawFile">元のファイルを編集する</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">保存せずに閉じますか？</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.FinishDuetView">デュエット ビューの設定を終了してください (「デュエット ビュー」 タイトルをダブルクリックすると、デュエット ビューの設定をクリアできます)</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Notice.CheckTitleLines" xml:space="preserve">Please check the title lines defination, it looks like you've marked all lines as title lines. (Double click "IsTitle" title can reset title lines defination)&#x000A;Do you want to cancel the upload?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.CheckTitleLines" xml:space="preserve">タイトル行の設定を確認してください。すべての行がタイトル行としてマークされているようです。（「タイトルだ」タイトルをダブルクリックするとタイトル行の設定をリセットできます）&#x000A;アップロードをキャンセルしますか？</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Timestamp">タイムスタンプ</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Lyrics">歌詞</system:String>
-    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle">これはタイトル</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle">タイトルだ</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle.ToolTip">タイトル行に含まれるもの: タイトル、クレジット情報、すべての歌詞以外の行</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView">デュエット ビュー</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView.ToolTip">「デュエット ビュー」タイトルをダブルクリックすると、デュエット ビューの設定をクリアできます</system:String>
@@ -1503,16 +1506,18 @@
     <system:String x:Key="String.Wrapped.Title">Lyricify Wrapped</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2023">あなたと私、そして2023年について</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2024">2024、歌詞、あなた、と私</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2025">2025 を歌詞に、君と僕で</system:String>
     <system:String x:Key="String.Wrapped.Unwrap">開こう</system:String>
     <system:String x:Key="String.Wrapped.Unwrap.Notice">「開こう」を選択すると、Lyricify の利用規約に同意し、Lyricify がアプリの利用状況を処理および分析することを許可したことになります。</system:String>
     <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>>加速する</system:String>
     <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">今すぐ開く</system:String>
     <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify は 2023 年にあなたのすべてのストーリーを Lyricify で包み込みました。今すぐ開封しよう。</system:String>
     <system:String x:Key="String.Wrapped.Notice.Message2024">Lyricify は、あなたの2024年をカラフルな楽曲になりました。今すぐ、あなたの年間歌詞の思い出を開きましょう！</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2025">Lyricify と共に過ごした2025年が準備完了！今すぐ歌詞の旅を開こう！</system:String>
     <system:String x:Key="String.Wrapped.Notice.CloseReminder">Lyricify Wrapped はメインメニューとユーザーウィジェットメニューに表示されていますので、後で開くことができます。</system:String>
 
-    <system:String x:Key="String.Wrapped.Messages.001">こんにちは、{0}</system:String>
-    <system:String x:Key="String.Wrapped.Messages.002">こちら Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.001">おはよう、{0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.002">こちら Lyricify だよ</system:String>
     <system:String x:Key="String.Wrapped.Messages.003">まだ覚えていますか</system:String>
     <system:String x:Key="String.Wrapped.Messages.004" xml:space="preserve">私たちは初めて&#x0a; {0} で出会いました</system:String>
     <system:String x:Key="String.Wrapped.Messages.005">{0:N0} 日渡しました</system:String>
@@ -1583,8 +1588,21 @@
     <system:String x:Key="String.Wrapped.Messages.059">忘れないで下さい</system:String>
     <system:String x:Key="String.Wrapped.Messages.060">貴方の今後のご多幸を心よりお祈り申し上げます</system:String>
     <system:String x:Key="String.Wrapped.Messages.061">来年の皆様のご貢献を心よりお待ちしております</system:String>
+    <system:String x:Key="String.Wrapped.Messages.062">今年 Lyricify との旅は、記憶に留める価値があるんでしょう</system:String>
+    <system:String x:Key="String.Wrapped.Messages.063">わたしだよ、Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.064" xml:space="preserve">Lyricify が今日あるのは&#x0a;あなたのおかげだ</system:String>
+    <system:String x:Key="String.Wrapped.Messages.065">おもしろいですね！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.066">これがあなたの最高のLyricify瞬間だ！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.067">{0}、特別な日</system:String>
+    <system:String x:Key="String.Wrapped.Messages.068">また一年が終わろうとしている</system:String>
+    <system:String x:Key="String.Wrapped.Messages.069">Lyricify はあなたと共有できて、ありがとうございました</system:String>
+    <system:String x:Key="String.Wrapped.Messages.070">すべての歌、すべての瞬間</system:String>
+    <system:String x:Key="String.Wrapped.Messages.071">年々、ずっと一緒に</system:String>
+    <system:String x:Key="String.Wrapped.Messages.072">これらの瞬間を大切にしよう</system:String>
+    <system:String x:Key="String.Wrapped.Messages.073">Lyricify はいつもあなたのそばにいる</system:String>
+    <system:String x:Key="String.Wrapped.Messages.074">素晴らしい一年になりますように</system:String>
 
-    <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">総歌詞閲覧数</system:String>
+    <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">歌詞の合計閲覧数</system:String>
     <system:String x:Key="String.Wrapped.Report.Launches">起動回数</system:String>
     <system:String x:Key="String.Wrapped.Report.Marks">マーク回数</system:String>
     <system:String x:Key="String.Wrapped.Report.Uploads">アップロード回数</system:String>
