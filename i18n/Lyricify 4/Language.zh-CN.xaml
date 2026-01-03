@@ -490,6 +490,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS170AndLater">iOS 17.0 及更高版本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS171AndLater">iOS 17.1 及更高版本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS260AndLater">iOS 26.0 及更高版本</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Android.New">Android (新)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Android.Old">Android (旧)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth">过渡宽度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">透明度过渡宽度</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">行内动画</system:String>
@@ -794,6 +796,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow">关注</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.NeteaseCloudMusic">网易云音乐</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Bilibili">哔哩哔哩</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Rednote">小红书</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.OneRepublic">一体共和 (OneRepublic)</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp">获取帮助</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.TelegramGroup">Telegram 群组</system:String>
@@ -1503,12 +1506,14 @@
     <system:String x:Key="String.Wrapped.Title">Lyricify 年度报告</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2023">关于你与我在 2023 的一切</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2024">2024，歌词，你，还有我</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2025">2025 年的歌词，与你和我同行</system:String>
     <system:String x:Key="String.Wrapped.Unwrap">开启</system:String>
     <system:String x:Key="String.Wrapped.Unwrap.Notice">开启即说明您接受 Lyricify 用户协议，并允许 Lyricify 处理和分析你的使用数据。</system:String>
     <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>>加速动画</system:String>
     <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">立即查收</system:String>
     <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify 将你与 Lyricify 在 2023 年发生的故事打包好啦，快来看看吧！</system:String>
     <system:String x:Key="String.Wrapped.Notice.Message2024">Lyricify 已为你的 2024 年谱写了动人的乐章，快来解锁你的年度歌词回忆吧！</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2025">你的 2025 年 Lyricify 年度回顾已准备就绪，立即开启你的歌词之旅！</system:String>
     <system:String x:Key="String.Wrapped.Notice.CloseReminder">Lyricify 年度报告可以在主菜单和用户组件菜单中找到，你可以稍后再查看。</system:String>
 
     <system:String x:Key="String.Wrapped.Messages.001">嘿，{0}</system:String>
@@ -1583,6 +1588,19 @@
     <system:String x:Key="String.Wrapped.Messages.059">请记住</system:String>
     <system:String x:Key="String.Wrapped.Messages.060">愿一切顺遂如意</system:String>
     <system:String x:Key="String.Wrapped.Messages.061">期待来年见证你的卓越贡献</system:String>
+    <system:String x:Key="String.Wrapped.Messages.062">你今年的 Lyricify 之旅，值得被回忆</system:String>
+    <system:String x:Key="String.Wrapped.Messages.063">是我，Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.064" xml:space="preserve">正因为有你的支持&#x0a;才有了今天的 Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.065">有点意思！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.066">这是你 Lyricify 浓度最高的时刻！</system:String>
+    <system:String x:Key="String.Wrapped.Messages.067">{0}，特别的一天</system:String>
+    <system:String x:Key="String.Wrapped.Messages.068">又一年即将结束</system:String>
+    <system:String x:Key="String.Wrapped.Messages.069">Lyricify 感谢有机会与你共享这一年</system:String>
+    <system:String x:Key="String.Wrapped.Messages.070">每一首歌，每一个瞬间</system:String>
+    <system:String x:Key="String.Wrapped.Messages.071">年复一年，一同前行</system:String>
+    <system:String x:Key="String.Wrapped.Messages.072">请珍藏这些美好时刻</system:String>
+    <system:String x:Key="String.Wrapped.Messages.073">Lyricify 永远陪伴在你身边</system:String>
+    <system:String x:Key="String.Wrapped.Messages.074">祝你新的一年精彩纷呈</system:String>
 
     <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">歌词浏览总数</system:String>
     <system:String x:Key="String.Wrapped.Report.Launches">启动次数</system:String>
