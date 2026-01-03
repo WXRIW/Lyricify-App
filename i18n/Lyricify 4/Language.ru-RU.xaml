@@ -546,6 +546,8 @@
     <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit.Description">Масштабирование содержимого под экран</system:String>
     <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution">Аналоговое низкое разрешение</system:String>
     <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution.Description">Имитация отображения экрана с низким разрешением</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution">Эмулировать низкое разрешение</system:String>
+        <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution.Description">Эмулировать эффект отображения экрана с низким разрешением</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Режим Byland</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Byland или Island, решать вам! Разные стили имеют разные функции</system:String>
@@ -794,6 +796,7 @@
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow">Подписаться</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.NeteaseCloudMusic">Netease Music</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Bilibili">bilibili</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Rednote">rednote</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.OneRepublic">OneRepublic</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp">Получить справку</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.TelegramGroup">Канал Телеграмм</system:String>
@@ -1503,12 +1506,14 @@
     <system:String x:Key="String.Wrapped.Title">Годовой отчет Lyricify</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2023">Все о нас с вами в 2023</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2024">2024, я с текстами, и с вами</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2025">Тексты песни 2025, я с тобой</system:String>
     <system:String x:Key="String.Wrapped.Unwrap">Давай</system:String>
     <system:String x:Key="String.Wrapped.Unwrap.Notice">Включив его, вы принимаете Пользовательское соглашение Lyricify и разрешаете Lyricify обрабатывать и анализировать данные о вашем использовании.</system:String>
     <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>>Ускоряйтесь</system:String>
     <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">Развернуть сейчас</system:String>
     <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify обернула все ваши истории с помощью Lyricify в 2023 году, разверните их прямо сейчас!</system:String>
     <system:String x:Key="String.Wrapped.Notice.Message2024">Lyricify написал песню 2024 года вместе с вами. Давайте посмотрим на вашу ежегодную мемуары!</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2025">Ваш 2025 г. с Lyricify готов. Начните свое лирическое путешествие прямо сейчас!</system:String>
     <system:String x:Key="String.Wrapped.Notice.CloseReminder">Lyricify Wrapped можно найти в главном меню и меню пользовательских виджетов, поэтому вы можете развернуть его позже.</system:String>
 
     <system:String x:Key="String.Wrapped.Messages.001">Привет, {0}</system:String>
@@ -1576,13 +1581,26 @@
     <system:String x:Key="String.Wrapped.Messages.052">Это ваша поддержка делает Lyricify более превосходным.</system:String>
     <system:String x:Key="String.Wrapped.Messages.053">Вы в основном открывали Lyricify в {0}.</system:String>
     <system:String x:Key="String.Wrapped.Messages.054">Боже, так amazing!</system:String>
-    <system:String x:Key="String.Wrapped.Messages.055">Ваша самая «Top» дата - это {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.055">Ваша самая топ дата - это {0}</system:String>
     <system:String x:Key="String.Wrapped.Messages.056">Знаете, почему?</system:String>
     <system:String x:Key="String.Wrapped.Messages.057">Прошел еще один год,</system:String>
     <system:String x:Key="String.Wrapped.Messages.058">Год за годом.</system:String>
     <system:String x:Key="String.Wrapped.Messages.059">Помни,</system:String>
     <system:String x:Key="String.Wrapped.Messages.060">Надеюсь, все пройдет хорошо.</system:String>
     <system:String x:Key="String.Wrapped.Messages.061">Мы с нетерпением ждем вашего выдающегося вклада в предстоящем году.</system:String>
+    <system:String x:Key="String.Wrapped.Messages.062">Ваше путешествие с Lyricify в этом году стоит запомнить.</system:String>
+    <system:String x:Key="String.Wrapped.Messages.063">Это я, Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.064" xml:space="preserve">Благодаря вашей поддержке&#x0a;Lyricify добился таких успехов</system:String>
+    <system:String x:Key="String.Wrapped.Messages.065">Интересно!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.066">Это время, которое вы провели, наслаждаясь Lyricify больше всего!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.067">{0}, особый день.</system:String>
+    <system:String x:Key="String.Wrapped.Messages.068">Еще один год подходит к концу.</system:String>
+    <system:String x:Key="String.Wrapped.Messages.069">Lyricify благодарит вас за возможность поделиться с вами этим годом.</system:String>
+    <system:String x:Key="String.Wrapped.Messages.070">Каждая песня, каждый момент,</system:String>
+    <system:String x:Key="String.Wrapped.Messages.071">год за годом, мы путешествуем вместе.</system:String>
+    <system:String x:Key="String.Wrapped.Messages.072">Пожалуйста, цените эти драгоценные моменты.</system:String>
+    <system:String x:Key="String.Wrapped.Messages.073">Lyricify будет всегда с тобой.</system:String>
+    <system:String x:Key="String.Wrapped.Messages.074">Желаю вам прекрасного нового года.</system:String>
 
     <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">Количество просмотров тексты</system:String>
     <system:String x:Key="String.Wrapped.Report.Launches">Количество стартов</system:String>
