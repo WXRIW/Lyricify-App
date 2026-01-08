@@ -47,7 +47,8 @@ https://t.me/lyricifyreleases
 [点击加入群聊【Lyricify 用户群 4】](https://qm.qq.com/q/ejJ0huLLsQ)（群号：630964785）（已满）  
 [点击加入群聊【Lyricify 用户群 5】](https://qm.qq.com/q/wGe070e4rS)（群号：561373781）（已满）  
 [点击加入群聊【Lyricify 用户群 6】](https://qm.qq.com/q/TEj2v8gvK2)（群号：636998823）（已满）  
-[点击加入群聊【Lyricify 用户群 7】](https://qm.qq.com/q/DcxXikjjcA)（群号：748154703）  
+[点击加入群聊【Lyricify 用户群 7】](https://qm.qq.com/q/DcxXikjjcA)（群号：748154703）（已满）  
+[点击加入群聊【Lyricify 用户群 8】](https://qm.qq.com/q/QfdlJk8keI)（群号：452502909）  
 
 ## Lyricify Open Source / Lyricify 开源
 Lyricify 的歌词处理相关代码均已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中使用 Apache License 2.0 协议开源，希望能为开源社区做出贡献。  
@@ -63,9 +64,9 @@ Lyricify 系列的未来开发计划。
 
 | 软件 | 备注 | 平台 | 预计开发时间 |
 | :-: | :-: | :-: | :-: |
-| Lyricify Mobile Lite | 适用于所有接入了 Media Session 的 app | Android | 2025 年 - 2027 年 |
+| Lyricify Mobile Lite | 适用于所有接入了 Media Session 的 app | Android | 2026 年 - 2027 年 |
 | Lyricify Mobile 2 | 适用于 Spotify 和 Apple Music 用户 | iOS, iPadOS, macOS | 2026 年 - 2028 年 |
-| Lyricify Lyrics Creator | 综合性歌词制作工具 | Windows | 2025 年 - 2028 年 |
+| Lyricify Lyrics Creator / Lyricify Lyrics Suite | 综合性歌词制作工具 | Windows | 2026 年 - 2028 年 |
 
 ## Lyricify 4
 <h3>More than lyrics 不仅有歌词</h3>  
