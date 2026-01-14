@@ -544,10 +544,8 @@
     <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.ArtworkMainColor">Основной цвет задней обложки</system:String>
     <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit">Адаптация масштаба</system:String>
     <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit.Description">Масштабирование содержимого под экран</system:String>
-    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution">Аналоговое низкое разрешение</system:String>
-    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution.Description">Имитация отображения экрана с низким разрешением</system:String>
     <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution">Эмулировать низкое разрешение</system:String>
-        <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution.Description">Эмулировать эффект отображения экрана с низким разрешением</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution.Description">Эмулировать эффект отображения экрана с низким разрешением</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Режим Byland</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Byland или Island, решать вам! Разные стили имеют разные функции</system:String>

@@ -5,6 +5,10 @@
     <system:String x:Key="String.NotifyIcon.Menu.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.DesktopLyrics">Desktop Lyrics</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.DesktopLyrics.UnlockDesktopLyrics">Unlock Desktop Lyrics</system:String>
+    <system:String x:Key="String.NotifyIcon.Menu.LyricifyFullscreenLyrics">Lyricify Fullscreen Lyrics</system:String>
+    <system:String x:Key="String.NotifyIcon.Menu.SpotifyMobileUILyrics">Spotify Mobile UI Lyrics</system:String>
+    <system:String x:Key="String.NotifyIcon.Menu.WindowsUpdateLyrics">Windows Update Lyrics</system:String>
+    <system:String x:Key="String.NotifyIcon.Menu.WindowsBlueScreenLyrics">Windows Blue Screen Lyrics</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.RefreshLyrics">Refresh Lyrics</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.RefreshSession">Refresh Session</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.Settings">Settings</system:String>
@@ -14,6 +18,7 @@
     <system:String x:Key="String.NotifyIcon.Menu.About.Follow">Follow</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.About.Follow.NeteaseCloudMusic">Netease Cloud Music</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.About.Follow.Bilibili">Bilibili</system:String>
+    <system:String x:Key="String.NotifyIcon.Menu.About.Follow.Rednote">rednote</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.About.Follow.OneRepublic">OneRepublic</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.About.GetHelp">Get help</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.About.GetHelp.TelegramGroup">Telegram Group</system:String>
@@ -25,7 +30,7 @@
     <system:String x:Key="String.NotifyIcon.Menu.About.GetNewReleases.LanzousCloud">Lanzous Cloud</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.Restart">Restart</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.Exit">Exit</system:String>
-    
+
     <system:String x:Key="String.Settings.General">General</system:String>
     <system:String x:Key="String.Settings.General.Language">Language</system:String>
     <system:String x:Key="String.Settings.General.Language.Description">Choose the display language of Lyricify (Some changes might need an app restart to be applied)</system:String>
@@ -76,8 +81,15 @@
     <system:String x:Key="String.Settings.PerApp.LyricsSources.Items.MoveDown">Move down</system:String>
     <system:String x:Key="String.Settings.PerApp.EnableLyrics">Enable lyrics</system:String>
     <system:String x:Key="String.Settings.PerApp.EnableLyrics.Description">Enable lyrics for this app, otherwise only track information is displayed</system:String>
+    <system:String x:Key="String.Settings.PerApp.Advanced">Advanced</system:String>
+    <system:String x:Key="String.Settings.PerApp.UseInternalTimer">Use internal timer</system:String>
+    <system:String x:Key="String.Settings.PerApp.UseInternalTimer.Description">Some apps pass abnormal timelines. Turning on this option will block the timeline passed by the app and force the built-in timer to be enabled.</system:String>
+    <system:String x:Key="String.Settings.PerApp.AppleMusicTimelineStabilizer">Apple Music timeline stabilizer</system:String>
+    <system:String x:Key="String.Settings.PerApp.AppleMusicTimelineStabilizer.Description">Solve Apple Music's timeline accuracy issues with the advanced algorithms of Lyricify Intelligent Engine.</system:String>
     <system:String x:Key="String.Settings.PerApp.Button.Modify">Modify</system:String>
-    <system:String x:Key="String.Settings.PerApp.Button.Restore">Restore to default</system:String>
+    <system:String x:Key="String.Settings.PerApp.Button.Restore">Restore</system:String>
+    <system:String x:Key="String.Settings.PerApp.Button.RestoreToDefault">Restore to default</system:String>
+    <system:String x:Key="String.Settings.PerApp.Button.RestoreLyricsSources">Restore lyrics sources</system:String>
     <system:String x:Key="String.Settings.PerApp.Button.Close">Close</system:String>
     <system:String x:Key="String.Settings.PerApp.Tips.Colon">Tips:</system:String>
     <system:String x:Key="String.Settings.PerApp.Tips.LyricifyForSpotify" xml:space="preserve">Lyricify 4 is recommended to all Spotify users for the unique experience that Lyricify Lite cannot bring.&#x000A;With independent lyrics vault support, timeline optimization and many features designed specifically for Spotify, Lyricify 4 is sure to be the best match for Spotify.</system:String>
@@ -104,6 +116,14 @@
     <system:String x:Key="String.Settings.DynamicLyricsIsland.ShowArtistImage">Show artist image</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.ShowArtistImage.Description">Show artist image on the left side of the Dynamic Lyrics Island after you switch to a new song</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.Opacity">Opacity</system:String>
+    <system:String x:Key="String.Settings.DynamicLyricsIsland.Opacity.Description">Opacity of the Dynamic Lyrics Island window</system:String>
+    <system:String x:Key="String.Settings.DynamicLyricsIsland.BackgroundOpacity">Background opacity</system:String>
+    <system:String x:Key="String.Settings.DynamicLyricsIsland.BackgroundOpacity.Description">Opacity of the background color</system:String>
+    <system:String x:Key="String.Settings.DynamicLyricsIsland.Colors">Colors</system:String>
+    <system:String x:Key="String.Settings.DynamicLyricsIsland.Colors.Description">Color configuration for Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Settings.DynamicLyricsIsland.Colors.Button.Reset">Reset</system:String>
+    <system:String x:Key="String.Settings.DynamicLyricsIsland.Colors.Foreground">Foreground color</system:String>
+    <system:String x:Key="String.Settings.DynamicLyricsIsland.Colors.Background">Background color</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.Scale">Scale</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.Scale.Description">Controlling the size and scaling of the Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Settings.DynamicLyricsIsland.KaraokeMode.Animation">Enable additional animations</system:String>
@@ -186,6 +206,42 @@
     <system:String x:Key="String.Settings.DesktopLyrics.Lock.Button.Unlock">Unlock</system:String>
     <system:String x:Key="String.Settings.DesktopLyrics.Lock.HideUnlock">Hide unlock button</system:String>
     <system:String x:Key="String.Settings.DesktopLyrics.Lock.HideUnlock.Description">Hide unlock button so it won't interrupt your operation</system:String>
+    <system:String x:Key="String.Settings.AdditionalViews">Additional Views</system:String>
+    <system:String x:Key="String.Settings.AdditionalViews.FromLyricify4">Migrated from Lyricify 4</system:String>
+    <system:String x:Key="String.Settings.AdditionalViews.FromLyricify4.ToolTip" xml:space="preserve">Clear, vivid, and made for you. Every detail is crafted with care, for a pure and immersive lyrics experience. &#x000A;This lyrics view comes from Lyricify 4 — the origin of our relentless innovation.</system:String>
+    <system:String x:Key="String.Settings.LyricifyFullscreen">Lyricify Fullscreen Lyrics</system:String>
+    <system:String x:Key="String.Settings.LyricifyFullscreen.BlurLyrics">Blur lyrics</system:String>
+    <system:String x:Key="String.Settings.LyricifyFullscreen.BlurLyrics.Description">Enable blur effect on lyrics</system:String>
+    <system:String x:Key="String.Settings.LyricifyFullscreen.ColorfulLogo">Colorful logo</system:String>
+    <system:String x:Key="String.Settings.LyricifyFullscreen.ColorfulLogo.Description">Use colorful Lyricify logo instead of single color Lyricify logo</system:String>
+    <system:String x:Key="String.Settings.LyricifyFullscreen.KaraokeMode">Word-by-word mode</system:String>
+    <system:String x:Key="String.Settings.LyricifyFullscreen.KaraokeMode.Description">Display lyrics word by word</system:String>
+    <system:String x:Key="String.Settings.SpotifyMobileUI">Spotify Mobile UI Lyrics</system:String>
+    <system:String x:Key="String.Settings.WindowsLyrics">Windows Lyrics</system:String>
+    <system:String x:Key="String.Settings.WindowsUpdateLyrics">Windows Update Lyrics</system:String>
+    <system:String x:Key="String.Settings.WindowsUpdateLyrics.Style">Style</system:String>
+    <system:String x:Key="String.Settings.WindowsUpdateLyrics.Style.Description">Select the style preset you want</system:String>
+    <system:String x:Key="String.Settings.WindowsUpdateLyrics.BottomArea">Bottom aera</system:String>
+    <system:String x:Key="String.Settings.WindowsUpdateLyrics.BottomArea.Description">Select the content displayed in the bottom area</system:String>
+    <system:String x:Key="String.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.TrackInfo">Track info</system:String>
+    <system:String x:Key="String.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.WindowsTips">Windows tips</system:String>
+    <system:String x:Key="String.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.Hidden">Hidden</system:String>
+    <system:String x:Key="String.Settings.WindowsUpdateLyrics.MultipleLine">Multiple line lyrics</system:String>
+    <system:String x:Key="String.Settings.WindowsUpdateLyrics.MultipleLine.Description">Allows display of multiple lines of currently playing lyrics</system:String>
+    <system:String x:Key="String.Settings.WindowsUpdateLyrics.Language">Language</system:String>
+    <system:String x:Key="String.Settings.WindowsUpdateLyrics.Language.Description">Interface language preferences</system:String>
+    <system:String x:Key="String.Settings.WindowsUpdateLyrics.Language.ComboBox.Default">Default</system:String>
+    <system:String x:Key="String.Settings.WindowsUpdateLyrics.Language.ComboBox.Auto">Auto</system:String>
+    <system:String x:Key="String.Settings.WindowsBlueScreenLyrics">Windows Blue Screen Lyrics</system:String>
+    <system:String x:Key="String.Settings.WindowsBlueScreenLyrics.Style.ComboBox.Default">Default</system:String>
+    <system:String x:Key="String.Settings.WindowsBlueScreenLyrics.Style.ComboBox.Insider">Insider Preview</system:String>
+    <system:String x:Key="String.Settings.WindowsBlueScreenLyrics.Style.ComboBox.ArtworkMainColor">Artwork main color</system:String>
+    <system:String x:Key="String.Settings.WindowsBlueScreenLyrics.ScaleToFit">Scale to fit</system:String>
+    <system:String x:Key="String.Settings.WindowsBlueScreenLyrics.ScaleToFit.Description">Zoom the content to maximize the use of the screen</system:String>
+    <system:String x:Key="String.Settings.WindowsBlueScreenLyrics.EmulateLowResolution">Emulate low resolution</system:String>
+    <system:String x:Key="String.Settings.WindowsBlueScreenLyrics.EmulateLowResolution.Description">Emulate the display effect of a low-resolution screen</system:String>
+    <system:String x:Key="String.Settings.FullscreenMode.ScreenIndex">Screen index</system:String>
+    <system:String x:Key="String.Settings.FullscreenMode.ScreenIndex.Description">Select which screen you want to display on</system:String>
     <system:String x:Key="String.Settings.Hotkeys">Hotkeys</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Description">You can manage global hotkeys here. (Use Backspace to clear a shortcut)</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Notification">Notification</system:String>
@@ -309,7 +365,7 @@
     <system:String x:Key="String.Dialog.Store.Title.FreePromotion">More features can be unlocked!</system:String>
     <system:String x:Key="String.Dialog.Store.Explore">We invite you to explore Lyricify Lite on the Microsoft Store for an enhanced experience. Your support will greatly contribute to its continued improvement and development.</system:String>
     <system:String x:Key="String.Dialog.Store.Purchase">We encourage you to consider purchasing Lyricify Lite on the Microsoft Store. Your support will help us enhance your experience and continue to develop new features.</system:String>
-    <system:String x:Key="String.Dialog.Store.StoreExclusiveExplanation">By purchasing the Microsoft Store version, you can unlock custom fonts for Dynamic Lyrics Island and Desktop Lyrics, and many other features.</system:String>
+    <system:String x:Key="String.Dialog.Store.StoreExclusiveExplanation">By purchasing the Microsoft Store version, you can unlock custom fonts for Dynamic Lyrics Island, Desktop Lyrics and other lyrics views, Apple Music Timeline Stabilizer, plus many other features.</system:String>
     <system:String x:Key="String.Dialog.Store.Button.GoToStore">Go to Microsoft Store</system:String>
     <system:String x:Key="String.Dialog.Store.Button.Close">Close</system:String>
     <system:String x:Key="String.Dialog.Store.Donator">Already a donator?</system:String>
@@ -378,5 +434,31 @@
     <system:String x:Key="String.Windows.Debug.Lyrics.Type.NoLyricsOrNoTimeline">No lyrics or lyrics not synced</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.Type.Disabled">Lyrics has been disabled</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.Type.NoLyrics">No lyrics for this track</system:String>
+    <system:String x:Key="String.Windows.Debug.Lyrics.Image.Size">Size: {0}</system:String>
+    <system:String x:Key="String.Windows.Debug.Lyrics.Image.Copy">Copy to clipboard</system:String>
+    <system:String x:Key="String.Windows.Debug.Lyrics.Image.Save">Save to file</system:String>
+    <system:String x:Key="String.Windows.Debug.Lyrics.Image.Save.FileDialog.Filter">PNG Image|*.png|JPEG Image|*.jpg;*.jpeg|BMP Image|*.bmp</system:String>
     <system:String x:Key="String.Windows.Debug.Sessions">Session</system:String>
+
+    <system:String x:Key="String.Page.MobileUI.Title">LYRICS</system:String>
+
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.10">Working on updates</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.8">Configuring Windows updates</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.11">You are {0}% there.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.10">{0}% complete</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.11">Please keep your computer on.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.10">Don't turn off your computer</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.8">Do not turn off your computer.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.11">Your computer may restart a few times.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.10">Your PC may restart several times.</system:String>
+
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary">Your device ran into a problem and needs to restart.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary.WithTrackName">{0} ran into a problem and needs to restart.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full">Your device ran into a problem and needs to restart. We're just collecting some error info, and then we'll restart for you.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full.WithTrackName" xml:space="preserve">{0} ran into a problem and needs to restart. &#x0A;We're just collecting some error info, and then we'll restart for you.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.PercentComplete">{0}% complete</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Main">For more information about this issue and possible fixes, visit https://lyricify.app</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Call">If you call a support person, give them this info:</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.StopCode">Stop code: {0}</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Artist">Artist: {0}</system:String>
 </ResourceDictionary>

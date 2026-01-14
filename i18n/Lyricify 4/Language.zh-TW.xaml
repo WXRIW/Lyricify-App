@@ -343,6 +343,7 @@
     <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">版權所有 © {0} WXRIW 保留所有權利</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">主視窗 UI 設計, 行動版 UI 全螢幕設計, Spotify Circular 版權所有 © Spotify AB</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music 歌詞 UI 設計, SF Pro, 蘋方(簡體) 版權所有 © Apple Inc.</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Isolation">Isolation™ Inside，版權所有 © Storyteller Studios</system:String>
 
     <!--  Page Settings  -->
     <system:String x:Key="String.Page.Settings.Title">設定</system:String>
@@ -431,6 +432,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.Static">靜態</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.Dynamic">動態</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.DynamicBeating">動態 (跳動)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Palette">調色盤演算法</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Palette.Description">選擇一個取色演算法</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics">模糊歌詞</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics.Description">在歌詞上啟用模糊效果</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">模糊程度</system:String>
@@ -519,6 +522,13 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.FullscreenOnly">僅全螢幕</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple">Buggy Apple (漏洞百出的 Apple)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.Description">沒有 bug 的 Apple 不是 Apple。讓我們致敬 Bug，致敬 Apple</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.AffectedVersions" xml:space="preserve">受影響的版本：</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.BackgroundVocalsOverlap">呼吸點後背景人聲的重疊問題</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.BackgroundVocalsEnteringDirection">背景人聲進入方向問題</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.TremendousBreathingDots">超大呼吸點問題</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.BackgroundVocalTransparencySuddenChange">含背景人聲的歌詞行的透明度突變問題</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.ChineseCharacterAbnormalFloating">中文歌詞異常浮動問題</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.LyricsLineTransparencySuddenChange">歌詞行透明度突變問題</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">啟用傳統版本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">在主選單中新增 Apple Music 歌詞 (傳統) 入口</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Lyricify 全螢幕</system:String>
@@ -571,6 +581,14 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage">顯示藝人圖片</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">當你切換到新的曲目後，在靈動詞島左側顯示藝人圖片</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">不透明度</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity.Description">靈動詞島嶼視窗的不透明度</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BackgroundOpacity">背景不透明度</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BackgroundOpacity.Description">背景顏色的不透明度</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors">顏色</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors.Description">靈動詞島嶼的顏色配置</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors.Button.Reset">重設</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors.Foreground">​​前景色</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors.Background">​​背景色</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale">縮放比例</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale.Description">控制靈動詞島嶼的尺寸和縮放</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">桌面歌詞</system:String>
@@ -1504,6 +1522,7 @@
 
     <!--  Wrapped Year  -->
     <system:String x:Key="String.Wrapped.Title">Lyricify 年度報告</system:String>
+    <system:String x:Key="String.Wrapped.Title.Short">年度報告</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2023">關於你與我在 2023 的一切</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2024">2024，歌詞，你，還有我</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2025">2025 年的歌詞，與你和我同行</system:String>

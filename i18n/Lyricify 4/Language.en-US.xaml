@@ -343,6 +343,7 @@
     <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">Copyright © {0} WXRIW, All Rights Reserved</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Main Window UI Design, Mobile UI Fullscreen Design, Spotify Circular Copyright © Spotify AB</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music Lyrics UI Design, SF Pro, PingFang SC Copyright © Apple Inc.</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Isolation">Isolation™ Inside, Copyright © Storyteller Studios</system:String>
 
     <!--  Page Settings  -->
     <system:String x:Key="String.Page.Settings.Title">Settings</system:String>
@@ -431,6 +432,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.Static">Static</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.Dynamic">Dynamic</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.DynamicBeating">Dynamic (Beating)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Palette">Palette algorithm</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Palette.Description">Select a color picking algorithm</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics">Blur lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics.Description">Enable blur effect on lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">Blur level</system:String>
@@ -519,6 +522,13 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.FullscreenOnly">Fullscreen only</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple">Buggy Apple</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.Description">Apple without bugs is no longer Apple</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.AffectedVersions" xml:space="preserve">Affected versions: </system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.BackgroundVocalsOverlap">Overlapping of background vocals after breathing dots</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.BackgroundVocalsEnteringDirection">Background vocals entry direction issue</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.TremendousBreathingDots">Tremendous breathing dots issue</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.BackgroundVocalTransparencySuddenChange">Issues of sudden changes in transparency of lyrics lines containing background vocals</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.ChineseCharacterAbnormalFloating">Issues of abnormal floating of Chinese lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.LyricsLineTransparencySuddenChange">Issues of sudden changes in transparency of lyrics lines</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">Enable traditional version</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">Add entry to Apple Music Lyrics (Traditional) in main menu</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Lyricify Fullscreen</system:String>
@@ -571,6 +581,14 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage">Show artist image</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">Show artist image on the left side of the Dynamic Lyrics Island after you switch to a new song</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">Opacity</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity.Description">Opacity of the Dynamic Lyrics Island window</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BackgroundOpacity">Background opacity</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BackgroundOpacity.Description">Opacity of the background color</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors">Colors</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors.Description">Color configuration for Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors.Button.Reset">Reset</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors.Foreground">Foreground color</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors.Background">Background color</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale">Scale</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale.Description">Controlling the size and scaling of the Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">Desktop Lyrics</system:String>
@@ -1504,6 +1522,7 @@
 
     <!--  Wrapped Year  -->
     <system:String x:Key="String.Wrapped.Title">Lyricify Wrapped</system:String>
+    <system:String x:Key="String.Wrapped.Title.Short">Wrapped</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2023">All about you, me and 2023</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2024">2024, lyrics, you, and me</system:String>
     <system:String x:Key="String.Wrapped.Subtitle.2025">2025 in lyrics, with you and me</system:String>
