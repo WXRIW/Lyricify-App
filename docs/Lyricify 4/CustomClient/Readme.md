@@ -5,6 +5,10 @@
 
 </div>
 
+> ⚠️ **Note:**  
+> Spotify has recently suspended the Create app application channel, so you may not be able to create an app normally. Please wait for Spotify to resume the application process.  
+> For any questions or feedback, please join the [Telegram group](https://t.me/lyricify).
+
 ## Benefits from customising Spotify API Client
 Spotify API won't affect you by returning 429 Error anymore.
 

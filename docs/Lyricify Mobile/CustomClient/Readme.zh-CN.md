@@ -4,6 +4,10 @@
 
 </div>
 
+> ⚠️ **注意：**  
+> 万恶的 Spotify 近期停用了 Create app 申请通道，可能无法正常创建 app，请等待 Spotify 官方恢复申请。  
+> 如有任何问题或反馈可加 [QQ 群](https://qm.qq.com/q/QfdlJk8keI)或 [Telegram 群组](https://t.me/lyricify)。
+
 ## 自定义 Spotify API Client 的好处
 不再会因 Spotify API 返回 429 错误而影响 Lyricify 使用体验。
 
