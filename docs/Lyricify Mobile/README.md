@@ -34,11 +34,10 @@ Lyricify Mobile for Windows 下载 `.Windows.zip` 后，解压后运行 `Lyricif
 
 ## 登录时提示 INVALID_CLIENT: Invalid Redirect URI
 检查你的 Redirect URI 是否正确填写。确保[教程](CustomClient/Readme.zh-CN.md)中的两条 Redirect URI 均已正确填写。  
-请确保你使用的是 1.5.0 或更新版本的 Lyricify Mobile，且使用的是 `跳转浏览器登录`。由于 Spotify 的调整，`内嵌网页登录` 暂时无法使用，下一版本更新后将恢复。  
-特别的，macOS 版本的登录需参考[在 Mac 设备上完成登录](#在-mac-设备上完成登录)。
+请确保你使用的是 1.5.0 或更新版本的 Lyricify Mobile，且使用的是 `跳转浏览器登录`。由于 Spotify 的调整，`内嵌网页登录` 仅在 1.5.1 或更新版本的 Lyricify Mobile 上支持。
 
 ## 在 Mac 设备上完成登录
-Lyricify Mobile for macOS (1.5.0 或更早版本) 仅支持 `内嵌网页登录`，但由于 Spotify 的调整，`内嵌网页登录` 暂时无法使用，故目前需借助其他平台完成登录。下一版本更新后将恢复 `内嵌网页登录` 功能。  
+Lyricify Mobile for macOS 仅支持 `内嵌网页登录`，如果你在直接登录的过程中遇到问题，可尝试借助其他平台的设备辅助完成登录。  
 目前可借助其他平台的设备通过以下方法完成授权。
 
 ### 借助 Windows 设备
