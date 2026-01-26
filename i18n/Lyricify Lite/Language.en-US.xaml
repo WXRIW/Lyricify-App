@@ -5,6 +5,7 @@
     <system:String x:Key="String.NotifyIcon.Menu.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.DesktopLyrics">Desktop Lyrics</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.DesktopLyrics.UnlockDesktopLyrics">Unlock Desktop Lyrics</system:String>
+    <system:String x:Key="String.NotifyIcon.Menu.TaskbarLyrics">Taskbar Lyrics</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.LyricifyFullscreenLyrics">Lyricify Fullscreen Lyrics</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.SpotifyMobileUILyrics">Spotify Mobile UI Lyrics</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.WindowsUpdateLyrics">Windows Update Lyrics</system:String>
@@ -206,6 +207,37 @@
     <system:String x:Key="String.Settings.DesktopLyrics.Lock.Button.Unlock">Unlock</system:String>
     <system:String x:Key="String.Settings.DesktopLyrics.Lock.HideUnlock">Hide unlock button</system:String>
     <system:String x:Key="String.Settings.DesktopLyrics.Lock.HideUnlock.Description">Hide unlock button so it won't interrupt your operation</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics">Taskbar Lyrics</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.TaskbarEmbedding">Embed into Taskbar</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.TaskbarEmbedding.Help" xml:space="preserve">Enabling “Embed into Taskbar” can improve the overall user experience, but in some cases it may cause missing taskbar functionality, instability, or even crashes.&#x0A;When this option is disabled, the taskbar lyrics window will appear as a floating overlay above the taskbar, providing greater stability, though the user experience may be reduced in certain scenarios.</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.TaskbarArea">Taskbar area</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.TaskbarArea.ComboBox.Left">Left</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.TaskbarArea.ComboBox.Right">Right</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.WindowAlignment">Window alignment</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ContentAlignment">Content alignment</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ArtworkAlignment">Artwork alignment</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.Alignment.ComboBox.Auto">Auto (Default)</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.Alignment.ComboBox.Left">Left</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.Alignment.ComboBox.Center">Center</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.Alignment.ComboBox.Right">Right</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.AdaptiveSize">Adaptive size</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode">Color mode</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode.Description">Choose the color theme</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode.ComboBox.FollowTaskbar">Follow taskbar (Default)</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode.ComboBox.Dark">Dark</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode.ComboBox.Light">Light</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition">Lyrics transition</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.Description">Choose the animation for lyrics transition</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.None">None</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.Fade">Fade</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveVertical">Vertical fade</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveHorizontal">Horizontal fade</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveVerticalReversed">Vertical fade (Reversed)</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveHorizontalReversed">Horizontal fade (Reversed)</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricifyLogo">Show Lyricify logo</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricifyLogo.Description">Display the Lyricify logo above the album artwork</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.CustomMargin">Custom margin</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.CustomMargin.Description">If the window needs minor position adjustments or is overlapped by other taskbar tools, you can resolve this by configuring custom margins (in pixels)</system:String>
     <system:String x:Key="String.Settings.AdditionalViews">Additional Views</system:String>
     <system:String x:Key="String.Settings.AdditionalViews.FromLyricify4">Migrated from Lyricify 4</system:String>
     <system:String x:Key="String.Settings.AdditionalViews.FromLyricify4.ToolTip" xml:space="preserve">Clear, vivid, and made for you. Every detail is crafted with care, for a pure and immersive lyrics experience. &#x000A;This lyrics view comes from Lyricify 4 — the origin of our relentless innovation.</system:String>
@@ -248,6 +280,7 @@
     <system:String x:Key="String.Settings.Hotkeys.Notification.Description">Notification when the registration of a hotkey fails</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Hotkey.DesktopLyrics">Desktop Lyrics</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Hotkey.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Settings.Hotkeys.Hotkey.TaskbarLyrics">Taskbar Lyrics</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Hotkey.RefreshLyrics">Refresh Lyrics</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Hotkey.ResetWindow">Reset Window</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Hotkey.PlayPause">Play / Pause</system:String>

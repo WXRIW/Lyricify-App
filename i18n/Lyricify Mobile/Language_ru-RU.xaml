@@ -30,7 +30,7 @@
 
     <x:String x:Key="String.Page.About.NewVersionAvailable">Доступна новая версия</x:String>
     <x:String x:Key="String.Page.About.MadeWithHeart">Сделано с заботой ❤️ WXRIW</x:String>
-    <x:String x:Key="String.Page.About.Copyright">© 2024 WXRIW. Все права защищены</x:String>
+    <x:String x:Key="String.Page.About.Copyright">© {0} WXRIW. Все права защищены</x:String>
     <x:String x:Key="String.Page.About.UserGuide">Руководство пользователя: </x:String>
     <x:String x:Key="String.Page.About.UserGuide.Notice">Коснитесь, чтобы открыть</x:String>
     <x:String x:Key="String.Page.About.QQGroup">Группа Tencent QQ: </x:String>

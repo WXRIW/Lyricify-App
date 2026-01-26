@@ -27,10 +27,15 @@
     <x:String x:Key="String.Settings.BlurRadiusScale">Blur Radius Scale</x:String>
     <x:String x:Key="String.Settings.PullingEffect">Pulling Effect</x:String>
     <x:String x:Key="String.Settings.ExplicitLyrics">Explicit Lyrics</x:String>
+    <x:String x:Key="String.Settings.DefaultLyricsSource">Default Lyrics Source</x:String>
+    <x:String x:Key="String.Settings.LyricsSources.QQMusic">QQ Music</x:String>
+    <x:String x:Key="String.Settings.LyricsSources.Netease">Netease Cloud Music</x:String>
+    <x:String x:Key="String.Settings.LyricsSources.Kugou">Kugou Music</x:String>
+    <x:String x:Key="String.Settings.LyricsLatency">Lyrics Latency</x:String>
 
     <x:String x:Key="String.Page.About.NewVersionAvailable">New version available</x:String>
     <x:String x:Key="String.Page.About.MadeWithHeart">Made with ❤️ by WXRIW</x:String>
-    <x:String x:Key="String.Page.About.Copyright">Copyright © 2024 WXRIW</x:String>
+    <x:String x:Key="String.Page.About.Copyright">Copyright © {0} WXRIW</x:String>
     <x:String x:Key="String.Page.About.UserGuide">User Guide: </x:String>
     <x:String x:Key="String.Page.About.UserGuide.Notice">Tap to open</x:String>
     <x:String x:Key="String.Page.About.QQGroup">QQ Group: </x:String>

@@ -5,6 +5,7 @@
     <system:String x:Key="String.NotifyIcon.Menu.DynamicLyricsIsland">靈動詞島</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.DesktopLyrics">桌面歌詞</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.DesktopLyrics.UnlockDesktopLyrics">解鎖桌面歌詞</system:String>
+    <system:String x:Key="String.NotifyIcon.Menu.TaskbarLyrics">工作列歌詞</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.LyricifyFullscreenLyrics">Lyricify 全螢幕歌詞</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.SpotifyMobileUILyrics">Spotify 行動版 UI 歌詞</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.WindowsUpdateLyrics">Windows 更新歌詞</system:String>
@@ -206,6 +207,37 @@
     <system:String x:Key="String.Settings.DesktopLyrics.Lock.Button.Unlock">解除鎖定</system:String>
     <system:String x:Key="String.Settings.DesktopLyrics.Lock.HideUnlock">隱藏取消鎖定按鈕</system:String>
     <system:String x:Key="String.Settings.DesktopLyrics.Lock.HideUnlock.Description">隱藏取消鎖定按鈕，這樣它就不會打擾你的操作了</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics">工作列歌詞</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.TaskbarEmbedding">嵌入工作列</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.TaskbarEmbedding.Help" xml:space="preserve">啟用「嵌入工作列」可提升​​整體使用體驗，但在某些情況下可能會導致工作列功能缺失、不穩定，甚至發生崩潰。&#x0A;關閉該選項後，工作列歌詞視窗將以懸浮形式顯示在工作列上，可獲得更高的穩定性，但在部分使用場景下，使用體驗可能會降低。 </system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.TaskbarArea">工作列區域</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.TaskbarArea.ComboBox.Left">左側</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.TaskbarArea.ComboBox.Right">右側</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.WindowAlignment">視窗對齊</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ContentAlignment">內容對齊</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ArtworkAlignment">專輯圖片對齊</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.Alignment.ComboBox.Auto">自動 (預設)</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.Alignment.ComboBox.Left">左對齊</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.Alignment.ComboBox.Center">居中</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.Alignment.ComboBox.Right">右對齊</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.AdaptiveSize">自適應大小</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode">顏色模式</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode.Description">選擇顏色主題</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode.ComboBox.FollowTaskbar">跟隨工作列（預設）</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode.ComboBox.Dark">深色</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode.ComboBox.Light">淺色</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition">歌詞過渡</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.Description">選擇歌詞過渡動畫</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.None">無</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.Fade">漸變</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveVertical">垂直漸變</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveHorizontal">水平漸變</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveVerticalReversed">垂直漸變 (反轉)</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveHorizontalReversed">水平漸變 (反轉)</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricifyLogo">Lyricify 標誌</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LyricifyLogo.Description">在專輯圖片上方展示 Lyricify 標誌 (Logo)</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.CustomMargin">自訂邊距</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.CustomMargin.Description">當視窗位置需要微調，或與其他工作列工具產生遮蔽時，可透過自訂邊距進行調整 (單位: 像素)</system:String>
     <system:String x:Key="String.Settings.AdditionalViews">附加視圖</system:String>
     <system:String x:Key="String.Settings.AdditionalViews.FromLyricify4">遷移自 Lyricify 4</system:String>
     <system:String x:Key="String.Settings.AdditionalViews.FromLyricify4.ToolTip" xml:space="preserve">看得清，聽得真，一清二楚，打動你的心。精心打磨的每一個細節，只為帶來純粹的歌詞體驗。&#x000A;本介面承襲自 Lyricify 4 —— 我們不斷探索的創新來源。</system:String>
@@ -248,6 +280,7 @@
     <system:String x:Key="String.Settings.Hotkeys.Notification.Description">註冊快速鍵失敗時的通知</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Hotkey.DesktopLyrics">桌面歌詞</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Hotkey.DynamicLyricsIsland">靈動詞島</system:String>
+    <system:String x:Key="String.Settings.Hotkeys.Hotkey.TaskbarLyrics">工作列歌詞</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Hotkey.RefreshLyrics">重新整理歌詞</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Hotkey.ResetWindow">重設視窗</system:String>
     <system:String x:Key="String.Settings.Hotkeys.Hotkey.PlayPause">播放 / 暫停</system:String>
