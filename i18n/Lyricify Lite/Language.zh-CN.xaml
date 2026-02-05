@@ -226,6 +226,12 @@
     <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode.ComboBox.FollowTaskbar">跟随任务栏 (默认)</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode.ComboBox.Dark">深色</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode.ComboBox.Light">浅色</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.AutoHide">自动隐藏</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.AutoHide.Description">开启后，任务栏歌词将在暂停时自动隐藏</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.FontSizeScale">字号缩放</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.FontSizeScale.Description">设置字体大小缩放</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LargerText">更大的文字</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LargerText.Description">使用大字号，在此模式下，只会显示一行歌词，翻译、发音、及下一行歌词均不会显示</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition">歌词过渡</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.Description">选择歌词过渡动画</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.None">无</system:String>
@@ -234,8 +240,14 @@
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveHorizontal">水平渐变</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveVerticalReversed">竖直渐变 (反转)</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveHorizontalReversed">水平渐变 (反转)</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.AlbumArtwork">专辑图片</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.AlbumArtwork.Description">显示专辑图片</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ControlButtons">控制按钮</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ControlButtons.Description">显示播放控制按钮</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricifyLogo">Lyricify 标志</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricifyLogo.Description">在专辑图片上方展示 Lyricify 标志 (Logo)</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.CustomMaxWidth">自定义最大宽度</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.CustomMaxWidth.Description">如果你希望窗口宽度不超过某一值，则可以设置自定义最大宽度</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.CustomMargin">自定义边距</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.CustomMargin.Description">当窗口位置需要微调，或与其他任务栏工具产生遮挡时，可通过自定义边距进行调整 (单位: 像素)</system:String>
     <system:String x:Key="String.Settings.AdditionalViews">附加视图</system:String>

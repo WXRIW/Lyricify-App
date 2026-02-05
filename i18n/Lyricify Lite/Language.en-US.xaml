@@ -226,6 +226,12 @@
     <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode.ComboBox.FollowTaskbar">Follow taskbar (Default)</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode.ComboBox.Dark">Dark</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode.ComboBox.Light">Light</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.AutoHide">Auto hide</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.AutoHide.Description">By turning on, Taskbar Lyrics will be hidden at pause</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.FontSizeScale">Font size scale</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.FontSizeScale.Description">Set font size scaling</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LargerText">Larger text</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.LargerText.Description">Using a large font size, in this mode, only one line of lyrics will be displayed. The translation, pronunciation, and the next line of lyrics will not be displayed.</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition">Lyrics transition</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.Description">Choose the animation for lyrics transition</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.None">None</system:String>
@@ -234,8 +240,14 @@
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveHorizontal">Horizontal fade</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveVerticalReversed">Vertical fade (Reversed)</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveHorizontalReversed">Horizontal fade (Reversed)</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.AlbumArtwork">Album artwork</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.AlbumArtwork.Description">Display the album artwork</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ControlButtons">Control buttons</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.ControlButtons.Description">Display the playback control buttons</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricifyLogo">Show Lyricify logo</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricifyLogo.Description">Display the Lyricify logo above the album artwork</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.CustomMaxWidth">Custom maximum width</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.CustomMaxWidth.Description">If you want the window width to not exceed a certain value, you can set a custom maximum width</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.CustomMargin">Custom margin</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.CustomMargin.Description">If the window needs minor position adjustments or is overlapped by other taskbar tools, you can resolve this by configuring custom margins (in pixels)</system:String>
     <system:String x:Key="String.Settings.AdditionalViews">Additional Views</system:String>

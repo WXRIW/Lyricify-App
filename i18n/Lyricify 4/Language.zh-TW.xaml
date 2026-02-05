@@ -676,6 +676,12 @@
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.FollowTaskbar">跟隨工作列（預設）</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.Dark">深色</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.Light">淺色</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.AutoHide">自動隱藏</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.AutoHide.Description">開啟後，工作列歌詞將在暫停時自動隱藏</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.FontSizeScale">字號縮放</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.FontSizeScale.Description">設定字體大小縮放</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LargerText">更大的文字</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LargerText.Description">使用大字號，在此模式下，只會顯示一行歌詞，翻譯、發音、及下一行歌詞均不會顯示</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition">歌詞過渡</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.Description">選擇歌詞過渡動畫</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.ComboBox.None">無</system:String>
@@ -684,8 +690,14 @@
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveHorizontal">水平漸變</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveVerticalReversed">垂直漸變 (反轉)</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveHorizontalReversed">水平漸變 (反轉)</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.AlbumArtwork">專輯圖片</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.AlbumArtwork.Description">顯示專輯圖片</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ControlButtons">控制按鈕</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ControlButtons.Description">顯示播放控制按鈕</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricifyLogo">Lyricify 標誌</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricifyLogo.Description">在專輯圖片上方展示 Lyricify 標誌 (Logo)</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMaxWidth">自訂最大寬度</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMaxWidth.Description">如果你希望視窗寬度不超過某一值，則可以設定自訂最大寬度</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMargin">自訂邊距</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMargin.Description">當視窗位置需要微調，或與其他工作列工具產生遮蔽時，可透過自訂邊距進行調整 (單位: 像素)</system:String>
     <system:String x:Key="String.Page.Settings.Functions">功能</system:String>
