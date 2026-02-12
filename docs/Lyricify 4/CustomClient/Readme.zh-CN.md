@@ -5,8 +5,9 @@
 </div>
 
 > ⚠️ **注意：**  
-> 万恶的 Spotify 近期停用了 Create app 申请通道，可能无法正常创建 app，请等待 Spotify 官方恢复申请。  
-> 如有任何问题或反馈可加 [QQ 群](https://qm.qq.com/q/QfdlJk8keI)或 [Telegram 群组](https://t.me/lyricify)。
+> 2026 年 2 月 11 日之后创建的 Client，需使用 Lyricify 4 v4.3.48 或更高版本。
+> 由于 Spotify 移除了大量接口，会导致之前的 Lyricify 版本无法正常工作。
+> 另外，之前已完成配置的用户，也需在 2026 年 3 月 9 日前更新到 4.3.48 或更新版本。
 
 ## 自定义 Spotify API Client 的好处
 不再会因 Spotify API 返回 429 错误而影响 Lyricify 使用体验。
