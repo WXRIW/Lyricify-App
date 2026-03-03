@@ -8,6 +8,13 @@
 
 </div>
 
+> ⚠️ **Note / 注意：**  
+> The Microsoft Store version is currently experiencing issues due to problems on Microsoft's side. We are working to resolve this.  
+> For any questions or feedback, please join the [Telegram group](https://t.me/lyricify).  
+>   
+> Microsoft Store 版本目前因微软方面的问题出现异常，我们正在尝试解决，请耐心等待后续处理。  
+> 如有任何问题或反馈可加 [QQ 群](https://qm.qq.com/q/QfdlJk8keI)或 [Telegram 群组](https://t.me/lyricify)。
+
 | 软件</br>Application | 最新版本</br>Latest Version | 备注</br>Notes | 平台</br>Platform | 使用指南</br>User Guide |
 | :-: | :-: | :-: | :-: | :-: |
 | [Lyricify 4](#lyricify-4) | [4.3.48-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.3.48)</br><a href="https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full"><img src="https://get.microsoft.com/images/en-us%20dark.svg" style="width: 150px;"/></a> | 适用于 Spotify 用户</br>For Spotify users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看</br>Click to view](/docs/Lyricify%204/README.md)<sup><a href="#ref6_en">6</a></sup> |
