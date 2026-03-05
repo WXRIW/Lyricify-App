@@ -8,7 +8,7 @@
 
 </div>
 
-> [!NOTE]
+> [!TIP]
 > The Microsoft Store version is currently experiencing issues due to problems on Microsoft's side. We are working to resolve this. Please stay tuned for further updates.  
 > Users who have already purchased Lyricify 4 or Lyricify Lite can download the Microsoft Store versions directly here: [Lyricify 4](https://github.com/WXRIW/Lyricify-App/releases/download/v4.3.48/63265WXRIW.Lyricify_4.3.48.0_neutral_._8ybqz4qm5hwha.AppxBundle), [Lyricify Lite](https://github.com/WXRIW/Lyricify-App/releases/download/lite-v1.1.8/63265WXRIW.193470E81A0DE_1.1.8.0_neutral_._8ybqz4qm5hwha.Msixbundle).  
 > For any questions or feedback, please join the [Telegram group](https://t.me/lyricify).  
