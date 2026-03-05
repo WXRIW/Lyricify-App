@@ -5,7 +5,7 @@
 
 </div>
 
-> ⚠️ **Note:**  
+> [!CAUTION]
 > Clients created after February 11, 2026 must use Lyricify 4 v4.3.48 or later.  
 > Due to Spotify removing a large number of APIs, earlier versions of Lyricify will no longer function properly.  
 > In addition, users who have already completed the configuration must update to version 4.3.48 or later before March 9, 2026.  
