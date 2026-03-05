@@ -27,7 +27,7 @@
 **备注**  
 1. <span id="ref1">Lyricify Lite 支持所有已接入 SMTC 的 app，如 Spotify、Apple Music、Foobar 2000、HyPlayer、LyricEase、QQ 音乐、网易云音乐 UWP、酷狗音乐、Groove Music 等。</span>  
 2. <span id="ref2">Lyricify 4、Lyricify 3 可借助 Wine 实现在 Linux 和 macOS 上运行。Lyricify 4 实现过程可能会比较繁琐，需要您耐心尝试。  
-   **对于 Linux 平台：** 我们已经在尝试让 Lyricify 通过 Wine 在 Linux 平台上运行，并力求简便和稳定。您可以在 [Lyricify on Wine 仓库](://github.com/Lyricify/Lyricify-on-Wine)下载软件包。  
+   **对于 Linux 平台：** 我们已经在尝试让 Lyricify 通过 Wine 在 Linux 平台上运行，并力求简便和稳定。您可以在 [Lyricify on Wine 仓库](https://github.com/Lyricify/Lyricify-on-Wine)下载软件包。  
    **对于 macOS 平台：** 在 M 系列芯片的 Mac 上，建议使用 Windows on ARM 虚拟机运行 Lyricify ARM64 版本以获得更好的体验。你也可以使用 Crossover 运行 x64 版本（需使用 Windows 7 环境）。</span>  
 3. <span id="ref3">Lyricify Mobile 可作为兼容的 iPadOS 应用在 visionOS 上运行。</span>  
 4. <span id="ref4">Lyricify 3 目前支持 Spotify、iTunes、Apple Music、Music Center、QQ 音乐、网易云音乐、YesPlayMusic，建议 Spotify 用户使用 Lyricify 4，不要使用 Lyricify 3。</span>  
