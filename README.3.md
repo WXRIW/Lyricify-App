@@ -2,7 +2,7 @@
 A fantastic app to provide auto-scrolling lyrics for [Spotify](https://www.spotify.com), [iTunes](https://music.apple.com), [Apple Music](https://music.apple.com), [Music Center](https://www.sony.com/electronics/support/articles/MC4PC020001), [QQ Music](https://y.qq.com), [Netease Cloud Music](https://music.163.com), and [YesPlayMusic](https://github.com/qier222/YesPlayMusic).  
 一款为 Spotify、iTunes、Apple Music、Music Center、QQ 音乐、网易云音乐、YesPlayMusic 提供滚动歌词的软件。
 
-点击这里查看 [Lyricify 3 使用指南](/docs/Lyricify%203/README.md)  
+点击这里查看 [Lyricify 3 使用指南](docs/Lyricify%203/README.md)  
 
 Welcome to share feedbacks and suggestions. You can make contributions by translating Lyricify into more languages, xaml files are in https://github.com/WXRIW/Lyricify-App/tree/main/i18n/Lyricify%203 .  
 欢迎反馈 bug 和建议！你可以通过把 Lyricify 翻译成更多语言来做贡献。

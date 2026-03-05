@@ -14,7 +14,7 @@ Note: The `try again` mentioned above refers to logging out of Lyricify and re-a
 ## Lyricify account is restricted
 Lyricify accounts that violate Lyricify Lyrics Vault regulations will be restricted when reported by users or discovered by Lyricify managers.
 If your Lyricify account has been restricted, don't panic; you can request to have the restriction removed by contacting a member of the Lyricify admin team. We will tell you the reasons and specific tracks that led to the restriction. We will unblock your account after you relearn the Lyricify Lyrics Vault rules.
-For specific rules of Lyricify Lyrics Vault, please click [here](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/README.md#lyricify-%E6%AD%8C%E8%AF%8D%E5%BA%93) to view. (the documents are in Simplified Chinese, use a translator if needed)
+For specific rules of Lyricify Lyrics Vault, please click [here](../README.md#lyricify-歌词库) to view. (the documents are in Simplified Chinese, use a translator if needed)
 
 ### How to contact Lyricify to remove restrictions
 - Via [Telegram Group](https://t.me/lyricify)

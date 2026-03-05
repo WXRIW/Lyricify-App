@@ -41,7 +41,7 @@ Lyricify 开放词库欢迎所有热爱 Lyricify 的开发者使用。
 
 ### 歌词格式
 为了方便开发者使用歌词，使反序列化更加容易，歌词将以两种格式中的一种返回：`LRC 格式` 或 `Lyricify Lines 格式`  
-LRC 标准详见 [Lyricify 4 歌词指南及标准](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/Lyrics.md)。  
+LRC 标准详见 [Lyricify 4 歌词指南及标准](../Lyricify%204/Lyrics.md)。  
 Lyricify Lines 格式详见附录《Lyricify Lines 格式规范》。  
 
 ### 词库使用
