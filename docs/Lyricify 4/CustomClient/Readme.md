@@ -6,13 +6,17 @@
 </div>
 
 > ⚠️ **Note:**  
-> Clients created after February 11, 2026 must use Lyricify 4 v4.3.48 or later.  
+> Custom API Client requires Lyricify 4 v4.3.48 or later.  
 > Due to Spotify removing a large number of APIs, earlier versions of Lyricify will no longer function properly.  
-> In addition, users who have already completed the configuration must update to version 4.3.48 or later before March 9, 2026.  
+> If you have already completed the configuration, please update to v4.3.48 or later before March 9, 2026.  
 > For any questions or feedback, please join the [Telegram group](https://t.me/lyricify).
 
 ## Benefits from customising Spotify API Client
 Spotify API won't affect you by returning 429 Error anymore.
+
+## Requirements
+An active Spotify Premium subscription is required to use the Custom API Client.  
+Users who previously completed the configuration will also be required to have Spotify Premium starting March 9, 2026, otherwise the Custom API Client will no longer function.  
 
 ## Preparations
 If you have already completed the preparation steps, you can directly use the previously obtained `Client ID` and `Client Secret` in `Works on Lyricify` part.
