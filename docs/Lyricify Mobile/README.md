@@ -1,6 +1,6 @@
 > [!CAUTION]
-> Lyricify Mobile 使用指南已迁移至 https://docs.lyricify.app/lyricify-mobile/，旧版使用指南（本页面）不再维护。  
-> Lyricify Mobile User Guide has been migrated to https://docs.lyricify.app/lyricify-mobile/. This legacy page is no longer maintained.
+> ## Lyricify Mobile 使用指南已迁移至 [docs.lyricify.app/lyricify-mobile](https://docs.lyricify.app/lyricify-mobile/)，旧版使用指南（本页面）不再维护。
+> ## Lyricify Mobile User Guide has been migrated to [docs.lyricify.app/en/lyricify-mobile](https://docs.lyricify.app/en/lyricify-mobile/). This legacy page is no longer maintained.
 
 <div align="center">
 
