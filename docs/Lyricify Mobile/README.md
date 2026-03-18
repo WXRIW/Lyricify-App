@@ -1,3 +1,7 @@
+> [!CAUTION]
+> Lyricify Mobile 使用指南已迁移至 https://docs.lyricify.app/lyricify-mobile/，旧版使用指南（本页面）不再维护。  
+> Lyricify Mobile User Guide has been migrated to https://docs.lyricify.app/lyricify-mobile/. This legacy page is no longer maintained.
+
 <div align="center">
 
 # Lyricify Mobile 使用指南

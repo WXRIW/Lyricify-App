@@ -1,3 +1,7 @@
+> [!CAUTION]
+> Lyricify Lite 使用指南已迁移至 https://docs.lyricify.app/lyricify-lite/，旧版使用指南（本页面）不再维护。  
+> Lyricify Lite User Guide has been migrated to https://docs.lyricify.app/lyricify-lite/. This legacy page is no longer maintained.
+
 <div align="center">
 
 # Lyricify Lite 使用指南
