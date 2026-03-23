@@ -15,7 +15,7 @@
 >   
 > Microsoft Store 版本目前因微软方面的问题出现异常，我们正在尝试解决，请耐心等待后续处理。  
 > 已经购买过 Lyricify 4 或 Lyricify Lite 的用户可以在此下载商店版：[Lyricify 4](https://github.com/WXRIW/Lyricify-App/releases/download/v4.3.48/63265WXRIW.Lyricify_4.3.48.0_neutral_._8ybqz4qm5hwha.AppxBundle)、[Lyricify Lite](https://github.com/WXRIW/Lyricify-App/releases/download/lite-v1.1.8/63265WXRIW.193470E81A0DE_1.1.8.0_neutral_._8ybqz4qm5hwha.Msixbundle)。  
-> 如有任何问题或反馈可加 [QQ 群](https://qm.qq.com/q/QfdlJk8keI)或 [Telegram 群组](https://t.me/lyricify)。
+> 如有任何问题或反馈可加 [QQ 群](https://qm.qq.com/q/yZ6oC6fvAy)或 [Telegram 群组](https://t.me/lyricify)。
 
 | 软件</br>Application | 最新版本</br>Latest Version | 备注</br>Notes | 平台</br>Platform | 使用指南</br>User Guide |
 | :-: | :-: | :-: | :-: | :-: |
@@ -57,7 +57,8 @@ https://t.me/lyricifyreleases
 [点击加入群聊【Lyricify 用户群 5】](https://qm.qq.com/q/wGe070e4rS)（群号：561373781）（已满）  
 [点击加入群聊【Lyricify 用户群 6】](https://qm.qq.com/q/TEj2v8gvK2)（群号：636998823）（已满）  
 [点击加入群聊【Lyricify 用户群 7】](https://qm.qq.com/q/DcxXikjjcA)（群号：748154703）（已满）  
-[点击加入群聊【Lyricify 用户群 8】](https://qm.qq.com/q/QfdlJk8keI)（群号：452502909）  
+[点击加入群聊【Lyricify 用户群 8】](https://qm.qq.com/q/QfdlJk8keI)（群号：452502909）（已满）  
+[点击加入群聊【Lyricify 用户群 9】](https://qm.qq.com/q/yZ6oC6fvAy)（群号：692205529）
 
 ## Lyricify Open Source / Lyricify 开源
 Lyricify 的歌词处理相关代码均已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中使用 Apache License 2.0 协议开源，希望能为开源社区做出贡献。  
