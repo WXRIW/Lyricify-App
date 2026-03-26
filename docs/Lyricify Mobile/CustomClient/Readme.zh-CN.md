@@ -1,3 +1,6 @@
+> [!CAUTION]
+> ## 本教程已迁移至全新 [Lyricify Docs 文档站](https://docs.lyricify.app/lyricify-mobile/custom-api-client/)，本页面不再维护。
+
 <div align="center">
 
 # 自定义 Spotify API Client 配置教程

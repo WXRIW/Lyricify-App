@@ -1,3 +1,6 @@
+> [!CAUTION]
+> ## This tutorial has been migrated to [Lyricify Docs](https://docs.lyricify.app/en/lyricify-4/custom-api-client/). This legacy page is no longer maintained.
+
 <div align="center">
 
 # Custom Spotify API Client Configuration Tutorial
