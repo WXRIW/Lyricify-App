@@ -8,15 +8,6 @@
 
 </div>
 
-> ⚠️ **Note / 注意：**  
-> The Microsoft Store version is currently experiencing issues due to problems on Microsoft's side. We are working to resolve this. Please stay tuned for further updates.  
-> Users who have already purchased Lyricify 4 or Lyricify Lite can download the Microsoft Store versions directly here: [Lyricify 4](https://github.com/WXRIW/Lyricify-App/releases/download/v4.3.48/63265WXRIW.Lyricify_4.3.48.0_neutral_._8ybqz4qm5hwha.AppxBundle), [Lyricify Lite](https://github.com/WXRIW/Lyricify-App/releases/download/lite-v1.1.8/63265WXRIW.193470E81A0DE_1.1.8.0_neutral_._8ybqz4qm5hwha.Msixbundle).  
-> For any questions or feedback, please join the [Telegram group](https://t.me/lyricify).  
->   
-> Microsoft Store 版本目前因微软方面的问题出现异常，我们正在尝试解决，请耐心等待后续处理。  
-> 已经购买过 Lyricify 4 或 Lyricify Lite 的用户可以在此下载商店版：[Lyricify 4](https://github.com/WXRIW/Lyricify-App/releases/download/v4.3.48/63265WXRIW.Lyricify_4.3.48.0_neutral_._8ybqz4qm5hwha.AppxBundle)、[Lyricify Lite](https://github.com/WXRIW/Lyricify-App/releases/download/lite-v1.1.8/63265WXRIW.193470E81A0DE_1.1.8.0_neutral_._8ybqz4qm5hwha.Msixbundle)。  
-> 如有任何问题或反馈可加 [QQ 群](https://qm.qq.com/q/yZ6oC6fvAy)或 [Telegram 群组](https://t.me/lyricify)。
-
 | 软件</br>Application | 最新版本</br>Latest Version | 备注</br>Notes | 平台</br>Platform | 使用指南</br>User Guide |
 | :-: | :-: | :-: | :-: | :-: |
 | [Lyricify 4](#lyricify-4) | [4.3.48-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.3.48)</br><a href="https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full"><img src="https://get.microsoft.com/images/en-us%20dark.svg" style="width: 150px;"/></a> | 适用于 Spotify 用户</br>For Spotify users | Windows<sup><a href="#ref2">2</a></sup> | [点击查看](https://docs.lyricify.app/lyricify-4/)</br>[Click to view](https://docs.lyricify.app/en/lyricify-4/)<sup><a href="#ref6_en">6</a></sup> |
