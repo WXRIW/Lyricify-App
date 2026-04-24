@@ -372,8 +372,8 @@
     <system:String x:Key="String.About.Support">Supporto</system:String>
 
     <system:String x:Key="String.About.NonPublicWarning">QUESTA NON È UNA VERSIONE PUBBLICA, NON DIFFONDERE PER FAVORE!</system:String>
-    <system:String x:Key="String.About.Architecture.32Bits">32 bit</system:String>
-    <system:String x:Key="String.About.Architecture.64Bits">64 bit</system:String>
+    <system:String x:Key="String.About.Architecture.32Bits">32-bit</system:String>
+    <system:String x:Key="String.About.Architecture.64Bits">64-bit</system:String>
     <system:String x:Key="String.About.Architecture.Emulated">{0} emulato</system:String>
     <system:String x:Key="String.About.Portable">Versione portatile</system:String>
     <system:String x:Key="String.About.Portable.RunningArchitecture">Versione portatile in esecuzione su {0}</system:String>
@@ -397,9 +397,7 @@
     <system:String x:Key="String.About.References.NoLicense.Brackets">(Nessuna licenza)</system:String>
     <system:String x:Key="String.About.CopyrightClaiming">Dichiarazioni di copyright</system:String>
     <system:String x:Key="String.About.CopyrightClaiming.HotLyric">HotLyric™ Inside, Copyright © cnbluefire</system:String>
-    <system:String x:Key="String.About.CopyrightClaiming.WXRIW">
-        Copyright © {0} WXRIW, tutti i diritti riservati
-    </system:String>
+    <system:String x:Key="String.About.CopyrightClaiming.WXRIW">Copyright © {0} WXRIW, Tutti i Diritti Riservati</system:String>
 
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">Doppio clic per nascondere per 2 s</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">Allinea al centro</system:String>
