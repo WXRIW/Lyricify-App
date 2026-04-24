@@ -9,340 +9,339 @@
 
     <!--  Navigation Panel  -->
     <system:String x:Key="String.MainWindow.Navigation.Home">Home</system:String>
-    <system:String x:Key="String.MainWindow.Navigation.Search">Search</system:String>
-    <system:String x:Key="String.MainWindow.Navigation.YourLibrary">Your Library</system:String>
-    <system:String x:Key="String.MainWindow.Navigation.LikedSongs">Liked Songs</system:String>
+    <system:String x:Key="String.MainWindow.Navigation.Search">Cerca</system:String>
+    <system:String x:Key="String.MainWindow.Navigation.YourLibrary">La tua libreria</system:String>
+    <system:String x:Key="String.MainWindow.Navigation.LikedSongs">Brani che ti piacciono</system:String>
 
     <!--  Mobile Mode Navigation  -->
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Home">Home</system:String>
-    <system:String x:Key="String.MainWindow.Mobile.Navigation.Lyrics">Lyrics</system:String>
+    <system:String x:Key="String.MainWindow.Mobile.Navigation.Lyrics">Testi</system:String>
     <system:String x:Key="String.MainWindow.Mobile.Navigation.Apple">Apple</system:String>
 
     <!--  Login  -->
-    <system:String x:Key="String.MainWindow.Login.Welcome">Welcome to Lyricify, {0}!</system:String>
-    <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Welcome home, supreme {0}!</system:String>
-    <system:String x:Key="String.MainWindow.Login.LoggingIn">Logging in</system:String>
-    <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">This might take a while</system:String>
-    <system:String x:Key="String.MainWindow.Login.StillTrying">We are still trying to log you in</system:String>
+    <system:String x:Key="String.MainWindow.Login.Welcome">Benvenuto in Lyricify, {0}!</system:String>
+    <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Bentornato a casa, supremo {0}!</system:String>
+    <system:String x:Key="String.MainWindow.Login.LoggingIn">Accesso in corso</system:String>
+    <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">Potrebbe volerci un po’ di tempo</system:String>
+    <system:String x:Key="String.MainWindow.Login.StillTrying">Stiamo ancora cercando di effettuare l’accesso</system:String>
 
     <!--  User Widget  -->
-    <system:String x:Key="String.MainWindow.UserWidget.Profile">Profile</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.GetSpotifyPremium">Get Spotify Premium</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.LogOut">Log out</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.Settings">Settings</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.About">About</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion">Lyricify Version</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.FreeVersion">Free version</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Free">Free</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Free.Store">Free (Store trial)</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Purchased.Store">Store purchased</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount">Lyricify Account</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.1">Administrator</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.Profile">Profilo</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.GetSpotifyPremium">Passa a Spotify Premium</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LogOut">Esci</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.Settings">Impostazioni</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.About">Informazioni</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion">Versione di Lyricify</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.FreeVersion">Versione gratuita</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Free">Gratis</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Free.Store">Gratis (prova Store)</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Purchased.Store">Acquistata dallo Store</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount">Account Lyricify</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.1">Amministratore</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.2">Insider</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.3">Lyrics manager</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.4">Premium user</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.5">User</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.6">Restricted user</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.Null">Not found</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.3">Gestore testi</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.4">Utente Premium</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.5">Utente</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.6">Utente con restrizioni</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.Null">Non trovato</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession">Media Session</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">Connected</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">Disconnected</system:String>
-    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. Media Session will only be made available when using Spotify Desktop Version (or Store Version), it won't work when using Spotify's mobile or web version!&#x000A;2. Lyricify won't try to connect Media Session until received playback response.</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">Connessa</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">Disconnessa</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. Media Session è disponibile solo usando la versione Desktop (o Store) di Spotify; non funziona con la versione mobile o web di Spotify!&#x000A;2. Lyricify non proverà a connettere Media Session finché non riceve una risposta di riproduzione.</system:String>
 
-    <system:String x:Key="String.MainWindow.PinnedArea.Notice">Pin items for quick access!</system:String>
+    <system:String x:Key="String.MainWindow.PinnedArea.Notice">Fissa gli elementi per un accesso rapido!</system:String>
 
     <!--  Control Part  -->
     <!--  Frame  -->
-    <system:String x:Key="String.MainWindow.Frame.Control.GoBack">Go back</system:String>
-    <system:String x:Key="String.MainWindow.Frame.Control.GoForward">Go forward</system:String>
+    <system:String x:Key="String.MainWindow.Frame.Control.GoBack">Indietro</system:String>
+    <system:String x:Key="String.MainWindow.Frame.Control.GoForward">Avanti</system:String>
     <!--  Bottom Bar  -->
-    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AlbumArtwork">Click to show more info about this track</system:String>
-    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Lyrics">Lyrics</system:String>
-    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AppleMusicLyrics">Apple Music Lyrics</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AlbumArtwork">Clicca per mostrare più info su questo brano</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Lyrics">Testi</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AppleMusicLyrics">Testi Apple Music</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.SpotifyConnect">Spotify Connect</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Volume">Volume</system:String>
-    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Fullscreen">Fullscreen</system:String>
-    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.MobileUIFullscreen">Mobile UI Fullscreen</system:String>
-    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.LyricifyFullscreen">Lyricify Fullscreen</system:String>
-
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Fullscreen">Schermo intero</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.MobileUIFullscreen">Schermo intero interfaccia mobile</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.LyricifyFullscreen">Lyricify a schermo intero</system:String>
 
     <!--
         Pages
     -->
 
     <!--  Page Home  -->
-    <system:String x:Key="String.Page.Home.Welcome">Welcome to Lyricify</system:String>
-    <system:String x:Key="String.Page.Home.FollowDeveloper">Why not follow our developer</system:String>
-    <system:String x:Key="String.Page.Home.FollowSuggestion">Suggestion</system:String>
-    <system:String x:Key="String.Page.Home.Button.Follow">Follow</system:String>
-    <system:String x:Key="String.Page.Home.Button.Following">Following</system:String>
-    <system:String x:Key="String.Page.Home.Button.Followed">Followed</system:String>
+    <system:String x:Key="String.Page.Home.Welcome">Benvenuto in Lyricify</system:String>
+    <system:String x:Key="String.Page.Home.FollowDeveloper">Perché non segui il nostro sviluppatore</system:String>
+    <system:String x:Key="String.Page.Home.FollowSuggestion">Suggerimento</system:String>
+    <system:String x:Key="String.Page.Home.Button.Follow">Segui</system:String>
+    <system:String x:Key="String.Page.Home.Button.Following">Seguito</system:String>
+    <system:String x:Key="String.Page.Home.Button.Followed">Già seguito</system:String>
 
-    <system:String x:Key="String.Page.Home.Panel.YourFavoriteArtists">Your favorite artists</system:String>
-    <system:String x:Key="String.Page.Home.Panel.MoreLike">More Like</system:String>
-    <system:String x:Key="String.Page.Home.Panel.MoreLike.Argument">More Like {0}</system:String>
-    <system:String x:Key="String.Page.Home.Panel.FeaturedPlaylists">Featured playlists</system:String>
-    <system:String x:Key="String.Page.Home.Panel.PopularNewReleases">Popular new releases</system:String>
+    <system:String x:Key="String.Page.Home.Panel.YourFavoriteArtists">I tuoi artisti preferiti</system:String>
+    <system:String x:Key="String.Page.Home.Panel.MoreLike">Simili a</system:String>
+    <system:String x:Key="String.Page.Home.Panel.MoreLike.Argument">Simili a {0}</system:String>
+    <system:String x:Key="String.Page.Home.Panel.FeaturedPlaylists">Playlist in evidenza</system:String>
+    <system:String x:Key="String.Page.Home.Panel.PopularNewReleases">Nuove uscite popolari</system:String>
 
     <!--  Other Pages  -->
-    <system:String x:Key="String.Page.List.Title.Title">TITLE</system:String>
+    <system:String x:Key="String.Page.List.Title.Title">TITOLO</system:String>
     <system:String x:Key="String.Page.List.Title.Album">ALBUM</system:String>
-    <system:String x:Key="String.Page.List.Title.DateAdded">DATE ADDED</system:String>
-    <system:String x:Key="String.Page.List.Title.DateReleased">DATE RELEASED</system:String>
+    <system:String x:Key="String.Page.List.Title.DateAdded">DATA AGGIUNTA</system:String>
+    <system:String x:Key="String.Page.List.Title.DateReleased">DATA DI PUBBLICAZIONE</system:String>
 
-    <system:String x:Key="String.Page.Info.Song">{0} song</system:String>
-    <system:String x:Key="String.Page.Info.Songs">{0} songs</system:String>
-    <system:String x:Key="String.Page.Info.Disc">{0} disc</system:String>
-    <system:String x:Key="String.Page.Info.Discs">{0} discs</system:String>
+    <system:String x:Key="String.Page.Info.Song">{0} brano</system:String>
+    <system:String x:Key="String.Page.Info.Songs">{0} brani</system:String>
+    <system:String x:Key="String.Page.Info.Disc">{0} disco</system:String>
+    <system:String x:Key="String.Page.Info.Discs">{0} dischi</system:String>
 
     <system:String x:Key="String.Page.Album.Title.AlbumType.Album">ALBUM</system:String>
     <system:String x:Key="String.Page.Album.Title.AlbumType.EP">EP</system:String>
-    <system:String x:Key="String.Page.Album.Title.AlbumType.Single">SINGLE</system:String>
-    <system:String x:Key="String.Page.Album.DiscSeparator.Title">Disc {0}</system:String>
+    <system:String x:Key="String.Page.Album.Title.AlbumType.Single">SINGOLO</system:String>
+    <system:String x:Key="String.Page.Album.DiscSeparator.Title">Disco {0}</system:String>
 
     <system:String x:Key="String.Info.Album.AlbumType.Album">Album</system:String>
     <system:String x:Key="String.Info.Album.AlbumType.EP">EP</system:String>
-    <system:String x:Key="String.Info.Album.AlbumType.Single">Single</system:String>
+    <system:String x:Key="String.Info.Album.AlbumType.Single">Singolo</system:String>
 
-    <system:String x:Key="String.Page.Album.Artwork.FileDialog.Filter">JPEG Image (*.jpg)|*.jpg</system:String>
+    <system:String x:Key="String.Page.Album.Artwork.FileDialog.Filter">Immagine JPEG (*.jpg)|*.jpg</system:String>
 
-    <system:String x:Key="String.Page.Artist.VerifiedArtist">Verified Artist</system:String>
-    <system:String x:Key="String.Page.Artist.Popular">Popular</system:String>
-    <system:String x:Key="String.Page.Artist.Follower">{0:N0} Follower</system:String>
-    <system:String x:Key="String.Page.Artist.Followers">{0:N0} Followers</system:String>
-    <system:String x:Key="String.Page.Artist.Panel.Albums">Albums</system:String>
-    <system:String x:Key="String.Page.Artist.Panel.SinglesAndEPs">Singles and EPs</system:String>
-    <system:String x:Key="String.Page.Artist.Panel.Compilations">Compilations</system:String>
-    <system:String x:Key="String.Page.Artist.Panel.FansAlsoLike">Fans also like</system:String>
-    <system:String x:Key="String.Page.Artist.Panel.AppearsOn">Appears On</system:String>
+    <system:String x:Key="String.Page.Artist.VerifiedArtist">Artista verificato</system:String>
+    <system:String x:Key="String.Page.Artist.Popular">Popolari</system:String>
+    <system:String x:Key="String.Page.Artist.Follower">{0:N0} follower</system:String>
+    <system:String x:Key="String.Page.Artist.Followers">{0:N0} follower</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.Albums">Album</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.SinglesAndEPs">Singoli ed EP</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.Compilations">Compilation</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.FansAlsoLike">Ai fan piacciono anche</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.AppearsOn">Presente in</system:String>
 
     <system:String x:Key="String.Page.Playlist.Title">PLAYLIST</system:String>
-    <system:String x:Key="String.Page.Playlist.Title.Private">PRIVATE PLAYLIST</system:String>
-    <system:String x:Key="String.Page.Playlist.Title.Public">PUBLIC PLAYLIST</system:String>
+    <system:String x:Key="String.Page.Playlist.Title.Private">PLAYLIST PRIVATA</system:String>
+    <system:String x:Key="String.Page.Playlist.Title.Public">PLAYLIST PUBBLICA</system:String>
     <system:String x:Key="String.Page.Playlist.Like">{0:N0} like</system:String>
-    <system:String x:Key="String.Page.Playlist.Likes">{0:N0} likes</system:String>
+    <system:String x:Key="String.Page.Playlist.Likes">{0:N0} like</system:String>
 
     <system:String x:Key="String.Page.LikedSongs.Title">PLAYLIST</system:String>
-    <system:String x:Key="String.Page.LikedSongs.Name">Liked Songs</system:String>
+    <system:String x:Key="String.Page.LikedSongs.Name">Brani che ti piacciono</system:String>
 
-    <system:String x:Key="String.Page.Profile.Title">PROFILE</system:String>
-    <system:String x:Key="String.Page.Profile.Follower">{0:N0} Follower</system:String>
-    <system:String x:Key="String.Page.Profile.Followers">{0:N0} Followers</system:String>
-    <system:String x:Key="String.Page.Profile.PublicPlaylist">{0:N0} Public Playlist</system:String>
-    <system:String x:Key="String.Page.Profile.PublicPlaylist.Plural">{0:N0} Public Playlists</system:String>
-    <system:String x:Key="String.Page.Profile.PublicPlaylists">Public Playlists</system:String>
-    <system:String x:Key="String.Page.Profile.TopArtists.Month">Top artists this month</system:String>
-    <system:String x:Key="String.Page.Profile.TopArtists.HalfYear">Top artists in six months</system:String>
-    <system:String x:Key="String.Page.Profile.TopArtists.Year">Top artists this year</system:String>
-    <system:String x:Key="String.Page.Profile.TopArtists.All">Top artists since the Big Bang</system:String>
-    <system:String x:Key="String.Page.Profile.TopTracks.Month">Top tracks this month</system:String>
-    <system:String x:Key="String.Page.Profile.TopTracks.HalfYear">Top tracks in six months</system:String>
-    <system:String x:Key="String.Page.Profile.TopTracks.Year">Top tracks this year</system:String>
-    <system:String x:Key="String.Page.Profile.TopTracks.All">Top tracks since the Big Bang</system:String>
+    <system:String x:Key="String.Page.Profile.Title">PROFILO</system:String>
+    <system:String x:Key="String.Page.Profile.Follower">{0:N0} follower</system:String>
+    <system:String x:Key="String.Page.Profile.Followers">{0:N0} follower</system:String>
+    <system:String x:Key="String.Page.Profile.PublicPlaylist">{0:N0} playlist pubblica</system:String>
+    <system:String x:Key="String.Page.Profile.PublicPlaylist.Plural">{0:N0} playlist pubbliche</system:String>
+    <system:String x:Key="String.Page.Profile.PublicPlaylists">Playlist pubbliche</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.Month">Artisti top di questo mese</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.HalfYear">Artisti top negli ultimi sei mesi</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.Year">Artisti top di quest’anno</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.All">Artisti top dal Big Bang</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.Month">Brani top di questo mese</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.HalfYear">Brani top negli ultimi sei mesi</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.Year">Brani top di quest’anno</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.All">Brani top dal Big Bang</system:String>
 
     <!--  Page Library  -->
-    <system:String x:Key="String.Page.Library.Playlists">Playlists</system:String>
-    <system:String x:Key="String.Page.Library.Artists">Artists</system:String>
-    <system:String x:Key="String.Page.Library.Albums">Albums</system:String>
+    <system:String x:Key="String.Page.Library.Playlists">Playlist</system:String>
+    <system:String x:Key="String.Page.Library.Artists">Artisti</system:String>
+    <system:String x:Key="String.Page.Library.Albums">Album</system:String>
 
     <!--  Page Mobile UI  -->
-    <system:String x:Key="String.Page.MobileUI.Title">LYRICS</system:String>
+    <system:String x:Key="String.Page.MobileUI.Title">TESTI</system:String>
 
     <!--  Page Search  -->
-    <system:String x:Key="String.Page.Search.Title.Search">Search</system:String>
-    <system:String x:Key="String.Page.Search.Title.Lyrics">Lyrics</system:String>
-    <system:String x:Key="String.Page.Search.Title.Availability">Availability</system:String>
-    <system:String x:Key="String.Page.Search.429Error">API rate limit exceeded (429 Error)</system:String>
-    <system:String x:Key="String.Page.Search.Retry">Retry</system:String>
-    <system:String x:Key="String.Page.Search.Search.SearchBar.PlaceHolder">Search for songs, artists, albums and playlists</system:String>
-    <system:String x:Key="String.Page.Search.Search.Result.Songs">Songs</system:String>
-    <system:String x:Key="String.Page.Search.Search.Result.Artists">Artists</system:String>
-    <system:String x:Key="String.Page.Search.Search.Result.Albums">Albums</system:String>
-    <system:String x:Key="String.Page.Search.Search.Result.Playlists">Playlists</system:String>
-    <system:String x:Key="String.Page.Search.Lyrics.NotAvailable">Currently not available</system:String>
-    <system:String x:Key="String.Page.Search.Availability.SearchBar.PlaceHolder">Input link or Spotify URI here</system:String>
-    <system:String x:Key="String.Page.Search.Availability.SearchBar.NetworkIssue.Message">Network issue, please check your Internet connection.</system:String>
-    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">Album not found, please check the ID your input.</system:String>
-    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Wrong input or unsupported input. Only track (redirect to its album), album and playlist links are supported. Here are some examples.</system:String>
-    <system:String x:Key="String.Page.Search.Availability.Market">Market</system:String>
-    <system:String x:Key="String.Page.Search.Availability.Market.Unspecified">Unspecified</system:String>
-    <system:String x:Key="String.Page.Search.Availability.MoreVersions">More versions</system:String>
-    <system:String x:Key="String.Page.Search.Availability.Playlist.UnavailableTracks">Unavailable tracks</system:String>
-    <system:String x:Key="String.Page.Search.Availability.Playlist.AllAvailable">All tracks are available</system:String>
-    <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.ToolTip.GoToAlbum">Go to album</system:String>
-    <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Available">Available</system:String>
-    <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Unavailable">Unavailable</system:String>
+    <system:String x:Key="String.Page.Search.Title.Search">Cerca</system:String>
+    <system:String x:Key="String.Page.Search.Title.Lyrics">Testi</system:String>
+    <system:String x:Key="String.Page.Search.Title.Availability">Disponibilità</system:String>
+    <system:String x:Key="String.Page.Search.429Error">Limite di richieste API superato (Errore 429)</system:String>
+    <system:String x:Key="String.Page.Search.Retry">Riprova</system:String>
+    <system:String x:Key="String.Page.Search.Search.SearchBar.PlaceHolder">Cerca brani, artisti, album e playlist</system:String>
+    <system:String x:Key="String.Page.Search.Search.Result.Songs">Brani</system:String>
+    <system:String x:Key="String.Page.Search.Search.Result.Artists">Artisti</system:String>
+    <system:String x:Key="String.Page.Search.Search.Result.Albums">Album</system:String>
+    <system:String x:Key="String.Page.Search.Search.Result.Playlists">Playlist</system:String>
+    <system:String x:Key="String.Page.Search.Lyrics.NotAvailable">Al momento non disponibile</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.PlaceHolder">Inserisci qui il link o lo Spotify URI</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.NetworkIssue.Message">Problema di rete, controlla la connessione Internet.</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">Album non trovato, controlla l’ID inserito.</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Input errato o non supportato. Sono supportati solo link a brani (reindirizzati al relativo album), album e playlist. Ecco alcuni esempi.</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Market">Mercato</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Market.Unspecified">Non specificato</system:String>
+    <system:String x:Key="String.Page.Search.Availability.MoreVersions">Altre versioni</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Playlist.UnavailableTracks">Brani non disponibili</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Playlist.AllAvailable">Tutti i brani sono disponibili</system:String>
+    <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.ToolTip.GoToAlbum">Vai all’album</system:String>
+    <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Available">Disponibile</system:String>
+    <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Unavailable">Non disponibile</system:String>
 
     <!--  Page Spotify Connect  -->
-    <system:String x:Key="String.Page.SpotifyConnect.CurrentDevice">Current device</system:String>
-    <system:String x:Key="String.Page.SpotifyConnect.SelectAnotherDevice">Select another device</system:String>
-    <system:String x:Key="String.Page.SpotifyConnect.NoDeviceFound">No device found</system:String>
-    <system:String x:Key="String.Page.SpotifyConnect.NoOtherDevicesFound">No other devices found</system:String>
-    <system:String x:Key="String.Page.SpotifyConnect.ThisComputer">This computer</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.CurrentDevice">Dispositivo corrente</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.SelectAnotherDevice">Seleziona un altro dispositivo</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.NoDeviceFound">Nessun dispositivo trovato</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.NoOtherDevicesFound">Nessun altro dispositivo trovato</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.ThisComputer">Questo computer</system:String>
 
     <!--  Audio Features  -->
-    <system:String x:Key="String.AudioFeatures.Track">Track</system:String>
-    <system:String x:Key="String.AudioFeatures.Track.Name">Name</system:String>
-    <system:String x:Key="String.AudioFeatures.Track.ISRC.Null">No ISRC</system:String>
-    <system:String x:Key="String.AudioFeatures.Track.TrackNumber">Track number</system:String>
-    <system:String x:Key="String.AudioFeatures.Track.Duration">Duration</system:String>
+    <system:String x:Key="String.AudioFeatures.Track">Brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Track.Name">Nome</system:String>
+    <system:String x:Key="String.AudioFeatures.Track.ISRC.Null">Nessun ISRC</system:String>
+    <system:String x:Key="String.AudioFeatures.Track.TrackNumber">Numero traccia</system:String>
+    <system:String x:Key="String.AudioFeatures.Track.Duration">Durata</system:String>
     <system:String x:Key="String.AudioFeatures.Album">Album</system:String>
-    <system:String x:Key="String.AudioFeatures.Album.Name">Name</system:String>
-    <system:String x:Key="String.AudioFeatures.Album.UPC.Null">No UPC</system:String>
-    <system:String x:Key="String.AudioFeatures.Album.ReleaseDate">Release date</system:String>
-    <system:String x:Key="String.AudioFeatures.Album.TracksCount">Tracks count</system:String>
-    <system:String x:Key="String.AudioFeatures.Artist">Artist</system:String>
-    <system:String x:Key="String.AudioFeatures.Artists">Artist(s)</system:String>
-    <system:String x:Key="String.AudioFeatures.Artist.Name">Name</system:String>
-    <system:String x:Key="String.AudioFeatures.Artist.Names">Name(s)</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink">Relinked From</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Track.Name">Track name</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Track.ID">Track ID</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Track.ISRC">Track ISRC</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Track.TrackNumber">Track number</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Album.Name">Album name</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Album.ID">Album ID</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Album.ReleaseDate">Album release date</system:String>
-    <system:String x:Key="String.AudioFeatures.Relink.Album.TracksCount">Album tracks count</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature">Audio Features</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode">Mode</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Major">Major</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Minor">Minor</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.TimeSignature">Time signature</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.PitchClass">Pitch class (Key)</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Loudness">Loudness</system:String>
+    <system:String x:Key="String.AudioFeatures.Album.Name">Nome</system:String>
+    <system:String x:Key="String.AudioFeatures.Album.UPC.Null">Nessun UPC</system:String>
+    <system:String x:Key="String.AudioFeatures.Album.ReleaseDate">Data di pubblicazione</system:String>
+    <system:String x:Key="String.AudioFeatures.Album.TracksCount">Numero di brani</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist">Artista</system:String>
+    <system:String x:Key="String.AudioFeatures.Artists">Artista/i</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist.Name">Nome</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist.Names">Nome/i</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink">Reindirizzato da</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.Name">Nome brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.ID">ID brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.ISRC">ISRC brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.TrackNumber">Numero traccia</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Album.Name">Nome album</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Album.ID">ID album</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Album.ReleaseDate">Data di pubblicazione album</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Album.TracksCount">Numero di brani dell’album</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature">Caratteristiche audio</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode">Modo</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Major">Maggiore</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Minor">Minore</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.TimeSignature">Tempo</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.PitchClass">Classe di altezza (Tonalità)</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Loudness">Volume</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Tempo">Tempo</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Acousticness">Acousticness</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Danceability">Danceability</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Energy">Energy</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Energy">Energia</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Instrumentalness">Instrumentalness</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Liveness">Liveness</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Speechiness">Speechiness</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Valence">Valence</system:String>
 
-    <system:String x:Key="String.AudioFeatures.ToolTip.ClickCopy">Click to copy</system:String>
-    <system:String x:Key="String.AudioFeatures.Button.CopyIDs">Copy IDs and ISRC</system:String>
-    <system:String x:Key="String.AudioFeatures.Button.CopyAll">Copy all info</system:String>
+    <system:String x:Key="String.AudioFeatures.ToolTip.ClickCopy">Clicca per copiare</system:String>
+    <system:String x:Key="String.AudioFeatures.Button.CopyIDs">Copia ID e ISRC</system:String>
+    <system:String x:Key="String.AudioFeatures.Button.CopyAll">Copia tutte le info</system:String>
 
-    <system:String x:Key="String.AudioFeatures.Copy.TrackName">Track Name</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.TrackID">Track ID</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.TrackISRC">Track ISRC</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.TrackURI">Track URI</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.TrackDuration">Track Duration</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.TrackNumber">Track Number</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.AlbumName">Album Name</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.AlbumID">Album ID</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.AlbumUPC">Album UPC</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.AlbumReleaseDate">Album Release Date</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.AlbumTracksCount">Album Tracks Count</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistName">Artist Name</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistID">Artist ID</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistNames">Artist Names</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs">Artist IDs</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistNames.Bracket">Artist Name(s)</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs.Bracket">Artist ID(s)</system:String>
-    <system:String x:Key="String.AudioFeatures.Copy.Relink">Relinked From</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackName">Nome brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackID">ID brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackISRC">ISRC brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackURI">URI brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackDuration">Durata brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackNumber">Numero traccia</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumName">Nome album</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumID">ID album</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumUPC">UPC album</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumReleaseDate">Data di pubblicazione album</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumTracksCount">Numero di brani dell’album</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistName">Nome artista</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistID">ID artista</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistNames">Nomi artisti</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs">ID artisti</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistNames.Bracket">Nome/i artista</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs.Bracket">ID artista/i</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.Relink">Reindirizzato da</system:String>
 
-    <system:String x:Key="String.Info.Copy.DiscNum">Disc {0}</system:String>
-    <system:String x:Key="String.Info.Copy.TrackNum">Track {0}</system:String>
-    <system:String x:Key="String.Info.Copy.Tracklist">Track List</system:String>
-    <system:String x:Key="String.Info.Copy.Tracklist.Of">Track List of {0}</system:String>
-    <system:String x:Key="String.Info.Copy.TopTracks.From">Popular Tracks from {0}</system:String>
-    <system:String x:Key="String.Info.Copy.Album.TotalLength">Album Total Length</system:String>
-    <system:String x:Key="String.Info.Copy.Album.DiscsCount">Album Discs Count</system:String>
-    <system:String x:Key="String.Info.Copy.Playlist.Name">Playlist Name</system:String>
-    <system:String x:Key="String.Info.Copy.Playlist.Description">Playlist Description</system:String>
-    <system:String x:Key="String.Info.Copy.Playlist.Type">Playlist Type</system:String>
-    <system:String x:Key="String.Info.Copy.Playlist.ID">Playlist ID</system:String>
-    <system:String x:Key="String.Info.Copy.Playlist.TracksCount">Playlist Tracks Count</system:String>
-    <system:String x:Key="String.Info.Copy.Playlist.TotalLength">Playlist Total Length</system:String>
-    <system:String x:Key="String.Info.Copy.Playlist.Owner.Name">Owner Name</system:String>
-    <system:String x:Key="String.Info.Copy.Playlist.Owner.ID">Owner ID</system:String>
-    <system:String x:Key="String.Info.Copy.Artist.Followers">Followers</system:String>
-    <system:String x:Key="String.Info.Copy.User.DisplayName">User Display Name</system:String>
-    <system:String x:Key="String.Info.Copy.User.ID">User ID</system:String>
-    <system:String x:Key="String.Info.Copy.User.Followers">Followers</system:String>
+    <system:String x:Key="String.Info.Copy.DiscNum">Disco {0}</system:String>
+    <system:String x:Key="String.Info.Copy.TrackNum">Traccia {0}</system:String>
+    <system:String x:Key="String.Info.Copy.Tracklist">Elenco brani</system:String>
+    <system:String x:Key="String.Info.Copy.Tracklist.Of">Elenco brani di {0}</system:String>
+    <system:String x:Key="String.Info.Copy.TopTracks.From">Brani popolari di {0}</system:String>
+    <system:String x:Key="String.Info.Copy.Album.TotalLength">Durata totale album</system:String>
+    <system:String x:Key="String.Info.Copy.Album.DiscsCount">Numero di dischi dell’album</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Name">Nome playlist</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Description">Descrizione playlist</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Type">Tipo di playlist</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.ID">ID playlist</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.TracksCount">Numero di brani della playlist</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.TotalLength">Durata totale playlist</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Owner.Name">Nome proprietario</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Owner.ID">ID proprietario</system:String>
+    <system:String x:Key="String.Info.Copy.Artist.Followers">Follower</system:String>
+    <system:String x:Key="String.Info.Copy.User.DisplayName">Nome visualizzato utente</system:String>
+    <system:String x:Key="String.Info.Copy.User.ID">ID utente</system:String>
+    <system:String x:Key="String.Info.Copy.User.Followers">Follower</system:String>
 
     <!--  Page Apple Music Lyrics  -->
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip1">Click to close</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip2">Swipe left or right to maximize</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip3">Swipe down to minimize</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip4">Right press to control lyrics position</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Close">Exit Apple Music Lyrics</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MaximizeWindow">Fullscreen</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.RestoreWindow">Restore Window</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MinimizeWindow">Minimize Window</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToCurrentLine">View Current Line</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToFirstLine">View First Line</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToLastLine">View Last Line</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.None">No Operation</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip1">Clicca per chiudere</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip2">Scorri a sinistra o destra per massimizzare</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip3">Scorri verso il basso per minimizzare</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip4">Premi con il tasto destro per controllare la posizione dei testi</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Close">Esci da Testi Apple Music</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MaximizeWindow">Schermo intero</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.RestoreWindow">Ripristina finestra</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MinimizeWindow">Minimizza finestra</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToCurrentLine">Vai alla riga corrente</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToFirstLine">Vai alla prima riga</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToLastLine">Vai all’ultima riga</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.None">Nessuna operazione</system:String>
 
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToArtist">Go to Artist</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToAlbum">Go to Album</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToPlaylist">Go to Playlist</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.AddToLibrary">Add to Library</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.DeleteFromLibrary">Delete from Library</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">Show Artist</system:String>
-    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Show Album</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToArtist">Vai all’artista</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToAlbum">Vai all’album</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToPlaylist">Vai alla playlist</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.AddToLibrary">Aggiungi alla libreria</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.DeleteFromLibrary">Rimuovi dalla libreria</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">Mostra artista</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Mostra album</system:String>
 
-    <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Written By: </system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Scritto da: </system:String>
 
     <!--  Page Windows Update Lyrics  -->
-    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.10">Working on updates</system:String>
-    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.8">Configuring Windows updates</system:String>
-    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.11">You are {0}% there.</system:String>
-    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.10">{0}% complete</system:String>
-    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.11">Please keep your computer on.</system:String>
-    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.10">Don't turn off your computer</system:String>
-    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.8">Do not turn off your computer.</system:String>
-    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.11">Your computer may restart a few times.</system:String>
-    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.10">Your PC may restart several times.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.10">Sto lavorando sugli aggiornamenti</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.8">Configurazione degli aggiornamenti di Windows</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.11">Sei al {0}%.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.10">{0}% completato</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.11">Ti preghiamo di lasciare il computer acceso.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.10">Non spegnere il computer</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.8">Non spegnere il computer.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.11">Il computer potrebbe riavviarsi alcune volte.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.10">Il PC potrebbe riavviarsi più volte.</system:String>
 
     <!--  Page Windows Blue Screen Lyrics  -->
-    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary">Your device ran into a problem and needs to restart.</system:String>
-    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary.WithTrackName">{0} ran into a problem and needs to restart.</system:String>
-    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full">Your device ran into a problem and needs to restart. We're just collecting some error info, and then we'll restart for you.</system:String>
-    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full.WithTrackName" xml:space="preserve">{0} ran into a problem and needs to restart. &#x0A;We're just collecting some error info, and then we'll restart for you.</system:String>
-    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.PercentComplete">{0}% complete</system:String>
-    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Main">For more information about this issue and possible fixes, visit https://lyricify.app</system:String>
-    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Call">If you call a support person, give them this info:</system:String>
-    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.StopCode">Stop code: {0}</system:String>
-    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Artist">Artist: {0}</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary">Il tuo dispositivo ha riscontrato un problema e deve essere riavviato.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary.WithTrackName">{0} ha riscontrato un problema e deve essere riavviato.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full">Il tuo dispositivo ha riscontrato un problema e deve essere riavviato. Stiamo raccogliendo alcune informazioni sull’errore, quindi riavvieremo per te.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full.WithTrackName" xml:space="preserve">{0} ha riscontrato un problema e deve essere riavviato. &#x0A;Stiamo raccogliendo alcune informazioni sull’errore, quindi riavvieremo per te.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.PercentComplete">{0}% completato</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Main">Per maggiori informazioni su questo problema e sulle possibili soluzioni, visita https://lyricify.app</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Call">Se contatti il supporto, comunica queste informazioni:</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.StopCode">Codice di arresto: {0}</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Artist">Artista: {0}</system:String>
 
     <!--  Page About  -->
-    <system:String x:Key="String.Page.About.Title">About</system:String>
-    <system:String x:Key="String.Page.About.NonPublicWarning">THIS IS NOT A PUBLIC RELEASE, DO NOT SPREAD PLEASE!</system:String>
-    <system:String x:Key="String.Page.About.Architecture.32Bits">32-Bit</system:String>
-    <system:String x:Key="String.Page.About.Architecture.64Bits">64-Bit</system:String>
-    <system:String x:Key="String.Page.About.Architecture.Emulated">{0} emulated</system:String>
-    <system:String x:Key="String.Page.About.Portable">Portable Version</system:String>
-    <system:String x:Key="String.Page.About.Portable.RunningArchitecture">Portable version running on {0}</system:String>
-    <system:String x:Key="String.Page.About.MicrosoftStore">Microsoft Store Version</system:String>
-    <system:String x:Key="String.Page.About.MicrosoftStore.Purchased">Purchased Microsoft Store Version</system:String>
-    <system:String x:Key="String.Page.About.MicrosoftStore.Trial">Microsoft Store Trial Version</system:String>
-    <system:String x:Key="String.Page.About.MadeWithHeart">Made with ❤️ by WXRIW</system:String>
+    <system:String x:Key="String.Page.About.Title">Informazioni</system:String>
+    <system:String x:Key="String.Page.About.NonPublicWarning">QUESTA NON È UNA VERSIONE PUBBLICA, NON DIFFONDERE PER FAVORE!</system:String>
+    <system:String x:Key="String.Page.About.Architecture.32Bits">32 bit</system:String>
+    <system:String x:Key="String.Page.About.Architecture.64Bits">64 bit</system:String>
+    <system:String x:Key="String.Page.About.Architecture.Emulated">{0} emulato</system:String>
+    <system:String x:Key="String.Page.About.Portable">Versione portatile</system:String>
+    <system:String x:Key="String.Page.About.Portable.RunningArchitecture">Versione portatile in esecuzione su {0}</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore">Versione Microsoft Store</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Purchased">Versione Microsoft Store acquistata</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Trial">Versione di prova Microsoft Store</system:String>
+    <system:String x:Key="String.Page.About.MadeWithHeart">Creato con ❤️ da WXRIW</system:String>
     <system:String x:Key="String.Page.About.Copyright">Copyright © {0} WXRIW</system:String>
-    <system:String x:Key="String.Page.About.LyricsProvidedBy">Lyrics provided by</system:String>
+    <system:String x:Key="String.Page.About.LyricsProvidedBy">Testi forniti da</system:String>
     <system:String x:Key="String.Page.About.LyricsProviders">Lyricify Lyrics Vault, QQ Music, Netease Cloud Music</system:String>
-    <system:String x:Key="String.Page.About.Donation">Donation</system:String>
-    <system:String x:Key="String.Page.About.Thanklist">Thanklist</system:String>
-    <system:String x:Key="String.Page.About.Thanklist.SupporterListInfo">Sort by amount and time, list updated on {0}</system:String>
-    <system:String x:Key="String.Page.About.Thanklist.ThanksApple">Special thanks to Apple for the fascinating and unique design</system:String>
-    <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">Special thanks to Spotify for its contribution to the whole music streaming industry</system:String>
-    <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">Special thanks to Difer for providing Spotify Premium account</system:String>
-    <system:String x:Key="String.Page.About.Thanklist.ThanksInsiders">Special thanks to our insiders</system:String>
-    <system:String x:Key="String.Page.About.Thanklist.ThanksStorePurchase">Thanks to all users who have purchased Lyricify on Microsoft Store</system:String>
-    <system:String x:Key="String.Page.About.Internationalization">Internationalization</system:String>
-    <system:String x:Key="String.Page.About.References">References</system:String>
-    <system:String x:Key="String.Page.About.References.MITLicense.Brackets">(MIT License)</system:String>
-    <system:String x:Key="String.Page.About.References.WTFPLLicense.Brackets">(WTFPL License)</system:String>
-    <system:String x:Key="String.Page.About.References.Apache2.Brackets">(Apache License 2.0)</system:String>
-    <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(LGPL License 2.1)</system:String>
-    <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(No License)</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming">Copyright Claiming</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">Copyright © {0} WXRIW, All Rights Reserved</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Main Window UI Design, Mobile UI Fullscreen Design, Spotify Circular Copyright © Spotify AB</system:String>
-    <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music Lyrics UI Design, SF Pro, PingFang SC Copyright © Apple Inc.</system:String>
+    <system:String x:Key="String.Page.About.Donation">Donazione</system:String>
+    <system:String x:Key="String.Page.About.Thanklist">Ringraziamenti</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.SupporterListInfo">Ordinati per importo e data, elenco aggiornato al {0}</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksApple">Un ringraziamento speciale ad Apple per il design affascinante e unico</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">Un ringraziamento speciale a Spotify per il suo contributo all’intera industria dello streaming musicale</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">Un ringraziamento speciale a Difer per aver fornito un account Spotify Premium</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksInsiders">Un ringraziamento speciale ai nostri insider</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksStorePurchase">Grazie a tutti gli utenti che hanno acquistato Lyricify sul Microsoft Store</system:String>
+    <system:String x:Key="String.Page.About.Internationalization">Internazionalizzazione</system:String>
+    <system:String x:Key="String.Page.About.References">Riferimenti</system:String>
+    <system:String x:Key="String.Page.About.References.MITLicense.Brackets">(Licenza MIT)</system:String>
+    <system:String x:Key="String.Page.About.References.WTFPLLicense.Brackets">(Licenza WTFPL)</system:String>
+    <system:String x:Key="String.Page.About.References.Apache2.Brackets">(Licenza Apache 2.0)</system:String>
+    <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(Licenza LGPL 2.1)</system:String>
+    <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(Nessuna licenza)</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming">Rivendicazione copyright</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">Copyright © {0} WXRIW, tutti i diritti riservati</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Design interfaccia finestra principale, design schermo intero interfaccia mobile, Spotify Circular Copyright © Spotify AB</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Design interfaccia Testi Apple Music, SF Pro, PingFang SC Copyright © Apple Inc.</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Isolation">Isolation™ Inside, Copyright © Storyteller Studios</system:String>
 
     <!--  Page Settings  -->
