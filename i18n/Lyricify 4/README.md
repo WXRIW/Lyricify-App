@@ -12,5 +12,6 @@ You can make contributions to Lyricify by translating it into your languages.
 | Russian (Pусский) | ru-RU | 6 | [@TSAVPYN](https://github.com/tsavpyn) |
 | Turkish (Türkçe) | tr-TR | 7 | [@WINZORT](https://github.com/mikropsoft) |
 | Indonesian (Bahasa Indonesia) | id-ID | 8 | [@dionarya23](https://github.com/dionarya23) |
+| Italian (Italiano) | it-IT | 9 | [@pascal-00](https://github.com/pascal-00) |
 
 1. <span id="ref1">This index is the sequence code stored in the settings file. Null means that this language is not embedded within the app.</span>  
