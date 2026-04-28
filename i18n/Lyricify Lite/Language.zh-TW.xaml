@@ -16,6 +16,7 @@
     <system:String x:Key="String.NotifyIcon.Menu.Debug">除錯</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.AboutAndHelp">關於 &amp; 幫助</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.About">關於</system:String>
+    <system:String x:Key="String.NotifyIcon.Menu.About.UserGuide">Lyricify Lite 使用指南</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.About.Follow">追蹤</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.About.Follow.NeteaseCloudMusic">網易雲音樂</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.About.Follow.Bilibili">嗶哩嗶哩</system:String>
@@ -62,17 +63,47 @@
     <system:String x:Key="String.Settings.Lyrics.ChineseLongSentenceSegmentation.Description">啟用中文長句分割 (重新整理歌詞後生效)</system:String>
     <system:String x:Key="String.Settings.Lyrics.ShowExplicitLyrics">顯示髒話</system:String>
     <system:String x:Key="String.Settings.Lyrics.ShowExplicitLyrics.Description">關閉此選項，髒話將會被取代為星號</system:String>
-    <system:String x:Key="String.Settings.Lyrics.Source.NeteaseSyllable">網易雲音樂逐字歌詞</system:String>
-    <system:String x:Key="String.Settings.Lyrics.Source.NeteaseSyllable.Description">啟用網易雲音樂逐字歌詞</system:String>
-    <system:String x:Key="String.Settings.Lyrics.Source.Musixmatch">啟用 Musixmatch</system:String>
-    <system:String x:Key="String.Settings.Lyrics.Source.Musixmatch.Description">將 Musixmatch 作為備用歌詞來源</system:String>
-    <system:String x:Key="String.Settings.Lyrics.Source.MusixmatchSyllable">Musixmatch 逐字歌詞</system:String>
-    <system:String x:Key="String.Settings.Lyrics.Source.MusixmatchSyllable.Description">啟用 Musixmatch 逐字歌詞</system:String>
     <system:String x:Key="String.Settings.Lyrics.EnableColorfulEmoji">彩色 Emoji</system:String>
     <system:String x:Key="String.Settings.Lyrics.EnableColorfulEmoji.Description">繪製時使用彩色 Emoji (表情符號) (並非所有介面都支援彩色 Emoji)</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources">歌詞來源</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Badge.Enabled">已啟用</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Badge.Disabled">已停用</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Badge.Configured">已配置</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Badge.NeedConfiguration">需要設定</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Button.Config">配置</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Configurations">配置</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Preferences">偏好</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Advanced">高級</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.EnableSource">啟用本字源</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.EnableSource.Description">啟用或停用本歌詞來源</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.WordByWordLyrics">逐字歌詞</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.WordByWordLyrics.Description">啟用逐字歌詞</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.WordByWordOptimization">逐字歌詞優化</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.WordByWordOptimization.Description">啟用逐字歌詞優化</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.LyricsCapitalizationNormalization">歌詞大小寫規範化</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.LyricsCapitalizationNormalization.Description">當歌詞全部為大寫或小寫時，對其大小寫進行規範化處理</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.AppleMusicAuthorization">Apple Music 授權</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.AppleMusicAuthorization.Description">手動輸入 Media User Token，或透過內嵌網頁登入自動取得</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.AppleMusicAuthorization.Notice.SubscriptionNeeded">需要有效的 Apple Music 訂閱。</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.AppleMusicAuthorization.Button.SignInToGetToken">登入取得 Token</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.AppleMusicAuthorization.Button.Save">儲存</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.AppleMusicAuthorization.Button.Clear">清除</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.SpotifyAuthorization">Spotify 授權</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.SpotifyAuthorization.Description">手動輸入 sp_dc，或透過內嵌網頁登入自動取得</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.SpotifyAuthorization.Button.SignInToGetToken">登入取得 sp_dc</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.SpotifyAuthorization.Button.Save">儲存</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.SpotifyAuthorization.Button.Clear">清除</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.LyricsLatency">歌詞延遲</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Tips.AfterApply">部分設定將在下次取得歌詞時生效。</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Tips.Configuration">以下設定可能帶來風險，我們不對由此產生的後果負責。</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Tips.Advanced">高級設置，僅在你了解其作用的情況下進行配置。</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Button.ResetAllSettings">重設所有設定</system:String>
     <system:String x:Key="String.Settings.PerApp">逐應用程式配置</system:String>
     <system:String x:Key="String.Settings.PerApp.NoApps.Title">無可用應用程式</system:String>
     <system:String x:Key="String.Settings.PerApp.NoApps.Description">在支援 SMTC 的應用程式中播放音樂以載入設定。</system:String>
+    <system:String x:Key="String.Settings.PerApp.Notice.LearnMore">了解更多</system:String>
+    <system:String x:Key="String.Settings.PerApp.SystemIssue.Title">SMTC 無法使用</system:String>
+    <system:String x:Key="String.Settings.PerApp.SystemIssue.Description" xml:space="preserve">目前系統無法啟動或使用 SMTC，因此 Lyricify Lite 無法偵測應用程式工作階段。&#x000A;&#x000A;這通常是系統元件或服務被精簡、停用或異常導致的問題，並非 Lyricify Lite 的設定問題。</system:String>
     <system:String x:Key="String.Settings.PerApp.EnableApp">啟用應用程式</system:String>
     <system:String x:Key="String.Settings.PerApp.EnableApp.Description">為此應用程式啟用 Lyricify Lite 中的歌詞</system:String>
     <system:String x:Key="String.Settings.PerApp.SessionLatency">工作階段延遲</system:String>
@@ -80,8 +111,12 @@
     <system:String x:Key="String.Settings.PerApp.LyricsSources">歌詞來源</system:String>
     <system:String x:Key="String.Settings.PerApp.LyricsSources.Items.MoveUp">上移</system:String>
     <system:String x:Key="String.Settings.PerApp.LyricsSources.Items.MoveDown">下移</system:String>
+    <system:String x:Key="String.Settings.PerApp.LyricsSources.Items.Enable">啟用</system:String>
+    <system:String x:Key="String.Settings.PerApp.LyricsSources.Items.Disable">停用</system:String>
     <system:String x:Key="String.Settings.PerApp.EnableLyrics">啟用歌詞</system:String>
     <system:String x:Key="String.Settings.PerApp.EnableLyrics.Description">啟用本 app 的歌詞，否則將只顯示曲目資訊</system:String>
+    <system:String x:Key="String.Settings.PerApp.EnableLastFmScrobble">Last.fm Scrobble</system:String>
+    <system:String x:Key="String.Settings.PerApp.EnableLastFmScrobble.Description">為此 app 啟用 Last.fm 播放記錄上報</system:String>
     <system:String x:Key="String.Settings.PerApp.Advanced">進階</system:String>
     <system:String x:Key="String.Settings.PerApp.UseInternalTimer">使用內建計時器</system:String>
     <system:String x:Key="String.Settings.PerApp.UseInternalTimer.Description">有些 app 會傳遞異常時間軸，開啟本選項將封鎖 app 傳入的時間軸，並強制啟用內建計時器。</system:String>
@@ -228,6 +263,10 @@
     <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode.ComboBox.Light">淺色</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.AutoHide">自動隱藏</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.AutoHide.Description">開啟後，工作列歌詞將在暫停時自動隱藏</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.KaraokeMode">卡拉 OK 模式</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.KaraokeMode.Description">當歌詞包含逐字時間軸時，為工作列歌詞啟用逐字進度效果</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.TrackInfoOnly">僅顯示歌曲資訊</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.TrackInfoOnly.Description">開啟後，工作列歌詞將只顯示歌名和藝人名，不顯示歌詞</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.FontSizeScale">字號縮放</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.FontSizeScale.Description">設定字體大小縮放</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LargerText">更大的文字</system:String>
@@ -246,6 +285,8 @@
     <system:String x:Key="String.Settings.TaskbarLyrics.ControlButtons.Description">顯示播放控制按鈕</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricifyLogo">Lyricify 標誌</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricifyLogo.Description">在專輯圖片上方展示 Lyricify 標誌 (Logo)</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.CustomVerticalAdjustments">縱向調整</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.CustomVerticalAdjustments.Description">縱向微調工作列歌詞。第一個數值表示垂直偏移量，第二個數值表示歌詞行間距</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.CustomMaxWidth">自訂最大寬度</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.CustomMaxWidth.Description">如果你希望視窗寬度不超過某一值，則可以設定自訂最大寬度</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.CustomMargin">自訂邊距</system:String>
@@ -355,6 +396,20 @@
     <system:String x:Key="String.Settings.Advanced.Proxy.Button.Test.Result.Disconnected">未連通</system:String>
     <system:String x:Key="String.Settings.Advanced.Proxy.Button.Apply">套用</system:String>
     <system:String x:Key="String.Settings.Advanced.Proxy.Notice">部分功能需要重啟才能生效。</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm">Last.fm</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Description">使用 Last.fm 記錄播放記錄</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Status.NotLoggedIn">未登入</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Status.LoggedIn">已登入</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.User">目前帳號：{0}</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.AutoEnableNewApps">自動啟用新增應用的記錄</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.AppList">應用清單</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Button.Login">登入</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Button.Refresh">重新整理</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Button.Logout">登出</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Button.EnableAll">全部啟用</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Button.DisableAll">全部停用</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Auth.Success">Last.fm 授權成功。</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Auth.Failed">Last.fm 授權失敗。</system:String>
     <system:String x:Key="String.Settings.Advanced.SettingsFile">設定檔</system:String>
     <system:String x:Key="String.Settings.Advanced.SettingsFile.Description">直接編輯設定檔 (進階)</system:String>
     <system:String x:Key="String.Settings.Advanced.SettingsFile.Button.Open">開啟</system:String>
@@ -380,6 +435,8 @@
     <system:String x:Key="String.About.MicrosoftStore">Microsoft Store 版本</system:String>
     <system:String x:Key="String.About.MicrosoftStore.Purchased">已購買的 Microsoft Store 版本</system:String>
     <system:String x:Key="String.About.MicrosoftStore.Trial">Microsoft Store 試用版本</system:String>
+    <system:String x:Key="String.About.MicrosoftStore.Licensed.Purchased">使用 Microsoft Store 已購買許可</system:String>
+    <system:String x:Key="String.About.MicrosoftStore.Licensed.Trial">使用 Microsoft Store 試用許可</system:String>
     <system:String x:Key="String.About.MadeWithHeart">由 WXRIW 用 ❤️ 製作</system:String>
     <system:String x:Key="String.About.Copyright">版權所有 © {0} WXRIW</system:String>
     <system:String x:Key="String.About.LyricsProvidedBy">歌詞提供者</system:String>
@@ -424,6 +481,7 @@
     <system:String x:Key="String.Sources.Lyrics.QQMusic">QQ 音樂</system:String>
     <system:String x:Key="String.Sources.Lyrics.NeteaseMusic">網易雲音樂</system:String>
     <system:String x:Key="String.Sources.Lyrics.KugouMusic">酷狗音樂</system:String>
+    <system:String x:Key="String.Sources.Lyrics.SodaMusic">汽水音樂</system:String>
 
     <system:String x:Key="String.Sources.Sessions.GrooveMusic">Groove 音樂</system:String>
     <system:String x:Key="String.Sources.Sessions.NeteaseMusic">網易雲音樂</system:String>
@@ -431,6 +489,12 @@
     <system:String x:Key="String.Sources.Sessions.QQMusic">QQ 音樂</system:String>
     <system:String x:Key="String.Sources.Sessions.QQMusicUwp">QQ 音樂 UWP</system:String>
     <system:String x:Key="String.Sources.Sessions.KugouMusic">酷狗音樂</system:String>
+    <system:String x:Key="String.Sources.Sessions.SodaMusic">汽水音樂</system:String>
+    <system:String x:Key="String.Sources.Sessions.NeteaseBaoMiHua">網易爆米花</system:String>
+    <system:String x:Key="String.Sources.Sessions.Bilibili">嗶哩嗶哩</system:String>
+    <system:String x:Key="String.Sources.Sessions.Douyin">抖音</system:String>
+    <system:String x:Key="String.Sources.Sessions.WeChat">微信</system:String>
+    <system:String x:Key="String.Sources.Sessions.Photos">相片</system:String>
     <system:String x:Key="String.Sources.Sessions.Unknown">未知工作階段</system:String>
 
     <system:String x:Key="String.Windows.Welcome">歡迎 - Lyricify Lite</system:String>
@@ -451,6 +515,10 @@
     <system:String x:Key="String.Windows.Welcome.Button.Continue">繼續</system:String>
     <system:String x:Key="String.Windows.Welcome.Button.Finish">完成</system:String>
 
+    <system:String x:Key="String.Windows.ChangeLog.Title">新增功能</system:String>
+    <system:String x:Key="String.Windows.ChangeLog.Description">Lyricify Lite 已更新至 {0} 版本，以下是本次的更新內容。</system:String>
+    <system:String x:Key="String.Windows.ChangeLog.Button.Continue">繼續</system:String>
+
     <system:String x:Key="String.Windows.FontSelector">字型選擇工具</system:String>
     <system:String x:Key="String.Windows.FontSelector.InstalledFonts">已安裝的字型</system:String>
     <system:String x:Key="String.Windows.FontSelector.SetFontFamily">設定字型家族</system:String>
@@ -465,6 +533,8 @@
     <system:String x:Key="String.Windows.FontSelector.Cancel">取消</system:String>
 
     <system:String x:Key="String.Windows.Debug">除錯</system:String>
+    <system:String x:Key="String.Windows.Debug.CurrentPlaybackSource">目前播放來源</system:String>
+    <system:String x:Key="String.Windows.Debug.CurrentPlaybackSource.NoActiveSource">無活動播放來源</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics">歌詞</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.MatchType">匹配程度</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.MatchType.Perfect">完美</system:String>
