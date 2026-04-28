@@ -434,6 +434,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.DynamicBeating">动态 (跳动)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Palette">调色盘算法</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Palette.Description">选择一个取色算法</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Dithering">减弱色彩断带</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Dithering.Description">通过抖动减弱 Isolation 背景中的色彩断带</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics">模糊歌词</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics.Description">在歌词上启用模糊效果</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">模糊程度</system:String>
@@ -676,8 +678,12 @@
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.FollowTaskbar">跟随任务栏 (默认)</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.Dark">深色</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.Light">浅色</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.KaraokeMode">卡拉 OK 模式</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.KaraokeMode.Description">在任务栏歌词中使用逐字高亮的卡拉 OK 样式</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.AutoHide">自动隐藏</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.AutoHide.Description">开启后，任务栏歌词将在暂停时自动隐藏</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TrackInfoOnly">仅显示歌曲信息</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TrackInfoOnly.Description">开启后，任务栏歌词将只显示歌名和艺人名，不显示歌词</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.FontSizeScale">字号缩放</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.FontSizeScale.Description">设置字体大小缩放</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LargerText">更大的文字</system:String>
@@ -696,6 +702,8 @@
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.ControlButtons.Description">显示播放控制按钮</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricifyLogo">Lyricify 标志</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricifyLogo.Description">在专辑图片上方展示 Lyricify 标志 (Logo)</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomVerticalAdjustments">纵向调整</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomVerticalAdjustments.Description">纵向微调任务栏歌词。第一个数值表示垂直偏移量，第二个数值表示歌词行间距</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMaxWidth">自定义最大宽度</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMaxWidth.Description">如果你希望窗口宽度不超过某一值，则可以设置自定义最大宽度</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMargin">自定义边距</system:String>
@@ -855,6 +863,7 @@
 
     <system:String x:Key="String.Menu.MainWindow.Main.About">关于 &amp; 帮助</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.About">关于</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.UserGuide">Lyricify 4 使用指南</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow">关注</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.NeteaseCloudMusic">网易云音乐</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Bilibili">哔哩哔哩</system:String>
@@ -1134,6 +1143,7 @@
     <system:String x:Key="String.Window.HotkeyManager.Description">你可以在这里管理全局快捷键。(使用退格键 (Backspace) 以清除快捷键)</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.DesktopLyrics">桌面歌词</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.DynamicLyricsIsland">灵动词岛</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.TaskbarLyrics">任务栏歌词</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.ResetWindow">重置窗口</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.PlayPause">播放 / 暂停</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.PreviousTrack">上一首</system:String>
@@ -1528,6 +1538,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.SslException">SSL 连接无法被建立。</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.SslException.Message">你的网络连接出了问题。请确保你可以连通 accounts.spotify.com 和 api.spotify.com。如果你在使用网络代理，可尝试更换节点或服务提供商。</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">喜报：Spotify 服务器寄了 (503 错误，服务不可用)，请稍后再试</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.ActivePremiumSubscriptionNeeded">你需要一个有效的 Spotify Premium 订阅才能够使用自定义 API Client</system:String>
 
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">极端 429 错误</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.HavePublic.Notice">你的自定义 API 客户端正经历着极端条件 (返回了等待时长为 {0} 秒的 429 错误)，Lyricify 将继续通过公共 API 客户端工作</system:String>

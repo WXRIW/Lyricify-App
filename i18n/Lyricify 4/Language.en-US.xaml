@@ -434,6 +434,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.DynamicBeating">Dynamic (Beating)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Palette">Palette algorithm</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Palette.Description">Select a color picking algorithm</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Dithering">Reduce color banding</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Dithering.Description">Reduce color banding in the Isolation background through dithering</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics">Blur lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics.Description">Enable blur effect on lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">Blur level</system:String>
@@ -676,8 +678,12 @@
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.FollowTaskbar">Follow taskbar (Default)</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.Dark">Dark</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.Light">Light</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.KaraokeMode">Karaoke mode</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.KaraokeMode.Description">Use karaoke-style word-by-word lyrics in Taskbar Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.AutoHide">Auto hide</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.AutoHide.Description">By turning on, Taskbar Lyrics will be hidden at pause</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TrackInfoOnly">Only show track info</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TrackInfoOnly.Description">By turning on, Taskbar Lyrics will only display the track title and artist name, without showing lyrics</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.FontSizeScale">Font size scale</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.FontSizeScale.Description">Set font size scaling</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LargerText">Larger text</system:String>
@@ -696,6 +702,8 @@
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.ControlButtons.Description">Display the playback control buttons</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricifyLogo">Lyricify logo</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricifyLogo.Description">Display the Lyricify logo above the album artwork</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomVerticalAdjustments">Vertical adjustments</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomVerticalAdjustments.Description">Make vertical adjustments for Taskbar Lyrics. The first value represents the vertical offset, and the second value represents the line spacing of the lyrics</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMaxWidth">Custom maximum width</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMaxWidth.Description">If you want the window width to not exceed a certain value, you can set a custom maximum width</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMargin">Custom margin</system:String>
@@ -855,6 +863,7 @@
 
     <system:String x:Key="String.Menu.MainWindow.Main.About">About &amp; Help</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.About">About</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.UserGuide">Lyricify 4 User Guide</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow">Follow</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.NeteaseCloudMusic">Netease Cloud Music</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Bilibili">Bilibili</system:String>
@@ -1529,6 +1538,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.SslException">The SSL connection could not be established.</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.SslException.Message">Somethings wrong with your Internet connection. Make sure accounts.spotify.com and api.spotify.com are accessible.</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">Spotify Service is currently not available (503 error), please try later</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.ActivePremiumSubscriptionNeeded">You need an active Spotify Premium subscription to use Custom API Client</system:String>
 
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">Extreme 429 Error</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.HavePublic.Notice">Your custom API client is under extreme condition (returning 429 error with a retry after of {0} seconds), Lyricify will continue to work using public API client</system:String>

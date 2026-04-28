@@ -16,6 +16,7 @@
     <system:String x:Key="String.NotifyIcon.Menu.Debug">Debug</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.AboutAndHelp">About &amp; Help</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.About">About</system:String>
+    <system:String x:Key="String.NotifyIcon.Menu.About.UserGuide">Lyricify Lite User Guide</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.About.Follow">Follow</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.About.Follow.NeteaseCloudMusic">Netease Cloud Music</system:String>
     <system:String x:Key="String.NotifyIcon.Menu.About.Follow.Bilibili">Bilibili</system:String>
@@ -62,17 +63,47 @@
     <system:String x:Key="String.Settings.Lyrics.ChineseLongSentenceSegmentation.Description">Enable Chinese long sentence segmentation (Takes effect after refreshing lyrics)</system:String>
     <system:String x:Key="String.Settings.Lyrics.ShowExplicitLyrics">Show explicit lyrics</system:String>
     <system:String x:Key="String.Settings.Lyrics.ShowExplicitLyrics.Description">By turning off, explicit words will be replaced with asterisks</system:String>
-    <system:String x:Key="String.Settings.Lyrics.Source.NeteaseSyllable">Netease word-by-word lyrics</system:String>
-    <system:String x:Key="String.Settings.Lyrics.Source.NeteaseSyllable.Description">Enable Netease Cloud Music word-by-word lyrics</system:String>
-    <system:String x:Key="String.Settings.Lyrics.Source.Musixmatch">Enable Musixmatch</system:String>
-    <system:String x:Key="String.Settings.Lyrics.Source.Musixmatch.Description">Use Musixmatch as backup source</system:String>
-    <system:String x:Key="String.Settings.Lyrics.Source.MusixmatchSyllable">Musixmatch word-by-word lyrics</system:String>
-    <system:String x:Key="String.Settings.Lyrics.Source.MusixmatchSyllable.Description">Enable Musixmatch word-by-word lyrics</system:String>
     <system:String x:Key="String.Settings.Lyrics.EnableColorfulEmoji">Colorful Emoji</system:String>
     <system:String x:Key="String.Settings.Lyrics.EnableColorfulEmoji.Description">Enable colorful emojis at rendering (not all interfaces support colorful emojis)</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources">Lyrics Sources</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Badge.Enabled">Enabled</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Badge.Disabled">Disabled</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Badge.Configured">Configured</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Badge.NeedConfiguration">Configuration Needed</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Button.Config">Config</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Configurations">Configurations</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Preferences">Preferences</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Advanced">Advanced</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.EnableSource">Enable this source</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.EnableSource.Description">Turn on or off this lyrics source</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.WordByWordLyrics">Word-by-word lyrics</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.WordByWordLyrics.Description">Enable word-by-word lyrics</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.WordByWordOptimization">Word-by-word optimization</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.WordByWordOptimization.Description">Enable word-by-word lyrics optimization</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.LyricsCapitalizationNormalization">Lyrics capitalization normalization</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.LyricsCapitalizationNormalization.Description">Normalizes capitalization when lyrics are entirely uppercase or lowercase</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.AppleMusicAuthorization">Apple Music authorization</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.AppleMusicAuthorization.Description">Manually enter your Media User Token, or use the built-in web login to obtain it automatically</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.AppleMusicAuthorization.Notice.SubscriptionNeeded">An active Apple Music subscription is required.</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.AppleMusicAuthorization.Button.SignInToGetToken">Sign in to get a token</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.AppleMusicAuthorization.Button.Save">Save</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.AppleMusicAuthorization.Button.Clear">Clear</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.SpotifyAuthorization">Spotify authorization</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.SpotifyAuthorization.Description">Manually enter your sp_dc, or use the built-in web login to obtain it automatically</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.SpotifyAuthorization.Button.SignInToGetToken">Sign in to get sp_dc</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.SpotifyAuthorization.Button.Save">Save</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.SpotifyAuthorization.Button.Clear">Clear</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.LyricsLatency">Lyrics latency</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Tips.AfterApply">Some settings will take effect the next time lyrics are fetched.</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Tips.Configuration">The settings below may pose risks. We are not responsible for any consequences.</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Tips.Advanced">Advanced settings. Configure only if you understand their effects.</system:String>
+    <system:String x:Key="String.Settings.Lyrics.LyricsSources.Button.ResetAllSettings">Reset all settings</system:String>
     <system:String x:Key="String.Settings.PerApp">Per-app</system:String>
     <system:String x:Key="String.Settings.PerApp.NoApps.Title">No apps available</system:String>
     <system:String x:Key="String.Settings.PerApp.NoApps.Description">Play music in apps with SMTC support to load the settings.</system:String>
+    <system:String x:Key="String.Settings.PerApp.Notice.LearnMore">Learn more</system:String>
+    <system:String x:Key="String.Settings.PerApp.SystemIssue.Title">SMTC unavailable</system:String>
+    <system:String x:Key="String.Settings.PerApp.SystemIssue.Description" xml:space="preserve">This system cannot start or use SMTC, so Lyricify Lite cannot detect app sessions. &#x000A;&#x000A;This is usually caused by missing, disabled, or modified system components or services rather than a Lyricify Lite setting issue.</system:String>
     <system:String x:Key="String.Settings.PerApp.EnableApp">Enable this app</system:String>
     <system:String x:Key="String.Settings.PerApp.EnableApp.Description">Enable lyrics in Lyricify Lite for this app</system:String>
     <system:String x:Key="String.Settings.PerApp.SessionLatency">Session latency</system:String>
@@ -80,8 +111,12 @@
     <system:String x:Key="String.Settings.PerApp.LyricsSources">Lyrics sources</system:String>
     <system:String x:Key="String.Settings.PerApp.LyricsSources.Items.MoveUp">Move up</system:String>
     <system:String x:Key="String.Settings.PerApp.LyricsSources.Items.MoveDown">Move down</system:String>
+    <system:String x:Key="String.Settings.PerApp.LyricsSources.Items.Enable">Enable</system:String>
+    <system:String x:Key="String.Settings.PerApp.LyricsSources.Items.Disable">Disable</system:String>
     <system:String x:Key="String.Settings.PerApp.EnableLyrics">Enable lyrics</system:String>
     <system:String x:Key="String.Settings.PerApp.EnableLyrics.Description">Enable lyrics for this app, otherwise only track information is displayed</system:String>
+    <system:String x:Key="String.Settings.PerApp.EnableLastFmScrobble">Last.fm scrobble</system:String>
+    <system:String x:Key="String.Settings.PerApp.EnableLastFmScrobble.Description">Enable Last.fm scrobble for this app</system:String>
     <system:String x:Key="String.Settings.PerApp.Advanced">Advanced</system:String>
     <system:String x:Key="String.Settings.PerApp.UseInternalTimer">Use internal timer</system:String>
     <system:String x:Key="String.Settings.PerApp.UseInternalTimer.Description">Some apps pass abnormal timelines. Turning on this option will block the timeline passed by the app and force the built-in timer to be enabled.</system:String>
@@ -228,6 +263,10 @@
     <system:String x:Key="String.Settings.TaskbarLyrics.ColorMode.ComboBox.Light">Light</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.AutoHide">Auto hide</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.AutoHide.Description">By turning on, Taskbar Lyrics will be hidden at pause</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.KaraokeMode">Karaoke mode</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.KaraokeMode.Description">Enable word-by-word progress for Taskbar Lyrics when timed syllables are available</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.TrackInfoOnly">Track info only</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.TrackInfoOnly.Description">When enabled, Taskbar Lyrics will only show the track title and artist, without displaying lyrics</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.FontSizeScale">Font size scale</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.FontSizeScale.Description">Set font size scaling</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LargerText">Larger text</system:String>
@@ -246,6 +285,8 @@
     <system:String x:Key="String.Settings.TaskbarLyrics.ControlButtons.Description">Display the playback control buttons</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricifyLogo">Show Lyricify logo</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.LyricifyLogo.Description">Display the Lyricify logo above the album artwork</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.CustomVerticalAdjustments">Vertical adjustments</system:String>
+    <system:String x:Key="String.Settings.TaskbarLyrics.CustomVerticalAdjustments.Description">Make vertical adjustments for Taskbar Lyrics. The first value represents the vertical offset, and the second value represents the line spacing of the lyrics</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.CustomMaxWidth">Custom maximum width</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.CustomMaxWidth.Description">If you want the window width to not exceed a certain value, you can set a custom maximum width</system:String>
     <system:String x:Key="String.Settings.TaskbarLyrics.CustomMargin">Custom margin</system:String>
@@ -308,7 +349,7 @@
     <system:String x:Key="String.Settings.DeviceLatency.Description">Set individual device latencies for each playback device.</system:String>
     <system:String x:Key="String.Settings.DeviceLatency.Description.Additional">This is designed for playback devices' latency (such as Bluetooth devices), do not use this for lyrics offset.</system:String>
     <system:String x:Key="String.Settings.DeviceLatency.DefaultLatency">Default latency</system:String>
-    <system:String x:Key="String.Settings.DeviceLatency.DefaultLatency.Description">A whole number in milliseconds, the default value is 0.</system:String>
+    <system:String x:Key="String.Settings.DeviceLatency.DefaultLatency.Description">A whole number in milliseconds, the default value is 0</system:String>
     <system:String x:Key="String.Settings.DeviceLatency.DeviceList">Device List</system:String>
     <system:String x:Key="String.Settings.DeviceLatency.DeviceItem.ComboBoxLatencyOption.Default">Default</system:String>
     <system:String x:Key="String.Settings.DeviceLatency.DeviceItem.ComboBoxLatencyOption.Custom">Custom</system:String>
@@ -355,6 +396,20 @@
     <system:String x:Key="String.Settings.Advanced.Proxy.Button.Test.Result.Disconnected">Disconnected</system:String>
     <system:String x:Key="String.Settings.Advanced.Proxy.Button.Apply">Apply</system:String>
     <system:String x:Key="String.Settings.Advanced.Proxy.Notice">Some functions might need a restart to take effect.</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm">Last.fm</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Description">Use Last.fm to record your listening history</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Status.NotLoggedIn">Not logged in</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Status.LoggedIn">Logged in</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.User">Current account: {0}</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.AutoEnableNewApps">Automatically enable scrobble for new apps</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.AppList">Apps</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Button.Login">Login</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Button.Refresh">Refresh</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Button.Logout">Logout</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Button.EnableAll">Enable all</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Button.DisableAll">Disable all</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Auth.Success">Last.fm authorization succeeded.</system:String>
+    <system:String x:Key="String.Settings.Advanced.LastFm.Auth.Failed">Last.fm authorization failed.</system:String>
     <system:String x:Key="String.Settings.Advanced.SettingsFile">Settings file</system:String>
     <system:String x:Key="String.Settings.Advanced.SettingsFile.Description">Directly edit settings file (Advanced)</system:String>
     <system:String x:Key="String.Settings.Advanced.SettingsFile.Button.Open">Open</system:String>
@@ -380,6 +435,8 @@
     <system:String x:Key="String.About.MicrosoftStore">Microsoft Store Version</system:String>
     <system:String x:Key="String.About.MicrosoftStore.Purchased">Purchased Microsoft Store Version</system:String>
     <system:String x:Key="String.About.MicrosoftStore.Trial">Microsoft Store Trial Version</system:String>
+    <system:String x:Key="String.About.MicrosoftStore.Licensed.Purchased">Licensed under Microsoft Store Purchased License</system:String>
+    <system:String x:Key="String.About.MicrosoftStore.Licensed.Trial">Licensed under Microsoft Store Trial License</system:String>
     <system:String x:Key="String.About.MadeWithHeart">Made with ❤️ by WXRIW</system:String>
     <system:String x:Key="String.About.Copyright">Copyright © {0} WXRIW</system:String>
     <system:String x:Key="String.About.LyricsProvidedBy">Lyrics provided by</system:String>
@@ -424,6 +481,7 @@
     <system:String x:Key="String.Sources.Lyrics.QQMusic">QQ Music</system:String>
     <system:String x:Key="String.Sources.Lyrics.NeteaseMusic">Netease Cloud Music</system:String>
     <system:String x:Key="String.Sources.Lyrics.KugouMusic">Kugou Music</system:String>
+    <system:String x:Key="String.Sources.Lyrics.SodaMusic">Soda Music</system:String>
 
     <system:String x:Key="String.Sources.Sessions.GrooveMusic">Groove Music</system:String>
     <system:String x:Key="String.Sources.Sessions.NeteaseMusic">Netease Cloud Music</system:String>
@@ -431,6 +489,12 @@
     <system:String x:Key="String.Sources.Sessions.QQMusic">QQ Music</system:String>
     <system:String x:Key="String.Sources.Sessions.QQMusicUwp">QQ Music UWP</system:String>
     <system:String x:Key="String.Sources.Sessions.KugouMusic">Kugou Music</system:String>
+    <system:String x:Key="String.Sources.Sessions.SodaMusic">Soda Music</system:String>
+    <system:String x:Key="String.Sources.Sessions.NeteaseBaoMiHua">Netease BaoMiHua</system:String>
+    <system:String x:Key="String.Sources.Sessions.Bilibili">Bilibili</system:String>
+    <system:String x:Key="String.Sources.Sessions.Douyin">Douyin</system:String>
+    <system:String x:Key="String.Sources.Sessions.WeChat">WeChat</system:String>
+    <system:String x:Key="String.Sources.Sessions.Photos">Photos</system:String>
     <system:String x:Key="String.Sources.Sessions.Unknown">Unknown Session</system:String>
 
     <system:String x:Key="String.Windows.Welcome">Welcome - Lyricify Lite</system:String>
@@ -451,6 +515,10 @@
     <system:String x:Key="String.Windows.Welcome.Button.Continue">Continue</system:String>
     <system:String x:Key="String.Windows.Welcome.Button.Finish">Finish</system:String>
 
+    <system:String x:Key="String.Windows.ChangeLog.Title">What's New</system:String>
+    <system:String x:Key="String.Windows.ChangeLog.Description">Lyricify Lite has been updated to version {0}. Here's what's new in this release.</system:String>
+    <system:String x:Key="String.Windows.ChangeLog.Button.Continue">Continue</system:String>
+
     <system:String x:Key="String.Windows.FontSelector">Font Selector</system:String>
     <system:String x:Key="String.Windows.FontSelector.InstalledFonts">Installed Fonts</system:String>
     <system:String x:Key="String.Windows.FontSelector.SetFontFamily">Set Font Family</system:String>
@@ -465,6 +533,8 @@
     <system:String x:Key="String.Windows.FontSelector.Cancel">Cancel</system:String>
 
     <system:String x:Key="String.Windows.Debug">Debug</system:String>
+    <system:String x:Key="String.Windows.Debug.CurrentPlaybackSource">Current playback source</system:String>
+    <system:String x:Key="String.Windows.Debug.CurrentPlaybackSource.NoActiveSource">No active source</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics">Lyrics</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.MatchType">Match Type</system:String>
     <system:String x:Key="String.Windows.Debug.Lyrics.MatchType.Perfect">Perfect</system:String>
