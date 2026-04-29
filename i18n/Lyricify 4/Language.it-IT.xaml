@@ -65,6 +65,7 @@
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.MobileUIFullscreen">Schermo intero interfaccia mobile</system:String>
     <system:String x:Key="String.MainWindow.BottomControl.ToolTip.LyricifyFullscreen">Lyricify a schermo intero</system:String>
 
+
     <!--
         Pages
     -->
@@ -211,13 +212,13 @@
     <system:String x:Key="String.AudioFeatures.AudioFeature.PitchClass">Classe di altezza (Tonalità)</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Loudness">Volume</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Tempo">Tempo</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Acousticness">Acousticness</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Danceability">Danceability</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Acousticness">Acusticità</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Danceability">Ballabilità</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Energy">Energia</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Instrumentalness">Instrumentalness</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Liveness">Liveness</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Speechiness">Speechiness</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Valence">Valence</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Instrumentalness">Strumentalità</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Liveness">Presenza dal vivo</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Speechiness">Parlato</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Valence">Valenza</system:String>
 
     <system:String x:Key="String.AudioFeatures.ToolTip.ClickCopy">Clicca per copiare</system:String>
     <system:String x:Key="String.AudioFeatures.Button.CopyIDs">Copia ID e ISRC</system:String>
@@ -433,6 +434,8 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.DynamicBeating">Dinamico (a ritmo)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Palette">Algoritmo palette</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Palette.Description">Seleziona un algoritmo di scelta colori</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Dithering">Riduci il banding dei colori</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Dithering.Description">Riduce il banding dei colori nello sfondo di isolamento tramite dithering</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics">Sfoca testi</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics.Description">Abilita l'effetto sfocatura sui testi</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">Livello sfocatura</system:String>
@@ -675,8 +678,12 @@
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.FollowTaskbar">Segui barra delle applicazioni (predefinito)</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.Dark">Scuro</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.Light">Chiaro</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.KaraokeMode">Modalità karaoke</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.KaraokeMode.Description">Usa testi in stile karaoke parola per parola in Taskbar Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.AutoHide">Nascondi automaticamente</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.AutoHide.Description">Se attivato, i Testi barra delle applicazioni verranno nascosti in pausa</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TrackInfoOnly">Mostra solo informazioni del brano</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TrackInfoOnly.Description">Attivando questa opzione, Taskbar Lyrics mostrerà solo il titolo del brano e il nome dell'artista, senza visualizzare il testo</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.FontSizeScale">Scala dimensione carattere</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.FontSizeScale.Description">Imposta la scala della dimensione del carattere</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LargerText">Testo più grande</system:String>
@@ -695,12 +702,14 @@
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.ControlButtons.Description">Mostra i pulsanti di controllo della riproduzione</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricifyLogo">Logo Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricifyLogo.Description">Mostra il logo Lyricify sopra la copertina dell'album</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomVerticalAdjustments">Regolazioni verticali</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomVerticalAdjustments.Description">Consente di regolare verticalmente Taskbar Lyrics. Il primo valore rappresenta l'offset verticale, il secondo l'interlinea del testo</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMaxWidth">Larghezza massima personalizzata</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMaxWidth.Description">Se vuoi che la larghezza della finestra non superi un certo valore, puoi impostare una larghezza massima personalizzata</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMargin">Margine personalizzato</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMargin.Description">Se la finestra necessita di piccoli aggiustamenti di posizione o è coperta da altri strumenti della barra delle applicazioni, puoi risolvere configurando margini personalizzati (in pixel)</system:String>
     <system:String x:Key="String.Page.Settings.Functions">Funzioni</system:String>
-    <system:String x:Key="String.Page.Settings.Functions.FollowFeed">Follow Feed</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed">Segui feed</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.Description">Ricevi le nuove uscite</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup">Controlla all'avvio</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup.Description">Controlla le nuove uscite ogni volta che avvii Lyricify</system:String>
@@ -721,7 +730,7 @@
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">Abilita ricollegamento copertina brano</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Usa la copertina ricollegata invece della copertina del brano originale quando il brano è ricollegato</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">La disponibilità di un brano dipende dal paese registrato nelle impostazioni del profilo Spotify dell'utente. Spesso Spotify ha diverse istanze di un brano nel suo catalogo, ciascuna disponibile in insiemi di mercati diversi. Questo avviene comunemente quando il brano su cui si trova l'album è stato pubblicato più volte con licenze diverse in diversi mercati. &#x000A;&#x000A;Questi brani sono collegati tra loro, per cui quando un utente cerca di riprodurre un brano non disponibile nel proprio mercato, i client Spotify per dispositivi mobili, desktop e web cercano di riprodurre un'altra istanza del brano disponibile nel mercato dell'utente.</system:String>
-    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine">Lyricify Intelligent Engine</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine">Motore intelligente Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description">Fornisce una potente tecnologia intelligente e supporto funzionale per il collegamento e l'interazione tra Lyricify e Spotify</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description.Premium">È necessario un abbonamento Spotify Premium!</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Button.GetPremium">Passa a Spotify Premium</system:String>
@@ -854,6 +863,7 @@
 
     <system:String x:Key="String.Menu.MainWindow.Main.About">Informazioni e aiuto</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.About">Informazioni</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.UserGuide">Guida utente di Lyricify 4</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow">Segui</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.NeteaseCloudMusic">Netease Cloud Music</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Bilibili">Bilibili</system:String>
@@ -899,6 +909,7 @@
     <system:String x:Key="String.Menu.AppleMusicLyrics.Blur">Sfoca testi</system:String>
     <system:String x:Key="String.Menu.AppleMusicLyrics.BoldText">Testo in grassetto</system:String>
     <system:String x:Key="String.Menu.AppleMusicLyrics.Translation">Traduzione cinese</system:String>
+
 
     <!--  Notification Icon  -->
     <system:String x:Key="String.Menu.NotificationIcon.UnlockDesktopLyrics">Sblocca Testi desktop</system:String>
@@ -959,6 +970,8 @@
     <system:String x:Key="String.Menu.Track.CopySpotifyLink">Copia link Spotify</system:String>
     <system:String x:Key="String.Menu.Track.ShowInSpotify">Mostra in Spotify</system:String>
 
+
+
     <!--  Tools  -->
     <system:String x:Key="String.Tools.Page.RefreshButton">Ricarica</system:String>
 
@@ -977,6 +990,8 @@
 
     <system:String x:Key="String.Tools.DisplayItem.Artist">Artista</system:String>
     <system:String x:Key="String.Tools.DisplayItem.By">Di {0}</system:String>
+
+
 
     <!--
         Windows
@@ -1236,7 +1251,6 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease">Netease Cloud Music</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox">Inserisci Netease Cloud Music Song Id o il link di condivisione per ottenere i testi da Netease Cloud Music.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox.Failed.Input">Song Id di Netease Cloud Music errato, controlla l'input.</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox.Failed.Link">Impossibile ottenere il Song Id di Netease Cloud Music dal link di condivisione.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Reset">Reimposta</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Reset.Description">Reimposta tutte le modifiche</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo">Aggiorna info locali</system:String>
@@ -1285,14 +1299,14 @@
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportKugouLyrics">Importa Testi Kugou</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">Ottieni testi QRC</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetLyricifySyllable">Ottieni testi Lyricify Syllable</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">Syllable Line Creator</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">Creatore di righe sillabiche</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.StartRecord">Avvia registrazione</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.StopRecord">Interrompi registrazione</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.Clear">Pulisci</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.InputLyrics">Importa testi</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.OutputLyrics">Esporta testi</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.ChangeStartTime">Modifica ora di inizio</system:String>
-    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">Syllable Line Mover</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">Spostatore di righe sillabiche</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.CopyCurrentTime">Copia ora corrente</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.GetTimestampByMillisecond">Ottieni timestamp dai millisecondi</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.MoveTo">Sposta a</system:String>
@@ -1335,7 +1349,7 @@
     <system:String x:Key="String.Window.LyricifyAccount.Title.Set">Imposta una password per il tuo account Lyricify {0}</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Title.Change">Cambia la password del tuo account Lyricify {0}</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Account.Administrator">Amministratore</system:String>
-    <system:String x:Key="String.Window.LyricifyAccount.Account.Manager">Manager</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Manager">Responsabile</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Account.Insider">Insider</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Message.EmptyPassword">La password è vuota</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Message.EmptyOldPassword">La password attuale è vuota</system:String>
@@ -1524,6 +1538,7 @@
     <system:String x:Key="String.Messages.MainWindow.Exception.SslException">Impossibile stabilire la connessione SSL.</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.SslException.Message">C'è qualcosa che non va con la tua connessione Internet. Assicurati che accounts.spotify.com e api.spotify.com siano accessibili.</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">Il servizio Spotify non è attualmente disponibile (errore 503), riprova più tardi</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.ActivePremiumSubscriptionNeeded">È necessario un abbonamento Spotify Premium attivo per utilizzare il client API personalizzato</system:String>
 
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">Errore 429 estremo</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.HavePublic.Notice">Il tuo client API personalizzato è in condizioni estreme (restituisce errore 429 con riprova dopo {0} secondi), Lyricify continuerà a funzionare usando il client API pubblico</system:String>
