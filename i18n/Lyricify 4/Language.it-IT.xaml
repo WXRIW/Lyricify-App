@@ -1,0 +1,1690 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!--
+        MainWindow
+    -->
+
+    <!--  Navigation Panel  -->
+    <system:String x:Key="String.MainWindow.Navigation.Home">Home</system:String>
+    <system:String x:Key="String.MainWindow.Navigation.Search">Cerca</system:String>
+    <system:String x:Key="String.MainWindow.Navigation.YourLibrary">La tua libreria</system:String>
+    <system:String x:Key="String.MainWindow.Navigation.LikedSongs">Brani che ti piacciono</system:String>
+
+    <!--  Mobile Mode Navigation  -->
+    <system:String x:Key="String.MainWindow.Mobile.Navigation.Home">Home</system:String>
+    <system:String x:Key="String.MainWindow.Mobile.Navigation.Lyrics">Testi</system:String>
+    <system:String x:Key="String.MainWindow.Mobile.Navigation.Apple">Apple</system:String>
+
+    <!--  Login  -->
+    <system:String x:Key="String.MainWindow.Login.Welcome">Benvenuto in Lyricify, {0}!</system:String>
+    <system:String x:Key="String.MainWindow.Login.Welcome.StoreSpecial">Bentornato a casa, supremo {0}!</system:String>
+    <system:String x:Key="String.MainWindow.Login.LoggingIn">Accesso in corso</system:String>
+    <system:String x:Key="String.MainWindow.Login.MightTakeAWhile">Potrebbe volerci un po’ di tempo</system:String>
+    <system:String x:Key="String.MainWindow.Login.StillTrying">Stiamo ancora cercando di effettuare l’accesso</system:String>
+
+    <!--  User Widget  -->
+    <system:String x:Key="String.MainWindow.UserWidget.Profile">Profilo</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.GetSpotifyPremium">Passa a Spotify Premium</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LogOut">Esci</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.Settings">Impostazioni</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.About">Informazioni</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion">Versione di Lyricify</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.FreeVersion">Versione gratuita</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Free">Gratis</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Free.Store">Gratis (prova Store)</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Purchased.Store">Acquistata dallo Store</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount">Account Lyricify</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.1">Amministratore</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.2">Insider</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.3">Gestore testi</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.4">Utente Premium</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.5">Utente</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.6">Utente con restrizioni</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.Null">Non trovato</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession">Media Session</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">Connessa</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">Disconnessa</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. Media Session è disponibile solo usando la versione Desktop (o Store) di Spotify; non funziona con la versione mobile o web di Spotify!&#x000A;2. Lyricify non proverà a connettere Media Session finché non riceve una risposta di riproduzione.</system:String>
+
+    <system:String x:Key="String.MainWindow.PinnedArea.Notice">Fissa gli elementi per un accesso rapido!</system:String>
+
+    <!--  Control Part  -->
+    <!--  Frame  -->
+    <system:String x:Key="String.MainWindow.Frame.Control.GoBack">Indietro</system:String>
+    <system:String x:Key="String.MainWindow.Frame.Control.GoForward">Avanti</system:String>
+    <!--  Bottom Bar  -->
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AlbumArtwork">Clicca per mostrare più info su questo brano</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Lyrics">Testi</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.AppleMusicLyrics">Testi Apple Music</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.SpotifyConnect">Spotify Connect</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Volume">Volume</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.Fullscreen">Schermo intero</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.MobileUIFullscreen">Schermo intero interfaccia mobile</system:String>
+    <system:String x:Key="String.MainWindow.BottomControl.ToolTip.LyricifyFullscreen">Lyricify a schermo intero</system:String>
+
+
+    <!--
+        Pages
+    -->
+
+    <!--  Page Home  -->
+    <system:String x:Key="String.Page.Home.Welcome">Benvenuto in Lyricify</system:String>
+    <system:String x:Key="String.Page.Home.FollowDeveloper">Perché non segui il nostro sviluppatore</system:String>
+    <system:String x:Key="String.Page.Home.FollowSuggestion">Suggerimento</system:String>
+    <system:String x:Key="String.Page.Home.Button.Follow">Segui</system:String>
+    <system:String x:Key="String.Page.Home.Button.Following">Seguito</system:String>
+    <system:String x:Key="String.Page.Home.Button.Followed">Già seguito</system:String>
+
+    <system:String x:Key="String.Page.Home.Panel.YourFavoriteArtists">I tuoi artisti preferiti</system:String>
+    <system:String x:Key="String.Page.Home.Panel.MoreLike">Simili a</system:String>
+    <system:String x:Key="String.Page.Home.Panel.MoreLike.Argument">Simili a {0}</system:String>
+    <system:String x:Key="String.Page.Home.Panel.FeaturedPlaylists">Playlist in evidenza</system:String>
+    <system:String x:Key="String.Page.Home.Panel.PopularNewReleases">Nuove uscite popolari</system:String>
+
+    <!--  Other Pages  -->
+    <system:String x:Key="String.Page.List.Title.Title">TITOLO</system:String>
+    <system:String x:Key="String.Page.List.Title.Album">ALBUM</system:String>
+    <system:String x:Key="String.Page.List.Title.DateAdded">DATA AGGIUNTA</system:String>
+    <system:String x:Key="String.Page.List.Title.DateReleased">DATA DI PUBBLICAZIONE</system:String>
+
+    <system:String x:Key="String.Page.Info.Song">{0} brano</system:String>
+    <system:String x:Key="String.Page.Info.Songs">{0} brani</system:String>
+    <system:String x:Key="String.Page.Info.Disc">{0} disco</system:String>
+    <system:String x:Key="String.Page.Info.Discs">{0} dischi</system:String>
+
+    <system:String x:Key="String.Page.Album.Title.AlbumType.Album">ALBUM</system:String>
+    <system:String x:Key="String.Page.Album.Title.AlbumType.EP">EP</system:String>
+    <system:String x:Key="String.Page.Album.Title.AlbumType.Single">SINGOLO</system:String>
+    <system:String x:Key="String.Page.Album.DiscSeparator.Title">Disco {0}</system:String>
+
+    <system:String x:Key="String.Info.Album.AlbumType.Album">Album</system:String>
+    <system:String x:Key="String.Info.Album.AlbumType.EP">EP</system:String>
+    <system:String x:Key="String.Info.Album.AlbumType.Single">Singolo</system:String>
+
+    <system:String x:Key="String.Page.Album.Artwork.FileDialog.Filter">Immagine JPEG (*.jpg)|*.jpg</system:String>
+
+    <system:String x:Key="String.Page.Artist.VerifiedArtist">Artista verificato</system:String>
+    <system:String x:Key="String.Page.Artist.Popular">Popolari</system:String>
+    <system:String x:Key="String.Page.Artist.Follower">{0:N0} follower</system:String>
+    <system:String x:Key="String.Page.Artist.Followers">{0:N0} follower</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.Albums">Album</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.SinglesAndEPs">Singoli ed EP</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.Compilations">Compilation</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.FansAlsoLike">Ai fan piacciono anche</system:String>
+    <system:String x:Key="String.Page.Artist.Panel.AppearsOn">Presente in</system:String>
+
+    <system:String x:Key="String.Page.Playlist.Title">PLAYLIST</system:String>
+    <system:String x:Key="String.Page.Playlist.Title.Private">PLAYLIST PRIVATA</system:String>
+    <system:String x:Key="String.Page.Playlist.Title.Public">PLAYLIST PUBBLICA</system:String>
+    <system:String x:Key="String.Page.Playlist.Like">{0:N0} like</system:String>
+    <system:String x:Key="String.Page.Playlist.Likes">{0:N0} like</system:String>
+
+    <system:String x:Key="String.Page.LikedSongs.Title">PLAYLIST</system:String>
+    <system:String x:Key="String.Page.LikedSongs.Name">Brani che ti piacciono</system:String>
+
+    <system:String x:Key="String.Page.Profile.Title">PROFILO</system:String>
+    <system:String x:Key="String.Page.Profile.Follower">{0:N0} follower</system:String>
+    <system:String x:Key="String.Page.Profile.Followers">{0:N0} follower</system:String>
+    <system:String x:Key="String.Page.Profile.PublicPlaylist">{0:N0} playlist pubblica</system:String>
+    <system:String x:Key="String.Page.Profile.PublicPlaylist.Plural">{0:N0} playlist pubbliche</system:String>
+    <system:String x:Key="String.Page.Profile.PublicPlaylists">Playlist pubbliche</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.Month">Artisti top di questo mese</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.HalfYear">Artisti top negli ultimi sei mesi</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.Year">Artisti top di quest’anno</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.All">Artisti top dal Big Bang</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.Month">Brani top di questo mese</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.HalfYear">Brani top negli ultimi sei mesi</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.Year">Brani top di quest’anno</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.All">Brani top dal Big Bang</system:String>
+
+    <!--  Page Library  -->
+    <system:String x:Key="String.Page.Library.Playlists">Playlist</system:String>
+    <system:String x:Key="String.Page.Library.Artists">Artisti</system:String>
+    <system:String x:Key="String.Page.Library.Albums">Album</system:String>
+
+    <!--  Page Mobile UI  -->
+    <system:String x:Key="String.Page.MobileUI.Title">TESTI</system:String>
+
+    <!--  Page Search  -->
+    <system:String x:Key="String.Page.Search.Title.Search">Cerca</system:String>
+    <system:String x:Key="String.Page.Search.Title.Lyrics">Testi</system:String>
+    <system:String x:Key="String.Page.Search.Title.Availability">Disponibilità</system:String>
+    <system:String x:Key="String.Page.Search.429Error">Limite di richieste API superato (Errore 429)</system:String>
+    <system:String x:Key="String.Page.Search.Retry">Riprova</system:String>
+    <system:String x:Key="String.Page.Search.Search.SearchBar.PlaceHolder">Cerca brani, artisti, album e playlist</system:String>
+    <system:String x:Key="String.Page.Search.Search.Result.Songs">Brani</system:String>
+    <system:String x:Key="String.Page.Search.Search.Result.Artists">Artisti</system:String>
+    <system:String x:Key="String.Page.Search.Search.Result.Albums">Album</system:String>
+    <system:String x:Key="String.Page.Search.Search.Result.Playlists">Playlist</system:String>
+    <system:String x:Key="String.Page.Search.Lyrics.NotAvailable">Al momento non disponibile</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.PlaceHolder">Inserisci qui il link o lo Spotify URI</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.NetworkIssue.Message">Problema di rete, controlla la connessione Internet.</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">Album non trovato, controlla l’ID inserito.</system:String>
+    <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Input errato o non supportato. Sono supportati solo link a brani (reindirizzati al relativo album), album e playlist. Ecco alcuni esempi.</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Market">Mercato</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Market.Unspecified">Non specificato</system:String>
+    <system:String x:Key="String.Page.Search.Availability.MoreVersions">Altre versioni</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Playlist.UnavailableTracks">Brani non disponibili</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Playlist.AllAvailable">Tutti i brani sono disponibili</system:String>
+    <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.ToolTip.GoToAlbum">Vai all’album</system:String>
+    <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Available">Disponibile</system:String>
+    <system:String x:Key="String.Page.Search.Availability.AlbumAvailabilityDisplayItem.Unavailable">Non disponibile</system:String>
+
+    <!--  Page Spotify Connect  -->
+    <system:String x:Key="String.Page.SpotifyConnect.CurrentDevice">Dispositivo corrente</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.SelectAnotherDevice">Seleziona un altro dispositivo</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.NoDeviceFound">Nessun dispositivo trovato</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.NoOtherDevicesFound">Nessun altro dispositivo trovato</system:String>
+    <system:String x:Key="String.Page.SpotifyConnect.ThisComputer">Questo computer</system:String>
+
+    <!--  Audio Features  -->
+    <system:String x:Key="String.AudioFeatures.Track">Brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Track.Name">Nome</system:String>
+    <system:String x:Key="String.AudioFeatures.Track.ISRC.Null">Nessun ISRC</system:String>
+    <system:String x:Key="String.AudioFeatures.Track.TrackNumber">Numero traccia</system:String>
+    <system:String x:Key="String.AudioFeatures.Track.Duration">Durata</system:String>
+    <system:String x:Key="String.AudioFeatures.Album">Album</system:String>
+    <system:String x:Key="String.AudioFeatures.Album.Name">Nome</system:String>
+    <system:String x:Key="String.AudioFeatures.Album.UPC.Null">Nessun UPC</system:String>
+    <system:String x:Key="String.AudioFeatures.Album.ReleaseDate">Data di pubblicazione</system:String>
+    <system:String x:Key="String.AudioFeatures.Album.TracksCount">Numero di brani</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist">Artista</system:String>
+    <system:String x:Key="String.AudioFeatures.Artists">Artista/i</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist.Name">Nome</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist.Names">Nome/i</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink">Reindirizzato da</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.Name">Nome brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.ID">ID brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.ISRC">ISRC brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Track.TrackNumber">Numero traccia</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Album.Name">Nome album</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Album.ID">ID album</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Album.ReleaseDate">Data di pubblicazione album</system:String>
+    <system:String x:Key="String.AudioFeatures.Relink.Album.TracksCount">Numero di brani dell’album</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature">Caratteristiche audio</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode">Modo</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Major">Maggiore</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Minor">Minore</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.TimeSignature">Tempo</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.PitchClass">Classe di altezza (Tonalità)</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Loudness">Volume</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Tempo">Tempo</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Acousticness">Acusticità</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Danceability">Ballabilità</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Energy">Energia</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Instrumentalness">Strumentalità</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Liveness">Presenza dal vivo</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Speechiness">Parlato</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Valence">Valenza</system:String>
+
+    <system:String x:Key="String.AudioFeatures.ToolTip.ClickCopy">Clicca per copiare</system:String>
+    <system:String x:Key="String.AudioFeatures.Button.CopyIDs">Copia ID e ISRC</system:String>
+    <system:String x:Key="String.AudioFeatures.Button.CopyAll">Copia tutte le info</system:String>
+
+    <system:String x:Key="String.AudioFeatures.Copy.TrackName">Nome brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackID">ID brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackISRC">ISRC brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackURI">URI brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackDuration">Durata brano</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.TrackNumber">Numero traccia</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumName">Nome album</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumID">ID album</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumUPC">UPC album</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumReleaseDate">Data di pubblicazione album</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.AlbumTracksCount">Numero di brani dell’album</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistName">Nome artista</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistID">ID artista</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistNames">Nomi artisti</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs">ID artisti</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistNames.Bracket">Nome/i artista</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.ArtistIDs.Bracket">ID artista/i</system:String>
+    <system:String x:Key="String.AudioFeatures.Copy.Relink">Reindirizzato da</system:String>
+
+    <system:String x:Key="String.Info.Copy.DiscNum">Disco {0}</system:String>
+    <system:String x:Key="String.Info.Copy.TrackNum">Traccia {0}</system:String>
+    <system:String x:Key="String.Info.Copy.Tracklist">Elenco brani</system:String>
+    <system:String x:Key="String.Info.Copy.Tracklist.Of">Elenco brani di {0}</system:String>
+    <system:String x:Key="String.Info.Copy.TopTracks.From">Brani popolari di {0}</system:String>
+    <system:String x:Key="String.Info.Copy.Album.TotalLength">Durata totale album</system:String>
+    <system:String x:Key="String.Info.Copy.Album.DiscsCount">Numero di dischi dell’album</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Name">Nome playlist</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Description">Descrizione playlist</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Type">Tipo di playlist</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.ID">ID playlist</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.TracksCount">Numero di brani della playlist</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.TotalLength">Durata totale playlist</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Owner.Name">Nome proprietario</system:String>
+    <system:String x:Key="String.Info.Copy.Playlist.Owner.ID">ID proprietario</system:String>
+    <system:String x:Key="String.Info.Copy.Artist.Followers">Follower</system:String>
+    <system:String x:Key="String.Info.Copy.User.DisplayName">Nome visualizzato utente</system:String>
+    <system:String x:Key="String.Info.Copy.User.ID">ID utente</system:String>
+    <system:String x:Key="String.Info.Copy.User.Followers">Follower</system:String>
+
+    <!--  Page Apple Music Lyrics  -->
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip1">Clicca per chiudere</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip2">Scorri a sinistra o destra per massimizzare</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip3">Scorri verso il basso per minimizzare</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip4">Premi con il tasto destro per controllare la posizione dei testi</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Close">Esci da Testi Apple Music</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MaximizeWindow">Schermo intero</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.RestoreWindow">Ripristina finestra</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MinimizeWindow">Minimizza finestra</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToCurrentLine">Vai alla riga corrente</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToFirstLine">Vai alla prima riga</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToLastLine">Vai all’ultima riga</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.None">Nessuna operazione</system:String>
+
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToArtist">Vai all’artista</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToAlbum">Vai all’album</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToPlaylist">Vai alla playlist</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.AddToLibrary">Aggiungi alla libreria</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.DeleteFromLibrary">Rimuovi dalla libreria</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowArtist">Mostra artista</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ShowAlbum">Mostra album</system:String>
+
+    <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Scritto da: </system:String>
+
+    <!--  Page Windows Update Lyrics  -->
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.10">Sto lavorando sugli aggiornamenti</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.8">Configurazione degli aggiornamenti di Windows</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.11">Sei al {0}%.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.10">{0}% completato</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.11">Ti preghiamo di lasciare il computer acceso.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.10">Non spegnere il computer</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.8">Non spegnere il computer.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.11">Il computer potrebbe riavviarsi alcune volte.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.10">Il PC potrebbe riavviarsi più volte.</system:String>
+
+    <!--  Page Windows Blue Screen Lyrics  -->
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary">Il tuo dispositivo ha riscontrato un problema e deve essere riavviato.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary.WithTrackName">{0} ha riscontrato un problema e deve essere riavviato.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full">Il tuo dispositivo ha riscontrato un problema e deve essere riavviato. Stiamo raccogliendo alcune informazioni sull’errore, quindi riavvieremo per te.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full.WithTrackName" xml:space="preserve">{0} ha riscontrato un problema e deve essere riavviato. &#x0A;Stiamo raccogliendo alcune informazioni sull’errore, quindi riavvieremo per te.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.PercentComplete">{0}% completato</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Main">Per maggiori informazioni su questo problema e sulle possibili soluzioni, visita https://lyricify.app</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Call">Se contatti il supporto, comunica queste informazioni:</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.StopCode">Codice di arresto: {0}</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Artist">Artista: {0}</system:String>
+
+    <!--  Page About  -->
+    <system:String x:Key="String.Page.About.Title">Informazioni</system:String>
+    <system:String x:Key="String.Page.About.NonPublicWarning">QUESTA NON È UNA VERSIONE PUBBLICA, NON DIFFONDERE PER FAVORE!</system:String>
+    <system:String x:Key="String.Page.About.Architecture.32Bits">32 bit</system:String>
+    <system:String x:Key="String.Page.About.Architecture.64Bits">64 bit</system:String>
+    <system:String x:Key="String.Page.About.Architecture.Emulated">{0} emulato</system:String>
+    <system:String x:Key="String.Page.About.Portable">Versione portatile</system:String>
+    <system:String x:Key="String.Page.About.Portable.RunningArchitecture">Versione portatile in esecuzione su {0}</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore">Versione Microsoft Store</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Purchased">Versione Microsoft Store acquistata</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Trial">Versione di prova Microsoft Store</system:String>
+    <system:String x:Key="String.Page.About.MadeWithHeart">Creato con ❤️ da WXRIW</system:String>
+    <system:String x:Key="String.Page.About.Copyright">Copyright © {0} WXRIW</system:String>
+    <system:String x:Key="String.Page.About.LyricsProvidedBy">Testi forniti da</system:String>
+    <system:String x:Key="String.Page.About.LyricsProviders">Lyricify Lyrics Vault, QQ Music, Netease Cloud Music</system:String>
+    <system:String x:Key="String.Page.About.Donation">Donazione</system:String>
+    <system:String x:Key="String.Page.About.Thanklist">Ringraziamenti</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.SupporterListInfo">Ordinati per importo e data, elenco aggiornato al {0}</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksApple">Un ringraziamento speciale ad Apple per il design affascinante e unico</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">Un ringraziamento speciale a Spotify per il suo contributo all’intera industria dello streaming musicale</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">Un ringraziamento speciale a Difer per aver fornito un account Spotify Premium</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksInsiders">Un ringraziamento speciale ai nostri insider</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksStorePurchase">Grazie a tutti gli utenti che hanno acquistato Lyricify sul Microsoft Store</system:String>
+    <system:String x:Key="String.Page.About.Internationalization">Internazionalizzazione</system:String>
+    <system:String x:Key="String.Page.About.References">Riferimenti</system:String>
+    <system:String x:Key="String.Page.About.References.MITLicense.Brackets">(Licenza MIT)</system:String>
+    <system:String x:Key="String.Page.About.References.WTFPLLicense.Brackets">(Licenza WTFPL)</system:String>
+    <system:String x:Key="String.Page.About.References.Apache2.Brackets">(Licenza Apache 2.0)</system:String>
+    <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(Licenza LGPL 2.1)</system:String>
+    <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(Nessuna licenza)</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming">Rivendicazione copyright</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">Copyright © {0} WXRIW, tutti i diritti riservati</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Design interfaccia finestra principale, design schermo intero interfaccia mobile, Spotify Circular Copyright © Spotify AB</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Design interfaccia Testi Apple Music, SF Pro, PingFang SC Copyright © Apple Inc.</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Isolation">Isolation™ Inside, Copyright © Storyteller Studios</system:String>
+
+    <!--  Page Settings  -->
+    <system:String x:Key="String.Page.Settings.Title">Impostazioni</system:String>
+    <system:String x:Key="String.Page.Settings.General">Generale</system:String>
+    <system:String x:Key="String.Page.Settings.General.Language">Lingua</system:String>
+    <system:String x:Key="String.Page.Settings.General.Language.Description">Scegli la lingua dell'interfaccia di Lyricify (alcune modifiche potrebbero richiedere il riavvio dell'app per essere applicate)</system:String>
+    <system:String x:Key="String.Page.Settings.General.CloseToHide">Chiudi per nascondere</system:String>
+    <system:String x:Key="String.Page.Settings.General.CloseToHide.Description">Il pulsante di chiusura deve minimizzare la finestra di Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.General.RestoreWindow">Ripristina finestra</system:String>
+    <system:String x:Key="String.Page.Settings.General.RestoreWindow.Description">Ripristina lo stato della finestra di Lyricify all'avvio</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance">Aspetto</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode">Modalità colore</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.Description">Cambia i colori visualizzati in Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">Scuro (predefinito)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Light">Chiaro</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.FollowSystem">Segui il sistema</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset">Preset carattere interfaccia</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset.Description">Scegli il preset del carattere per l'interfaccia di Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground">Sfondo dei testi</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.Description">Cambia lo sfondo dei testi</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.ComboBox.SingleColor">Colore uniforme</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.ComboBox.BlurredCover">Copertina sfocata (predefinito)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.Zoom">Zoom</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.Zoom.Description">Cambia il livello di zoom della visualizzazione di Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.Zoom.Button.Reset">Reimposta</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.Zoom.Help">Puoi anche cambiare lo zoom della visualizzazione usando la rotellina del mouse tenendo premuto Control, oppure &quot;Ctrl + -&quot; per aumentare lo zoom, &quot;Ctrl + =&quot; per ridurre lo zoom e &quot;Ctrl + 0&quot; per reimpostarlo.</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ShowLyricifyVersionInfo">Mostra info versione di Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ShowLyricifyVersionInfo.Description">Mostra le informazioni sulla versione di Lyricify nell'area del widget utente</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization">Personalizzazione stile testi</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Description">Stile dei testi nella pagina testi in stile Spotify</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode">Personalizzazione stile testi (Modalità mobile)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode.Description">Stile dei testi nella pagina testi in stile Spotify (Modalità mobile)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Button.Reset">Reimposta</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign">Allineamento testi</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Center">Centro (predefinito)</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Left">Sinistra</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Right">Destra</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.Margin">Margine</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.FontSize.Lyrics">Dimensione carattere testi</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.FontSize.Translation">Dimensione carattere traduzione</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LineSpacing">Interlinea</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.PlayingLineZoomingAnimation">Animazione di zoom della riga in riproduzione</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.KaraokeMode">Modalità parola per parola</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.KaraokeMode.Description">Mostra i testi parola per parola</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.QuickAccess">Accesso rapido</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.Description">Puoi scegliere cosa mostrare nell'area in basso a sinistra: i pin personalizzati oppure tutte le tue playlist Spotify.</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.ComboBox.CustomPins">Pin personalizzati</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.QuickAccess.ComboBox.AllPlaylists">Tutte le playlist</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FontFamily">Famiglia di caratteri</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Current">Famiglia di caratteri attuale:</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Current.Default">Predefinita</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Custom">Personalizzata</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FontFamily.Reset">Reimposta</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics">Testi</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation">Traduzione cinese</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseTranslation.Description">La traduzione cinese verrà mostrata quando disponibile</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji">Romaji</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.Description">Scegli le opzioni di visualizzazione per il romaji giapponese</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.Disable">Disattiva</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.TranslationFirst">Prima la traduzione</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiFirst">Prima il romaji</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiOnly">Solo romaji</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese">Preferisci cinese semplificato</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese.Description">I caratteri cinesi verranno convertiti in cinese tradizionale se disattivi questa opzione</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation">Segmentazione testi</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation.Description">Abilita la segmentazione delle frasi lunghe in cinese (ha effetto dopo l'aggiornamento dei testi)</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">Mostra testi espliciti</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics.Description">Se disattivato, le parole esplicite verranno sostituite con asterischi</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source">Sorgente</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Description">Lyricify funziona meglio con la sorgente QQ Music; alcune funzioni di Lyricify potrebbero non essere disponibili quando si usa Netease Cloud Music</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.QQFirst">Prima QQ Music</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.NeteaseFirst">Prima Netease Cloud Music</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.QQFirst">Prima la traduzione e prima QQ Music</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.NeteaseFirst">Prima la traduzione e prima Netease Cloud Music</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable">Testi parola per parola di Netease</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable.Description">Abilita i testi parola per parola di Netease Cloud Music</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch">Abilita Musixmatch</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch.Description">Usa Musixmatch come sorgente di backup</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable">Testi parola per parola di Musixmatch</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable.Description">Abilita i testi parola per parola di Musixmatch</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.EnableColorfulEmoji">Emoji colorate</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.EnableColorfulEmoji.Description">Abilita le emoji colorate durante il rendering (non tutte le interfacce supportano le emoji colorate)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Testi Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">Sfondo</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Scegli lo sfondo da usare in Testi Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.Static">Statico</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.Dynamic">Dinamico</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.DynamicBeating">Dinamico (a ritmo)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Palette">Algoritmo palette</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Palette.Description">Seleziona un algoritmo di scelta colori</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Dithering">Riduci il banding dei colori</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Dithering.Description">Riduce il banding dei colori nello sfondo di isolamento tramite dithering</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics">Sfoca testi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics.Description">Abilita l'effetto sfocatura sui testi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">Livello sfocatura</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Imposta il livello di sfocatura (il livello predefinito su iPadOS in orizzontale è 3, su iPadOS in verticale o iOS è 5)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">Livello</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DisableBlurAtLyricsLineMouseOver">Rimozione automatica sfocatura</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DisableBlurAtLyricsLineMouseOver.Description">Disattiva temporaneamente la sfocatura al passaggio del mouse</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">Testo in grassetto</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">Usa il testo in grassetto in Testi Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FontPreset">Preset carattere</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FontPreset.Description">Usa i preset dei caratteri in Testi Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode">Modalità karaoke</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Description">Sì, ora puoi avere testi in stile karaoke in Testi Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK">Disabilita stile karaoke per i testi CJK</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK.Description">I testi karaoke CJK usano più risorse per essere mostrati; disattivarli potrebbe migliorare le prestazioni dell'animazione</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation">Abilita animazioni aggiuntive</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Description">Animazioni migliori, esperienza migliore</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">Animazione fluttuante</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">Testi in riproduzione, sillabe che fluttuano, incredibile</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Disabled">Disattivata</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">Bassa</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Medium">Media</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">Alta (predefinita)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">Molto alta</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">Effetto brillantezza parole</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">È magnifico</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk">Abilita effetto brillantezza parole CJK</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk.Description">Abilita l'effetto brillantezza parole per più caratteri CJK</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">Vista duetto</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">Più cantanti vengono mostrati ai lati opposti dello schermo per rendere più facile seguire duetti o brani con più interpreti</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst">Prima allineamento a destra</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst.Description">Allinea prima i testi a destra</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling">Effetto trascinamento</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.Description">Imposta l'intensità dell'effetto trascinamento</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Disabled">Disattivato</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Low">Basso</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Regular">Normale</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Medium">Medio (predefinito)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.High">Alto</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Tremendous">Molto alto</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MagicStripFeature">Descrizione funzione Magic Strip</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MagicStripFeature.Description">Mostra le funzioni corrispondenti quando usi Magic Strip</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial">Mostra tutorial Magic Strip</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Description">Mostra sempre il tutorial di Magic Strip dopo l'apertura di Testi Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">Ti presentiamo Magic Strip! &#x000A;&#x000A;Puoi premere il pulsante della barra per uscire da Testi Apple Music, &#x000A;scorrere verso il basso per minimizzare, &#x000A;scorrere a sinistra o a destra per massimizzare o ripristinare, &#x000A;e scorrere verso l'alto per annullare. &#x000A;&#x000A;Puoi anche premere il tasto destro del mouse e scorrere verso l'alto per andare alla prima riga del testo, &#x000A;scorrere verso il basso per andare all'ultima riga del testo, &#x000A;scorrere a sinistra o a destra per andare alla riga corrente, &#x000A;e un singolo clic destro non farà nulla.</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime">Stato tempo animato</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime.Description">Abilita animazioni per i cambiamenti dello stato temporale</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">Ripristino zoom</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">Ripristina lo zoom in Testi Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset">Preset stile</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.Description">I dettagli cambiano a seconda della versione del sistema</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Default">Predefinito</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Custom">Personalizzato</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS162AndLater">iOS 16.2 e successivi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS163AndLater">iOS 16.3 e successivi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS164AndLater">iOS 16.4 e successivi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS170AndLater">iOS 17.0 e successivi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS171AndLater">iOS 17.1 e successivi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS260AndLater">iOS 26.0 e successivi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Android.New">Android (nuovo)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Android.Old">Android (vecchio)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth">Larghezza transizione</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">Larghezza della transizione di opacità</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">Animazione inline</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation.Description">Dettagli dell'animazione nelle righe dei testi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed">Cambio opacità</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed.Description">Velocità di cambio opacità delle righe sillabate</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity">Opacità sillabe pre-riproduzione</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity.Description">Opacità delle sillabe nella modalità pre-riproduzione</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition">Posizione voce di sottofondo</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition.Description">La posizione dei testi della voce di sottofondo rispetto ai testi principali</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout">Animazione voce di sottofondo</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">Animazione e direzione di comparsa della voce di sottofondo</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.ComboBox.LyricifyOld">Lyricify (vecchio)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">Layout mobile</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout.Description">Layout mobile di Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect">Effetto brillantezza parole</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect.Description">L'effetto brillantezza parole è diverso su iOS e Android</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">Allineamento puntini respirazione</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">I puntini di respirazione sono sempre allineati a sinistra su iOS, mentre su Android restano dallo stesso lato dei testi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming">Zoom riga evidenziata</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming.Description">Regola il livello di zoom della riga evidenziata corrente</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">Impedisci sospensione</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.Description">Impedisci lo spegnimento dello schermo o la sospensione</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.Always">Sempre</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.FullscreenOnly">Solo a schermo intero</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple">Buggy Apple</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.Description">Apple senza bug non è più Apple</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.AffectedVersions" xml:space="preserve">Versioni interessate: </system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.BackgroundVocalsOverlap">Sovrapposizione delle voci di sottofondo dopo i puntini di respirazione</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.BackgroundVocalsEnteringDirection">Problema nella direzione di ingresso delle voci di sottofondo</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.TremendousBreathingDots">Problema dei puntini di respirazione molto grandi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.BackgroundVocalTransparencySuddenChange">Problemi di cambi improvvisi di trasparenza nelle righe contenenti voci di sottofondo</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.ChineseCharacterAbnormalFloating">Problemi di fluttuazione anomala dei testi cinesi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.LyricsLineTransparencySuddenChange">Problemi di cambi improvvisi di trasparenza nelle righe dei testi</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">Abilita versione tradizionale</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">Aggiungi nel menu principale la voce Testi Apple Music (Tradizionale)</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Lyricify a schermo intero</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics">Sfoca testi</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics.Description">Abilita l'effetto sfocatura sui testi</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo">Logo colorato</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo.Description">Usa il logo colorato di Lyricify invece del logo monocromatico</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics">Testi Windows Update</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Style">Stile</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Style.Description">Seleziona il preset di stile desiderato</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea">Area inferiore</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.Description">Seleziona il contenuto mostrato nell'area inferiore</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.TrackInfo">Info brano</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.WindowsTips">Suggerimenti Windows</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.Hidden">Nascosto</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.MultipleLine">Testi multilinea</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.MultipleLine.Description">Consente di mostrare più righe del testo attualmente in riproduzione</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language">Lingua</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.Description">Preferenze della lingua dell'interfaccia</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.ComboBox.Default">Predefinita</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.ComboBox.Auto">Automatica</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics">Testi schermata blu di Windows</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.Default">Predefinito</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.Insider">Insider Preview</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.ArtworkMainColor">Colore principale copertina</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit">Adatta allo schermo</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit.Description">Ingrandisce il contenuto per massimizzare l'uso dello schermo</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution">Emula bassa risoluzione</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution.Description">Emula l'effetto visivo di uno schermo a bassa risoluzione</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Modalità Byland</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Byland o Island, scegli tu! Stili diversi offrono funzioni diverse</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dynamic Lyrics Island scomparirà automaticamente quando il cursore vi entrerà in modalità Byland; in modalità Island, invece, puoi usare il cursore per spostare l'isola. &#x000A;Potrai chiudere Dynamic Lyrics Island dal menu del tasto destro in modalità Island, mentre in modalità Byland potrai chiuderla solo dal menu principale o con un tasto di scelta rapida.</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex">Indice schermo</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.Description">Seleziona su quale schermo vuoi mostrare Dynamic Lyrics Island in modalità Byland</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem">Schermo {0}</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem.Primary">Schermo {0} (display principale)</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">Mostra sempre due righe</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">Mostra sempre due righe di testo anche quando la traduzione non è disponibile</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation">Nascondi traduzione e pronuncia</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation.Description">Nasconde traduzione e pronuncia quando disponibili</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText">Testo in grassetto</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText.Description">Usa il testo in grassetto in Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode">Modalità karaoke</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode.Description">Hai mai visto testi brillare?</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide">Nascondi automaticamente</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">Se attivato, Dynamic Lyrics Island verrà nascosta quando la riproduzione è in pausa</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">Nascondi a schermo intero</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">Nascondi Dynamic Lyrics Island quando un programma è in esecuzione a schermo intero</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage">Mostra immagine artista</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">Mostra l'immagine dell'artista sul lato sinistro di Dynamic Lyrics Island dopo il passaggio a un nuovo brano</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">Opacità</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity.Description">Opacità della finestra Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BackgroundOpacity">Opacità sfondo</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BackgroundOpacity.Description">Opacità del colore di sfondo</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors">Colori</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors.Description">Configurazione colori per Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors.Button.Reset">Reimposta</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors.Foreground">Colore primo piano</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors.Background">Colore sfondo</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale">Scala</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale.Description">Controlla dimensione e ridimensionamento di Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics">Testi desktop</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Modalità doppia riga</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">Se disattivata, verrà mostrata solo una riga di testo</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EfficiencyMode">Modalità efficienza</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EfficiencyMode.Description">Lyricify si impegna ad aiutare a ridurre le emissioni di carbonio e il consumo energetico con impatto ambientale</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation">Animazione cambio testi</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation.Description">Riproduci un'animazione quando passi a un'altra riga del testo</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation.BlurEffect">Effetto sfocatura</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation.BlurEffect.Description">Abilita l'effetto sfocatura nel cambio riga</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode">Modalità karaoke</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode.Description">Ottieni una visualizzazione dei testi in stile karaoke</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide">Nascondi automaticamente</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">Se attivato, i Testi desktop verranno nascosti in pausa</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide">Nascondi a schermo intero</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide.Description">Nascondi i Testi desktop quando un programma è in esecuzione a schermo intero</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide">Nascondi con trasparenza</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Description">Imposta un'opacità più bassa per i Testi desktop quando il cursore entra in stato bloccato</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Opacity">Opacità</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Opacity.Description">Imposta a 0 se vuoi nascondere i Testi desktop</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">Opacità</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.BorderThickness">Spessore bordo</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign">Allineamento testi</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Center">Centro (predefinito)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Left">Sinistra</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Right">Destra</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors">Colori</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Description">Potrebbero essere i Testi desktop più personalizzabili di sempre</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Button.Reset">Reimposta</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle">Stile doppia riga</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.Description">Due righe separate. Le righe con traduzione non useranno lo stile doppia riga</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Fill">Riga evidenziata (Riempimento)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Border">Riga evidenziata (Bordo)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Fill">Riga successiva (Riempimento)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Border">Riga successiva (Bordo)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle">Stile singola riga</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Description">Mostra solo una riga. La traduzione verrà mostrata se disponibile</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Fill">Riempimento</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Border">Bordo</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Fill">Riga traduzione (Riempimento)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Border">Riga traduzione (Bordo)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle">Stile karaoke</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Description">Si applica sia alla doppia riga che alla singola riga</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Fill">Riprodotto (Riempimento)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Border">Riprodotto (Bordo)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Fill">Pre-riproduzione (Riempimento)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Border">Pre-riproduzione (Bordo)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.ArtworkMainColor">Colore principale copertina</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Black">Nero</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.White">Bianco</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Custom">Personalizzato</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect">Effetto ombra</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Description">Effetto ombra sotto i testi</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Color">Colore</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Depth">Profondità</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Direction">Direzione</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Direction.Description">Valore predefinito: 315°</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Opacity">Opacità</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Radius">Raggio</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Position">Posizione e dimensione</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Description">Se i Testi desktop non vengono visualizzati correttamente, puoi provare a Reimpostare</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Button.Reset">Reimposta</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock">Blocca</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.Description">Blocca posizione e dimensione dei Testi desktop</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.Button.Unlock">Sblocca</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.HideUnlock">Nascondi pulsante di sblocco</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.HideUnlock.Description">Nascondi il pulsante di sblocco per non interrompere le tue operazioni</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics">Testi barra delle applicazioni</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarEmbedding">Incorpora nella barra delle applicazioni</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarEmbedding.Help" xml:space="preserve">Abilitare “Incorpora nella barra delle applicazioni” può migliorare l'esperienza utente complessiva, ma in alcuni casi può causare la perdita di funzionalità della barra delle applicazioni, instabilità o persino arresti anomali.&#x0A;Quando questa opzione è disattivata, la finestra dei testi nella barra delle applicazioni apparirà come sovrapposizione fluttuante sopra la barra stessa, offrendo maggiore stabilità, anche se in alcuni scenari l'esperienza utente potrebbe risultare ridotta.</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarArea">Area barra delle applicazioni</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarArea.ComboBox.Left">Sinistra</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarArea.ComboBox.Right">Destra</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.WindowAlignment">Allineamento finestra</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ContentAlignment">Allineamento contenuto</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ArtworkAlignment">Allineamento copertina</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.Alignment.ComboBox.Auto">Automatico (predefinito)</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.Alignment.ComboBox.Left">Sinistra</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.Alignment.ComboBox.Center">Centro</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.Alignment.ComboBox.Right">Destra</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.AdaptiveSize">Dimensione adattiva</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode">Modalità colore</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.Description">Scegli il tema colore</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.FollowTaskbar">Segui barra delle applicazioni (predefinito)</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.Dark">Scuro</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.Light">Chiaro</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.KaraokeMode">Modalità karaoke</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.KaraokeMode.Description">Usa testi in stile karaoke parola per parola in Taskbar Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.AutoHide">Nascondi automaticamente</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.AutoHide.Description">Se attivato, i Testi barra delle applicazioni verranno nascosti in pausa</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TrackInfoOnly">Mostra solo informazioni del brano</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TrackInfoOnly.Description">Attivando questa opzione, Taskbar Lyrics mostrerà solo il titolo del brano e il nome dell'artista, senza visualizzare il testo</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.FontSizeScale">Scala dimensione carattere</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.FontSizeScale.Description">Imposta la scala della dimensione del carattere</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LargerText">Testo più grande</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LargerText.Description">Usa una dimensione del carattere maggiore; in questa modalità verrà mostrata solo una riga di testo. Traduzione, pronuncia e riga successiva non verranno visualizzate.</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition">Transizione testi</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.Description">Scegli l'animazione per la transizione dei testi</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.ComboBox.None">Nessuna</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.ComboBox.Fade">Dissolvenza</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveVertical">Dissolvenza verticale</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveHorizontal">Dissolvenza orizzontale</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveVerticalReversed">Dissolvenza verticale (inversa)</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveHorizontalReversed">Dissolvenza orizzontale (inversa)</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.AlbumArtwork">Copertina album</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.AlbumArtwork.Description">Mostra la copertina dell'album</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ControlButtons">Pulsanti di controllo</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ControlButtons.Description">Mostra i pulsanti di controllo della riproduzione</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricifyLogo">Logo Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricifyLogo.Description">Mostra il logo Lyricify sopra la copertina dell'album</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomVerticalAdjustments">Regolazioni verticali</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomVerticalAdjustments.Description">Consente di regolare verticalmente Taskbar Lyrics. Il primo valore rappresenta l'offset verticale, il secondo l'interlinea del testo</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMaxWidth">Larghezza massima personalizzata</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMaxWidth.Description">Se vuoi che la larghezza della finestra non superi un certo valore, puoi impostare una larghezza massima personalizzata</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMargin">Margine personalizzato</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMargin.Description">Se la finestra necessita di piccoli aggiustamenti di posizione o è coperta da altri strumenti della barra delle applicazioni, puoi risolvere configurando margini personalizzati (in pixel)</system:String>
+    <system:String x:Key="String.Page.Settings.Functions">Funzioni</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed">Segui feed</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.Description">Ricevi le nuove uscite</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup">Controlla all'avvio</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.CheckAtStartup.Description">Controlla le nuove uscite ogni volta che avvii Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases">Controlla solo &quot;Uscite popolari&quot;</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.OnlyCheckPopularReleases.Description">Questo ridurrà le richieste alla Spotify Web API e diminuirà la possibilità di ricevere un errore di limite richieste API (Errore 429). Attivando questa opzione alcune nuove uscite potrebbero non essere notificate. (Lyricify consiglia di attivarla se segui più di 20 artisti)</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization">Personalizzazione controllo artisti</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.Description">Puoi scegliere solo alcuni degli artisti che segui per i controlli nuove uscite di Lyricify, e puoi anche aggiungere artisti che non segui</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists">Scegli artisti</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Button.AddOrEdit">Aggiungi o modifica</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Description">Scegli gli artisti da controllare per Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Functions.FollowFeed.ArtistsCheckCustomization.ChooseArtists.Choosen">Artisti selezionati</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify">Spotify</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion">Area consigli preferita</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.Description">Questo influenzerà la tua Home</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.Default">Predefinita (area del tuo account)</system:String>
+    <system:String x:Key="String.Page.Settings.Spotify.PreferredRecommendationRegion.ComboBox.InternetLocation">Posizione Internet (area del tuo IP)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced">Avanzate</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">Abilita ricollegamento copertina brano</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Usa la copertina ricollegata invece della copertina del brano originale quando il brano è ricollegato</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">La disponibilità di un brano dipende dal paese registrato nelle impostazioni del profilo Spotify dell'utente. Spesso Spotify ha diverse istanze di un brano nel suo catalogo, ciascuna disponibile in insiemi di mercati diversi. Questo avviene comunemente quando il brano su cui si trova l'album è stato pubblicato più volte con licenze diverse in diversi mercati. &#x000A;&#x000A;Questi brani sono collegati tra loro, per cui quando un utente cerca di riprodurre un brano non disponibile nel proprio mercato, i client Spotify per dispositivi mobili, desktop e web cercano di riprodurre un'altra istanza del brano disponibile nel mercato dell'utente.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine">Motore intelligente Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description">Fornisce una potente tecnologia intelligente e supporto funzionale per il collegamento e l'interazione tra Lyricify e Spotify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description.Premium">È necessario un abbonamento Spotify Premium!</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Button.GetPremium">Passa a Spotify Premium</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement">Abilita miglioramenti Media Session</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">Usa la Media Session di sistema per migliorare l'esperienza quando utilizzi il client desktop di Spotify. (Assicurati di aver abilitato &quot;Mostra sovrapposizione desktop quando si usano i tasti multimediali&quot; nelle impostazioni di Spotify)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement">Abilita miglioramento aggiornamento riproduzione</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement.Description">Esperienza di cambio brano eccezionale grazie a Lyricify Intelligent Engine</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">Abilita Timeline-Correction</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">Ottimizza la precisione della timeline</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.CrossfadeNotice">La correzione della timeline potrebbe non funzionare correttamente se il crossfade è abilitato</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrectionPlus">Abilita Timeline-Correction Plus</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrectionPlus.Description">Corregge la timeline in modo più invasivo per ottenere risultati migliori</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">Abilita precaricamento testi</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">Il precaricamento dei testi rende impercettibile il caricamento dei testi al cambio brano</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableImagePreload">Abilita precaricamento immagini</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableImagePreload.Description">Il precaricamento delle immagini rende impercettibile il caricamento delle copertine album al cambio brano</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation">Abilita conferma rimozione brani preferiti</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation.Description">Richiedi conferma prima di rimuovere brani dalla tua libreria (Brani che ti piacciono)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">Abilita conversione cinese</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">Abilita la conversione cinese per i contenuti Spotify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">Latenza dispositivo</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">In millisecondi. Questo parametro è pensato per la latenza dei dispositivi di riproduzione Bluetooth. NON usarlo per il ritardo dei testi. Aggiorna i testi per applicare le modifiche</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Button.Configure">Configura</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">Gestione tasti di scelta rapida</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">Apri il Gestore tasti di scelta rapida per gestire le scorciatoie globali</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">Apri</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar">Barra di attesa Spotify API</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar.Description">Mostra la barra di avanzamento in basso in caso di errori 429 al cambio brano</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage">Messaggio di benvenuto</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.Description">Messaggio di benvenuto all'avvio di Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.CurrentWelcomeMessage">Messaggio di benvenuto attuale</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.CustomizeWelcomeMessage">Personalizza il messaggio di benvenuto</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.CustomizeWelcomeMessage.Description">Inserisci {NAME} per usare il tuo nome utente (clicca per inserire {NAME})</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.CustomizeWelcomeMessage.PlaceHolder">Scrivi qui il messaggio</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.ComboBox.Standard">Benvenuto standard</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.ComboBox.Supreme">Benvenuto supremo</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.ComboBox.Custom">Messaggio personalizzato</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates">Aggiornamenti</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.Description">Impostazioni sugli aggiornamenti di Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.Button.Check">Controlla aggiornamenti</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.Notify">Notifica</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.Download">Scarica e installa più tardi</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.DownloadAndInstall">Scarica e installa subito</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate">Aggiornamento automatico</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate.Description">Rileva e installa automaticamente le nuove versioni di Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource">Sorgente aggiornamenti</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Description">Seleziona la sorgente di download degli aggiornamenti (se sei nella Cina continentale e non usi un proxy, scegli GitHub Proxy; altrimenti scegli GitHub)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Sources.GitHub">GitHub</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Sources.GitHubProxy">GitHub Proxy (ghproxy.com)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.MicrosoftStore.Description">Gli aggiornamenti sono gestiti da Microsoft Store.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer">Preset proxy server Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer.Description">Disattivare il proxy per le richieste al server Lyricify può migliorare l'esperienza se ti trovi nella Cina continentale</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer.ComboBox.Enable">Abilita proxy</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer.ComboBox.Auto">Automatico</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer.ComboBox.Disable">Disabilita proxy</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer">Disabilita proxy per le richieste al server Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer.Description">Disabilitare il proxy per queste richieste può migliorare l'esperienza se ti trovi nella Cina continentale</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings">Abilita impostazioni proxy manuali</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings.Description">Questo sovrascriverà le impostazioni proxy di sistema in Lyricify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Host">Host</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Port">Porta</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Username">Nome utente</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Password">Password</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test">Test</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.ProxyOverrideEnabled">La sostituzione proxy non è abilitata, il risultato del test potrebbe essere diverso. Vuoi comunque eseguire il test?</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Status">Stato rete</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Connected">Connesso</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Disconnected">Disconnesso</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Apply">Applica</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">Alcune funzioni potrebbero richiedere un riavvio per avere effetto.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile">File impostazioni</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Description">Modifica direttamente il file delle impostazioni (Avanzato)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Open">Apri</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.Load">Carica</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.ResetAll">Reimposta tutto</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">Sei sicuro di voler reimpostare tutte le impostazioni?</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Done">Potrebbe essere necessario riavviare manualmente Lyricify.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log">Log</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Description">Operazioni di log</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Button.Open">Apri</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Button.OpenLyrics">Apri log testi</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Button.OpenFolder">Apri cartella</system:String>
+
+    <!--  Page Horizontal Notice  -->
+    <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">La pagina corrente non supporta la Vista mobile, ridimensiona la finestra per uscire dalla Vista mobile</system:String>
+
+
+
+    <!--
+        Menu
+    -->
+
+    <!--  MainWindow  -->
+    <!--  Three Dot Main Menu  -->
+    <system:String x:Key="String.Menu.MainWindow.Main.View">Visualizza</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.Topmost">Sempre in primo piano</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.MinimizeToTray">Minimizza nell'area di notifica</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.Zoom.In">Aumenta zoom</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.Zoom.Out">Riduci zoom</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.Zoom.Reset">Reimposta zoom</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.FontSize.In">Aumenta dimensione carattere</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.FontSize.Out">Riduci dimensione carattere</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.View.FontSize.Reset">Reimposta dimensione carattere</system:String>
+
+    <system:String x:Key="String.Menu.MainWindow.Main.RefreshLyrics">Aggiorna testi</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Translation">Traduzione</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.DesktopLyrics">Testi desktop</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.TaskbarLyrics">Testi barra delle applicazioni</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.AppleMusicLyrics">Testi Apple Music</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.AppleMusicLyricsTraditional">Testi Apple Music (Tradizionale)</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.LyricifyFullscreen">Lyricify a schermo intero</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.MobileUIFullscreen">Interfaccia mobile a schermo intero</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.WindowsUpdateLyrics">Testi Windows Update</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.WindowsBlueScreenLyrics">Testi schermata blu di Windows</system:String>
+
+    <system:String x:Key="String.Menu.MainWindow.Main.Settings">Impostazioni</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced">Avanzate</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.BackupCenter">Centro backup e automazione</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CustomConfigurationManager">Gestore configurazioni personalizzate</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.DeviceLatencyManager">Gestore latenza dispositivo</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.HotkeyManager">Gestore tasti di scelta rapida</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LocalFilesManager">Gestore file locali</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">Accedi a Spotify Web</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.RefreshPlaybackInfo">Aggiorna info riproduzione Spotify</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CopyRefreshToken">Copia refresh token</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.MediaSessionStatus">Stato Media Session</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.NetworkDiagnose">Diagnostica rete</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.ChangeLyricifyPassword">Cambia password account Lyricify</system:String>
+
+    <system:String x:Key="String.Menu.MainWindow.Main.About">Informazioni e aiuto</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.About">Informazioni</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.UserGuide">Guida utente di Lyricify 4</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.Follow">Segui</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.NeteaseCloudMusic">Netease Cloud Music</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Bilibili">Bilibili</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Rednote">rednote</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.OneRepublic">OneRepublic</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp">Ottieni aiuto</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.TelegramGroup">Gruppo Telegram</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup">Gruppo QQ</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup">Gruppo utenti {0}: {1}</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases">Ricevi nuove uscite</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.TelegramChannel">Canale Telegram</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.LyricifyOfficialWebsite">Sito ufficiale Lyricify</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.LanzousCloud">Lanzous Cloud</system:String>
+
+    <!--  Main Lyrics Line  -->
+    <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.Copy">Copia</system:String>
+    <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyTranslation">Copia traduzione</system:String>
+    <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyLineWithTranslation">Copia riga con traduzione</system:String>
+    <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyAllLines">Copia tutte le righe</system:String>
+    <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyAllTranslations">Copia tutte le traduzioni</system:String>
+    <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.CopyAllLinesWithTranslation">Copia tutte le righe con traduzione</system:String>
+    <system:String x:Key="String.Menu.MainWindow.MainLyricsLine.Menu.Share">Condividi</system:String>
+
+    <!--  Pinned Item  -->
+    <system:String x:Key="String.Menu.MainWindow.PinnedItem.Rename">Rinomina</system:String>
+    <system:String x:Key="String.Menu.MainWindow.PinnedItem.MoveUp">Sposta su</system:String>
+    <system:String x:Key="String.Menu.MainWindow.PinnedItem.MoveDown">Sposta giù</system:String>
+    <system:String x:Key="String.Menu.MainWindow.PinnedItem.Remove">Rimuovi</system:String>
+
+    <!--  Dynamic Lyrics Island  -->
+    <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">Doppio clic per nascondere per 2 s</system:String>
+    <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">Allinea al centro</system:String>
+    <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">Chiudi</system:String>
+
+    <!--  Desktop Lyrics  -->
+    <system:String x:Key="String.Menu.DesktopLyrics.DuoLineMode">Modalità doppia riga</system:String>
+    <system:String x:Key="String.Menu.DesktopLyrics.LyricsAlign">Allineamento testi</system:String>
+
+    <!--  Apple Music Lyrics  -->
+    <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.In">Aumenta zoom</system:String>
+    <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.Out">Riduci zoom</system:String>
+    <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.Reset">Reimposta zoom</system:String>
+    <system:String x:Key="String.Menu.AppleMusicLyrics.Blur">Sfoca testi</system:String>
+    <system:String x:Key="String.Menu.AppleMusicLyrics.BoldText">Testo in grassetto</system:String>
+    <system:String x:Key="String.Menu.AppleMusicLyrics.Translation">Traduzione cinese</system:String>
+
+
+    <!--  Notification Icon  -->
+    <system:String x:Key="String.Menu.NotificationIcon.UnlockDesktopLyrics">Sblocca Testi desktop</system:String>
+    <system:String x:Key="String.Menu.NotificationIcon.MinimizeToTray">Minimizza nell'area di notifica</system:String>
+    <system:String x:Key="String.Menu.NotificationIcon.Restart">Riavvia</system:String>
+    <system:String x:Key="String.Menu.NotificationIcon.Exit">Esci</system:String>
+
+    <!--  Pages  -->
+    <system:String x:Key="String.Menu.Pages.CopyAlbumInfo">Copia info album</system:String>
+    <system:String x:Key="String.Menu.Pages.CopyAlbumUPC">Copia UPC album</system:String>
+    <system:String x:Key="String.Menu.Pages.CheckAlbumAvailability">Controlla disponibilità album</system:String>
+    <system:String x:Key="String.Menu.Pages.CheckPlaylistAvailability">Controlla disponibilità playlist</system:String>
+    <system:String x:Key="String.Menu.Pages.CopyArtistInfo">Copia info artista</system:String>
+    <system:String x:Key="String.Menu.Pages.CopyPlaylistInfo">Copia info playlist</system:String>
+    <system:String x:Key="String.Menu.Pages.CopyUserInfo">Copia info utente</system:String>
+    <system:String x:Key="String.Menu.Pages.CopyTrackList">Copia elenco brani</system:String>
+    <system:String x:Key="String.Menu.Pages.CopyTopTracks">Copia brani più ascoltati</system:String>
+
+    <system:String x:Key="String.Menu.Pages.Pin">Aggiungi all'accesso rapido</system:String>
+    <system:String x:Key="String.Menu.Pages.Unpin">Rimuovi dall'accesso rapido</system:String>
+
+    <system:String x:Key="String.Menu.Pages.CopySpotifyURI">Copia Spotify URI</system:String>
+    <system:String x:Key="String.Menu.Pages.CopySpotifyLink">Copia link Spotify</system:String>
+    <system:String x:Key="String.Menu.Pages.ShowInSpotify">Mostra in Spotify</system:String>
+
+    <system:String x:Key="String.Menu.Pages.SaveArtwork">Salva copertina</system:String>
+
+    <!--  Track  -->
+    <system:String x:Key="String.Menu.Track.CopyTrackInfo">Copia info brano</system:String>
+    <system:String x:Key="String.Menu.Track.CopyTrackISRC">Copia ISRC brano</system:String>
+    <system:String x:Key="String.Menu.Track.AddToQueue">Aggiungi alla coda</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer">Timer sospensione</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.TurnOffTimer">Disattiva timer</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.StopAudioIn">Interrompi audio tra:</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.PlayFullTrack">Riproduci il brano completo poi interrompi</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.WaitPlayFullTrack">In attesa che il brano finisca</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.1">1 minuto</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.5">5 minuti</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.10">10 minuti</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.15">15 minuti</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.30">30 minuti</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.45">45 minuti</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.60">1 ora</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Hour">Manca {0} ora</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Hours">Mancano {0} ore</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Minute">Manca {0} minuto</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Minutes">Mancano {0} minuti</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Second">Manca {0} secondo</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Seconds">Mancano {0} secondi</system:String>
+
+    <system:String x:Key="String.Menu.Track.GoToPlaylist">Vai alla playlist</system:String>
+    <system:String x:Key="String.Menu.Track.GoToAlbum">Vai all'album</system:String>
+    <system:String x:Key="String.Menu.Track.GoToArtist">Vai all'artista</system:String>
+    <system:String x:Key="String.Menu.Track.ShowCredits">Mostra crediti</system:String>
+    <system:String x:Key="String.Menu.Track.OpenTrackManagement">Apri Gestione brano</system:String>
+
+    <system:String x:Key="String.Menu.Track.CopySpotifyURI">Copia Spotify URI</system:String>
+    <system:String x:Key="String.Menu.Track.CopySpotifyLink">Copia link Spotify</system:String>
+    <system:String x:Key="String.Menu.Track.ShowInSpotify">Mostra in Spotify</system:String>
+
+
+
+    <!--  Tools  -->
+    <system:String x:Key="String.Tools.Page.RefreshButton">Ricarica</system:String>
+
+    <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice">Ops, hai raggiunto il limite di richieste dell'API di Spotify, prova a ricaricare più tardi.</system:String>
+    <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice.Network">Ops, qualcosa non va. Controlla la tua connessione Internet.</system:String>
+    <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice.Internal">Ops, qualcosa non va. Chiedi aiuto allo sviluppatore.</system:String>
+
+    <system:String x:Key="String.Tools.FollowButton.Follow">SEGUI</system:String>
+    <system:String x:Key="String.Tools.FollowButton.Following">SEGUITO</system:String>
+
+    <system:String x:Key="String.Tools.HeartButton.AskRemove">Sei sicuro di voler rimuovere questo elemento dalla tua libreria?</system:String>
+
+    <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeMore">VEDI ALTRO</system:String>
+    <system:String x:Key="String.Tools.AdvancedItemsPanel.SeeLess">VEDI MENO</system:String>
+    <system:String x:Key="String.Tools.AdvancedItemsPanel.OnlyVisibleToYou">Visibile solo a te</system:String>
+
+    <system:String x:Key="String.Tools.DisplayItem.Artist">Artista</system:String>
+    <system:String x:Key="String.Tools.DisplayItem.By">Di {0}</system:String>
+
+
+
+    <!--
+        Windows
+    -->
+
+    <!--  Welcome  -->
+    <system:String x:Key="String.Windows.Welcome">Benvenuto in Lyricify</system:String>
+    <system:String x:Key="String.Windows.Welcome.Intro.MoreThanLyrics">Più che semplici testi</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Title">Cominciamo</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Agreement">Continuando accetti i termini d'uso di Lyricify</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Button.Continue">Continua</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Title">Ora è il momento di completare l'autorizzazione Spotify nel tuo browser</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.AuthFinish">Autorizzazione Spotify completata, attendi ancora qualche secondo</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble">Problemi di accesso?</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink">Il browser non si è aperto:</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink.Help">Copia link di autorizzazione Spotify</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink">Autorizzazione completata non rilevata:</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink.Help">Inserisci manualmente il link di callback dell'autorizzazione</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.InvalidClient.InvalidRedirectUri.Help">Errore di Spotify, fai clic qui per la soluzione</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configure">Configura client API personalizzato</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configured">Client API personalizzato configurato</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.ProxySettings">Impostazioni proxy</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Button.Cancel">Annulla</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Title">Lyricify sta per chiudersi</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Button.Retry">Riprova</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Button.Close">Chiudi</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Error.Title">Qualcosa non va, ecco maggiori dettagli sull'errore</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Retry">Riprova</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Error.Button.Close">Chiudi</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.Title" xml:space="preserve">Connessione a Spotify riuscita! </system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">Ora rilassati, esploriamo Lyricify.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.WelcomeBack">Bentornato in Lyricify!</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">Sei l'utente Lyricify n. {0:N0}</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.FailedToRegister">Registrazione al server Lyricify non riuscita. Le funzioni lato server potrebbero essere limitate. Un nuovo accesso potrebbe risolvere il problema.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">Vai</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice">Abbiamo notato che non stai riproducendo brani su Spotify. Dato che Lyricify è un'app per testi, non un lettore musicale, devi riprodurre brani su Spotify per poter vedere i testi in Lyricify.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice.Button.Continue">Continua</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Button.Continue">Continua</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Title">Poiché stai usando un client API personalizzato, è consigliato autorizzare anche il client API pubblico per usare Lyricify in condizioni estreme</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip">Salta questo passaggio (non consigliato)</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip.Ask">Sei sicuro di voler saltare questo passaggio? È fortemente consigliato autorizzare il client API pubblico per usare Lyricify in condizioni estreme.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Title">Completa l'autorizzazione Spotify nel tuo browser, proprio come hai appena fatto</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Skip">Salta</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Error.Title">Qualcosa non va, ma puoi comunque usare Lyricify, rilassati</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Success.Title">Connessione riuscita al client API pubblico di Spotify. Si parte con Lyricify!</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Preset">Preset</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">Predefinito</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Quality">Qualità migliore</system:String>
+    <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Performance">Prestazioni migliori</system:String>
+
+    <!--  Font Selector  -->
+    <system:String x:Key="String.Windows.FontSelector">Selettore carattere</system:String>
+    <system:String x:Key="String.Windows.FontSelector.InstalledFonts">Caratteri installati</system:String>
+    <system:String x:Key="String.Windows.FontSelector.SetFontFamily">Imposta famiglia di caratteri</system:String>
+    <system:String x:Key="String.Windows.FontSelector.SetFontFamily.SearchBar.PlaceHolder">Filtra caratteri</system:String>
+    <system:String x:Key="String.Windows.FontSelector.AddToList">Aggiungi all'elenco</system:String>
+    <system:String x:Key="String.Windows.FontSelector.RemoveFromList">Rimuovi dall'elenco</system:String>
+    <system:String x:Key="String.Windows.FontSelector.MoveUp">Sposta su</system:String>
+    <system:String x:Key="String.Windows.FontSelector.MoveDown">Sposta giù</system:String>
+    <system:String x:Key="String.Windows.FontSelector.Preview">Anteprima</system:String>
+    <system:String x:Key="String.Windows.FontSelector.TypeHereToPreview">Scrivi qui per l'anteprima</system:String>
+    <system:String x:Key="String.Windows.FontSelector.OK">OK</system:String>
+    <system:String x:Key="String.Windows.FontSelector.Cancel">Annulla</system:String>
+
+    <!--  Share Lyrics  -->
+    <system:String x:Key="String.Windows.ShareLyrics">Condividi testi</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.SelectLyrics">Seleziona i testi</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.SelectCount">{0} riga selezionata</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.SelectCount.Plural">{0} righe selezionate</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.SelectLyrics.Button.Continue">Continua</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share">Condividi</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.ClickForMore">Clicca per altro</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ShowTranslation">Mostra traduzione</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ColorfulLogo">Logo colorato</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowTranslation">Mostra traduzione</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowBackgroundVocals">Mostra voci di sottofondo</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ColorfulLogo">Logo colorato</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.BoldText">Testo in grassetto</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">Copia</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Button.Rendering">Rendering in corso</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">Salva</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">Immagine JPEG (*.jpg)|*.jpg</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">Salvataggio non riuscito.</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Message.RenderFailed">Qualcosa non va, rendering non riuscito.</system:String>
+
+    <!--  Configure Web Window  -->
+    <system:String x:Key="String.Window.ConfigureWeb.Notice1">Accedi a Spotify qui per abilitare la riproduzione all'interno di Lyricify</system:String>
+    <system:String x:Key="String.Window.ConfigureWeb.Notice2">Se la pagina web di Spotify viene visualizzata correttamente, Lyricify dovrebbe essere in grado di riprodurre l'audio. (Potrebbe essere necessario riavviare Lyricify)</system:String>
+    <system:String x:Key="String.Window.ConfigureWeb.ToggleSwitch">Abilita lettore interno</system:String>
+
+    <!--  Custom Configuration Manager  -->
+    <system:String x:Key="String.Window.CustomConfigurationManager">Gestore configurazioni personalizzate</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Description">Carica idee dalle tue creazioni o anche personalizzazioni di altri utenti.</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Name">Nome</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Description">Descrizione</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.File">File</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Path">Percorso</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.IsEnabled">Abilitato</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfiguration">Aggiungi configurazione</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription">Aggiungi sottoscrizione configurazione</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription.InputNotice">URL sottoscrizione</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription.InvalidUrl">URL non valido</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.ReloadAllConfiguration">Ricarica tutte le configurazioni</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.RemoveAllConfigurations">Rimuovi tutte le configurazioni</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.HelpDocument">Documento di aiuto</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.Close">Chiudi</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveOne">Sei sicuro di voler rimuovere questa configurazione?</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveAll">Sei sicuro di voler rimuovere tutte le configurazioni?</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.AddDialogTitle">Seleziona un file di configurazione personalizzata</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.AddDialogTitle.Filter">Documento XAML (*.xaml)|*.xaml</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Rename">Rinomina</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.EditDescription">Modifica descrizione</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenFile">Apri file</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenSubscriptionUrl">Apri URL sottoscrizione</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.CopySubscriptionUrl">Copia URL sottoscrizione</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Reload">Ricarica</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Remove">Rimuovi</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">Sposta su</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveDown">Sposta giù</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Name">Configurazione senza nome</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Name.Subscription">Sottoscrizione configurazione senza nome</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorSavingProfile">Errore durante il salvataggio dei profili</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorAddingProfile">Errore durante l'aggiunta del profilo</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorAddingProfile.Subscription">Errore durante l'aggiunta del profilo di sottoscrizione</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ContentIllegal">Contenuto della configurazione non valido</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ContentIllegal.Subscription">Contenuto della sottoscrizione configurazione non valido</system:String>
+
+    <!--  Device Latency Manager  -->
+    <system:String x:Key="String.Window.DeviceLatencyManager">Gestore latenza dispositivo</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Description">Imposta latenze individuali per ogni dispositivo di riproduzione.</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Description.Additional">Pensato per la latenza dei dispositivi di riproduzione (come dispositivi Bluetooth), non usare questo valore per il ritardo dei testi.</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DefaultLatency">Latenza predefinita</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DefaultLatency.Description">Numero intero in millisecondi, il valore predefinito è 0.</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceList">Elenco dispositivi</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.ComboBoxLatencyOption.Default">Predefinita</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.ComboBoxLatencyOption.Custom">Personalizzata</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.Menu.Remove">Rimuovi</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.Icon.CurrentDevice.ToolTip">Dispositivo di riproduzione corrente</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.CurrentLatency">Latenza corrente:</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.CurrentLatency.Value">{0} ms</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DisconnectedOrDisabled">Disconnesso o disabilitato</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.RefreshDeviceList">Aggiorna elenco dispositivi</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.RefreshLyrics">Aggiorna testi</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.Close">Chiudi</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.Close.Notice">Tutte le impostazioni verranno salvate automaticamente.</system:String>
+
+    <!--  Hotkey Manager  -->
+    <system:String x:Key="String.Window.HotkeyManager">Gestore tasti di scelta rapida</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Description">Qui puoi gestire i tasti di scelta rapida globali. (Usa Backspace per cancellare una scorciatoia)</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.DesktopLyrics">Testi desktop</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.TaskbarLyrics">Testi barra delle applicazioni</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.ResetWindow">Reimposta finestra</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.PlayPause">Riproduci / Pausa</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.PreviousTrack">Brano precedente</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.NextTrack">Brano successivo</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Button.ResetAll">Reimposta tutti i tasti di scelta rapida</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Button.Apply">Applica</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Button.Cancel">Annulla</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Message.FailedAt">Registrazione non riuscita per questi tasti di scelta rapida:</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Message.CheckUsing">Verifica che un altro programma non stia usando questi tasti.</system:String>
+
+    <!--  Network Diagnose  -->
+    <system:String x:Key="String.Window.NetworkDiagnose">Diagnostica rete</system:String>
+    <system:String x:Key="String.Window.NetworkDiagnose.Description">Controlla la tua connessione Internet con il server Lyricify.</system:String>
+    <system:String x:Key="String.Window.NetworkDiagnose.Button.Check">Controlla</system:String>
+    <system:String x:Key="String.Window.NetworkDiagnose.Button.Close">Chiudi</system:String>
+
+    <!--  Local Files Manager  -->
+    <system:String x:Key="String.Window.LocalFilesManager">Gestore file locali</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Title">Gestore file locali Spotify</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Description">Solo i file locali riprodotti su Spotify mentre Lyricify è aperto verranno mostrati qui.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Button.RefreshList">Aggiorna elenco</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.HaveImage">Immagine presente (clicca per sostituire, clic destro per rimuovere)</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.NoImage">Nessuna immagine (clicca per aggiungere)</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.AddImage">Aggiungi un'immagine</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.ReplaceImage">Sostituisci con un'altra immagine</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.All">Tutti i file supportati</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Image">File immagine</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Audio">File audio</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.ImageNotFoundInMediaFile">Nessuna immagine trovata nel file multimediale selezionato.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.SuccessUpdate">Immagine aggiornata correttamente.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.FailUpdate">Aggiornamento immagine non riuscito.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Notice.AskRemove">Sei sicuro di voler rimuovere questa immagine?</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.SuccessRemove">Immagine rimossa correttamente.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.FailRemove">Rimozione immagine non riuscita.</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Type.Albums">Album:</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Type.Tracks">Brani:</system:String>
+
+    <!--  Storage Manager  -->
+    <system:String x:Key="String.Window.StorageManager">Gestore archiviazione</system:String>
+    <system:String x:Key="String.Window.StorageManager.Description">Gestisci l'archiviazione di Lyricify su questo dispositivo.</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Configurations">Configurazioni</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Configurations.Description">Impostazioni, configurazioni e informazioni account</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Caches">Cache</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Caches.Description">Immagini e altre cache</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Logs">Log</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Logs.Description">File di log generati in esecuzione</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Backups">Backup</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Backups.Description">Backup dati account, salvataggi automatici dell'editor testi e altri backup</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup">Pulizia archiviazione</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Configurations.UnusedLocalFileImages">Immagini di file locali non utilizzate</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Caches.Images">Immagini in cache</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.CurrentLog">Log corrente</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.CurrentLyricsLog">Log testi corrente</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.HistoryLogs">Log cronologici</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Backups.AccountData">Backup dati account</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Backups.LyricsEditorAutoBackup">Backup automatici editor testi</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.SelectedSize">{0} selezionati</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.SelectRecommended">Seleziona consigliati</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.SelectAll">Seleziona tutto</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.DeselectAll">Deseleziona tutto</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean">Pulisci</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean.Ask">Sei sicuro di voler pulire? Dopo la pulizia non sarà possibile ripristinare i dati.</system:String>
+
+    <!--  Track Management  -->
+    <system:String x:Key="String.Window.TrackManagement">Gestione brano</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Title">Gestione brano Lyricify</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Track.Lock">Blocca brano</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Track.Lock.Notice">Il brano è stato bloccato dall'amministratore</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo">Informazioni di base</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Track">Brano</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Artist">Artista</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Album">Album</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental">Strumentale</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.Unset">Non impostato</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.True">Sì</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Instrumental.ComboBox.False">No</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer">Autore</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format">Formato:</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Format.Description">I nomi degli autori devono essere separati da , (virgola a larghezza normale). Puoi anche inserire gli autori su righe diverse e lasciare che Lyricify si occupi della formattazione. Usa cinese semplificato per i nomi cinesi.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.BasicInfo.Writer.Notice.Example">Esempio:</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics">Testi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">Blocca testi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">I testi sono stati bloccati dall'amministratore</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">L'offset deve essere un numero (l'unità dell'offset è il millisecondo)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.TooLarge">L'offset non dovrebbe essere così grande, forse hai inserito un valore errato. Vuoi mantenerlo? (L'offset è una regolazione del timestamp in millisecondi)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">Null (non marcato sul server)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.RemoveLyrics">Rimuovi testi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">Cerca</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search.Description">Importa testi usando il motore di ricerca testi integrato di Lyricify</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import">Importa</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.QQ.Description">Importa testi tramite QQ Music Song Mid o link di condivisione</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import.Netease.Description">Importa testi tramite Netease Cloud Music Song Id o link di condivisione</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit">Modifica</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Edit.Description">Modifica avanzata dei testi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify">Lyricify Lyrics Vault</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit">Importa e modifica</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Description">Modifica i testi in Lyricify Lyrics Vault</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention" xml:space="preserve">ATTENZIONE: </system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention.Content">USA questa funzione SOLO quando i testi non sono disponibili né su QQ Music né su Netease Cloud Music.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.Attention">L'offset non può essere modificato quando Media Session è disconnesso.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ">QQ Music</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">Inserisci QQ Music Song Mid o il link di condivisione per ottenere i testi da QQ Music.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Input">Song Mid di QQ Music errato, controlla l'input.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Link">Impossibile ottenere il Song Mid di QQ Music dal link di condivisione.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease">Netease Cloud Music</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox">Inserisci Netease Cloud Music Song Id o il link di condivisione per ottenere i testi da Netease Cloud Music.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Netease.Import.InputBox.Failed.Input">Song Id di Netease Cloud Music errato, controlla l'input.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Reset">Reimposta</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Reset.Description">Reimposta tutte le modifiche</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo">Aggiorna info locali</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshLocalInfo.Description">Mantieni tutte le modifiche, di solito non ha effetto visivo</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshServerInfo">Aggiorna info server</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.RefreshServerInfo.Description">Annulla le modifiche e carica le ultime info dal server</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow">Applica nella finestra principale</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow.Description">Carica le info testi correnti nella finestra principale (disponibile solo quando questo brano è attualmente in riproduzione)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Save">Salva (carica sul server)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Save.Message.ApplyInMainWindow">È fortemente consigliato applicare le modifiche nella finestra principale e controllare i testi appena importati. Applicare ora nella finestra principale (Sì), continuare il caricamento (No) o non fare nulla (Annulla)?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Close">Chiudi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.EditRawFile">Modifica file grezzo</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">Sei sicuro di voler chiudere senza salvare?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.FinishDuetView">Completa le impostazioni vista duetto (doppio clic sul titolo "Duet View" per cancellare le impostazioni di vista duetto)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.CheckTitleLines" xml:space="preserve">Controlla la definizione delle righe titolo, sembra che tu abbia marcato tutte le righe come righe titolo. (Doppio clic sul titolo "IsTitle" per reimpostare la definizione delle righe titolo)&#x000A;Vuoi annullare il caricamento?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Timestamp">Timestamp</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Lyrics">Testi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle">IsTitle</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle.ToolTip">Le righe titolo includono: titolo, crediti e altre righe non di testo della canzone</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView">Duet View</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView.ToolTip">Doppio clic sul titolo "Duet View" per cancellare le impostazioni vista duetto</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Button">Carica tutti i testi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Button.Notice">Carica tutti i testi per abilitare tutte le funzioni di modifica</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Timestamp">Copia timestamp</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Lyrics">Copia testi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Translation">Copia traduzione</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampLyrics">Copia timestamp e testi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampTranslation">Copia timestamp e traduzione</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.Loading">Caricamento informazioni testi dal server</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">Brano vuoto</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">Caricamento info testi dal server non riuscito</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message">Puoi provare</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.1">1. Disabilitare il proxy, che potrebbe bloccare la connessione al server Lyricify</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.2">2. Disconnettere e riconnettere Lyricify</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.WordWrap">A capo automatico</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.Notice.AskSave">Vuoi salvare le modifiche?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.Notice.NoTimestamp">Nessun timestamp rilevato, continuare a salvare?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor">Editor testi avanzato</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Lyrics">Testi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">Traduzione</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">Aggiungi traduzione</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Message.Translation.AutoFill">Usare la traduzione compilata automaticamente?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyrics">Importa Testi Apple Music</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyricsById">Importa Testi Apple Music per ID</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportSpotifyLyrics">Importa Testi Spotify</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportKugouLyrics">Importa Testi Kugou</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">Ottieni testi QRC</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetLyricifySyllable">Ottieni testi Lyricify Syllable</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">Creatore di righe sillabiche</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.StartRecord">Avvia registrazione</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.StopRecord">Interrompi registrazione</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.Clear">Pulisci</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.InputLyrics">Importa testi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.OutputLyrics">Esporta testi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.ChangeStartTime">Modifica ora di inizio</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">Spostatore di righe sillabiche</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.CopyCurrentTime">Copia ora corrente</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.GetTimestampByMillisecond">Ottieni timestamp dai millisecondi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.MoveTo">Sposta a</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.QrcSpaceMove">Sposta lo spazio iniziale alla fine</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.LyricifyLyricsVault.Attention" xml:space="preserve">Attenzione: &#x000A;Non importare manualmente i testi se QQ Music o Netease Cloud Music li hanno già! &#x000A;Se il pulsante di ricerca in Lyricify non trova i testi corrispondenti, non significa che non esistano. Devi cercare manualmente nelle app QQ Music e Netease Cloud Music per assicurarti che non ci siano testi corrispondenti prima di considerare la canzone come &quot;senza testi&quot;. &#x000A;Il tuo account potrebbe essere limitato se violi questa regola. &#x000A;Continuare l'importazione?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Importazione Testi Apple Music</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.EnterIdOrLink">Inserisci ID o link</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet">Impossibile ottenere i testi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet.TokenExpired">Impossibile ottenere i testi. Il token lato server è scaduto. Attendi che lo sviluppatore lo risolva e riprova.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">Testi non trovati</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">Questi testi non sono sincronizzati parola per parola, continuare l'importazione?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">Convertire il cinese tradizionale in cinese semplificato?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoSongs">Nessun brano corrispondente trovato.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoLyrics">Il brano corrispondente non ha testi o testi sincronizzati.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.TooManyRequest">Troppe richieste, riprova tra qualche ora.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.CurrentlyUnavailable">Questa funzione non è al momento disponibile, riprova domani.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.AddTranslation">Aggiungi manualmente una traduzione in cinese per i testi importati (solo cinese semplificato, cinese tradizionale non consentito).</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization">Maiuscole</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization.Message">Mettere in maiuscolo l'inizio di tutte le righe?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Copied.QRC">QRC copiato negli appunti</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Copied.LyricifySyllable">Lyricify Syllable copiato negli appunti</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.NotSynced">Testi non sincronizzati, importazione non riuscita</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.ConvertTraditionalChinese">Il cinese tradizionale è stato convertito automaticamente in cinese semplificato, controlla i testi per assicurarti che la conversione sia corretta.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.TokenExpired">Il token Spotify lato server è scaduto, contatta lo sviluppatore di Lyricify.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToFound">Nessun testo trovato</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToGet">Impossibile ottenere i testi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToConvert">Impossibile convertire i testi</system:String>
+    <system:String x:Key="String.Window.TrackManagement.RawFileEditor">Editor file grezzo</system:String>
+    <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">Impossibile deserializzare, rivedere le modifiche (Sì) o chiudere senza salvare (No)?</system:String>
+
+    <!--  Lyricify Account  -->
+    <system:String x:Key="String.Window.LyricifyAccount">Account Lyricify</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Button.OK">OK</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Button.Change">Cambia</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password">Password</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password.Reenter">Reinserisci</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password.Old">Password attuale</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Password.Old.PlaceHolder">(Password salvata)</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Title.Enter">Inserisci la password del tuo account Lyricify {0}</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Title.Set">Imposta una password per il tuo account Lyricify {0}</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Title.Change">Cambia la password del tuo account Lyricify {0}</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Administrator">Amministratore</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Manager">Responsabile</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Insider">Insider</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.EmptyPassword">La password è vuota</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.EmptyOldPassword">La password attuale è vuota</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.ServerError">Errore del server</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.WrongPassword">Password errata</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.ShortPassword">La password è troppo corta</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.WrongOldPassword">La password attuale è errata</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.TooManyAttempts">Troppi tentativi</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Message.TwiceDifferent">Le due password inserite non coincidono</system:String>
+
+    <!--  Custom API Client Manager  -->
+    <system:String x:Key="String.Window.CustomApiClientManager">Configura client API personalizzato</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Button.Reset">Reimposta</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Button.OK">OK</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Button.Cancel">Annulla</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.ToolTip">Fai clic per visualizzare il tutorial di configurazione del client API Spotify personalizzato</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Message.WrongClientSecret">Client Secret errato, controlla il valore inserito</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Message.WrongClientIdSecret">Client ID o Client Secret errato, controlla i valori inseriti</system:String>
+
+    <!--  Backup Center  -->
+    <system:String x:Key="String.Window.BackupCenter">Backup e automazione</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Title">Centro backup e automazione di Lyricify</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Tab.Home">Home</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Tab.Backup">Backup</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Tab.Restore">Ripristino</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Tab.Preview">Anteprima</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Tab.Automation">Automazione</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Tab.Schedule">Pianificazione</system:String>
+
+    <system:String x:Key="String.Page.BackupCenter.Home.Welcome">Benvenuto nel Centro backup e automazione di Lyricify</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.Backup">Backup</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.Backup.Description">Esegui il backup della tua libreria e di altri dati</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.Transfer">Trasferimento</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.Transfer.Description">Trasferisci i tuoi dati a un altro account</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.Automation">Automazione</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.Automation.Description">Lascia che Lyricify gestisca la tua libreria</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.PersonalUseWarning" xml:space="preserve">Solo per uso personale! &#x000A;Se vuoi usare il Centro backup di Lyricify per attività commerciali, devi prima contattare Lyricify.</system:String>
+
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step1">Passo 1: Scegli cosa vuoi salvare nel backup</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step2">Passo 2: Scegli il formato di output del backup</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Step3">Passo 3: Imposta una password se vuoi</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.LikedSongs">Brani con Mi piace</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Playlist">Playlist</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Album">Album</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Type.Artist">Artista</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Json.Description">I file Json permettono a Lyricify di eseguire un ripristino completo</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Csv.Description">I file CSV possono essere visualizzati come foglio e sono compatibili con altri fornitori di servizi</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Text.Description">I file di testo salvano solo il nome del brano e dell'artista</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Output.Intro">Ti consigliamo di scegliere il file Json: funziona in modo naturale con Lyricify e può anche essere protetto da password. Attualmente i file CSV e di testo sono disponibili solo per i Brani con Mi piace.</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Password.CheckBox">Usa password</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Password.Input">Password</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Password.Input.Reenter">Reinserisci</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Password.TwiceDifferent">Le due password inserite non coincidono.</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Button.BackupNow">Esegui backup ora</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Prepare.Button.ResetToDefault">Reimposta tutto ai valori predefiniti</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step1">Passo 1: Controlla la tua libreria</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2">Passo 2: Esegui il backup</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step3">Passo 3: Salva su file</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step1.Output">Abbiamo trovato {0} nella tua libreria.</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2.Output">Abbiamo eseguito il backup di {0}.</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Step2.ETA">Tempo rimanente: {0} secondi</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Finished.Message">Operazione completata. Ora puoi controllare il tuo backup.</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.Cancel">Annulla</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.ShowPreview">Mostra anteprima</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.OpenBackupFolder">Apri cartella backup</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.SaveACopy">Salva una copia</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Backup.Process.Button.SaveACopy.Failed.Message">Qualcosa è andato storto, impossibile salvare la copia.</system:String>
+
+    <system:String x:Key="String.Page.BackupCenter.Type.LikedSongs.Output">{0} brano</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.LikedSongs.Output.Plural">{0} brani</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Playlist.Output">{0} playlist</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Playlist.Output.Plural">{0} playlist</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Album.Output">{0} album</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Album.Output.Plural">{0} album</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Artist.Output">{0} artista</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Type.Artist.Output.Plural">{0} artisti</system:String>
+
+    <!--  Others  -->
+    <system:String x:Key="String.Helpers.Player.Time.Hour">h</system:String>
+    <system:String x:Key="String.Helpers.Player.Time.Minute">min</system:String>
+    <system:String x:Key="String.Helpers.Player.Time.Second">sec</system:String>
+
+    <system:String x:Key="String.Helpers.Time.Ago.Day">{0} giorno fa</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Days">{0} giorni fa</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Hour">{0} ora fa</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Hours">{0} ore fa</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Minute">{0} minuto fa</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Minutes">{0} minuti fa</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Second">{0} secondo fa</system:String>
+    <system:String x:Key="String.Helpers.Time.Ago.Seconds">{0} secondi fa</system:String>
+
+    <!--  Lyrics  -->
+    <system:String x:Key="String.Lyrics.Provider">Fornitore testi</system:String>
+    <system:String x:Key="String.Lyrics.Provider.ProvidedBy">Testi forniti da {0}</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">Lyricify Lyrics Vault</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.QQ">QQ Music</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.Netease">Netease Cloud Music</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.Musixmatch">Musixmatch</system:String>
+
+    <system:String x:Key="String.Lyrics.Provider.Menu.MarkCorrect">Segna come testo corretto</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Menu.ViewSource">Visualizza sorgente</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Menu.ManageTrack">Gestisci questo brano</system:String>
+
+    <system:String x:Key="String.Lyrics.Provider.Server.Info.Marked">Segnato sul server</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">Ricerca automatica</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Fail.Version">La versione attuale è obsoleta, aggiorna l'app</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Uploading">Caricamento testi sul server...</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">Segnalazione completata con successo sul server</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Exist">Il testo è già stato segnalato</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">Operazione non riuscita, potrebbe trattarsi di un errore interno</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Network">C'è un problema con il server di Lyricify o con la tua rete</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">Operazione non riuscita a causa di testi vuoti, potrebbe trattarsi di un errore interno</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Exist">I testi esistono già, riprova più tardi</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Locked">Questo brano è stato bloccato</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Denied">La tua richiesta di segnalazione è stata rifiutata</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Success">Caricato sul server con successo</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail">Operazione non riuscita, potrebbe trattarsi di un errore interno</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.EmptyUpload">Caricamento vuoto</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Part">Una parte del caricamento non è riuscita, riprova più tardi</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Denied">La tua richiesta di caricamento è stata rifiutata</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Locked">Questo brano è stato bloccato</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.Network">Caricamento non riuscito, potrebbe essere causato da un problema di rete</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Upload.Fail.ServerException">Caricamento non riuscito a causa di un'eccezione del server</system:String>
+
+    <system:String x:Key="String.Lyrics.Info.NoLyrics0">Hmm. Non conosciamo il testo di questo brano.</system:String>
+    <system:String x:Key="String.Lyrics.Info.NoLyrics1">Sembra che non abbiamo il testo di questa canzone.</system:String>
+    <system:String x:Key="String.Lyrics.Info.NoLyrics2">Ci hai colti di sorpresa, stiamo ancora lavorando per ottenere il testo di questo brano.</system:String>
+    <system:String x:Key="String.Lyrics.Info.NoLyrics3">Per questo brano dovrai indovinare il testo.</system:String>
+    <system:String x:Key="String.Lyrics.Info.Error">Impossibile caricare il testo di questa canzone. Riprova più tardi.</system:String>
+    <system:String x:Key="String.Lyrics.Info.Instrumental">Brano strumentale, buon ascolto.</system:String>
+    <system:String x:Key="String.Lyrics.Info.Button.ManualImport">Importazione manuale (Apri gestione brano)</system:String>
+
+    <!--  Converter  -->
+    <system:String x:Key="String.Converter.ValueString">{0}% completato</system:String>
+
+    <!--  Dialogs  -->
+    <system:String x:Key="String.Dialog.Store.Title">Hai trovato una funzione esclusiva!</system:String>
+    <system:String x:Key="String.Dialog.Store.Title.FreePromotion">È possibile sbloccare altre funzioni!</system:String>
+    <system:String x:Key="String.Dialog.Store.Explore">Ti invitiamo a scoprire Lyricify su Microsoft Store per un'esperienza ancora migliore. Il tuo supporto contribuirà in modo importante al continuo miglioramento e sviluppo dell'app.</system:String>
+    <system:String x:Key="String.Dialog.Store.Purchase">Ti invitiamo a prendere in considerazione l'acquisto di Lyricify su Microsoft Store. Il tuo supporto ci aiuterà a migliorare la tua esperienza e a continuare a sviluppare nuove funzioni.</system:String>
+    <system:String x:Key="String.Dialog.Store.StoreExclusiveExplanation">Acquistando la versione Microsoft Store puoi sbloccare caratteri personalizzati per i testi Apple Music, Dynamic Lyrics Island e altre viste dei testi, i server accelerati di Lyricify e molte altre funzioni.</system:String>
+    <system:String x:Key="String.Dialog.Store.Button.GoToStore">Vai a Microsoft Store</system:String>
+    <system:String x:Key="String.Dialog.Store.Button.Close">Chiudi</system:String>
+    <system:String x:Key="String.Dialog.Store.Donator">Hai già fatto una donazione?</system:String>
+    <system:String x:Key="String.Dialog.Store.Donator.ToolTip">I sostenitori che donano un importo pari o superiore al prezzo di vendita su Microsoft Store possono richiedere gratuitamente un codice di riscatto Microsoft Store allo sviluppatore.</system:String>
+
+    <system:String x:Key="String.Dialog.MediaSessionStatus.NoSessionsFound">Nessuna sessione trovata</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.SessionsFound.Colon">Trovate {0} sessioni:</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.SystemRequirements">Media Session richiede Windows 10 (Build 17763) o una versione successiva.</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.Tips.SpotifyNoPlayback">Sembra che Spotify stia riproducendo, ma le informazioni di riproduzione non vengono caricate correttamente sul server di Spotify. Controlla la tua connessione Internet.</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.Tips.MediaSessionRequirements.Colon">Requisiti Media Session:</system:String>
+
+    <!--
+        Messages
+    -->
+
+    <!--  Titles  -->
+    <system:String x:Key="String.Messages.Title.Error">Errore Lyricify</system:String>
+
+    <!--  App  -->
+    <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">Azione non autorizzata, effettua di nuovo l'accesso per continuare</system:String>
+    <system:String x:Key="String.Messages.App.Exception.PremiumRequired">Premium richiesto</system:String>
+    <system:String x:Key="String.Messages.App.Exception.PremiumRequired.More">Premium richiesto (fai clic per saperne di più)</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TryToRelogin">Prova ad accedere di nuovo</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests">Troppe richieste (errore 429), riprova più tardi</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">Troppe richieste (errore 429), riprova tra {0} secondi</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify">Puoi evitare gli errori 429 configurando un client API personalizzato (fai clic per saperne di più)</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify.Full">Puoi evitare gli errori 429 configurando un client API personalizzato, che può accelerare l'avvio di Lyricify e il cambio brano (fai clic per saperne di più)</system:String>
+
+    <!--  MainWindow  -->
+    <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">Errore 429, riprova più tardi</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Timeout">Eccezione di timeout, riprova più tardi</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Eccezione richiesta HTTP, riprova più tardi</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">Account Lyricify non trovato, le funzioni relative al server saranno limitate&#x000A;Potrebbe essere utile disconnettersi e accedere di nuovo</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Restricted">Il tuo account Lyricify è stato limitato, contatta un amministratore per assistenza</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Message.RegistrationRepaired">Il tuo account Lyricify è stato riparato e registrato con successo!</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Message.NonPremium">Suggerimento: ottieni Spotify Premium per sfruttare al meglio Lyricify</system:String>
+    <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed">Lyricify verrà chiuso</system:String>
+    <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed.Wrong">Qualcosa non va, Lyricify per Spotify verrà chiuso.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.SpotifyAccount.Error.Relogin">C'è un problema con il tuo account Spotify, vuoi provare ad accedere di nuovo?</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.NetworkIssue">Problema di rete. Controlla la tua connessione Internet</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.TryToRelogin">Prova ad accedere di nuovo</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SomethingsWrong">Qualcosa non va, controlla la tua connessione Internet o contatta lo sviluppatore</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.InvalidClient">Informazioni Client non valide, controlla la configurazione del tuo client API</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">Utente non registrato nella Spotify Developer Dashboard</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SslException">Impossibile stabilire la connessione SSL.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SslException.Message">C'è qualcosa che non va con la tua connessione Internet. Assicurati che accounts.spotify.com e api.spotify.com siano accessibili.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">Il servizio Spotify non è attualmente disponibile (errore 503), riprova più tardi</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.ActivePremiumSubscriptionNeeded">È necessario un abbonamento Spotify Premium attivo per utilizzare il client API personalizzato</system:String>
+
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">Errore 429 estremo</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.HavePublic.Notice">Il tuo client API personalizzato è in condizioni estreme (restituisce errore 429 con riprova dopo {0} secondi), Lyricify continuerà a funzionare usando il client API pubblico</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.NoPublic.Message" xml:space="preserve">Il tuo client API personalizzato è in condizioni estreme (restituisce errore 429 con riprova dopo {0} secondi) e il client API pubblico non è stato configurato, quindi Lyricify non funzionerà finché l'errore 429 non terminerà.&#x000A;Premi Sì per disconnetterti, premi No per chiudere Lyricify.</system:String>
+
+    <system:String x:Key="String.Messages.MainWindow.Lyrics.NoTrackPlaying">Non potrai aprire Testi finché Spotify non inizierà la riproduzione</system:String>
+    <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">Non potrai aprire Testi Apple Music finché Spotify non inizierà la riproduzione</system:String>
+    <system:String x:Key="String.Messages.LyricifyFullscreen.NoTrackPlaying">Non potrai aprire Lyricify a schermo intero finché Spotify non inizierà la riproduzione</system:String>
+    <system:String x:Key="String.Messages.MobileUIFullscreen.NoTrackPlaying">Non potrai aprire Mobile UI Fullscreen finché Spotify non inizierà la riproduzione</system:String>
+    <system:String x:Key="String.Messages.WindowsUpdateLyrics.NoTrackPlaying">Non potrai aprire Testi Windows Update finché Spotify non inizierà la riproduzione</system:String>
+    <system:String x:Key="String.Messages.WindowsBlueScreenLyrics.NoTrackPlaying">Non potrai aprire Testi schermata blu di Windows finché Spotify non inizierà la riproduzione</system:String>
+
+    <system:String x:Key="String.Messages.MainWindow.LogOut.Query">Sei sicuro di voler disconnettere questo account Spotify?</system:String>
+    <system:String x:Key="String.Messages.MainWindow.LogOut.Failed">Disconnessione non riuscita</system:String>
+
+    <!--  Updates  -->
+    <system:String x:Key="String.Messages.Updates.FoundNewVersion">Nuova versione rilevata</system:String>
+    <system:String x:Key="String.Messages.Updates.FoundNewVersion.GoToStore">Fai clic per visualizzarla nel Microsoft Store</system:String>
+
+    <!--  Operations  -->
+    <system:String x:Key="String.Messages.Operation.Spotify.Add.LikedSongs">Aggiunto ai tuoi Brani con Mi piace</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Remove.LikedSongs">Rimosso dai tuoi Brani con Mi piace</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Add.Library">Salvato nella tua libreria</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Remove.Library">Rimosso dalla tua libreria</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Add.Queue">Aggiunto alla coda</system:String>
+    <system:String x:Key="String.Messages.Operation.Spotify.Add.Queue.Fail">Impossibile aggiungere alla coda</system:String>
+
+    <system:String x:Key="String.Messages.Operation.Spotify.NoDevice">Nessun dispositivo disponibile trovato, apri il tuo client Spotify</system:String>
+
+    <system:String x:Key="String.Messages.Operation.LinkCopied">Link copiato negli appunti</system:String>
+    <system:String x:Key="String.Messages.Operation.Copied">Copiato negli appunti</system:String>
+
+    <!--
+        Lyricify Wrapped
+    -->
+
+    <!--  Wrapped Year  -->
+    <system:String x:Key="String.Wrapped.Title">Lyricify Wrapped</system:String>
+    <system:String x:Key="String.Wrapped.Title.Short">Wrapped</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2023">Tutto su te, me e il 2023</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2024">2024, testi, tu e io</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2025">Il 2025 in testi, con te e me</system:String>
+    <system:String x:Key="String.Wrapped.Unwrap">Scopri</system:String>
+    <system:String x:Key="String.Wrapped.Unwrap.Notice">Scopri significa che accetti i contratti utente di Lyricify e autorizzi Lyricify a elaborare e analizzare l'utilizzo dell'app.</system:String>
+    <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">>>Accelera</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">Scopri ora</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify ha raccolto tutte le tue storie con Lyricify nel 2023, vai subito a scoprirle!</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2024">Lyricify ha catturato ogni momento in musica del tuo 2024, scoprilo ora!</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2025">Il tuo 2025 con Lyricify è pronto. Scopri ora il tuo viaggio nei testi!</system:String>
+    <system:String x:Key="String.Wrapped.Notice.CloseReminder">Lyricify Wrapped si trova nel menu principale e nel menu del widget utente, quindi potrai scoprirlo anche più tardi.</system:String>
+
+    <system:String x:Key="String.Wrapped.Messages.001">Ehi, {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.002">Qui è Lyricify!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.003">Te lo ricordi ancora?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.004" xml:space="preserve">Ci siamo incontrati per la prima volta il&#x0a;{0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.005">{0:N0} giorni fa</system:String>
+    <system:String x:Key="String.Wrapped.Messages.006">Come utente n.{0:N0} di Lyricify 4</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007">E {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.1">un amministratore</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.2">un insider</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.3">un gestore dei testi</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.4">un utente premium</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.5">un utente</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.6">un utente con restrizioni</system:String>
+    <system:String x:Key="String.Wrapped.Messages.008" xml:space="preserve">Tu e Lyricify&#x0a;avete una lunga storia quest'anno</system:String>
+    <system:String x:Key="String.Wrapped.Messages.009">Grazie mille per aver acquistato Lyricify 4 su Microsoft Store</system:String>
+    <system:String x:Key="String.Wrapped.Messages.010">Significa davvero molto per me!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.011">In quest'anno</system:String>
+    <system:String x:Key="String.Wrapped.Messages.012">Hai avviato Lyricify {0:N0} volte</system:String>
+    <system:String x:Key="String.Wrapped.Messages.013">Questo significa che avvii Lyricify ogni {0} giorni</system:String>
+    <system:String x:Key="String.Wrapped.Messages.014">È più di {0} utenti di Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.015">Una curiosità interessante</system:String>
+    <system:String x:Key="String.Wrapped.Messages.016">Avvii Lyricify più spesso tra le {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017">Fantastico!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.1">Il mattino ha l'oro in bocca!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.2">Le mattine sono fantastiche!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.3">I pomeriggi sono fantastici!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.4">Lyricify ha dato voce alla tua serata!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.5">Ops, è davvero tardi!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.018">Quest'anno Lyricify ti ha aiutato a cercare testi {0:N0} volte</system:String>
+    <system:String x:Key="String.Wrapped.Messages.019">Accidenti, sono davvero tante!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.020">Il tuo numero di ricerche di testi era nella top {0} degli utenti di Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.021">Fammi dare un'occhiata</system:String>
+    <system:String x:Key="String.Wrapped.Messages.022">{0}, eh</system:String>
+    <system:String x:Key="String.Wrapped.Messages.023">Un buon momento per leggere i testi!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.024">È successo qualcosa il {0}?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.025">Beh</system:String>
+    <system:String x:Key="String.Wrapped.Messages.026">Quel giorno hai letto davvero tantissimi testi, arrivando a {0:N0} volte</system:String>
+    <system:String x:Key="String.Wrapped.Messages.027">È bello sapere che</system:String>
+    <system:String x:Key="String.Wrapped.Messages.028">Stai usando anche Lyricify Mobile!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.029">Quest'anno Lyricify Mobile ti ha aiutato a cercare testi {0:N0} volte</system:String>
+    <system:String x:Key="String.Wrapped.Messages.030">Devi essere un grande fan di Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.031">A proposito</system:String>
+    <system:String x:Key="String.Wrapped.Messages.032">Lyricify Mobile è disponibile per permetterti di visualizzare i testi su telefoni e tablet!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.033">Hai visualizzato {0:N0} testi</system:String>
+    <system:String x:Key="String.Wrapped.Messages.034">Ma questi hanno dominato il tuo Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.035">{0:N0} volte</system:String>
+    <system:String x:Key="String.Wrapped.Messages.036">Il servizio testi di Lyricify è costruito da tutti gli utenti di Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.037">Segnalare e caricare testi sono due modi principali per costruire il Lyricify Lyrics Vault</system:String>
+    <system:String x:Key="String.Wrapped.Messages.038">Quest'anno</system:String>
+    <system:String x:Key="String.Wrapped.Messages.039">Hai segnalato {0:N0} testi</system:String>
+    <system:String x:Key="String.Wrapped.Messages.040">Hai caricato {0:N0} volte in Gestione brano di Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.041">Hai importato i testi di {0:N0} brani nel Lyricify Lyrics Vault</system:String>
+    <system:String x:Key="String.Wrapped.Messages.042">Più di {0} utenti</system:String>
+    <system:String x:Key="String.Wrapped.Messages.043">Grazie per il tuo contributo</system:String>
+    <system:String x:Key="String.Wrapped.Messages.044">Comunque</system:String>
+    <system:String x:Key="String.Wrapped.Messages.045">Un anno meraviglioso</system:String>
+    <system:String x:Key="String.Wrapped.Messages.046">Uno splendido te</system:String>
+    <system:String x:Key="String.Wrapped.Messages.047">Per Lyricify è stato un privilegio trascorrere questo splendido anno con te</system:String>
+    <system:String x:Key="String.Wrapped.Messages.048">I testi sono tutto</system:String>
+    <system:String x:Key="String.Wrapped.Messages.049">Lyricify è sempre qui per te</system:String>
+    <system:String x:Key="String.Wrapped.Messages.050">Goditelo e basta!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.051">Lyricify è con te da più di un anno</system:String>
+    <system:String x:Key="String.Wrapped.Messages.052">Il tuo supporto ha reso Lyricify qualcosa di straordinario!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.053">Quest'anno avvii Lyricify più spesso tra le {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.054">Incredibile!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.055">Il tuo giorno TOP è stato il {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.056">Sai perché?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.057">È passato un altro anno</system:String>
+    <system:String x:Key="String.Wrapped.Messages.058">Anno dopo anno</system:String>
+    <system:String x:Key="String.Wrapped.Messages.059">Ricorda solo</system:String>
+    <system:String x:Key="String.Wrapped.Messages.060">Ti auguro il meglio</system:String>
+    <system:String x:Key="String.Wrapped.Messages.061">Non vediamo l'ora di ricevere i tuoi contributi anche l'anno prossimo</system:String>
+    <system:String x:Key="String.Wrapped.Messages.062">Il tuo viaggio con Lyricify quest'anno merita di essere ricordato</system:String>
+    <system:String x:Key="String.Wrapped.Messages.063">Sono io, Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.064" xml:space="preserve">Lyricify è quello che è oggi&#x0a;grazie a te</system:String>
+    <system:String x:Key="String.Wrapped.Messages.065">Interessante!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.066">Questo è il tuo momento di massimo picco su Lyricify!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.067">{0}, giorno speciale</system:String>
+    <system:String x:Key="String.Wrapped.Messages.068">Un altro anno sta per concludersi</system:String>
+    <system:String x:Key="String.Wrapped.Messages.069">Lyricify è grata di averlo condiviso con te</system:String>
+    <system:String x:Key="String.Wrapped.Messages.070">Ogni canzone, ogni momento</system:String>
+    <system:String x:Key="String.Wrapped.Messages.071">Anno dopo anno, insieme</system:String>
+    <system:String x:Key="String.Wrapped.Messages.072">Tieni stretti questi momenti</system:String>
+    <system:String x:Key="String.Wrapped.Messages.073">Lyricify sarà sempre al tuo fianco</system:String>
+    <system:String x:Key="String.Wrapped.Messages.074">Brindiamo a uno splendido anno che ti aspetta</system:String>
+
+    <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">Visualizzazioni totali dei testi</system:String>
+    <system:String x:Key="String.Wrapped.Report.Launches">Avvii</system:String>
+    <system:String x:Key="String.Wrapped.Report.Marks">Segnalazioni</system:String>
+    <system:String x:Key="String.Wrapped.Report.Uploads">Caricamenti</system:String>
+    <system:String x:Key="String.Wrapped.Report.Imports">Importazioni</system:String>
+    <system:String x:Key="String.Wrapped.Report.TracksCount">Numero brani</system:String>
+    <system:String x:Key="String.Wrapped.Report.MobileViews">Visualizzazioni mobile</system:String>
+    <system:String x:Key="String.Wrapped.Report.TrackOfTheYear">Brano dell'anno</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor">Sostenitore</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor.True">SÌ</system:String>
+    <system:String x:Key="String.Wrapped.Report.LyricifyIndex">Indice Lyricify</system:String>
+</ResourceDictionary>
