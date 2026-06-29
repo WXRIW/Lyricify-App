@@ -1,4 +1,4 @@
-﻿<ResourceDictionary
+<ResourceDictionary
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
@@ -320,6 +320,8 @@
     <system:String x:Key="String.Page.About.MicrosoftStore">Microsoft Store 版本</system:String>
     <system:String x:Key="String.Page.About.MicrosoftStore.Purchased">已购买的 Microsoft Store 版本</system:String>
     <system:String x:Key="String.Page.About.MicrosoftStore.Trial">Microsoft Store 试用版本</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Licensed.Purchased">使用 Microsoft Store 已购买许可</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Licensed.Trial">使用 Microsoft Store 试用许可</system:String>
     <system:String x:Key="String.Page.About.MadeWithHeart">由 WXRIW 用 ❤️ 制作</system:String>
     <system:String x:Key="String.Page.About.Copyright">版权所有 © {0} WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">歌词提供者</system:String>
@@ -332,6 +334,7 @@
     <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">特别感谢 Difer 提供 Spotify Premium 账号</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksInsiders">特别感谢我们的预览成员</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksStorePurchase">感谢所有在 Microsoft Store 上购买了 Lyricify 的用户</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksStorePurchase.IncludingYou">感谢所有在 Microsoft Store 上购买了 Lyricify 的用户，包括你</system:String>
     <system:String x:Key="String.Page.About.Internationalization">国际化</system:String>
     <system:String x:Key="String.Page.About.References">引用</system:String>
     <system:String x:Key="String.Page.About.References.MITLicense.Brackets">(MIT 许可)</system:String>
@@ -483,6 +486,13 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">隆重推出妙控条 (Magic Strip)！ &#x000A;&#x000A;你可以点击条状按钮来退出 Apple Music 歌词，&#x000A;向下滑动以最小化，&#x000A;向左或向右滑动以最大化或还原，&#x000A;向上滑动以取消操作。&#x000A;&#x000A;你还可以按下右键向上滑动跳到首行歌词，&#x000A;向下滑动跳到最后一行歌词，&#x000A;向左或向右滑动跳到当前行，&#x000A;仅右击则无操作。</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime">动态时间状态</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime.Description">启用时间状态改变动画</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FpsOverlay">FPS 浮层</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FpsOverlay.Description">在 Apple Music 歌词中显示当前渲染 FPS</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FpsOverlay.UpdateInterval">更新间隔</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FpsOverlay.UpdateInterval.Description">设置 FPS 浮层的刷新频率</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FpsOverlay.UpdateInterval.ComboBox.Fast">快</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FpsOverlay.UpdateInterval.ComboBox.Normal">标准</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FpsOverlay.UpdateInterval.ComboBox.Slow">慢</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">缩放记忆</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">在 Apple Music 歌词中恢复缩放记忆</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset">样式预设</system:String>
@@ -531,6 +541,13 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.BackgroundVocalTransparencySuddenChange">含背景人声的歌词行的透明度突变问题</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.ChineseCharacterAbnormalFloating">中文歌词异常浮动问题</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.LyricsLineTransparencySuddenChange">歌词行透明度突变问题</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PlusLighter">高级混合模式</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PlusLighter.Description">为 Apple Music 歌词启用 Plus Lighter 混合模式</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PlusLighter.Notice.PerformanceImpact">该混合模式会对性能造成较大影响。</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PlusLighter.Notice.LowResolution">在低分屏设备上可能效果不佳。</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PlusLighter.Notice.HighResolutionBlur">高分辨率下显示可能会出现模糊。</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PlusLighter.BlendPreset">混色预设</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PlusLighter.BlendPreset.Description">选择高级混合模式所使用的混色预设</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">启用传统版本</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">在主菜单中添加 Apple Music 歌词 (传统) 入口</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Lyricify 全屏</system:String>
@@ -580,6 +597,8 @@
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">开启后，灵动词岛将在暂停时自动隐藏</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">全屏隐藏</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">运行全屏程序时隐藏灵动词岛</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenLyricsAutoHide">歌词全屏时隐藏</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenLyricsAutoHide.Description">当同一显示器上显示全屏歌词视图时隐藏灵动词岛</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage">显示艺人图片</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">当你切换到新的曲目后，在灵动词岛左侧显示艺人图片</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">不透明度</system:String>
@@ -608,6 +627,8 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">开启后，桌面歌词将在暂停时自动隐藏</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide">全屏隐藏</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide.Description">运行全屏程序时隐藏桌面歌词</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenLyricsAutoHide">歌词全屏时隐藏</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenLyricsAutoHide.Description">当同一显示器上显示全屏歌词视图时隐藏桌面歌词</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide">透明隐藏</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Description">在锁定状态下，当指针进入时，为桌面歌词设置一个高透明度</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Opacity">不透明度</system:String>
@@ -654,6 +675,8 @@
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position">位置和大小</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Description">如果桌面歌词没有正常显示，可尝试重置</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Button.Reset">重置</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Topmost">置顶显示</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Topmost.Description">让桌面歌词保持显示在其他窗口上方</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock">锁定</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.Description">锁定桌面歌词的位置和大小</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.Button.Unlock">解除锁定</system:String>
@@ -662,6 +685,14 @@
     <system:String x:Key="String.Page.Settings.TaskbarLyrics">任务栏歌词</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarEmbedding">嵌入任务栏</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarEmbedding.Help" xml:space="preserve">启用“嵌入任务栏”可提升整体使用体验，但在某些情况下可能会导致任务栏功能缺失、不稳定，甚至发生崩溃。&#x0A;关闭该选项后，任务栏歌词窗口将以悬浮形式显示在任务栏上，可获得更高的稳定性，在部分使用场景下，使用体验可能会降低。</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.PollingFrequency">轮询频率</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.PollingFrequency.Description">选择任务栏区域检测的轮询频率，高轮询频率可带来更及时的位置更新，低轮询频率可带来更低的性能占用</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.PollingFrequency.ComboBox.High">高</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.PollingFrequency.ComboBox.Medium">中 (默认)</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.PollingFrequency.ComboBox.Low">低</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ScreenIndex">屏幕序号</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ScreenIndex.Description">选择你想让任务栏歌词显示在哪块屏幕</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ScreenIndex.AllScreens">所有屏幕</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarArea">任务栏区域</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarArea.ComboBox.Left">左侧</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarArea.ComboBox.Right">右侧</system:String>
@@ -708,6 +739,7 @@
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMaxWidth.Description">如果你希望窗口宽度不超过某一值，则可以设置自定义最大宽度</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMargin">自定义边距</system:String>
     <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMargin.Description">当窗口位置需要微调，或与其他任务栏工具产生遮挡时，可通过自定义边距进行调整 (单位: 像素)</system:String>
+    <system:String x:Key="String.Page.Settings.AdditionalViews">附加视图</system:String>
     <system:String x:Key="String.Page.Settings.Functions">功能</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed">新歌速递</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.Description">获取新发行的专辑</system:String>
@@ -1501,6 +1533,10 @@
     <system:String x:Key="String.Dialog.MediaSessionStatus.SystemRequirements">Media Session 要求 Windows 10 (Build 17763) 或更高版本。</system:String>
     <system:String x:Key="String.Dialog.MediaSessionStatus.Tips.SpotifyNoPlayback">看起来你的 Spotify 正在播放，但是并没有正确上传播放信息到 Spotify 服务器。请检查你的 Internet 连接。</system:String>
     <system:String x:Key="String.Dialog.MediaSessionStatus.Tips.MediaSessionRequirements.Colon">Media Session 要求：</system:String>
+
+    <system:String x:Key="String.Dialog.ChangeLog.Title">新增功能</system:String>
+    <system:String x:Key="String.Dialog.ChangeLog.Description">Lyricify 已更新至 {0} 版本，以下是本次的更新内容。</system:String>
+    <system:String x:Key="String.Dialog.ChangeLog.Button.Continue">继续</system:String>
 
     <!--
         Messages
