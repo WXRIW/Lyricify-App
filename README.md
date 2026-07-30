@@ -49,7 +49,8 @@ https://t.me/lyricifyreleases
 [点击加入群聊【Lyricify 用户群 6】](https://qm.qq.com/q/TEj2v8gvK2)（群号：636998823）（已满）  
 [点击加入群聊【Lyricify 用户群 7】](https://qm.qq.com/q/DcxXikjjcA)（群号：748154703）（已满）  
 [点击加入群聊【Lyricify 用户群 8】](https://qm.qq.com/q/QfdlJk8keI)（群号：452502909）（已满）  
-[点击加入群聊【Lyricify 用户群 9】](https://qm.qq.com/q/yZ6oC6fvAy)（群号：692205529）
+[点击加入群聊【Lyricify 用户群 9】](https://qm.qq.com/q/yZ6oC6fvAy)（群号：692205529）（已满）  
+[点击加入群聊【Lyricify 用户群 10】](https://qm.qq.com/q/F79ZU8ZOJU)（群号：1060101134）
 
 ## Lyricify Open Source / Lyricify 开源
 Lyricify 的歌词处理相关代码均已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中使用 Apache License 2.0 协议开源，希望能为开源社区做出贡献。  
