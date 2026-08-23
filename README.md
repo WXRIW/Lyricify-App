@@ -52,23 +52,25 @@ https://t.me/lyricifyreleases
 [点击加入群聊【Lyricify 用户群 9】](https://qm.qq.com/q/yZ6oC6fvAy)（群号：692205529）（已满）  
 [点击加入群聊【Lyricify 用户群 10】](https://qm.qq.com/q/F79ZU8ZOJU)（群号：1060101134）
 
-## Lyricify Open Source / Lyricify 开源
-Lyricify 的歌词处理相关代码均已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中使用 Apache License 2.0 协议开源，希望能为开源社区做出贡献。  
+## Lyricify Open Source / Lyricify 开源 
+Lyricify 的歌词处理相关代码已在 [WXRIW/Lyricify-Lyrics-Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) 中以 Apache License 2.0 协议开源。  
+Lyricify 的部分动态背景实现也已在 [WXRIW/Lyricify-Backgrounds](https://github.com/WXRIW/Lyricify-Backgrounds) 中以 Apache License 2.0 协议开源。  
+欢迎学习、参考和使用 Lyricify 的开源资源，同时请遵守相应的开源协议。也欢迎参与贡献，希望这些项目能为开源社区带来更多价值。
 
 ## Lyricify Tools / Lyricify 系列工具
 | 软件 | 最新版本 | 备注 | 平台 | 使用指南 |
 | :-: | :-: | :-: | :-: | :-: |
-| [Lyricify Lyrics Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) | [0.1.4-release](https://github.com/WXRIW/Lyricify-Lyrics-Helper/releases/tag/v0.1.4)</br> | Lyricify 歌词处理库 | .NET Standard | [点击查看](https://github.com/WXRIW/Lyricify-Lyrics-Helper/blob/master/README.md) |
+| [Lyricify Lyrics Helper](https://github.com/WXRIW/Lyricify-Lyrics-Helper) | [0.2.0-release](https://github.com/WXRIW/Lyricify-Lyrics-Helper/releases/tag/v0.2.0)</br> | Lyricify 歌词处理库 | .NET Standard | [点击查看](https://github.com/WXRIW/Lyricify-Lyrics-Helper/blob/master/README.md) |
 | [Lyricify Lines Creator](https://github.com/WXRIW/Lyricify-Lines-Creator) | [0.2.0-beta](https://github.com/WXRIW/Lyricify-Lines-Creator/releases/tag/v0.2.0)</br> | Lyricify Lines 逐行歌词打轴工具 | Windows | [点击查看](https://github.com/WXRIW/Lyricify-Lines-Creator/blob/master/README.md) |
 
 ## Future Plans / 未来计划 (画饼时间)
 Lyricify 系列的未来开发计划。
 
-| 软件 | 备注 | 平台 | 预计开发时间 |
-| :-: | :-: | :-: | :-: |
-| Lyricify Mobile Lite | 适用于所有接入了 Media Session 的 app | Android | 2026 年 |
-| Lyricify Mobile 2 | 适用于 Spotify 和 Apple Music 用户 | iOS, iPadOS, macOS | 2026 年 - 2027 年 |
-| Lyricify Lyrics Suite | 综合性歌词工具套装 | Windows | 2026 年 - 2028 年 |
+| 软件 | 备注 | 平台 | 预计开发时间 | 当前状态 |
+| :-: | :-: | :-: | :-: | :-: |
+| Lyricify Mobile Lite | 适用于所有接入了 Media Session 的 app | Android | 2026 年 | 停止开发，相关功能已并入 Lyricify Mobile 1 (内测中) |
+| Lyricify Mobile 2 | 适用于 Spotify 和 Apple Music 用户 | iOS, iPadOS, macOS | 2026 年 - 2027 年 | 暂缓开发，部分功能已并入 Lyricify Mobile 1 (内测中) |
+| Lyricify Lyrics Suite | 综合性歌词工具套装 | Windows | 2026 年 - 2028 年 | |
 
 ## Lyricify 4
 <h3>More than lyrics 不仅有歌词</h3>  
