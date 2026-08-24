@@ -16,7 +16,7 @@
 | [Lyricify 3](#lyricify-3)<br>(EOL)<sup><a href="#ref4">4</a></sup> | [3.8.8-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v3.8.8) | 适用于 Spotify、iTunes 等应用<sup><a href="#ref5">5</a></sup>的用户 | Windows<sup><a href="#ref3">3</a></sup> | [点击查看](/docs/Lyricify%203/README.md) |
 
 ### 备注
-1. <span id="ref1">Lyricify Lite 将更名为 Lyricify Fusion。由于 Lyricify 4 与 Lyricify Lite 是平行定位，且 Lyricify Lite 众多 Lyricify 4 功能，“Lite”一名容易造成定位误解，因此从 1.3.0 版本起更名为 Lyricify Fusion。</span>
+1. <span id="ref1">Lyricify Lite 将更名为 Lyricify Fusion。由于 Lyricify 4 与 Lyricify Lite 是平行定位，且 Lyricify Lite 已包含众多 Lyricify 4 功能，“Lite”一名容易造成定位误解，因此从 1.3.0 版本起更名为 Lyricify Fusion。</span>
 2. <span id="ref2">Lyricify Fusion 支持所有已接入 SMTC 的应用，如 Spotify、Apple Music、Foobar 2000、HyPlayer、LyricEase、QQ 音乐、网易云音乐 UWP、酷狗音乐、Groove Music 等。</span>
 3. <span id="ref3">Lyricify 4、Lyricify 3 可借助 Wine 实现在 Linux 和 macOS 上运行。Lyricify 4 的实现过程可能比较繁琐，需要耐心尝试。<br><strong>对于 Linux 平台：</strong>我们正在尝试让 Lyricify 通过 Wine 在 Linux 平台上运行，并力求简便和稳定。您可以在 <a href="https://github.com/Lyricify/Lyricify-on-Wine">Lyricify on Wine 仓库</a>下载软件包。<br><strong>对于 macOS 平台：</strong>在 M 系列芯片的 Mac 上，建议使用 Windows on ARM 虚拟机运行 Lyricify ARM64 版本以获得更好的体验。您也可以使用 Crossover 运行 x64 版本（需要 Windows 7 环境）。</span>
 4. <span id="ref5">Lyricify 3 已进入 EOL 阶段，即生命周期已结束，不会再发布任何新功能、错误修复或软件更新。</span>

@@ -17,7 +17,7 @@
 
 ### Notes
 
-1. <span id="ref1">Lyricify Lite will be renamed Lyricify Fusion. Because Lyricify 4 and Lyricify Lite have parallel positioning, and Lyricify Lite has many Lyricify 4 features, the name “Lite” can easily cause misunderstanding about its positioning. Therefore, starting from version 1.3.0, it will be renamed Lyricify Fusion.</span>
+1. <span id="ref1">Lyricify Lite will be renamed Lyricify Fusion. Because Lyricify 4 and Lyricify Lite have parallel positioning, and Lyricify Lite already includes many Lyricify 4 features, the name “Lite” can easily cause misunderstanding about its positioning. Therefore, starting from version 1.3.0, it will be renamed Lyricify Fusion.</span>
 2. <span id="ref2">Lyricify Fusion supports all apps connected to SMTC, such as Spotify, Apple Music, Foobar 2000, HyPlayer, LyricEase, QQ Music, Netease Cloud Music UWP, Kugou Music and Groove Music.</span>
 3. <span id="ref3">Lyricify 4 and Lyricify 3 can run on Linux and macOS through Wine. The setup process for Lyricify 4 may be cumbersome and requires patience.  <strong>For Linux:</strong> We are working on making Lyricify run through Wine on Linux as simply and reliably as possible. You can download the package from the <a href="https://github.com/Lyricify/Lyricify-on-Wine">Lyricify on Wine repository</a>.  <strong>For macOS:</strong> On Macs with Apple silicon, using a Windows on ARM virtual machine to run the Lyricify ARM64 version is recommended for a better experience. You can also use Crossover to run the x64 version (with a Windows 7 environment).</span>
 4. <span id="ref4">Lyricify 3 has reached EOL, meaning that its lifecycle has ended. No new features, bug fixes or software updates will be released.</span>
