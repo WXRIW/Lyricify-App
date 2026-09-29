@@ -118,7 +118,7 @@ Lyricify 4 是免费软件，仅部分个性化设置为商店版独享。如果
 
 ## Lyricify Fusion
 
-Lyricify Fusion，原名 Lyricify Lite，运行于 Windows 平台，提供灵动词岛、桌面歌词、任务栏歌词、Apple Music 歌词等众多功能，支持所有接入 SMTC 的音乐播放器，包括 HyPlayer、LyricEase、Apple Music、QQ 音乐、网易云音乐 UWP、酷狗音乐、Foobar 2000、Groove Music 等诸多音乐软件。
+Lyricify Fusion，原名 Lyricify Lite，支持接入 SMTC 的音乐播放器和媒体应用，包括 HyPlayer、LyricEase、Apple Music、QQ 音乐、网易云音乐 UWP、酷狗音乐、Foobar 2000、Groove Music 等应用。它提供灵动词岛、桌面歌词、任务栏歌词、Apple Music 歌词和 Lyricify 歌词舞台等视图，也支持逐字歌词、翻译、曲目与歌词管理，并可按应用设置歌词来源与延迟。
 
 点击这里查看 [Lyricify Fusion 使用指南](https://docs.lyricify.app/lyricify-fusion/)。
 

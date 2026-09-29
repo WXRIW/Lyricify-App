@@ -119,7 +119,7 @@ If you find someone selling this software illegally (the Lyricify version in the
 
 ## Lyricify Fusion
 
-Lyricify Fusion, formerly Lyricify Lite, runs on Windows and provides Dynamic Lyrics Island, Desktop Lyrics, taskbar lyrics, Apple Music Lyrics and many other features. It supports music players connected to SMTC, including HyPlayer, LyricEase, Apple Music, QQ Music, Netease Cloud Music UWP, Kugou Music, Foobar 2000 and Groove Music.
+Lyricify Fusion, formerly Lyricify Lite, supports music players and media apps with SMTC support, including HyPlayer, LyricEase, Apple Music, QQ Music, Netease Cloud Music UWP, Kugou Music, Foobar 2000 and Groove Music. It offers Dynamic Lyrics Island, Desktop Lyrics, Taskbar Lyrics, Apple Music Lyrics, and Lyricify Lyrics Stage, alongside word-synced lyrics, translations, Tracks & Lyrics Management, and per-app lyrics source and delay settings.
 
 See the [Lyricify Fusion User Guide](https://docs.lyricify.app/en/lyricify-fusion/).
 
