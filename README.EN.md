@@ -11,13 +11,13 @@
 | Application | Latest version | Notes | Platforms | User Guide |
 | :-: | :-: | :-: | :-: | :-: |
 | [Lyricify 4](#lyricify-4) | [4.3.52-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v4.3.52)  <a href="https://apps.microsoft.com/store/detail/9P4WB75RHWCH?launch=true&mode=full"><img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft Store" style="width: 150px;"/></a> | For Spotify users | Windows<sup><a href="#ref3">3</a></sup> | [View guide](https://docs.lyricify.app/en/lyricify-4/) |
-| [Lyricify Fusion](#lyricify-fusion)<sup><a href="#ref1">1</a></sup><br>(formerly Lyricify Lite) | [1.2.5-release](https://github.com/WXRIW/Lyricify-App/releases/tag/lite-v1.2.5)  <a href="https://apps.microsoft.com/store/detail/9NLTPSV395K2?launch=true&mode=full"><img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft Store" style="width: 150px;"/></a> | For all apps that support SMTC<sup><a href="#ref2">2</a></sup> | Windows | [View guide](https://docs.lyricify.app/en/lyricify-lite/) |
+| [Lyricify Fusion](#lyricify-fusion)<sup><a href="#ref1">1</a></sup><br>(formerly Lyricify Lite) | [1.2.5-release](https://github.com/WXRIW/Lyricify-App/releases/tag/lite-v1.2.5)  <a href="https://apps.microsoft.com/store/detail/9NLTPSV395K2?launch=true&mode=full"><img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft Store" style="width: 150px;"/></a> | For all apps that support SMTC<sup><a href="#ref2">2</a></sup> | Windows | [View guide](https://docs.lyricify.app/en/lyricify-fusion/) |
 | [Lyricify Mobile](#lyricify-mobile) | [1.5.1-release](https://github.com/WXRIW/Lyricify-App/releases/tag/mobile-v1.5.1) | For Spotify users | iOS, iPadOS, macOS, Android, Windows | [View guide](https://docs.lyricify.app/en/lyricify-mobile/) |
 | [Lyricify 3](#lyricify-3)  (EOL)<sup><a href="#ref4">4</a></sup> | [3.8.8-release](https://github.com/WXRIW/Lyricify-App/releases/tag/v3.8.8) | For users of Spotify, iTunes and more apps<sup><a href="#ref5">5</a></sup> | Windows<sup><a href="#ref3">3</a></sup> | [View guide](/docs/Lyricify%203/README.md) |
 
 ### Notes
 
-1. <span id="ref1">Lyricify Lite has been renamed Lyricify Fusion. Because Lyricify 4 and Lyricify Lite have parallel positioning, and Lyricify Lite already includes many Lyricify 4 features, the name “Lite” can easily cause misunderstanding about its positioning. The new name takes effect from version 1.3.0.</span>
+1. <span id="ref1">Lyricify Lite has been renamed Lyricify Fusion. Because Lyricify 4 and Lyricify Lite have parallel positioning, and Lyricify Lite already includes many Lyricify 4 features, the name “Lite” can easily cause misunderstanding about its positioning. The new name takes effect from version 1.3.0. See the [renaming notice](https://docs.lyricify.app/en/lyricify-fusion/rename/).</span>
 2. <span id="ref2">Lyricify Fusion supports all apps connected to SMTC, such as Spotify, Apple Music, Foobar 2000, HyPlayer, LyricEase, QQ Music, Netease Cloud Music UWP, Kugou Music and Groove Music.</span>
 3. <span id="ref3">Lyricify 4 and Lyricify 3 can run on Linux and macOS through Wine. The setup process for Lyricify 4 may be cumbersome and requires patience.  <strong>For Linux:</strong> We are working on making Lyricify run through Wine on Linux as simply and reliably as possible. You can download the package from the <a href="https://github.com/Lyricify/Lyricify-on-Wine">Lyricify on Wine repository</a>.  <strong>For macOS:</strong> On Macs with Apple silicon, using a Windows on ARM virtual machine to run the Lyricify ARM64 version is recommended for a better experience. You can also use Crossover to run the x64 version (with a Windows 7 environment).</span>
 4. <span id="ref4">Lyricify 3 has reached EOL, meaning that its lifecycle has ended. No new features, bug fixes or software updates will be released.</span>
@@ -121,7 +121,7 @@ If you find someone selling this software illegally (the Lyricify version in the
 
 Lyricify Fusion, formerly Lyricify Lite, runs on Windows and provides Dynamic Lyrics Island, Desktop Lyrics, taskbar lyrics, Apple Music Lyrics and many other features. It supports music players connected to SMTC, including HyPlayer, LyricEase, Apple Music, QQ Music, Netease Cloud Music UWP, Kugou Music, Foobar 2000 and Groove Music.
 
-See the [Lyricify Fusion User Guide](https://docs.lyricify.app/en/lyricify-lite/).
+See the [Lyricify Fusion User Guide](https://docs.lyricify.app/en/lyricify-fusion/).
 
 ## Lyricify Mobile
 
