@@ -61,8 +61,10 @@ Lyricify 系列的未来开发计划。
 
 | 软件 | 备注 | 平台 | 预计开发时间 | 当前状态 |
 | :-: | :-: | :-: | :-: | :-: |
-| Lyricify Mobile Lite | 适用于所有接入 Media Session 的应用 | Android | 2026 年 | 停止开发，相关功能已并入 Lyricify Mobile 1（内测中） |
-| Lyricify Mobile 2 | 适用于 Spotify 和 Apple Music 用户 | iOS、iPadOS、macOS | 2026 年 - 2027 年 | 暂缓开发，部分功能已并入 Lyricify Mobile 1（内测中） |
+| Lyricify Mobile Lite | 适用于所有接入 Media Session 的应用 | Android | 2026 年 | 项目终止，相关功能已并入 Lyricify Mobile 1（内测中） |
+| Lyricify Mobile 2 | 适用于 Spotify 和 Apple Music 用户 | iOS、iPadOS、macOS | 2026 年 - 2027 年 | 项目终止，部分功能已并入 Lyricify Mobile 1（内测中），原 Lyricify Mobile 2 将拆分成 Lyricify for iOS 和 Lyricify for macOS 两个项目 |
+| Lyricify for iOS | 适用于 Spotify 和 Apple Music 用户 | iOS、iPadOS | 2026 年 | 开发中 |
+| Lyricify for macOS | 适用于 Spotify、Apple Music 等所有音乐软件的用户 | macOS | 2026 年 - 2027 年 | 待 Lyricify for iOS 稳定后开始开发 |
 | Lyricify Lyrics Suite | 综合性歌词工具套装 | Windows | 2026 年 - 2028 年 | |
 
 ## Lyricify 原创

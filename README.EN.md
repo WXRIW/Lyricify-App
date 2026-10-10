@@ -62,8 +62,10 @@ Future development plans for the Lyricify family.
 
 | Application | Description | Platform | Expected development | Status |
 | :-: | :-: | :-: | :-: | :-: |
-| Lyricify Mobile Lite | For all apps that use Media Session | Android | 2026 | Development stopped; related features have been merged into Lyricify Mobile 1 (currently in beta) |
-| Lyricify Mobile 2 | For Spotify and Apple Music users | iOS, iPadOS, macOS | 2026 - 2027 | On hold; some features have been merged into Lyricify Mobile 1 (currently in beta) |
+| Lyricify Mobile Lite | For all apps that use Media Session | Android | 2026 | Project discontinued; related features have been merged into Lyricify Mobile 1 (currently in private beta) |
+| Lyricify Mobile 2 | For Spotify and Apple Music users | iOS, iPadOS, macOS | 2026 - 2027 | Project discontinued; some features have been merged into Lyricify Mobile 1 (currently in private beta). The original Lyricify Mobile 2 will be split into two projects: Lyricify for iOS and Lyricify for macOS |
+| Lyricify for iOS | For Spotify and Apple Music users | iOS, iPadOS | 2026 | In development |
+| Lyricify for macOS | For users of all music apps, including Spotify and Apple Music | macOS | 2026 - 2027 | Development will begin once Lyricify for iOS is stable |
 | Lyricify Lyrics Suite | A comprehensive lyric toolkit | Windows | 2026 - 2028 | |
 
 ## Lyricify Originals
