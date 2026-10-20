@@ -127,7 +127,7 @@ See the [Lyricify Fusion User Guide](https://docs.lyricify.app/en/lyricify-fusio
 
 ## Lyricify Mobile
 
-Lyricify Mobile is the mobile member of the Lyricify family. It currently supports Android, iOS, iPadOS and visionOS, and a Windows version has also been released. macOS support is planned for a future version.
+Lyricify Mobile is the mobile member of the Lyricify family. It currently supports Android, iOS, iPadOS, macOS and visionOS. Windows support has been removed as of v1.6.0.
 
 See the [Lyricify Mobile User Guide](https://docs.lyricify.app/en/lyricify-mobile/).
 

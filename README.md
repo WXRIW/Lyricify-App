@@ -126,7 +126,7 @@ Lyricify Fusion，原名 Lyricify Lite，支持接入 SMTC 的音乐播放器和
 
 ## Lyricify Mobile
 
-Lyricify Mobile 是 Lyricify 家族的移动端，目前支持 Android、iOS、iPadOS 和 visionOS 平台，且已发布 Windows 版本。未来版本将提供 macOS 支持。
+Lyricify Mobile 是 Lyricify 家族的移动端，目前支持 Android、iOS、iPadOS、macOS 和 visionOS 平台。自 1.6.0 起不再支持 Windows。
 
 点击这里查看 [Lyricify Mobile 使用指南](https://docs.lyricify.app/lyricify-mobile/)。
 
