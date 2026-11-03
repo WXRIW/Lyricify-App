@@ -27,12 +27,27 @@
 
     <!--  User Widget  -->
     <system:String x:Key="String.MainWindow.UserWidget.Profile">Profil</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.GetSpotifyPremium">Skaffa Spotify Premium</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.LogOut">Logga ut</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.Settings">Inställningar</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.About">Om</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion">Lyricify-version</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.FreeVersion">Gratisversion</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Free">Gratis</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Free.Store">Gratis (Store-provversion)</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyVersion.Purchased.Store">Köpt i Store</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount">Lyricify-konto</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.1">Administratör</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.2">Insider</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.3">Textansvarig</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.4">Premiumanvändare</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.5">Användare</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.6">Begränsad användare</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.LyricifyAccount.Types.Null">Hittades inte</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession">Mediesession</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Connected">Ansluten</system:String>
     <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected">Frånkopplad</system:String>
+    <system:String x:Key="String.MainWindow.UserWidget.MediaSession.Disconnected.ToolTip" xml:space="preserve">1. Mediesession är bara tillgängligt med Spotify för datorn eller Store-versionen, inte med mobil- eller webbversionen!&#x000A;2. Lyricify försöker inte ansluta till mediesessionen förrän ett uppspelningssvar har mottagits.</system:String>
 
     <system:String x:Key="String.MainWindow.PinnedArea.Notice">Fäst objekt för snabb åtkomst!</system:String>
 
@@ -89,6 +104,8 @@
     <system:String x:Key="String.Info.Album.AlbumType.EP">EP</system:String>
     <system:String x:Key="String.Info.Album.AlbumType.Single">Singel</system:String>
 
+    <system:String x:Key="String.Page.Album.Artwork.FileDialog.Filter">JPEG-bild (*.jpg)|*.jpg</system:String>
+
     <system:String x:Key="String.Page.Artist.VerifiedArtist">Verifierad artist</system:String>
     <system:String x:Key="String.Page.Artist.Popular">Populär</system:String>
     <system:String x:Key="String.Page.Artist.Follower">{0:N0}-följare</system:String>
@@ -116,9 +133,11 @@
     <system:String x:Key="String.Page.Profile.PublicPlaylists">Offentliga spellistor</system:String>
     <system:String x:Key="String.Page.Profile.TopArtists.Month">Bästa artister denna månad</system:String>
     <system:String x:Key="String.Page.Profile.TopArtists.HalfYear">Bästa artister på sex månader</system:String>
+    <system:String x:Key="String.Page.Profile.TopArtists.Year">Mest spelade artister i år</system:String>
     <system:String x:Key="String.Page.Profile.TopArtists.All">Topartister sedan Big Bang</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.Month">Bästa spår denna månad</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.HalfYear">Bästa spår på sex månader</system:String>
+    <system:String x:Key="String.Page.Profile.TopTracks.Year">Mest spelade låtar i år</system:String>
     <system:String x:Key="String.Page.Profile.TopTracks.All">Toplåtar sedan Big Bang</system:String>
 
     <!--  Page Library  -->
@@ -127,12 +146,14 @@
     <system:String x:Key="String.Page.Library.Albums">Album</system:String>
 
     <!--  Page Mobile UI  -->
-    <system:String x:Key="String.Page.MobileUI.Title">LYRICS</system:String>
+    <system:String x:Key="String.Page.MobileUI.Title">LÅTTEXT</system:String>
 
     <!--  Page Search  -->
     <system:String x:Key="String.Page.Search.Title.Search">Sök</system:String>
     <system:String x:Key="String.Page.Search.Title.Lyrics">Sångtext</system:String>
     <system:String x:Key="String.Page.Search.Title.Availability">Tillgänglighet</system:String>
+    <system:String x:Key="String.Page.Search.429Error">API-gränsen har överskridits (fel 429)</system:String>
+    <system:String x:Key="String.Page.Search.Retry">Försök igen</system:String>
     <system:String x:Key="String.Page.Search.Search.SearchBar.PlaceHolder">Sök efter låtar, artister, album och spellistor</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Songs">Sångar</system:String>
     <system:String x:Key="String.Page.Search.Search.Result.Artists">Artister</system:String>
@@ -144,6 +165,7 @@
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongID.Message">Album hittades inte, kontrollera ID:t som du skrivit in.</system:String>
     <system:String x:Key="String.Page.Search.Availability.SearchBar.WrongInput.Message">Fel inmatning eller inmatning som inte stöds. Endast spår (omdirigera till dess album), album och spellistlänkar stöds. Här är två exempel.</system:String>
     <system:String x:Key="String.Page.Search.Availability.Market">Marknad</system:String>
+    <system:String x:Key="String.Page.Search.Availability.Market.Unspecified">Ospecificerat</system:String>
     <system:String x:Key="String.Page.Search.Availability.MoreVersions">Fler versioner</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.UnavailableTracks">Otillgängliga spår</system:String>
     <system:String x:Key="String.Page.Search.Availability.Playlist.AllAvailable">Alla spår är tillgängliga</system:String>
@@ -171,6 +193,7 @@
     <system:String x:Key="String.AudioFeatures.Album.TracksCount">Antal spår</system:String>
     <system:String x:Key="String.AudioFeatures.Artist">Artist</system:String>
     <system:String x:Key="String.AudioFeatures.Artists">Artist(er)</system:String>
+    <system:String x:Key="String.AudioFeatures.Artist.Name">Namn</system:String>
     <system:String x:Key="String.AudioFeatures.Artist.Names">Namn</system:String>
     <system:String x:Key="String.AudioFeatures.Relink">Återlänkad från</system:String>
     <system:String x:Key="String.AudioFeatures.Relink.Track.Name">Spårnamn</system:String>
@@ -183,19 +206,19 @@
     <system:String x:Key="String.AudioFeatures.Relink.Album.TracksCount">Antal albumspår</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature">Ljudfunktioner</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Mode">Läge</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Major">Major</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Minor">Minor</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Major">Dur</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Mode.Minor">Moll</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.TimeSignature">Taktart</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.PitchClass">Pitchklass (Key)</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Loudness">Loudness</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Loudness">Ljudstyrka</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Tempo">Tempo</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Acousticness">Akustik</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Danceability">Dansbarhet</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Energy">Energi</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Instrumentalness">Instrumentalitet</system:String>
     <system:String x:Key="String.AudioFeatures.AudioFeature.Liveness">Livighet</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Speechiness">Speechiness</system:String>
-    <system:String x:Key="String.AudioFeatures.AudioFeature.Valence">Valence</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Speechiness">Talinslag</system:String>
+    <system:String x:Key="String.AudioFeatures.AudioFeature.Valence">Positivitet</system:String>
 
     <system:String x:Key="String.AudioFeatures.ToolTip.ClickCopy">Klicka för att kopiera</system:String>
     <system:String x:Key="String.AudioFeatures.Button.CopyIDs">Kopiera ID:n och ISRC</system:String>
@@ -245,6 +268,14 @@
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip2">Svep åt vänster eller höger för att maximera</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip3">Svep ner för att minimera</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Tip4">Högertryck för att kontrollera textens position</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.Close">Avsluta Apple Music Lyrics</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MaximizeWindow">Helskärm</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.RestoreWindow">Återställ fönster</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.MinimizeWindow">Minimera fönster</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToCurrentLine">Visa aktuell rad</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToFirstLine">Visa första raden</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.GoToLastLine">Visa sista raden</system:String>
+    <system:String x:Key="String.Page.AppleMusicLyrics.MagicButton.None">Ingen åtgärd</system:String>
 
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToArtist">Gå till artist</system:String>
     <system:String x:Key="String.Page.AppleMusicLyrics.Menu.ArtistClick.GoToAlbum">Gå till album</system:String>
@@ -256,28 +287,66 @@
 
     <system:String x:Key="String.Page.AppleMusicLyrics.WrittenBy.Colon" xml:space="preserve">Skrivet av: </system:String>
 
+    <!--  Page Windows Update Lyrics  -->
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.10">Arbetar med uppdateringar</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line1.Windows.8">Konfigurerar Windows-uppdateringar</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.11">Du är {0} % klar.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line2.Windows.10">{0} % klart</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.11">Låt datorn vara på.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.10">Stäng inte av datorn</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Line3.Windows.8">Stäng inte av datorn.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.11">Datorn kan startas om flera gånger.</system:String>
+    <system:String x:Key="String.Page.WindowsUpdateLyrics.Text.Bottom.Windows.10">Datorn kan startas om flera gånger.</system:String>
+
+    <!--  Page Windows Blue Screen Lyrics  -->
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary">Ett problem uppstod på enheten och den måste startas om.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Primary.WithTrackName">Ett problem uppstod med {0} och den måste startas om.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full">Ett problem uppstod på enheten och den måste startas om. Vi samlar in felinformation och startar sedan om.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Main.Full.WithTrackName" xml:space="preserve">Ett problem uppstod med {0} och den måste startas om.&#x000A;Vi samlar in felinformation och startar sedan om.</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.PercentComplete">{0} % klart</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Main">Mer information om problemet och möjliga lösningar finns på https://lyricify.app</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Call">Om du kontaktar supporten ska du ange följande:</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.StopCode">Stoppkod: {0}</system:String>
+    <system:String x:Key="String.Page.WindowsBlueScreenLyrics.Text.Info.Artist">Artist: {0}</system:String>
+
     <!--  Page About  -->
     <system:String x:Key="String.Page.About.Title">Om</system:String>
     <system:String x:Key="String.Page.About.NonPublicWarning">DETTA ÄR INTE EN OFFENTLIG UTGIFT, SPRID INTE!</system:String>
+    <system:String x:Key="String.Page.About.Architecture.32Bits">32-bitars</system:String>
+    <system:String x:Key="String.Page.About.Architecture.64Bits">64-bitars</system:String>
+    <system:String x:Key="String.Page.About.Architecture.Emulated">{0} emulerad</system:String>
+    <system:String x:Key="String.Page.About.Portable">Portabel version</system:String>
+    <system:String x:Key="String.Page.About.Portable.RunningArchitecture">Portabel version körs på {0}</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore">Microsoft Store-version</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Purchased">Köpt Microsoft Store-version</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Trial">Microsoft Store-provversion</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Licensed.Purchased">Licensierad genom köp i Microsoft Store</system:String>
+    <system:String x:Key="String.Page.About.MicrosoftStore.Licensed.Trial">Licensierad med Microsoft Stores provlicens</system:String>
     <system:String x:Key="String.Page.About.MadeWithHeart">Gjord med ❤️ av WXRIW</system:String>
     <system:String x:Key="String.Page.About.Copyright">Upphovsrätt © {0} WXRIW</system:String>
     <system:String x:Key="String.Page.About.LyricsProvidedBy">Sångtext tillhandahållen av</system:String>
     <system:String x:Key="String.Page.About.LyricsProviders">Lyricify Lyrics Vault, QQ Music, Netease Cloud Music</system:String>
     <system:String x:Key="String.Page.About.Donation">Donation</system:String>
     <system:String x:Key="String.Page.About.Thanklist">Tacklista</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.SupporterListInfo">Sorterat efter belopp och tid, listan uppdaterades {0}</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksApple">Ett särskilt tack till Apple för den fascinerande och unika designen</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksSpotify">Ett särskilt tack till Spotify för bidraget till musikstreamingbranschen</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksPremium">Särskilt tack till Difer för att ha tillhandahållit Spotify Premium-konto</system:String>
     <system:String x:Key="String.Page.About.Thanklist.ThanksInsiders">Särskilt tack till våra insiders</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksStorePurchase">Tack till alla som har köpt Lyricify i Microsoft Store</system:String>
+    <system:String x:Key="String.Page.About.Thanklist.ThanksStorePurchase.IncludingYou">Tack till alla som har köpt Lyricify i Microsoft Store, även dig</system:String>
     <system:String x:Key="String.Page.About.Internationalization">Internationalisering</system:String>
     <system:String x:Key="String.Page.About.References">Referenser</system:String>
-    <system:String x:Key="String.Page.About.References.MITLicense.Brackets">(MIT License)</system:String>
+    <system:String x:Key="String.Page.About.References.MITLicense.Brackets">(MIT-licens)</system:String>
     <system:String x:Key="String.Page.About.References.WTFPLLicense.Brackets">(WTFPL-licens)</system:String>
-    <system:String x:Key="String.Page.About.References.Apache2.Brackets">(Apache License 2.0)</system:String>
-    <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(LGPL License 2.1)</system:String>
+    <system:String x:Key="String.Page.About.References.Apache2.Brackets">(Apache-licens 2.0)</system:String>
+    <system:String x:Key="String.Page.About.References.LGPLLicense21.Brackets">(LGPL-licens 2.1)</system:String>
     <system:String x:Key="String.Page.About.References.NoLicense.Brackets">(Ingen licens)</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming">Anspråk på upphovsrätt</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.WXRIW">Copyright © {0} WXRIW, Alla rättigheter reserverade</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Spotify">Huvudfönstergränssnitt, Mobilt UI Helskärm, Spotify Circular Copyright © Spotify AB</system:String>
     <system:String x:Key="String.Page.About.CopyrightClaiming.Apple">Apple Music Lyrics UI, SF Pro, PingFang SC Copyright © Apple Inc.</system:String>
+    <system:String x:Key="String.Page.About.CopyrightClaiming.Isolation">Isolation™ Inside, Copyright © Storyteller Studios</system:String>
 
     <!--  Page Settings  -->
     <system:String x:Key="String.Page.Settings.Title">Inställningar</system:String>
@@ -293,6 +362,14 @@
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.Description">Ändra färgerna som visas i Lyricify</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Dark">Mörkt (standard)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.Light">Ljus</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ColorMode.ComboBox.FollowSystem">Följ systemet</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FullscreenButtonActions">Åtgärder för helskärmsknappen</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FullscreenButtonActions.Description">Välj vad helskärmsknappen öppnar med respektive musknapp</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FullscreenButtonActions.LeftClick">Åtgärd vid vänsterklick</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FullscreenButtonActions.RightClick">Åtgärd vid högerklick</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.FullscreenButtonActions.None">Ingen</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset">Förinställning för gränssnittets teckensnitt</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.InterfaceFontPreset.Description">Välj teckensnittsförinställning för Lyricifys gränssnitt</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground">Textbakgrund</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.Description">Ändra bakgrund för texter</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsBackground.ComboBox.SingleColor">Enfärgad</system:String>
@@ -301,16 +378,20 @@
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Description">Ändra Lyricifys visningszoomning</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Button.Reset">Återställ</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.Zoom.Help">Du kan också ändra visningszoomningen med mushjulet med Ctrl nedtryckt eller "Ctrl + -" för att zooma in, "Ctrl + =" för att zooma ut och "Ctrl + 0" för att återställa.</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ShowLyricifyVersionInfo">Visa Lyricify-version</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.ShowLyricifyVersionInfo.Description">Visa Lyricifys versionsinformation i användarwidgeten</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization">Anpassning av textstil</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Description">Textstil på Spotify-textsidan</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode">anpassning av textstil (mobilläge)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.MobileMode.Description">Textstil på sidan med Spotify-stiltexter (mobilläge)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.Button.Reset">Återställ</system:String>
-    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign">Lyrics align</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign">Textjustering</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Center">Center (standard)</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Left">Vänster</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.ComboBox.Right">Höger</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.Margin">Marginal</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.Margin.Left">Vänstermarginal</system:String>
+    <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LyricsAlign.Margin.Right">Högermarginal</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.FontSize.Lyrics">Teckenstorlek för texter</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.FontSize.Translation">Översättningsteckenstorlek</system:String>
     <system:String x:Key="String.Page.Settings.Appearance.LyricsStylePersonalization.LineSpacing">Radavstånd</system:String>
@@ -333,29 +414,53 @@
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.Description">Välj visningsalternativ för japansk Romaji</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.Disable">Inaktivera</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.TranslationFirst">Översättning först</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiFirst">Romaji First</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiFirst">Romaji först</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Romaji.ComboBox.RomajiOnly">Endast romaji</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese">Föredrar förenklad kinesiska</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.PreferSimplifiedChinese.Description">Kinesiska tecken kommer att konverteras till traditionell kinesiska om du stänger av det här alternativet</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.TraditionalChineseRegion">Region för traditionell kinesiska</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.TraditionalChineseRegion.Description">Välj regional teckenstandard när traditionell kinesiska föredras. Ändringar träder i kraft när texten läses in på nytt eller låten byts</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.TraditionalChineseRegion.Taiwan">Traditionell kinesiska (Taiwan)</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.TraditionalChineseRegion.HongKong">Traditionell kinesiska (Hongkong)</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation">Uppdelning av låttext</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.ChineseLongSentenceSegmentation.Description">Dela upp långa kinesiska meningar (gäller efter att texten har uppdaterats)</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics">Visa explicita texter</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.ShowExplicitLyrics.Description">Genom att stänga av detta kommer explicita ord att ersättas med asterisker</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source">Källa</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.Description">Lyricify fungerar bäst med QQ Music-källa, vissa Lyricify-funktioner kanske inte är tillgängliga när du använder Netease Cloud Music-källa</system:String>
-    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.QQFirst">QQ Music first</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.QQFirst">QQ Music först</system:String>
     <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.NeteaseFirst">Netease Cloud Music först</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.QQFirst">Översättning först och QQ Music först</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.ComboBox.TranslationFirst.NeteaseFirst">Översättning först och Netease Cloud Music först</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable">Netease-text ord för ord</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.NeteaseSyllable.Description">Aktivera text ord för ord från Netease Cloud Music</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch">Aktivera Musixmatch</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.Musixmatch.Description">Använd Musixmatch som reservkälla</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable">Musixmatch-text ord för ord</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.Source.MusixmatchSyllable.Description">Aktivera text ord för ord från Musixmatch</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.EnableColorfulEmoji">Emojier i färg</system:String>
+    <system:String x:Key="String.Page.Settings.Lyrics.EnableColorfulEmoji.Description">Visa emojier i färg vid rendering (stöds inte i alla gränssnitt)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics">Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background">Bakgrund</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Description">Välj den bakgrund du vill använda i Apple Music Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.IndependentRendering">Oberoende bakgrundsrendering</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.IndependentRendering.Description">Rendera bakgrunden i en separat tråd för att minska påverkan på textvisningens prestanda (endast i helskärm)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.Static">Statisk</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.Dynamic">Dynamisk</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.DynamicBeating">Dynamic (Beating)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.ComboBox.DynamicBeating">Dynamisk (pulserande)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Palette">Palettalgoritm</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Background.Isolation.Palette.Description">Välj en algoritm för färgval</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics">Oskärpa texter</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLyrics.Description">Aktivera oskärpa effekt på texter</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel">Skärmnivå</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Description">Ställ in oskärpa nivå (standardnivå på iPadOS i horisontellt läge är 3, på iPadOS i vertikalt läge eller iOS är 5)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BlurLevel.Level">Nivå</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DisableBlurAtLyricsLineMouseOver">Ta bort oskärpa automatiskt</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DisableBlurAtLyricsLineMouseOver.Description">Ta tillfälligt bort oskärpan när muspekaren förs över</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText">Fet text</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BoldText.Description">Använd fet text i Apple Music Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FontPreset">Teckensnittsförinställning</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FontPreset.Description">Använd teckensnittsförinställningar i Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode">Karaokeläge</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Description">Ja, nu kan du ha texter i karaokestil i Apple Music Lyrics</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.DisableCJK">Inaktivera karaokestil för CJK-text</system:String>
@@ -363,8 +468,20 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation">Aktivera ytterligare animationer</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Description">Bättre animation, bättre upplevelse</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float">Flytande animation</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.Description">Texten spelas, stavelserna svävar – fantastiskt</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Disabled">Inaktiverad</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Low">Låg</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Medium">Medel</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.High">Hög (standard)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.Float.ComboBox.Tremendous">Enormt</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine">Ordsken</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.KaraokeMode.Animation.WordShine.Description">Så lysande</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk">Aktivera ordsken för CJK</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShinyCjk.Description">Aktivera ordsken för flera kinesiska, japanska och koreanska tecken</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView">Duettvy</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.DuetView.Description">Flera sångare visas på motsatta sidor av skärmen för att göra duetter eller låtar med flera sångare lätta att sjunga med i</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst">Högerjustera först</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.RightAlignFirst.Description">Högerjustera texten först</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling">Pulleffekt</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.Description">Ställ in effekt för drageffekt</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Disabled">Inaktiverad</system:String>
@@ -373,74 +490,358 @@
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Medium">Medium (standard)</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.High">Hög</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.Pulling.ComboBox.Tremendous">Enormt</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MagicStripFeature">Funktionsbeskrivning för Magic Strip</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MagicStripFeature.Description">Visa motsvarande funktioner när Magic Strip används</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial">Visa handledning för Magic Strip</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Description">Visa alltid handledningen för Magic Strip efter att ha angett Apple Music Lyrics</system:String>
-    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">Introducerar Magic Strip! &#x000A;Du kan trycka på remsa-knappen för att avsluta Apple Music Lyrics, &#x000A;svepa nedåt för att minimera, &#x000A;svepa åt vänster eller höger för att maximera eller återställa, &#x000A;och svepa upp till annullera. &#x000A;&#x000A;Du kan också trycka på din högra musknapp för att svepa uppåt för att gå till den första raden med sångtexter, &#x000A;svepa ned för att gå till den sista raden med sångtexter, &#x000A;svepa åt vänster eller höger för att gå till aktuell rad, &#x000A;och ett enda högerklick gör ingenting.</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ShowMagicStripTutorial.Help" xml:space="preserve">Här är Magic Strip!&#x000A;&#x000A;Tryck på remsans knapp för att avsluta Apple Music Lyrics,&#x000A;svep nedåt för att minimera,&#x000A;svep åt vänster eller höger för att maximera eller återställa,&#x000A;och svep uppåt för att avbryta.&#x000A;&#x000A;Du kan också hålla höger musknapp nedtryckt och svepa uppåt för att gå till första textraden,&#x000A;svepa nedåt för att gå till sista raden,&#x000A;svepa åt vänster eller höger för att gå till den aktuella raden.&#x000A;Ett enkelt högerklick gör ingenting.</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime">Animerad tidsstatus</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.AnimatedTime.Description">Aktivera animationer när tidsstatus ändras</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FpsOverlay">FPS-visning</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FpsOverlay.Description">Visa aktuell renderings-FPS i Apple Music Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FpsOverlay.UpdateInterval">Uppdateringsintervall</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FpsOverlay.UpdateInterval.Description">Ange hur ofta FPS-visningen uppdateras</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FpsOverlay.UpdateInterval.ComboBox.Fast">Snabb</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FpsOverlay.UpdateInterval.ComboBox.Normal">Normal</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.FpsOverlay.UpdateInterval.ComboBox.Slow">Långsam</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore">Återställ zoomning</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.ZoomingRestore.Description">Återställ zoomningen i Apple Music Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset">Stilförinställning</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.Description">Detaljerna varierar mellan olika systemversioner</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Default">Standard</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Custom">Anpassad</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS162AndLater">iOS 16.2 och senare</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS163AndLater">iOS 16.3 och senare</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS164AndLater">iOS 16.4 och senare</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS170AndLater">iOS 17.0 och senare</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS171AndLater">iOS 17.1 och senare</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS260AndLater">iOS 26.0 och senare</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.iOS264AndLater">iOS 26.4 och senare</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Android.New">Android (ny)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.StylePreset.ComboBox.Android.Old">Android (gammal)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth">Övergångsbredd</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TransitionWidth.Description">Bredd för opacitetsövergång</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation">Animation inom raden</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InlineAnimation.Description">Animationsdetaljer i textrader</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InterLineAnimation">Animation mellan rader</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.InterLineAnimation.Description">Animation vid byte mellan textrader</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed">Opacitetsövergång</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.LineSwitchingOpacitySpeed.Description">Hastighet för opacitetsövergång mellan stavelserader</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity">Opacitet före uppspelning</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.SyllablePreplayOpacity.Description">Opacitet för stavelser före uppspelning</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TranslationLinePreset">Förinställning för översättningsrader</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.TranslationLinePreset.Description">Justera stilen för textens översättningsrader</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition">Bakgrundssångens position</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalPosition.Description">Bakgrundssångens position i förhållande till huvudtexten</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout">Bakgrundssångens utflygning</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.Description">Bakgrundssångens utflygningsanimation och riktning</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BackgroundVocalFlyout.ComboBox.LyricifyOld">Lyricify (gammal)</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout">Mobillayout</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.MobileLayout.Description">Apple Musics mobillayout</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect">Ordsken</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.WordShineEffect.Description">Välj en förinställning för ordsken</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment">Andningspunkternas justering</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BreathingDotsAlignment.Description">På iOS är andningspunkterna alltid vänsterjusterade; på Android är de på samma sida som texten</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming">Zoomning av markerad rad</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.HighlightLineZooming.Description">Justera zoomnivån för den markerade raden</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep">Förhindra viloläge</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.Description">Förhindra att skärmen stängs av eller datorn går i vila</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.Always">Alltid</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PreventSleep.ComboBox.FullscreenOnly">Endast helskärm</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple">Buggy Apple</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.Description">Apple utan buggar är inte längre Apple</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.AffectedVersions" xml:space="preserve">Berörda versioner: </system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.BackgroundVocalsOverlap">Bakgrundssång överlappar efter andningspunkter</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.BackgroundVocalsEnteringDirection">Problem med bakgrundssångens inträdesriktning</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.TremendousBreathingDots">Problem med alltför stora andningspunkter</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.BackgroundVocalTransparencySuddenChange">Plötsliga ändringar i opaciteten för rader med bakgrundssång</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.ChineseCharacterAbnormalFloating">Onormalt svävande kinesisk text</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.LyricsLineTransparencySuddenChange">Plötsliga ändringar i textradernas opacitet</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.BuggyApple.WordShineAnimationInterruption">Avbruten ordskensanimation i slutet av raden</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PlusLighter">Avancerat blandningsläge</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PlusLighter.Description">Aktivera blandningsläget Plus Lighter för Apple Music Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PlusLighter.Notice.PerformanceImpact">Det här blandningsläget kan påverka prestandan avsevärt.</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PlusLighter.Notice.LowResolution">Effekten kanske inte ser bra ut på skärmar med låg upplösning.</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PlusLighter.Notice.HighResolutionBlur">Visningen kan se suddig ut vid hög upplösning.</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PlusLighter.BlendPreset">Blandningsförinställning</system:String>
+    <system:String x:Key="String.Page.Settings.AppleMusicLyrics.PlusLighter.BlendPreset.Description">Välj förinställningen som används av det avancerade blandningsläget</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional">Aktivera traditionell version</system:String>
     <system:String x:Key="String.Page.Settings.AppleMusicLyrics.EnableTraditional.Description">Lägg till en post till Apple Music Lyrics (traditionell) i huvudmenyn</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen">Lyricify helskärm</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics">Oskärpa texter</system:String>
     <system:String x:Key="String.Page.Settings.LyricifyFullscreen.BlurLyrics.Description">Aktivera oskärpa effekt på texter</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo">Färgglad logotyp</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyFullscreen.ColorfulLogo.Description">Använd Lyricifys färgade logotyp i stället för den enfärgade</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage">Lyricify Lyrics Stage</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.FontSizeScale">Teckenstorleksskala</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.FontSizeScale.Description">Ange skala för teckenstorleken</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.BoldText">Fet text</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.BoldText.Description">Använd fet text i Lyricify Lyrics Stage</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.LyricifyLogo">Lyricify-logotyp</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.LyricifyLogo.Description">Välj hur Lyricify-logotypen ska visas i Lyricify Lyrics Stage</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.LyricifyLogo.ComboBox.Disabled">Av</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.LyricifyLogo.ComboBox.Colorful">Färgglad</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.LyricifyLogo.ComboBox.Monochrome">Monokrom</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.ProgressBar">Förloppsindikator</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.ProgressBar.Description">Välj när uppspelningens förloppsindikator ska visas</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.ProgressBar.ComboBox.Disabled">Av</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.ProgressBar.ComboBox.OnPointerOver">Visa vid hovring (standard)</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.ProgressBar.ComboBox.Always">På</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.Background">Bakgrund</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.Background.Description">Välj bakgrund för Lyricify Lyrics Stage</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.Background.IndependentRendering">Oberoende bakgrundsrendering</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.Background.IndependentRendering.Description">Rendera bakgrunden i en separat tråd för att minska påverkan på textvisningens prestanda</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.Background.Isolation.Palette">Palettalgoritm</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.Background.Isolation.Palette.Description">Välj en algoritm för färgval</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.FpsOverlay">FPS-visning</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.FpsOverlay.Description">Visa aktuell renderings-FPS i Lyricify Lyrics Stage</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.FpsOverlay.UpdateInterval">Uppdateringsintervall</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.FpsOverlay.UpdateInterval.Description">Ange hur ofta FPS-visningen uppdateras</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.FpsOverlay.UpdateInterval.ComboBox.Fast">Snabb</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.FpsOverlay.UpdateInterval.ComboBox.Normal">Normal</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.FpsOverlay.UpdateInterval.ComboBox.Slow">Långsam</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.Karaoke">Karaokeläge</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.Karaoke.Description">Nu kan du visa låttext i karaokestil i Lyricify Lyrics Stage</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.FloatHeight">Flytande animation</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.FloatHeight.Description">Texten spelas, stavelserna svävar – fantastiskt</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.FloatHeight.ComboBox.Disabled">Inaktiverad</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.FloatHeight.ComboBox.Low">Låg</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.FloatHeight.ComboBox.Medium">Medium (standard)</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.FloatHeight.ComboBox.High">Hög</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.FloatHeight.ComboBox.Tremendous">Enormt</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.DuetView">Duettvy</system:String>
+    <system:String x:Key="String.Page.Settings.LyricifyLyricsStage.DuetView.Description">Flera sångare visas på motsatta sidor av skärmen för att göra duetter eller låtar med flera sångare lätta att sjunga med i</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics">Windows Update Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Style">Stil</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Style.Description">Välj önskad stilförinställning</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea">Nedre område</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.Description">Välj innehåll som visas i det nedre området</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.TrackInfo">Låtinformation</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.WindowsTips">Windows-tips</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.BottomArea.ComboBox.Hidden">Dold</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.MultipleLine">Låttext på flera rader</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.MultipleLine.Description">Visa flera rader av den aktuella låttexten</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language">Språk</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.Description">Språkinställningar för gränssnittet</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.ComboBox.Default">Standard</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsUpdateLyrics.Language.ComboBox.Auto">Automatiskt</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics">Windows Blue Screen Lyrics</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.Default">Standard</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.Insider">Insider Preview</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.Style.ComboBox.ArtworkMainColor">Konstverkets huvudfärg</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit">Anpassa storlek</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.ScaleToFit.Description">Förstora innehållet för att använda skärmen maximalt</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution">Efterlikna låg upplösning</system:String>
+    <system:String x:Key="String.Page.Settings.WindowsBlueScreenLyrics.EmulateLowResolution.Description">Efterlikna visningen på en skärm med låg upplösning</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
-    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Byland mode</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode">Byland-läge</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Description">Byland eller Island, det är upp till dig! Olika stilar har olika funktioner</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.Help" xml:space="preserve">Dynamic Lyrics Island försvinner automatiskt vid marköringången i Byland-läge, men i öläge kan du du din markör för att flytta ön. &#x000A;Du kommer att kunna stänga Dynamic Lyrics Island genom att högerklicka på menyn i Island Mode, men i Byland-läget kan du bara stänga med huvudmenyn eller snabbtangenten.</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex">Skärmnummer</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.Description">Välj skärm för Dynamic Lyrics Island i byland-läge</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem">Skärm {0}</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BylandMode.ScreenIndex.ScreenItem.Primary">Skärm {0} (primär skärm)</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.TrackInfoOnly">Visa endast låtinformation</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.TrackInfoOnly.Description">När detta är aktiverat visar Dynamic Lyrics Island bara låttitel och artist, utan låttext</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine">Visa alltid två rader</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.DuoLine.Description">Visa alltid två rader med texter även när översättning inte är tillgänglig</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation">Dölj översättning och uttal</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideTranslation.Description">Dölj översättning och uttal när de finns</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText">Fet text</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BoldText.Description">Använd fet text i Dynamic Lyrics Island</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode">Karaokeläge</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.KaraokeMode.Description">Har du någonsin sett sångtexter lysa?</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide">Dölj automatiskt</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.AutoHide.Description">Genom att aktivera detta kommer Dynamic Lyrics Island att döljas vid paus</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideOnMouseHover">Dölj när muspekaren förs över</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.HideOnMouseHover.Description">Dölj automatiskt när muspekaren kommer in</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide">Helskärmsdölj</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenHide.Description">Dölj Dynamic Lyrics Island när du har ett program som körs i helskärmsläge</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenLyricsAutoHide">Dölj när låttext visas i helskärm</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.FullscreenLyricsAutoHide.Description">Dölj Dynamic Lyrics Island när en helskärmsvy med låttext visas på samma skärm</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage">Visa artistbild</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.ShowArtistImage.Description">Ersätt tillfälligt Lyricify-logotypen med artistbilden när låten byts</system:String>
     <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity">Opacitet</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Opacity.Description">Opacitet för Dynamic Lyrics Island-fönstret</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BackgroundOpacity">Bakgrundens opacitet</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.BackgroundOpacity.Description">Bakgrundsfärgens opacitet</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors">Färger</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors.Description">Färginställningar för Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors.Button.Reset">Återställ</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors.Foreground">Förgrundsfärg</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Colors.Background">Bakgrundsfärg</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale">Skala</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.Scale.Description">Styr storlek och skalning för Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.LeftContent">Innehåll till vänster</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.LeftContent.Description">Välj vad som visas till vänster på Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.RightContent">Innehåll till höger</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.RightContent.Description">Välj vad som visas till höger på Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.SideContents">Sidoinnehåll</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.SideContents.Description">Välj en förinställning eller expandera för att anpassa båda sidor</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.SideContents.Preset.Default">Standard</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.SideContents.Preset.iOS">iOS</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.SideContents.Preset.Hidden">Dold</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.SideContents.Preset.Custom">Anpassad</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.SideContent.Logo">Lyricify-logotyp</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.SideContent.AlbumArtwork">Albumomslag</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.SideContent.Spectrum">Spektrum</system:String>
+    <system:String x:Key="String.Page.Settings.DynamicLyricsIsland.SideContent.None">Inget</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics">Skrivbordstexter</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Vertical">Vertikal visning</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Horizontal">Horisontell visning</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Vertical.Description">Visa skrivbordstext vertikalt uppifrån och ned</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.TrackInfoOnly">Visa endast låtinformation</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.TrackInfoOnly.Description">När detta är aktiverat visas bara låttitel och artist på skrivbordet, utan låttext</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShowTrackInfoBeforeLyrics">Visa låtinformation före texten</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShowTrackInfoBeforeLyrics.Description">Visa låtens titel och artist före den första textraden</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode">Due-Line-läge</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.DuoLineMode.Description">Genom att stänga av detta kommer endast en rad med sångtexter att visas</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoScroll">Rulla långa textrader</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoScroll.Description">Behåll aktuell teckenstorlek och rulla text som inte får plats. Stäng av för att krympa varje rad så att den passar</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EfficiencyMode">Effektivitetsläge</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EfficiencyMode.Description">Lyricify vill bidra till att minska koldioxidutsläpp och energianvändning som påverkar miljön</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation">Animering för att byta text</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation.Description">Spela animation när du byter till en annan textrad</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation.BlurEffect">Oskärpeeffekt</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsSwitchingAnimation.BlurEffect.Description">Aktivera oskärpa vid radbyte</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode">Karaokeläge</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.KaraokeMode.Description">Få visning av texter i karaokestil</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.GradientWidth">Gradientens bredd</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.GradientWidth.Description">Justera övergångens bredd mellan färgerna för spelad och ospelad text. Ange 0 % för att stänga av gradienten</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide">Dölj automatiskt</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.AutoHide.Description">Genom att aktivera detta kommer Desktop Lyrics att döljas vid paus</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide">Helskärmsdölj</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenHide.Description">Dölj skrivbordstexter när du har ett program som körs i helskärmsläge</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenLyricsAutoHide">Dölj när låttext visas i helskärm</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.FullscreenLyricsAutoHide.Description">Dölj skrivbordstext när en helskärmsvy med låttext visas på samma skärm</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide">Dölj med transparens</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Description">Sänk skrivbordstextens opacitet när muspekaren förs över i låst läge</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Opacity">Opacitet</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.EnterHide.Opacity.Description">Ange 0 om du vill dölja skrivbordstexten</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Opacity">Opacitet</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.BorderThickness">Kanttjocklek</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign">Lyrics align</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.BorderOutwardPercentage">Andel yttre kant</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.BorderOutwardPercentage.Tip">Styr hur mycket av kanten som sträcker sig utåt. Resten sträcker sig inåt</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign">Textjustering</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Center">Center (standard)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Left">Vänster</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Right">Höger</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Top">Överst</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.LyricsAlign.ComboBox.Bottom">Nederst</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors">Färger</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Description">Det kan vara den mest anpassningsbara skrivbordstexten någonsin</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Button.Reset">Återställ</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle">Duo-linjestil</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.Description">Två separerade rader. Rader med översättning använder inte duo-linjestil</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Fill">Highlight line (Fill)</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Border">Highlight line (Border)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Fill">Markerad rad (fyllning)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.HighlightLine.Border">Markerad rad (kant)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Fill">Nästa rad (Fill)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.DuoLineStyle.NextLine.Border">Nästa rad (Border)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle">Enradsstil</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Description">Visa endast en rad. Översättning kommer att visas om tillgänglig</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Fill">Fyll</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Border">Border</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.Border">Kant</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Fill">Översättningsrad (Fill)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.SingleLineStyle.TranslationLine.Border">Översättningsrad (Border)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle">Karaokestil</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Description">Detta gäller både duo-linje och enkelrad</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Fill">Spelat (Fill)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Played.Border">Spelat (Border)</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Fill">Preplay (Fill)</system:String>
-    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Border">Preplay (Border)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Fill">Före uppspelning (fyllning)</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.KaraokeStyle.Preplay.Border">Före uppspelning (kant)</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.ArtworkMainColor">Konstverkets huvudfärg</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Black">Svart</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.White">Vit</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Colors.Custom">Anpassad</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect">Skuggeffekt</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Description">Skugga under låttexten</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Color">Färg</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Depth">Djup</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Direction">Riktning</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Direction.Description">Standardvärde: 315°</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Opacity">Opacitet</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.ShadowEffect.Radius">Radie</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position">Position &amp; storlek</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Description">Om Desktop Lyrics inte visas korrekt kan du försöka återställa</system:String>
     <system:String x:Key="String.Page.Settings.DesktopLyrics.Position.Button.Reset">Återställ</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Topmost">Alltid överst</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Topmost.Description">Håll skrivbordstexten ovanför andra fönster</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock">Lås</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.Description">Lås skrivbordstextens position och storlek</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.Button.Unlock">Lås upp</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.HideUnlock">Dölj upplåsningsknappen</system:String>
+    <system:String x:Key="String.Page.Settings.DesktopLyrics.Lock.HideUnlock.Description">Dölj upplåsningsknappen så att den inte stör</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics">Låttext i aktivitetsfältet</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarEmbedding">Bädda in i aktivitetsfältet</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarEmbedding.Help" xml:space="preserve">Att aktivera ”Bädda in i aktivitetsfältet” kan förbättra upplevelsen, men kan i vissa fall leda till saknade funktioner i aktivitetsfältet, instabilitet eller krascher.&#x000A;När alternativet är avstängt visas texten i ett flytande fönster ovanför aktivitetsfältet. Det är stabilare, men upplevelsen kan bli sämre i vissa situationer.</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.PollingFrequency">Avfrågningsfrekvens</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.PollingFrequency.Description">Välj hur ofta aktivitetsfältets område ska kontrolleras. Hög frekvens uppdaterar positionen snabbare, medan låg frekvens minskar resursanvändningen</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.PollingFrequency.ComboBox.High">Hög</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.PollingFrequency.ComboBox.Medium">Medium (standard)</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.PollingFrequency.ComboBox.Low">Låg</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ScreenIndex">Skärmnummer</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ScreenIndex.Description">Välj vilken skärm som ska visa aktivitetsfältets text</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ScreenIndex.AllScreens">Alla skärmar</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarArea">Aktivitetsfältets område</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarArea.ComboBox.Left">Vänster</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarArea.ComboBox.Right">Höger</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.WindowAlignment">Fönsterjustering</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ContentAlignment">Innehållsjustering</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ArtworkAlignment">Omslagsjustering</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.Alignment.ComboBox.Auto">Automatiskt (standard)</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.Alignment.ComboBox.Left">Vänster</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.Alignment.ComboBox.Center">Centrerat</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.Alignment.ComboBox.Right">Höger</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarArea.ComboBox.Top">Överst</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarArea.ComboBox.Bottom">Nederst</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.Alignment.ComboBox.Top">Överst</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.Alignment.ComboBox.Bottom">Nederst</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.PrimaryLinePlacement">Huvudtextens placering</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarEdge.Left">Aktivitetsfält till vänster</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarEdge.Right">Aktivitetsfält till höger</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarEdge.Top">Aktivitetsfält upptill</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TaskbarEdge.Bottom">Aktivitetsfält nedtill</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.PrimaryLinePlacement.ComboBox.Left">Vänster</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.PrimaryLinePlacement.ComboBox.Right">Höger</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.PrimaryLinePlacement.ComboBox.Top">Överst</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.PrimaryLinePlacement.ComboBox.Bottom">Nederst</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.AdaptiveSize">Anpassningsbar storlek</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode">Färgläge</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.Description">Välj färgtema</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.FollowTaskbar">Följ aktivitetsfältet (standard)</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.Dark">Mörkt</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ColorMode.ComboBox.Light">Ljus</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.KaraokeMode">Karaokeläge</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.KaraokeMode.Description">Använd karaoketext ord för ord i aktivitetsfältet</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.AutoHide">Dölj automatiskt</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.AutoHide.Description">När detta är aktiverat döljs texten i aktivitetsfältet vid paus</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TrackInfoOnly">Visa endast låtinformation</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.TrackInfoOnly.Description">När detta är aktiverat visas bara låttitel och artist i aktivitetsfältet, utan låttext</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.FontSizeScale">Teckenstorleksskala</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.FontSizeScale.Description">Ange skala för teckenstorleken</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LargerText">Större text</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LargerText.Description">Använder stor text. I det här läget visas bara en textrad; översättning, uttal och nästa rad visas inte.</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition">Textövergång</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.Description">Välj animation för textövergång</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.ComboBox.None">Ingen</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.ComboBox.Fade">Tona</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveVertical">Vertikal toning</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveHorizontal">Horisontell toning</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveVerticalReversed">Vertikal toning (omvänd)</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricsTransition.ComboBox.FadeMoveHorizontalReversed">Horisontell toning (omvänd)</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.AlbumArtwork">Albumomslag</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.AlbumArtwork.Description">Visa albumomslaget</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ControlButtons">Kontrollknappar</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.ControlButtons.Description">Visa uppspelningsknapparna</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricifyLogo">Lyricify-logotyp</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.LyricifyLogo.Description">Visa Lyricify-logotypen ovanför albumomslaget</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomVerticalAdjustments">Vertikala justeringar</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomVerticalAdjustments.Description">Justera texten i aktivitetsfältet vertikalt. Det första värdet anger vertikal förskjutning och det andra radavståndet</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMaxWidth">Anpassad maximal bredd</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMaxWidth.Description">Ange en maximal bredd om du vill begränsa fönstrets bredd</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMargin">Anpassad marginal</system:String>
+    <system:String x:Key="String.Page.Settings.TaskbarLyrics.CustomMargin.Description">Om fönstrets position behöver justeras eller överlappas av andra verktyg i aktivitetsfältet kan du ange marginaler i pixlar</system:String>
+    <system:String x:Key="String.Page.Settings.AdditionalViews">Ytterligare vyer</system:String>
     <system:String x:Key="String.Page.Settings.Functions">Funktioner</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed">Följ flöde</system:String>
     <system:String x:Key="String.Page.Settings.Functions.FollowFeed.Description">Hämta nya versioner</system:String>
@@ -463,17 +864,85 @@
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking">Aktivera omlänkning av spårets konstverk</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Description">Använd återlänkade konstverk istället för konstverk från originalspåret när spåret återlänks</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Spotify.EnableTrackRelinking.Help" xml:space="preserve">Tillgängligheten av ett spår beror på vilket land som är registrerat i användarens Spotify-profilinställningar. Ofta har Spotify flera instanser av en låt i sin katalog, var och en tillgänglig på olika marknader. Detta händer vanligtvis när spåret albumet är på har släppts flera gånger under olika licenser på olika marknader. &#x000A;&#x000A;Dessa spår är sammanlänkade så att när en användare försöker spela ett spår som inte är tillgängligt på deras egen marknad, försöker Spotifys mobil-, dator- och webbspelare spela en annan instans av spåret som är tillgängligt på användarens marknad.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine">Lyricify Intelligent Engine</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description">Tillhandahåller intelligent teknik och funktioner för anslutning och samspel mellan Lyricify och Spotify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Description.Premium">Spotify Premium-prenumeration krävs!</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.LyricifyIntelligentEngine.Button.GetPremium">Skaffa Spotify Premium</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement">Aktivera mediasessionsförbättring</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.Description">Använd systemmediasession för att förbättra upplevelsen när du använder Spotify desktop-klient. (Se till att du har aktiverat "Visa skrivbordsöverlägg när du använder medianycklar" i Spotify-inställningarna)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement">Aktivera förbättrade uppspelningsuppdateringar</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.PlaybackUpdateEnhancement.Description">Smidiga låtbyten med Lyricify Intelligent Engine</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection">Aktivera tidslinjekorrigering</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.Description">Förbättra tidslinjens precision</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrection.CrossfadeNotice">Tidslinjekorrigering kanske inte fungerar korrekt när övertoning är aktiverad</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrectionPlus">Aktivera Timeline-Correction Plus</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.MediaSession.EnableEnhancement.TimelineCorrectionPlus.Description">Korrigera tidslinjen på ett mer ingående sätt för bättre resultat</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload">Aktivera förladdning av låttexter</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableLyricsPreload.Description">Förladdning kan göra att texterna visas direkt vid låtbyte</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableImagePreload">Aktivera förladdning av bilder</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableImagePreload.Description">Förladdning kan göra att albumomslag visas direkt vid låtbyte</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation">Aktivera bekräftelse vid borttagning</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.EnableRemoveLikedSongsConfirmation.Description">Be om bekräftelse innan låtar tas bort från biblioteket (Gillade låtar)</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion">Aktivera kinesisk konvertering</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.EnableChineseConversion.Description">Aktivera kinesisk konvertering för Spotify-innehåll</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency">Enhetsfördröjning</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Description">Enhet: millisekund. Det här argumentet är utformat för Bluetooth-uppspelningsenheters latens, använd INTE detta för textförskjutning. Uppdatera sångtexter för att träda i kraft</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.DeviceLatency.Button.Configure">Konfigurera</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey">Snabbknappshantering</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Description">Öppna Hotkey Manager för att hantera globala snabbtangenter</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Manage.Hotkey.Button.Open">Öppna</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration">Konton för textimport</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.Description">Konfigurera kontouppgifter för textimport</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.Warning">Inställningarna nedan kan medföra risker. Vi ansvarar inte för eventuella konsekvenser.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.AppleMusic">Apple Music-auktorisering</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.AppleMusic.Hint">En aktiv Apple Music-prenumeration krävs.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.AppleMusic.Description">Ange Media User Token manuellt eller använd den inbyggda webbinloggningen för att hämta den automatiskt</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.AppleMusic.SignIn">Logga in på Apple Music</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.AppleMusic.SignInToGetToken">Logga in för att hämta en token</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.AppleMusic.CredentialsExpired">Det gick inte att hämta texten. Dina Apple Music-uppgifter har upphört att gälla eller är ogiltiga. Konfigurera kontot igen i inställningarna för textimport.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.Spotify">Spotify-auktorisering</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.Spotify.Hint">Ange sp_dc manuellt eller använd den inbyggda webbinloggningen för att hämta den automatiskt</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.Spotify.Description">Ange sp_dc manuellt eller använd den inbyggda webbinloggningen för att hämta den automatiskt</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.Spotify.SignIn">Logga in på Spotify</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.Spotify.SignInToGetToken">Logga in för att hämta sp_dc</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.Spotify.CredentialsExpired">Dina Spotify-uppgifter har upphört att gälla eller är ogiltiga. Konfigurera kontot igen i inställningarna för textimport.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.Save">Spara</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.Clear">Rensa</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.SignInFailed">Det gick inte att starta webbinloggningen. Installera WebView2 Runtime eller klistra in cookien manuellt.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.SaveFailed">Det gick inte att spara inloggningsuppgifterna säkert. Försök igen.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.InvalidAppleMusicId">Ogiltigt Apple Music-låt-ID eller länk. Kontrollera din inmatning.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.RequestFailed">Det gick inte att hämta texten. Kontrollera nätverksanslutningen och inställningarna för textimport.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.TooManyRequests">För många förfrågningar. Försök igen senare.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ImportConfiguration.Required">Konfigurera kontot under Inställningar → Avancerat → Konton för textimport och försök sedan igen.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar">Väntindikator för Spotify API</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.ApiTooManyRequestErrorWaitingBar.Description">Visa förloppsindikatorn längst ned vid 429-fel under låtbyte</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage">Välkomstmeddelande</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.Description">Välkomstmeddelande när Lyricify startar</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.CurrentWelcomeMessage">Aktuellt välkomstmeddelande</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.CustomizeWelcomeMessage">Anpassa välkomstmeddelandet</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.CustomizeWelcomeMessage.Description">Ange {NAME} för att skriva ditt användarnamn (klicka för att infoga {NAME})</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.CustomizeWelcomeMessage.PlaceHolder">Skriv meddelandet här</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.ComboBox.Standard">Standardhälsning</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.ComboBox.Supreme">Extra fin hälsning</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.WelcomeMessage.ComboBox.Custom">Eget meddelande</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates">Uppdateringar</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.Description">Inställningar för Lyricify-uppdateringar</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.Button.Check">Sök efter uppdateringar</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.Notify">Meddela</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.Download">Ladda ned och installera senare</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.StoreOptions.DownloadAndInstall">Ladda ned och installera direkt</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate">Automatisk uppdatering</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.ForceUpdate.Description">Identifiera och installera nya versioner av Lyricify automatiskt</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource">Uppdateringskälla</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Description">Välj källa för nedladdning av uppdateringar (välj GitHub Proxy om du befinner dig i Fastlandskina utan proxytjänst, annars GitHub)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Sources.GitHub">GitHub</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.UpdateSource.Sources.GitHubProxy">GitHub Proxy (ghproxy.com)</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Updates.MicrosoftStore.Description">Uppdateringar hanteras av Microsoft Store.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer">Proxyförinställning för Lyricify-servern</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer.Description">Att stänga av proxy för förfrågningar till Lyricify-servern kan förbättra upplevelsen i Fastlandskina</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer.ComboBox.Enable">Aktivera proxy</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer.ComboBox.Auto">Automatiskt</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.ProxyPresetForLyricifyServer.ComboBox.Disable">Inaktivera proxy</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer">Inaktivera proxy för Lyricify-serverförfrågningar</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.DisableProxyForLyricifyServer.Description">Avaktivera proxy för dessa förfrågningar kan förbättra upplevelsen om du är på Kinas fastland</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.EnableManualProxySettings">Aktivera manuella proxyinställningar</system:String>
@@ -482,6 +951,11 @@
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Port">Port</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Username">Användarnamn</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Password">Lösenord</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test">Testa</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.ProxyOverrideEnabled">Proxyåsidosättning är inte aktiverad, så testresultatet kan skilja sig. Testa ändå?</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Status">Nätverksstatus</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Connected">Ansluten</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Test.Result.Disconnected">Frånkopplad</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Button.Apply">Använd</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.Proxy.Notice">Vissa funktioner kan behöva en omstart för att träda i kraft.</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile">Inställningsfil</system:String>
@@ -491,6 +965,11 @@
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.Button.ResetAll">Återställ alla</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Ask">Är du säker på att återställa alla dina inställningar?</system:String>
     <system:String x:Key="String.Page.Settings.Advanced.SettingsFile.ResetAll.Done">En manuell omstart av Lyricify kan behövas.</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log">Logg</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Description">Loggåtgärder</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Button.Open">Öppna</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Button.OpenLyrics">Öppna textlogg</system:String>
+    <system:String x:Key="String.Page.Settings.Advanced.Log.Button.OpenFolder">Öppna mapp</system:String>
 
     <!--  Page Horizontal Notice  -->
     <system:String x:Key="String.Page.Mobile.HorizontalNotice.Message">Den aktuella sidan stöder inte Mobile View, ändra storlek på ditt fönster för att avsluta Mobile View</system:String>
@@ -513,38 +992,45 @@
     <system:String x:Key="String.Menu.MainWindow.Main.View.FontSize.Out">Minska teckenstorleken</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.View.FontSize.Reset">Återställ teckenstorlek</system:String>
 
-    <system:String x:Key="String.Menu.MainWindow.Main.RefreshLyrics">Refresh Lyrics</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.RefreshLyrics">Uppdatera låttext</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Translation">Översättning</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.DesktopLyrics">Skrivbordstexter</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.TaskbarLyrics">Låttext i aktivitetsfältet</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.AppleMusicLyrics">Apple Music Lyrics</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.AppleMusicLyricsTraditional">Apple Music Lyrics (traditionell)</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.LyricifyFullscreen">Lyricify helskärm</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.LyricifyLyricsStage">Lyricify Lyrics Stage</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.MobileUIFullscreen">Mobilt UI helskärm</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.WindowsUpdateLyrics">Windows Update Lyrics</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.WindowsBlueScreenLyrics">Windows Blue Screen Lyrics</system:String>
 
     <system:String x:Key="String.Menu.MainWindow.Main.Settings">Inställningar</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced">Avancerat</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.BackupCenter">Säkerhetskopiering &amp; Automationscenter</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CustomConfigurationManager">Anpassad konfigurationshanterare</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.HotkeyManager">Hotkey Manager</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LocalFilesManager">Local Files Manager</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.DeviceLatencyManager">Enhetslatenshanteraren</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.HotkeyManager">Kortkommandohanterare</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LocalFilesManager">Hanterare för lokala filer</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.LoginToSpotifyWeb">Logga in på Spotify Web</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.RefreshPlaybackInfo">Uppdatera Spotify-uppspelningsinformation</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.CopyRefreshToken">Kopiera Refresh Token</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.MediaSessionStatus">Mediesessionsstatus</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.Advanced.NetworkDiagnose">Nätverksdiagnos</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.Advanced.ChangeLyricifyPassword">Ändra Lyricify-kontolösenord</system:String>
 
     <system:String x:Key="String.Menu.MainWindow.Main.About">Om &amp; Hjälp</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.About">Om</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.UserGuide">Användarguide för Lyricify 4</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow">Följ</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.NeteaseCloudMusic">Netease Cloud Music</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Bilibili">Bilibili</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.Rednote">rednote</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.Follow.OneRepublic">OneRepublic</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp">Få hjälp</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.TelegramGroup">Telegramgrupp</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup">QQ Group</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup.1">Användargrupp 1: 972282479</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup.2">Användargrupp 2: 653663090</system:String>
-    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup.3">Användargrupp 3: 515098369</system:String>
+    <system:String x:Key="String.Menu.MainWindow.Main.About.GetHelp.QQGroup.UserGroup">Användargrupp {0}: {1}</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases">Hämta nya versioner</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.TelegramChannel">Telegramkanal</system:String>
     <system:String x:Key="String.Menu.MainWindow.Main.About.GetNewReleases.LyricifyOfficialWebsite">Lyricify officiella webbplats</system:String>
@@ -567,7 +1053,12 @@
 
     <!--  Dynamic Lyrics Island  -->
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Notice">Dubbelklicka för att dölja i 2s</system:String>
+    <system:String x:Key="String.Menu.DynamicLyricsIsland.Center">Centrera</system:String>
     <system:String x:Key="String.Menu.DynamicLyricsIsland.Close">Stäng</system:String>
+
+    <!--  Desktop Lyrics  -->
+    <system:String x:Key="String.Menu.DesktopLyrics.DuoLineMode">Tvåradsläge</system:String>
+    <system:String x:Key="String.Menu.DesktopLyrics.LyricsAlign">Textjustering</system:String>
 
     <!--  Apple Music Lyrics  -->
     <system:String x:Key="String.Menu.AppleMusicLyrics.Zoom.In">Zooma in</system:String>
@@ -579,7 +1070,9 @@
 
 
     <!--  Notification Icon  -->
+    <system:String x:Key="String.Menu.NotificationIcon.UnlockDesktopLyrics">Lås upp skrivbordstext</system:String>
     <system:String x:Key="String.Menu.NotificationIcon.MinimizeToTray">Minimera till fack</system:String>
+    <system:String x:Key="String.Menu.NotificationIcon.Restart">Starta om</system:String>
     <system:String x:Key="String.Menu.NotificationIcon.Exit">Avsluta</system:String>
 
     <!--  Pages  -->
@@ -600,16 +1093,36 @@
     <system:String x:Key="String.Menu.Pages.CopySpotifyLink">Kopiera Spotify-länk</system:String>
     <system:String x:Key="String.Menu.Pages.ShowInSpotify">Visa i Spotify</system:String>
 
+    <system:String x:Key="String.Menu.Pages.SaveArtwork">Spara omslag</system:String>
+
     <!--  Track  -->
     <system:String x:Key="String.Menu.Track.CopyTrackInfo">Kopiera spårinformation</system:String>
     <system:String x:Key="String.Menu.Track.CopyTrackISRC">Kopiera spår ISRC</system:String>
     <system:String x:Key="String.Menu.Track.AddToQueue">Lägg till i kö</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer">Insomningstimer</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.TurnOffTimer">Stäng av timern</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.StopAudioIn">Stoppa ljudet om:</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.PlayFullTrack">Spela klart låten och stoppa</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.WaitPlayFullTrack">Väntar på att låten ska spelas klart</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.1">1 minut</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.5">5 minuter</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.10">10 minuter</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.15">15 minuter</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.30">30 minuter</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.45">45 minuter</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Time.60">1 timme</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Hour">{0} timme kvar</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Hours">{0} timmar kvar</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Minute">{0} minut kvar</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Minutes">{0} minuter kvar</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Second">{0} sekund kvar</system:String>
+    <system:String x:Key="String.Menu.Track.SleepTimer.Left.Seconds">{0} sekunder kvar</system:String>
 
     <system:String x:Key="String.Menu.Track.GoToPlaylist">Gå till spellista</system:String>
     <system:String x:Key="String.Menu.Track.GoToAlbum">Gå till album</system:String>
     <system:String x:Key="String.Menu.Track.GoToArtist">Gå till artist</system:String>
     <system:String x:Key="String.Menu.Track.ShowCredits">Visa krediter</system:String>
-    <system:String x:Key="String.Menu.Track.OpenTrackManagement">Open Track Management</system:String>
+    <system:String x:Key="String.Menu.Track.OpenTrackManagement">Öppna låthanteraren</system:String>
 
     <system:String x:Key="String.Menu.Track.CopySpotifyURI">Kopiera Spotify URI</system:String>
     <system:String x:Key="String.Menu.Track.CopySpotifyLink">Kopiera Spotify-länk</system:String>
@@ -621,6 +1134,8 @@
     <system:String x:Key="String.Tools.Page.RefreshButton">LADDA OM</system:String>
 
     <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice">Hoppsan, du har nått Spotifys API-hastighetsgräns, försök ladda om senare.</system:String>
+    <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice.Network">Oj, något gick fel. Kontrollera internetanslutningen.</system:String>
+    <system:String x:Key="String.Tools.Page.LoadingAPILimitError.Notice.Internal">Oj, något gick fel. Be utvecklaren om hjälp.</system:String>
 
     <system:String x:Key="String.Tools.FollowButton.Follow">FÖLJ</system:String>
     <system:String x:Key="String.Tools.FollowButton.Following">FÖLJER</system:String>
@@ -641,12 +1156,26 @@
     -->
 
     <!--  Welcome  -->
+    <system:String x:Key="String.Windows.Welcome">Välkommen till Lyricify</system:String>
     <system:String x:Key="String.Windows.Welcome.Intro.MoreThanLyrics">Mer än sångtexter</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Title">Låt oss komma igång</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Agreement">Fortsätt betyder att du godkänner Lyricifys användaravtal</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Button.Continue">Fortsätt</system:String>
+    <system:String x:Key="String.Windows.Welcome.Reauthorization.Title">Spotify-auktorisering krävs</system:String>
+    <system:String x:Key="String.Windows.Welcome.Reauthorization.Description">På Spotifys begäran upphör auktoriseringen nu att gälla sex månader efter att den beviljats. Auktorisera ditt Spotify-konto igen för att fortsätta använda Lyricify. Dina övriga Lyricify-inställningar påverkas inte.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Reauthorization.Continue">Fortsätt auktoriseringen</system:String>
+    <system:String x:Key="String.Windows.Welcome.Reauthorization.FreshLogin">Logga ut och börja om</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Title">Nu är det dags att avsluta Spotify-auktoriseringen i din webbläsare</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.AuthFinish">Spotify-auktorisering avslutad, vänta några sekunder till</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble">Problem med inloggningen?</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink">Webbläsaren öppnas inte:</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.CopyAuthLink.Help">Kopiera auktoriseringslänken för Spotify</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink">Slutförd auktorisering identifierades inte:</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.PasteAuthLink.Help">Ange auktoriseringens återanropslänk manuellt</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Trouble.InvalidClient.InvalidRedirectUri.Help">Problem hos Spotify, klicka här för lösningen</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configure">Konfigurera anpassad API-klient</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.CustomClient.Configured">Anpassad API-klient konfigurerad</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.ProxySettings">Proxyinställningar</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Button.Cancel">Avbryt</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Title">Lyricify håller på att stängas</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Cancel.Button.Retry">Försök igen</system:String>
@@ -658,7 +1187,18 @@
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Explore">Låt oss nu utforska Lyricify.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.WelcomeBack">Välkommen tillbaka till Lyricify!</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.UserNumber">Du är nr. {0:N0} Lyricify-användare</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.FailedToRegister">Registrering på Lyricify-servern misslyckades. Serverfunktionerna kan vara begränsade. Det kan hjälpa att logga in igen.</system:String>
     <system:String x:Key="String.Windows.Welcome.Auth.Success.Button.Go">Go</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice">Vi har märkt att du inte spelar musik på Spotify. Lyricify är en app för låttexter, inte en musikspelare. Spela musik på Spotify för att se texter i Lyricify.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Success.PlayNotice.Button.Continue">Fortsätt</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Button.Continue">Fortsätt</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Title">Eftersom du använder en anpassad API-klient rekommenderar vi att du även auktoriserar den offentliga API-klienten så att Lyricify kan användas under extrema förhållanden</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip">Hoppa över detta steg (rekommenderas inte)</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Ask.Skip.Ask">Vill du verkligen hoppa över? Vi rekommenderar starkt att auktorisera den offentliga API-klienten för att kunna använda Lyricify under extrema förhållanden.</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Title">Slutför Spotify-auktoriseringen i webbläsaren på samma sätt som nyss</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Auth.Skip">Hoppa över</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Error.Title">Något gick fel, men du kan fortfarande använda Lyricify</system:String>
+    <system:String x:Key="String.Windows.Welcome.Auth.Public.Success.Title">Anslutningen till Spotifys offentliga API-klient lyckades. Nu kör vi!</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset">Förinställning</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Default">Standard</system:String>
     <system:String x:Key="String.Windows.Welcome.Settings.Preset.ComboBox.Quality">Bästa kvalitet</system:String>
@@ -668,6 +1208,7 @@
     <system:String x:Key="String.Windows.FontSelector">Teckensnittsväljare</system:String>
     <system:String x:Key="String.Windows.FontSelector.InstalledFonts">Installerade teckensnitt</system:String>
     <system:String x:Key="String.Windows.FontSelector.SetFontFamily">Ställ in teckensnittsfamilj</system:String>
+    <system:String x:Key="String.Windows.FontSelector.SetFontFamily.SearchBar.PlaceHolder">Filtrera teckensnitt</system:String>
     <system:String x:Key="String.Windows.FontSelector.AddToList">Lägg till i listan</system:String>
     <system:String x:Key="String.Windows.FontSelector.RemoveFromList">Ta bort från listan</system:String>
     <system:String x:Key="String.Windows.FontSelector.MoveUp">Flytta upp</system:String>
@@ -688,10 +1229,11 @@
     <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ShowTranslation">Visa översättning</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.ToggleSwitch.ColorfulLogo">Färgglad logotyp</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowTranslation">Visa översättning</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ColorfulLogo">Colorful Logo</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ShowBackgroundVocals">Visa bakgrundssång</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.ColorfulLogo">Logotyp i färg</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Apple.ToggleSwitch.BoldText">Fet text</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Copy">Kopiera</system:String>
-    <system:String x:Key="String.Page.ShareLyrics.Share.Button.Rendering">Rendering</system:String>
+    <system:String x:Key="String.Page.ShareLyrics.Share.Button.Rendering">Renderar</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Button.Save">Spara</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.FileDialog.Filter">JPEG-bild (*.jpg)|*.jpg</system:String>
     <system:String x:Key="String.Page.ShareLyrics.Share.Message.Failed">Det gick inte att spara.</system:String>
@@ -700,6 +1242,7 @@
     <!--  Configure Web Window  -->
     <system:String x:Key="String.Window.ConfigureWeb.Notice1">Logga in på Spotify här för att aktivera uppspelning i Lyricify</system:String>
     <system:String x:Key="String.Window.ConfigureWeb.Notice2">Om Spotify-webbsidan visas korrekt bör Lyricify kunna spela upp ljud. (En omstart av Lyricify kan behövas)</system:String>
+    <system:String x:Key="String.Window.ConfigureWeb.ToggleSwitch">Aktivera intern spelare</system:String>
 
     <!--  Custom Configuration Manager  -->
     <system:String x:Key="String.Window.CustomConfigurationManager">Anpassad konfigurationshanterare</system:String>
@@ -707,10 +1250,15 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Name">Namn</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Description">Beskrivning</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.File">Fil</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Bar.Path">Sökväg</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Bar.IsEnabled">IsEnabled</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfiguration">Lägg till konfiguration</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription">Lägg till konfigurationsprenumeration</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription.InputNotice">Prenumerationens URL</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.AddConfigurationSubscription.InvalidUrl">Ogiltig URL</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.ReloadAllConfiguration">Ladda om alla konfigurationer</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.RemoveAllConfigurations">Ta bort alla konfigurationer</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Button.HelpDocument">Hjälpdokument</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Button.Close">Stäng</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveOne">Är du säker på att ta bort den här konfigurationen?</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Message.AskRemoveAll">Är du säker på att ta bort alla konfigurationer?</system:String>
@@ -719,16 +1267,45 @@
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Rename">Byt namn</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.EditDescription">Redigera beskrivning</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenFile">Öppna fil</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.OpenSubscriptionUrl">Öppna prenumerationens URL</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.CopySubscriptionUrl">Kopiera prenumerationens URL</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Reload">Ladda om</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.Remove">Ta bort</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveUp">Flytta upp</system:String>
     <system:String x:Key="String.Window.CustomConfigurationManager.Item.Menu.MoveDown">Flytta ned</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Name">Namnlös konfiguration</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Item.Name.Subscription">Namnlös konfigurationsprenumeration</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorSavingProfile">Ett fel uppstod när profilerna sparades</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorAddingProfile">Ett fel uppstod när profilen lades till</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ErrorAddingProfile.Subscription">Ett fel uppstod när prenumerationsprofilen lades till</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ContentIllegal">Konfigurationens innehåll är ogiltigt</system:String>
+    <system:String x:Key="String.Window.CustomConfigurationManager.Messages.ContentIllegal.Subscription">Konfigurationsprenumerationens innehåll är ogiltigt</system:String>
+
+    <!--  Device Latency Manager  -->
+    <system:String x:Key="String.Window.DeviceLatencyManager">Enhetslatenshanteraren</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Description">Ange individuell latens för varje uppspelningsenhet.</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Description.Additional">Detta är avsett för uppspelningsenheters latens, till exempel Bluetooth-enheter. Använd det inte för textförskjutning.</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DefaultLatency">Standardlatens</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DefaultLatency.Description">Ett heltal i millisekunder; standardvärdet är 0.</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceList">Enhetslista</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.ComboBoxLatencyOption.Default">Standard</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.ComboBoxLatencyOption.Custom">Anpassad</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.Menu.Remove">Ta bort</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DeviceItem.Icon.CurrentDevice.ToolTip">Aktuell uppspelningsenhet</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.CurrentLatency">Aktuell latens:</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.CurrentLatency.Value">{0} ms</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.DisconnectedOrDisabled">Frånkopplad eller inaktiverad</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.RefreshDeviceList">Uppdatera enhetslistan</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.RefreshLyrics">Uppdatera låttexten</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.Close">Stäng</system:String>
+    <system:String x:Key="String.Window.DeviceLatencyManager.Button.Close.Notice">Alla inställningar sparas automatiskt.</system:String>
 
     <!--  Hotkey Manager  -->
     <system:String x:Key="String.Window.HotkeyManager">Snabbkommandon</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Description">Du kan hantera globala snabbtangenter här. (Använd Backsteg för att rensa en genväg)</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.DesktopLyrics">Skrivbordstexter</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.DynamicLyricsIsland">Dynamic Lyrics Island</system:String>
+    <system:String x:Key="String.Window.HotkeyManager.Hotkey.TaskbarLyrics">Låttext i aktivitetsfältet</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.ResetWindow">Återställ fönster</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.PlayPause">Spela/pausa</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Hotkey.PreviousTrack">Föregående spår</system:String>
@@ -739,6 +1316,12 @@
     <system:String x:Key="String.Window.HotkeyManager.Message.FailedAt">Det gick inte att registrera dessa snabbtangenter:</system:String>
     <system:String x:Key="String.Window.HotkeyManager.Message.CheckUsing">Kontrollera om ett annat program använder dessa nycklar.</system:String>
 
+    <!--  Network Diagnose  -->
+    <system:String x:Key="String.Window.NetworkDiagnose">Nätverksdiagnos</system:String>
+    <system:String x:Key="String.Window.NetworkDiagnose.Description">Kontrollera internetanslutningen till Lyricify-servern.</system:String>
+    <system:String x:Key="String.Window.NetworkDiagnose.Button.Check">Kontrollera</system:String>
+    <system:String x:Key="String.Window.NetworkDiagnose.Button.Close">Stäng</system:String>
+
     <!--  Local Files Manager  -->
     <system:String x:Key="String.Window.LocalFilesManager">Lokal filhanterare</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Title">Hanterare för Spotify Local Files</system:String>
@@ -748,6 +1331,10 @@
     <system:String x:Key="String.Window.LocalFilesManager.Notice.NoImage">Ingen bild (klicka för att lägga till)</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.AddImage">Lägg till en bild</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.ReplaceImage">Ersätt med en annan bild</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.All">Alla filer som stöds</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Image">Bildfiler</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.FileDialog.Filter.Audio">Ljudfiler</system:String>
+    <system:String x:Key="String.Window.LocalFilesManager.Message.ImageNotFoundInMediaFile">Inga bilder hittades i den valda mediefilen.</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.SuccessUpdate">Bilden har uppdaterats framgångsrikt.</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Message.FailUpdate">Det gick inte att uppdatera bilden.</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Notice.AskRemove">Är du säker på att ta bort den här bilden?</system:String>
@@ -756,9 +1343,35 @@
     <system:String x:Key="String.Window.LocalFilesManager.Type.Albums">Album:</system:String>
     <system:String x:Key="String.Window.LocalFilesManager.Type.Tracks">Spår:</system:String>
 
+    <!--  Storage Manager  -->
+    <system:String x:Key="String.Window.StorageManager">Lagringshanterare</system:String>
+    <system:String x:Key="String.Window.StorageManager.Description">Hantera Lyricifys lagring på den här enheten.</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Configurations">Konfigurationer</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Configurations.Description">Inställningar, konfigurationer och kontoinformation</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Caches">Cache</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Caches.Description">Cachade bilder och annan cache</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Logs">Loggar</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Logs.Description">Loggfiler som skapats under körning</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Backups">Säkerhetskopior</system:String>
+    <system:String x:Key="String.Window.StorageManager.Types.Backups.Description">Säkerhetskopior av kontodata, automatiska säkerhetskopior från textredigeraren och andra kopior</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup">Lagringsrensning</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Configurations.UnusedLocalFileImages">Oanvända bilder från lokala filer</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Caches.Images">Cachade bilder</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.CurrentLog">Aktuell logg</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.CurrentLyricsLog">Aktuell textlogg</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Logs.HistoryLogs">Tidigare loggar</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Backups.AccountData">Säkerhetskopior av kontodata</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Backups.LyricsEditorAutoBackup">Automatiska säkerhetskopior från textredigeraren</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.SelectedSize">{0} markerat</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.SelectRecommended">Välj rekommenderade</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.SelectAll">Markera alla</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.DeselectAll">Avmarkera alla</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean">Rensa</system:String>
+    <system:String x:Key="String.Window.StorageManager.StorageCleanup.Button.Clean.Ask">Vill du verkligen rensa? Innehållet kan inte återställas efteråt.</system:String>
+
     <!--  Track Management  -->
     <system:String x:Key="String.Window.TrackManagement">Spårhantering</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Title">Lyricify Track Management</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Title">Lyricifys låthanterare</system:String>
     <system:String x:Key="String.Window.TrackManagement.Track.Lock">Låsspår</system:String>
     <system:String x:Key="String.Window.TrackManagement.Track.Lock.Notice">Spår har låsts av admin</system:String>
     <system:String x:Key="String.Window.TrackManagement.BasicInfo">Grundläggande information</system:String>
@@ -777,7 +1390,9 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock">Låstexter</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lock.Notice">Lyrics har låsts av admin</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.NotNumber">Offset ska vara ett tal (offsets enhet är millisekund)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.TooLarge">Förskjutningen är ovanligt stor. Du kan ha angett fel värde. Vill du behålla det? (Förskjutningen justerar tidsstämpeln i millisekunder)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Id.Null">Null (ej markerad på servern)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.RemoveLyrics">Ta bort låttext</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search">Sök</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Search.Description">Importera texter med inbyggd Lyricify Lyrics Searcher</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Button.Import">Importera</system:String>
@@ -790,6 +1405,7 @@
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Description">Redigera sångtexter i Lyricify Lyrics Vault</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention" xml:space="preserve">OBS: </system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.Lyricify.ImportEdit.Attention.Content">Använd ENDAST detta när texter inte är tillgängliga på både QQ Music och Netease Cloud Music.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Lyrics.Offset.Attention">Förskjutningen kan inte ändras när mediesessionen är frånkopplad.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ">QQ Music</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox">Ange QQ Music Song Mid eller dela länk för att få texter från QQ Music.</system:String>
     <system:String x:Key="String.Window.TrackManagement.Lyrics.QQ.Import.InputBox.Failed.Input">Fel QQ Music Song Mid, kontrollera din inmatning.</system:String>
@@ -806,30 +1422,85 @@
     <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow">Ansök i huvudfönstret</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.LoadInMainWindow.Description">Ladda in aktuell textinformation i huvudfönstret (endast tillgängligt när det här spåret spelas)</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Save">Spara (Ladda upp)</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Button.Save.Message.ApplyInMainWindow">Vi rekommenderar att du tillämpar ändringarna i huvudfönstret och kontrollerar den importerade texten. Tillämpa nu (Ja), fortsätta uppladdningen (Nej) eller avbryta?</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.Close">Stäng</system:String>
     <system:String x:Key="String.Window.TrackManagement.Button.EditRawFile">Redigera råfil</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.AskCloseSave">Är du säker på att stänga utan att spara?</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.FinishDuetView">Slutför inställningarna för duettvyn (Dubbelklicka på titeln "Duet View" kan rensa inställningarna för duetvyn)</system:String>
-    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Timestamp">Timestamp</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Notice.CheckTitleLines" xml:space="preserve">Kontrollera definitionen av titelrader: det verkar som att du har markerat alla rader som titelrader. Dubbelklicka på rubriken ”IsTitle” för att återställa definitionen.&#x000A;Vill du avbryta uppladdningen?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Timestamp">Tidsstämpel</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.Lyrics">Sångtext</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle">IsTitle</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.IsTitle.ToolTip">Rubrikraderna innehåller: titel, kreditinformation och andra rader som inte är sångtexter</system:String>
-    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView">Duet View</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView">Duettvy</system:String>
     <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Title.DuetView.ToolTip">Dubbelklicka på "Duet View"-titeln kan rensa duettvyinställningarna</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Button">Läs in all låttext</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Button.Notice">Läs in all text för att aktivera alla redigeringsfunktioner</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Timestamp">Kopiera tidsstämpel</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Lyrics">Kopiera låttext</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.Translation">Kopiera översättning</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampLyrics">Kopiera tidsstämpel och låttext</system:String>
+    <system:String x:Key="String.Window.TrackManagement.LyricsEditor.Menu.Copy.TimestampTranslation">Kopiera tidsstämpel och översättning</system:String>
     <system:String x:Key="String.Window.TrackManagement.Notice.Loading">Laddar information om servertexter</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.EmptyTrack">Töm spår</system:String>
     <system:String x:Key="String.Window.TrackManagement.Error.Load.Server">Det gick inte att läsa in information om servertexter</system:String>
-    <system:String x:Key="String.Window.TrackManagement.Editor.WordWrap">Word Wrap</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message">Du kan prova att</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.1">1. Stänga av proxyn, som kan blockera anslutningen till Lyricifys server</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Error.Load.Server.Message.2">2. Logga ut från Lyricify och logga in igen</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.WordWrap">Radbrytning</system:String>
     <system:String x:Key="String.Window.TrackManagement.Editor.Notice.AskSave">Vill du spara ändringarna?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.Editor.Notice.NoTimestamp">Ingen tidsstämpel hittades. Fortsätta spara?</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor">Avancerad textredigerare</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Lyrics">Sångtext</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Translation">Översättning</system:String>
     <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.AddTranslation">Lägg till översättning</system:String>
-    <system:String x:Key="String.Window.TrackManagement.RawFileEditor">Raw File Editor</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Message.Translation.AutoFill">Använda automatiskt ifylld översättning?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyrics">Importera Apple Music-låttext</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportAppleMusicLyricsById">Importera Apple Music-låttext via ID</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportSpotifyLyrics">Importera Spotify-låttext</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.ImportKugouLyrics">Importera Kugou-låttext</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetQRC">Hämta QRC-låttext</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.GetLyricifySyllable">Hämta Lyricify Syllable-låttext</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator">Skapa stavelserad</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.StartRecord">Starta inspelning</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.StopRecord">Stoppa inspelning</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.Clear">Rensa</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.InputLyrics">Importera låttext</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.OutputLyrics">Exportera låttext</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineCreator.Button.ChangeStartTime">Ändra starttid</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover">Flytta stavelserad</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.CopyCurrentTime">Kopiera aktuell tid</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.GetTimestampByMillisecond">Hämta tidsstämpel per millisekund</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.SyllableLineMover.Button.MoveTo">Flytta till</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Button.QrcSpaceMove">Flytta inledande blanksteg till slutet</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.LyricifyLyricsVault.Attention" xml:space="preserve">Observera:&#x000A;Importera inte text manuellt om den finns på QQ Music eller Netease Cloud Music!&#x000A;Att texten inte hittas via sökknappen i Lyricify betyder inte att den saknas. Sök manuellt i QQ Music- och NetEase Cloud Music-apparna för att kontrollera detta.&#x000A;Ditt konto kan begränsas om du bryter mot regeln.&#x000A;Fortsätta importen?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable">Import av Apple Music-låttext</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.EnterIdOrLink">Ange ID eller länk</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet">Det gick inte att hämta låttexten</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToGet.TokenExpired">Det gick inte att hämta texten. Serverns token har upphört att gälla. Vänta på att utvecklaren åtgärdar problemet och försök igen.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.FailedToRead">Ingen låttext hittades</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.NotWordTiming">Texten är inte synkroniserad ord för ord. Fortsätta importen?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.Message.ConvertTraditionalChinese">Konvertera traditionell kinesiska till förenklad kinesiska?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoSongs">Inga motsvarande låtar hittades.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.NoLyrics">Den motsvarande låten har ingen text eller ingen tidssynkroniserad text.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.TooManyRequest">För många förfrågningar. Försök igen om några timmar.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.CurrentlyUnavailable">Funktionen är för närvarande inte tillgänglig. Försök igen i morgon.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.AppleSyllable.ByIsrc.Message.AddTranslation">Lägg manuellt till kinesisk översättning för den importerade texten (endast förenklad kinesiska, inte traditionell).</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization">Versaler</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Capitalization.Message">Börja alla rader med versal?</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Copied.QRC">QRC kopierad till urklipp</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Export.Copied.LyricifySyllable">Lyricify Syllable kopierad till urklipp</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.NotSynced">Texten är inte synkroniserad och kunde inte importeras</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.ConvertTraditionalChinese">Traditionell kinesiska har automatiskt konverterats till förenklad kinesiska. Kontrollera att konverteringen är korrekt.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Spotify.Message.TokenExpired">Serverns Spotify-token har upphört att gälla. Kontakta Lyricifys utvecklare.</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToFound">Ingen låttext hittades</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToGet">Det gick inte att hämta låttexten</system:String>
+    <system:String x:Key="String.Window.TrackManagement.AdvancedLyricsEditor.Import.Kugou.Message.FailedToConvert">Det gick inte att konvertera låttexten</system:String>
+    <system:String x:Key="String.Window.TrackManagement.RawFileEditor">Redigerare för råfiler</system:String>
     <system:String x:Key="String.Window.TrackManagement.RawFileEditor.Notice.UnableToDeserialize">Kan du inte deserialisera, granska dina ändringar (Ja) eller stänga utan att spara (Nej)?</system:String>
 
     <!--  Lyricify Account  -->
-    <system:String x:Key="String.Window.LyricifyAccount">Lyricify Account</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount">Lyricify-konto</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Button.OK">OK</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Button.Change">Ändra</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Password">Lösenord</system:String>
@@ -840,7 +1511,7 @@
     <system:String x:Key="String.Window.LyricifyAccount.Title.Set">Ställ in ett lösenord för ditt Lyricify {0}-konto</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Title.Change">Ändra lösenordet för ditt Lyricify {0}-konto</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Account.Administrator">Administratör</system:String>
-    <system:String x:Key="String.Window.LyricifyAccount.Account.Manager">Manager</system:String>
+    <system:String x:Key="String.Window.LyricifyAccount.Account.Manager">Ansvarig</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Account.Insider">Insider</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Message.EmptyPassword">Lösenordet är tomt</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Message.EmptyOldPassword">Det gamla lösenordet är tomt</system:String>
@@ -851,6 +1522,15 @@
     <system:String x:Key="String.Window.LyricifyAccount.Message.TooManyAttempts">För många försök</system:String>
     <system:String x:Key="String.Window.LyricifyAccount.Message.TwiceDifferent">Lösenord som angetts två gånger är olika</system:String>
 
+    <!--  Custom API Client Manager  -->
+    <system:String x:Key="String.Window.CustomApiClientManager">Konfigurera anpassad API-klient</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Button.Reset">Återställ</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Button.OK">OK</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Button.Cancel">Avbryt</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.ToolTip">Klicka för att visa guiden för anpassad Spotify API-klient</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Message.WrongClientSecret">Felaktig Client Secret. Kontrollera det du angett</system:String>
+    <system:String x:Key="String.Window.CustomApiClientManager.Message.WrongClientIdSecret">Felaktigt Client ID eller Client Secret. Kontrollera det du angett</system:String>
+
     <!--  Backup Center  -->
     <system:String x:Key="String.Window.BackupCenter">Säkerhetskopiering &amp; Automation</system:String>
     <system:String x:Key="String.Window.BackupCenter.Title">Lyricify Backup &amp; Automationscenter</system:String>
@@ -858,7 +1538,7 @@
     <system:String x:Key="String.Window.BackupCenter.Tab.Backup">Säkerhetskopiering</system:String>
     <system:String x:Key="String.Window.BackupCenter.Tab.Restore">Återställ</system:String>
     <system:String x:Key="String.Window.BackupCenter.Tab.Preview">Förhandsgranskning</system:String>
-    <system:String x:Key="String.Window.BackupCenter.Tab.Automation">Automation</system:String>
+    <system:String x:Key="String.Window.BackupCenter.Tab.Automation">Automatisering</system:String>
     <system:String x:Key="String.Window.BackupCenter.Tab.Schedule">Schema</system:String>
 
     <system:String x:Key="String.Page.BackupCenter.Home.Welcome">Välkommen till Lyricify Backup &amp; Automationscenter</system:String>
@@ -866,7 +1546,7 @@
     <system:String x:Key="String.Page.BackupCenter.Home.Backup.Description">Säkerhetskopiera ditt bibliotek och mer data</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Transfer">Överför</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Transfer.Description">Överför dina data till ett annat konto</system:String>
-    <system:String x:Key="String.Page.BackupCenter.Home.Automation">Automation</system:String>
+    <system:String x:Key="String.Page.BackupCenter.Home.Automation">Automatisering</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.Automation.Description">Låt Lyricify hantera ditt bibliotek</system:String>
     <system:String x:Key="String.Page.BackupCenter.Home.PersonalUseWarning" xml:space="preserve">Endast för personligt bruk! &#x000A;Om du vill använda Lyricify Backup Center för kommersiella aktiviteter, måste du kontakta Lyricify först.</system:String>
 
@@ -929,6 +1609,7 @@
     <system:String x:Key="String.Lyrics.Provider.Providers.WXRIW">Lyricify Lyrics Vault</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.QQ">QQ Music</system:String>
     <system:String x:Key="String.Lyrics.Provider.Providers.Netease">Netease Cloud Music</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Providers.Musixmatch">Musixmatch</system:String>
 
     <system:String x:Key="String.Lyrics.Provider.Menu.MarkCorrect">Markera som korrekt text</system:String>
     <system:String x:Key="String.Lyrics.Provider.Menu.ViewSource">Visa källa</system:String>
@@ -937,7 +1618,9 @@
     <system:String x:Key="String.Lyrics.Provider.Server.Info.Marked">Markerad på server</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Info.AutoSearch">Automatisk sökning</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Fail.Version">Nuvarande version är inaktuell, vänligen skaffa en uppdatering</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Uploading">Laddar upp låttext till servern ...</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Success">Markerad på servern</system:String>
+    <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Exist">Texten har redan markerats</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail">Mislyckades, detta kan vara ett internt fel</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.Network">Något är fel med Lyricifys server eller ditt nätverk</system:String>
     <system:String x:Key="String.Lyrics.Provider.Server.Operation.Mark.Fail.EmptyLyrics">Mislyckades på grund av tomma texter, detta kan vara ett internt fel</system:String>
@@ -964,27 +1647,82 @@
     <!--  Converter  -->
     <system:String x:Key="String.Converter.ValueString">{0}% klar</system:String>
 
+    <!--  Dialogs  -->
+    <system:String x:Key="String.Dialog.Store.Title">Du har hittat en exklusiv funktion!</system:String>
+    <system:String x:Key="String.Dialog.Store.Title.FreePromotion">Fler funktioner kan låsas upp!</system:String>
+    <system:String x:Key="String.Dialog.Store.Explore">Upptäck Lyricify i Microsoft Store för en förbättrad upplevelse. Ditt stöd bidrar till fortsatt förbättring och utveckling.</system:String>
+    <system:String x:Key="String.Dialog.Store.Purchase">Överväg att köpa Lyricify i Microsoft Store. Ditt stöd hjälper oss att förbättra upplevelsen och utveckla nya funktioner.</system:String>
+    <system:String x:Key="String.Dialog.Store.StoreExclusiveExplanation">Genom att köpa Microsoft Store-versionen kan du låsa upp anpassade teckensnitt för Apple Music Lyrics, Dynamic Lyrics Island och andra textvyer, Lyricifys accelererade servrar och många fler funktioner.</system:String>
+    <system:String x:Key="String.Dialog.Store.Button.GoToStore">Gå till Microsoft Store</system:String>
+    <system:String x:Key="String.Dialog.Store.Button.Close">Stäng</system:String>
+    <system:String x:Key="String.Dialog.Store.Donator">Har du redan donerat?</system:String>
+    <system:String x:Key="String.Dialog.Store.Donator.ToolTip">Stödjare som har donerat minst lika mycket som priset i Microsoft Store kan begära en kostnadsfri inlösningskod från utvecklaren.</system:String>
+
+    <system:String x:Key="String.Dialog.MediaSessionStatus.NoSessionsFound">Inga sessioner hittades</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.SessionsFound.Colon">{0} sessioner hittades:</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.SystemRequirements">Mediesession kräver Windows 10 (version 17763) eller senare.</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.Tips.SpotifyNoPlayback">Spotify verkar spela, men uppspelningsinformationen skickas inte korrekt till Spotifys server. Kontrollera internetanslutningen.</system:String>
+    <system:String x:Key="String.Dialog.MediaSessionStatus.Tips.MediaSessionRequirements.Colon">Krav för mediesession:</system:String>
+
+    <system:String x:Key="String.Dialog.ChangeLog.Title">Nyheter</system:String>
+    <system:String x:Key="String.Dialog.ChangeLog.Description">Lyricify har uppdaterats till version {0}. Här är nyheterna i den här versionen.</system:String>
+    <system:String x:Key="String.Dialog.ChangeLog.Button.Continue">Fortsätt</system:String>
+
     <!--
         Messages
     -->
 
+    <!--  Titles  -->
+    <system:String x:Key="String.Messages.Title.Error">Lyricify-fel</system:String>
+
     <!--  App  -->
     <system:String x:Key="String.Messages.App.Exception.UnauthorizedAction">Obehörig åtgärd, logga in igen för att fortsätta</system:String>
     <system:String x:Key="String.Messages.App.Exception.PremiumRequired">Premium krävs</system:String>
+    <system:String x:Key="String.Messages.App.Exception.PremiumRequired.More">Premium krävs (klicka för mer information)</system:String>
     <system:String x:Key="String.Messages.App.Exception.TryToRelogin">Försök att logga in igen</system:String>
     <system:String x:Key="String.Messages.App.Exception.TooManyRequests">För många förfrågningar (429-fel), försök igen senare</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.RetryAfter">För många förfrågningar (fel 429). Försök igen om {0} sekunder</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify">Du kan undvika 429-fel genom att konfigurera en anpassad API-klient (klicka för mer information)</system:String>
+    <system:String x:Key="String.Messages.App.Exception.TooManyRequests.CustomNotify.Full">Du kan undvika 429-fel genom att konfigurera en anpassad API-klient, vilket kan göra starten och låtbyten snabbare (klicka för mer information)</system:String>
 
     <!--  MainWindow  -->
     <system:String x:Key="String.Messages.MainWindow.Exception.TooManyRequests">429 Fel, försök igen senare</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.Timeout">Timeout-undantag, försök igen senare</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.HttpRequestException">Http Request Exception, försök igen senare</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Null" xml:space="preserve">Lyricify-kontot hittades inte, så serverfunktionerna begränsas.&#x000A;Det kan hjälpa att logga ut och in igen.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.LyricifyAccount.Restricted">Ditt Lyricify-konto har begränsats. Kontakta administratören för hjälp</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Message.RegistrationRepaired">Ditt Lyricify-konto har reparerats och registrerats!</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Message.NonPremium">Tips: Skaffa Spotify Premium för att få ut mesta möjliga av Lyricify</system:String>
     <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed">Lyricify kommer att stängas</system:String>
+    <system:String x:Key="String.Messages.MainWindow.LyricifyWillBeClosed.Wrong">Något gick fel och Lyricify for Spotify stängs.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.SpotifyAccount.Error.Relogin">Något är fel med ditt Spotify-konto. Vill du försöka logga in igen?</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.NetworkIssue">Nätverksproblem. Kontrollera din internetanslutning</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.TryToRelogin">Försök att logga in igen</system:String>
     <system:String x:Key="String.Messages.MainWindow.Exception.SomethingsWrong">Något är fel, kontrollera din internetanslutning eller kontakta utvecklaren</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.InvalidClient">Ogiltiga klientuppgifter. Kontrollera API-klientens konfiguration</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.UserNotRegistered">Användaren är inte registrerad i Spotify Developer Dashboard</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SslException">SSL-anslutningen kunde inte upprättas.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.SslException.Message">Något är fel med internetanslutningen. Kontrollera att accounts.spotify.com och api.spotify.com är tillgängliga.</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.ServiceUnavailable">Spotify-tjänsten är för närvarande inte tillgänglig (fel 503). Försök igen senare</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.ActivePremiumSubscriptionNeeded">En aktiv Spotify Premium-prenumeration krävs för att använda en anpassad API-klient</system:String>
+
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429">Allvarligt 429-fel</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.HavePublic.Notice">Din anpassade API-klient är hårt begränsad (429-fel med väntetid på {0} sekunder). Lyricify fortsätter med den offentliga API-klienten</system:String>
+    <system:String x:Key="String.Messages.MainWindow.Exception.Extreme429.NoPublic.Message" xml:space="preserve">Din anpassade API-klient är hårt begränsad (429-fel med väntetid på {0} sekunder), och ingen offentlig API-klient har konfigurerats. Lyricify kan därför inte fungera förrän begränsningen upphör.&#x000A;Välj Ja för att logga ut eller Nej för att stänga Lyricify.</system:String>
+
+    <system:String x:Key="String.Messages.MainWindow.Lyrics.NoTrackPlaying">Du kan inte öppna låttexten förrän Spotify börjar spela</system:String>
+    <system:String x:Key="String.Messages.AppleMusicLyrics.NoTrackPlaying">Du kan inte öppna Apple Music Lyrics förrän Spotify börjar spela</system:String>
+    <system:String x:Key="String.Messages.LyricifyFullscreen.NoTrackPlaying">Du kan inte öppna Lyricify Fullscreen förrän Spotify börjar spela</system:String>
+    <system:String x:Key="String.Messages.MobileUIFullscreen.NoTrackPlaying">Du kan inte öppna Mobile UI Fullscreen förrän Spotify börjar spela</system:String>
+    <system:String x:Key="String.Messages.WindowsUpdateLyrics.NoTrackPlaying">Du kan inte öppna Windows Update Lyrics förrän Spotify börjar spela</system:String>
+    <system:String x:Key="String.Messages.WindowsBlueScreenLyrics.NoTrackPlaying">Du kan inte öppna Windows Blue Screen Lyrics förrän Spotify börjar spela</system:String>
 
     <system:String x:Key="String.Messages.MainWindow.LogOut.Query">Är du säker på att logga ut detta Spotify-konto?</system:String>
     <system:String x:Key="String.Messages.MainWindow.LogOut.Failed">Det gick inte att logga ut</system:String>
+
+    <!--  Updates  -->
+    <system:String x:Key="String.Messages.Updates.FoundNewVersion">En ny version hittades</system:String>
+    <system:String x:Key="String.Messages.Updates.FoundNewVersion.GoToStore">Klicka för att visa den i Microsoft Store</system:String>
 
     <!--  Operations  -->
     <system:String x:Key="String.Messages.Operation.Spotify.Add.LikedSongs">Lagt till i dina gillade låtar</system:String>
@@ -994,6 +1732,125 @@
     <system:String x:Key="String.Messages.Operation.Spotify.Add.Queue">Lägg till i kön</system:String>
     <system:String x:Key="String.Messages.Operation.Spotify.Add.Queue.Fail">Det gick inte att lägga till i kön</system:String>
 
+    <system:String x:Key="String.Messages.Operation.Spotify.NoDevice">Inga tillgängliga enheter hittades. Öppna Spotify-klienten</system:String>
+
     <system:String x:Key="String.Messages.Operation.LinkCopied">Länk kopierad till urklipp</system:String>
     <system:String x:Key="String.Messages.Operation.Copied">Kopierat till urklipp</system:String>
+
+    <!--
+        Lyricify Wrapped
+    -->
+
+    <!--  Wrapped Year  -->
+    <system:String x:Key="String.Wrapped.Title">Lyricify Wrapped</system:String>
+    <system:String x:Key="String.Wrapped.Title.Short">Wrapped</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2023">Allt om dig, mig och 2023</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2024">2024, låttexter, du och jag</system:String>
+    <system:String x:Key="String.Wrapped.Subtitle.2025">2025 i låttexter, med dig och mig</system:String>
+    <system:String x:Key="String.Wrapped.Unwrap">Öppna</system:String>
+    <system:String x:Key="String.Wrapped.Unwrap.Notice">Genom att öppna godkänner du Lyricifys användarvillkor och tillåter Lyricify att behandla och analysera din appanvändning.</system:String>
+    <system:String x:Key="String.Wrapped.Buttons.SkipAnimation">&gt;&gt;Snabba upp</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Button.Unwrap">Öppna nu</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2023">Lyricify har samlat dina berättelser från 2023. Öppna dem nu!</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2024">Lyricify har fångat alla dina textögonblick från 2024. Öppna dem nu!</system:String>
+    <system:String x:Key="String.Wrapped.Notice.Message2025">Ditt 2025 med Lyricify är klart. Upptäck din textresa nu!</system:String>
+    <system:String x:Key="String.Wrapped.Notice.CloseReminder">Du hittar Lyricify Wrapped i huvudmenyn och användarwidgetens meny och kan öppna det senare.</system:String>
+
+    <system:String x:Key="String.Wrapped.Messages.001">Hej, {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.002">Det är jag, Lyricify!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.003">Minns du fortfarande?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.004" xml:space="preserve">Vi träffades första gången&#x000A;{0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.005">{0:N0} dagar sedan</system:String>
+    <system:String x:Key="String.Wrapped.Messages.006">Som Lyricify 4-användare nummer {0:N0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007">Och {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.1">en administratör</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.2">en insider</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.3">en textansvarig</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.4">en premiumanvändare</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.5">en användare</system:String>
+    <system:String x:Key="String.Wrapped.Messages.007.Types.6">en begränsad användare</system:String>
+    <system:String x:Key="String.Wrapped.Messages.008" xml:space="preserve">Du och Lyricify&#x000A;har en lång historia i år</system:String>
+    <system:String x:Key="String.Wrapped.Messages.009">Tack så mycket för att du köpte Lyricify 4 i Microsoft Store</system:String>
+    <system:String x:Key="String.Wrapped.Messages.010">Det betyder mycket för mig!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.011">Under året</system:String>
+    <system:String x:Key="String.Wrapped.Messages.012">Du startade Lyricify {0:N0} gånger</system:String>
+    <system:String x:Key="String.Wrapped.Messages.013">Det betyder att du startar Lyricify var {0}:e dag</system:String>
+    <system:String x:Key="String.Wrapped.Messages.014">Det är mer än {0} av Lyricifys användare</system:String>
+    <system:String x:Key="String.Wrapped.Messages.015">En rolig detalj</system:String>
+    <system:String x:Key="String.Wrapped.Messages.016">Du startar oftast Lyricify mellan {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017">Vad härligt!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.1">Morgonstund har guld i mun!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.2">Morgnar är härliga!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.3">Eftermiddagar är härliga!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.4">Lyricify fyllde din kväll med låttexter!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.017.Alternatives.5">Oj, det är ganska sent!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.018">Lyricify hjälpte dig att söka efter låttexter {0:N0} gånger i år</system:String>
+    <system:String x:Key="String.Wrapped.Messages.019">Oj, det var mycket!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.020">Ditt antal textsökningar låg bland de {0} främsta av Lyricifys användare</system:String>
+    <system:String x:Key="String.Wrapped.Messages.021">Låt mig se</system:String>
+    <system:String x:Key="String.Wrapped.Messages.022">{0}, jaså</system:String>
+    <system:String x:Key="String.Wrapped.Messages.023">En bra tid att läsa låttexter!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.024">Hände något den {0}?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.025">Nåväl</system:String>
+    <system:String x:Key="String.Wrapped.Messages.026">Du läste låttexter hela {0:N0} gånger den dagen</system:String>
+    <system:String x:Key="String.Wrapped.Messages.027">Det är roligt att veta</system:String>
+    <system:String x:Key="String.Wrapped.Messages.028">att du också använder Lyricify Mobile!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.029">Lyricify Mobile hjälpte dig att söka efter låttexter {0:N0} gånger i år</system:String>
+    <system:String x:Key="String.Wrapped.Messages.030">Du måste verkligen gilla Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.031">Förresten</system:String>
+    <system:String x:Key="String.Wrapped.Messages.032">Med Lyricify Mobile kan du läsa låttexter på mobilen eller surfplattan!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.033">Du visade {0:N0} låttexter</system:String>
+    <system:String x:Key="String.Wrapped.Messages.034">Men dessa dominerade din Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.035">{0:N0} gånger</system:String>
+    <system:String x:Key="String.Wrapped.Messages.036">Lyricifys texttjänst byggs av alla Lyricifys användare</system:String>
+    <system:String x:Key="String.Wrapped.Messages.037">Att markera och ladda upp texter är två viktiga sätt att bygga textarkivet</system:String>
+    <system:String x:Key="String.Wrapped.Messages.038">I år</system:String>
+    <system:String x:Key="String.Wrapped.Messages.039">Du har markerat {0:N0} låttexter</system:String>
+    <system:String x:Key="String.Wrapped.Messages.040">Du har laddat upp {0:N0} gånger i Lyricifys låthantering</system:String>
+    <system:String x:Key="String.Wrapped.Messages.041">Du har importerat texter för {0:N0} låtar till Lyricifys textarkiv</system:String>
+    <system:String x:Key="String.Wrapped.Messages.042">Fler än {0} användare</system:String>
+    <system:String x:Key="String.Wrapped.Messages.043">Tack för ditt bidrag</system:String>
+    <system:String x:Key="String.Wrapped.Messages.044">Hur som helst</system:String>
+    <system:String x:Key="String.Wrapped.Messages.045">Ett underbart år</system:String>
+    <system:String x:Key="String.Wrapped.Messages.046">Underbara du</system:String>
+    <system:String x:Key="String.Wrapped.Messages.047">Det har varit en ära för Lyricify att tillbringa detta underbara år med dig</system:String>
+    <system:String x:Key="String.Wrapped.Messages.048">Låttexter är allt</system:String>
+    <system:String x:Key="String.Wrapped.Messages.049">Lyricify finns alltid här för dig</system:String>
+    <system:String x:Key="String.Wrapped.Messages.050">Njut!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.051">Lyricify har varit med dig i mer än ett år</system:String>
+    <system:String x:Key="String.Wrapped.Messages.052">Ditt stöd har gjort Lyricify till något alldeles extra!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.053">I år startar du oftast Lyricify mellan {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.054">Fantastiskt!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.055">Din mest aktiva dag är {0}</system:String>
+    <system:String x:Key="String.Wrapped.Messages.056">Vet du varför?</system:String>
+    <system:String x:Key="String.Wrapped.Messages.057">Ännu ett år har gått</system:String>
+    <system:String x:Key="String.Wrapped.Messages.058">År efter år</system:String>
+    <system:String x:Key="String.Wrapped.Messages.059">Kom bara ihåg</system:String>
+    <system:String x:Key="String.Wrapped.Messages.060">Vi önskar dig allt gott</system:String>
+    <system:String x:Key="String.Wrapped.Messages.061">Vi ser fram emot dina bidrag nästa år</system:String>
+    <system:String x:Key="String.Wrapped.Messages.062">Din Lyricify-resa i år förtjänar att minnas</system:String>
+    <system:String x:Key="String.Wrapped.Messages.063">Det är jag, Lyricify</system:String>
+    <system:String x:Key="String.Wrapped.Messages.064" xml:space="preserve">Lyricify är vad det är i dag&#x000A;tack vare dig</system:String>
+    <system:String x:Key="String.Wrapped.Messages.065">Intressant!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.066">Det här är ditt största Lyricify-ögonblick!</system:String>
+    <system:String x:Key="String.Wrapped.Messages.067">{0}, en speciell dag</system:String>
+    <system:String x:Key="String.Wrapped.Messages.068">Ännu ett år närmar sig sitt slut</system:String>
+    <system:String x:Key="String.Wrapped.Messages.069">Lyricify är tacksamt för att ha fått dela det med dig</system:String>
+    <system:String x:Key="String.Wrapped.Messages.070">Varje låt, varje ögonblick</system:String>
+    <system:String x:Key="String.Wrapped.Messages.071">Tillsammans, år efter år</system:String>
+    <system:String x:Key="String.Wrapped.Messages.072">Bär dessa ögonblick med dig</system:String>
+    <system:String x:Key="String.Wrapped.Messages.073">Lyricify kommer alltid att finnas vid din sida</system:String>
+    <system:String x:Key="String.Wrapped.Messages.074">För ett fantastiskt nytt år</system:String>
+
+    <system:String x:Key="String.Wrapped.Report.TotalLyricsViews">Totalt antal textvisningar</system:String>
+    <system:String x:Key="String.Wrapped.Report.Launches">Starter</system:String>
+    <system:String x:Key="String.Wrapped.Report.Marks">Markeringar</system:String>
+    <system:String x:Key="String.Wrapped.Report.Uploads">Uppladdningar</system:String>
+    <system:String x:Key="String.Wrapped.Report.Imports">Importer</system:String>
+    <system:String x:Key="String.Wrapped.Report.TracksCount">Antal låtar</system:String>
+    <system:String x:Key="String.Wrapped.Report.MobileViews">Mobila visningar</system:String>
+    <system:String x:Key="String.Wrapped.Report.TrackOfTheYear">Årets låt</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor">Sponsor</system:String>
+    <system:String x:Key="String.Wrapped.Report.Sponsor.True">JA</system:String>
+    <system:String x:Key="String.Wrapped.Report.LyricifyIndex">Lyricify-index</system:String>
 </ResourceDictionary>
